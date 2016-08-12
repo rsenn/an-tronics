@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -74,36 +74,37 @@
 <libraries>
 <library name="2n918">
 <packages>
-<package name="TO-72">
-<pad name="1" x="0" y="2.54" drill="0.7" diameter="1.27"/>
-<pad name="3" x="0" y="0" drill="0.7" diameter="1.27"/>
-<pad name="4" x="2.54" y="0" drill="0.7" diameter="1.27"/>
-<pad name="2" x="2.54" y="2.54" drill="0.7" diameter="1.27"/>
-<circle x="1.27" y="1.27" radius="1.7907" width="0.127" layer="21"/>
-<circle x="1.27" y="1.27" radius="2.83980625" width="0.127" layer="21"/>
-<text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.5875" y1="1.5875" x2="-2.2225" y2="1.5875" width="0.127" layer="21"/>
-<wire x1="-2.2225" y1="1.5875" x2="-2.2225" y2="0.9525" width="0.127" layer="21"/>
-<wire x1="-2.2225" y1="0.9525" x2="-1.5875" y2="0.9525" width="0.127" layer="21"/>
-</package>
 <package name="TO-72-A45">
-<pad name="1" x="0" y="2.54" drill="0.7" diameter="1.27" rot="R45"/>
-<pad name="3" x="2.54" y="0" drill="0.7" diameter="1.27" rot="R45"/>
-<pad name="4" x="5.08" y="2.54" drill="0.7" diameter="1.27" rot="R45"/>
-<pad name="2" x="2.54" y="5.08" drill="0.7" diameter="1.27" rot="R45"/>
-<circle x="2.494871875" y="2.594475" radius="1.7907" width="0.127" layer="21"/>
-<circle x="2.494871875" y="2.594475" radius="2.83980625" width="0.127" layer="21"/>
-<text x="0" y="6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="0.249809375" y1="0.798425" x2="-0.199203125" y2="0.3494125" width="0.127" layer="21"/>
-<wire x1="-0.199203125" y1="0.3494125" x2="0.249809375" y2="-0.0996" width="0.127" layer="21"/>
-<wire x1="0.249809375" y1="-0.0996" x2="0.698821875" y2="0.3494125" width="0.127" layer="21"/>
-<text x="-1.27" y="1.27" size="0.6096" layer="21" font="vector">1</text>
+<pad name="1" x="0" y="-2.54" drill="0.7" diameter="1.27" rot="R45"/>
+<pad name="4" x="-2.54" y="0" drill="0.7" diameter="1.27" rot="R45"/>
+<pad name="3" x="0" y="2.54" drill="0.7" diameter="1.27" rot="R45" first="yes"/>
+<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.27" rot="R45"/>
+<circle x="0.054475" y="-0.045128125" radius="1.7907" width="0.127" layer="21"/>
+<circle x="0.054475" y="-0.045128125" radius="2.83980625" width="0.127" layer="21"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.741575" y1="-2.290190625" x2="-2.1905875" y2="-2.739203125" width="0.127" layer="21"/>
+<wire x1="-2.1905875" y1="-2.739203125" x2="-2.6396" y2="-2.290190625" width="0.127" layer="21"/>
+<wire x1="-2.6396" y1="-2.290190625" x2="-2.1905875" y2="-1.841178125" width="0.127" layer="21"/>
+<text x="-1.27" y="-3.81" size="0.6096" layer="21" font="vector">1</text>
+</package>
+<package name="TO-72">
+<pad name="1" x="1.27" y="-1.27" drill="0.7" diameter="1.27" rot="R90"/>
+<pad name="4" x="-1.27" y="-1.27" drill="0.7" diameter="1.27" rot="R90"/>
+<pad name="3" x="-1.27" y="1.27" drill="0.7" diameter="1.27" rot="R90"/>
+<pad name="2" x="1.27" y="1.27" drill="0.7" diameter="1.27" rot="R90"/>
+<circle x="0" y="0" radius="1.7907" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.83980625" width="0.127" layer="21"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="0.3175" y1="-2.8575" x2="0.3175" y2="-3.4925" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="-3.4925" x2="-0.3175" y2="-3.4925" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="-3.4925" x2="-0.3175" y2="-2.8575" width="0.127" layer="21"/>
+<text x="2.54" y="-2.54" size="0.8128" layer="48" font="vector" rot="R180">1</text>
 </package>
 </packages>
 <symbols>
-<symbol name="NPN-S">
+<symbol name="NPN">
 <wire x1="0" y1="2.54" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="-1.524" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
@@ -122,32 +123,49 @@
 <circle x="-1.27" y="0" radius="3.5921" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-1.27" x2="-0.254" y2="-2.413" width="0.1524" layer="94"/>
 <wire x1="-0.254" y1="-2.413" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2N918-S">
+<deviceset name="2N918">
 <gates>
-<gate name="G$1" symbol="NPN-S" x="0" y="0"/>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TO-72" package="TO-72">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-<connect gate="G$1" pin="S" pad="4"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-A45" package="TO-72-A45">
+<device name="TO-72-A45" package="TO-72-A45">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-<connect gate="G$1" pin="S" pad="4"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TO-72-A45-CE" package="TO-72-A45">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TO-72-CE" package="TO-72">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1 4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9074,10 +9092,10 @@ drill 1.0 mm</description>
 </class>
 </classes>
 <parts>
-<part name="T1" library="2n918" deviceset="2N918-S" device="-A45" value="2N918"/>
+<part name="T1" library="2n918" deviceset="2N918" device="TO-72-A45-CE" value="2N918"/>
 <part name="L1" library="rcl" deviceset="L-US" device="0204/7" value="1uH"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="050-024X044" value="4.7pF"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="2.2"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="025-025X050" value="4.7pF"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0204/5" value="2.2"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="050-024X044" value="1nF"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/7" value="22k"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0204/7" value="47k"/>
@@ -9158,16 +9176,11 @@ drill 1.0 mm</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="3.81" x2="76.2" y2="0" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="E"/>
-<wire x1="76.2" y1="0" x2="68.58" y2="0" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="0" x2="60.96" y2="0" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="0" x2="60.96" y2="0" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-3.81" x2="60.96" y2="0" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <junction x="60.96" y="0"/>
 <wire x1="60.96" y1="0" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="S"/>
-<wire x1="66.04" y1="7.62" x2="68.58" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="7.62" x2="68.58" y2="0" width="0.1524" layer="91"/>
-<junction x="68.58" y="0"/>
 </segment>
 </net>
 <net name="N$5" class="0">
