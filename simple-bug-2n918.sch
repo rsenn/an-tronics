@@ -75,32 +75,38 @@
 <library name="2n918">
 <packages>
 <package name="TO-72-A45">
-<pad name="1" x="0" y="-2.54" drill="0.7" diameter="1.27" rot="R45"/>
-<pad name="4" x="-2.54" y="0" drill="0.7" diameter="1.27" rot="R45"/>
-<pad name="3" x="0" y="2.54" drill="0.7" diameter="1.27" rot="R45" first="yes"/>
-<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.27" rot="R45"/>
-<circle x="0.054475" y="-0.045128125" radius="1.7907" width="0.127" layer="21"/>
+<pad name="1" x="0" y="-2.54" drill="1" diameter="1.6764" shape="octagon" rot="R45"/>
+<pad name="4" x="-2.54" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R45"/>
+<pad name="3" x="0" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R45" first="yes"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R45"/>
+<circle x="0.054475" y="-0.045128125" radius="2.286" width="0.127" layer="21"/>
 <circle x="0.054475" y="-0.045128125" radius="2.83980625" width="0.127" layer="21"/>
 <text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.741575" y1="-2.290190625" x2="-2.1905875" y2="-2.739203125" width="0.127" layer="21"/>
-<wire x1="-2.1905875" y1="-2.739203125" x2="-2.6396" y2="-2.290190625" width="0.127" layer="21"/>
-<wire x1="-2.6396" y1="-2.290190625" x2="-2.1905875" y2="-1.841178125" width="0.127" layer="21"/>
+<wire x1="-1.582825" y1="-2.448940625" x2="-2.1905875" y2="-3.056703125" width="0.127" layer="21"/>
+<wire x1="-2.1905875" y1="-3.056703125" x2="-2.9571" y2="-2.290190625" width="0.127" layer="21"/>
+<wire x1="-2.9571" y1="-2.290190625" x2="-2.3493375" y2="-1.682428125" width="0.127" layer="21"/>
 <text x="-1.27" y="-3.81" size="0.6096" layer="21" font="vector">1</text>
+<text x="0" y="-1.27" size="0.6096" layer="51" font="vector" align="bottom-center">E</text>
+<text x="0" y="1.27" size="0.6096" layer="51" font="vector" align="top-center">C</text>
+<text x="1.27" y="0" size="0.6096" layer="51" font="vector" align="center-right">B</text>
 </package>
 <package name="TO-72">
-<pad name="1" x="1.27" y="-1.27" drill="0.7" diameter="1.27" rot="R90"/>
-<pad name="4" x="-1.27" y="-1.27" drill="0.7" diameter="1.27" rot="R90"/>
-<pad name="3" x="-1.27" y="1.27" drill="0.7" diameter="1.27" rot="R90"/>
-<pad name="2" x="1.27" y="1.27" drill="0.7" diameter="1.27" rot="R90"/>
-<circle x="0" y="0" radius="1.7907" width="0.127" layer="21"/>
+<pad name="1" x="1.27" y="-1.27" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="4" x="-1.27" y="-1.27" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="3" x="-1.27" y="1.27" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="1.27" y="1.27" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
+<circle x="13.97" y="2.54" radius="1.397" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="2.83980625" width="0.127" layer="21"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="0.3175" y1="-2.8575" x2="0.3175" y2="-3.4925" width="0.127" layer="21"/>
 <wire x1="0.3175" y1="-3.4925" x2="-0.3175" y2="-3.4925" width="0.127" layer="21"/>
 <wire x1="-0.3175" y1="-3.4925" x2="-0.3175" y2="-2.8575" width="0.127" layer="21"/>
-<text x="2.54" y="-2.54" size="0.8128" layer="48" font="vector" rot="R180">1</text>
+<text x="1.905" y="-3.175" size="0.8128" layer="48" font="vector" rot="R180">1</text>
+<text x="2.54" y="-2.54" size="0.6096" layer="51" font="vector" rot="R180" align="bottom-center">E</text>
+<text x="-2.54" y="2.54" size="0.6096" layer="51" font="vector" rot="R180" align="top-center">C</text>
+<text x="2.54" y="2.54" size="0.6096" layer="51" font="vector" align="bottom-center">B</text>
 </package>
 </packages>
 <symbols>
