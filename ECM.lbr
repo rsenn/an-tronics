@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -72,26 +72,33 @@
 <library>
 <packages>
 <package name="ECM-5">
-<circle x="0" y="0" radius="2.8754" width="0.2032" layer="21"/>
-<circle x="1.9" y="0" radius="0.4279" width="0" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
+<circle x="1.392" y="1.016" radius="0.4279" width="0" layer="21"/>
 <pad name="2" x="0" y="-0.95" drill="0.7" diameter="1.2"/>
-<pad name="1" x="0" y="0.95" drill="0.7" diameter="1.2"/>
+<pad name="1" x="0" y="0.95" drill="0.7" diameter="1.2" shape="octagon"/>
 <text x="-2.4" y="3.2" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.4" y="-4.8" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="ECM">
-<wire x1="-1.27" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="1.016" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.016" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<circle x="-0.254" y="0" radius="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-0.254" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="1.016" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="1.397" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <rectangle x1="2.286" y1="-2.54" x2="2.794" y2="2.54" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-1.016" y1="0.254" x2="1.016" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="-1.016" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0.254" x2="1.016" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-0.508" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.508" x2="1.016" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-0.508" x2="-1.016" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.524" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-0.508" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
+<rectangle x1="-1.016" y1="-0.508" x2="1.016" y2="-0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -102,8 +109,8 @@
 <devices>
 <device name="" package="ECM-5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
