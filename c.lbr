@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -3367,23 +3367,28 @@
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
 <package name="E2,5-4">
-<wire x1="-1.2065" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="1.0795" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="1.27" x2="-0.8255" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="1.27" x2="-1.016" y2="1.4605" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="-1.143" x2="-0.1905" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="-0.1905" y1="-1.143" x2="-0.1905" y2="1.143" width="0.1524" layer="51"/>
-<wire x1="-0.1905" y1="1.143" x2="-0.635" y2="1.143" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="1.143" x2="-0.635" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="51"/>
+<wire x1="1.2065" y1="-1.27" x2="1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.0795" x2="1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="0.8255" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="1.016" y2="-1.4605" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0" x2="0.5842" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.5842" y1="0" x2="0.5842" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.5842" y1="0.889" x2="0.2032" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.2032" y1="0.889" x2="0.2032" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.2032" y1="-0.889" x2="0.5842" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.5842" y1="-0.889" x2="0.5842" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
-<text x="2.413" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="2.413" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.127" y1="-1.2065" x2="0.635" y2="1.2065" layer="51"/>
+<pad name="-" x="-1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon" rot="R180"/>
+<pad name="+" x="1.27" y="0" drill="0.8128" diameter="1.6002" rot="R180"/>
+<text x="-1.397" y="-1.524" size="1.016" layer="25" rot="R180">&gt;NAME</text>
+<text x="1.651" y="1.143" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-1.27" y1="0" x2="-0.5842" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.5842" y1="0" x2="-0.5842" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.5842" y1="-0.889" x2="-0.2032" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.2032" y1="-0.889" x2="-0.2032" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.2032" y1="0.889" x2="-0.5842" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.5842" y1="0.889" x2="-0.5842" y2="0" width="0.1524" layer="51"/>
+<rectangle x1="-0.508" y1="-0.8128" x2="-0.254" y2="0.8128" layer="21"/>
 </package>
 <package name="C025-020X036">
 <wire x1="0" y1="2.159" x2="0.889" y2="1.397" width="0.1524" layer="21" curve="-90"/>
@@ -3410,8 +3415,8 @@
 <wire x1="0" y1="-2.54" x2="0" y2="-0.3302" width="0.1524" layer="51"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.3048" width="0.1524" layer="51"/>
 <pad name="2" x="0" y="-2.54" drill="0.8128" shape="octagon" rot="R270"/>
-<text x="-1.27" y="1.651" size="1.27" layer="25" rot="R180">&gt;NAME</text>
-<text x="1.27" y="-1.651" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.762" y="-1.905" size="1.016" layer="25" rot="R180">&gt;NAME</text>
+<text x="0.762" y="1.905" size="1.016" layer="27">&gt;VALUE</text>
 <pad name="1" x="0" y="2.54" drill="0.8128" shape="octagon" rot="R90"/>
 <wire x1="0" y1="-2.159" x2="-0.889" y2="-1.397" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="1.397" x2="-0.889" y2="-1.397" width="0.1524" layer="21"/>
