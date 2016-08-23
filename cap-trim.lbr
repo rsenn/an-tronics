@@ -102,11 +102,10 @@
 <wire x1="1.6719125" y1="-3.134153125" x2="-1.7046625" y2="-3.134153125" width="0.254" layer="21" curve="-56.758486"/>
 <wire x1="-3.141503125" y1="-1.6973125" x2="-3.141503125" y2="1.6792625" width="0.254" layer="21" curve="-56.758486"/>
 <wire x1="3.108753125" y1="-1.6973125" x2="-1.7046625" y2="3.116103125" width="0.254" layer="21" curve="146.758486"/>
-<circle x="0" y="0" radius="3.556" width="0.254" layer="51"/>
 <circle x="0" y="0" radius="1.271" width="0.1524" layer="21"/>
-<pad name="2" x="-2.54" y="-2.54" drill="1.3" rot="R135"/>
-<pad name="1" x="2.54" y="-2.54" drill="1.3" rot="R135"/>
-<pad name="3" x="-2.54" y="2.54" drill="1.3" rot="R135"/>
+<pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
+<pad name="1" x="2.54" y="-2.54" drill="1.100021875" shape="octagon" rot="R135"/>
+<pad name="3" x="-2.54" y="2.54" drill="1" shape="octagon" rot="R135"/>
 <text x="-1.27" y="3.556" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.556" y="1.016" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-1.235575" y1="-0.313828125" x2="1.202825" y2="0.295771875" layer="21" rot="R270"/>
