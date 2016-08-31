@@ -140,57 +140,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="ECM">
-<packages>
-<package name="ECM-5">
-<circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
-<circle x="1.27" y="1.27" radius="0.4279" width="0" layer="21"/>
-<pad name="2" x="0" y="-1.27" drill="0.7" diameter="1.2"/>
-<pad name="1" x="0" y="1.27" drill="0.7" diameter="1.2" shape="octagon"/>
-<text x="-1.27" y="0" size="1.016" layer="25" rot="R90" align="center">&gt;NAME</text>
-<text x="1.918" y="-1.752" size="1.016" layer="27" align="top-left">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ECM">
-<wire x1="-1.016" y1="-0.254" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="1.016" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="1.397" width="0.1524" layer="94"/>
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<rectangle x1="2.286" y1="-2.54" x2="2.794" y2="2.54" layer="94"/>
-<pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<wire x1="-1.016" y1="0.254" x2="1.016" y2="0.254" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0.254" x2="-1.016" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="0.254" x2="1.016" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-0.508" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0" y1="-0.508" x2="1.016" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-0.508" x2="-1.016" y2="-0.254" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.524" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-0.508" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
-<rectangle x1="-1.016" y1="-0.508" x2="1.016" y2="-0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ECM-5" prefix="ECM">
-<gates>
-<gate name="1" symbol="ECM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ECM-5">
-<connects>
-<connect gate="1" pin="+" pad="1"/>
-<connect gate="1" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="cap-trim">
 <packages>
 <package name="TRIM808-45">
@@ -5580,20 +5529,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-020X036">
-<wire x1="0" y1="2.159" x2="0.889" y2="1.397" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.889" y1="-1.397" x2="0.889" y2="1.397" width="0.127" layer="21"/>
-<wire x1="0.889" y1="-1.397" x2="0" y2="-2.159" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.651" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.889" x2="0" y2="-1.651" width="0.127" layer="21" curve="-90"/>
 <pad name="2" x="0" y="-2.54" drill="0.8128" shape="octagon" rot="R270"/>
-<text x="-0.762" y="-1.905" size="1.016" layer="25" rot="R180">&gt;NAME</text>
-<text x="0.762" y="1.905" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
+<text x="1.27" y="0" size="1.016" layer="27" align="center-left">&gt;VALUE</text>
 <pad name="1" x="0" y="2.54" drill="0.8128" shape="octagon" rot="R90"/>
-<wire x1="0" y1="-2.159" x2="-0.889" y2="-1.397" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.889" y1="1.397" x2="-0.889" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="1.397" x2="0" y2="2.159" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="-1.651" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0.889" x2="0" y2="1.651" width="0.127" layer="21" curve="-90"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.381" width="0.0762" layer="51"/>
-<rectangle x1="-0.6858" y1="0.127" x2="0.6858" y2="0.381" layer="21"/>
-<rectangle x1="-0.6858" y1="-0.381" x2="0.6858" y2="-0.127" layer="21" rot="R180"/>
+<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
+<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -7460,19 +7409,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="L1" library="r" deviceset="L" device="04/7" value="1uH"/>
 <part name="C2" library="c" deviceset="C" device="050-020X036" value="4.7pF"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="1nF"/>
-<part name="R2" library="r" deviceset="R" device="0202/5" value="22k"/>
 <part name="R3" library="r" deviceset="R" device="0202/5" value="47k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+UB" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+UB" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="ECM" library="ECM" deviceset="ECM-5" device=""/>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="-45-2P23" value="C-TR-PH20127-45-2P23"/>
 <part name="R1" library="r" deviceset="R" device="0202V"/>
 <part name="C4" library="c" deviceset="CPOL" device="E2,5-3"/>
 <part name="+" library="pad" deviceset="SPAD" device=""/>
 <part name="̶̶" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
+<part name="+1" library="pad" deviceset="SPAD" device=""/>
+<part name="̶̶1" library="pad" deviceset="SPAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7486,19 +7435,19 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="C2" gate="G$1" x="48.26" y="41.91"/>
 <instance part="C3" gate="G$1" x="17.78" y="29.21"/>
-<instance part="R2" gate="G$1" x="2.54" y="53.34"/>
 <instance part="R3" gate="G$1" x="17.78" y="53.34"/>
 <instance part="GND1" gate="1" x="33.02" y="2.54"/>
 <instance part="SUPPLY1" gate="G$1" x="33.02" y="76.2"/>
 <instance part="SUPPLY2" gate="G$1" x="63.5" y="25.4"/>
 <instance part="GND3" gate="1" x="63.5" y="10.16"/>
-<instance part="ECM" gate="1" x="2.54" y="27.94" rot="R180"/>
 <instance part="C1" gate="G$1" x="48.26" y="57.15"/>
 <instance part="R1" gate="G$1" x="33.02" y="25.4"/>
 <instance part="C4" gate="G$1" x="8.89" y="40.64" rot="R90"/>
 <instance part="+" gate="1" x="55.88" y="20.32"/>
 <instance part="̶̶" gate="1" x="55.88" y="15.24"/>
 <instance part="ANT1" gate="ANT" x="63.5" y="71.12"/>
+<instance part="+1" gate="1" x="-2.54" y="40.64"/>
+<instance part="̶̶1" gate="1" x="-2.54" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -7546,31 +7495,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C4" gate="G$1" pin="-"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="40.64" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="40.64" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="ECM" gate="1" pin="-"/>
-<wire x1="2.54" y1="33.02" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
-<junction x="2.54" y="40.64"/>
-<pinref part="C4" gate="G$1" pin="+"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <wire x1="33.02" y1="20.32" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="15.24" x2="17.78" y2="24.13" width="0.1524" layer="91"/>
-<junction x="17.78" y="15.24"/>
 <wire x1="33.02" y1="15.24" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
 <junction x="33.02" y="15.24"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="2.54" y1="15.24" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="ECM" gate="1" pin="+"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="̶̶1" gate="1" pin="1"/>
+<wire x1="-2.54" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<junction x="17.78" y="15.24"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -7587,10 +7524,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="17.78" y1="58.42" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <junction x="33.02" y="66.04"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="58.42" x2="2.54" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
-<junction x="17.78" y="66.04"/>
 <wire x1="48.26" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="66.04" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="+UB"/>
@@ -7602,6 +7535,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="55.88" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="20.32" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="+" gate="1" pin="1"/>
+</segment>
+</net>
+<net name="AIN" class="0">
+<segment>
+<pinref part="+1" gate="1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="-2.54" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
