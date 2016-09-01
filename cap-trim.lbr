@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -99,16 +99,17 @@
 <hole x="0" y="0" drill="3.302"/>
 </package>
 <package name="TRIM808-45">
-<wire x1="1.6719125" y1="-3.134153125" x2="-1.7046625" y2="-3.134153125" width="0.254" layer="21" curve="-56.758486"/>
-<wire x1="-3.141503125" y1="-1.6973125" x2="-3.141503125" y2="1.6792625" width="0.254" layer="21" curve="-56.758486"/>
-<wire x1="3.108753125" y1="-1.6973125" x2="-1.7046625" y2="3.116103125" width="0.254" layer="21" curve="146.758486"/>
+<wire x1="1.6719125" y1="-3.134153125" x2="-1.7046625" y2="-3.134153125" width="0.127" layer="21" curve="-56.758486"/>
+<wire x1="-3.141503125" y1="-1.6973125" x2="-3.141503125" y2="1.6792625" width="0.127" layer="21" curve="-56.758486"/>
+<wire x1="3.108753125" y1="-1.6973125" x2="-1.7046625" y2="3.116103125" width="0.127" layer="21" curve="146.758486"/>
 <circle x="0" y="0" radius="1.271" width="0.1524" layer="21"/>
 <pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
 <pad name="1" x="2.54" y="-2.54" drill="1.100021875" shape="octagon" rot="R135"/>
 <pad name="3" x="-2.54" y="2.54" drill="1" shape="octagon" rot="R135"/>
-<text x="0" y="3.81" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="3.556" y="1.016" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.81" y="3.81" size="0.8128" layer="25">&gt;NAME</text>
+<text x="3.556" y="3.81" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 <rectangle x1="-1.235575" y1="-0.313828125" x2="1.202825" y2="0.295771875" layer="21" rot="R270"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="21"/>
 </package>
 <package name="TRIM808-NEW">
 <wire x1="-4.05993125" y1="1.72991875" x2="-4.536440625" y2="1.2534" width="0.003" layer="21"/>

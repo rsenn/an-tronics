@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -74,7 +74,6 @@
 <package name="SPAD">
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.6764" shape="octagon"/>
 <text x="1.524" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
