@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -658,8 +658,8 @@
 </device>
 <device name="-45-2P23" package="TRIM808-45">
 <connects>
-<connect gate="1" pin="A" pad="2"/>
-<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
