@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -420,6 +420,33 @@
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
 <connect gate="G$1" pin="E" pad="1 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC337">
+<gates>
+<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="CBE" package="TO92-CBE">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CBE-A" package="TO92-CBE-A">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
