@@ -764,6 +764,29 @@
 <rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
 </package>
+<package name="L-04/10">
+<pad name="2" x="0" y="-3.81" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="1" x="-2.54" y="6.35" drill="0.8" shape="octagon" rot="R180"/>
+<wire x1="0" y1="3.302" x2="-1.27" y2="4.572" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="4.572" x2="-2.54" y2="3.302" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="3.81" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="3.81" x2="-2.54" y2="2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.778" x2="-1.27" y2="3.048" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="3.048" x2="-2.54" y2="1.778" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.016" x2="-1.27" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="2.286" x2="-2.54" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.254" x2="-1.27" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="1.524" x2="-2.54" y2="0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.508" x2="-1.27" y2="0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="0.762" x2="-2.54" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="-2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<text x="-3.048" y="0.762" size="0.6096" layer="25" align="center-right">&gt;NAME</text>
+<text x="-3.048" y="-0.762" size="0.6096" layer="27" align="center-right">&gt;VALUE</text>
+<wire x1="-2.54" y1="3.302" x2="-2.54" y2="6.35" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -1085,15 +1108,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="L-SHORT">
+<deviceset name="L-SHORT" prefix="L">
 <gates>
-<gate name="G$1" symbol="L-SHORT" x="0" y="0"/>
+<gate name="1" symbol="L-SHORT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="04/7" package="L-04/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1101,8 +1124,8 @@
 </device>
 <device name="02/5" package="L-02/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1110,8 +1133,17 @@
 </device>
 <device name="02/7" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="04/10" package="L-04/10">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
