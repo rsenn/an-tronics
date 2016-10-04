@@ -73,6 +73,7 @@
 <packages>
 <package name="SPAD">
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.6764" shape="octagon"/>
+<text x="1.016" y="0" size="0.6096" layer="21" align="center-left">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
