@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -93,8 +93,8 @@
 <pad name="1" x="0" y="3.556" drill="1.3208" rot="R270"/>
 <pad name="3" x="0" y="-3.556" drill="1.3208" rot="R270"/>
 <pad name="2" x="-3.556" y="0" drill="1.3208" rot="R270"/>
-<text x="-3.937" y="4.445" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.318" y="-6.223" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.937" y="4.445" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.318" y="-6.223" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="-0.254" x2="1.27" y2="0.254" layer="21" rot="R270"/>
 <hole x="0" y="0" drill="3.302"/>
 </package>
@@ -104,9 +104,9 @@
 <wire x1="3.108753125" y1="-1.6973125" x2="-1.7046625" y2="3.116103125" width="0.127" layer="21" curve="146.758486"/>
 <circle x="0" y="0" radius="1.271" width="0.1524" layer="21"/>
 <pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
-<pad name="1" x="2.54" y="-2.54" drill="1.100021875" shape="octagon" rot="R135"/>
+<pad name="1" x="2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
 <pad name="3" x="-2.54" y="2.54" drill="1" shape="octagon" rot="R135"/>
-<text x="-3.81" y="3.81" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-3.81" y="3.81" size="1.016" layer="25">&gt;NAME</text>
 <text x="3.556" y="3.81" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 <rectangle x1="-1.235575" y1="-0.313828125" x2="1.202825" y2="0.295771875" layer="21" rot="R270"/>
 <circle x="0" y="0" radius="2.794" width="0.127" layer="21"/>
@@ -178,8 +178,8 @@
 <pad name="1" x="0" y="3.556" drill="1.2" rot="R270"/>
 <pad name="3" x="0" y="-3.556" drill="1.2" rot="R270"/>
 <pad name="2" x="-3.556" y="0" drill="1.2" diameter="1.6764" rot="R270"/>
-<text x="-3.937" y="4.445" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.318" y="-6.223" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.937" y="4.445" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.318" y="-6.223" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="TRIM808-GFX">
 <wire x1="-0.97038125" y1="-3.23335625" x2="-0.984171875" y2="-3.127978125" width="0.0508" layer="21"/>
@@ -569,7 +569,7 @@
 <pad name="3" x="2.54" y="-2.54" drill="1.1" shape="octagon"/>
 <circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
-<text x="0" y="2.54" size="0.8128" layer="25" align="top-center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="25" align="top-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
 <package name="TRIM-2222-808-45">
@@ -608,8 +608,8 @@
 <wire x1="-3.048" y1="-2.032" x2="-3.048" y2="0.254" width="0.1524" layer="94"/>
 <wire x1="-3.048" y1="0.254" x2="-3.302" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="-3.048" y1="0.254" x2="-2.794" y2="-0.508" width="0.1524" layer="94"/>
-<text x="-3.175" y="2.54" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-3.175" y="-2.54" size="1.778" layer="96" align="top-right">&gt;VALUE</text>
+<text x="-3.175" y="2.54" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-3.175" y="-2.54" size="0.8128" layer="96" align="top-right">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
 <rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
 <pin name="E" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
