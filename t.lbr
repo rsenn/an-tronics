@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -208,7 +208,7 @@
 <text x="1.016" y="0" size="0.6096" layer="25" ratio="10" align="center">&gt;NAME</text>
 <text x="-0.8255" y="0" size="0.6096" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>
-<package name="TO-72">
+<package name="TO72">
 <pad name="1" x="1.27" y="-1.27" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
 <pad name="4" x="-1.27" y="-1.27" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
 <pad name="3" x="-1.27" y="1.27" drill="1" diameter="1.6764" shape="octagon" rot="R90"/>
@@ -225,7 +225,7 @@
 <text x="1.016" y="1.016" size="0.6096" layer="51" align="top-right">B</text>
 <text x="-1.016" y="-1.016" size="0.6096" layer="51">S</text>
 </package>
-<package name="TO-72-A45">
+<package name="TO72-A45">
 <pad name="1" x="0" y="-2.54" drill="1" diameter="1.6764" shape="octagon" rot="R45"/>
 <pad name="4" x="-2.54" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R45"/>
 <pad name="3" x="0" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R45" first="yes"/>
@@ -387,7 +387,7 @@
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="TO-72" package="TO-72">
+<device name="TO-72" package="TO72">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -397,7 +397,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="TO-72-A45" package="TO-72-A45">
+<device name="TO-72-A45" package="TO72-A45">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -407,7 +407,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="TO-72-A45-CE" package="TO-72-A45">
+<device name="TO-72-A45-CE" package="TO72-A45">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -417,7 +417,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="TO-72-CE" package="TO-72">
+<device name="TO-72-CE" package="TO72">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
