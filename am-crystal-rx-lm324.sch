@@ -5047,8 +5047,8 @@
 <library name="pad">
 <packages>
 <package name="SPAD">
-<pad name="1" x="0" y="0" drill="0.7" diameter="1.6764" shape="octagon"/>
-<text x="1.016" y="0" size="0.6096" layer="21" align="center-left">&gt;NAME</text>
+<pad name="1" x="0" y="0" drill="1" diameter="1.9304"/>
+<text x="-1.143" y="0" size="0.8128" layer="21" font="vector" ratio="9" distance="5" rot="SR270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -5378,7 +5378,7 @@
 <pad name="2" x="0" y="0" drill="1.1176" diameter="1.524" shape="octagon" rot="R270" stop="no"/>
 <pad name="3" x="-2.54" y="0" drill="1.1176" diameter="1.524" shape="octagon" rot="R270" stop="no"/>
 <wire x1="0.254" y1="3.556" x2="0.254" y2="1.524" width="0.1524" layer="21"/>
-<text x="5.08" y="-1.778" size="1.016" layer="25" rot="SR270" align="center-right">&gt;NAME</text>
+<text x="-4.318" y="1.778" size="1.016" layer="25">&gt;NAME</text>
 <wire x1="-4.318" y1="-1.524" x2="4.318" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="-4.318" y1="1.524" x2="4.318" y2="1.524" width="0.1524" layer="21"/>
 </package>
@@ -5559,7 +5559,7 @@
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="d" deviceset="OA79" device="18/V" value="OA79"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="1.5pF"/>
-<part name="ANT1" library="pad" deviceset="ANT" device=""/>
+<part name="ANT" library="pad" deviceset="ANT" device=""/>
 <part name="C4" library="c" deviceset="C" device="050-024X044/V" value="330pF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="r" deviceset="TRIM" device="" value="100k"/>
@@ -5580,9 +5580,9 @@
 <part name="SP+" library="pad" deviceset="SPAD" device="" value="SPKR+"/>
 <part name="SP-" library="pad" deviceset="SPAD" device="" value="SPKR-"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="BAT+" library="pad" deviceset="SPAD" device="" value="BAT+"/>
+<part name="+9V" library="pad" deviceset="SPAD" device="" value="BAT+"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="BAT-" library="pad" deviceset="SPAD" device="" value="BAT-"/>
+<part name="GND" library="pad" deviceset="SPAD" device="" value="BAT-"/>
 <part name="IC2" library="ic" deviceset="LM324" device="N" value="LM324"/>
 </parts>
 <sheets>
@@ -5600,7 +5600,7 @@
 <attribute name="VALUE" x="30.48" y="31.115" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="C3" gate="1" x="7.62" y="43.18"/>
-<instance part="ANT1" gate="ANT" x="7.62" y="50.8"/>
+<instance part="ANT" gate="ANT" x="7.62" y="50.8"/>
 <instance part="C4" gate="1" x="38.1" y="24.13"/>
 <instance part="GND2" gate="1" x="38.1" y="12.7"/>
 <instance part="R2" gate="1" x="71.12" y="22.86"/>
@@ -5630,9 +5630,9 @@
 <instance part="SP+" gate="G$1" x="132.08" y="30.48" rot="R180"/>
 <instance part="SP-" gate="G$1" x="132.08" y="22.86" rot="R180"/>
 <instance part="GND7" gate="1" x="129.54" y="15.24"/>
-<instance part="BAT+" gate="G$1" x="88.9" y="50.8" rot="R180"/>
+<instance part="+9V" gate="G$1" x="88.9" y="50.8" rot="R180"/>
 <instance part="GND8" gate="1" x="81.28" y="40.64"/>
-<instance part="BAT-" gate="G$1" x="88.9" y="45.72" rot="R180"/>
+<instance part="GND" gate="G$1" x="88.9" y="45.72" rot="R180"/>
 <instance part="IC2" gate="B" x="60.96" y="30.48" smashed="yes">
 <attribute name="NAME" x="53.34" y="38.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="22.86" size="1.778" layer="96" align="top-left"/>
@@ -5700,7 +5700,7 @@
 <wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BAT-" gate="G$1" pin="P$1"/>
+<pinref part="GND" gate="G$1" pin="P$1"/>
 <wire x1="88.9" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
@@ -5729,7 +5729,7 @@
 <net name="N$6" class="0">
 <segment>
 <pinref part="C3" gate="1" pin="1"/>
-<pinref part="ANT1" gate="ANT" pin="1"/>
+<pinref part="ANT" gate="ANT" pin="1"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5847,7 +5847,7 @@
 <net name="N$15" class="0">
 <segment>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="BAT+" gate="G$1" pin="P$1"/>
+<pinref part="+9V" gate="G$1" pin="P$1"/>
 <wire x1="86.36" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="1" pin="O"/>
