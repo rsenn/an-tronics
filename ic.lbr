@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -293,6 +293,76 @@
 <pin name="CV" x="-10.16" y="-5.08" length="short" direction="in"/>
 <pin name="THR" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
 <pin name="DIS" x="10.16" y="0" length="short" direction="in" rot="R180"/>
+</symbol>
+<symbol name="8038">
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="10.16" x2="0" y2="8.89" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="8.89" x2="1.27" y2="10.16" width="0.254" layer="94" curve="90"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="SINE_ADJ" x="-10.16" y="7.62" visible="pad" length="short"/>
+<pin name="SINE_OUT" x="-10.16" y="5.08" visible="pad" length="short"/>
+<pin name="TRI_OUT" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="DUTY_1" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="DUTY_2" x="-10.16" y="-2.54" visible="pad" length="short"/>
+<pin name="V+" x="-10.16" y="-5.08" visible="pad" length="short"/>
+<pin name="FM_BIAS" x="-10.16" y="-7.62" visible="pad" length="short"/>
+<pin name="FM_SWEEP" x="10.16" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="SQR_OUT" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="TIMING_CAP" x="10.16" y="-2.54" visible="pad" length="short" rot="R180"/>
+<pin name="V-" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="SINE_ADJ_2" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="NC_1" x="10.16" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="NC_2" x="10.16" y="7.62" visible="pad" length="short" rot="R180"/>
+<text x="-7.62" y="11.43" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-11.43" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-6.35" y="7.62" size="0.6096" layer="97" align="center-left">SINE ADJ</text>
+<text x="-6.35" y="5.08" size="0.6096" layer="97" align="center-left">SINE OUT</text>
+<text x="-6.35" y="2.54" size="0.6096" layer="97" align="center-left">TRI OUT</text>
+<text x="-6.35" y="-1.27" size="0.6096" layer="97" align="center-left">DTY CYC</text>
+<text x="-6.35" y="-5.08" size="0.6096" layer="97" align="center-left">V+</text>
+<text x="-6.35" y="-7.62" size="0.6096" layer="97" align="center-left">FM BIAS</text>
+<text x="6.35" y="2.54" size="0.6096" layer="97" align="center-right">SINE ADJ</text>
+<text x="6.35" y="0" size="0.6096" layer="97" align="center-right">V-</text>
+<text x="6.35" y="-2.54" size="0.6096" layer="97" align="center-right">TIMING CAP</text>
+<text x="6.35" y="-5.08" size="0.6096" layer="97" align="center-right">SQUARE OUT</text>
+<text x="6.35" y="-7.62" size="0.6096" layer="97" align="center-right">FM SWEEP</text>
+</symbol>
+<symbol name="8038-2">
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="17.78" x2="0" y2="16.51" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="16.51" x2="1.27" y2="17.78" width="0.254" layer="94" curve="90"/>
+<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<pin name="SINE_ADJ" x="-12.7" y="15.24" visible="pad" length="short"/>
+<pin name="SINE_OUT" x="-12.7" y="10.16" visible="pad" length="short"/>
+<pin name="TRI_OUT" x="-12.7" y="5.08" visible="pad" length="short"/>
+<pin name="DUTY_1" x="-12.7" y="0" visible="pad" length="short"/>
+<pin name="DUTY_2" x="-12.7" y="-5.08" visible="pad" length="short"/>
+<pin name="V+" x="-12.7" y="-10.16" visible="pad" length="short"/>
+<pin name="FM_BIAS" x="-12.7" y="-15.24" visible="pad" length="short"/>
+<pin name="FM_SWEEP" x="12.7" y="-15.24" visible="pad" length="short" rot="R180"/>
+<pin name="SQR_OUT" x="12.7" y="-10.16" visible="pad" length="short" rot="R180"/>
+<pin name="TIMING_CAP" x="12.7" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="V-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="SINE_ADJ_2" x="12.7" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="NC_1" x="12.7" y="10.16" visible="pad" length="short" rot="R180"/>
+<pin name="NC_2" x="12.7" y="15.24" visible="pad" length="short" rot="R180"/>
+<text x="-10.16" y="19.05" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-19.05" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-8.89" y="15.24" size="1.27" layer="97" align="center-left">SINE ADJ</text>
+<text x="-8.89" y="10.16" size="1.27" layer="97" align="center-left">SINE OUT</text>
+<text x="-8.89" y="5.08" size="1.27" layer="97" align="center-left">TRI OUT</text>
+<text x="-8.89" y="-1.27" size="1.27" layer="97" align="center-left">DTY CYC</text>
+<text x="-8.89" y="-10.16" size="1.27" layer="97" align="center-left">V+</text>
+<text x="-8.89" y="-15.24" size="1.27" layer="97" align="center-left">FM BIAS</text>
+<text x="8.89" y="5.08" size="1.27" layer="97" align="center-right">SINE ADJ</text>
+<text x="8.89" y="0" size="1.27" layer="97" align="center-right">V-</text>
+<text x="8.89" y="-5.08" size="1.27" layer="97" align="center-right">TIMING CAP</text>
+<text x="8.89" y="-10.16" size="1.27" layer="97" align="center-right">SQUARE OUT</text>
+<text x="8.89" y="-15.24" size="1.27" layer="97" align="center-right">FM SWEEP</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1057,6 +1127,34 @@
 <technology name="NE"/>
 <technology name="SE"/>
 <technology name="UA"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ICL8038">
+<gates>
+<gate name="1" symbol="8038-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL14">
+<connects>
+<connect gate="1" pin="DUTY_1" pad="4"/>
+<connect gate="1" pin="DUTY_2" pad="5"/>
+<connect gate="1" pin="FM_BIAS" pad="7"/>
+<connect gate="1" pin="FM_SWEEP" pad="8"/>
+<connect gate="1" pin="NC_1" pad="13"/>
+<connect gate="1" pin="NC_2" pad="14"/>
+<connect gate="1" pin="SINE_ADJ" pad="1"/>
+<connect gate="1" pin="SINE_ADJ_2" pad="12"/>
+<connect gate="1" pin="SINE_OUT" pad="2"/>
+<connect gate="1" pin="SQR_OUT" pad="9"/>
+<connect gate="1" pin="TIMING_CAP" pad="10"/>
+<connect gate="1" pin="TRI_OUT" pad="3"/>
+<connect gate="1" pin="V+" pad="6"/>
+<connect gate="1" pin="V-" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

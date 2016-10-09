@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2548,7 +2548,7 @@
 <symbols>
 <symbol name="C">
 <text x="-2.286" y="1.651" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-2.286" y="-1.651" size="0.8128" layer="96" align="top-right">&gt;VALUE</text>
+<text x="-2.286" y="-1.651" size="1.016" layer="96" align="top-right">&gt;VALUE</text>
 <pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
