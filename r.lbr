@@ -609,27 +609,27 @@
 <circle x="0" y="0.762" radius="0.508" width="0.0508" layer="51"/>
 </package>
 <package name="L-04/7V">
-<pad name="2" x="2.54" y="-5.08" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="2.54" drill="0.8" rot="R180"/>
-<wire x1="2.54" y1="1.778" x2="1.27" y2="3.048" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="3.048" x2="0" y2="1.778" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="1.016" x2="1.27" y2="2.286" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.286" x2="0" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.254" x2="1.27" y2="1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.524" x2="0" y2="0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-0.508" x2="1.27" y2="0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.762" x2="0" y2="-0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.032" x2="1.27" y2="-0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.762" x2="0" y2="-2.032" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.794" x2="1.27" y2="-1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.524" x2="0" y2="-2.794" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.794" x2="1.27" y2="-4.064" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.794" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="0" y1="1.778" x2="0" y2="2.54" width="0.127" layer="21"/>
-<text x="-0.508" y="-0.508" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="-0.508" y="-2.032" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
+<pad name="2" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
+<pad name="1" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
+<wire x1="1.27" y1="1.778" x2="0" y2="3.048" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.048" x2="-1.27" y2="1.778" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-2.032" x2="0" y2="-0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.762" x2="-1.27" y2="-2.032" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-2.794" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.524" x2="-1.27" y2="-2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="-2.794" x2="0" y2="-4.064" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-2.794" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.778" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="-1.016" y="-4.318" size="1.016" layer="25" align="center-right">&gt;NAME</text>
+<text x="-1.016" y="-5.588" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
 </package>
 <package name="L-03/7V">
 <pad name="2" x="2.54" y="-5.08" drill="0.8" rot="R180"/>
@@ -993,8 +993,8 @@
 <wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
 <wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
-<text x="-1.27" y="5.08" size="1.016" layer="95" rot="R180">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="0.8128" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.08" size="1.27" layer="95" rot="R180">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.27" layer="96" align="bottom-right">&gt;VALUE</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>

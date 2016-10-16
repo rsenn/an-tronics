@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -565,7 +565,7 @@
 <circle x="-3.881025" y="-1.805128125" radius="0.254" width="0.127" layer="21"/>
 <circle x="-1.798715625" y="-3.901440625" radius="0.254" width="0.127" layer="21"/>
 <pad name="1" x="-2.54" y="2.54" drill="1.1" shape="octagon"/>
-<pad name="2" x="2.54" y="2.54" drill="1.1" shape="octagon"/>
+<pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon"/>
 <pad name="3" x="2.54" y="-2.54" drill="1.1" shape="octagon"/>
 <circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
@@ -608,8 +608,8 @@
 <wire x1="-3.048" y1="-2.032" x2="-3.048" y2="0.254" width="0.1524" layer="94"/>
 <wire x1="-3.048" y1="0.254" x2="-3.302" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="-3.048" y1="0.254" x2="-2.794" y2="-0.508" width="0.1524" layer="94"/>
-<text x="-3.175" y="2.54" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-3.175" y="-2.54" size="0.8128" layer="96" align="top-right">&gt;VALUE</text>
+<text x="-3.175" y="2.54" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
 <rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
 <pin name="E" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
@@ -696,8 +696,8 @@
 </device>
 <device name="" package="TRIM-2222-808">
 <connects>
-<connect gate="1" pin="A" pad="1 3"/>
-<connect gate="1" pin="E" pad="2"/>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="1 3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -705,8 +705,8 @@
 </device>
 <device name="2222-808-2PIN" package="TRIM-2222-808">
 <connects>
-<connect gate="1" pin="A" pad="1"/>
-<connect gate="1" pin="E" pad="2"/>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -714,8 +714,8 @@
 </device>
 <device name="2222-808-2PINB" package="TRIM-2222-808">
 <connects>
-<connect gate="1" pin="A" pad="3"/>
-<connect gate="1" pin="E" pad="2"/>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
