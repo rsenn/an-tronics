@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -881,10 +881,25 @@
 <pad name="E" x="-2.54" y="0" drill="0.7" shape="long" rot="R90"/>
 <pad name="S" x="0" y="0" drill="0.7" shape="long" rot="R90"/>
 <text x="-3.175" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.54" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="1.905" y="-2.54" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <text x="2.54" y="1.27" size="0.6096" layer="51" align="bottom-center">1</text>
 <text x="-2.54" y="1.27" size="0.6096" layer="51" align="bottom-center">3</text>
 <text x="0" y="1.27" size="0.6096" layer="51" align="bottom-center">2</text>
+<wire x1="-0.995" y1="-6.136" x2="-0.995" y2="-9.636" width="0.2032" layer="21"/>
+<wire x1="0.995" y1="-9.636" x2="0.995" y2="-6.136" width="0.2032" layer="21"/>
+<wire x1="-1.495" y1="-2.276" x2="-1.495" y2="-5.836" width="0.2032" layer="21"/>
+<wire x1="-1.495" y1="-5.836" x2="-0.995" y2="-6.136" width="0.2032" layer="21"/>
+<wire x1="0.995" y1="-6.136" x2="1.495" y2="-5.836" width="0.2032" layer="21"/>
+<wire x1="1.495" y1="-5.836" x2="1.495" y2="-2.276" width="0.2032" layer="21"/>
+<wire x1="-0.995" y1="-6.136" x2="0.995" y2="-6.136" width="0.2032" layer="21"/>
+<wire x1="-0.995" y1="-9.636" x2="0.995" y2="-9.636" width="0.2032" layer="21"/>
+<wire x1="-1.395" y1="-5.501" x2="1.395" y2="-4.976" width="0.2032" layer="21"/>
+<wire x1="-1.395" y1="-5.001" x2="1.395" y2="-4.476" width="0.2032" layer="21"/>
+<wire x1="-1.395" y1="-4.501" x2="1.395" y2="-3.976" width="0.2032" layer="21"/>
+<wire x1="-1.395" y1="-4.001" x2="1.395" y2="-3.476" width="0.2032" layer="21"/>
+<wire x1="-1.395" y1="-3.501" x2="1.395" y2="-2.976" width="0.2032" layer="21"/>
+<wire x1="-1.395" y1="-3.001" x2="1.395" y2="-2.476" width="0.2032" layer="21"/>
+<wire x1="-1.17" y1="-5.961" x2="1.395" y2="-5.436" width="0.2032" layer="21"/>
 </package>
 <package name="POT-STEREO">
 <wire x1="-4.54" y1="-4.97" x2="4.54" y2="-4.97" width="0.2032" layer="21"/>
