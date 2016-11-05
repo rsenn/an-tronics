@@ -72,7 +72,7 @@
 <library>
 <packages>
 <package name="SPAD">
-<pad name="1" x="0" y="0" drill="1" diameter="1.9304"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.778" stop="no"/>
 <text x="-1.143" y="0" size="0.6096" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
@@ -168,6 +168,18 @@
 <deviceset name="-12V" prefix="P-">
 <gates>
 <gate name="1" symbol="-12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPORT" prefix="P">
+<gates>
+<gate name="G$1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
