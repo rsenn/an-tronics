@@ -13,9 +13,14 @@
 	[
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -40,7 +45,7 @@
 	},
 	"expanded_folders":
 	[
-		"/mnt/win7/Users/roman/Documents/fmbug"
+		"/home/roman/Documents/fmbug"
 	],
 	"file_history":
 	[
@@ -244,6 +249,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "fmbug.sublime-project",
 	"replace":
 	{
@@ -253,6 +259,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -261,6 +268,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -269,6 +277,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],

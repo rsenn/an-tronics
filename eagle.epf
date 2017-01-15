@@ -23,7 +23,7 @@ UsedLibrary="ic.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="573 185 1758 883"
+Loc="640 62 1868 817"
 State=2
 Number=0
 
