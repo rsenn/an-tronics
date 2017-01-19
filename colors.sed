@@ -1,9 +1,12 @@
-/pagecolor="/ s,#ffffff,#000000,g
+s,pagecolor="#ffffff",pagecolor="#000000",gi
 
-/fill:/ s,:#008000,:#ff8020,g
-/fill:/ s,:#505050,:#c0c0c0,g
-/fill:/ s,:#ffffff,:#000000,g
-/stroke:/ s,:#000000,:#e0e0e0,g
-/stroke:/ s,:#000080,:#40ff20,g
-/stroke:/ s,:#008000,:#ff8020,g
-/stroke:/ s,:#505050,:#c0c0c0,g
+s,fill:#008000,fill:#ff8020,g
+s,fill:#505050,fill:#c0c0c0,g
+s,fill:#000000,fill:#808080,g
+s,fill:#ffffff,fill:#000000,g
+s,:#e0e0e0,:#000000,g
+s,stroke:#000000,stroke:#808080,g
+s,stroke:#000080,stroke:#40ff20,g
+s,stroke:#008000,stroke:#ff8020,g
+s,stroke:#505050,stroke:#c0c0c0,g
+s,stroke:#ffffff,stroke:#000000,g
