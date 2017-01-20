@@ -13,7 +13,7 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="sch.svg">
+   sodipodi:docname="FM Super-Regen Schematic.svg">
   <metadata
      id="metadata555">
     <rdf:RDF>
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,9 +41,9 @@
      inkscape:window-height="881"
      id="namedview551"
      showgrid="false"
-     inkscape:zoom="0.78220813"
-     inkscape:cx="119.72914"
-     inkscape:cy="258.55831"
+     inkscape:zoom="1.2267325"
+     inkscape:cx="353.35707"
+     inkscape:cy="153.7277"
      inkscape:window-x="1875"
      inkscape:window-y="32"
      inkscape:window-maximized="0"
