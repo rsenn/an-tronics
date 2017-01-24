@@ -3990,6 +3990,30 @@
 <wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-1.27" x2="-1.016" y2="-1.27" width="0.127" layer="21"/>
 </package>
+<package name="L-02/7V">
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
+<wire x1="0.6985" y1="2.0955" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.794" x2="-0.635" y2="2.0955" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="1.524" x2="0" y2="2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.2225" x2="-0.635" y2="1.4605" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="0.889" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.651" x2="-0.635" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-2.2225" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.524" x2="-0.635" y2="-2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-2.2225" x2="-0.0635" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.7305" x2="0.6985" y2="-2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.7305" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="2.794" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="0.254" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.9525" x2="-0.635" y2="0.1905" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-0.381" x2="0" y2="0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.381" x2="-0.635" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.016" x2="0" y2="-0.3175" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.3175" x2="-0.635" y2="-1.0795" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.651" x2="0" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.889" x2="-0.635" y2="-1.651" width="0.127" layer="21" curve="90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -4293,6 +4317,15 @@
 </technologies>
 </device>
 <device name="04-5/5" package="L-04-5/5">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="02/7V" package="L-02/7V">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -5113,7 +5146,7 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
 </class>
 </classes>
 <parts>
@@ -5121,9 +5154,9 @@
 <part name="R1" library="r" deviceset="R" device="0202/7" value="10k"/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="" value="22p"/>
-<part name="L1" library="r" deviceset="L-SHORT" device="02/5" value="5"/>
+<part name="L1" library="r" deviceset="L-SHORT" device="02/7V" value="5"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="10p"/>
-<part name="L2" library="r" deviceset="L-SHORT" device="02/5" value="0.33uH"/>
+<part name="L2" library="r" deviceset="L-SHORT" device="02/7V" value="0.33uH"/>
 <part name="R3" library="r" deviceset="R" device="0202/7-V" value="10k"/>
 <part name="R4" library="r" deviceset="R" device="0202/7" value="10k"/>
 <part name="C4" library="c" deviceset="C" device="050-025X075" value="10n"/>
