@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1063,14 +1063,14 @@
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
 <symbol name="L-SHORT">
-<wire x1="0" y1="-3.81" x2="-1.27" y2="-2.54" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="-2.54" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="2.54" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="3.81" x2="-1.27" y2="2.54" width="0.254" layer="94" curve="90"/>
-<text x="-1.905" y="2.54" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="0.8128" layer="96" align="top-right">&gt;VALUE</text>
+<wire x1="0" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<text x="2.54" y="-2.54" size="1.27" layer="95" rot="R180" align="bottom-right">&gt;NAME</text>
+<text x="2.54" y="2.54" size="1.27" layer="96" rot="R180" align="top-right">&gt;VALUE</text>
 <pin name="2" x="0" y="5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="1" x="0" y="-5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="0" y1="5.08" x2="0" y2="3.81" width="0.254" layer="94"/>
