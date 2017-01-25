@@ -218,8 +218,8 @@ begin
   h_minmax[:min_y] =  0
   
   instances.each do |inst|
-    x = (inst[:x] / 50.8).to_f.round(1)
-    y = (inst[:y] / 50.8).to_f.round(1)
+    x = (inst[:x] / 50.8).round(1)
+    y = (inst[:y] / 50.8).round(1)
     o = Hash.new
 
     if /^S[0-9]/.match inst[:part] then next end
@@ -238,6 +238,8 @@ begin
   }
   
   move_objs.each do |m|
+    m[:x] = sprintf("%0.1f", m[:x]+0.01)
+    m[:y] = sprintf("%0.1f", m[:y]+0.01)
 	move_cmds.push "MOVE #{m[:name]} (#{m[:x]} #{m[:y]}); "
   end
   puts move_cmds.join("; ")
