@@ -1024,6 +1024,32 @@
 <wire x1="2.032" y1="1.3335" x2="1.27" y2="1.3335" width="0.127" layer="21"/>
 <pad name="T" x="2.54" y="1.27" drill="0.8"/>
 </package>
+<package name="L-02/7V-TAP1">
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
+<wire x1="0.6985" y1="1.8415" x2="0" y2="2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.54" x2="-0.635" y2="1.8415" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="1.27" x2="0" y2="1.9685" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.9685" x2="-0.635" y2="1.2065" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="0.635" x2="0" y2="1.397" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.397" x2="-0.635" y2="0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-2.4765" x2="0" y2="-1.778" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.778" x2="-0.635" y2="-2.4765" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-2.4765" x2="-0.0635" y2="-2.4765" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.9845" x2="0.6985" y2="-2.4765" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.9845" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="0" x2="0" y2="0.6985" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.6985" x2="-0.635" y2="-0.0635" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-0.635" x2="0" y2="0.127" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.127" x2="-0.635" y2="-0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.27" x2="0" y2="-0.5715" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.5715" x2="-0.635" y2="-1.3335" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.905" x2="0" y2="-1.143" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.143" x2="-0.635" y2="-1.905" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<pad name="3" x="2.54" y="1.27" drill="0.8" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -1684,6 +1710,16 @@
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="T" pad="T"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="02/7V-TAP1" package="L-02/7V-TAP1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="T" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

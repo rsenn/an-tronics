@@ -1,0 +1,15 @@
+"Part";"Value";"Device";"Package";"Description";"";
+"9V";"SPAD";"SPAD";"SPAD";"";"";
+"ANT";"ANT";"ANT";"SPAD";"";"";
+"AOUT";"SPAD";"SPAD";"SPAD";"";"";
+"C1";"1n";"C025-015X024";"C025-015X024";"CAPACITOR, European symbol";"";
+"C2";"15p";"C025-015X024";"C025-015X024";"CAPACITOR, European symbol";"";
+"C3";"15-120p";"C-TR-PH20127";"TRIM-2222-808";"";"";
+"C4";"47p";"C050-020X036";"C050-020X036";"CAPACITOR, European symbol";"";
+"C5";"4.7n";"C050-020X036";"C050-020X036";"CAPACITOR, European symbol";"";
+"C6";"100n";"C050-024X044";"C050-024X044";"CAPACITOR, European symbol";"";
+"L1";"";"L-TAP102/7V-TAP1";"L-02/7V-TAP1";"";"";
+"L2";"L02/10";"L02/10";"L-03/10V";"";"";
+"Q1";"BF245B";"BF245B";"TO92";"Transistors";"";
+"R1";"1k";"POT";"POT";"";"";
+"R2";"10k";"R0204/10";"0204/10";"RESISTOR, European symbol";"";
