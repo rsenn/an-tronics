@@ -71,6 +71,9 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>Super-Regen FM Radio
+
+http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <libraries>
 <library name="t">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;

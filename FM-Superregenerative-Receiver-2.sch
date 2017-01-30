@@ -71,6 +71,11 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>Elektor FM Broadcast Super-Regenerative Receiver
+Burkhard Kainka's super-regenerative FM receiver from Elektor September 2007.
+
+http://www.vk2zay.net/article/195
+http://siva666siva.webs.com/FM.PDF</description>
 <libraries>
 <library name="c">
 <description>&lt;b&gt;Capacitors&lt;/b&gt;&lt;p&gt;

@@ -71,6 +71,9 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>A Superregen Receiver for FM broadcast or Aircraft band AM reception
+
+http://www.ke3ij.com/superrgn.htm</description>
 <libraries>
 <library name="c">
 <description>&lt;b&gt;Capacitors&lt;/b&gt;&lt;p&gt;
