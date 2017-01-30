@@ -7,20 +7,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="r.lbr"
-UsedLibrary="2n918.lbr"
-UsedLibrary="ECM.lbr"
-UsedLibrary="c.lbr"
-UsedLibrary="cap-trim.lbr"
-UsedLibrary="coil.lbr"
-UsedLibrary="d.lbr"
-UsedLibrary="mc1496.lbr"
-UsedLibrary="pad.lbr"
-UsedLibrary="pinconn.lbr"
-UsedLibrary="sw.lbr"
-UsedLibrary="t.lbr"
-UsedLibrary="ic.lbr"
-UsedLibrary="l.lbr"
 
 [Win_1]
 Type="Library Editor"
@@ -67,27 +53,10 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=21
-Package="L-02/7V"
 
 [Win_2]
-Type="Text Editor"
-Loc="-4 -23 495 476"
-State=2
-Number=4
-File="Low-Frequency_LC_Oscillator.svg"
-CursorPos="0 0"
-Font="Courier,11,-1,5,50,0,0,0,0,0"
-
-[Win_3]
-Type="CAM Processor"
-Loc="-4 -23 595 419"
-State=2
-Number=5
-File="AM-Crystal-RX-LM324.sch"
-
-[Win_4]
 Type="Control Panel"
-Loc="683 308 2069 904"
+Loc="533 308 1919 904"
 State=2
 Number=0
 
@@ -95,5 +64,3 @@ Number=0
 Screen="3200 1080"
 Window="Win_1"
 Window="Win_2"
-Window="Win_3"
-Window="Win_4"
