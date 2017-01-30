@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="dots" multiple="4" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1105,6 +1105,29 @@
 <text x="-3.81" y="-5.461" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-3.048" layer="51"/>
 </package>
+<package name="L-08/7V-TAP1">
+<pad name="T" x="5.08" y="2.54" drill="1.2" diameter="1.9304" rot="R180"/>
+<text x="-7.62" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-7.62" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="0" y1="-2.73" x2="-4" y2="-6.73" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.73" x2="4" y2="-6.73" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="-0.73" x2="-4" y2="-4.73" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.73" x2="4" y2="-4.73" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="1.27" x2="-4" y2="-2.73" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.27" x2="4" y2="-2.73" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="3.27" x2="-4" y2="-0.73" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.27" x2="4" y2="-0.73" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="5.27" x2="-4" y2="1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="5.27" x2="4" y2="1.27" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="7.27" x2="-4" y2="3.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="7.27" x2="4" y2="3.27" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="9.27" x2="4" y2="5.27" width="0.127" layer="22" curve="-90"/>
+<pad name="1" x="0" y="10.16" drill="1.2" diameter="1.9304" rot="R180"/>
+<pad name="2" x="0" y="-10.16" drill="1.2" diameter="1.9304" rot="R180"/>
+<wire x1="4" y1="-6.73" x2="0" y2="-10.73" width="0.127" layer="22" curve="-90"/>
+<wire x1="5.08" y1="2.54" x2="4" y2="3.27" width="0.127" layer="21"/>
+<wire x1="0" y1="10.16" x2="0" y2="9.27" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -1130,18 +1153,18 @@
 <text x="-3.81" y="-3.302" size="0.8128" layer="96" ratio="10">&gt;VALUE</text>
 </symbol>
 <symbol name="L">
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
-<text x="-1.27" y="5.08" size="1.27" layer="95" rot="R180">&gt;NAME</text>
-<text x="-1.27" y="-5.08" size="1.27" layer="96" align="bottom-right">&gt;VALUE</text>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<text x="0" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="L-SHORT">
 <wire x1="0" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94" curve="90"/>
@@ -1785,6 +1808,16 @@
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="T" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="08/7V-TAP1" package="L-08/7V-TAP1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="T" pad="T"/>
 </connects>
 <technologies>
 <technology name=""/>
