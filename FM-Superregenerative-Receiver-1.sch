@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5177,7 +5177,7 @@
 <part name="C1" library="c" deviceset="C" device="050-025X075" value="10n"/>
 <part name="R1" library="r" deviceset="R" device="0202/7" value="10k"/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="L1" library="r" deviceset="L-SHORT" device="02/7V" value=""/>
+<part name="L1" library="r" deviceset="L-SHORT" device="02/7V" value="5"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="10p"/>
 <part name="L2" library="r" deviceset="L-SHORT" device="02/7V" value="0.33uH"/>
 <part name="R3" library="r" deviceset="R" device="0202/7-V" value="10k"/>
@@ -5200,12 +5200,8 @@
 <sheets>
 <sheet>
 <plain>
-<text x="27.94" y="60.96" size="1.27" layer="97" font="fixed" align="top-left">d = 0.8mm,
-diameter 8mm,
-5 turns</text>
-<text x="22.86" y="20.32" size="1.27" layer="97" font="fixed" align="top-right">wound over R6,
-d = 0.2mm,
-20 turns</text>
+<text x="33.02" y="5.08" size="1.27" layer="97" font="fixed" align="top-left">L1: 5 turns 0.8mm on d=8mm</text>
+<text x="33.02" y="2.54" size="1.27" layer="97" font="fixed" align="top-left">L2: wound over R6, d=0.2mm, 20 turns</text>
 </plain>
 <instances>
 <instance part="C1" gate="1" x="5.08" y="15.24"/>
@@ -5393,10 +5389,4 @@ d = 0.2mm,
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
