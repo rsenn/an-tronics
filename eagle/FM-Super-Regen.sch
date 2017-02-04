@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<description>Super-Regen FM Radio
+<description>Super-Regen FM Radio: "Radio Shack Special"
 
 http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <libraries>
@@ -3040,32 +3040,6 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <text x="-1.905" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.905" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-02/7V">
-<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
-<wire x1="0.6985" y1="2.0955" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.794" x2="-0.635" y2="2.0955" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="1.524" x2="0" y2="2.2225" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.2225" x2="-0.635" y2="1.4605" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="0.889" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.651" x2="-0.635" y2="0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-2.2225" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-1.524" x2="-0.635" y2="-2.2225" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-2.2225" x2="-0.0635" y2="-2.2225" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.7305" x2="0.6985" y2="-2.2225" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.7305" x2="0" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0" y1="3.81" x2="0" y2="2.794" width="0.127" layer="21"/>
-<wire x1="0.6985" y1="0.254" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.9525" x2="-0.635" y2="0.1905" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-0.381" x2="0" y2="0.381" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.381" x2="-0.635" y2="-0.381" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-1.016" x2="0" y2="-0.3175" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-0.3175" x2="-0.635" y2="-1.0795" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-1.651" x2="0" y2="-0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-0.889" x2="-0.635" y2="-1.651" width="0.127" layer="21" curve="90"/>
-<text x="-1.27" y="1.27" size="1.27" layer="21" align="bottom-right">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="1.27" layer="21" align="top-right">&gt;VALUE</text>
-</package>
 <package name="L-04/7V">
 <pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
@@ -3147,10 +3121,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-3.97414375" y1="-3.197390625" x2="-3.551053125" y2="-3.165609375" width="0.001" layer="21"/>
 <wire x1="-3.551053125" y1="-3.165609375" x2="-3.249284375" y2="-2.91715" width="0.001" layer="21"/>
 <wire x1="-3.249284375" y1="-2.91715" x2="-3.135821875" y2="-2.54293125" width="0.001" layer="21"/>
-<wire x1="-6.977021875" y1="5.324653125" x2="7.1200875" y2="5.324653125" width="0.001" layer="21"/>
-<wire x1="7.1200875" y1="5.324653125" x2="7.1200875" y2="-5.27525625" width="0.001" layer="21"/>
-<wire x1="7.1200875" y1="-5.27525625" x2="-6.977021875" y2="-5.27525625" width="0.001" layer="21"/>
-<wire x1="-6.977021875" y1="-5.27525625" x2="-6.977021875" y2="5.324653125" width="0.001" layer="21"/>
+<wire x1="-5.334" y1="4.064" x2="5.334" y2="4.064" width="0.001" layer="21"/>
+<wire x1="5.334" y1="4.064" x2="5.334" y2="-4.064" width="0.001" layer="21"/>
+<wire x1="5.334" y1="-4.064" x2="-5.334" y2="-4.064" width="0.001" layer="21"/>
+<wire x1="-5.334" y1="-4.064" x2="-5.334" y2="4.064" width="0.001" layer="21"/>
 <wire x1="3.44346875" y1="0.025721875" x2="3.187496875" y2="1.31619375" width="0.001" layer="21"/>
 <wire x1="3.187496875" y1="1.31619375" x2="2.45511875" y2="2.408453125" width="0.001" layer="21"/>
 <wire x1="2.45511875" y1="2.408453125" x2="1.362859375" y2="3.14083125" width="0.001" layer="21"/>
@@ -3217,6 +3191,32 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <pad name="3" x="-3.81" y="-2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 <pad name="1" x="-3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 <pad name="2" x="3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
+</package>
+<package name="L-02/7V">
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
+<wire x1="0.6985" y1="2.0955" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.794" x2="-0.635" y2="2.0955" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="1.524" x2="0" y2="2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.2225" x2="-0.635" y2="1.4605" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="0.889" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.651" x2="-0.635" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-2.2225" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.524" x2="-0.635" y2="-2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-2.2225" x2="-0.0635" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.7305" x2="0.6985" y2="-2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.7305" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="2.794" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="0.254" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.9525" x2="-0.635" y2="0.1905" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-0.381" x2="0" y2="0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.381" x2="-0.635" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.016" x2="0" y2="-0.3175" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.3175" x2="-0.635" y2="-1.0795" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.651" x2="0" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.889" x2="-0.635" y2="-1.651" width="0.127" layer="21" curve="90"/>
+<text x="-1.27" y="1.27" size="1.016" layer="21" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="0.8128" layer="21" align="top-right">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3381,7 +3381,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="-BODY" package="L-BODY">
 <connects>
-<connect gate="G$1" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
 <technologies>

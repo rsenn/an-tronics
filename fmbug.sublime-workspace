@@ -21,6 +21,14 @@
 			}
 		},
 		{
+			"file": "dxfimp.scr",
+			"settings":
+			{
+				"buffer_size": 4153,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/I/PortableApps/SublimeTextPortable/App/64-bit/Data/Packages/BeautifyRuby/Default (Windows).sublime-keymap",
 			"settings":
 			{
@@ -62,8 +70,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/roman/Documents/fmbug",
-		"/C/Users/roman/Documents/fmbug/scripts"
+		"/C/Users/roman/Documents/fmbug"
 	],
 	"file_history":
 	[
@@ -227,7 +234,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -352,11 +359,43 @@
 						"translation.y": 3015.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "dxfimp.scr",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "/I/PortableApps/SublimeTextPortable/App/64-bit/Data/Packages/BeautifyRuby/Default (Windows).sublime-keymap",
 					"semi_transient": false,
 					"settings":
@@ -474,7 +513,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
