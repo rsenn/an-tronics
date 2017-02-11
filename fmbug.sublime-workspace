@@ -382,6 +382,8 @@
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
 							"remote_loading": false,
 							"synced": false,
