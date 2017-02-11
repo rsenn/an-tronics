@@ -52,7 +52,7 @@ dump_eagle_script() {
   CR=$'\r'
   BS="\\"
   push() {
-	eval 'shift;'$1'="${'$1':+$'$1'
+  eval 'shift;'$1'="${'$1':+$'$1'
   }$*"'
   }
 
@@ -109,11 +109,11 @@ dump_eagle_script() {
       "") clear_state ;;
       
       "Edit '"*)
-	  
-	  
-	  
+    
+    
+    
         if [ "$LIST" != true -a "$HEADER_DONE" != true ]; then
-        #echo "$HEADER"
+       echo "HEADER ${HEADER//$'\n'/$'\nHEADER '}"
          msg "$(IFS="$NL"; count $LAYERS) layers"
         fi
         
@@ -123,7 +123,7 @@ dump_eagle_script() {
         
         if match_name "$NAME" || match_name "$LINE"; then
           MATCH_COND=true
-                  		dbg "EDIT[$LINENUM]: $LINE"
+                      dbg "EDIT[$LINENUM]: $LINE"
 
         else
           MATCH_COND=false
@@ -137,7 +137,7 @@ dump_eagle_script() {
       "Layer "*) 
         set -- ${LINE%%";"*}; shift
         LAYER="$*"
-        #	  dbg "LAYER[$LINENUM]: $LAYER"
+        #    dbg "LAYER[$LINENUM]: $LAYER"
 
         
         if exclude_layers "$LAYER"; then
