@@ -121,7 +121,9 @@ CR=''
     case "$LINE" in
       "")
       
+      if match_name "$NAME"; then
       output_item
+      fi
       
        clear_state ;;
       "Edit '"*)
