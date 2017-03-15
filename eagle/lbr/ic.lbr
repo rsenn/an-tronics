@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="dots" multiple="2" display="yes" altdistance="10" altunitdist="mil" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -365,6 +365,26 @@
 <text x="8.89" y="-5.08" size="1.27" layer="97" align="center-right">TIMING CAP</text>
 <text x="8.89" y="-10.16" size="1.27" layer="97" align="center-right">SQUARE OUT</text>
 <text x="8.89" y="-15.24" size="1.27" layer="97" align="center-right">FM SWEEP</text>
+</symbol>
+<symbol name="ICL8038">
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<pin name="S_ADJ1" x="-17.78" y="0" length="short"/>
+<pin name="SINE" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="TRIANGLE" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="D_ADJ1" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="D_ADJ2" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="V+" x="0" y="12.7" length="short" rot="R270"/>
+<pin name="FM_BIAS" x="-17.78" y="5.08" length="short"/>
+<pin name="SWEEP" x="-17.78" y="7.62" length="short"/>
+<pin name="SQUARE" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="CAP" x="-17.78" y="-7.62" length="short"/>
+<pin name="V-" x="0" y="-12.7" length="short" rot="R90"/>
+<pin name="S_ADJ2" x="-17.78" y="-2.54" length="short"/>
+<text x="-15.24" y="11.43" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-11.43" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1133,7 +1153,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ICL8038">
+<deviceset name="8038">
 <gates>
 <gate name="1" symbol="8038-2" x="0" y="0"/>
 </gates>
@@ -1154,6 +1174,32 @@
 <connect gate="1" pin="TRI_OUT" pad="3"/>
 <connect gate="1" pin="V+" pad="6"/>
 <connect gate="1" pin="V-" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ICL8038" prefix="IC">
+<gates>
+<gate name="G$1" symbol="ICL8038" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL14">
+<connects>
+<connect gate="G$1" pin="CAP" pad="10"/>
+<connect gate="G$1" pin="D_ADJ1" pad="4"/>
+<connect gate="G$1" pin="D_ADJ2" pad="5"/>
+<connect gate="G$1" pin="FM_BIAS" pad="7"/>
+<connect gate="G$1" pin="SINE" pad="2"/>
+<connect gate="G$1" pin="SQUARE" pad="9"/>
+<connect gate="G$1" pin="SWEEP" pad="8"/>
+<connect gate="G$1" pin="S_ADJ1" pad="1"/>
+<connect gate="G$1" pin="S_ADJ2" pad="12"/>
+<connect gate="G$1" pin="TRIANGLE" pad="3"/>
+<connect gate="G$1" pin="V+" pad="6"/>
+<connect gate="G$1" pin="V-" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
