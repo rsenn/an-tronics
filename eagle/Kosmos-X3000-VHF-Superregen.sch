@@ -160,149 +160,6 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="L-02/5V">
-<pad name="2" x="0" y="-2.54" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="2.54" drill="0.8" rot="R180"/>
-<wire x1="0.4445" y1="1.0795" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.524" x2="-0.508" y2="1.0795" width="0.127" layer="21" curve="90"/>
-<wire x1="0.4445" y1="0.508" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.9525" x2="-0.508" y2="0.4445" width="0.127" layer="21" curve="90"/>
-<wire x1="0.4445" y1="-0.127" x2="0" y2="0.381" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.381" x2="-0.508" y2="-0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="0.4445" y1="-0.6985" x2="0" y2="-0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-0.254" x2="-0.508" y2="-0.6985" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.508" y1="-0.6985" x2="0" y2="-0.6985" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.143" x2="0.4445" y2="-0.6985" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-1.143" x2="0" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.127" layer="21"/>
-<text x="-1.905" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.905" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-</package>
-<package name="L-04-5/7V">
-<pad name="2" x="3.81" y="-3.81" drill="0.8" rot="R180"/>
-<pad name="1" x="-1.27" y="3.81" drill="0.8" rot="R180"/>
-<wire x1="2.54" y1="2.413" x2="1.27" y2="3.683" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="3.683" x2="0" y2="2.413" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="1.651" x2="1.27" y2="2.921" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.921" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.889" x2="1.27" y2="2.159" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.159" x2="0" y2="0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.127" x2="1.27" y2="1.397" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.397" x2="0" y2="0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-0.635" x2="1.27" y2="0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-1.397" x2="1.27" y2="-0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.127" x2="0" y2="-1.397" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.159" x2="1.27" y2="-0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.889" x2="0" y2="-2.159" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.159" x2="1.27" y2="-3.429" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.159" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0" y1="2.413" x2="0" y2="3.81" width="0.127" layer="21"/>
-<text x="-0.508" y="0.762" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-0.508" y="-0.762" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
-</package>
-<package name="L-04-5/5V">
-<pad name="2" x="2.54" y="-2.54" drill="0.8" rot="R180"/>
-<pad name="1" x="-2.54" y="2.54" drill="0.8" rot="R180"/>
-<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<text x="-1.778" y="0.635" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.778" y="-0.635" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
-</package>
-<package name="L-04-5/5">
-<pad name="2" x="2.54" y="2.54" drill="0.8" rot="R270"/>
-<pad name="1" x="-2.54" y="-2.54" drill="0.8" rot="R270"/>
-<wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0" x2="-1.016" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.254" y1="1.27" x2="-1.524" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.524" y1="0" x2="-0.254" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="0.508" y1="1.27" x2="-0.762" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.762" y1="0" x2="0.508" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
-<text x="0" y="1.651" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.27" x2="-1.016" y2="-1.27" width="0.127" layer="21"/>
-</package>
-<package name="L-02/7V">
-<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
-<wire x1="0.6985" y1="2.0955" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.794" x2="-0.635" y2="2.0955" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="1.524" x2="0" y2="2.2225" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.2225" x2="-0.635" y2="1.4605" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="0.889" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.651" x2="-0.635" y2="0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-2.2225" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-1.524" x2="-0.635" y2="-2.2225" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-2.2225" x2="-0.0635" y2="-2.2225" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.7305" x2="0.6985" y2="-2.2225" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.7305" x2="0" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0" y1="3.81" x2="0" y2="2.794" width="0.127" layer="21"/>
-<wire x1="0.6985" y1="0.254" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.9525" x2="-0.635" y2="0.1905" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-0.381" x2="0" y2="0.381" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.381" x2="-0.635" y2="-0.381" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-1.016" x2="0" y2="-0.3175" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-0.3175" x2="-0.635" y2="-1.0795" width="0.127" layer="21" curve="90"/>
-<wire x1="0.6985" y1="-1.651" x2="0" y2="-0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-0.889" x2="-0.635" y2="-1.651" width="0.127" layer="21" curve="90"/>
-<text x="-1.27" y="1.27" size="1.016" layer="21" align="bottom-right">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="0.8128" layer="21" align="top-right">&gt;VALUE</text>
-</package>
-<package name="L-03/10">
-<pad name="2" x="-5.08" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="5.08" y="0" drill="0.8" rot="R90"/>
-<wire x1="0.762" y1="1.27" x2="2.032" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.508" y1="1.27" x2="0.762" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.778" y1="1.27" x2="-0.508" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.032" y1="1.27" x2="3.302" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.762" y1="-1.27" x2="2.032" y2="0" width="0.127" layer="22" curve="90"/>
-<wire x1="-0.508" y1="-1.27" x2="0.762" y2="0" width="0.127" layer="22" curve="90"/>
-<wire x1="-1.778" y1="-1.27" x2="-0.508" y2="0" width="0.127" layer="22" curve="90"/>
-<wire x1="2.032" y1="-1.27" x2="3.302" y2="0" width="0.127" layer="22" curve="90"/>
-<wire x1="-3.048" y1="0" x2="-1.778" y2="-1.27" width="0.127" layer="22" curve="90"/>
-<wire x1="-1.778" y1="1.27" x2="-1.778" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.048" y1="0" x2="-5.08" y2="0" width="0.127" layer="21"/>
-<wire x1="5.08" y1="0" x2="3.556" y2="0" width="0.127" layer="21"/>
-<text x="0" y="1.905" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="L-03/10V">
-<pad name="2" x="0" y="-5.08" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="5.08" drill="0.8" rot="R180"/>
-<wire x1="-1.27" y1="0.762" x2="0" y2="2.032" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-1.778" x2="0" y2="-0.508" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="2.032" x2="0" y2="3.302" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.27" y1="0.762" x2="0" y2="2.032" width="0.127" layer="22" curve="90"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="22" curve="90"/>
-<wire x1="1.27" y1="-1.778" x2="0" y2="-0.508" width="0.127" layer="22" curve="90"/>
-<wire x1="1.27" y1="2.032" x2="0" y2="3.302" width="0.127" layer="22" curve="90"/>
-<wire x1="0" y1="-3.048" x2="1.27" y2="-1.778" width="0.127" layer="22" curve="90"/>
-<wire x1="-1.27" y1="-1.778" x2="0" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.048" x2="0" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.127" layer="21"/>
-<text x="-2.54" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-2.54" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-</package>
 <package name="L-04/7-M">
 <pad name="2" x="0" y="-3.81" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
@@ -352,7 +209,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-1.27" y1="-3.556" x2="0" y2="-4.826" width="0.127" layer="21" curve="90"/>
 <wire x1="1.27" y1="-3.556" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="1.016" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="-1.016" y="-5.08" size="1.016" layer="25" align="center-right">&gt;NAME</text>
+<text x="-1.016" y="-5.08" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
 <text x="-1.016" y="-6.35" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
 </package>
 <package name="L-BODY">
@@ -437,25 +294,6 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <pad name="1" x="-3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 <pad name="2" x="3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 </package>
-<package name="L-04-5/5V-X">
-<pad name="2" x="-2.54" y="-2.54" drill="0.8"/>
-<pad name="1" x="2.54" y="2.54" drill="0.8"/>
-<wire x1="-1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="2.286" x2="1.27" y2="1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="1.524" x2="1.27" y2="0.254" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="0.762" x2="1.27" y2="-0.508" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<text x="2.032" y="0.635" size="1.016" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
-<text x="2.032" y="-1.905" size="0.8128" layer="27" rot="R180" align="top-right">&gt;VALUE</text>
-<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
-</package>
 <package name="L-04/7">
 <pad name="1" x="3.81" y="0" drill="0.8" rot="R270"/>
 <pad name="2" x="-3.81" y="0" drill="0.8" rot="R270"/>
@@ -478,6 +316,136 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <text x="0" y="2.032" size="0.8128" layer="25" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
 </package>
+<package name="L-02/5V">
+<pad name="2" x="0" y="-2.54" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="2.54" drill="0.8" rot="R180"/>
+<wire x1="0.4445" y1="1.0795" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.524" x2="-0.508" y2="1.0795" width="0.127" layer="21" curve="90"/>
+<wire x1="0.4445" y1="0.508" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.9525" x2="-0.508" y2="0.4445" width="0.127" layer="21" curve="90"/>
+<wire x1="0.4445" y1="-0.127" x2="0" y2="0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.381" x2="-0.508" y2="-0.127" width="0.127" layer="21" curve="90"/>
+<wire x1="0.4445" y1="-0.6985" x2="0" y2="-0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.254" x2="-0.508" y2="-0.6985" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.508" y1="-0.6985" x2="0" y2="-0.6985" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.143" x2="0.4445" y2="-0.6985" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.143" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.127" layer="21"/>
+<text x="-1.905" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.905" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+</package>
+<package name="L-03/10V">
+<pad name="2" x="0" y="-5.08" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="5.08" drill="0.8" rot="R180"/>
+<wire x1="-1.27" y1="0.762" x2="0" y2="2.032" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.778" x2="0" y2="-0.508" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="2.032" x2="0" y2="3.302" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="0.762" x2="0" y2="2.032" width="0.127" layer="22" curve="90"/>
+<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="22" curve="90"/>
+<wire x1="1.27" y1="-1.778" x2="0" y2="-0.508" width="0.127" layer="22" curve="90"/>
+<wire x1="1.27" y1="2.032" x2="0" y2="3.302" width="0.127" layer="22" curve="90"/>
+<wire x1="0" y1="-3.048" x2="1.27" y2="-1.778" width="0.127" layer="22" curve="90"/>
+<wire x1="-1.27" y1="-1.778" x2="0" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.048" x2="0" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+</package>
+<package name="L-02/7V">
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
+<wire x1="0.6985" y1="2.0955" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.794" x2="-0.635" y2="2.0955" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="1.524" x2="0" y2="2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.2225" x2="-0.635" y2="1.4605" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="0.889" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.651" x2="-0.635" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-2.2225" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.524" x2="-0.635" y2="-2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-2.2225" x2="-0.0635" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.7305" x2="0.6985" y2="-2.2225" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.7305" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="2.794" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="0.254" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.9525" x2="-0.635" y2="0.1905" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-0.381" x2="0" y2="0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.381" x2="-0.635" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.016" x2="0" y2="-0.3175" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.3175" x2="-0.635" y2="-1.0795" width="0.127" layer="21" curve="90"/>
+<wire x1="0.6985" y1="-1.651" x2="0" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.889" x2="-0.635" y2="-1.651" width="0.127" layer="21" curve="90"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="21" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="0.8128" layer="21" align="top-right">&gt;VALUE</text>
+</package>
+<package name="L-03/10">
+<pad name="2" x="-5.08" y="0" drill="0.8" rot="R90"/>
+<pad name="1" x="5.08" y="0" drill="0.8" rot="R90"/>
+<wire x1="0.762" y1="1.27" x2="2.032" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.508" y1="1.27" x2="0.762" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="1.27" x2="-0.508" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.032" y1="1.27" x2="3.302" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.762" y1="-1.27" x2="2.032" y2="0" width="0.127" layer="22" curve="90"/>
+<wire x1="-0.508" y1="-1.27" x2="0.762" y2="0" width="0.127" layer="22" curve="90"/>
+<wire x1="-1.778" y1="-1.27" x2="-0.508" y2="0" width="0.127" layer="22" curve="90"/>
+<wire x1="2.032" y1="-1.27" x2="3.302" y2="0" width="0.127" layer="22" curve="90"/>
+<wire x1="-3.048" y1="0" x2="-1.778" y2="-1.27" width="0.127" layer="22" curve="90"/>
+<wire x1="-1.778" y1="1.27" x2="-1.778" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="0" x2="-5.08" y2="0" width="0.127" layer="21"/>
+<wire x1="5.08" y1="0" x2="3.556" y2="0" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="L-04-5/5V-X">
+<pad name="2" x="-1.27" y="-2.54" drill="0.8"/>
+<pad name="1" x="1.27" y="2.54" drill="0.8"/>
+<wire x1="-1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.286" x2="1.27" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.524" x2="1.27" y2="0.254" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0.762" x2="1.27" y2="-0.508" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="2.032" y="0.635" size="0.8128" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
+<text x="2.032" y="-1.905" size="0.8128" layer="27" rot="R180" align="top-right">&gt;VALUE</text>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="L-04-5/5V">
+<pad name="2" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
+<pad name="1" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
+<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="-1.778" y="0.635" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.778" y="-0.635" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="L-04-5/5">
+<pad name="2" x="2.54" y="1.27" drill="0.8" rot="R270"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.8" rot="R270"/>
+<wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.286" y1="0" x2="-1.016" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.254" y1="1.27" x2="-1.524" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.524" y1="0" x2="-0.254" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0.508" y1="1.27" x2="-0.762" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.762" y1="0" x2="0.508" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<text x="0" y="1.651" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 <package name="L-04/10V">
 <pad name="2" x="1.27" y="-6.35" drill="0.8"/>
 <pad name="1" x="1.27" y="6.35" drill="0.8"/>
@@ -490,7 +458,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0" y1="-3.81" x2="1.27" y2="-2.54" width="0.127" layer="22" curve="-90"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-3.81" width="0.127" layer="22" curve="-90"/>
 <wire x1="2.54" y1="-3.81" x2="1.27" y2="-5.08" width="0.127" layer="22" curve="-90"/>
-<text x="-1.778" y="0.762" size="1.016" layer="25" align="center-right">&gt;NAME</text>
+<text x="-1.778" y="0.762" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
 <text x="-1.778" y="-0.762" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
 <wire x1="1.27" y1="4.572" x2="1.27" y2="6.35" width="0.127" layer="22"/>
 <wire x1="0" y1="0.762" x2="1.27" y2="2.032" width="0.127" layer="22" curve="-90"/>
@@ -506,6 +474,54 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0" y1="1.524" x2="1.27" y2="2.794" width="0.127" layer="22" curve="-90"/>
 <wire x1="1.27" y1="2.794" x2="2.54" y2="1.524" width="0.127" layer="22" curve="-90"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
+</package>
+<package name="L-04-5/7V">
+<pad name="2" x="3.81" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="1" x="-1.27" y="3.81" drill="0.8" rot="R180"/>
+<wire x1="2.54" y1="2.413" x2="1.27" y2="3.683" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="3.683" x2="0" y2="2.413" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="1.651" x2="1.27" y2="2.921" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="2.921" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="0.889" x2="1.27" y2="2.159" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="2.159" x2="0" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="0.127" x2="1.27" y2="1.397" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.397" x2="0" y2="0.127" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="-0.635" x2="1.27" y2="0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="-1.397" x2="1.27" y2="-0.127" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.127" x2="0" y2="-1.397" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="-2.159" x2="1.27" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.889" x2="0" y2="-2.159" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.159" x2="1.27" y2="-3.429" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="-2.159" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="2.413" x2="0" y2="3.81" width="0.127" layer="21"/>
+<text x="-0.508" y="0.762" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-0.508" y="-0.762" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
+</package>
+<package name="L-04/7V-X">
+<pad name="1" x="-1.27" y="-3.81" drill="0.8"/>
+<pad name="2" x="1.27" y="3.81" drill="0.8"/>
+<wire x1="-1.27" y1="2.286" x2="0" y2="3.556" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="3.556" x2="1.27" y2="2.286" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="1.524" x2="0" y2="2.794" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.794" x2="1.27" y2="1.524" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="0.762" x2="0" y2="2.032" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.032" x2="1.27" y2="0.762" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="0" x2="0" y2="1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.762" x2="0" y2="0.508" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0.508" x2="1.27" y2="-0.762" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.524" x2="0" y2="-0.254" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="-0.254" x2="1.27" y2="-1.524" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-2.286" x2="0" y2="-1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="-1.016" x2="1.27" y2="-2.286" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="-2.286" x2="0" y2="-3.556" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-2.286" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<text x="1.016" y="-3.81" size="0.8128" layer="25" align="center-left">&gt;NAME</text>
+<text x="1.016" y="-5.08" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -635,6 +651,15 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </technologies>
 </device>
 <device name="L-04/7V" package="L-04/7V">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04/7V-X" package="L-04/7V-X">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -5543,13 +5568,13 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </classes>
 <parts>
 <part name="Q1" library="t" deviceset="BF256B" device=""/>
-<part name="L3" library="l" deviceset="L-SHORT" device="02/7V" value="4 turns"/>
+<part name="L3" library="l" deviceset="L-SHORT" device="04-5/5V" value="4 turns"/>
 <part name="C1" library="c" deviceset="C" device="025-015X024" value="15p"/>
 <part name="L1" library="l" deviceset="L" device="04/7" value="L04/7"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="02/5"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="04-5/5V"/>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15p"/>
 <part name="CP" library="c" deviceset="C" device="025-015X024" value="4.7n"/>
-<part name="C3" library="c" deviceset="C" device="050-020X044" value="6.8n"/>
+<part name="C3" library="c" deviceset="C" device="050-020X036" value="6.8n"/>
 <part name="R3" library="r" deviceset="R" device="0204/10" value="3.3k"/>
 <part name="R4" library="r" deviceset="R" device="0204/10" value="10k"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
@@ -5716,16 +5741,10 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="25.4" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="101.6" x2="-10.16" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-10.16" y="101.6"/>
+<wire x1="25.4" y1="102.87" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<junction x="25.4" y="101.6"/>
 <pinref part="L3" gate="L1" pin="1"/>
 <wire x1="25.4" y1="99.06" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
-<junction x="25.4" y="101.6"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="L3" gate="L1" pin="2"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="25.4" y1="88.9" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -5733,6 +5752,13 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <pinref part="+9V" gate="1" pin="P$1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="L3" gate="L1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="25.4" y1="88.9" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

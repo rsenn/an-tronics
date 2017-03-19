@@ -1033,6 +1033,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="0204/2-V" package="0204V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R" prefix="R" uservalue="yes">
@@ -5630,7 +5639,7 @@
 <part name="C2" library="c" deviceset="C" device="050-020X044" value="470n"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="T3" library="t" deviceset="2N3904" device=""/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="390k"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/7" value="390k"/>
 <part name="C3" library="c" deviceset="C" device="050-020X044" value="470n"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="R4" library="r" deviceset="R-H" device="0204/7" value="27k"/>
