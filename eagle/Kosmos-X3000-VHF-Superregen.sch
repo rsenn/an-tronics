@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -160,29 +160,6 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="L-04/7V">
-<pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
-<pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
-<wire x1="1.27" y1="1.778" x2="0" y2="3.048" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="3.048" x2="-1.27" y2="1.778" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-2.032" x2="0" y2="-0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-0.762" x2="-1.27" y2="-2.032" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-2.794" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-1.524" x2="-1.27" y2="-2.794" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.27" y1="-2.794" x2="0" y2="-4.064" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-2.794" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.778" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="-1.016" y="-4.318" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="-1.016" y="-5.588" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
-</package>
 <package name="L-02/5V">
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R180"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R180"/>
@@ -200,29 +177,6 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.127" layer="21"/>
 <text x="-1.905" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.905" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-</package>
-<package name="L-04/10V">
-<pad name="2" x="2.54" y="-5.08" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="5.08" drill="0.8" rot="R180"/>
-<wire x1="2.54" y1="2.032" x2="1.27" y2="3.302" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="3.302" x2="0" y2="2.032" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="1.27" x2="1.27" y2="2.54" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.54" x2="0" y2="1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.508" x2="1.27" y2="1.778" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.778" x2="0" y2="0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-0.254" x2="1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.016" x2="0" y2="-0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-1.016" x2="1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.254" x2="0" y2="-1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-1.778" x2="1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="-1.778" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
-<text x="-0.508" y="0.762" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="-0.508" y="-0.762" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
-<wire x1="0" y1="2.032" x2="0" y2="5.08" width="0.127" layer="21"/>
 </package>
 <package name="L-04-5/7V">
 <pad name="2" x="3.81" y="-3.81" drill="0.8" rot="R180"/>
@@ -378,6 +332,29 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <circle x="0" y="0" radius="3.8608" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="4.064" width="0.127" layer="21"/>
 </package>
+<package name="L-04/7V">
+<pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
+<pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
+<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-2.032" x2="0" y2="-0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.762" x2="-1.27" y2="-2.032" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-2.794" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.524" x2="-1.27" y2="-2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-3.556" x2="0" y2="-2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.286" x2="-1.27" y2="-3.556" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="-3.556" x2="0" y2="-4.826" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-3.556" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="-1.016" y="-5.08" size="1.016" layer="25" align="center-right">&gt;NAME</text>
+<text x="-1.016" y="-6.35" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
+</package>
 <package name="L-BODY">
 <wire x1="-3.135821875" y1="-2.54293125" x2="-3.267734375" y2="-2.14205" width="0.001" layer="21"/>
 <wire x1="-3.267734375" y1="-2.14205" x2="-3.612571875" y2="-1.89735" width="0.001" layer="21"/>
@@ -389,10 +366,10 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-3.97414375" y1="-3.197390625" x2="-3.551053125" y2="-3.165609375" width="0.001" layer="21"/>
 <wire x1="-3.551053125" y1="-3.165609375" x2="-3.249284375" y2="-2.91715" width="0.001" layer="21"/>
 <wire x1="-3.249284375" y1="-2.91715" x2="-3.135821875" y2="-2.54293125" width="0.001" layer="21"/>
-<wire x1="-6.977021875" y1="5.324653125" x2="7.1200875" y2="5.324653125" width="0.001" layer="21"/>
-<wire x1="7.1200875" y1="5.324653125" x2="7.1200875" y2="-5.27525625" width="0.001" layer="21"/>
-<wire x1="7.1200875" y1="-5.27525625" x2="-6.977021875" y2="-5.27525625" width="0.001" layer="21"/>
-<wire x1="-6.977021875" y1="-5.27525625" x2="-6.977021875" y2="5.324653125" width="0.001" layer="21"/>
+<wire x1="-5.334" y1="4.064" x2="5.334" y2="4.064" width="0.001" layer="21"/>
+<wire x1="5.334" y1="4.064" x2="5.334" y2="-4.064" width="0.001" layer="21"/>
+<wire x1="5.334" y1="-4.064" x2="-5.334" y2="-4.064" width="0.001" layer="21"/>
+<wire x1="-5.334" y1="-4.064" x2="-5.334" y2="4.064" width="0.001" layer="21"/>
 <wire x1="3.44346875" y1="0.025721875" x2="3.187496875" y2="1.31619375" width="0.001" layer="21"/>
 <wire x1="3.187496875" y1="1.31619375" x2="2.45511875" y2="2.408453125" width="0.001" layer="21"/>
 <wire x1="2.45511875" y1="2.408453125" x2="1.362859375" y2="3.14083125" width="0.001" layer="21"/>
@@ -460,6 +437,76 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <pad name="1" x="-3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 <pad name="2" x="3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 </package>
+<package name="L-04-5/5V-X">
+<pad name="2" x="-2.54" y="-2.54" drill="0.8"/>
+<pad name="1" x="2.54" y="2.54" drill="0.8"/>
+<wire x1="-1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.286" x2="1.27" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.524" x2="1.27" y2="0.254" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0.762" x2="1.27" y2="-0.508" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="2.032" y="0.635" size="1.016" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
+<text x="2.032" y="-1.905" size="0.8128" layer="27" rot="R180" align="top-right">&gt;VALUE</text>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="L-04/7">
+<pad name="1" x="3.81" y="0" drill="0.8" rot="R270"/>
+<pad name="2" x="-3.81" y="0" drill="0.8" rot="R270"/>
+<wire x1="-2.286" y1="1.27" x2="-3.556" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-3.556" y1="0" x2="-2.286" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.524" y1="1.27" x2="-2.794" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.794" y1="0" x2="-1.524" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.762" y1="1.27" x2="-2.032" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.032" y1="0" x2="-0.762" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0.762" y1="1.27" x2="-0.508" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.508" y1="0" x2="0.762" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.524" y1="1.27" x2="0.254" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="0" x2="1.524" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.27" x2="1.016" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.016" y1="0" x2="2.286" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.27" x2="3.556" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.286" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<text x="0" y="2.032" size="0.8128" layer="25" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
+</package>
+<package name="L-04/10V">
+<pad name="2" x="1.27" y="-6.35" drill="0.8"/>
+<pad name="1" x="1.27" y="6.35" drill="0.8"/>
+<wire x1="0" y1="-1.524" x2="1.27" y2="-0.254" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="-0.254" x2="2.54" y2="-1.524" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="-2.286" x2="1.27" y2="-1.016" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="-1.016" x2="2.54" y2="-2.286" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="-3.048" x2="1.27" y2="-1.778" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="-1.778" x2="2.54" y2="-3.048" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="-3.81" x2="1.27" y2="-2.54" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-3.81" width="0.127" layer="22" curve="-90"/>
+<wire x1="2.54" y1="-3.81" x2="1.27" y2="-5.08" width="0.127" layer="22" curve="-90"/>
+<text x="-1.778" y="0.762" size="1.016" layer="25" align="center-right">&gt;NAME</text>
+<text x="-1.778" y="-0.762" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
+<wire x1="1.27" y1="4.572" x2="1.27" y2="6.35" width="0.127" layer="22"/>
+<wire x1="0" y1="0.762" x2="1.27" y2="2.032" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="2.032" x2="2.54" y2="0.762" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="0" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="-0.762" x2="1.27" y2="0.508" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="0.508" x2="2.54" y2="-0.762" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="3.048" x2="1.27" y2="4.318" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="4.318" x2="2.54" y2="3.048" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="2.286" x2="1.27" y2="3.556" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="3.556" x2="2.54" y2="2.286" width="0.127" layer="22" curve="-90"/>
+<wire x1="0" y1="1.524" x2="1.27" y2="2.794" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="2.794" x2="2.54" y2="1.524" width="0.127" layer="22" curve="-90"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L-SHORT">
@@ -469,8 +516,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94" curve="90"/>
 <wire x1="0" y1="3.81" x2="1.27" y2="2.54" width="0.254" layer="94" curve="-90"/>
-<text x="2.54" y="-2.54" size="1.27" layer="95" rot="R180" align="bottom-right">&gt;NAME</text>
-<text x="2.54" y="2.54" size="1.27" layer="96" rot="R180" align="top-right">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
 <pin name="2" x="0" y="5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="1" x="0" y="-5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="0" y1="5.08" x2="0" y2="3.81" width="0.254" layer="94"/>
@@ -492,15 +539,15 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="L-SHORT" prefix="L">
+<deviceset name="L-SHORT" prefix="L" uservalue="yes">
 <gates>
-<gate name="1" symbol="L-SHORT" x="0" y="0"/>
+<gate name="L1" symbol="L-SHORT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="04/7" package="L-04/7V">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -508,8 +555,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="02/5" package="L-02/5V">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -517,8 +564,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="04/10" package="L-04/10V">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -526,8 +573,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="04-5/7" package="L-04-5/7V">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -535,8 +582,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="04-5/5V" package="L-04-5/5V">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -544,8 +591,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="04-5/5" package="L-04-5/5">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -553,8 +600,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="02/7V" package="L-02/7V">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -562,8 +609,35 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="03/10" package="L-03/10">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04-5/5V-X" package="L-04-5/5V-X">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04/7" package="L-04/7">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04/7V" package="L-04/7V">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -644,8 +718,44 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="-BODY" package="L-BODY">
 <connects>
-<connect gate="G$1" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04-5/5V-X" package="L-04-5/5V-X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04-5/5V" package="L-04-5/5V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04-5/5" package="L-04-5/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-04/7" package="L-04/7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5433,10 +5543,10 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </classes>
 <parts>
 <part name="Q1" library="t" deviceset="BF256B" device=""/>
-<part name="L3" library="l" deviceset="L-SHORT" device="02/7V" value=""/>
+<part name="L3" library="l" deviceset="L-SHORT" device="02/7V" value="4 turns"/>
 <part name="C1" library="c" deviceset="C" device="025-015X024" value="15p"/>
-<part name="L1" library="l" deviceset="L" device="02/7" value="L02/7"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="02/5" value=""/>
+<part name="L1" library="l" deviceset="L" device="04/7" value="L04/7"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="02/5"/>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15p"/>
 <part name="CP" library="c" deviceset="C" device="025-015X024" value="4.7n"/>
 <part name="C3" library="c" deviceset="C" device="050-020X044" value="6.8n"/>
@@ -5460,16 +5570,13 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="25.4" y="81.28"/>
-<instance part="L3" gate="1" x="25.4" y="93.98" rot="R180"/>
+<instance part="L3" gate="L1" x="25.4" y="93.98" rot="R180"/>
 <instance part="C1" gate="1" x="-10.16" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="-10.16" y="53.34" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="-10.16" y="48.26" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="L1" gate="G$1" x="-5.08" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="-7.62" y="71.12" size="1.27" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="-7.62" y="66.04" size="1.27" layer="96" rot="R270" align="top-center"/>
-</instance>
-<instance part="L2" gate="1" x="0" y="43.18" rot="R180"/>
+<instance part="L1" gate="G$1" x="-5.08" y="66.04" rot="R90"/>
+<instance part="L2" gate="L1" x="0" y="43.18" rot="R180"/>
 <instance part="C2" gate="1" x="5.08" y="66.04" smashed="yes">
 <attribute name="NAME" x="7.62" y="68.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="7.62" y="63.5" size="1.27" layer="96" align="top-left"/>
@@ -5504,7 +5611,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="L2" gate="1" pin="2"/>
+<pinref part="L2" gate="L1" pin="2"/>
 <pinref part="S1" gate="1" pin="GND"/>
 <wire x1="0" y1="38.1" x2="0" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -5561,33 +5668,33 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <segment>
 <pinref part="C2" gate="1" pin="E"/>
 <wire x1="5.08" y1="68.58" x2="5.08" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="0" y1="76.2" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="76.2" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="0" y1="76.2" x2="0" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="0" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
 <junction x="0" y="76.2"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="76.2" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="55.88" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C2" gate="1" pin="A"/>
 <wire x1="5.08" y1="63.5" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="CP" gate="1" pin="2"/>
 <wire x1="0" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="L2" gate="1" pin="1"/>
+<pinref part="L2" gate="L1" pin="1"/>
 <wire x1="-7.62" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="0" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="91"/>
 <junction x="0" y="50.8"/>
 <pinref part="C1" gate="1" pin="1"/>
 <wire x1="0" y1="55.88" x2="0" y2="50.8" width="0.1524" layer="91"/>
 <junction x="0" y="55.88"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="58.42" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5609,14 +5716,14 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="25.4" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="101.6" x2="-10.16" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-10.16" y="101.6"/>
-<pinref part="L3" gate="1" pin="1"/>
+<pinref part="L3" gate="L1" pin="1"/>
 <wire x1="25.4" y1="99.06" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
 <junction x="25.4" y="101.6"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="L3" gate="1" pin="2"/>
+<pinref part="L3" gate="L1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="25.4" y1="88.9" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
