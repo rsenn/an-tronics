@@ -4392,7 +4392,7 @@
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="T2" library="t" deviceset="BC557" device="CBE" value="BC557"/>
 <part name="D1" library="d" deviceset="1N4148" device="34-2,5-A" value="1N4148"/>
-<part name="D2" library="d" deviceset="1N4148" device="34-5V" value="1N4148"/>
+<part name="D2" library="d" deviceset="1N4148" device="35-2.54" value="1N4148"/>
 <part name="T3" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="R1" library="r" deviceset="R-H" device="0204/7-V" value="100k"/>
 <part name="R2" library="r" deviceset="R-H" device="0204/7" value="330"/>
@@ -4429,9 +4429,9 @@
 <attribute name="NAME" x="12.7" y="48.26" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="43.18" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R5" gate="1" x="20.32" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.669" y="41.402" size="1.27" layer="95" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="18.415" y="34.29" size="1.27" layer="96" rot="MR0" align="top-left"/>
+<instance part="R5" gate="1" x="20.32" y="38.1" smashed="yes" rot="MR270">
+<attribute name="NAME" x="18.669" y="34.798" size="1.27" layer="95" rot="MR0" align="top-left"/>
+<attribute name="VALUE" x="18.415" y="41.91" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
 <instance part="C2" gate="G$1" x="27.94" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.94" y="40.64" size="1.27" layer="95" align="bottom-center"/>
@@ -4506,7 +4506,7 @@
 <segment>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="15.24" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R5" gate="1" pin="E"/>
+<pinref part="R5" gate="1" pin="A"/>
 <wire x1="20.32" y1="45.72" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4545,13 +4545,13 @@
 <wire x1="43.18" y1="33.02" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <junction x="68.58" y="30.48"/>
-<wire x1="5.08" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="43.18" y="30.48"/>
 <pinref part="IN" gate="+" pin="P$1"/>
 <pinref part="BAT" gate="+" pin="P$1"/>
+<wire x1="5.08" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R5" gate="1" pin="A"/>
+<pinref part="R5" gate="1" pin="E"/>
 <wire x1="20.32" y1="33.02" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="20.32" y="30.48"/>
 </segment>
