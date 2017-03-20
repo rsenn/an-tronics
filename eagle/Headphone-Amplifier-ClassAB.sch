@@ -4418,20 +4418,20 @@
 <parts>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="T2" library="t" deviceset="BC557" device="CBE" value="BC557"/>
-<part name="D1" library="d" deviceset="1N4148" device="34-2,5-A" value="1N4148"/>
-<part name="D2" library="d" deviceset="1N4148" device="35-2.54" value="1N4148"/>
+<part name="D1" library="d" deviceset="1N4148" device="34-5" value="1N4148"/>
+<part name="D2" library="d" deviceset="1N4148" device="34-5" value="1N4148"/>
 <part name="T3" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/7-V" value="100k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/7" value="330"/>
-<part name="R3" library="r" deviceset="R" device="0204/7" value="100"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/10-V" value="22"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/7" value="100k"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/7" value="330"/>
+<part name="R3" library="r" deviceset="R" device="0202/7" value="100"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/7" value="22"/>
 <part name="C1" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="R5" library="r" deviceset="POT" device="" value="100k"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-4" value="100-1000uF"/>
-<part name="C4" library="c" deviceset="CPOL" device="E5-5" value="220uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2.5-5" value="100-1000uF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E5-6" value="220uF"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device=""/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device=""/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
@@ -4476,8 +4476,8 @@
 </instance>
 <instance part="IN" gate="+" x="5.08" y="30.48"/>
 <instance part="IN" gate="-" x="5.08" y="45.72"/>
-<instance part="BAT" gate="+" x="101.6" y="30.48" rot="R180"/>
-<instance part="BAT" gate="-" x="101.6" y="86.36" rot="R180"/>
+<instance part="BAT" gate="+" x="101.6" y="86.36" rot="R180"/>
+<instance part="BAT" gate="-" x="101.6" y="30.48" rot="R180"/>
 <instance part="U$1" gate="G$1" x="99.06" y="91.44"/>
 <instance part="HDPH" gate="+" x="101.6" y="55.88" rot="R180"/>
 <instance part="HDPH" gate="-" x="101.6" y="76.2" rot="R180"/>
@@ -4574,13 +4574,13 @@
 <junction x="68.58" y="30.48"/>
 <junction x="43.18" y="30.48"/>
 <pinref part="IN" gate="+" pin="P$1"/>
-<pinref part="BAT" gate="+" pin="P$1"/>
 <wire x1="5.08" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R5" gate="1" pin="E"/>
 <wire x1="20.32" y1="33.02" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="20.32" y="30.48"/>
+<pinref part="BAT" gate="-" pin="P$1"/>
+<wire x1="68.58" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4630,10 +4630,10 @@
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="91.44" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="BAT" gate="-" pin="P$1"/>
-<wire x1="101.6" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<junction x="99.06" y="86.36"/>
 <pinref part="U$1" gate="G$1" pin="+12V"/>
+<pinref part="BAT" gate="+" pin="P$1"/>
+<wire x1="99.06" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<junction x="99.06" y="86.36"/>
 </segment>
 </net>
 </nets>

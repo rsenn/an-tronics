@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3601,9 +3601,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </instance>
 <instance part="AOUT+" gate="G$1" x="106.68" y="60.96" rot="R180"/>
 <instance part="U$4" gate="1" x="88.9" y="35.56"/>
-<instance part="9V" gate="G$1" x="0" y="71.12" smashed="yes">
-<attribute name="NAME" x="-6.35" y="71.12" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-</instance>
+<instance part="9V" gate="G$1" x="0" y="71.12"/>
 <instance part="AOUT-" gate="G$1" x="106.68" y="53.34" rot="R180"/>
 <instance part="U$3" gate="1" x="101.6" y="35.56"/>
 <instance part="GND" gate="G$1" x="0" y="53.34" rot="MR180"/>
