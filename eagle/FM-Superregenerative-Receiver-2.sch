@@ -5404,17 +5404,17 @@ http://siva666siva.webs.com/FM.PDF</description>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="" value="22p"/>
 <part name="L1" library="l" deviceset="L-SHORT" device="L-04-5/5V-X" value="5"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036/V" value="10p"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="L-04/7V" value="0.33uH"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="02/7V" value="0.33uH"/>
 <part name="R3" library="r" deviceset="R" device="0204/10" value="10k"/>
 <part name="R4" library="r" deviceset="R" device="0204/7" value="10k"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
 <part name="C5" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
 <part name="C6" library="c" deviceset="CPOL" device="E2,5-3" value="10u"/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
-<part name="AUDIO+" library="pad" deviceset="SPAD" device=""/>
+<part name="AF+" library="pad" deviceset="SPAD" device=""/>
 <part name="+9V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
-<part name="AUDIO-" library="pad" deviceset="SPAD" device=""/>
+<part name="AF-" library="pad" deviceset="SPAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5429,7 +5429,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 <instance part="C2" gate="1" x="20.32" y="63.5" rot="MR0"/>
 <instance part="L1" gate="L1" x="30.48" y="63.5" rot="MR180"/>
 <instance part="C3" gate="1" x="35.56" y="45.72" rot="MR0"/>
-<instance part="L2" gate="L1" x="25.4" y="30.48"/>
+<instance part="L2" gate="L1" x="25.4" y="30.48" rot="R180"/>
 <instance part="R3" gate="G$1" x="25.4" y="15.24" rot="MR0"/>
 <instance part="R4" gate="G$1" x="53.34" y="73.66" smashed="yes" rot="MR270">
 <attribute name="NAME" x="53.34" y="76.2" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
@@ -5442,10 +5442,10 @@ http://siva666siva.webs.com/FM.PDF</description>
 <attribute name="VALUE" x="58.42" y="34.29" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$2" gate="1" x="25.4" y="2.54"/>
-<instance part="AUDIO+" gate="1" x="63.5" y="38.1" rot="R180"/>
+<instance part="AF+" gate="1" x="63.5" y="38.1" rot="R180"/>
 <instance part="+9V" gate="1" x="63.5" y="73.66" rot="R180"/>
 <instance part="GND" gate="1" x="63.5" y="7.62" rot="R180"/>
-<instance part="AUDIO-" gate="1" x="63.5" y="22.86" rot="R180"/>
+<instance part="AF-" gate="1" x="63.5" y="22.86" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5474,7 +5474,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 <wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="22.86" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="L2" gate="L1" pin="1"/>
+<pinref part="L2" gate="L1" pin="2"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <junction x="25.4" y="22.86"/>
 </segment>
@@ -5486,7 +5486,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 <pinref part="C3" gate="1" pin="2"/>
 <wire x1="25.4" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="38.1" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="L2" gate="L1" pin="2"/>
+<pinref part="L2" gate="L1" pin="1"/>
 <wire x1="25.4" y1="38.1" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <junction x="25.4" y="38.1"/>
 </segment>
@@ -5564,7 +5564,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 <wire x1="60.96" y1="7.62" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="7.62" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <junction x="60.96" y="7.62"/>
-<pinref part="AUDIO-" gate="1" pin="P$1"/>
+<pinref part="AF-" gate="1" pin="P$1"/>
 <wire x1="60.96" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5577,7 +5577,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="AUDIO+" gate="1" pin="P$1"/>
+<pinref part="AF+" gate="1" pin="P$1"/>
 <pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="63.5" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 </segment>

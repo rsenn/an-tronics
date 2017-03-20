@@ -3569,7 +3569,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <part name="U$3" library="pad" deviceset="GND" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="U$5" library="pad" deviceset="GND" device=""/>
-<part name="U$6" library="l" deviceset="L-TAP1" device="L-08/10-TAP1" value="0.22uH"/>
+<part name="L1" library="l" deviceset="L-TAP1" device="L-08/10-TAP1" value="0.22uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -3606,7 +3606,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <instance part="U$3" gate="1" x="101.6" y="35.56"/>
 <instance part="GND" gate="G$1" x="0" y="53.34" rot="MR180"/>
 <instance part="U$5" gate="1" x="5.08" y="35.56" rot="MR0"/>
-<instance part="U$6" gate="1" x="35.56" y="60.96"/>
+<instance part="L1" gate="1" x="35.56" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -3666,7 +3666,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="48.26" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C3" gate="1" pin="A"/>
 <wire x1="48.26" y1="60.96" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="1" pin="2"/>
+<pinref part="L1" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3677,14 +3677,14 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <pinref part="R1" gate="1" pin="S"/>
 <wire x1="17.78" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
 <junction x="22.86" y="60.96"/>
-<pinref part="U$6" gate="1" pin="1"/>
+<pinref part="L1" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="ANT" gate="ANT" pin="1"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="1" pin="T"/>
+<pinref part="L1" gate="1" pin="T"/>
 </segment>
 </net>
 <net name="N$5" class="0">
