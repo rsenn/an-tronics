@@ -454,6 +454,37 @@
 <text x="5.08" y="-1.524" size="1.778" layer="97" align="top-center">S</text>
 <text x="-1.27" y="-6.35" size="1.778" layer="97" align="top-right">G</text>
 </symbol>
+<symbol name="JFET_N2">
+<wire x1="-3.4925" y1="0" x2="-3.556" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="0" x2="-3.683" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.683" y1="0" x2="-3.7465" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.7465" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="-3.3274" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.3528" y1="-1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-5.08" y="3.81" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<circle x="-1.778" y="0" radius="3.5921" width="0.381" layer="94"/>
+<rectangle x1="-3.5433" y1="-2.032" x2="-3.0353" y2="2.032" layer="94"/>
+<wire x1="-3.556" y1="0" x2="-4.064" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="0.508" x2="-3.556" y2="0" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-0.508" x2="-4.064" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-4.0005" y1="0.3175" x2="-4.0005" y2="-0.3175" width="0.1524" layer="94"/>
+<wire x1="-4.0005" y1="-0.3175" x2="-3.683" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.683" y1="0" x2="-3.937" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="0.254" x2="-4.0005" y2="0.3175" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="0.254" x2="-3.937" y2="0.1905" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="0.1905" x2="-3.937" y2="-0.1905" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="-0.1905" x2="-3.7465" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.7465" y1="0" x2="-3.937" y2="0.1905" width="0.1524" layer="94"/>
+<text x="1.27" y="5.08" size="1.778" layer="97">D</text>
+<text x="1.27" y="-5.08" size="1.778" layer="97" align="top-left">S</text>
+<text x="-7.62" y="1.27" size="1.778" layer="97" align="bottom-right">G</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BC547" prefix="T">
@@ -720,6 +751,23 @@
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
 <connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BF247B">
+<gates>
+<gate name="G$1" symbol="JFET_N2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
