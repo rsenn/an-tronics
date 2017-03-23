@@ -4191,22 +4191,22 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="IC1" library="ic" deviceset="ICL8038" device=""/>
 <part name="R5" library="r" deviceset="POT" device="" value="250k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/7" value="10k"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/7" value="10k"/>
-<part name="R3" library="r" deviceset="R" device="0204/10" value="330"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/2-V" value="100k"/>
-<part name="R6" library="r" deviceset="R-H" device="0204/10-V" value="220k"/>
-<part name="R7" library="r" deviceset="R-H" device="0204/10" value="10k"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/5" value="10k"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/5" value="10k"/>
+<part name="R3" library="r" deviceset="R" device="0202/5-V" value="330"/>
+<part name="R4" library="r" deviceset="R-H" device="0202/5" value="100k"/>
+<part name="R6" library="r" deviceset="R-H" device="0202/5-V" value="220k"/>
+<part name="R7" library="r" deviceset="R-H" device="0202/5-V" value="10k"/>
 <part name="P+1" library="pad" deviceset="VCC" device=""/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C1" library="c" deviceset="C" device="050-020X036" value="2.2nF"/>
+<part name="C1" library="c" deviceset="C" device="050-020X044" value="2.2nF"/>
 <part name="SIN" library="pad" deviceset="SPAD" device=""/>
 <part name="TRI" library="pad" deviceset="SPAD" device=""/>
 <part name="SQR" library="pad" deviceset="SPAD" device=""/>
 <part name="T1" library="t" deviceset="BC547" device="CBE"/>
 <part name="D1" library="led" deviceset="LED" device="3MM"/>
-<part name="R8" library="r" deviceset="R" device="0204V" value="470"/>
+<part name="R8" library="r" deviceset="R" device="0202/7-V" value="470"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
 <part name="P+2" library="pad" deviceset="VCC" device=""/>
@@ -4221,7 +4221,7 @@ Source: www.kingbright.com</description>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="53.34" y="27.94"/>
-<instance part="R5" gate="1" x="22.86" y="35.56"/>
+<instance part="R5" gate="1" x="20.32" y="35.56" rot="R90"/>
 <instance part="R2" gate="G$1" x="86.36" y="33.02"/>
 <instance part="R1" gate="G$1" x="86.36" y="40.64"/>
 <instance part="R3" gate="G$1" x="12.7" y="45.72"/>
@@ -4406,14 +4406,10 @@ Source: www.kingbright.com</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="R5" gate="1" pin="S"/>
-<wire x1="22.86" y1="33.02" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="30.48" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="35.56" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
-<junction x="12.7" y="35.56"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R5" gate="1" pin="A"/>
-<wire x1="12.7" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="30.48" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -4421,10 +4417,10 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="G$1" pin="FM_BIAS"/>
 <wire x1="35.56" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="33.02" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R5" gate="1" pin="E"/>
-<wire x1="27.94" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="SWEEP"/>
 <wire x1="33.02" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="R5" gate="1" pin="S"/>
+<wire x1="22.86" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
 <junction x="33.02" y="35.56"/>
 </segment>
 </net>
