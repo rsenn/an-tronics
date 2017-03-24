@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4658,7 +4658,7 @@
 <attribute name="VALUE" x="12.7" y="40.64" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="S1" gate="1" x="55.88" y="12.7"/>
-<instance part="S2" gate="1" x="20.32" y="71.12"/>
+<instance part="S2" gate="1" x="20.32" y="58.42"/>
 <instance part="S3" gate="1" x="20.32" y="12.7"/>
 <instance part="S4" gate="1" x="55.88" y="58.42"/>
 <instance part="C3" gate="G$1" x="33.02" y="93.98"/>
@@ -4705,7 +4705,7 @@
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="20.32" y1="76.2" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="76.2" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R1" gate="-1" pin="E"/>
 <pinref part="S2" gate="1" pin="GND"/>
 </segment>

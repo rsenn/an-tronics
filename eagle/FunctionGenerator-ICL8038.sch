@@ -4206,7 +4206,7 @@ Source: www.kingbright.com</description>
 <part name="SQR" library="pad" deviceset="SPAD" device=""/>
 <part name="T1" library="t" deviceset="BC547" device="CBE"/>
 <part name="D1" library="led" deviceset="LED" device="3MM"/>
-<part name="R8" library="r" deviceset="R" device="0202/7-V" value="470"/>
+<part name="R8" library="r" deviceset="R" device="0202/5-V" value="470"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
 <part name="P+2" library="pad" deviceset="VCC" device=""/>
