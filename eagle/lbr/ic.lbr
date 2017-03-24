@@ -623,7 +623,7 @@
 <pin name="14" x="-17.78" y="-5.08" length="short"/>
 <pin name="15" x="-17.78" y="-10.16" length="short"/>
 <pin name="TUNE" x="17.78" y="15.24" length="short" rot="R180"/>
-<pin name="STATUS" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="CONTROL" x="17.78" y="-5.08" length="short" rot="R180"/>
 <pin name="13" x="-17.78" y="-15.24" length="short"/>
 <pin name="12" x="-17.78" y="0" length="short"/>
 <pin name="3" x="17.78" y="-15.24" length="short" rot="R180"/>
@@ -1624,14 +1624,46 @@
 <connect gate="G$1" pin="15" pad="15"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="CONTROL" pad="9"/>
 <connect gate="G$1" pin="GND" pad="7"/>
 <connect gate="G$1" pin="L" pad="4"/>
 <connect gate="G$1" pin="LAMP" pad="6"/>
 <connect gate="G$1" pin="MPX_IN" pad="2"/>
 <connect gate="G$1" pin="R" pad="5"/>
-<connect gate="G$1" pin="STATUS" pad="9"/>
 <connect gate="G$1" pin="TUNE" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMT2901N" prefix="IC">
+<gates>
+<gate name="A" symbol="OPAMP" x="0" y="25.4"/>
+<gate name="B" symbol="OPAMP" x="0" y="10.16"/>
+<gate name="C" symbol="OPAMP" x="0" y="-7.62"/>
+<gate name="D" symbol="OPAMP" x="0" y="-22.86"/>
+<gate name="G$5" symbol="PWR+-" x="17.78" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL14">
+<connects>
+<connect gate="A" pin="+IN" pad="5"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="2"/>
+<connect gate="B" pin="+IN" pad="7"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="1"/>
+<connect gate="C" pin="+IN" pad="9"/>
+<connect gate="C" pin="-IN" pad="8"/>
+<connect gate="C" pin="OUT" pad="14"/>
+<connect gate="D" pin="+IN" pad="11"/>
+<connect gate="D" pin="-IN" pad="10"/>
+<connect gate="D" pin="OUT" pad="13"/>
+<connect gate="G$5" pin="V+" pad="3"/>
+<connect gate="G$5" pin="V-" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
