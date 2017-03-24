@@ -257,6 +257,50 @@
 <pad name="11" x="0" y="-11.43" drill="0.8" shape="long"/>
 <pad name="12" x="0" y="-13.97" drill="0.8" shape="long"/>
 </package>
+<package name="DIL16">
+<wire x1="2.921" y1="-10.16" x2="2.921" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="10.16" x2="-2.921" y2="-10.16" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-10.16" x2="-2.921" y2="-10.16" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="10.16" x2="1.016" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="10.16" x2="-1.016" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="10.16" x2="-1.016" y2="10.16" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="8.89" drill="0.8" shape="long"/>
+<pad name="2" x="-3.81" y="6.35" drill="0.8" shape="long"/>
+<pad name="7" x="-3.81" y="-6.35" drill="0.8" shape="long"/>
+<pad name="8" x="-3.81" y="-8.89" drill="0.8" shape="long"/>
+<pad name="3" x="-3.81" y="3.81" drill="0.8" shape="long"/>
+<pad name="4" x="-3.81" y="1.27" drill="0.8" shape="long"/>
+<pad name="6" x="-3.81" y="-3.81" drill="0.8" shape="long"/>
+<pad name="5" x="-3.81" y="-1.27" drill="0.8" shape="long"/>
+<pad name="9" x="3.81" y="-8.89" drill="0.8" shape="long"/>
+<pad name="10" x="3.81" y="-6.35" drill="0.8" shape="long"/>
+<pad name="11" x="3.81" y="-3.81" drill="0.8" shape="long"/>
+<pad name="12" x="3.81" y="-1.27" drill="0.8" shape="long"/>
+<pad name="13" x="3.81" y="1.27" drill="0.8" shape="long"/>
+<pad name="14" x="3.81" y="3.81" drill="0.8" shape="long"/>
+<text x="-3.048" y="10.541" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R180" align="center">&gt;VALUE</text>
+<pad name="15" x="3.81" y="6.35" drill="0.8" shape="long"/>
+<pad name="16" x="3.81" y="8.89" drill="0.8" shape="long"/>
+</package>
+<package name="SIL9">
+<wire x1="-2.159" y1="-14.605" x2="-2.159" y2="9.525" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="9.525" x2="1.524" y2="-14.605" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-14.605" x2="1.524" y2="-14.605" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="9.525" x2="1.524" y2="9.525" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="7.62" drill="0.8" shape="long"/>
+<pad name="2" x="0" y="5.08" drill="0.8" shape="long"/>
+<pad name="7" x="0" y="-7.62" drill="0.8" shape="long"/>
+<pad name="8" x="0" y="-10.16" drill="0.8" shape="long"/>
+<pad name="3" x="0" y="2.54" drill="0.8" shape="long"/>
+<pad name="4" x="0" y="0" drill="0.8" shape="long"/>
+<pad name="6" x="0" y="-5.08" drill="0.8" shape="long"/>
+<pad name="5" x="0" y="-2.54" drill="0.8" shape="long"/>
+<pad name="9" x="0" y="-12.7" drill="0.8" shape="long"/>
+<text x="-0.508" y="9.906" size="1.016" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.905" y="-3.81" size="0.8128" layer="27" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<circle x="-1.27" y="8.89" radius="0.254" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2NUL2CMP">
@@ -519,6 +563,71 @@
 <pin name="2IN-" x="10.16" y="-20.32" length="short" rot="R90"/>
 <pin name="STBY" x="-5.08" y="20.32" length="short" rot="R270"/>
 <pin name="2OUT" x="20.32" y="-7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="TA7358AP">
+<wire x1="-15.24" y1="12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<pin name="MIX_OUT" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="VCC" x="0" y="15.24" length="short" rot="R270"/>
+<pin name="BYPASS" x="-17.78" y="-7.62" length="short"/>
+<pin name="RF_IN" x="-17.78" y="2.54" length="short"/>
+<pin name="GND" x="0" y="-15.24" length="short" rot="R90"/>
+<pin name="OSC_MON" x="17.78" y="-7.62" length="short" rot="R180"/>
+<text x="-15.24" y="13.97" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-13.97" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="RF_OUT" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="MIX_IN" x="-17.78" y="7.62" length="short"/>
+<pin name="OSC" x="17.78" y="-2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="TA7757">
+<wire x1="-13.97" y1="20.32" x2="-13.97" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-20.32" x2="16.51" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-20.32" x2="16.51" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="20.32" x2="16.51" y2="20.32" width="0.254" layer="94"/>
+<pin name="AM_DET" x="19.05" y="10.16" length="short" rot="R180"/>
+<pin name="VCC" x="1.27" y="22.86" length="short" rot="R270"/>
+<pin name="VS" x="-16.51" y="5.08" length="short"/>
+<pin name="AGC" x="-16.51" y="10.16" length="short"/>
+<pin name="GND" x="1.27" y="-22.86" length="short" rot="R90"/>
+<pin name="QUAD" x="19.05" y="5.08" length="short" rot="R180"/>
+<text x="-13.97" y="21.59" size="1.27" layer="95">&gt;NAME</text>
+<text x="-13.97" y="-21.59" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="NF_OUT" x="19.05" y="15.24" length="short" rot="R180"/>
+<pin name="S-METR" x="-16.51" y="15.24" length="short"/>
+<pin name="OSC" x="-16.51" y="0" length="short"/>
+<pin name="AM/FM" x="-16.51" y="-5.08" length="short"/>
+<pin name="AM_IN" x="-16.51" y="-10.16" length="short"/>
+<pin name="IF_AM_IN" x="19.05" y="0" length="short" rot="R180"/>
+<pin name="BY1" x="-16.51" y="-15.24" length="short"/>
+<pin name="BY2" x="19.05" y="-5.08" length="short" rot="R180"/>
+<pin name="FM_IF_IN" x="19.05" y="-10.16" length="short" rot="R180"/>
+<pin name="MX_OUT" x="19.05" y="-15.24" length="short" rot="R180"/>
+</symbol>
+<symbol name="LA3361">
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<pin name="R" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="VCC" x="0" y="22.86" length="short" rot="R270"/>
+<pin name="11" x="-17.78" y="5.08" length="short"/>
+<pin name="10" x="-17.78" y="10.16" length="short"/>
+<pin name="GND" x="0" y="-22.86" length="short" rot="R90"/>
+<pin name="LAMP" x="17.78" y="0" length="short" rot="R180"/>
+<text x="-15.24" y="21.59" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-21.59" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="L" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="MPX_IN" x="-17.78" y="15.24" length="short"/>
+<pin name="14" x="-17.78" y="-5.08" length="short"/>
+<pin name="15" x="-17.78" y="-10.16" length="short"/>
+<pin name="TUNE" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="STATUS" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="13" x="-17.78" y="-15.24" length="short"/>
+<pin name="12" x="-17.78" y="0" length="short"/>
+<pin name="3" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="8" x="17.78" y="-10.16" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1415,6 +1524,113 @@
 <connect gate="G$1" pin="CAP+" pad="7"/>
 <connect gate="G$1" pin="GND" pad="12"/>
 <connect gate="G$1" pin="STBY" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TCA0372">
+<gates>
+<gate name="G$1" symbol="OPAMP" x="0" y="10.16"/>
+<gate name="G$2" symbol="OPAMP" x="0" y="-10.16"/>
+<gate name="G$3" symbol="PWR+-" x="12.7" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL16">
+<connects>
+<connect gate="G$1" pin="+IN" pad="7"/>
+<connect gate="G$1" pin="-IN" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$2" pin="+IN" pad="6"/>
+<connect gate="G$2" pin="-IN" pad="5"/>
+<connect gate="G$2" pin="OUT" pad="3"/>
+<connect gate="G$3" pin="V+" pad="2"/>
+<connect gate="G$3" pin="V-" pad="4 9 10 11 12 13 14 15 16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TA7358" prefix="IC">
+<gates>
+<gate name="G$1" symbol="TA7358AP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIL9">
+<connects>
+<connect gate="G$1" pin="BYPASS" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="MIX_IN" pad="4"/>
+<connect gate="G$1" pin="MIX_OUT" pad="6"/>
+<connect gate="G$1" pin="OSC" pad="8"/>
+<connect gate="G$1" pin="OSC_MON" pad="7"/>
+<connect gate="G$1" pin="RF_IN" pad="1"/>
+<connect gate="G$1" pin="RF_OUT" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TA7757">
+<gates>
+<gate name="G$1" symbol="TA7757" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL16">
+<connects>
+<connect gate="G$1" pin="AGC" pad="6"/>
+<connect gate="G$1" pin="AM/FM" pad="3"/>
+<connect gate="G$1" pin="AM_DET" pad="11"/>
+<connect gate="G$1" pin="AM_IN" pad="2"/>
+<connect gate="G$1" pin="BY1" pad="1"/>
+<connect gate="G$1" pin="BY2" pad="14"/>
+<connect gate="G$1" pin="FM_IF_IN" pad="15"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="IF_AM_IN" pad="13"/>
+<connect gate="G$1" pin="MX_OUT" pad="16"/>
+<connect gate="G$1" pin="NF_OUT" pad="9"/>
+<connect gate="G$1" pin="OSC" pad="4"/>
+<connect gate="G$1" pin="QUAD" pad="12"/>
+<connect gate="G$1" pin="S-METR" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="10"/>
+<connect gate="G$1" pin="VS" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LA3361">
+<gates>
+<gate name="G$1" symbol="LA3361" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL16">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="L" pad="4"/>
+<connect gate="G$1" pin="LAMP" pad="6"/>
+<connect gate="G$1" pin="MPX_IN" pad="2"/>
+<connect gate="G$1" pin="R" pad="5"/>
+<connect gate="G$1" pin="STATUS" pad="9"/>
+<connect gate="G$1" pin="TUNE" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
