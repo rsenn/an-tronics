@@ -253,9 +253,9 @@
 <wire x1="2" y1="0.85" x2="2" y2="-0.25" width="0.2032" layer="21"/>
 <wire x1="1.3931" y1="-1.5516" x2="2" y2="-0.25" width="0.2032" layer="21"/>
 <wire x1="-1.3932" y1="-1.5516" x2="-2" y2="-0.25" width="0.2032" layer="21"/>
-<pad name="1" x="1.27" y="0" drill="0.7" diameter="1" rot="R180"/>
+<pad name="1" x="-1.27" y="0" drill="0.7" diameter="1" rot="R180"/>
 <pad name="2" x="0" y="0" drill="0.7" diameter="1" rot="R180"/>
-<pad name="3" x="-1.27" y="0" drill="0.7" diameter="1" rot="R180"/>
+<pad name="3" x="1.27" y="0" drill="0.7" diameter="1" rot="R180"/>
 <text x="1.905" y="2.54" size="0.8128" layer="25" rot="R180">&gt;NAME</text>
 <text x="1.905" y="-1.905" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
 </package>
@@ -622,16 +622,6 @@
 <devices>
 <device name="-2SK241" package="2SK241">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-TO106" package="TO106">
-<connects>
 <connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
 <connect gate="G$1" pin="E" pad="1"/>
@@ -642,9 +632,9 @@
 </device>
 <device name="-TO92" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -768,6 +758,74 @@
 <connect gate="G$1" pin="D" pad="1"/>
 <connect gate="G$1" pin="G" pad="3"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SC4641" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SD965">
+<gates>
+<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SA952">
+<gates>
+<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SB1013">
+<gates>
+<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
