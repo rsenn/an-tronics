@@ -217,6 +217,46 @@
 <pad name="19" x="3.81" y="8.89" drill="0.8" shape="long"/>
 <pad name="20" x="3.81" y="11.43" drill="0.8" shape="long"/>
 </package>
+<package name="SIL10">
+<wire x1="-2.159" y1="-13.335" x2="-2.159" y2="13.335" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="13.335" x2="1.524" y2="-13.335" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-13.335" x2="1.524" y2="-13.335" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="13.335" x2="1.524" y2="13.335" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="11.43" drill="0.8" shape="long"/>
+<pad name="2" x="0" y="8.89" drill="0.8" shape="long"/>
+<pad name="7" x="0" y="-3.81" drill="0.8" shape="long"/>
+<pad name="8" x="0" y="-6.35" drill="0.8" shape="long"/>
+<pad name="3" x="0" y="6.35" drill="0.8" shape="long"/>
+<pad name="4" x="0" y="3.81" drill="0.8" shape="long"/>
+<pad name="6" x="0" y="-1.27" drill="0.8" shape="long"/>
+<pad name="5" x="0" y="1.27" drill="0.8" shape="long"/>
+<pad name="9" x="0" y="-8.89" drill="0.8" shape="long"/>
+<pad name="10" x="0" y="-11.43" drill="0.8" shape="long"/>
+<text x="-0.508" y="13.716" size="1.016" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.905" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<circle x="-1.27" y="12.7" radius="0.254" width="0.127" layer="21"/>
+</package>
+<package name="SIL12">
+<wire x1="-2.159" y1="-15.875" x2="-2.159" y2="15.875" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="15.875" x2="1.524" y2="-15.875" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-15.875" x2="1.524" y2="-15.875" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="15.875" x2="1.524" y2="15.875" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="13.97" drill="0.8" shape="long"/>
+<pad name="2" x="0" y="11.43" drill="0.8" shape="long"/>
+<pad name="7" x="0" y="-1.27" drill="0.8" shape="long"/>
+<pad name="8" x="0" y="-3.81" drill="0.8" shape="long"/>
+<pad name="3" x="0" y="8.89" drill="0.8" shape="long"/>
+<pad name="4" x="0" y="6.35" drill="0.8" shape="long"/>
+<pad name="6" x="0" y="1.27" drill="0.8" shape="long"/>
+<pad name="5" x="0" y="3.81" drill="0.8" shape="long"/>
+<pad name="9" x="0" y="-6.35" drill="0.8" shape="long"/>
+<pad name="10" x="0" y="-8.89" drill="0.8" shape="long"/>
+<text x="-0.508" y="16.256" size="1.016" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.905" y="2.54" size="0.8128" layer="27" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<circle x="-1.27" y="15.24" radius="0.254" width="0.127" layer="21"/>
+<pad name="11" x="0" y="-11.43" drill="0.8" shape="long"/>
+<pad name="12" x="0" y="-13.97" drill="0.8" shape="long"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2NUL2CMP">
@@ -441,6 +481,44 @@
 <pin name="IFI1" x="17.78" y="0" length="short" rot="R180"/>
 <pin name="IFI2" x="17.78" y="2.54" length="short" rot="R180"/>
 <pin name="AGC" x="17.78" y="15.24" length="short" rot="R180"/>
+</symbol>
+<symbol name="BA6229">
+<wire x1="-15.24" y1="8.89" x2="-15.24" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-8.89" x2="15.24" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-8.89" x2="15.24" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="8.89" x2="15.24" y2="8.89" width="0.254" layer="94"/>
+<pin name="ZD-" x="-17.78" y="-1.27" length="short"/>
+<pin name="VCC_M" x="17.78" y="6.35" length="short" rot="R180"/>
+<pin name="LM+" x="17.78" y="1.27" length="short" rot="R180"/>
+<pin name="LM-" x="17.78" y="-1.27" length="short" rot="R180"/>
+<pin name="VCC" x="0" y="11.43" length="short" rot="R270"/>
+<pin name="LMR" x="-17.78" y="3.81" length="short"/>
+<pin name="LMF" x="-17.78" y="6.35" length="short"/>
+<pin name="GND" x="0" y="-11.43" length="short" rot="R90"/>
+<pin name="C1" x="-17.78" y="-6.35" length="short"/>
+<text x="-15.24" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-10.16" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="C2" x="17.78" y="-6.35" length="short" rot="R180"/>
+</symbol>
+<symbol name="BA5412">
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<pin name="CAP+" x="-15.24" y="-20.32" length="short" rot="R90"/>
+<pin name="1PWR" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="1OUT" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="2PWR" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="VCC" x="5.08" y="20.32" length="short" rot="R270"/>
+<pin name="2IN+" x="-20.32" y="0" length="short"/>
+<pin name="1IN+" x="-20.32" y="15.24" length="short"/>
+<pin name="GND" x="15.24" y="-20.32" length="short" rot="R90"/>
+<pin name="1IN-" x="-10.16" y="-20.32" length="short" rot="R90"/>
+<text x="-17.78" y="19.05" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-19.05" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="2IN-" x="10.16" y="-20.32" length="short" rot="R90"/>
+<pin name="STBY" x="-5.08" y="20.32" length="short" rot="R270"/>
+<pin name="2OUT" x="20.32" y="-7.62" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1288,6 +1366,56 @@
 <connect gate="G$1" pin="V+" pad="17"/>
 <connect gate="G$1" pin="VREF" pad="5"/>
 <connect gate="G$1" pin="WBI" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BA6229">
+<gates>
+<gate name="G$1" symbol="BA6229" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIL10">
+<connects>
+<connect gate="G$1" pin="C1" pad="3"/>
+<connect gate="G$1" pin="C2" pad="9"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="LM+" pad="2"/>
+<connect gate="G$1" pin="LM-" pad="10"/>
+<connect gate="G$1" pin="LMF" pad="5"/>
+<connect gate="G$1" pin="LMR" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VCC_M" pad="7"/>
+<connect gate="G$1" pin="ZD-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BA5412">
+<gates>
+<gate name="G$1" symbol="BA5412" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIL12">
+<connects>
+<connect gate="G$1" pin="1IN+" pad="5"/>
+<connect gate="G$1" pin="1IN-" pad="4"/>
+<connect gate="G$1" pin="1OUT" pad="2"/>
+<connect gate="G$1" pin="1PWR" pad="3"/>
+<connect gate="G$1" pin="2IN+" pad="8"/>
+<connect gate="G$1" pin="2IN-" pad="9"/>
+<connect gate="G$1" pin="2OUT" pad="11"/>
+<connect gate="G$1" pin="2PWR" pad="10"/>
+<connect gate="G$1" pin="CAP+" pad="7"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="STBY" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
