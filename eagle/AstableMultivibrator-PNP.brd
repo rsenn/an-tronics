@@ -104,16 +104,16 @@
 </library>
 <library name="pad">
 <packages>
-<package name="SPAD-+">
+<package name="PWR-L">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
-<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
+<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">PWR</text>
 <pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="-1.778" y="-1.27" size="1.016" layer="21" font="vector" rot="R180" align="center">-</text>
-<text x="-1.778" y="1.27" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
+<text x="-1.905" y="-1.27" size="1.27" layer="21" rot="R180" align="center">-</text>
+<text x="-1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
 </package>
 <package name="SPAD+-">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
@@ -123,8 +123,8 @@
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="2.032" y="-1.27" size="1.016" layer="21" font="fixed" rot="R180" align="center">-</text>
-<text x="2.032" y="1.27" size="1.016" layer="21" font="fixed" rot="R90" align="center">+</text>
+<text x="1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
+<text x="1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
 </package>
 </packages>
 </library>
@@ -419,8 +419,8 @@ design rules under a new name.</description>
 <element name="T1" library="t" package="TO92" value="2N3906" x="10.16" y="15.24"/>
 <element name="T2" library="t" package="TO92" value="2N3906" x="15.24" y="15.24"/>
 <element name="OUT" library="pad" package="SPAD+-" value="SPAD+-+-" x="22.86" y="11.43"/>
-<element name="PWR" library="pad" package="SPAD-+" value="" x="2.54" y="3.81"/>
-<element name="PWR2" library="pad" package="SPAD+-" value="SPAD+-+-" x="22.86" y="3.81"/>
+<element name="J1" library="pad" package="PWR-L" value="" x="2.54" y="3.81"/>
+<element name="PWR" library="pad" package="SPAD+-" value="SPAD+-+-" x="22.86" y="3.81"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -470,7 +470,7 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <wire x1="17.78" y1="2.54" x2="7.62" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="16"/>
-<contactref element="PWR" pad="1"/>
+<contactref element="J1" pad="1"/>
 <wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="16"/>
 <contactref element="OUT" pad="1"/>
 <wire x1="17.78" y1="2.54" x2="22.86" y2="2.54" width="0.6096" layer="16"/>
@@ -478,7 +478,7 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="10.16" x2="25.4" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="22.86" y1="10.16" x2="25.4" y2="10.16" width="0.6096" layer="16"/>
 <wire x1="25.4" y1="10.16" x2="25.4" y2="17.78" width="0.6096" layer="16"/>
-<contactref element="PWR2" pad="1"/>
+<contactref element="PWR" pad="1"/>
 <wire x1="25.4" y1="2.54" x2="22.86" y2="2.54" width="0.6096" layer="16"/>
 </signal>
 <signal name="VCC">
@@ -486,9 +486,9 @@ design rules under a new name.</description>
 <contactref element="T2" pad="1"/>
 <wire x1="2.54" y1="17.78" x2="10.16" y2="17.78" width="0.6096" layer="16"/>
 <wire x1="10.16" y1="17.78" x2="15.24" y2="17.78" width="0.6096" layer="16"/>
-<contactref element="PWR" pad="2"/>
+<contactref element="J1" pad="2"/>
 <wire x1="2.54" y1="5.08" x2="2.54" y2="17.78" width="0.6096" layer="16"/>
-<contactref element="PWR2" pad="2"/>
+<contactref element="PWR" pad="2"/>
 <wire x1="22.86" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="16"/>
 </signal>
 </signals>

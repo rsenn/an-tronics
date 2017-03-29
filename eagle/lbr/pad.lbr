@@ -98,8 +98,8 @@
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="2.032" y="-1.27" size="1.016" layer="21" font="fixed" rot="R180" align="center">-</text>
-<text x="2.032" y="1.27" size="1.016" layer="21" font="fixed" rot="R90" align="center">+</text>
+<text x="1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
+<text x="1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
 </package>
 <package name="SPAD-+">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
@@ -109,8 +109,30 @@
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="-1.778" y="-1.27" size="1.016" layer="21" font="vector" rot="R180" align="center">-</text>
-<text x="-1.778" y="1.27" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
+<text x="-1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
+<text x="-1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
+</package>
+<package name="PWR-R">
+<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
+<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">PWR</text>
+<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
+<text x="1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
+</package>
+<package name="PWR-L">
+<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
+<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">PWR</text>
+<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="-1.905" y="-1.27" size="1.27" layer="21" rot="R180" align="center">-</text>
+<text x="-1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
 </package>
 </packages>
 <symbols>
@@ -378,16 +400,16 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_GND" uservalue="yes">
+<deviceset name="VCC_GND" prefix="J" uservalue="yes">
 <gates>
-<gate name="PWR" symbol="VCC2" x="0" y="2.54"/>
-<gate name="PRW" symbol="GND2" x="0" y="-2.54"/>
+<gate name="G$1" symbol="VCC2" x="0" y="2.54"/>
+<gate name="G$2" symbol="GND2" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="R" package="SPAD+-">
 <connects>
-<connect gate="PRW" pin="GND" pad="1"/>
-<connect gate="PWR" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -395,8 +417,26 @@
 </device>
 <device name="L" package="SPAD-+">
 <connects>
-<connect gate="PRW" pin="GND" pad="1"/>
-<connect gate="PWR" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$2" pin="GND" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PWR-L" package="PWR-L">
+<connects>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$2" pin="GND" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PWR-R" package="PWR-R">
+<connects>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
