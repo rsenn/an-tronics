@@ -2583,8 +2583,8 @@
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
 <pad name="2" x="2.54" y="0" drill="0.8" rot="R180"/>
-<text x="-2.159" y="0.762" size="0.8128" layer="25">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.159" y="1.27" size="0.8128" layer="25" align="center-left">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
 <wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
