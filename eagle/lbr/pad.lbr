@@ -166,7 +166,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SPAD" prefix="P">
+<deviceset name="SPAD" prefix="J">
 <gates>
 <gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
@@ -297,7 +297,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPAD+-">
+<deviceset name="SPAD+-" prefix="J">
 <gates>
 <gate name="-" symbol="SPAD" x="0" y="-2.54"/>
 <gate name="+" symbol="SPAD" x="0" y="2.54"/>
@@ -339,6 +339,23 @@
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC_GND" prefix="J" uservalue="yes">
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="5.08"/>
+<gate name="GND" symbol="GND" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SPAD+-">
+<connects>
+<connect gate="GND" pin="GND" pad="1"/>
+<connect gate="VCC" pin="VCC" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
