@@ -4555,7 +4555,7 @@
 <part name="R3" library="r" deviceset="R" device="0202/5-V" value="100"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="C4" library="c" deviceset="CPOL" device="E2,5-4" value="220uF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E5-5/V" value="220uF"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
 </parts>
 <sheets>
