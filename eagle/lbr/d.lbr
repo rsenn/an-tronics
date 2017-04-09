@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1348,6 +1348,58 @@
 <wire x1="-0.3175" y1="-1.905" x2="0.3175" y2="-1.905" width="0.1016" layer="21"/>
 <rectangle x1="-0.612775" y1="-2.663825" x2="0.612775" y2="-2.460625" layer="21" rot="R90"/>
 </package>
+<package name="DO35Z10/V">
+<wire x1="0" y1="5.08" x2="0" y2="4.191" width="0.3048" layer="51"/>
+<pad name="C" x="0" y="5.08" drill="0.7" diameter="1.4224" rot="R270"/>
+<pad name="A" x="0" y="-5.08" drill="0.7" diameter="1.4224" rot="R270"/>
+<rectangle x1="-1.508125" y1="2.784475" x2="1.508125" y2="3.089275" layer="21" rot="R270"/>
+<wire x1="0.381" y1="-0.66675" x2="-0.381" y2="-0.66675" width="0.0762" layer="21"/>
+<wire x1="-0.381" y1="-0.66675" x2="0" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0" y1="0.3175" x2="0" y2="-1.016" width="0.0762" layer="51"/>
+<wire x1="0" y1="0.09525" x2="0.381" y2="-0.66675" width="0.0762" layer="21"/>
+<wire x1="0" y1="0.09525" x2="-0.381" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0.381" y1="-0.15875" x2="0.381" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0.381" y1="0.09525" x2="0" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0.762" y1="-0.66675" x2="0.1905" y2="-1.397" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.1905" y1="1.397" x2="0.762" y2="0.8255" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.1905" y1="1.397" x2="-0.762" y2="0.66675" width="0.0762" layer="21" curve="90"/>
+<wire x1="-0.762" y1="-0.8255" x2="-0.1905" y2="-1.397" width="0.0762" layer="21" curve="90"/>
+<wire x1="0.1905" y1="-1.397" x2="-0.1905" y2="-1.397" width="0.0762" layer="21"/>
+<wire x1="0.1905" y1="1.397" x2="-0.1905" y2="1.397" width="0.0762" layer="21"/>
+<wire x1="0.762" y1="0.8255" x2="0.762" y2="-0.66675" width="0.0762" layer="21"/>
+<wire x1="-0.762" y1="0.66675" x2="-0.762" y2="-0.8255" width="0.0762" layer="21"/>
+<rectangle x1="-0.1651" y1="0.00635" x2="0.1651" y2="1.53035" layer="21" rot="R270"/>
+<rectangle x1="-1.508125" y1="-3.089275" x2="1.508125" y2="-2.784475" layer="21" rot="R90"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-4.191" width="0.3048" layer="51"/>
+<text x="1.016" y="1.778" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.016" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
+</package>
+<package name="DO35Z7/V">
+<wire x1="0" y1="3.81" x2="0" y2="2.921" width="0.3048" layer="51"/>
+<pad name="C" x="0" y="3.81" drill="0.7" diameter="1.4224" rot="R270"/>
+<pad name="A" x="0" y="-3.81" drill="0.7" diameter="1.4224" rot="R270"/>
+<wire x1="0.381" y1="-0.66675" x2="-0.381" y2="-0.66675" width="0.0762" layer="21"/>
+<wire x1="-0.381" y1="-0.66675" x2="0" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0" y1="0.3175" x2="0" y2="-1.016" width="0.0762" layer="51"/>
+<wire x1="0" y1="0.09525" x2="0.381" y2="-0.66675" width="0.0762" layer="21"/>
+<wire x1="0" y1="0.09525" x2="-0.381" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0.381" y1="-0.15875" x2="0.381" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0.381" y1="0.09525" x2="0" y2="0.09525" width="0.0762" layer="21"/>
+<wire x1="0.762" y1="-0.66675" x2="0.1905" y2="-1.397" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.1905" y1="1.397" x2="0.762" y2="0.8255" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.1905" y1="1.397" x2="-0.762" y2="0.66675" width="0.0762" layer="21" curve="90"/>
+<wire x1="-0.762" y1="-0.8255" x2="-0.1905" y2="-1.397" width="0.0762" layer="21" curve="90"/>
+<wire x1="0.1905" y1="-1.397" x2="-0.1905" y2="-1.397" width="0.0762" layer="21"/>
+<wire x1="0.1905" y1="1.397" x2="-0.1905" y2="1.397" width="0.0762" layer="21"/>
+<wire x1="0.762" y1="0.8255" x2="0.762" y2="-0.66675" width="0.0762" layer="21"/>
+<wire x1="-0.762" y1="0.66675" x2="-0.762" y2="-0.8255" width="0.0762" layer="21"/>
+<rectangle x1="-0.1651" y1="0.00635" x2="0.1651" y2="1.53035" layer="21" rot="R270"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-2.921" width="0.3048" layer="51"/>
+<text x="1.016" y="1.778" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.016" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
+<rectangle x1="-0.746125" y1="2.022475" x2="0.746125" y2="2.327275" layer="21" rot="R90"/>
+<rectangle x1="-0.746125" y1="-2.327275" x2="0.746125" y2="-2.022475" layer="21" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -1727,6 +1779,42 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-35Z-2.54" package="DO35Z2_54">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-35Z-2.54A" package="DO35Z2_54A">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-35Z7/V" package="DO35Z7/V">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-35Z10/V" package="DO35Z10/V">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="OA79" prefix="D" uservalue="yes">
@@ -1879,6 +1967,31 @@
 </technologies>
 </device>
 <device name="7-7V" package="DO7-7V">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4002" prefix="D">
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2.54" package="DO35-2_54">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2.54A" package="DO35-2_54A">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
