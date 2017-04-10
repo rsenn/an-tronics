@@ -4528,7 +4528,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-5/V" value="100-1000uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2,5-5/V" value="470uF"/>
 <part name="C4" library="c" deviceset="CPOL" device="E5-4" value="220uF"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>

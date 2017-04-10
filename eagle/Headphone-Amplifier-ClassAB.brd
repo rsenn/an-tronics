@@ -520,7 +520,7 @@ design rules under a new name.</description>
 <element name="BAT" library="pad" package="SPAD+-" value="SPAD+-+-" x="30.48" y="3.81"/>
 <element name="C1" library="c" package="E2,5-4" value="4.7uF" x="8.89" y="15.24"/>
 <element name="C2" library="c" package="E2,5-4" value="4.7uF" x="8.89" y="10.16"/>
-<element name="C3" library="c" package="E2,5-5/V" value="100-1000uF" x="22.86" y="3.81" rot="R180"/>
+<element name="C3" library="c" package="E2,5-5/V" value="470uF" x="22.86" y="3.81" rot="R180"/>
 <element name="C4" library="c" package="E5-4" value="220uF" x="22.86" y="10.16" rot="R180"/>
 <element name="D1" library="d" package="DO34-5V" value="" x="15.24" y="12.7" rot="R180"/>
 <element name="D2" library="d" package="DO34-5V" value="" x="12.7" y="12.7"/>
