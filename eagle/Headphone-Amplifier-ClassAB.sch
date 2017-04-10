@@ -4522,15 +4522,15 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="R1" library="r" deviceset="R-H" device="0202/7" value="100k"/>
 <part name="R2" library="r" deviceset="R-H" device="0202/7" value="330"/>
 <part name="R3" library="r" deviceset="R" device="0202/7" value="100"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/7" value="22"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/7" value="27"/>
 <part name="C1" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="R5" library="r" deviceset="POT" device="-3P" value="100k"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="C3" library="c" deviceset="CPOL" device="E2,5-5/V" value="470uF"/>
-<part name="C4" library="c" deviceset="CPOL" device="E5-4" value="220uF"/>
-<part name="IN" library="pad" deviceset="SPAD+-" device="+-"/>
+<part name="C4" library="c" deviceset="CPOL" device="E5-4" value="100uF"/>
+<part name="IN" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
 <part name="HDPH" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
@@ -4572,8 +4572,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <attribute name="NAME" x="73.66" y="58.42" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="73.66" y="53.34" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="IN" gate="+" x="5.08" y="30.48"/>
-<instance part="IN" gate="-" x="5.08" y="45.72"/>
+<instance part="IN" gate="+" x="5.08" y="45.72"/>
+<instance part="IN" gate="-" x="5.08" y="30.48"/>
 <instance part="BAT" gate="+" x="101.6" y="86.36" rot="R180"/>
 <instance part="BAT" gate="-" x="101.6" y="30.48" rot="R180"/>
 <instance part="U$1" gate="G$1" x="99.06" y="91.44"/>
@@ -4671,13 +4671,13 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="43.18" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <junction x="68.58" y="30.48"/>
 <junction x="43.18" y="30.48"/>
-<pinref part="IN" gate="+" pin="P$1"/>
-<wire x1="5.08" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="BAT" gate="-" pin="P$1"/>
 <wire x1="20.32" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R5" gate="1" pin="A"/>
 <wire x1="20.32" y1="33.02" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="IN" gate="-" pin="P$1"/>
+<wire x1="5.08" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="20.32" y="30.48"/>
 </segment>
 </net>
@@ -4695,13 +4695,6 @@ http://www.electronics-diy.com/4x4.php</description>
 <pinref part="HDPH" gate="-" pin="P$1"/>
 <wire x1="83.82" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <junction x="83.82" y="55.88"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="IN" gate="-" pin="P$1"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="5.08" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -4732,6 +4725,13 @@ http://www.electronics-diy.com/4x4.php</description>
 <pinref part="BAT" gate="+" pin="P$1"/>
 <wire x1="99.06" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 <junction x="99.06" y="86.36"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IN" gate="+" pin="P$1"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="5.08" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
