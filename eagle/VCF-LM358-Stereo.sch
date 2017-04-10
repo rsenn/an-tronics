@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -72,7 +72,9 @@
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<description>Voltage-Controlled Low-Pass Filter using LM358 Dual-Opamp (Stereo)</description>
+<description>Voltage-Controlled Low-Pass Filter using LM358 Dual-Opamp (Stereo)
+
+http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=asc&amp;highlight=</description>
 <libraries>
 <library name="ic">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;

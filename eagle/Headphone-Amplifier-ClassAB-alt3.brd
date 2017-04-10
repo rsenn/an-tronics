@@ -72,6 +72,9 @@
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<description>4x4 - Three Transistor Headphone Amplifier - Class AB
+
+http://www.electronics-diy.com/4x4.php</description>
 <plain>
 <wire x1="-1.27" y1="-1.27" x2="31.75" y2="-1.27" width="0" layer="20"/>
 <wire x1="31.75" y1="-1.27" x2="31.75" y2="16.51" width="0" layer="20"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -74,7 +74,9 @@
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <description>Voltage-Controlled Low-Pass Filter with LFO using LM324 Quad-Opamp (Stereo)
 
-Using CadSoft EAGLE Modular Design Sheets</description>
+Using CadSoft EAGLE Modular Design Sheets
+
+http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=asc&amp;highlight=</description>
 <libraries>
 <library name="ic">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;

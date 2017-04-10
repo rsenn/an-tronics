@@ -71,6 +71,9 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>Kosmos X3000, UKW-Pendler mit FET
+11.Mar.09 11:01 by Wolfgang Holtmann
+http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</description>
 <libraries>
 <library name="t">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
@@ -3465,7 +3468,7 @@
 <attribute name="NAME" x="20.32" y="25.4" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="20.32" y="20.32" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="30.48" y="15.24"/>
+<instance part="R3" gate="G$1" x="30.48" y="15.24" rot="R180"/>
 <instance part="R2" gate="G$1" x="40.64" y="22.86"/>
 <instance part="C3" gate="1" x="50.8" y="15.24"/>
 <instance part="L2" gate="L1" x="30.48" y="50.8"/>
@@ -3525,16 +3528,15 @@
 <wire x1="0" y1="10.16" x2="0" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="0" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="7.62" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="7.62" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="GND"/>
 <wire x1="30.48" y1="7.62" x2="30.48" y2="5.08" width="0.1524" layer="91"/>
 <junction x="30.48" y="7.62"/>
 <pinref part="C3" gate="1" pin="2"/>
 <wire x1="30.48" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="AF" gate="-" pin="P$1"/>
-<wire x1="50.8" y1="8.89" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="7.62" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="7.62" x2="50.8" y2="8.89" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="1" pin="2"/>
@@ -3565,7 +3567,7 @@
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="22.86" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C1" gate="1" pin="1"/>
 <wire x1="30.48" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 <junction x="30.48" y="22.86"/>

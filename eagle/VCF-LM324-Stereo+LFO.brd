@@ -72,7 +72,9 @@
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<description>Voltage-Controlled Low-Pass Filter with LFO using LM324 Quad-Opamp (Stereo)</description>
+<description>Voltage-Controlled Low-Pass Filter with LFO using LM324 Quad-Opamp (Stereo)
+
+http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=asc&amp;highlight=</description>
 <plain>
 <wire x1="2.54" y1="0" x2="55.88" y2="0" width="0" layer="20"/>
 <wire x1="55.88" y1="0" x2="55.88" y2="60.96" width="0" layer="20"/>

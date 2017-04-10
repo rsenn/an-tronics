@@ -73,6 +73,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <description>4x4 - Three Transistor Headphone Amplifier - Class AB
+
 http://www.electronics-diy.com/4x4.php</description>
 <libraries>
 <library name="t">

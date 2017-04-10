@@ -71,6 +71,9 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<description>Forced quenching improves three-transistor FM tuner
+Lyle Williams -February 29, 2016
+http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-tuner</description>
 <plain>
 <wire x1="45.72" y1="0" x2="45.72" y2="17.78" width="0" layer="20"/>
 <wire x1="45.72" y1="17.78" x2="0" y2="17.78" width="0" layer="20"/>

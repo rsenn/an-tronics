@@ -71,6 +71,12 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<description>VHF Superregen for AM Aircraft Band
+by Kamarudin 2008 - arjip.wordpress.com
+
+https://arjip.wordpress.com/tag/airband-scanner/
+https://arjip.wordpress.com/tag/super-regenerative/
+http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <plain>
 <wire x1="7.62" y1="0" x2="43.16" y2="0" width="0" layer="20"/>
 <wire x1="43.16" y1="0" x2="43.16" y2="37.77" width="0" layer="20"/>

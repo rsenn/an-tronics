@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -72,7 +72,9 @@
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<description>Voltage-Controlled Low-Pass Filter with LFO using LM324 Quad-Opamp (Stereo)</description>
+<description>Voltage-Controlled Low-Pass Filter with LFO using LM324 Quad-Opamp (Stereo)
+
+http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=asc&amp;highlight=</description>
 <libraries>
 <library name="ic">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
