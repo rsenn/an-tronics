@@ -4013,6 +4013,26 @@ http://www.electronics-diy.com/4x4.php</description>
 <text x="1.524" y="-2.032" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
 </package>
+<package name="E5-4-R45">
+<wire x1="-2.474096875" y1="-0.574521875" x2="0.574525" y2="2.474096875" width="0.1524" layer="21" curve="-116.147"/>
+<wire x1="-0.574525" y1="-2.47409375" x2="2.47409375" y2="0.574525" width="0.1524" layer="21" curve="116.147"/>
+<wire x1="-2.474096875" y1="-0.574521875" x2="-0.574525" y2="-2.47409375" width="0.1524" layer="51" curve="63.8534"/>
+<wire x1="2.47409375" y1="0.574525" x2="0.574525" y2="2.474096875" width="0.1524" layer="51" curve="63.8534"/>
+<wire x1="-0.987828125" y1="-0.987825" x2="-0.538815625" y2="-0.5388125" width="0.1524" layer="21"/>
+<wire x1="-0.538815625" y1="-0.5388125" x2="0.17960625" y2="-1.257234375" width="0.1524" layer="21"/>
+<wire x1="0.17960625" y1="-1.257234375" x2="0.538815625" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="0.538815625" y1="-0.898025" x2="-0.898025" y2="0.53881875" width="0.1524" layer="21"/>
+<wire x1="-0.898025" y1="0.53881875" x2="-1.257234375" y2="0.17960625" width="0.1524" layer="21"/>
+<wire x1="-1.257234375" y1="0.17960625" x2="-0.538815625" y2="-0.5388125" width="0.1524" layer="21"/>
+<wire x1="0.4490125" y1="0.449015625" x2="0.987828125" y2="0.98783125" width="0.1524" layer="21"/>
+<wire x1="-1.52664375" y1="-0.628615625" x2="-1.167434375" y2="-0.26940625" width="0.1524" layer="21"/>
+<wire x1="-1.167434375" y1="-0.628615625" x2="-1.52664375" y2="-0.26940625" width="0.1524" layer="21"/>
+<pad name="+" x="-1.27" y="-1.27" drill="0.8" diameter="1.905" shape="square" rot="R45"/>
+<pad name="-" x="1.27" y="1.27" drill="0.8" diameter="1.905" rot="R45"/>
+<text x="0.898025" y="2.694078125" size="0.8128" layer="25">&gt;NAME</text>
+<text x="2.694075" y="0.898028125" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<rectangle x1="0.105209375" y1="-0.6567875" x2="0.613209375" y2="1.3752125" layer="21" rot="R45"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL">
@@ -4407,6 +4427,15 @@ http://www.electronics-diy.com/4x4.php</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="E5-4-R45" package="E5-4-R45">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -4537,7 +4566,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-5/V" value="470uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E5-4-R45" value="470uF"/>
 <part name="C4" library="c" deviceset="CPOL" device="E5-4" value="100uF"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>
