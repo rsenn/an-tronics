@@ -26,7 +26,7 @@ UsedLibrary="eagle/lbr/battery.lbr"
 [Win_1]
 Type="Schematic Editor"
 Loc="43 0 1244 860"
-State=0
+State=2
 Number=2
 File="eagle/Headphone-Amplifier-ClassAB.sch"
 View="-8.07391 20.3742 116.791 101.207"
@@ -74,7 +74,7 @@ Sheet="1"
 [Win_2]
 Type="Board Editor"
 Loc="443 34 1806 892"
-State=0
+State=2
 Number=1
 File="eagle/Headphone-Amplifier-ClassAB.brd"
 View="-28.4043 -3.02626 36.0035 30.4424"
