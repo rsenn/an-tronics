@@ -4516,13 +4516,13 @@ http://www.electronics-diy.com/4x4.php</description>
 <parts>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="T2" library="t" deviceset="BC327" device="" value="BC327"/>
-<part name="D1" library="d" deviceset="1N4148" device="34-2,5" value="1N414834-2,5"/>
-<part name="D2" library="d" deviceset="1N4148" device="34-2,5-A" value="1N414834-2,5-A"/>
+<part name="D1" library="d" deviceset="1N4148" device="34-5V" value="1N414834-5V"/>
+<part name="D2" library="d" deviceset="1N4148" device="34-5V" value="1N414834-5V"/>
 <part name="T3" library="t" deviceset="BC337" device="CBE" value="BC337"/>
-<part name="R1" library="r" deviceset="R-H" device="0202/5" value="100k"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/7" value="100k"/>
 <part name="R2" library="r" deviceset="R-H" device="0202/7" value="330"/>
 <part name="R3" library="r" deviceset="R" device="0202/7" value="100"/>
-<part name="R4" library="r" deviceset="R-H" device="-V" value="22"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/7" value="22"/>
 <part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="4.7uF"/>
 <part name="R5" library="r" deviceset="POT" device="-3P" value="100k"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
