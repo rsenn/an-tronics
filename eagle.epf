@@ -25,7 +25,7 @@ UsedLibrary="eagle/lbr/battery.lbr"
 
 [Win_1]
 Type="Library Editor"
-Loc="-4 -4 1915 932"
+Loc="0 0 1919 936"
 State=2
 Number=3
 File="C:/Users/roman.gatling/Documents/an-tronics/eagle/lbr/t.lbr"
