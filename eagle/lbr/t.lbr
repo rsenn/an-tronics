@@ -893,6 +893,23 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="BC327">
+<gates>
+<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

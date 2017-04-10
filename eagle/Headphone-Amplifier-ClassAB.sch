@@ -80,6 +80,24 @@ http://www.electronics-diy.com/4x4.php</description>
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
 </description>
 <packages>
+<package name="TO92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<pad name="3" x="0" y="-2.54" drill="0.8" shape="octagon" rot="R270"/>
+<pad name="1" x="0" y="2.54" drill="0.8" shape="octagon" rot="R270"/>
+<pad name="2" x="0" y="0" drill="0.8" shape="octagon" rot="R270"/>
+<text x="-1.27" y="2.54" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="1.27" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="2.664" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
+<text x="-0.635" y="1.905" size="0.3048" layer="21" rot="R180">1</text>
+</package>
 <package name="TO92-CBE">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  C B E from top&lt;p&gt;</description>
 <pad name="C" x="0" y="2.54" drill="0.7" diameter="1.4224"/>
@@ -157,6 +175,33 @@ http://www.electronics-diy.com/4x4.php</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="BC337" prefix="T">
+<gates>
+<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="CBE" package="TO92-CBE">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CBE-A" package="TO92-CBE-A">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="BC547" prefix="T">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -184,26 +229,16 @@ http://www.electronics-diy.com/4x4.php</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC557" prefix="T">
+<deviceset name="BC327">
 <gates>
-<gate name="G$1" symbol="PNP" x="0" y="0"/>
+<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="CBE" package="TO92-CBE">
+<device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CBE-A" package="TO92-CBE-A">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1709,6 +1744,18 @@ http://www.electronics-diy.com/4x4.php</description>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
+<package name="CONN-3P">
+<pad name="3" x="2.54" y="0" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<text x="-4.064" y="-1.27" size="0.6096" layer="23" align="bottom-right">1</text>
+<text x="0" y="1.905" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R-1">
@@ -1866,6 +1913,15 @@ http://www.electronics-diy.com/4x4.php</description>
 </technologies>
 </device>
 <device name="0204/2-V" package="0204V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-V" package="0204V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2148,6 +2204,16 @@ http://www.electronics-diy.com/4x4.php</description>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="E" pad="E"/>
 <connect gate="1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3P" package="CONN-3P">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4449,16 +4515,16 @@ http://www.electronics-diy.com/4x4.php</description>
 </classes>
 <parts>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="T2" library="t" deviceset="BC557" device="CBE" value="BC557"/>
-<part name="D1" library="d" deviceset="1N4148" device="34-5" value="1N4148"/>
-<part name="D2" library="d" deviceset="1N4148" device="34-5" value="1N4148"/>
-<part name="T3" library="t" deviceset="BC547" device="CBE" value="BC547"/>
+<part name="T2" library="t" deviceset="BC327" device="" value="BC327"/>
+<part name="D1" library="d" deviceset="1N4148" device="34-5" value=""/>
+<part name="D2" library="d" deviceset="1N4148" device="34-5" value=""/>
+<part name="T3" library="t" deviceset="BC337" device="CBE" value="BC337"/>
 <part name="R1" library="r" deviceset="R-H" device="0202/5" value="100k"/>
-<part name="R2" library="r" deviceset="R-H" device="0202/5" value="330"/>
-<part name="R3" library="r" deviceset="R" device="0202/5-V" value="100"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/7" value="22"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/7" value="330"/>
+<part name="R3" library="r" deviceset="R" device="0202/7" value="100"/>
+<part name="R4" library="r" deviceset="R-H" device="-V" value="22"/>
 <part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="4.7uF"/>
-<part name="R5" library="r" deviceset="POT" device="" value="100k"/>
+<part name="R5" library="r" deviceset="POT" device="-3P" value="100k"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
@@ -4467,7 +4533,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="IN" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
-<part name="HDPH" library="pad" deviceset="SPAD+-" device="+-"/>
+<part name="HDPH" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 </parts>
 <sheets>
 <sheet>
