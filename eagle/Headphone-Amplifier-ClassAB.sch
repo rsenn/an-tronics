@@ -1745,16 +1745,16 @@ http://www.electronics-diy.com/4x4.php</description>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
 <package name="CONN-3P">
-<pad name="3" x="2.54" y="0" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
-<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
-<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
-<text x="-4.064" y="-1.27" size="0.6096" layer="23" align="bottom-right">1</text>
-<text x="0" y="1.905" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="3" x="0" y="2.54" drill="0.9" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="1" x="0" y="-2.54" drill="0.9" diameter="1.778" shape="square" rot="R270"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<text x="-2.54" y="-3.556" size="0.6096" layer="23" rot="R270" align="bottom-right">1</text>
+<text x="0" y="4.445" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.445" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1925,6 +1925,15 @@ http://www.electronics-diy.com/4x4.php</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-V-X" package="0204V">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4519,10 +4528,10 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="D1" library="d" deviceset="1N4148" device="34-5V" value=""/>
 <part name="D2" library="d" deviceset="1N4148" device="34-5V" value=""/>
 <part name="T3" library="t" deviceset="BC337" device="CBE" value="BC337"/>
-<part name="R1" library="r" deviceset="R-H" device="0202/7" value="100k"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/5" value="100k"/>
 <part name="R2" library="r" deviceset="R-H" device="0202/7" value="330"/>
 <part name="R3" library="r" deviceset="R" device="0202/7" value="100"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/7" value="27"/>
+<part name="R4" library="r" deviceset="R-H" device="-V-X" value="27"/>
 <part name="C1" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="R5" library="r" deviceset="POT" device="-3P" value="100k"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
