@@ -153,18 +153,18 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 </library>
 <library name="cap-trim">
 <packages>
-<package name="TRIM808-45">
-<wire x1="1.6719125" y1="-3.134153125" x2="-1.7046625" y2="-3.134153125" width="0.127" layer="21" curve="-56.758486"/>
-<wire x1="-3.141503125" y1="-1.6973125" x2="-3.141503125" y2="1.6792625" width="0.127" layer="21" curve="-56.758486"/>
-<wire x1="3.108753125" y1="-1.6973125" x2="-1.7046625" y2="3.116103125" width="0.127" layer="21" curve="146.758486"/>
-<circle x="0" y="0" radius="1.271" width="0.1524" layer="21"/>
-<pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
-<pad name="1" x="2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
-<pad name="3" x="-2.54" y="2.54" drill="1" shape="octagon" rot="R135"/>
-<text x="-3.81" y="3.81" size="1.016" layer="25">&gt;NAME</text>
-<text x="3.556" y="3.81" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
-<rectangle x1="-1.235575" y1="-0.313828125" x2="1.202825" y2="0.295771875" layer="21" rot="R270"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="21"/>
+<package name="CTRIMTZ03">
+<wire x1="1.45" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="-1.45" y1="-2.5" x2="-1.05" y2="2.7" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="1.05" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="51" curve="-42.501011"/>
+<circle x="0" y="0" radius="1.6" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="2.5" drill="1"/>
+<pad name="2" x="0" y="-2.5" drill="1"/>
+<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
+<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
 </package>
 </packages>
 </library>
@@ -479,10 +479,16 @@ design rules under a new name.</description>
 <element name="C1" library="c" package="C025-015X024" value="20pF" x="8.89" y="5.08" rot="R90"/>
 <element name="C2" library="c" package="C025-015X024" value="10pF" x="19.05" y="15.24" rot="R90"/>
 <element name="C4" library="c" package="C050-020X044" value="2.7nF" x="35.56" y="15.24"/>
-<element name="C5" library="c" package="C050-020X044" value="10nF" x="38.1" y="12.7" rot="R180"/>
-<element name="C6" library="c" package="C050-020X044" value="100nF" x="40.64" y="10.16"/>
-<element name="C7" library="cap-trim" package="TRIM808-45" value="0.04 - 6pF" x="20.32" y="5.08" rot="R270"/>
-<element name="L1" library="l" package="L-08/10V-TAP1" value="*" x="8.89" y="10.16" rot="R90"/>
+<element name="C5" library="c" package="C050-020X044" value="10nF" x="38.1" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.751" y="13.462" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="38.1" y="10.922" size="0.8128" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="C6" library="c" package="C050-020X044" value="100nF" x="40.64" y="10.16" smashed="yes">
+<attribute name="NAME" x="41.021" y="10.922" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="40.64" y="9.398" size="0.8128" layer="27" align="top-left"/>
+</element>
+<element name="C7" library="cap-trim" package="CTRIMTZ03" value="0.04 - 6pF" x="20.32" y="5.08" rot="R270"/>
+<element name="L1" library="l" package="L-08/10V-TAP1" value="0.1uH" x="8.89" y="10.16" rot="R90"/>
 <element name="L2" library="l" package="L-04/7-V" value="8.2uH" x="29.21" y="12.7" rot="R90"/>
 <element name="R1" library="r" package="0204/10-V" value="10k" x="35.56" y="5.08" rot="R90"/>
 <element name="R2" library="r" package="0204/10-V" value="12k" x="35.56" y="7.62" rot="R90"/>
@@ -499,11 +505,10 @@ design rules under a new name.</description>
 <contactref element="C7" pad="2"/>
 <wire x1="17.78" y1="15.24" x2="17.78" y2="12.7" width="0.6096" layer="16"/>
 <wire x1="10.16" y1="5.08" x2="15.24" y2="5.08" width="0.6096" layer="16"/>
-<wire x1="15.24" y1="5.08" x2="15.24" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="17.78" y1="12.7" x2="15.24" y2="12.7" width="0.6096" layer="16"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="10.16" width="0.6096" layer="16"/>
-<wire x1="17.78" y1="7.62" x2="15.24" y2="7.62" width="0.6096" layer="16"/>
-<wire x1="15.24" y1="7.62" x2="15.24" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="17.82" y1="5.08" x2="15.24" y2="5.08" width="0.6096" layer="16"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="10.16" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="L1" pad="3"/>
@@ -522,7 +527,7 @@ design rules under a new name.</description>
 <contactref element="T1" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="AF" pad="1"/>
-<wire x1="17.78" y1="2.54" x2="22.86" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="22.82" y1="5.08" x2="22.86" y2="2.54" width="0.6096" layer="16"/>
 <contactref element="C4" pad="2"/>
 <contactref element="R1" pad="2"/>
 <contactref element="C5" pad="2"/>
@@ -530,14 +535,16 @@ design rules under a new name.</description>
 <wire x1="27.94" y1="2.54" x2="40.64" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="38.1" y1="15.24" x2="35.56" y2="15.24" width="0.6096" layer="16"/>
 <wire x1="35.56" y1="15.24" x2="35.56" y2="12.7" width="0.6096" layer="16"/>
-<wire x1="17.78" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="22.82" y1="5.08" x2="22.86" y2="5.08" width="0.6096" layer="16"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="22.86" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="43.18" y1="2.54" x2="40.64" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="40.64" y1="2.54" x2="40.64" y2="5.08" width="0.6096" layer="16"/>
 <wire x1="35.56" y1="12.7" x2="35.56" y2="5.08" width="0.6096" layer="16"/>
 <wire x1="35.56" y1="5.08" x2="40.64" y2="5.08" width="0.6096" layer="16"/>
 <contactref element="QUENCH" pad="1"/>
 <wire x1="27.94" y1="2.54" x2="22.86" y2="2.54" width="0.6096" layer="16"/>
-<wire x1="22.86" y1="2.54" x2="22.86" y2="12.7" width="0.6096" layer="16"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="12.7" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="C4" pad="1"/>

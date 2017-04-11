@@ -3795,6 +3795,19 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
 </package>
+<package name="CTRIMTZ03">
+<wire x1="1.45" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="-1.45" y1="-2.5" x2="-1.05" y2="2.7" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="1.05" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="51" curve="-42.501011"/>
+<circle x="0" y="0" radius="1.6" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="2.5" drill="1"/>
+<pad name="2" x="0" y="-2.5" drill="1"/>
+<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
+<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP-TRIM">
@@ -3946,6 +3959,15 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
+<device name="-TZ03" package="CTRIMTZ03">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -3960,7 +3982,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 </class>
 </classes>
 <parts>
-<part name="L1" library="l" deviceset="L-TAP1" device="L-08/10V-TAP1" value="*"/>
+<part name="L1" library="l" deviceset="L-TAP1" device="L-08/10V-TAP1" value="0.1uH"/>
 <part name="T1" library="t" deviceset="BF245B" device="TO92" value="BF245A"/>
 <part name="C1" library="c" deviceset="C" device="025-015X024" value="20pF"/>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="10pF"/>
@@ -3974,7 +3996,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <part name="C6" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
 <part name="AF" library="pad" deviceset="SPAD+-" device="+-" value="SPAD+-+-"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C7" library="cap-trim" deviceset="C-TR-PH20127" device="-45-2P21" value="0.04 - 6pF"/>
+<part name="C7" library="cap-trim" deviceset="C-TR-PH20127" device="-TZ03" value="0.04 - 6pF"/>
 <part name="PWR" library="pad" deviceset="VCC_GND" device="L"/>
 <part name="QUENCH" library="pad" deviceset="SPAD+-" device="-+"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
@@ -3982,11 +4004,33 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <sheets>
 <sheet>
 <plain>
-<text x="53.34" y="58.42" size="1.016" layer="97" font="fixed" align="top-left">* The antenna coil is composed of five turns of space wound AWG 18 wire on a 1/4" form.
+<text x="53.34" y="71.12" size="1.4224" layer="97" align="top-left">* The antenna coil is composed of five turns of space wound AWG 18 (d=1mm) wire on a 1/4" (6.35mm) form.
   The windings are spaced one wire-width apart, so you can close-wind two windings on
   the form and then remove one of them.When formed, the coil can be removed from the form.
   The coil is tapped one half turn from the  12 volt supply side to make a connection for
   the antenna</text>
+<text x="53.34" y="33.02" size="1.4224" layer="97" align="center-left">Arbeitsfrequenz 108 MHz
+Der Durchmesser der form D: 15 mm
+Drahtdurchmesser d: 0.3 mm
+Drahtdurchmesser mit Isolierung k: 0.327 mm
+Wickellänge l: 7.867 mm
+Länge des Drahtes ohne Leitungen:  1.114 m
+Widerstand der Spule zu DC: 0.276 Ohm
+Reaktanz der Spule: 5564.389 Ohm
+Anzahl der Windungen der Spule: 23.142</text>
+<text x="11.43" y="33.02" size="1.4224" layer="97" align="center-left">Grey-Red-Gold</text>
+<text x="109.22" y="53.34" size="1.016" layer="97" font="fixed" align="center-left">
+Der Durchmesser der form D: 6.35 mm
+Drahtdurchmesser d: 1 mm
+Drahtdurchmesser mit Isolierung k: 1.09 mm
+Wickelsteigung p: 2 mm
+Anzahl der Windungen der Spule: 5
+Arbeitsfrequenz: 108 MHz
+Induktivität: 0.1 µH
+Eigenkapazität: Cs = 0.25 pF
+Spuleneigenresonanzfrequenz: Fsr = 583.251 MHz
+Coil konstruktive Q-Faktor: Q = 545 (Werkstoff Draht: Kupfer)
+Verlustwiderstand: ESR=0.125 Ohm</text>
 </plain>
 <instances>
 <instance part="L1" gate="1" x="45.72" y="73.66"/>
