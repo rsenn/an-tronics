@@ -5869,7 +5869,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <instance part="R2" gate="G$1" x="22.86" y="55.88"/>
 <instance part="C5" gate="1" x="7.62" y="43.18"/>
 <instance part="C6" gate="1" x="22.86" y="43.18"/>
-<instance part="R3" gate="G$1" x="30.48" y="43.18" rot="MR180"/>
+<instance part="R3" gate="G$1" x="30.48" y="43.18"/>
 <instance part="L2" gate="L1" x="30.48" y="63.5"/>
 <instance part="C7" gate="1" x="35.56" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.56" y="53.34" size="1.27" layer="95" align="bottom-center"/>
@@ -5880,7 +5880,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <instance part="R5" gate="G$1" x="0" y="60.96"/>
 <instance part="C9" gate="1" x="53.34" y="43.18"/>
 <instance part="R6" gate="G$1" x="60.96" y="60.96"/>
-<instance part="R7" gate="G$1" x="68.58" y="73.66"/>
+<instance part="R7" gate="G$1" x="68.58" y="73.66" rot="R180"/>
 <instance part="C2" gate="G$1" x="76.2" y="60.96" smashed="yes" rot="MR270">
 <attribute name="NAME" x="73.66" y="63.5" size="1.27" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="77.47" y="63.5" size="1.27" layer="96" rot="R180" align="top-right"/>
@@ -5950,7 +5950,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <wire x1="-7.62" y1="60.96" x2="-7.62" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-7.62" y="86.36"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="68.58" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="78.74" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <junction x="68.58" y="86.36"/>
 <pinref part="BAT+" gate="1" pin="P$1"/>
@@ -5975,7 +5975,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="38.1" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="48.26" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="50.8" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C6" gate="1" pin="1"/>
@@ -6002,7 +6002,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <wire x1="68.58" y1="55.88" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="60.96" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="60.96" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
 <junction x="68.58" y="60.96"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="68.58" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
@@ -6058,7 +6058,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="48.26" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="38.1" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C5" gate="1" pin="2"/>
