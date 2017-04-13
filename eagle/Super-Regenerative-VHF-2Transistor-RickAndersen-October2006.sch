@@ -5820,7 +5820,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <part name="L1" library="l" deviceset="L-SHORT" device="04-5/5V" value="0.22uH"/>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15pF"/>
 <part name="C4" library="c" deviceset="C" device="050-024X044/V" value="470nF"/>
-<part name="R2" library="r" deviceset="R-H" device="0202/5" value="12k"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/7" value="12k"/>
 <part name="C5" library="c" deviceset="C" device="025-020X036" value="1nF"/>
 <part name="C6" library="c" deviceset="C" device="025-020X036" value="1nF"/>
 <part name="R3" library="r" deviceset="R" device="0202/5-V" value="10k"/>
