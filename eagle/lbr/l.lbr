@@ -1170,8 +1170,8 @@
 </device>
 <device name="04-5/5V-X" package="L-04-2/5V-X">
 <connects>
-<connect gate="L1" pin="1" pad="1"/>
-<connect gate="L1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="2"/>
+<connect gate="L1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
