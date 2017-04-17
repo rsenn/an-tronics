@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -891,6 +891,22 @@
 <pad name="P$2" x="0" y="-5.08" drill="1" diameter="1.9304" rot="R180"/>
 <pad name="P$3" x="-5.08" y="2.54" drill="1" diameter="1.9304" rot="R180"/>
 </package>
+<package name="L-08-7/5H-TAP1">
+<pad name="2" x="5.08" y="-2.54" drill="0.8" rot="R90"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.8" rot="R90"/>
+<text x="-2.54" y="4.191" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
+<text x="-0.381" y="-3.81" size="0.8128" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-1.651" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-1.651" y1="2.54" x2="-1.651" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="4.699" y1="-2.54" x2="4.699" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="3.429" y1="-3.048" x2="4.699" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="0.889" y1="-3.048" x2="2.159" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="-1.651" y1="-3.048" x2="-0.381" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="4.699" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="-3.048" x2="0.889" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="-3.048" x2="3.429" y2="3.302" width="0.2032" layer="21"/>
+<pad name="3" x="0" y="0" drill="0.8" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L">
@@ -1326,6 +1342,16 @@
 <connect gate="1" pin="1" pad="P$1"/>
 <connect gate="1" pin="2" pad="P$2"/>
 <connect gate="1" pin="T" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-08-7/5H" package="L-08-7/5H-TAP1">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="T" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

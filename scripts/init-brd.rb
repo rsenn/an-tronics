@@ -222,7 +222,7 @@ begin
     y = (inst[:y] / 50.8).round(1)
     o = Hash.new
 
-    if /^S[0-9]/.match inst[:part] then next end
+    if /^S[0-9]/.match inst[:part].to_s then next end
       
     o[:name] = inst[:part]
     o[:x] = x
