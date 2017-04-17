@@ -2095,6 +2095,26 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="LM741" prefix="IC">
+<gates>
+<gate name="A" symbol="OPAMP" x="0" y="0"/>
+<gate name="G$2" symbol="PWR+-" x="15.24" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL08">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="6"/>
+<connect gate="G$2" pin="V+" pad="7"/>
+<connect gate="G$2" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
