@@ -2599,7 +2599,7 @@
 <wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
 <wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
 </package>
-<package name="C0750-020X044">
+<package name="C075-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
 <pad name="2" x="3.81" y="0" drill="0.8" rot="R180"/>
@@ -2961,6 +2961,24 @@
 <text x="0.898025" y="2.694078125" size="0.6096" layer="25">&gt;NAME</text>
 <text x="2.694075" y="0.898028125" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="0.105209375" y1="-0.6567875" x2="0.613209375" y2="1.3752125" layer="21" rot="R45"/>
+</package>
+<package name="C075-020X044/V">
+<wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R90"/>
+<text x="-1.016" y="2.54" size="0.6096" layer="25" rot="R180" align="center-left">&gt;NAME</text>
+<text x="0.635" y="-2.54" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
+<wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="0.3937" width="0.0762" layer="51"/>
+<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
+<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="-0.254" y1="2.159" x2="-0.635" y2="1.778" width="0.1016" layer="21" curve="90"/>
+<wire x1="0.254" y1="-2.159" x2="-0.254" y2="-2.159" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="-2.159" x2="-0.635" y2="-1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.254" y1="-2.159" x2="0.635" y2="-1.778" width="0.1016" layer="21" curve="90"/>
 </package>
 </packages>
 <symbols>
@@ -3726,6 +3744,24 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="075-020X044" package="C075-020X044">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044/V" package="C075-020X044/V">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C-H" prefix="C" uservalue="yes">
@@ -3751,7 +3787,16 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="075-020X044" package="C0750-020X044">
+<device name="075-020X044" package="C075-020X044">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044/V" package="C075-020X044/V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

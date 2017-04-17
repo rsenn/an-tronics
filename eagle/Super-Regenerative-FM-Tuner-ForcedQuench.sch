@@ -543,56 +543,6 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <pad name="1" x="-3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 <pad name="2" x="3.81" y="2.54" drill="1.2" diameter="1.9304" rot="R90"/>
 </package>
-<package name="L-04-5/5V-X">
-<pad name="2" x="-1.27" y="-2.54" drill="0.8"/>
-<pad name="1" x="1.27" y="2.54" drill="0.8"/>
-<wire x1="-1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="2.286" x2="1.27" y2="1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="1.524" x2="1.27" y2="0.254" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="0.762" x2="1.27" y2="-0.508" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<text x="2.032" y="0.635" size="0.8128" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
-<text x="2.032" y="-1.905" size="0.8128" layer="27" rot="R180" align="top-right">&gt;VALUE</text>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
-</package>
-<package name="L-04-5/5V">
-<pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
-<pad name="1" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
-<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<text x="-1.778" y="0.635" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.778" y="-0.635" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
-</package>
-<package name="L-04-5/5">
-<pad name="2" x="2.54" y="1.27" drill="0.8" rot="R270"/>
-<pad name="1" x="-2.54" y="-1.27" drill="0.8" rot="R270"/>
-<wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0" x2="-1.016" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.254" y1="1.27" x2="-1.524" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.524" y1="0" x2="-0.254" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="0.508" y1="1.27" x2="-0.762" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.762" y1="0" x2="0.508" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
-<text x="0" y="1.651" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="L-04/7">
 <pad name="1" x="3.81" y="0" drill="0.8" rot="R270"/>
 <pad name="2" x="-3.81" y="0" drill="0.8" rot="R270"/>
@@ -615,8 +565,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
 </package>
 <package name="L-04/7-V">
-<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
-<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="3.81" drill="0.8"/>
+<pad name="2" x="0" y="-3.81" drill="0.8"/>
 <wire x1="1.27" y1="2.286" x2="0" y2="3.556" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="3.556" x2="-1.27" y2="2.286" width="0.127" layer="21" curve="90"/>
 <wire x1="1.27" y1="1.524" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
@@ -634,6 +584,76 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-1.27" y1="-2.286" x2="0" y2="-3.556" width="0.127" layer="21" curve="90"/>
 <text x="-2.032" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-2.032" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+</package>
+<package name="L-10/10V-X-TAP1">
+<wire x1="4.25" y1="3.5" x2="-4.25" y2="4.5" width="1" layer="22"/>
+<wire x1="4.25" y1="1.5" x2="-4.25" y2="2.5" width="1" layer="22"/>
+<wire x1="4.25" y1="-0.5" x2="-4.25" y2="0.5" width="1" layer="22"/>
+<wire x1="4.25" y1="-2.5" x2="-4.25" y2="-1.5" width="1" layer="22"/>
+<wire x1="4.25" y1="-4.5" x2="-4.25" y2="-3.5" width="1" layer="22"/>
+<pad name="P$1" x="0" y="5.08" drill="1" diameter="1.9304" rot="R180"/>
+<pad name="P$2" x="0" y="-5.08" drill="1" diameter="1.9304" rot="R180"/>
+<pad name="P$3" x="-5.08" y="2.54" drill="1" diameter="1.9304" rot="R180"/>
+</package>
+<package name="L-10/10V-TAP1">
+<wire x1="-4.25" y1="3.5" x2="4.25" y2="4.5" width="1" layer="21"/>
+<wire x1="-4.25" y1="1.5" x2="4.25" y2="2.5" width="1" layer="21"/>
+<wire x1="-4.25" y1="-0.5" x2="4.25" y2="0.5" width="1" layer="21"/>
+<wire x1="-4.25" y1="-2.5" x2="4.25" y2="-1.5" width="1" layer="21"/>
+<wire x1="-4.25" y1="-4.5" x2="4.25" y2="-3.5" width="1" layer="21"/>
+<pad name="P$1" x="0" y="5.08" drill="1" diameter="1.9304"/>
+<pad name="P$2" x="0" y="-5.08" drill="1" diameter="1.9304"/>
+<pad name="P$3" x="5.08" y="2.54" drill="1" diameter="1.9304"/>
+</package>
+<package name="L-04-2/5V-X">
+<pad name="2" x="-1.27" y="-2.54" drill="0.8"/>
+<pad name="1" x="1.27" y="2.54" drill="0.8"/>
+<wire x1="-1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.286" x2="1.27" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.524" x2="1.27" y2="0.254" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0.762" x2="1.27" y2="-0.508" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="2.032" y="0.635" size="0.8128" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
+<text x="2.032" y="-1.905" size="0.8128" layer="27" rot="R180" align="top-right">&gt;VALUE</text>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="L-04-2/5V">
+<pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
+<pad name="1" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
+<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="-1.778" y="0.635" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.778" y="-0.635" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="L-04-2/5">
+<pad name="2" x="2.54" y="1.27" drill="0.8" rot="R270"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.8" rot="R270"/>
+<wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.286" y1="0" x2="-1.016" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.254" y1="1.27" x2="-1.524" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.524" y1="0" x2="-0.254" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0.508" y1="1.27" x2="-0.762" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.762" y1="0" x2="0.508" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<text x="0" y="1.651" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -722,7 +742,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/10V-TAP1" package="L-04/10V-TAP1">
+<device name="04/10V" package="L-04/10V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -732,7 +752,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-06/10V-TAP1" package="L-06/10V-TAP1">
+<device name="06/10V" package="L-06/10V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -742,7 +762,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08/10V-TAP1" package="L-08/10V-TAP1">
+<device name="08/10V" package="L-08/10V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -752,7 +772,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08/10-TAP1" package="L-08/10-TAP1">
+<device name="08/10" package="L-08/10-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -762,11 +782,31 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08/10-X-TAP1" package="L-08/10-X-TAP1">
+<device name="08/10-X" package="L-08/10-X-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
 <connect gate="1" pin="T" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="10/10V" package="L-10/10V-TAP1">
+<connects>
+<connect gate="1" pin="1" pad="P$1"/>
+<connect gate="1" pin="2" pad="P$2"/>
+<connect gate="1" pin="T" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="10/10V-X" package="L-10/10V-X-TAP1">
+<connects>
+<connect gate="1" pin="1" pad="P$1"/>
+<connect gate="1" pin="2" pad="P$2"/>
+<connect gate="1" pin="T" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -854,7 +894,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04-5/5V-X" package="L-04-5/5V-X">
+<device name="L-04-5/5V-X" package="L-04-2/5V-X">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -863,7 +903,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04-5/5V" package="L-04-5/5V">
+<device name="L-04-5/5V" package="L-04-2/5V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -872,7 +912,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04-5/5" package="L-04-5/5">
+<device name="L-04-5/5" package="L-04-2/5">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -989,6 +1029,58 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <description>&lt;b&gt;Capacitors&lt;/b&gt;&lt;p&gt;
 </description>
 <packages>
+<package name="C050-020X044">
+<wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
+<wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
+<pad name="2" x="2.54" y="0" drill="0.8" rot="R180"/>
+<text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" rot="R180" align="center-left">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
+<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
+<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
+<wire x1="2.54" y1="0" x2="0.381" y2="0" width="0.0762" layer="51"/>
+<wire x1="-2.159" y1="-0.254" x2="-1.778" y2="-0.635" width="0.1016" layer="21" curve="90"/>
+<wire x1="2.159" y1="0.254" x2="2.159" y2="-0.254" width="0.1016" layer="21"/>
+<wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
+</package>
+<package name="C025-015X024">
+<wire x1="0" y1="1.397" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
+<wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
+<pad name="2" x="0" y="-1.27" drill="0.8" rot="R270" stop="no"/>
+<text x="-1.016" y="0" size="0.6096" layer="25" align="center-right">&gt;NAME</text>
+<text x="0.508" y="-2.413" size="0.6096" layer="27" rot="R180">&gt;VALUE</text>
+<pad name="1" x="0" y="1.27" drill="0.8" rot="R90" stop="no"/>
+<wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
+<rectangle x1="-0.381" y1="0.0635" x2="0.381" y2="0.254" layer="21"/>
+<rectangle x1="-0.381" y1="-0.254" x2="0.381" y2="-0.0635" layer="21" rot="R180"/>
+</package>
+<package name="C075-020X044">
+<wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
+<wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
+<pad name="2" x="3.81" y="0" drill="0.8" rot="R180"/>
+<text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.8"/>
+<wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
+<wire x1="-3.81" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
+<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
+<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
+<wire x1="3.81" y1="0" x2="0.381" y2="0" width="0.0762" layer="51"/>
+<wire x1="-2.159" y1="-0.254" x2="-1.778" y2="-0.635" width="0.1016" layer="21" curve="90"/>
+<wire x1="2.159" y1="0.254" x2="2.159" y2="-0.254" width="0.1016" layer="21"/>
+<wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
+</package>
 <package name="C025-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
  grid 2.5 mm, outline 2.4 x 4.4 mm</description>
@@ -1006,8 +1098,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-1.778" y="1.397" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.778" y="-2.667" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-1.778" y="1.397" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.778" y="-2.667" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-025X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1030,8 +1122,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="1.524" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-2.794" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-2.794" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-030X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1054,8 +1146,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-040X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1078,8 +1170,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="2.159" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="2.159" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-050X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1102,8 +1194,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="2.54" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.81" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="2.54" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.81" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-060X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1126,8 +1218,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="3.048" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-2.413" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="3.048" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-2.413" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1148,8 +1240,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0" y="1.524" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.524" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.524" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
@@ -1172,8 +1264,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="3.683" y1="-1.016" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="2.54" y="0" drill="0.8" rot="R180"/>
 <pad name="2" x="-2.54" y="0" drill="0.8" rot="R180"/>
-<text x="4.064" y="1.27" size="0.8128" layer="25" rot="R270">&gt;NAME</text>
-<text x="-4.064" y="-1.27" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<text x="4.064" y="1.27" size="0.6096" layer="25" rot="R270">&gt;NAME</text>
+<text x="-4.064" y="-1.27" size="0.6096" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="C050-045X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1194,8 +1286,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.683" y1="2.032" x2="-3.429" y2="2.286" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="2.667" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.81" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.556" y="2.667" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.81" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-030X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1216,8 +1308,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.683" y1="1.27" x2="-3.429" y2="1.524" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.556" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-050X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1238,8 +1330,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.683" y1="2.286" x2="-3.429" y2="2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="2.921" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.159" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.429" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.159" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-055X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1260,8 +1352,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.683" y1="2.54" x2="-3.429" y2="2.794" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="3.175" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.302" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.429" y="3.175" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.302" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-075X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1282,8 +1374,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.683" y1="3.429" x2="-3.429" y2="3.683" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="4.064" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.921" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.429" y="4.064" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.921" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-032X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1304,8 +1396,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="0.508" y1="0" x2="0.508" y2="-0.889" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-4.826" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.826" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-4.826" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-042X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1326,8 +1418,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.699" y="2.413" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.651" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.699" y="2.413" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-052X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1348,8 +1440,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="2.921" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.826" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-043X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1370,8 +1462,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-6.604" y1="1.524" x2="-6.096" y2="2.032" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="1"/>
 <pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="2.413" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-1.651" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-6.096" y="2.413" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-054X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1392,8 +1484,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-6.604" y1="2.032" x2="-6.096" y2="2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="1"/>
 <pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="2.921" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-6.096" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.905" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-064X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1414,8 +1506,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-6.604" y1="2.54" x2="-6.096" y2="3.048" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="1"/>
 <pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="3.429" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-6.096" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-054X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1436,8 +1528,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-9.017" y1="2.032" x2="-8.509" y2="2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.382" y="2.921" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.382" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-064X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1458,8 +1550,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-9.017" y1="2.54" x2="-8.509" y2="3.048" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="3.429" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-072X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1480,8 +1572,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-9.017" y1="3.048" x2="-8.509" y2="3.556" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="3.937" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="3.937" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-084X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1502,8 +1594,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-9.017" y1="3.556" x2="-8.509" y2="4.064" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="4.445" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="4.445" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-091X182">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1524,8 +1616,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-9.017" y1="3.937" x2="-8.509" y2="4.445" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="4.826" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="4.826" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-035X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1546,8 +1638,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.683" y1="1.524" x2="-3.429" y2="1.778" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="2.159" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.429" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.556" y="2.159" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.429" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-063X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1568,8 +1660,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="3.429" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.826" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-020X036">
 <wire x1="-0.889" y1="0" x2="-0.127" y2="0.889" width="0.091440625" layer="21" curve="-90"/>
@@ -1579,8 +1671,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.54" y1="0" x2="1.6637" y2="0" width="0.0762" layer="51"/>
 <wire x1="0" y1="0" x2="0.889" y2="0" width="0.0762" layer="51"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0.254" y="0.9652" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="3.556" y="0" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
+<text x="0.254" y="0.9652" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="3.556" y="0" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
 <pad name="1" x="0" y="0" drill="0.8" rot="R180"/>
 <wire x1="3.429" y1="0" x2="2.667" y2="-0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="-0.127" y1="-0.889" x2="2.667" y2="-0.889" width="0.091440625" layer="21"/>
@@ -1593,8 +1685,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.889" y1="0.635" x2="1.524" y2="0" width="0.127" layer="21" curve="-90"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-0.254" y="0.8255" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="0.254" y="0.8255" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.254" y="0.8255" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0.254" y="0.8255" size="0.6096" layer="27">&gt;VALUE</text>
 <pad name="1" x="-2.54" y="0" drill="0.8" rot="R180"/>
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
@@ -1604,22 +1696,6 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
 <wire x1="-2.54" y1="0" x2="-0.381" y2="0" width="0.0762" layer="51"/>
 <wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
-</package>
-<package name="C025-015X024">
-<wire x1="0" y1="1.397" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
-<wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
-<pad name="2" x="0" y="-1.27" drill="0.8" rot="R270" stop="no"/>
-<text x="-1.016" y="0" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
-<text x="0.508" y="-2.413" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
-<pad name="1" x="0" y="1.27" drill="0.8" rot="R90" stop="no"/>
-<wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
-<rectangle x1="-0.381" y1="0.0635" x2="0.381" y2="0.254" layer="21"/>
-<rectangle x1="-0.381" y1="-0.254" x2="0.381" y2="-0.0635" layer="21" rot="R180"/>
 </package>
 <package name="C050-025X060">
 <wire x1="0.635" y1="0.3048" x2="0" y2="0.3048" width="0.3048" layer="21"/>
@@ -1638,8 +1714,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="0.762" y1="3.556" x2="1.016" y2="3.302" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="0" y="3.81" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.81" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="3.81" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="C050-024X044/V">
 <wire x1="-0.635" y1="2.159" x2="0.635" y2="2.159" width="0.1524" layer="51"/>
@@ -1658,8 +1734,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="0" y1="1.27" x2="0" y2="0.3048" width="0.1524" layer="21"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="-1.016" y="2.286" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.016" y="-2.286" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<text x="-1.016" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.016" y="-2.286" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.7305" x2="0.1905" y2="-1.9685" layer="51" rot="R270"/>
 <rectangle x1="-0.1905" y1="1.9685" x2="0.1905" y2="2.7305" layer="51" rot="R270"/>
 </package>
@@ -1680,16 +1756,16 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="1.016" y1="3.683" x2="1.27" y2="3.429" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="0" y="4.064" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.064" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="4.064" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.064" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="C050-020X036/V">
 <wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
 <pad name="2" x="0" y="2.54" drill="0.8" rot="R90"/>
-<text x="-0.8128" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="0.8128" y="0" size="0.8128" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="-0.8128" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0.8128" y="0" size="0.6096" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
 <pad name="1" x="0" y="-2.54" drill="0.8" rot="R270"/>
 <wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
@@ -1704,8 +1780,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R90"/>
-<text x="-1.016" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="1.016" y="-1.27" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.016" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.016" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
@@ -1718,23 +1794,95 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-0.254" y1="-2.159" x2="-0.635" y2="-1.778" width="0.1016" layer="21" curve="-90"/>
 <wire x1="0.254" y1="-2.159" x2="0.635" y2="-1.778" width="0.1016" layer="21" curve="90"/>
 </package>
-<package name="C050-020X044">
-<wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
-<wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="2.54" y="0" drill="0.8" rot="R180"/>
-<text x="-2.159" y="0.762" size="0.8128" layer="25">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
-<wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
-<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
-<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
-<wire x1="2.54" y1="0" x2="0.381" y2="0" width="0.0762" layer="51"/>
-<wire x1="-2.159" y1="-0.254" x2="-1.778" y2="-0.635" width="0.1016" layer="21" curve="90"/>
-<wire x1="2.159" y1="0.254" x2="2.159" y2="-0.254" width="0.1016" layer="21"/>
-<wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
-<wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
+<package name="0204/10">
+<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
+ Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-5.08" y="0" drill="0.8"/>
+<pad name="2" x="5.08" y="0" drill="0.8"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+</package>
+<package name="0204/10-V">
+<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
+ Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="5.08" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-5.08" drill="0.8" rot="R270"/>
+<text x="-0.635" y="3.175" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.921" width="0.508" layer="51"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.921" width="0.508" layer="51"/>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+</package>
+<package name="C075-020X044/V">
+<wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R90"/>
+<text x="-1.016" y="2.54" size="0.6096" layer="25" rot="R180" align="center-left">&gt;NAME</text>
+<text x="0.635" y="-2.54" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
+<wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="0.3937" width="0.0762" layer="51"/>
+<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
+<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="-0.254" y1="2.159" x2="-0.635" y2="1.778" width="0.1016" layer="21" curve="90"/>
+<wire x1="0.254" y1="-2.159" x2="-0.254" y2="-2.159" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="-2.159" x2="-0.635" y2="-1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.254" y1="-2.159" x2="0.635" y2="-1.778" width="0.1016" layer="21" curve="90"/>
 </package>
 </packages>
 <symbols>
@@ -2081,6 +2229,42 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
+<device name="0204/10" package="0204/10">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/10-V" package="0204/10-V">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044" package="C075-020X044">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044/V" package="C075-020X044/V">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C-H" prefix="C" uservalue="yes">
@@ -2106,6 +2290,24 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
+<device name="075-020X044" package="C075-020X044">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044/V" package="C075-020X044/V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -2116,27 +2318,27 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <pad name="1" x="0" y="0" drill="1" diameter="1.778" stop="no"/>
 <text x="-1.143" y="0" size="0.6096" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
 </package>
-<package name="SPAD-+">
-<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
-<text x="0" y="-2.921" size="1.016" layer="21" font="vector" ratio="9" distance="5" align="top-center">&gt;NAME</text>
-<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="-1.778" y="-1.27" size="1.016" layer="21" font="fixed" rot="R180" align="center">-</text>
-<text x="-1.778" y="1.27" size="1.016" layer="21" font="fixed" rot="R90" align="center">+</text>
-</package>
 <package name="SPAD+-">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
-<text x="0" y="-2.921" size="1.016" layer="21" font="vector" ratio="9" distance="5" align="top-center">&gt;NAME</text>
+<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
 <pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="2.032" y="-1.27" size="1.016" layer="21" font="fixed" rot="R180" align="center">-</text>
-<text x="2.032" y="1.27" size="1.016" layer="21" font="fixed" rot="R90" align="center">+</text>
+<text x="1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
+<text x="1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
+</package>
+<package name="SPAD-+">
+<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
+<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
+<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="-1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
+<text x="-1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
 </package>
 </packages>
 <symbols>
@@ -2162,18 +2364,11 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <circle x="-3.81" y="0" radius="1.27" width="0.254" layer="94"/>
 <text x="-6.35" y="0" size="1.27" layer="95" align="center-right">&gt;NAME</text>
 </symbol>
-<symbol name="VCC2">
+<symbol name="VCC">
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
-<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">VCC</text>
+<text x="0" y="3.81" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="GND2">
-<wire x1="-1.651" y1="-2.54" x2="1.651" y2="-2.54" width="0.254" layer="94"/>
-<text x="0" y="-4.318" size="1.27" layer="95" align="top-center">GND</text>
-<pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
-<wire x1="-1.016" y1="-3.048" x2="1.016" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-3.556" x2="0.381" y2="-3.556" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2230,25 +2425,26 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_GND" uservalue="yes">
+<deviceset name="VCC">
 <gates>
-<gate name="PWR" symbol="VCC2" x="0" y="2.54"/>
-<gate name="PRW" symbol="GND2" x="0" y="-2.54"/>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="R" package="SPAD+-">
-<connects>
-<connect gate="PRW" pin="GND" pad="1"/>
-<connect gate="PWR" pin="VCC" pad="2"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L" package="SPAD-+">
+</devices>
+</deviceset>
+<deviceset name="SPAD" prefix="J">
+<gates>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPAD">
 <connects>
-<connect gate="PRW" pin="GND" pad="1"/>
-<connect gate="PWR" pin="VCC" pad="2"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2263,41 +2459,38 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="0204/5">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
- type 0204, grid 5 mm</description>
-<wire x1="-1.778" y1="0.635" x2="-1.524" y2="0.889" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.778" y1="-0.635" x2="-1.524" y2="-0.889" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="-0.889" x2="1.778" y2="-0.635" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="0.889" x2="1.778" y2="0.635" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-2.0066" y="1.1684" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
-<rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
-<wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.508" layer="51"/>
-<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.508" layer="51"/>
-<wire x1="-1.778" y1="0.635" x2="-1.524" y2="0.889" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.778" y1="-0.635" x2="-1.524" y2="-0.889" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="-0.889" x2="1.778" y2="-0.635" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="0.889" x2="1.778" y2="0.635" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.778" y1="-0.635" x2="-1.778" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="0.889" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="0.762" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-0.889" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="-0.762" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="0.762" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="0.762" x2="-1.143" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="-0.762" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="-0.762" x2="-1.143" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="0.889" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-0.889" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-0.635" x2="1.778" y2="0.635" width="0.1524" layer="51"/>
-<text x="-2.0066" y="1.1684" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
-<rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
+<package name="0204/7-V">
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R270"/>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-2.921" width="0.508" layer="51"/>
+<wire x1="0" y1="3.81" x2="0" y2="2.921" width="0.508" layer="51"/>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
 <package name="0204/7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2308,8 +2501,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-3.81" y="0" drill="0.8"/>
 <pad name="2" x="3.81" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 <wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -2330,8 +2523,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
@@ -2342,14 +2535,284 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.1336" y="1.1684" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="51"/>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="21"/>
 <circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
 <circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<text x="-2.1336" y="1.1684" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="0204/10">
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-5.08" y="0" drill="0.8"/>
+<pad name="2" x="5.08" y="0" drill="0.8"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+</package>
+<package name="0202/5">
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.8"/>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<text x="-1.27" y="0.635" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.127" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.127" layer="21"/>
+<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
+</package>
+<package name="0202/7">
+<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="3.81" drill="0.7" rot="R270"/>
+<pad name="2" x="0" y="-3.81" drill="0.7" rot="R270"/>
+<text x="-0.889" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
+<wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
+<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
+</package>
+<package name="0202/10">
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-5.08" y="0" drill="0.8"/>
+<pad name="2" x="5.08" y="0" drill="0.8"/>
+<text x="0" y="1.27" size="0.6096" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="5.08" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.1524" layer="21"/>
+<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
+</package>
+<package name="0202/12">
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="-6.35" drill="0.8" rot="R90"/>
+<pad name="2" x="0" y="6.35" drill="0.8" rot="R90"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="0" y1="6.35" x2="0" y2="1.651" width="0.127" layer="51"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
+</package>
+<package name="0202/15">
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="2" x="0" y="7.62" drill="0.8" rot="R90"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="0" y1="7.62" x2="0" y2="1.651" width="0.127" layer="51"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
+</package>
+<package name="0202/7-V">
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="3.81" drill="0.7" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="0.7" rot="R90"/>
+<text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+<wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
+</package>
+<package name="0202/5-V">
+<pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="51"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="51"/>
+<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<text x="-0.5715" y="1.143" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.127" layer="21"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
+</package>
+<package name="0202/10-V">
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="-5.08" drill="0.7" rot="R90"/>
+<pad name="2" x="0" y="5.08" drill="0.7" rot="R90"/>
+<text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+<wire x1="0" y1="5.08" x2="0" y2="1.651" width="0.254" layer="51"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-1.651" width="0.254" layer="51"/>
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
+</package>
+<package name="0204/10-V">
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="5.08" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-5.08" drill="0.8" rot="R270"/>
+<text x="-0.635" y="3.175" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.921" width="0.508" layer="51"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.921" width="0.508" layer="51"/>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+</package>
+<package name="0204/5">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+ type 0204, grid 5 mm</description>
+<wire x1="-1.778" y1="0.635" x2="-1.524" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="-0.635" x2="-1.524" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.889" x2="1.778" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="0.889" x2="1.778" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.8"/>
+<text x="-2.0066" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
+<rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
+<wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.508" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.508" layer="51"/>
+<wire x1="-1.778" y1="0.635" x2="-1.524" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="-0.635" x2="-1.524" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.889" x2="1.778" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="0.889" x2="1.778" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="-0.635" x2="-1.778" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0.889" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="0.762" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-0.889" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-0.762" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.762" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.762" x2="-1.143" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-0.762" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-0.762" x2="-1.143" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="0.889" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="-0.889" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.635" x2="1.778" y2="0.635" width="0.1524" layer="51"/>
+<text x="-2.0066" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
+<rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
 </package>
 <package name="0207/10">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2360,8 +2823,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="0.8"/>
 <pad name="2" x="5.08" y="0" drill="0.8"/>
-<text x="-3.048" y="1.524" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.2606" y="-0.635" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.048" y="1.524" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.2606" y="-0.635" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
@@ -2382,8 +2845,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
-<text x="-3.048" y="1.524" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.2606" y="-0.635" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.048" y="1.524" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.2606" y="-0.635" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
@@ -2396,8 +2859,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8"/>
 <pad name="2" x="6.35" y="0" drill="0.8"/>
-<text x="-3.175" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="4.445" y1="-0.3048" x2="5.3086" y2="0.3048" layer="21"/>
@@ -2422,8 +2885,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="0" x2="4.064" y2="0" width="0.6096" layer="21"/>
 <wire x1="-4.445" y1="0" x2="-4.064" y2="0" width="0.6096" layer="21"/>
-<text x="-3.175" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="4.445" y1="-0.3048" x2="5.3086" y2="0.3048" layer="21"/>
@@ -2438,8 +2901,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.62" y="0" drill="0.8"/>
 <pad name="2" x="7.62" y="0" drill="0.8"/>
-<text x="-3.175" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="5.715" y1="-0.3048" x2="6.5786" y2="0.3048" layer="21"/>
@@ -2464,8 +2927,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="5.715" y1="0" x2="4.064" y2="0" width="0.6096" layer="21"/>
 <wire x1="-5.715" y1="0" x2="-4.064" y2="0" width="0.6096" layer="21"/>
-<text x="-3.175" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="5.715" y1="-0.3048" x2="6.5786" y2="0.3048" layer="21"/>
@@ -2478,15 +2941,15 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-0.0508" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.0508" y="-2.2352" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.0508" y="1.016" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.0508" y="-2.2352" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.6096" layer="51"/>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.6096" layer="21"/>
 <wire x1="0.381" y1="0" x2="1.27" y2="0" width="0.6096" layer="51"/>
 <circle x="-1.27" y="0" radius="1.27" width="0.1524" layer="21"/>
 <circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
-<text x="-0.0508" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.0508" y="-2.2352" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.0508" y="1.016" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.0508" y="-2.2352" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0207/5V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2495,15 +2958,15 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <circle x="-2.54" y="0" radius="1.016" width="0.1524" layer="51"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-1.143" y="0.889" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.143" y="-2.159" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.143" y="0.889" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.143" y="-2.159" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-2.54" y1="0" x2="-0.889" y2="0" width="0.6096" layer="51"/>
 <wire x1="-0.762" y1="0" x2="0.762" y2="0" width="0.6096" layer="21"/>
 <wire x1="0.889" y1="0" x2="2.54" y2="0" width="0.6096" layer="51"/>
 <circle x="-2.54" y="0" radius="1.27" width="0.1016" layer="21"/>
 <circle x="-2.54" y="0" radius="1.016" width="0.1524" layer="51"/>
-<text x="-1.143" y="0.889" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.143" y="-2.159" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.143" y="0.889" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.143" y="-2.159" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0207/7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2514,8 +2977,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-3.81" y="0" drill="0.8"/>
 <pad name="2" x="3.81" y="0" drill="0.8"/>
-<text x="-2.54" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.5588" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.5588" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 <wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
@@ -2536,44 +2999,10 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<text x="-2.54" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.5588" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.5588" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
-</package>
-<package name="0204/10">
-<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="0.8"/>
-<pad name="2" x="5.08" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
-<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
-<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
-<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
 <package name="0204/12">
 <wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
@@ -2582,8 +3011,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8"/>
 <pad name="2" x="6.35" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 <wire x1="6.35" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -2604,8 +3033,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
@@ -2616,8 +3045,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.62" y="0" drill="0.8"/>
 <pad name="2" x="7.62" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 <wire x1="7.62" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -2638,8 +3067,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
@@ -2648,269 +3077,35 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
 <pad name="2" x="1.27" y="0" drill="0.8" rot="R180"/>
 <pad name="1" x="-1.27" y="0" drill="0.8" rot="R180"/>
-<text x="-2.1336" y="1.1684" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="51"/>
 <wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.508" layer="21"/>
 <circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
 <circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<text x="-2.1336" y="1.1684" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0202/2V">
 <pad name="1" x="0" y="-1.27" drill="0.8" rot="R90"/>
 <pad name="2" x="0" y="1.27" drill="0.8" rot="R90"/>
-<text x="-0.254" y="0.508" size="0.8128" layer="25" ratio="10" rot="R180">&gt;NAME</text>
-<text x="0.254" y="-0.508" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.254" y="0.508" size="0.6096" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="0.254" y="-0.508" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="-0.762" radius="0.762" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.762" x2="0" y2="1.27" width="0.254" layer="51"/>
 <wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.254" layer="21"/>
 <circle x="0" y="-0.762" radius="0.5588" width="0.1524" layer="51"/>
 <circle x="0" y="-0.762" radius="0.6858" width="0.0508" layer="51"/>
 </package>
-<package name="0202/5">
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
-<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.127" layer="21" curve="90"/>
-<text x="-1.27" y="0.635" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.127" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.127" layer="21"/>
-<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
-<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
-</package>
-<package name="0202/7">
-<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.7" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.7" rot="R270"/>
-<text x="-0.889" y="0" size="0.8128" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-<wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
-<wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
-<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
-</package>
-<package name="0202/10">
-<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="0.8"/>
-<pad name="2" x="5.08" y="0" drill="0.8"/>
-<text x="0" y="1.27" size="0.8128" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="5.08" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
-<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.1524" layer="21"/>
-<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
-<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
-</package>
 <package name="0202V">
 <pad name="2" x="0" y="1.27" drill="0.8" rot="R270"/>
 <pad name="1" x="0" y="-1.27" drill="0.8" rot="R270"/>
-<text x="-1.016" y="0.508" size="0.8128" layer="25" ratio="10" align="center-right">&gt;NAME</text>
-<text x="-1.016" y="-0.508" size="0.8128" layer="27" ratio="10" align="center-right">&gt;VALUE</text>
+<text x="-1.016" y="0.508" size="0.6096" layer="25" ratio="10" align="center-right">&gt;NAME</text>
+<text x="-1.016" y="-0.508" size="0.6096" layer="27" ratio="10" align="center-right">&gt;VALUE</text>
 <circle x="0" y="0.762" radius="0.762" width="0.127" layer="21"/>
 <wire x1="0" y1="0.762" x2="0" y2="-1.27" width="0.254" layer="51"/>
 <wire x1="0" y1="0.127" x2="0" y2="-0.127" width="0.254" layer="21"/>
 <circle x="0" y="0.762" radius="0.508" width="0.0508" layer="51"/>
-</package>
-<package name="0202/12">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-6.35" drill="0.8" rot="R90"/>
-<pad name="2" x="0" y="6.35" drill="0.8" rot="R90"/>
-<text x="-1.27" y="0" size="0.8128" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
-<wire x1="0" y1="6.35" x2="0" y2="1.651" width="0.127" layer="51"/>
-<wire x1="0" y1="-6.35" x2="0" y2="-1.651" width="0.127" layer="51"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
-</package>
-<package name="0202/15">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="2" x="0" y="7.62" drill="0.8" rot="R90"/>
-<text x="-1.27" y="0" size="0.8128" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
-<wire x1="0" y1="7.62" x2="0" y2="1.651" width="0.127" layer="51"/>
-<wire x1="0" y1="-7.62" x2="0" y2="-1.651" width="0.127" layer="51"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
-</package>
-<package name="0202/7-V">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-3.81" drill="0.7" rot="R90"/>
-<pad name="2" x="0" y="3.81" drill="0.7" rot="R90"/>
-<text x="-0.254" y="1.905" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="-0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
-<wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
-</package>
-<package name="0202/5-V">
-<pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="51"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="51"/>
-<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<text x="-0.5715" y="1.143" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.127" layer="21"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
-</package>
-<package name="0202/10-V">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-5.08" drill="0.7" rot="R90"/>
-<pad name="2" x="0" y="5.08" drill="0.7" rot="R90"/>
-<text x="-0.254" y="1.905" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="-0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
-<wire x1="0" y1="5.08" x2="0" y2="1.651" width="0.254" layer="51"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-1.651" width="0.254" layer="51"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
-</package>
-<package name="0204/7-V">
-<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.8" rot="R270"/>
-<text x="-1.2954" y="-2.54" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-2.921" width="0.508" layer="51"/>
-<wire x1="0" y1="3.81" x2="0" y2="2.921" width="0.508" layer="51"/>
-<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
-<text x="-1.2954" y="-2.54" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
-</package>
-<package name="0204/10-V">
-<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="5.08" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-5.08" drill="0.8" rot="R270"/>
-<text x="-1.2954" y="-2.54" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-2.921" width="0.508" layer="51"/>
-<wire x1="0" y1="5.08" x2="0" y2="2.921" width="0.508" layer="51"/>
-<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
-<text x="-1.2954" y="-2.54" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
 <package name="0204/12-V">
 <wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
@@ -2919,8 +3114,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="0" y="6.35" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-6.35" drill="0.8" rot="R270"/>
-<text x="-1.2954" y="-2.54" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 <wire x1="0" y1="-6.35" x2="0" y2="-2.921" width="0.508" layer="51"/>
@@ -2941,22 +3136,12 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
-<text x="-1.2954" y="-2.54" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
 </packages>
 <symbols>
-<symbol name="R">
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
-<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
-</symbol>
 <symbol name="R-1">
 <text x="0" y="1.4986" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -2967,8 +3152,160 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
 <text x="0" y="-1.4986" size="1.27" layer="96" rot="R180" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="R">
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="R-H" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0202/10" package="0202/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/10-V" package="0202/10-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/12" package="0202/12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/15" package="0202/15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/10" package="0204/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/10-V" package="0204/10-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/7" package="0204/7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/7-V" package="0204/7-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/7-V" package="0202/7-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/5" package="0202/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/5-V" package="0202/5-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/7" package="0202/7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/2-V" package="0204V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-V" package="0204V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-V-X" package="0204V">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
@@ -3204,130 +3541,6 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <connects>
 <connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="R-H" prefix="R" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0202/10" package="0202/10">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0202/10-V" package="0202/10-V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0202/12" package="0202/12">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0202/15" package="0202/15">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0204/10" package="0204/10">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0204/10-V" package="0204/10-V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0204/7" package="0204/7">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0204/7-V" package="0204/7-V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0202/7-V" package="0202/7-V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0202/5" package="0202/5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0202/5-V" package="0202/5-V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0202/7" package="0202/7">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0204/2-V" package="0204V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3978,28 +4191,32 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
 </class>
 </classes>
 <parts>
-<part name="L1" library="l" deviceset="L-TAP1" device="L-08/10V-TAP1" value="0.1uH"/>
+<part name="L1" library="l" deviceset="L-TAP1" device="10/10V" value="0.1uH"/>
 <part name="T1" library="t" deviceset="BF245B" device="TO92" value="BF245A"/>
 <part name="C1" library="c" deviceset="C" device="025-015X024" value="20pF"/>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="10pF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
 <part name="L2" library="l" deviceset="L" device="04/7-V" value="8.2uH"/>
-<part name="R1" library="r" deviceset="R" device="0204/10-V" value="10k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10-V" value="12k"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10" value="12k"/>
 <part name="C4" library="c" deviceset="C" device="050-020X044" value="2.7nF"/>
-<part name="C5" library="c" deviceset="C" device="050-020X044" value="10nF"/>
-<part name="C6" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
+<part name="C5" library="c" deviceset="C" device="025-015X024" value="10nF"/>
 <part name="AF" library="pad" deviceset="SPAD+-" device="+-" value="SPAD+-+-"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="C7" library="cap-trim" deviceset="C-TR-PH20127" device="-TZ03" value="0.04 - 6pF"/>
-<part name="PWR" library="pad" deviceset="VCC_GND" device="L"/>
-<part name="QUENCH" library="pad" deviceset="SPAD+-" device="-+"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
+<part name="R1" library="r" deviceset="R" device="0204/10-V" value="10k"/>
+<part name="C6" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
+<part name="U$1" library="pad" deviceset="VCC" device=""/>
+<part name="S4" library="pad" deviceset="GND" device=""/>
+<part name="+" library="pad" deviceset="SPAD" device=""/>
+<part name="U$2" library="pad" deviceset="VCC" device=""/>
+<part name="-" library="pad" deviceset="SPAD" device=""/>
+<part name="S5" library="pad" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4040,20 +4257,22 @@ Verlustwiderstand: ESR=0.125 Ohm</text>
 <instance part="S1" gate="1" x="20.32" y="43.18"/>
 <instance part="ANT1" gate="ANT" x="53.34" y="83.82"/>
 <instance part="L2" gate="G$1" x="30.48" y="33.02" rot="MR0"/>
-<instance part="R1" gate="G$1" x="30.48" y="7.62" rot="MR0"/>
 <instance part="R2" gate="G$1" x="38.1" y="15.24"/>
 <instance part="C4" gate="1" x="15.24" y="7.62" rot="MR0"/>
 <instance part="C5" gate="1" x="45.72" y="7.62" rot="MR0"/>
-<instance part="C6" gate="G$1" x="53.34" y="15.24"/>
 <instance part="AF" gate="-" x="60.96" y="5.08" rot="R180"/>
 <instance part="AF" gate="+" x="60.96" y="15.24" rot="R180"/>
 <instance part="S2" gate="1" x="58.42" y="-5.08"/>
 <instance part="C7" gate="1" x="15.24" y="55.88"/>
-<instance part="PWR" gate="PWR" x="30.48" y="88.9"/>
-<instance part="PWR" gate="PRW" x="30.48" y="-2.54"/>
-<instance part="QUENCH" gate="-" x="0" y="15.24"/>
-<instance part="QUENCH" gate="+" x="0" y="22.86"/>
 <instance part="S3" gate="1" x="5.08" y="-5.08"/>
+<instance part="R1" gate="G$1" x="30.48" y="7.62"/>
+<instance part="C6" gate="G$1" x="53.34" y="15.24"/>
+<instance part="U$1" gate="G$1" x="30.48" y="88.9"/>
+<instance part="S4" gate="1" x="30.48" y="-5.08"/>
+<instance part="+" gate="1" x="2.54" y="83.82"/>
+<instance part="U$2" gate="G$1" x="5.08" y="88.9"/>
+<instance part="-" gate="1" x="2.54" y="78.74"/>
+<instance part="S5" gate="1" x="5.08" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -4117,9 +4336,13 @@ Verlustwiderstand: ESR=0.125 Ohm</text>
 <wire x1="58.42" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="S3" gate="1" pin="GND"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="C4" gate="1" pin="2"/>
 <wire x1="15.24" y1="5.08" x2="15.24" y2="0" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="0" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="0" x2="45.72" y2="0" width="0.1524" layer="91"/>
@@ -4127,13 +4350,14 @@ Verlustwiderstand: ESR=0.125 Ohm</text>
 <pinref part="C5" gate="1" pin="2"/>
 <wire x1="45.72" y1="5.08" x2="45.72" y2="0" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-2.54" x2="30.48" y2="0" width="0.1524" layer="91"/>
-<pinref part="PWR" gate="PRW" pin="GND"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="S4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S3" gate="1" pin="GND"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="QUENCH" gate="-" pin="P$1"/>
+<pinref part="-" gate="1" pin="P$1"/>
+<pinref part="S5" gate="1" pin="GND"/>
+<wire x1="2.54" y1="78.74" x2="5.08" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="78.74" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4146,12 +4370,11 @@ Verlustwiderstand: ESR=0.125 Ohm</text>
 <wire x1="30.48" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <junction x="30.48" y="15.24"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="22.86" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="12.7" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="QUENCH" gate="+" pin="P$1"/>
 <wire x1="0" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <junction x="30.48" y="22.86"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -4160,16 +4383,16 @@ Verlustwiderstand: ESR=0.125 Ohm</text>
 <pinref part="C5" gate="1" pin="1"/>
 <wire x1="43.18" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="10.16" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
 <junction x="45.72" y="15.24"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="AF" gate="+" pin="P$1"/>
 <wire x1="55.88" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -4181,7 +4404,13 @@ Verlustwiderstand: ESR=0.125 Ohm</text>
 <wire x1="45.72" y1="83.82" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="88.9" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
 <junction x="30.48" y="83.82"/>
-<pinref part="PWR" gate="PWR" pin="VCC"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="+" gate="1" pin="P$1"/>
+<wire x1="5.08" y1="88.9" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="83.82" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
