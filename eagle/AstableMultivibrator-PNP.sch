@@ -1551,9 +1551,9 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <parts>
 <part name="T1" library="t" deviceset="BC557" device="CBE" value="BC557"/>
 <part name="T2" library="t" deviceset="BC557" device="CBE" value="BC557"/>
-<part name="R2" library="r" deviceset="R" device="0202/7-V" value="5.1k"/>
-<part name="R1" library="r" deviceset="R" device="0202/7-V" value="15k"/>
-<part name="R3" library="r" deviceset="R" device="0202/7-V" value="15k"/>
+<part name="R2" library="r" deviceset="R" device="0202/5-V" value="5.1k"/>
+<part name="R1" library="r" deviceset="R" device="0202/5-V" value="15k"/>
+<part name="R3" library="r" deviceset="R" device="0202/5-V" value="15k"/>
 <part name="C2" library="c" deviceset="C-H" device="050-020X044" value="2.7nF"/>
 <part name="C1" library="c" deviceset="C-H" device="050-020X044" value="2.7nF"/>
 <part name="OUT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
@@ -1578,7 +1578,7 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <instance part="J1" gate="G$1" x="33.02" y="48.26"/>
 <instance part="J1" gate="G$2" x="33.02" y="3.81"/>
 <instance part="S1" gate="1" x="60.96" y="2.54"/>
-<instance part="R4" gate="1" x="48.26" y="15.24" rot="MR180"/>
+<instance part="R4" gate="1" x="48.26" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -1610,11 +1610,10 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <segment>
 <pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="22.86" x2="46.99" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="R4" gate="1" pin="A"/>
+<wire x1="48.26" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R4" gate="1" pin="E"/>
 <wire x1="48.26" y1="20.32" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="22.86" x2="46.99" y2="22.86" width="0.1524" layer="91"/>
 <junction x="48.26" y="22.86"/>
 </segment>
 </net>
@@ -1654,7 +1653,7 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <wire x1="33.02" y1="3.81" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <junction x="33.02" y="7.62"/>
 <wire x1="48.26" y1="7.62" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="R4" gate="1" pin="E"/>
+<pinref part="R4" gate="1" pin="A"/>
 <wire x1="48.26" y1="10.16" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
