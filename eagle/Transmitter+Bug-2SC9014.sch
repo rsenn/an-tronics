@@ -7005,7 +7005,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R4" gate="G$1" x="-5.08" y="15.24"/>
 <instance part="GND2" gate="1" x="-12.7" y="5.08"/>
 <instance part="JP1" gate="G$1" x="2.54" y="45.72" rot="MR90"/>
-<instance part="R5" gate="G$1" x="-5.08" y="53.34"/>
+<instance part="R5" gate="G$1" x="-30.48" y="53.34"/>
 <instance part="GND4" gate="1" x="-30.48" y="22.86"/>
 <instance part="ECM1" gate="1" x="-30.48" y="33.02" rot="MR0"/>
 </instances>
@@ -7080,8 +7080,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="58.42" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="66.04" x2="-5.08" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="66.04" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="66.04" x2="-30.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="66.04" x2="-30.48" y2="58.42" width="0.1524" layer="91"/>
 <junction x="17.78" y="66.04"/>
 </segment>
 <segment>
@@ -7144,14 +7144,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$7" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="48.26" x2="-5.08" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="40.64" x2="-21.59" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="48.26" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="43.18" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="40.64" x2="-5.08" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-5.08" y="40.64"/>
+<wire x1="2.54" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-30.48" y="40.64"/>
 <pinref part="ECM1" gate="1" pin="+"/>
-<wire x1="-21.59" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="40.64" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
