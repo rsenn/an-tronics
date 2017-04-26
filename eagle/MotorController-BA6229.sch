@@ -4578,8 +4578,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <instance part="U$2" gate="G$1" x="78.74" y="63.5" rot="MR0"/>
 <instance part="S2" gate="1" x="78.74" y="40.64" rot="MR0"/>
 <instance part="C4" gate="G$1" x="78.74" y="50.8"/>
-<instance part="J1" gate="G$1" x="7.62" y="50.8" rot="R180"/>
-<instance part="S3" gate="1" x="17.78" y="48.26"/>
+<instance part="J1" gate="G$1" x="-20.32" y="40.64" rot="R180"/>
+<instance part="S3" gate="1" x="-7.62" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -4614,8 +4614,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <segment>
 <pinref part="S3" gate="1" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="50.8" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="33.02" x2="-7.62" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4699,18 +4699,14 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <segment>
 <pinref part="IC1" gate="G$1" pin="LMF"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="40.64" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="50.8" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="IC1" gate="G$1" pin="LMR"/>
-<wire x1="10.16" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="48.26" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
