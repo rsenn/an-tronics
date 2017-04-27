@@ -4557,7 +4557,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="D1" library="d" deviceset="1N4148" device="34-5V" value=""/>
 <part name="D2" library="d" deviceset="1N4148" device="34-5V" value=""/>
 <part name="T3" library="t" deviceset="BC337" device="CBE" value="BC337"/>
-<part name="R1" library="r" deviceset="R-H" device="0202/5" value="100k"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/7" value="100k"/>
 <part name="R2" library="r" deviceset="R-H" device="0202/7" value="330"/>
 <part name="R3" library="r" deviceset="R" device="0202/7" value="100"/>
 <part name="R4" library="r" deviceset="R-H" device="-V-X" value="27"/>
@@ -4566,7 +4566,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E5-4-R45" value="470uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E5-6" value="470uF"/>
 <part name="C4" library="c" deviceset="CPOL" device="E5-4" value="100uF"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>
