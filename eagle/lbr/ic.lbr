@@ -791,6 +791,34 @@
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 </symbol>
+<symbol name="LM7000">
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<pin name="CE" x="-20.32" y="7.62" length="short"/>
+<pin name="XOUT" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="PD1" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="VDD1" x="-5.08" y="20.32" length="short" direction="pwr" rot="R270"/>
+<pin name="/STRQ" x="-20.32" y="12.7" length="short"/>
+<pin name="XIN" x="-20.32" y="15.24" length="short"/>
+<pin name="DATA" x="-20.32" y="0" length="short"/>
+<pin name="VSS" x="0" y="-20.32" length="short" direction="pwr" rot="R90"/>
+<pin name="CL" x="-20.32" y="5.08" length="short"/>
+<text x="-17.78" y="19.05" size="1.27" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-19.05" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="/STOUT" x="-20.32" y="-2.54" length="short"/>
+<pin name="/SYC" x="-20.32" y="-5.08" length="short"/>
+<pin name="BO1" x="-20.32" y="-10.16" length="short"/>
+<pin name="BO2" x="-20.32" y="-12.7" length="short"/>
+<pin name="BO3" x="-20.32" y="-15.24" length="short"/>
+<pin name="VDD2" x="5.08" y="20.32" length="short" direction="pwr" rot="R270"/>
+<pin name="PD2" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="FMIN" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="AMIN" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="FMIF" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="AMIF" x="20.32" y="-7.62" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="2NUL2CMP" prefix="IC" uservalue="yes">
@@ -1413,7 +1441,8 @@
 </devices>
 </deviceset>
 <deviceset name="LM324" prefix="IC">
-<description>Single Supply Quad Operational Amplifiers&lt;br&gt;http://www.ti.com/lit/ds/symlink/lm324.pdf</description>
+<description>Single Supply Quad Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/lm324.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="43.18" y="10.16" swaplevel="1"/>
@@ -2129,6 +2158,42 @@
 <connect gate="A" pin="OUT" pad="6"/>
 <connect gate="G$2" pin="V+" pad="7"/>
 <connect gate="G$2" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM7000">
+<description>Direct PLL Frequency Synthesizer for Electronic Tuning&lt;br&gt;
+&lt;i&gt;http://pdf1.alldatasheet.com/datasheet-pdf/view/41207/SANYO/LM7000/+313Q8UOYLXObMPCABt+/datasheet.pdf&lt;/i&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM7000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL20">
+<connects>
+<connect gate="G$1" pin="/STOUT" pad="6"/>
+<connect gate="G$1" pin="/STRQ" pad="2"/>
+<connect gate="G$1" pin="/SYC" pad="7"/>
+<connect gate="G$1" pin="AMIF" pad="11"/>
+<connect gate="G$1" pin="AMIN" pad="13"/>
+<connect gate="G$1" pin="BO1" pad="8"/>
+<connect gate="G$1" pin="BO2" pad="9"/>
+<connect gate="G$1" pin="BO3" pad="10"/>
+<connect gate="G$1" pin="CE" pad="3"/>
+<connect gate="G$1" pin="CL" pad="4"/>
+<connect gate="G$1" pin="DATA" pad="5"/>
+<connect gate="G$1" pin="FMIF" pad="12"/>
+<connect gate="G$1" pin="FMIN" pad="14"/>
+<connect gate="G$1" pin="PD1" pad="17"/>
+<connect gate="G$1" pin="PD2" pad="18"/>
+<connect gate="G$1" pin="VDD1" pad="15"/>
+<connect gate="G$1" pin="VDD2" pad="16"/>
+<connect gate="G$1" pin="VSS" pad="19"/>
+<connect gate="G$1" pin="XIN" pad="1"/>
+<connect gate="G$1" pin="XOUT" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
