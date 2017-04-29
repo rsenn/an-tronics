@@ -908,7 +908,7 @@
 </devices>
 </deviceset>
 <deviceset name="*741" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Operational Amplifier&lt;br&gt;http://www.ti.com/lit/ds/symlink/lm741.pdf</description>
 <gates>
 <gate name="A" symbol="2NUL" x="2.54" y="0"/>
 </gates>
@@ -948,7 +948,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL081" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl082.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="2NUL" x="5.08" y="0"/>
 </gates>
@@ -986,7 +987,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL061" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Low-Power JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl062.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="2NUL" x="5.08" y="0"/>
 </gates>
@@ -1024,7 +1026,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL071" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Low-Noise JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl072.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="2NUL" x="5.08" y="0"/>
 </gates>
@@ -1062,7 +1065,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL062" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Low-Power JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl062.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="15.24" y="-12.7" swaplevel="1"/>
@@ -1102,7 +1106,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL072" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Low-Noise JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl072.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="15.24" y="-12.7" swaplevel="1"/>
@@ -1198,8 +1203,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL082" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;&lt;p&gt;
- &lt;a href = "http://www.ti.com/lit/ds/symlink/tl084a . pdf"&gt; Data sheet &lt;/a&gt;</description>
+<description>JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl082.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="15.24" y="-12.7" swaplevel="1"/>
@@ -1243,7 +1248,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL074" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Low-Noise JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl072.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="50.8" y="10.16" swaplevel="1"/>
@@ -1297,7 +1303,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL064" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Low-Power JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl062.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="50.8" y="10.16" swaplevel="1"/>
@@ -1351,7 +1358,8 @@
 </devices>
 </deviceset>
 <deviceset name="TL084" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>JFET-Input Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/tl082.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="50.8" y="10.16" swaplevel="1"/>
@@ -1405,7 +1413,7 @@
 </devices>
 </deviceset>
 <deviceset name="LM324" prefix="IC">
-<description>&lt;b&gt;OP AMP&lt;/b&gt;</description>
+<description>Single Supply Quad Operational Amplifiers&lt;br&gt;http://www.ti.com/lit/ds/symlink/lm324.pdf</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="43.18" y="10.16" swaplevel="1"/>
@@ -1459,7 +1467,8 @@
 </devices>
 </deviceset>
 <deviceset name="*555" prefix="IC">
-<description>&lt;b&gt;TIMER&lt;/b&gt;</description>
+<description>Timer&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/lm555.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="555" x="0" y="2.54"/>
 </gates>
@@ -1503,7 +1512,8 @@
 </devices>
 </deviceset>
 <deviceset name="*556" prefix="IC">
-<description>Dual &lt;b&gt;TIMER&lt;/b&gt;</description>
+<description>Dual Timer&lt;br&gt;
+&lt;i&gt;http://www.ti.com/lit/ds/symlink/lm556.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="555" x="0" y="2.54" swaplevel="1"/>
 <gate name="B" symbol="556" x="27.94" y="0"/>
@@ -1558,7 +1568,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="8038">
+<deviceset name="*8038">
+<description>Precision Waveform Generator/Voltage Controlled Oscillator&lt;br&gt;&lt;i&gt;https://www.intersil.com/content/dam/Intersil/documents/icl8/icl8038.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="1" symbol="8038-2" x="0" y="0"/>
 </gates>
@@ -1587,6 +1598,7 @@
 </devices>
 </deviceset>
 <deviceset name="ICL8038" prefix="IC">
+<description>Precision Waveform Generator/Voltage Controlled Oscillator&lt;br&gt;https://www.intersil.com/content/dam/Intersil/documents/icl8/icl8038.pdf</description>
 <gates>
 <gate name="G$1" symbol="ICL8038" x="0" y="0"/>
 </gates>
@@ -1612,7 +1624,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TDA1574">
+<deviceset name="TDA1574" prefix="IC">
+<description>PHILIPS - Integrated FM tuner for radio receivers&lt;br&gt;
+&lt;i&gt;http://www.elektronik.sk/datasheet/TDA1574.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="G$1" symbol="TDA1574" x="0" y="0"/>
 </gates>
@@ -1694,21 +1708,23 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TCA0372">
+<deviceset name="TCA0372" prefix="IC">
+<description>1.0A Output Current, Dual Power Operational Amplifiers&lt;br&gt;
+&lt;i&gt;http://www.ece.rice.edu/~jdw/data_sheets/TCA0372-D.pdf&lt;/i&gt;</description>
 <gates>
-<gate name="G$1" symbol="OPAMP" x="0" y="10.16"/>
-<gate name="G$2" symbol="OPAMP" x="0" y="-10.16"/>
+<gate name="A" symbol="OPAMP" x="0" y="10.16"/>
+<gate name="B" symbol="OPAMP" x="0" y="-10.16"/>
 <gate name="G$3" symbol="PWR+-" x="12.7" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL16">
 <connects>
-<connect gate="G$1" pin="+IN" pad="7"/>
-<connect gate="G$1" pin="-IN" pad="8"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$2" pin="+IN" pad="6"/>
-<connect gate="G$2" pin="-IN" pad="5"/>
-<connect gate="G$2" pin="OUT" pad="3"/>
+<connect gate="A" pin="+IN" pad="7"/>
+<connect gate="A" pin="-IN" pad="8"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="6"/>
+<connect gate="B" pin="-IN" pad="5"/>
+<connect gate="B" pin="OUT" pad="3"/>
 <connect gate="G$3" pin="V+" pad="2"/>
 <connect gate="G$3" pin="V-" pad="4 9 10 11 12 13 14 15 16"/>
 </connects>
@@ -1719,6 +1735,7 @@
 </devices>
 </deviceset>
 <deviceset name="TA7358" prefix="IC">
+<description>TOSHIBA - FM FRONT-END&lt;br&gt;&lt;i&gt;http://ukradio.info/Degen/TA7358.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="G$1" symbol="TA7358AP" x="0" y="0"/>
 </gates>
@@ -1742,6 +1759,7 @@
 </devices>
 </deviceset>
 <deviceset name="TA7757">
+<description>FM / AM IF System (3V USE)&lt;br&gt;&lt;i&gt;http://www.maxdat.eu/_data/15=Letoltesek/Tuner%20Ic/TA7757P%20-%20AM-FM%20IF%20System.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="G$1" symbol="TA7757" x="0" y="0"/>
 </gates>
@@ -1772,6 +1790,7 @@
 </devices>
 </deviceset>
 <deviceset name="LA3361">
+<description>PLL FM multiplex stereo demodulator&lt;br&gt;&lt;i&gt;http://www.alphacron.de/download/hardware/LA3361.pdf&lt;/i&gt;</description>
 <gates>
 <gate name="G$1" symbol="LA3361" x="0" y="0"/>
 </gates>
@@ -1802,6 +1821,7 @@
 </devices>
 </deviceset>
 <deviceset name="LMT2901N" prefix="IC">
+<description>Quad Single Supply Comparators&lt;br&gt;&lt;i&gt;http://www.datasheetspdf.com/datasheet/download.php?id=810286&lt;/i&gt;</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="0" y="25.4"/>
 <gate name="B" symbol="OPAMP" x="0" y="10.16"/>
@@ -2096,6 +2116,7 @@
 </devices>
 </deviceset>
 <deviceset name="LM741" prefix="IC">
+<description>Operational Amplifier&lt;br&gt;http://www.ti.com/lit/ds/symlink/lm741.pdf</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="0" y="0"/>
 <gate name="G$2" symbol="PWR+-" x="15.24" y="0"/>
