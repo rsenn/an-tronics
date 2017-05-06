@@ -1054,6 +1054,40 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-A" package="SLSW-2P4T-2-H">
+<connects>
+<connect gate="G$1" pin="A" pad="A2"/>
+<connect gate="G$1" pin="B" pad="A3"/>
+<connect gate="G$1" pin="C" pad="A4"/>
+<connect gate="G$1" pin="D" pad="A5"/>
+<connect gate="G$1" pin="P" pad="A1"/>
+<connect gate="G$2" pin="A" pad="B2"/>
+<connect gate="G$2" pin="B" pad="B3"/>
+<connect gate="G$2" pin="C" pad="B4"/>
+<connect gate="G$2" pin="D" pad="B5"/>
+<connect gate="G$2" pin="P" pad="B1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-B" package="SLSW-2P4T-2-H">
+<connects>
+<connect gate="G$1" pin="A" pad="A5"/>
+<connect gate="G$1" pin="B" pad="A4"/>
+<connect gate="G$1" pin="C" pad="A3"/>
+<connect gate="G$1" pin="D" pad="A2"/>
+<connect gate="G$1" pin="P" pad="A6"/>
+<connect gate="G$2" pin="A" pad="B5"/>
+<connect gate="G$2" pin="B" pad="B4"/>
+<connect gate="G$2" pin="C" pad="B3"/>
+<connect gate="G$2" pin="D" pad="B2"/>
+<connect gate="G$2" pin="P" pad="B6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
