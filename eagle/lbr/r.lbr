@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -710,12 +710,12 @@
 <wire x1="-1.395" y1="-5.795" x2="1.395" y2="-5.27" width="0.2032" layer="21"/>
 <wire x1="-1.17" y1="-8.755" x2="1.395" y2="-8.23" width="0.2032" layer="21"/>
 <wire x1="-4.54" y1="1.504" x2="4.54" y2="1.504" width="0.2032" layer="21"/>
-<pad name="1-A" x="-2.46" y="-2.54" drill="1"/>
+<pad name="1-A" x="-2.54" y="-2.54" drill="1"/>
 <pad name="1-S" x="0" y="-2.54" drill="1"/>
-<pad name="1-E" x="2.46" y="-2.54" drill="1"/>
-<pad name="2-A" x="-2.46" y="-0.08" drill="1"/>
+<pad name="1-E" x="2.54" y="-2.54" drill="1"/>
+<pad name="2-A" x="-2.54" y="0" drill="1"/>
 <pad name="2-S" x="0" y="-0.08" drill="1"/>
-<pad name="2-E" x="2.46" y="-0.08" drill="1"/>
+<pad name="2-E" x="2.54" y="0" drill="1"/>
 <text x="-4.572" y="2.159" size="0.6096" layer="25">&gt;NAME</text>
 <text x="2.032" y="-5.461" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 </package>
@@ -1550,8 +1550,8 @@
 </deviceset>
 <deviceset name="POT-STEREO" prefix="R">
 <gates>
-<gate name="-1" symbol="POT" x="0" y="10.16"/>
-<gate name="-2" symbol="POT" x="0" y="-10.16"/>
+<gate name="-1" symbol="POT" x="0" y="10.16" swaplevel="1"/>
+<gate name="-2" symbol="POT" x="0" y="-10.16" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="POT-STEREO-2X3">
