@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -184,7 +184,7 @@
 </symbol>
 <symbol name="V+">
 <text x="0" y="4.318" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="+12V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
+<pin name="V+" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
 <wire x1="0" y1="3.81" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
@@ -400,7 +400,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_GND" prefix="J" uservalue="yes">
+<deviceset name="VCC_GND" prefix="S">
 <gates>
 <gate name="G$1" symbol="VCC2" x="0" y="2.54"/>
 <gate name="G$2" symbol="GND2" x="0" y="-2.54"/>
