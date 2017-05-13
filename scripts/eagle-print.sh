@@ -130,7 +130,8 @@ eagle_print() {
   ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
 
   #ORIENTATION="landscape" PAPER="a5"  SCALE="3.0 -1"
-   ORIENTATION="landscape" PAPER="a4"  SCALE="2.0"
+   ORIENTATION="landscape" PAPER="a5"  SCALE="1.0"
+#   ORIENTATION="landscape" PAPER="a4"  SCALE="2.0"
 
       set -e
 

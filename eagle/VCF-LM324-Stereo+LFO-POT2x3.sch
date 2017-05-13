@@ -7262,9 +7262,9 @@ Source: www.kingbright.com</description>
 <part name="R7" library="r" deviceset="R" device="0204/7-V" value="100k"/>
 <part name="C1" library="c" deviceset="C" device="050-024X044" value="100nF"/>
 <part name="C2" library="c" deviceset="C" device="050-024X044" value="100nF"/>
-<part name="D1" library="d" deviceset="1N4148" device="34-5" value="1N4148"/>
-<part name="R2" library="r" deviceset="R" device="0204/10-V" value="1k"/>
-<part name="R3" library="r" deviceset="R" device="0204/7-V" value="1k"/>
+<part name="D1" library="d" deviceset="1N4148" device="34-7V" value="1N4148"/>
+<part name="R2" library="r" deviceset="R" device="0204V" value="1k"/>
+<part name="R3" library="r" deviceset="R" device="0204/7" value="1k"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="CV_IN" library="pad" deviceset="SPAD" device="" value="CV_IN"/>
@@ -7280,12 +7280,12 @@ Source: www.kingbright.com</description>
 <part name="R11" library="r" deviceset="R" device="0204/15" value="470k"/>
 <part name="R12" library="r" deviceset="R" device="0204/7-V" value="100k"/>
 <part name="R13" library="r" deviceset="R" device="0202V" value="100k"/>
-<part name="R14" library="r" deviceset="R" device="0204/7-V" value="100k"/>
+<part name="R14" library="r" deviceset="R" device="0204V" value="100k"/>
 <part name="C5" library="c" deviceset="C" device="050-024X044" value="100nF"/>
 <part name="C6" library="c" deviceset="C" device="050-024X044" value="100nF"/>
-<part name="D2" library="d" deviceset="1N4148" device="34-7V" value="1N4148"/>
-<part name="R9" library="r" deviceset="R" device="0204/7-V" value="1k"/>
-<part name="R10" library="r" deviceset="R" device="0204/10" value="1k"/>
+<part name="D2" library="d" deviceset="1N4148" device="35-2.54" value="1N4148"/>
+<part name="R9" library="r" deviceset="R" device="0204/7" value="1k"/>
+<part name="R10" library="r" deviceset="R" device="0204/7" value="1k"/>
 <part name="RIGHT_IN" library="pad" deviceset="SPAD" device="" value="AUDIO_IN"/>
 <part name="RIGHT_OUT" library="pad" deviceset="SPAD" device="" value="AUDIO_OUT"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -7294,10 +7294,10 @@ Source: www.kingbright.com</description>
 <part name="C7" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
 <part name="C8" library="c" deviceset="C" device="050-020X044" value="1uF"/>
 <part name="R23" library="r" deviceset="R" device="0204/10" value="1k"/>
-<part name="R16" library="r" deviceset="R" device="0204/7" value="47k"/>
+<part name="R16" library="r" deviceset="R" device="0204/10" value="47k"/>
 <part name="R17" library="r" deviceset="R" device="0204/7" value="4.7k"/>
 <part name="R18" library="r" deviceset="POT" device="" value="10k"/>
-<part name="R19" library="r" deviceset="R" device="0204/7-V" value="4.7k"/>
+<part name="R19" library="r" deviceset="R" device="0204/10-V" value="4.7k"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM"/>
 <part name="C9" library="c" deviceset="C" device="050-024X044/V" value="1uF"/>
@@ -7481,7 +7481,7 @@ Source: www.kingbright.com</description>
 <instance part="GND9" gate="1" x="195.58" y="48.26"/>
 <instance part="J2" gate="G$1" x="156.21" y="26.67" rot="MR0"/>
 <instance part="GND10" gate="1" x="162.56" y="13.97" rot="MR0"/>
-<instance part="J3" gate="G$1" x="204.47" y="27.94" rot="MR0"/>
+<instance part="J3" gate="G$1" x="208.28" y="27.94" rot="MR0"/>
 <instance part="P+7" gate="VCC" x="213.36" y="35.56" smashed="yes">
 <attribute name="VALUE" x="213.36" y="36.576" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -7551,8 +7551,7 @@ Source: www.kingbright.com</description>
 <pinref part="J3" gate="G$1" pin="1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="213.36" y1="25.4" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="29.21" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="27.94" x2="207.01" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="27.94" x2="210.82" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7593,9 +7592,9 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
-<wire x1="213.36" y1="33.02" x2="213.36" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="29.21" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="30.48" x2="207.01" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="33.02" x2="213.36" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="31.75" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="30.48" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
