@@ -71,6 +71,8 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<description>&lt;h1&gt;Simple LM358 OP-AMP based USB Li-ion charger&lt;/h1&gt;&lt;br/&gt;&lt;br/&gt;https://www.circuitsdiy.com/simple-lm358-op-amp-based-usb-li-ion-charger/&lt;br/&gt;
+https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <plain>
 <wire x1="0" y1="0" x2="83.82" y2="0" width="0" layer="20"/>
 <wire x1="83.82" y1="0" x2="83.82" y2="45.72" width="0" layer="20"/>

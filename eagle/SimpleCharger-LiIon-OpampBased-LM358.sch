@@ -71,6 +71,8 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>&lt;h1&gt;Simple LM358 OP-AMP based USB Li-ion charger&lt;/h1&gt;&lt;br/&gt;&lt;br/&gt;https://www.circuitsdiy.com/simple-lm358-op-amp-based-usb-li-ion-charger/&lt;br/&gt;
+https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <libraries>
 <library name="ic">
 <description>&lt;b&gt;CMOS Logic Devices, 4000 Series&lt;/b&gt;&lt;p&gt;
@@ -5579,6 +5581,9 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="-22.86" y="66.04" size="1.27" layer="97" font="fixed" align="top-left">https://www.circuitsdiy.com/simple-lm358-op-amp-based-usb-li-ion-charger/
+https://www.circuitsdiy.com/usb-li-ion-charger-revision/</text>
+<text x="-22.86" y="73.66" size="2.54" layer="97" font="vector" align="top-left">Simple LM358 OP-AMP based USB Li-ion charger</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="25.4" y="15.24"/>
@@ -5851,4 +5856,10 @@ Source: www.kingbright.com</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
