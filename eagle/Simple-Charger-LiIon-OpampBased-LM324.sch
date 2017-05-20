@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -916,20 +916,6 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 </package>
-<package name="0204/2V">
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<pad name="2" x="1.27" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-1.27" y="0" drill="0.8" rot="R180"/>
-<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="51"/>
-<wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.508" layer="21"/>
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="0202/2V">
 <pad name="1" x="0" y="-1.27" drill="0.8" rot="R90"/>
 <pad name="2" x="0" y="1.27" drill="0.8" rot="R90"/>
@@ -951,9 +937,34 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <wire x1="0" y1="0.127" x2="0" y2="-0.127" width="0.254" layer="21"/>
 <circle x="0" y="0.762" radius="0.508" width="0.0508" layer="51"/>
 </package>
+<package name="0204/2V">
+<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
+<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<pad name="2" x="0" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="1" x="0" y="1.27" drill="0.8" rot="R90"/>
+<text x="0" y="-2.54" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.508" layer="51"/>
+<wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.508" layer="21"/>
+<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
+<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<text x="0" y="2.286" size="0.6096" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="0204/2">
+<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
+<pad name="1" x="1.27" y="0" drill="0.8" rot="R180"/>
+<pad name="2" x="-1.27" y="0" drill="0.8" rot="R180"/>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="51"/>
+<wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.508" layer="21"/>
+<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-1.0414" size="0.6096" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
-<symbol name="R-1">
+<symbol name="R-H">
 <text x="0" y="1.4986" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
@@ -961,7 +972,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="0" y="-1.4986" size="1.27" layer="96" rot="R180" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="96" rot="R180" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="R">
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
@@ -977,7 +988,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <devicesets>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="G$1" symbol="R-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
@@ -1088,33 +1099,6 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0204/2-V" package="0204V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-V" package="0204V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-V-X" package="0204V">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="0204/12" package="0204/12">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1143,6 +1127,33 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </technologies>
 </device>
 <device name="0204/15-V" package="0204/15-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/2V" package="0204/2V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/2" package="0204/2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204V" package="0204V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1394,6 +1405,15 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </technologies>
 </device>
 <device name="0204/15-V" package="0204/15-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/2" package="0204/2">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3190,30 +3210,6 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <wire x1="-0.5842" y1="0.889" x2="-0.5842" y2="0" width="0.1524" layer="51"/>
 <rectangle x1="-0.508" y1="-0.8128" x2="-0.254" y2="0.8128" layer="21"/>
 </package>
-<package name="E2,5-3">
-<wire x1="0.9525" y1="0.762" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="0.8255" y1="0.635" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="0.9525" y1="0.635" x2="0.9525" y2="0.508" width="0.0762" layer="21"/>
-<wire x1="0.9525" y1="0.635" x2="1.0795" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.4445" width="0.0762" layer="51"/>
-<wire x1="0" y1="0.4445" x2="-0.6985" y2="0.4445" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="0.4445" x2="-0.6985" y2="0.1397" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="0.1397" x2="0.6985" y2="0.1397" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
-<circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
-<pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
-<text x="1.7145" y="0" size="0.6096" layer="25" rot="R90" align="top-center">&gt;NAME</text>
-<text x="-1.7145" y="0" size="0.6096" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
-<wire x1="0" y1="-1.27" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
-<wire x1="0" y1="-0.4445" x2="0.6985" y2="-0.4445" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="-0.4445" x2="0.6985" y2="-0.1397" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="-0.1397" x2="-0.6985" y2="-0.1397" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="-0.1397" x2="-0.6985" y2="-0.4445" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="-0.4445" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
-<rectangle x1="-0.1143" y1="-0.9779" x2="0.1143" y2="0.3937" layer="21" rot="R90"/>
-</package>
 <package name="E2.5-4/V">
 <wire x1="1.27" y1="1.2065" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="1.0795" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
@@ -3278,6 +3274,72 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <text x="2.694075" y="0.898028125" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="0.105209375" y1="-0.6567875" x2="0.613209375" y2="1.3752125" layer="21" rot="R45"/>
 </package>
+<package name="E2,5-3">
+<wire x1="-0.762" y1="0.9525" x2="-0.635" y2="0.9525" width="0.0762" layer="21"/>
+<wire x1="-0.635" y1="0.8255" x2="-0.635" y2="0.9525" width="0.0762" layer="21"/>
+<wire x1="-0.635" y1="0.9525" x2="-0.508" y2="0.9525" width="0.0762" layer="21"/>
+<wire x1="-0.635" y1="0.9525" x2="-0.635" y2="1.0795" width="0.0762" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-0.4445" y2="0" width="0.0762" layer="51"/>
+<wire x1="-0.4445" y1="0" x2="-0.4445" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.4445" y1="-0.6985" x2="-0.1397" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.1397" y1="-0.6985" x2="-0.1397" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.1397" y1="0.6985" x2="-0.4445" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.4445" y1="0.6985" x2="-0.4445" y2="0" width="0.0762" layer="51"/>
+<circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.7"/>
+<pad name="+" x="-1.27" y="0" drill="0.7" shape="square"/>
+<text x="0" y="1.7145" size="0.6096" layer="25" rot="R180" align="top-center">&gt;NAME</text>
+<text x="0" y="-1.7145" size="0.6096" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.27" y1="0" x2="0.4445" y2="0" width="0.0762" layer="51"/>
+<wire x1="0.4445" y1="0" x2="0.4445" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="0.4445" y1="0.6985" x2="0.1397" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="0.1397" y1="0.6985" x2="0.1397" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="0.1397" y1="-0.6985" x2="0.4445" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="0.4445" y1="-0.6985" x2="0.4445" y2="0" width="0.0762" layer="51"/>
+<rectangle x1="0.1778" y1="-0.6858" x2="0.4064" y2="0.6858" layer="21" rot="R180"/>
+</package>
+<package name="E2,5-3/V">
+<wire x1="0.9525" y1="0.762" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="0.8255" y1="0.635" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="0.9525" y1="0.635" x2="0.9525" y2="0.508" width="0.0762" layer="21"/>
+<wire x1="0.9525" y1="0.635" x2="1.0795" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.4445" width="0.0762" layer="51"/>
+<wire x1="0" y1="0.4445" x2="-0.6985" y2="0.4445" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="0.4445" x2="-0.6985" y2="0.1397" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="0.1397" x2="0.6985" y2="0.1397" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
+<circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
+<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
+<pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
+<text x="-1.016" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.016" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
+<wire x1="0" y1="-0.4445" x2="0.6985" y2="-0.4445" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="-0.4445" x2="0.6985" y2="-0.1397" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="-0.1397" x2="-0.6985" y2="-0.1397" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="-0.1397" x2="-0.6985" y2="-0.4445" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="-0.4445" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
+<rectangle x1="-0.1143" y1="-0.9779" x2="0.1143" y2="0.3937" layer="21" rot="R90"/>
+</package>
+<package name="C050-020X044/V">
+<wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
+<pad name="2" x="0" y="-2.54" drill="0.8" rot="R90"/>
+<text x="-1.016" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.016" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
+<wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="51"/>
+<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
+<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="-0.254" y1="2.159" x2="-0.635" y2="1.778" width="0.1016" layer="21" curve="90"/>
+<wire x1="0.254" y1="-2.159" x2="-0.254" y2="-2.159" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="-2.159" x2="-0.635" y2="-1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.254" y1="-2.159" x2="0.635" y2="-1.778" width="0.1016" layer="21" curve="90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL">
@@ -3296,8 +3358,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <wire x1="0" y1="0.889" x2="-1.9685" y2="0.889" width="0.127" layer="94"/>
 </symbol>
 <symbol name="C-H">
-<text x="0" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="1.27" y="1.27" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <wire x1="2.54" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
@@ -3691,6 +3753,15 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="E2,5-3/V" package="E2,5-3/V">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C-H" prefix="C" uservalue="yes">
@@ -3726,6 +3797,15 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </technologies>
 </device>
 <device name="075-020X044/V" package="C075-020X044/V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="050-020X044/V" package="C050-020X044/V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5501,15 +5581,15 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="IC1" library="ic" deviceset="LM324" device="N"/>
 <part name="R1" library="r" deviceset="R-H" device="0204/10" value="1"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10-V" value="2.7k"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/7-V" value="2.7k"/>
 <part name="R3" library="r" deviceset="R" device="0204/10-V" value="2.2k"/>
 <part name="R4" library="r" deviceset="R" device="0204/10-V" value="220"/>
-<part name="R5" library="r" deviceset="R-H" device="0204/10" value="470"/>
+<part name="R5" library="r" deviceset="R-H" device="0204/10-V" value="470"/>
 <part name="R6" library="r" deviceset="R" device="0204/10-V" value="4.7k"/>
-<part name="R7" library="r" deviceset="R-H" device="0204/10" value="3.6k"/>
-<part name="R8" library="r" deviceset="R" device="0204/10-V" value="680"/>
-<part name="R9" library="r" deviceset="R" device="0204/7-V" value="1k"/>
-<part name="R10" library="r" deviceset="R-H" device="0204/10" value="680k"/>
+<part name="R7" library="r" deviceset="R-H" device="0204/7-V" value="3.6k"/>
+<part name="R8" library="r" deviceset="R" device="0204/10" value="680"/>
+<part name="R9" library="r" deviceset="R" device="0204/10-V" value="1k"/>
+<part name="R10" library="r" deviceset="R-H" device="0204/2V" value="680k"/>
 <part name="C1" library="c" deviceset="CPOL" device="E2.5-5" value="100uF/16V"/>
 <part name="C2" library="c" deviceset="C-H" device="050-020X044" value="68nF"/>
 <part name="R11" library="r" deviceset="R" device="0204/10-V" value="470"/>
@@ -5533,6 +5613,10 @@ Source: www.kingbright.com</description>
 <part name="S6" library="pad" deviceset="GND" device=""/>
 <part name="S7" library="pad" deviceset="GND" device=""/>
 <part name="S8" library="pad" deviceset="GND" device=""/>
+<part name="S9" library="pad" deviceset="GND" device=""/>
+<part name="S10" library="pad" deviceset="GND" device=""/>
+<part name="S11" library="pad" deviceset="GND" device=""/>
+<part name="S12" library="pad" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5577,8 +5661,12 @@ Source: www.kingbright.com</description>
 <instance part="S6" gate="1" x="25.4" y="3.81"/>
 <instance part="S7" gate="1" x="-12.7" y="12.7"/>
 <instance part="S8" gate="1" x="-17.78" y="15.24"/>
-<instance part="IC1" gate="A" x="115.57" y="50.8"/>
-<instance part="IC1" gate="B" x="115.57" y="38.1"/>
+<instance part="IC1" gate="A" x="114.3" y="50.8"/>
+<instance part="IC1" gate="B" x="114.3" y="38.1"/>
+<instance part="S9" gate="1" x="101.6" y="48.26" rot="MR90"/>
+<instance part="S10" gate="1" x="101.6" y="35.56" rot="MR90"/>
+<instance part="S11" gate="1" x="101.6" y="40.64" rot="MR90"/>
+<instance part="S12" gate="1" x="100.33" y="53.34" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -5665,6 +5753,26 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="P" pin="V-"/>
 <wire x1="25.4" y1="6.35" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="S6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="-IN"/>
+<pinref part="S9" gate="1" pin="GND"/>
+<wire x1="104.14" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="B" pin="-IN"/>
+<pinref part="S10" gate="1" pin="GND"/>
+<wire x1="104.14" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="B" pin="+IN"/>
+<pinref part="S11" gate="1" pin="GND"/>
+<wire x1="104.14" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="+IN"/>
+<pinref part="S12" gate="1" pin="GND"/>
+<wire x1="102.87" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
