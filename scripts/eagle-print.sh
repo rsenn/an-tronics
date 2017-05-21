@@ -122,7 +122,9 @@ eagle_print() {
 
   for ARG; do
 
-   (SCH=${ARG%.*}.sch
+   (SCH=${ARG%.*}
+   SCH=${SCH%-[[:lower:]]*}
+   SCH=$SCH.sch
   BRD=${ARG%.*}.brd
   OUT=doc/pdf/$(basename "${BRD%.*}").pdf
    trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,eps}' EXIT
@@ -139,7 +141,10 @@ eagle_print() {
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board.pdf"
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
 
-  exec_cmd GHOSTSCRIPT -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER  -dEPSCrop -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile="$OUT"   "${BRD%.*}"-{schematic,board,board-mirrored}.eps) || exit $?
+  exec_cmd GHOSTSCRIPT -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER  -dEPSCrop -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile="$OUT"   \
+  "${SCH%.*}"-schematic.eps \
+  "${BRD%.*}"-{board,board-mirrored}.eps \
+  ) || exit $?
 
 
 
