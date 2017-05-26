@@ -3880,9 +3880,27 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="050-020X036" package="C050-020X036">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="050-020X036/V" package="C050-020X036/V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="CPOL-H">
+<deviceset name="CPOL-H" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CPOL-H" x="0" y="0"/>
 </gates>
@@ -3915,6 +3933,24 @@
 </technologies>
 </device>
 <device name="E2,5-3/V" package="E2,5-3/V">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E2,5-4" package="E2,5-4">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>

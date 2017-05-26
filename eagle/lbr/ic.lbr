@@ -68,6 +68,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>&lt;b&gt;CMOS Logic Devices, 4000 Series&lt;/b&gt;&lt;p&gt;
@@ -818,6 +819,102 @@
 <pin name="AMIN" x="20.32" y="0" length="short" rot="R180"/>
 <pin name="FMIF" x="20.32" y="-5.08" length="short" rot="R180"/>
 <pin name="AMIF" x="20.32" y="-7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="OTA">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="5.715" x2="-6.35" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="5.08" x2="-5.715" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="-5.08" x2="-5.715" y2="-5.08" width="0.1524" layer="94"/>
+<text x="-7.62" y="8.255" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-8.255" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="-IN" x="-10.16" y="-5.08" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-10.16" y="5.08" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="15.24" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<polygon width="0" layer="94">
+<vertex x="-7.62" y="0.508" curve="90"/>
+<vertex x="-8.128" y="0" curve="90"/>
+<vertex x="-7.62" y="-0.508" curve="90"/>
+<vertex x="-7.112" y="0" curve="90"/>
+</polygon>
+<polygon width="0" layer="94">
+<vertex x="-7.62" y="3.81"/>
+<vertex x="-8.89" y="1.524"/>
+<vertex x="-6.35" y="1.524"/>
+</polygon>
+<wire x1="-8.89" y1="3.81" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<polygon width="0" layer="94">
+<vertex x="-7.62" y="-3.81"/>
+<vertex x="-6.35" y="-1.524"/>
+<vertex x="-8.89" y="-1.524"/>
+</polygon>
+<wire x1="-6.35" y1="-3.81" x2="-8.89" y2="-3.81" width="0.254" layer="94"/>
+<pin name="DIODE/BIAS" x="-10.16" y="0" visible="pad" length="short" direction="in"/>
+<circle x="9.41605" y="0" radius="1.79605" width="0.254" layer="94"/>
+<circle x="10.90395" y="0" radius="1.79605" width="0.254" layer="94"/>
+<pin name="AMP/BIAS" x="10.16" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-1.651" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="PWR+-OTA">
+<text x="-1.27" y="4.445" size="0.8128" layer="93" rot="MR90">V+</text>
+<text x="-1.27" y="-5.715" size="0.8128" layer="93" rot="MR90">V-</text>
+<pin name="V+" x="0" y="6.35" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-6.35" visible="off" length="short" direction="pwr" rot="R90"/>
+<text x="1.27" y="5.08" size="1.778" layer="94" font="vector" rot="MR0" align="center">+</text>
+<text x="1.27" y="-5.08" size="1.778" layer="94" font="vector" rot="MR0" align="center">-</text>
+</symbol>
+<symbol name="OTABUF">
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-3.7465" y2="1.30175" width="0.1524" layer="94"/>
+<wire x1="-2.3495" y1="-1.36525" x2="-1.8415" y2="-2.25425" width="0.1524" layer="94"/>
+<wire x1="-1.8415" y1="-2.25425" x2="-2.8575" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="-2.38125" x2="-2.3495" y2="-1.36525" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.8415" y2="-2.25425" width="0.1524" layer="94"/>
+<wire x1="-1.8415" y1="-2.25425" x2="-3.502" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="-2.6035" y1="-2.25425" x2="-2.032" y2="-2.19075" width="0.3048" layer="94"/>
+<wire x1="-2.032" y1="-2.19075" x2="-2.3495" y2="-1.61925" width="0.3048" layer="94"/>
+<wire x1="-2.3495" y1="-1.61925" x2="-2.6035" y2="-2.12725" width="0.254" layer="94"/>
+<wire x1="-2.6035" y1="-2.12725" x2="-2.2225" y2="-2.12725" width="0.254" layer="94"/>
+<wire x1="-2.2225" y1="-2.12725" x2="-2.3495" y2="-1.87325" width="0.254" layer="94"/>
+<text x="-7.62" y="8.255" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="-8.255" size="1.27" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
+<rectangle x1="-4.318" y1="-2.54" x2="-3.556" y2="2.54" layer="94"/>
+<pin name="BUFF/IN" x="-10.16" y="0" visible="pad" length="short" direction="in"/>
+<pin name="BUFF/OUT" x="5.08" y="-10.16" visible="pad" length="short" direction="out" rot="R90"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="1.3335" y2="-1.23825" width="0.1524" layer="94"/>
+<wire x1="2.7305" y1="-3.90525" x2="3.2385" y2="-4.79425" width="0.1524" layer="94"/>
+<wire x1="3.2385" y1="-4.79425" x2="2.2225" y2="-4.92125" width="0.1524" layer="94"/>
+<wire x1="2.2225" y1="-4.92125" x2="2.7305" y2="-3.90525" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.2385" y2="-4.79425" width="0.1524" layer="94"/>
+<wire x1="3.2385" y1="-4.79425" x2="1.578" y2="-3.964" width="0.1524" layer="94"/>
+<wire x1="2.4765" y1="-4.79425" x2="3.048" y2="-4.73075" width="0.3048" layer="94"/>
+<wire x1="3.048" y1="-4.73075" x2="2.7305" y2="-4.15925" width="0.3048" layer="94"/>
+<wire x1="2.7305" y1="-4.15925" x2="2.4765" y2="-4.66725" width="0.254" layer="94"/>
+<wire x1="2.4765" y1="-4.66725" x2="2.8575" y2="-4.66725" width="0.254" layer="94"/>
+<wire x1="2.8575" y1="-4.66725" x2="2.7305" y2="-4.41325" width="0.254" layer="94"/>
+<rectangle x1="0.762" y1="-5.08" x2="1.524" y2="0" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<polygon width="0.127" layer="94">
+<vertex x="0" y="2.286" curve="-90"/>
+<vertex x="-0.254" y="2.54" curve="-90"/>
+<vertex x="0" y="2.794" curve="-90"/>
+<vertex x="0.254" y="2.54" curve="-90"/>
+</polygon>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="5.08" radius="0.762" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="5.08" x2="-0.508" y2="5.08" width="0.127" layer="94"/>
+<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.127" layer="94"/>
+<wire x1="0" y1="4.318" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2194,6 +2291,40 @@
 <connect gate="G$1" pin="VSS" pad="19"/>
 <connect gate="G$1" pin="XIN" pad="1"/>
 <connect gate="G$1" pin="XOUT" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM13600">
+<gates>
+<gate name="A" symbol="OTA" x="0" y="22.86"/>
+<gate name="B" symbol="OTA" x="0" y="2.54"/>
+<gate name="A*" symbol="OTABUF" x="35.56" y="22.86"/>
+<gate name="B*" symbol="OTABUF" x="35.56" y="2.54"/>
+<gate name="G$5" symbol="PWR+-OTA" x="2.54" y="22.86"/>
+</gates>
+<devices>
+<device name="" package="DIL16">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="AMP/BIAS" pad="1"/>
+<connect gate="A" pin="DIODE/BIAS" pad="2"/>
+<connect gate="A" pin="OUT" pad="5"/>
+<connect gate="A*" pin="BUFF/IN" pad="7"/>
+<connect gate="A*" pin="BUFF/OUT" pad="8"/>
+<connect gate="B" pin="+IN" pad="14"/>
+<connect gate="B" pin="-IN" pad="13"/>
+<connect gate="B" pin="AMP/BIAS" pad="16"/>
+<connect gate="B" pin="DIODE/BIAS" pad="15"/>
+<connect gate="B" pin="OUT" pad="12"/>
+<connect gate="B*" pin="BUFF/IN" pad="9"/>
+<connect gate="B*" pin="BUFF/OUT" pad="10"/>
+<connect gate="G$5" pin="V+" pad="11"/>
+<connect gate="G$5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
