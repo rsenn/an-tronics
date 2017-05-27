@@ -3583,14 +3583,15 @@
 </package>
 <package name="SPAD+-">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
-<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
+<text x="0" y="-2.794" size="0.8128" layer="26" ratio="9" distance="5" align="top-center">&gt;NAME</text>
 <pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <text x="1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
 <text x="1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="1.524" y="0" size="0.6096" layer="27" font="fixed" ratio="9" distance="5" align="center-left">&gt;VALUE</text>
 </package>
 <package name="SPAD-+">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
@@ -3602,6 +3603,20 @@
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <text x="-1.905" y="-1.27" size="1.016" layer="21" rot="R180" align="center">-</text>
 <text x="-1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
+<text x="-1.524" y="0" size="0.6096" layer="27" font="fixed" ratio="9" distance="5" align="center-right">&gt;VALUE</text>
+</package>
+<package name="SPAD-PWR-+GND-">
+<pad name="VEE" x="0" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="GND" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R90"/>
+<pad name="VCC" x="0" y="2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<text x="-1.27" y="4.445" size="1.016" layer="21" font="vector" ratio="9" distance="5">&gt;NAME</text>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<text x="-1.905" y="2.54" size="0.6096" layer="48" align="center-right">VCC</text>
+<text x="-1.905" y="0" size="0.6096" layer="48" align="center-right">GND</text>
+<text x="-1.905" y="-2.54" size="0.6096" layer="48" align="center-right">VEE</text>
 </package>
 </packages>
 <symbols>
@@ -3615,7 +3630,7 @@
 <symbol name="VCC2">
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
-<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">VCC</text>
+<text x="0" y="3.175" size="1.27" layer="95" align="bottom-center">VCC</text>
 <pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="GND2">
@@ -3628,7 +3643,7 @@
 <symbol name="VEE2">
 <wire x1="-1.27" y1="-0.635" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
-<text x="0" y="-3.81" size="1.778" layer="95" rot="R180" align="bottom-center">VEE</text>
+<text x="0" y="-3.175" size="1.27" layer="95" rot="MR180" align="bottom-center">VEE</text>
 <pin name="VEE" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="SPAD">
@@ -3651,7 +3666,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_GND_VEE">
+<deviceset name="VCC_GND_VEE" prefix="PWR">
 <gates>
 <gate name="G$1" symbol="VCC2" x="0" y="5.08"/>
 <gate name="G$2" symbol="GND2" x="0" y="0"/>
@@ -3668,9 +3683,19 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="PWR-+GND-" package="SPAD-PWR-+GND-">
+<connects>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$2" pin="GND" pad="GND"/>
+<connect gate="G$3" pin="VEE" pad="VEE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="SPAD+-" prefix="J">
+<deviceset name="SPAD+-" prefix="J" uservalue="yes">
 <gates>
 <gate name="-" symbol="SPAD" x="0" y="-2.54"/>
 <gate name="+" symbol="SPAD" x="0" y="2.54"/>
@@ -3704,22 +3729,22 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
 </class>
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="LM13600" device=""/>
-<part name="R4" library="r" deviceset="R" device="0204/10-V" value="22k"/>
-<part name="R5" library="r" deviceset="R" device="0204/10-V" value="22k"/>
-<part name="R1" library="r" deviceset="R" device="0204/10-V" value="470"/>
+<part name="R4" library="r" deviceset="R" device="0202/7" value="22k"/>
+<part name="R5" library="r" deviceset="R" device="0202/7-V" value="22k"/>
+<part name="R1" library="r" deviceset="R" device="0202/7" value="470"/>
 <part name="R2" library="r" deviceset="R" device="0204/10-V" value="470"/>
 <part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4" value="2.2uF"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4/V"/>
-<part name="R6" library="r" deviceset="R" device="0204/10-V" value="180"/>
+<part name="R6" library="r" deviceset="R" device="0202/7" value="180"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
-<part name="U$3" library="pad" deviceset="VCC_GND_VEE" device=""/>
-<part name="A_IN" library="pad" deviceset="SPAD+-" device="-+"/>
+<part name="PWR" library="pad" deviceset="VCC_GND_VEE" device="PWR-+GND-" value="VCC_GND_VEEPWR-+GND-"/>
+<part name="A_IN" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="A_OUT" library="pad" deviceset="SPAD+-" device="+-"/>
 </parts>
@@ -3740,9 +3765,9 @@
 <instance part="S2" gate="1" x="93.98" y="17.78"/>
 <instance part="S3" gate="1" x="60.96" y="35.56"/>
 <instance part="IC1" gate="G$5" x="40.64" y="55.88"/>
-<instance part="U$3" gate="G$1" x="45.72" y="81.28"/>
-<instance part="U$3" gate="G$2" x="7.62" y="43.18"/>
-<instance part="U$3" gate="G$3" x="40.64" y="43.18"/>
+<instance part="PWR" gate="G$1" x="45.72" y="81.28"/>
+<instance part="PWR" gate="G$2" x="7.62" y="43.18"/>
+<instance part="PWR" gate="G$3" x="40.64" y="43.18"/>
 <instance part="A_IN" gate="-" x="0" y="22.86"/>
 <instance part="A_IN" gate="+" x="0" y="30.48"/>
 <instance part="S1" gate="1" x="2.54" y="17.78"/>
@@ -3820,7 +3845,7 @@
 <wire x1="22.86" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="45.72" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$2" pin="GND"/>
+<pinref part="PWR" gate="G$2" pin="GND"/>
 </segment>
 <segment>
 <pinref part="A_IN" gate="-" pin="P$1"/>
@@ -3862,14 +3887,14 @@
 <wire x1="40.64" y1="62.23" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 <junction x="45.72" y="76.2"/>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
+<pinref part="PWR" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="VEE" class="0">
 <segment>
 <pinref part="IC1" gate="G$5" pin="V-"/>
 <wire x1="40.64" y1="43.18" x2="40.64" y2="49.53" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$3" pin="VEE"/>
+<pinref part="PWR" gate="G$3" pin="VEE"/>
 </segment>
 </net>
 <net name="N$6" class="0">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -141,6 +141,60 @@
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <text x="-1.905" y="-1.27" size="1.27" layer="21" rot="R180" align="center">-</text>
 <text x="-1.905" y="1.27" size="1.016" layer="21" rot="R90" align="center">+</text>
+</package>
+<package name="SPAD-PWR-+GND-">
+<pad name="VEE" x="0" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="GND" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R90"/>
+<pad name="VCC" x="0" y="2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<text x="-1.27" y="4.445" size="1.016" layer="21" font="vector" ratio="9" distance="5">&gt;NAME</text>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<text x="-1.905" y="2.54" size="0.6096" layer="48" align="center-right">VCC</text>
+<text x="-1.905" y="0" size="0.6096" layer="48" align="center-right">GND</text>
+<text x="-1.905" y="-2.54" size="0.6096" layer="48" align="center-right">VEE</text>
+</package>
+<package name="SPAD-PWR--GND+">
+<pad name="VEE" x="0" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="GND" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R90"/>
+<pad name="VCC" x="0" y="2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<text x="-1.27" y="4.445" size="1.016" layer="21" font="vector" ratio="9" distance="5">&gt;NAME</text>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<text x="1.905" y="2.54" size="0.6096" layer="48" align="center-left">VCC</text>
+<text x="1.905" y="0" size="0.6096" layer="48" align="center-left">GND</text>
+<text x="1.905" y="-2.54" size="0.6096" layer="48" align="center-left">VEE</text>
+</package>
+<package name="SPAD-L-GND-R">
+<pad name="R" x="0" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="0" x="0" y="0" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="L" x="0" y="2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<text x="-1.27" y="4.445" size="1.016" layer="21" font="vector" ratio="9" distance="5">&gt;NAME</text>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<text x="-1.905" y="2.54" size="0.6096" layer="21" align="center-right">Left</text>
+<text x="-1.905" y="0" size="0.6096" layer="21" align="center-right">GND</text>
+<text x="-1.905" y="2.54" size="0.6096" layer="21" align="center-right">Left</text>
+<text x="-1.905" y="-2.54" size="0.6096" layer="21" align="center-right">Right</text>
+</package>
+<package name="SPAD-R-GND-L">
+<pad name="R" x="0" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="0" x="0" y="0" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="L" x="0" y="2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<text x="-1.27" y="4.445" size="1.016" layer="21" font="vector" ratio="9" distance="5">&gt;NAME</text>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<text x="1.905" y="2.54" size="0.6096" layer="21" align="center-left">Left</text>
+<text x="1.905" y="0" size="0.6096" layer="21" align="center-left">GND</text>
+<text x="1.905" y="2.54" size="0.6096" layer="21" align="center-left">Left</text>
+<text x="1.905" y="-2.54" size="0.6096" layer="21" align="center-left">Right</text>
 </package>
 </packages>
 <symbols>
@@ -415,6 +469,26 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="L-GND-R" package="SPAD-L-GND-R">
+<connects>
+<connect gate="-GND" pin="P$1" pad="0"/>
+<connect gate="-L" pin="P$1" pad="L"/>
+<connect gate="-R" pin="P$1" pad="R"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R-GND-L" package="SPAD-R-GND-L">
+<connects>
+<connect gate="-GND" pin="P$1" pad="0"/>
+<connect gate="-L" pin="P$1" pad="L"/>
+<connect gate="-R" pin="P$1" pad="R"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="VCC">
@@ -497,6 +571,26 @@
 <connect gate="G$1" pin="VCC" pad="1"/>
 <connect gate="G$2" pin="GND" pad="2"/>
 <connect gate="G$3" pin="VEE" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PWR-+GND-" package="SPAD-PWR-+GND-">
+<connects>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$2" pin="GND" pad="GND"/>
+<connect gate="G$3" pin="VEE" pad="VEE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PWR--GND+" package="SPAD-PWR--GND+">
+<connects>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$2" pin="GND" pad="GND"/>
+<connect gate="G$3" pin="VEE" pad="VEE"/>
 </connects>
 <technologies>
 <technology name=""/>
