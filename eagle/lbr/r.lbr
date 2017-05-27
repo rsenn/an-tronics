@@ -741,9 +741,9 @@
 <wire x1="-1.395" y1="-3.255" x2="1.395" y2="-2.73" width="0.2032" layer="21"/>
 <wire x1="-1.17" y1="-6.215" x2="1.395" y2="-5.69" width="0.2032" layer="21"/>
 <wire x1="-4.54" y1="1.504" x2="4.54" y2="1.504" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.9304"/>
-<pad name="2" x="0" y="0" drill="1" diameter="1.9304"/>
-<pad name="3" x="2.54" y="0" drill="1" diameter="1.9304"/>
+<pad name="A" x="-2.54" y="0" drill="1" diameter="1.9304"/>
+<pad name="S" x="0" y="0" drill="1" diameter="1.9304"/>
+<pad name="E" x="2.54" y="0" drill="1" diameter="1.9304"/>
 <text x="-4.572" y="1.778" size="0.6096" layer="25">&gt;NAME</text>
 <text x="4.572" y="1.778" size="0.6096" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
@@ -1319,6 +1319,27 @@
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="POT-H">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="2.54" x2="1.524" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="2.54" x2="1.524" y2="2.032" width="0.1524" layer="94"/>
+<text x="-3.175" y="1.905" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="3.81" y="1.905" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="A" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="E" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<wire x1="0" y1="-1.651" x2="-1.7526" y2="1.8796" width="0.1524" layer="94"/>
+<wire x1="-1.2939" y1="2.1597" x2="-2.4495" y2="3.1989" width="0.1524" layer="94"/>
+<wire x1="-2.4495" y1="3.1989" x2="-2.2352" y2="1.7018" width="0.1524" layer="94"/>
+<wire x1="-1.2939" y1="2.1597" x2="-2.2352" y2="1.7018" width="0.1524" layer="94"/>
+<text x="-3.175" y="-1.27" size="1.27" layer="97" font="fixed" rot="MR0" align="center">A</text>
+<text x="3.175" y="-1.27" size="1.27" layer="97" font="fixed" rot="MR180" align="center">E</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="R" prefix="R" uservalue="yes">
@@ -1693,9 +1714,9 @@
 <devices>
 <device name="" package="POT">
 <connects>
-<connect gate="1" pin="A" pad="1"/>
-<connect gate="1" pin="E" pad="3"/>
-<connect gate="1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="E" pad="E"/>
+<connect gate="1" pin="S" pad="S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1960,6 +1981,23 @@
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POT-H">
+<gates>
+<gate name="G$1" symbol="POT-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POT">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="S" pad="S"/>
 </connects>
 <technologies>
 <technology name=""/>
