@@ -1,0 +1,3 @@
+[submodule "xread"]
+	path = xread
+	url = https://github.com/naleksiev/xread.git
