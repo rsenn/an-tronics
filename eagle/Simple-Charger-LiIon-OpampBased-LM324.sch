@@ -5581,16 +5581,16 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="IC1" library="ic" deviceset="LM324" device="N"/>
 <part name="R1" library="r" deviceset="R-H" device="0204/10" value="1"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/7-V" value="2.7k"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10-V" value="2.7k"/>
 <part name="R3" library="r" deviceset="R" device="0204/10-V" value="2.2k"/>
 <part name="R4" library="r" deviceset="R" device="0204/10-V" value="220"/>
 <part name="R5" library="r" deviceset="R-H" device="0204/10-V" value="470"/>
 <part name="R6" library="r" deviceset="R" device="0204/10-V" value="4.7k"/>
-<part name="R7" library="r" deviceset="R-H" device="0204/7-V" value="3.6k"/>
+<part name="R7" library="r" deviceset="R-H" device="0204/10-V" value="3.6k"/>
 <part name="R8" library="r" deviceset="R" device="0204/10" value="680"/>
 <part name="R9" library="r" deviceset="R" device="0204/10-V" value="1k"/>
 <part name="R10" library="r" deviceset="R-H" device="0204/2V" value="680k"/>
-<part name="C1" library="c" deviceset="CPOL" device="E2.5-5" value="100uF/16V"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-5/V" value="100uF/16V"/>
 <part name="C2" library="c" deviceset="C-H" device="050-020X044" value="68nF"/>
 <part name="R11" library="r" deviceset="R" device="0204/10-V" value="470"/>
 <part name="R12" library="r" deviceset="R-H" device="0204/10-V" value="12k"/>
