@@ -89,7 +89,8 @@ end
 	if @description != "" then
 	  to = file_name+".bak"
 	  STDERR.puts "Renaming '#{file_name}' to '#{to}' ..."
-	  
+
+      if File.exist?(to) then File.unlink(to) end
 	  File.rename(file_name, to);
 
 	  STDERR.puts "Writing XML data to '#{file_name}' ..."
