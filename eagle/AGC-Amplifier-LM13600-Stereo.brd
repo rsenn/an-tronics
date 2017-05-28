@@ -72,6 +72,7 @@
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<description>&lt;h1&gt;AGC Amplifier using LM13600&lt;/h1&gt;&lt;br/&gt;&lt;pre&gt;From: UsingOTAs2.pdf&lt;/pre&gt;</description>
 <plain>
 <wire x1="35.56" y1="0" x2="35.56" y2="40.64" width="0" layer="20"/>
 <wire x1="35.56" y1="40.64" x2="0" y2="40.64" width="0" layer="20"/>
