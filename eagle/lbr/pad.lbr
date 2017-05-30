@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -98,7 +98,7 @@
 </package>
 <package name="SPAD+-">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
-<text x="0" y="-2.794" size="0.8128" layer="26" ratio="9" distance="5" align="top-center">&gt;NAME</text>
+<text x="0" y="-2.794" size="0.6096" layer="26" ratio="9" distance="5" align="top-center">&gt;NAME</text>
 <pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
@@ -110,7 +110,7 @@
 </package>
 <package name="SPAD-+">
 <pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
-<text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
+<text x="0" y="-2.794" size="0.6096" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
 <pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
