@@ -8073,67 +8073,6 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor">
-<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="NPN">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BC847" prefix="T">
-<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="r">
 <description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
@@ -8629,7 +8568,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-H" prefix="R" uservalue="yes">
+<deviceset name="R-H" prefix="R">
 <gates>
 <gate name="G$1" symbol="R-H" x="0" y="0"/>
 </gates>
@@ -9255,7 +9194,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="R20" library="resistor" deviceset="R-EU_" device="0207/10" value="20k"/>
 <part name="R21" library="resistor" deviceset="R-EU_" device="0207/10" value="20k"/>
-<part name="R22" library="resistor" deviceset="R-EU_" device="0207/10" value="2k"/>
+<part name="R22" library="r" deviceset="R-H" device="0204/10" value="2k"/>
 <part name="R23" library="resistor" deviceset="R-EU_" device="0207/10" value="2k"/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="SUPPLY20" library="supply2" deviceset="+15V" device=""/>
@@ -9284,7 +9223,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <part name="SUPPLY29" library="supply2" deviceset="-15V" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="C10" library="gm-caps-film-box" deviceset="072X025" device="2" value="1nF"/>
-<part name="T1" library="transistor" deviceset="BC847" device=""/>
+<part name="T1" library="t" deviceset="2N3904" device=""/>
 <part name="R34" library="resistor" deviceset="R-EU_" device="0207/10" value="4.7k"/>
 <part name="SUPPLY31" library="supply2" deviceset="+15V" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
@@ -9295,7 +9234,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <part name="R37" library="resistor" deviceset="R-EU_" device="0207/10" value="1M"/>
 <part name="R38" library="resistor" deviceset="R-EU_" device="0207/10" value="390r"/>
 <part name="R39" library="resistor" deviceset="R-EU_" device="0207/10" value="100k"/>
-<part name="R40" library="resistor" deviceset="R-EU_" device="0207/10" value="39k"/>
+<part name="R40" library="r" deviceset="R-H" device="0204/10" value="39k"/>
 <part name="R41" library="resistor" deviceset="R-EU_" device="0207/10" value="39k"/>
 <part name="R42" library="resistor" deviceset="R-TRIMM" device="3296W" value="25k"/>
 <part name="SUPPLY33" library="supply2" deviceset="+15V" device=""/>
@@ -9304,7 +9243,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <part name="SUPPLY36" library="supply2" deviceset="+15V" device=""/>
 <part name="R43" library="resistor" deviceset="R-EU_" device="0207/10" value="300k"/>
 <part name="SUPPLY37" library="supply2" deviceset="+15V" device=""/>
-<part name="R44" library="resistor" deviceset="R-EU_" device="0207/10" value="5.6k"/>
+<part name="R44" library="r" deviceset="R-H" device="0204/10" value="5.6k"/>
 <part name="SUPPLY38" library="supply2" deviceset="-15V" device=""/>
 <part name="R45" library="resistor" deviceset="R-EU_" device="0207/10" value="1k"/>
 <part name="X7" library="con-phoenix-254" deviceset="MPT2" device="">
