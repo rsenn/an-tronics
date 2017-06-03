@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -667,6 +667,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
 </package>
+<package name="CTRIMTZ03">
+<wire x1="1.45" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="-1.45" y1="-2.5" x2="-1.05" y2="2.7" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="1.05" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="51" curve="-42.501011"/>
+<circle x="0" y="0" radius="1.6" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="2.5" drill="1"/>
+<pad name="2" x="0" y="-2.5" drill="1"/>
+<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
+<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP-TRIM">
@@ -687,7 +700,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-TR-PH20127" prefix="C">
+<deviceset name="C-TR-PH20127" prefix="C" uservalue="yes">
 <gates>
 <gate name="1" symbol="CAP-TRIM" x="0" y="0"/>
 </gates>
@@ -812,6 +825,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <device name="2222-808-45-2PINB" package="TRIM-2222-808-45">
 <connects>
 <connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TZ03" package="CTRIMTZ03">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
 <connect gate="1" pin="E" pad="2"/>
 </connects>
 <technologies>
@@ -1892,33 +1914,49 @@ In this library the device names are the same as the pin names of the symbols, t
  &lt;/table&gt;
  &lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
-<package name="0202/5">
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
-<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.127" layer="21" curve="90"/>
-<text x="-1.27" y="0.635" size="1.016" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.127" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.127" layer="21"/>
-<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
-<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
+<package name="0204/2V">
+<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
+<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<pad name="2" x="0" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="1" x="0" y="1.27" drill="0.8" rot="R90"/>
+<text x="0" y="-2.54" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.508" layer="51"/>
+<wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.508" layer="21"/>
+<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
+<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<text x="0" y="2.286" size="0.6096" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="0202V">
-<pad name="2" x="0" y="1.27" drill="0.8" rot="R270"/>
-<pad name="1" x="0" y="-1.27" drill="0.8" rot="R270"/>
-<text x="-1.016" y="0.508" size="1.016" layer="25" ratio="10" align="center-right">&gt;NAME</text>
-<text x="-1.016" y="-0.508" size="0.8128" layer="27" ratio="10" align="center-right">&gt;VALUE</text>
-<circle x="0" y="0.762" radius="0.762" width="0.127" layer="21"/>
-<wire x1="0" y1="0.762" x2="0" y2="-1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="0.127" x2="0" y2="-0.127" width="0.254" layer="21"/>
-<circle x="0" y="0.762" radius="0.508" width="0.0508" layer="51"/>
+<package name="0204/7-V">
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R270"/>
+<text x="-1.27" y="3.2004" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-2.921" width="0.508" layer="51"/>
+<wire x1="0" y1="3.81" x2="0" y2="2.921" width="0.508" layer="51"/>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
 <package name="0204/5">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -1929,8 +1967,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.524" y1="0.889" x2="1.778" y2="0.635" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-2.0066" y="1.1684" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.0066" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
 <rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
 <wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.508" layer="51"/>
@@ -1951,8 +1989,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.524" y1="0.889" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="1.524" y1="-0.889" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
 <wire x1="1.778" y1="-0.635" x2="1.778" y2="0.635" width="0.1524" layer="51"/>
-<text x="-2.0066" y="1.1684" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.0066" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
 <rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
 </package>
@@ -1965,8 +2003,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-3.81" y="0" drill="0.8"/>
 <pad name="2" x="3.81" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 <wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -1987,8 +2025,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
@@ -1999,14 +2037,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.1336" y="1.1684" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="51"/>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="21"/>
 <circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
 <circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<text x="-2.1336" y="1.1684" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0207/10">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2017,8 +2055,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="0.8"/>
 <pad name="2" x="5.08" y="0" drill="0.8"/>
-<text x="-3.048" y="1.524" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.2606" y="-0.635" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.048" y="1.524" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.2606" y="-0.635" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
@@ -2039,8 +2077,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
-<text x="-3.048" y="1.524" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.2606" y="-0.635" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.048" y="1.524" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.2606" y="-0.635" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
@@ -2053,8 +2091,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8"/>
 <pad name="2" x="6.35" y="0" drill="0.8"/>
-<text x="-3.175" y="1.397" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="4.445" y1="-0.3048" x2="5.3086" y2="0.3048" layer="21"/>
@@ -2079,8 +2117,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="0" x2="4.064" y2="0" width="0.6096" layer="21"/>
 <wire x1="-4.445" y1="0" x2="-4.064" y2="0" width="0.6096" layer="21"/>
-<text x="-3.175" y="1.397" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="4.445" y1="-0.3048" x2="5.3086" y2="0.3048" layer="21"/>
@@ -2095,8 +2133,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.62" y="0" drill="0.8"/>
 <pad name="2" x="7.62" y="0" drill="0.8"/>
-<text x="-3.175" y="1.397" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="5.715" y1="-0.3048" x2="6.5786" y2="0.3048" layer="21"/>
@@ -2121,8 +2159,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="5.715" y1="0" x2="4.064" y2="0" width="0.6096" layer="21"/>
 <wire x1="-5.715" y1="0" x2="-4.064" y2="0" width="0.6096" layer="21"/>
-<text x="-3.175" y="1.397" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.6858" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.6858" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <rectangle x1="5.715" y1="-0.3048" x2="6.5786" y2="0.3048" layer="21"/>
@@ -2135,15 +2173,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-0.0508" y="1.016" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.0508" y="-2.2352" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.0508" y="1.016" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.0508" y="-2.2352" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.6096" layer="51"/>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.6096" layer="21"/>
 <wire x1="0.381" y1="0" x2="1.27" y2="0" width="0.6096" layer="51"/>
 <circle x="-1.27" y="0" radius="1.27" width="0.1524" layer="21"/>
 <circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
-<text x="-0.0508" y="1.016" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.0508" y="-2.2352" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.0508" y="1.016" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.0508" y="-2.2352" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0207/5V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2152,15 +2190,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="-2.54" y="0" radius="1.016" width="0.1524" layer="51"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-1.143" y="0.889" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.143" y="-2.159" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.143" y="0.889" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.143" y="-2.159" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-2.54" y1="0" x2="-0.889" y2="0" width="0.6096" layer="51"/>
 <wire x1="-0.762" y1="0" x2="0.762" y2="0" width="0.6096" layer="21"/>
 <wire x1="0.889" y1="0" x2="2.54" y2="0" width="0.6096" layer="51"/>
 <circle x="-2.54" y="0" radius="1.27" width="0.1016" layer="21"/>
 <circle x="-2.54" y="0" radius="1.016" width="0.1524" layer="51"/>
-<text x="-1.143" y="0.889" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.143" y="-2.159" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.143" y="0.889" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.143" y="-2.159" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0207/7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -2171,8 +2209,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-3.81" y="0" drill="0.8"/>
 <pad name="2" x="3.81" y="0" drill="0.8"/>
-<text x="-2.54" y="1.397" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.5588" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.5588" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 <wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
@@ -2193,8 +2231,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<text x="-2.54" y="1.397" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.5588" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.397" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.5588" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 </package>
@@ -2205,8 +2243,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="0.8"/>
 <pad name="2" x="5.08" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 <wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -2227,8 +2265,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
@@ -2239,8 +2276,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8"/>
 <pad name="2" x="6.35" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 <wire x1="6.35" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -2261,8 +2298,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
@@ -2273,8 +2310,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.62" y="0" drill="0.8"/>
 <pad name="2" x="7.62" y="0" drill="0.8"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 <wire x1="7.62" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -2295,57 +2332,61 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
-</package>
-<package name="0204/2V">
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<pad name="2" x="1.27" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-1.27" y="0" drill="0.8" rot="R180"/>
-<text x="-2.1336" y="1.1684" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="51"/>
-<wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.508" layer="21"/>
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<text x="-2.1336" y="1.1684" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0202/2V">
 <pad name="1" x="0" y="-1.27" drill="0.8" rot="R90"/>
 <pad name="2" x="0" y="1.27" drill="0.8" rot="R90"/>
-<text x="-0.254" y="0.508" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
-<text x="0.254" y="-0.508" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.254" y="0.508" size="0.6096" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="0.254" y="-0.508" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="-0.762" radius="0.762" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.762" x2="0" y2="1.27" width="0.254" layer="51"/>
 <wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.254" layer="21"/>
 <circle x="0" y="-0.762" radius="0.5588" width="0.1524" layer="51"/>
 <circle x="0" y="-0.762" radius="0.6858" width="0.0508" layer="51"/>
 </package>
+<package name="0202/5">
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.8"/>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<text x="-1.27" y="0.635" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.127" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.127" layer="21"/>
+<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
+</package>
 <package name="0202/7">
-<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.7" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.7" rot="R270"/>
-<text x="-0.889" y="0" size="1.016" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-<wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
-<wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
-<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
+<pad name="2" x="3.81" y="0" drill="0.7" rot="R270"/>
+<pad name="1" x="-3.81" y="0" drill="0.7" rot="R270"/>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<text x="0" y="1.27" size="0.6096" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="3.81" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.1524" layer="21"/>
+<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202/10">
 <wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
@@ -2354,8 +2395,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="0.8"/>
 <pad name="2" x="5.08" y="0" drill="0.8"/>
-<text x="0" y="1.27" size="1.016" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="1.27" size="0.6096" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="5.08" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
 <wire x1="-5.08" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
 <wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
@@ -2369,59 +2410,69 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
 <rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
+<package name="0202V">
+<pad name="2" x="0" y="1.27" drill="0.8" rot="R270"/>
+<pad name="1" x="0" y="-1.27" drill="0.8" rot="R270"/>
+<text x="-1.016" y="0.508" size="0.6096" layer="25" ratio="10" align="center-right">&gt;NAME</text>
+<text x="-1.016" y="-0.508" size="0.6096" layer="27" ratio="10" align="center-right">&gt;VALUE</text>
+<circle x="0" y="0.762" radius="0.762" width="0.127" layer="21"/>
+<wire x1="0" y1="0.762" x2="0" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="0" y1="0.127" x2="0" y2="-0.127" width="0.254" layer="21"/>
+<circle x="0" y="0.762" radius="0.508" width="0.0508" layer="51"/>
+</package>
 <package name="0202/12">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-6.35" drill="0.8" rot="R90"/>
-<pad name="2" x="0" y="6.35" drill="0.8" rot="R90"/>
-<text x="-1.27" y="0" size="1.016" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
-<wire x1="0" y1="6.35" x2="0" y2="1.651" width="0.127" layer="51"/>
-<wire x1="0" y1="-6.35" x2="0" y2="-1.651" width="0.127" layer="51"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-6.35" y="0" drill="0.8"/>
+<pad name="2" x="6.35" y="0" drill="0.8"/>
+<text x="0" y="1.27" size="0.6096" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="6.35" y1="0" x2="1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="0" x2="-1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.1524" layer="21"/>
+<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202/15">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="2" x="0" y="7.62" drill="0.8" rot="R90"/>
-<text x="-1.27" y="0" size="1.016" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
-<wire x1="0" y1="7.62" x2="0" y2="1.651" width="0.127" layer="51"/>
-<wire x1="0" y1="-7.62" x2="0" y2="-1.651" width="0.127" layer="51"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-7.62" y="0" drill="0.8"/>
+<pad name="2" x="7.62" y="0" drill="0.8"/>
+<text x="0" y="1.27" size="0.6096" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="7.62" y1="0" x2="1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="0" x2="-1.651" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="0.635" x2="1.27" y2="0.381" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.381" x2="-1.27" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="-1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.1524" layer="21"/>
+<rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202/7-V">
 <wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-3.81" drill="0.7" rot="R90"/>
-<pad name="2" x="0" y="3.81" drill="0.7" rot="R90"/>
-<text x="-0.254" y="1.905" size="1.016" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="-0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+<pad name="1" x="0" y="3.81" drill="0.7" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="0.7" rot="R90"/>
+<text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
 <wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
 <wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
@@ -2438,12 +2489,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="0202/5-V">
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="51"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="51"/>
 <wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.127" layer="21" curve="90"/>
 <wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<text x="-0.5715" y="1.143" size="1.016" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="-0.5715" y="1.143" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.127" layer="21"/>
@@ -2458,10 +2509,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-5.08" drill="0.7" rot="R90"/>
-<pad name="2" x="0" y="5.08" drill="0.7" rot="R90"/>
-<text x="-0.254" y="1.905" size="1.016" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="-0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+<pad name="1" x="0" y="5.08" drill="0.7" rot="R90"/>
+<pad name="2" x="0" y="-5.08" drill="0.7" rot="R90"/>
+<text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="5.08" x2="0" y2="1.651" width="0.254" layer="51"/>
 <wire x1="0" y1="-5.08" x2="0" y2="-1.651" width="0.254" layer="51"/>
 <wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
@@ -2475,39 +2526,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
 <rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
 </package>
-<package name="0204/7-V">
-<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.8" rot="R270"/>
-<text x="-1.2954" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-2.921" width="0.508" layer="51"/>
-<wire x1="0" y1="3.81" x2="0" y2="2.921" width="0.508" layer="51"/>
-<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
-<text x="-1.2954" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
-</package>
 <package name="0204/10-V">
 <wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
@@ -2515,8 +2533,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="0" y="5.08" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-5.08" drill="0.8" rot="R270"/>
-<text x="-1.2954" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<text x="-0.635" y="3.175" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 <wire x1="0" y1="-5.08" x2="0" y2="-2.921" width="0.508" layer="51"/>
@@ -2537,7 +2555,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
-<text x="-1.2954" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
@@ -2548,7 +2565,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="0" y="6.35" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-6.35" drill="0.8" rot="R270"/>
-<text x="-1.2954" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
@@ -2570,21 +2587,89 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
-<text x="-1.2954" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+</package>
+<package name="0204/15-V">
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="7.62" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-7.62" drill="0.8" rot="R270"/>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-2.921" width="0.508" layer="51"/>
+<wire x1="0" y1="7.62" x2="0" y2="2.921" width="0.508" layer="51"/>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
+<text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+</package>
+<package name="0204/2">
+<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
+<pad name="1" x="1.27" y="0" drill="0.8" rot="R180"/>
+<pad name="2" x="-1.27" y="0" drill="0.8" rot="R180"/>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="51"/>
+<wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.508" layer="21"/>
+<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
+<text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.1336" y="-1.0414" size="0.6096" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
+</package>
+<package name="0202/12-V">
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="6.35" drill="0.7" rot="R90"/>
+<pad name="2" x="0" y="-6.35" drill="0.7" rot="R90"/>
+<text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+<wire x1="0" y1="6.35" x2="0" y2="1.651" width="0.254" layer="51"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-1.651" width="0.254" layer="51"/>
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
 </package>
 </packages>
 <symbols>
 <symbol name="R">
-<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="0.889" y1="-2.54" x2="0.889" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-0.889" y1="2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0.889" y1="2.54" x2="-0.889" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.254" layer="94"/>
-<text x="-1.778" y="1.651" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-1.778" y="-1.651" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2820,6 +2905,33 @@ In this library the device names are the same as the pin names of the symbols, t
 </technologies>
 </device>
 <device name="0204/12-V" package="0204/12-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/15-V" package="0204/15-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/2" package="0204/2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0202/12-V" package="0202/12-V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3882,36 +3994,36 @@ In this library the device names are the same as the pin names of the symbols, t
  &lt;/table&gt;</description>
 <packages>
 <package name="E2,5-3">
-<wire x1="0.9525" y1="0.762" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="0.8255" y1="0.635" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="0.9525" y1="0.635" x2="0.9525" y2="0.508" width="0.0762" layer="21"/>
-<wire x1="0.9525" y1="0.635" x2="1.0795" y2="0.635" width="0.0762" layer="21"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.4445" width="0.0762" layer="51"/>
-<wire x1="0" y1="0.4445" x2="-0.6985" y2="0.4445" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="0.4445" x2="-0.6985" y2="0.1397" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="0.1397" x2="0.6985" y2="0.1397" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
+<wire x1="-0.762" y1="0.9525" x2="-0.635" y2="0.9525" width="0.0762" layer="21"/>
+<wire x1="-0.635" y1="0.8255" x2="-0.635" y2="0.9525" width="0.0762" layer="21"/>
+<wire x1="-0.635" y1="0.9525" x2="-0.508" y2="0.9525" width="0.0762" layer="21"/>
+<wire x1="-0.635" y1="0.9525" x2="-0.635" y2="1.0795" width="0.0762" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-0.4445" y2="0" width="0.0762" layer="51"/>
+<wire x1="-0.4445" y1="0" x2="-0.4445" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.4445" y1="-0.6985" x2="-0.1397" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.1397" y1="-0.6985" x2="-0.1397" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.1397" y1="0.6985" x2="-0.4445" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="-0.4445" y1="0.6985" x2="-0.4445" y2="0" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
-<pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
-<text x="1.7145" y="0" size="1.016" layer="25" rot="R90" align="top-center">&gt;NAME</text>
-<text x="-1.7145" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
-<wire x1="0" y1="-1.27" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
-<wire x1="0" y1="-0.4445" x2="0.6985" y2="-0.4445" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="-0.4445" x2="0.6985" y2="-0.1397" width="0.0762" layer="51"/>
-<wire x1="0.6985" y1="-0.1397" x2="-0.6985" y2="-0.1397" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="-0.1397" x2="-0.6985" y2="-0.4445" width="0.0762" layer="51"/>
-<wire x1="-0.6985" y1="-0.4445" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
-<rectangle x1="-0.1143" y1="-0.9779" x2="0.1143" y2="0.3937" layer="21" rot="R90"/>
+<pad name="-" x="1.27" y="0" drill="0.7"/>
+<pad name="+" x="-1.27" y="0" drill="0.7" shape="square"/>
+<text x="0" y="1.7145" size="0.6096" layer="25" rot="R180" align="top-center">&gt;NAME</text>
+<text x="0" y="-1.7145" size="0.6096" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.27" y1="0" x2="0.4445" y2="0" width="0.0762" layer="51"/>
+<wire x1="0.4445" y1="0" x2="0.4445" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="0.4445" y1="0.6985" x2="0.1397" y2="0.6985" width="0.0762" layer="51"/>
+<wire x1="0.1397" y1="0.6985" x2="0.1397" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="0.1397" y1="-0.6985" x2="0.4445" y2="-0.6985" width="0.0762" layer="51"/>
+<wire x1="0.4445" y1="-0.6985" x2="0.4445" y2="0" width="0.0762" layer="51"/>
+<rectangle x1="0.1778" y1="-0.6858" x2="0.4064" y2="0.6858" layer="21" rot="R180"/>
 </package>
 <package name="C050-020X036">
 <wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.889" y1="0.635" x2="1.524" y2="0" width="0.127" layer="21" curve="-90"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-0.254" y="0.8255" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="0.254" y="0.8255" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.254" y="0.8255" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0.254" y="0.8255" size="0.6096" layer="27">&gt;VALUE</text>
 <pad name="1" x="-2.54" y="0" drill="0.8" rot="R180"/>
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
@@ -3921,6 +4033,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
 <wire x1="-2.54" y1="0" x2="-0.381" y2="0" width="0.0762" layer="51"/>
 <wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="C050-020X036/V">
+<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
+<pad name="2" x="0" y="2.54" drill="0.8" rot="R90"/>
+<text x="-0.8128" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0.8128" y="0" size="0.6096" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
+<pad name="1" x="0" y="-2.54" drill="0.8" rot="R270"/>
+<wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="51"/>
+<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
+<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 </package>
 <package name="E15-5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -3980,8 +4109,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-7.62" y1="0" x2="-6.477" y2="0" width="0.508" layer="51"/>
 <pad name="+" x="-7.62" y="0" drill="0.8" diameter="2.159" shape="square"/>
 <pad name="-" x="7.62" y="0" drill="0.8" diameter="2.159"/>
-<text x="-5.461" y="2.794" size="1.016" layer="25">&gt;NAME</text>
-<text x="-5.461" y="-4.1402" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-5.461" y="2.794" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-5.461" y="-4.1402" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.286" y1="-1.27" x2="-1.778" y2="1.27" layer="21"/>
 <rectangle x1="-6.477" y1="-0.254" x2="-5.715" y2="0.254" layer="21"/>
 <rectangle x1="5.715" y1="-0.254" x2="6.477" y2="0.254" layer="21"/>
@@ -4044,8 +4173,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-7.62" y1="0" x2="-6.477" y2="0" width="0.508" layer="51"/>
 <pad name="+" x="-7.62" y="0" drill="0.8" diameter="2.159" shape="square"/>
 <pad name="-" x="7.62" y="0" drill="0.8" diameter="2.159"/>
-<text x="-5.461" y="3.429" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.8542" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-5.461" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.8542" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.286" y1="-1.27" x2="-1.778" y2="1.27" layer="21"/>
 <rectangle x1="-6.477" y1="-0.254" x2="-5.715" y2="0.254" layer="21"/>
 <rectangle x1="5.715" y1="-0.254" x2="6.477" y2="0.254" layer="21"/>
@@ -4108,8 +4237,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-7.62" y1="0" x2="-6.477" y2="0" width="0.508" layer="51"/>
 <pad name="+" x="-7.62" y="0" drill="0.8" diameter="2.159" shape="square"/>
 <pad name="-" x="7.62" y="0" drill="0.8" diameter="2.159"/>
-<text x="-5.842" y="4.826" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.651" y="-1.9812" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-5.842" y="4.826" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.651" y="-1.9812" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.667" y1="-1.27" x2="-2.159" y2="1.27" layer="21"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.477" y2="0.254" layer="21"/>
 <rectangle x1="-6.477" y1="-0.254" x2="-6.096" y2="0.254" layer="21"/>
@@ -4125,8 +4254,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.508" y1="0.635" x2="0.5403" y2="-0.6456" width="0.1524" layer="51" curve="-39.2811"/>
 <pad name="+" x="-1.27" y="0" drill="0.8" diameter="1.6002" shape="square"/>
 <pad name="-" x="1.27" y="0" drill="0.8" diameter="1.6002"/>
-<text x="0.762" y="1.016" size="1.016" layer="25">&gt;NAME</text>
-<text x="0.762" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0.762" y="1.016" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0.762" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="E2,5-5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -4145,8 +4274,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <pad name="-" x="-1.27" y="0" drill="0.7" rot="R180"/>
 <pad name="+" x="1.27" y="0" drill="0.7" shape="square" rot="R180"/>
-<text x="-1.397" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="1.143" y="-2.413" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.397" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.143" y="-2.413" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.762" y1="-1.27" x2="-0.254" y2="1.27" layer="51" rot="R180"/>
 </package>
 <package name="E2,5-6">
@@ -4166,8 +4295,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="2.794" width="0.1524" layer="21"/>
 <pad name="-" x="1.27" y="0" drill="0.8" diameter="1.6002"/>
 <pad name="+" x="-1.27" y="0" drill="0.8" diameter="1.6002" shape="square"/>
-<text x="2.667" y="1.524" size="1.016" layer="25">&gt;NAME</text>
-<text x="2.667" y="-2.667" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="2.667" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="2.667" y="-2.667" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
 <package name="E2,5-7">
@@ -4185,8 +4314,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
 <pad name="-" x="1.27" y="0" drill="0.8" diameter="1.6002"/>
 <pad name="+" x="-1.27" y="0" drill="0.8" diameter="1.6002" shape="square"/>
-<text x="3.048" y="2.032" size="1.016" layer="25">&gt;NAME</text>
-<text x="3.048" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="3.048" y="2.032" size="0.6096" layer="25">&gt;NAME</text>
+<text x="3.048" y="-3.175" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
 <package name="E2,5RE">
@@ -4200,8 +4329,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.254" y1="-1.143" x2="0.254" y2="1.143" width="0.1524" layer="51" curve="73.7398"/>
 <pad name="+" x="-1.27" y="0" drill="0.8" diameter="1.5748" shape="square"/>
 <pad name="-" x="1.27" y="0" drill="0.8" diameter="1.5748"/>
-<text x="0.635" y="1.143" size="1.016" layer="25">&gt;NAME</text>
-<text x="0.635" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0.635" y="1.143" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0.635" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="E25-10">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -4261,8 +4390,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-12.7" y1="0" x2="-11.049" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-12.7" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="12.7" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-9.906" y="5.334" size="1.016" layer="25">&gt;NAME</text>
-<text x="-4.0386" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-9.906" y="5.334" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-4.0386" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="1.524" layer="21"/>
 <rectangle x1="-11.049" y1="-0.381" x2="-10.16" y2="0.381" layer="21"/>
 <rectangle x1="10.16" y1="-0.381" x2="11.049" y2="0.381" layer="21"/>
@@ -4325,8 +4454,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-12.7" y1="0" x2="-11.049" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-12.7" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="12.7" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-9.779" y="4.826" size="1.016" layer="25">&gt;NAME</text>
-<text x="-4.0386" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-9.779" y="4.826" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-4.0386" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="1.524" layer="21"/>
 <rectangle x1="-11.049" y1="-0.381" x2="-10.16" y2="0.381" layer="21"/>
 <rectangle x1="10.16" y1="-0.381" x2="11.049" y2="0.381" layer="21"/>
@@ -4388,8 +4517,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-15.24" y1="0" x2="-13.462" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-15.24" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="15.24" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-12.319" y="5.334" size="1.016" layer="25">&gt;NAME</text>
-<text x="-6.0706" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-12.319" y="5.334" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-6.0706" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-7.366" y1="-1.524" x2="-6.858" y2="1.524" layer="21"/>
 <rectangle x1="-13.462" y1="-0.381" x2="-12.7" y2="0.381" layer="21"/>
 <rectangle x1="12.7" y1="-0.381" x2="13.462" y2="0.381" layer="21"/>
@@ -4451,8 +4580,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-15.24" y1="0" x2="-13.462" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-15.24" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="15.24" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-12.192" y="6.731" size="1.016" layer="25">&gt;NAME</text>
-<text x="-6.0706" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-12.192" y="6.731" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-6.0706" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-7.366" y1="-1.524" x2="-6.858" y2="1.524" layer="21"/>
 <rectangle x1="-13.462" y1="-0.381" x2="-12.7" y2="0.381" layer="21"/>
 <rectangle x1="12.7" y1="-0.381" x2="13.462" y2="0.381" layer="21"/>
@@ -4514,8 +4643,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-15.24" y1="0" x2="-13.462" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-15.24" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="15.24" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-12.319" y="8.382" size="1.016" layer="25">&gt;NAME</text>
-<text x="-6.0706" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-12.319" y="8.382" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-6.0706" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-7.366" y1="-1.524" x2="-6.858" y2="1.524" layer="21"/>
 <rectangle x1="-13.462" y1="-0.381" x2="-12.7" y2="0.381" layer="21"/>
 <rectangle x1="12.7" y1="-0.381" x2="13.462" y2="0.381" layer="21"/>
@@ -4577,8 +4706,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-17.78" y1="0" x2="-16.002" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-17.78" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="17.78" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-14.732" y="6.731" size="1.016" layer="25">&gt;NAME</text>
-<text x="-7.9756" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-14.732" y="6.731" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-7.9756" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-9.271" y1="-1.524" x2="-8.763" y2="1.524" layer="21"/>
 <rectangle x1="-16.129" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.129" y2="0.381" layer="21"/>
@@ -4640,8 +4769,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-17.78" y1="0" x2="-16.002" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-17.78" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="17.78" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-14.859" y="8.001" size="1.016" layer="25">&gt;NAME</text>
-<text x="-7.9756" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-14.859" y="8.001" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-7.9756" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-9.271" y1="-1.524" x2="-8.763" y2="1.524" layer="21"/>
 <rectangle x1="-16.129" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.129" y2="0.381" layer="21"/>
@@ -4703,8 +4832,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-17.78" y1="0" x2="-16.002" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-17.78" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="17.78" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-14.859" y="8.636" size="1.016" layer="25">&gt;NAME</text>
-<text x="-7.9756" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-14.859" y="8.636" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-7.9756" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-9.271" y1="-1.524" x2="-8.763" y2="1.524" layer="21"/>
 <rectangle x1="-16.129" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.129" y2="0.381" layer="21"/>
@@ -4766,8 +4895,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-17.78" y1="0" x2="-16.002" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-17.78" y="0" drill="1.1" diameter="3.1496" shape="square"/>
 <pad name="-" x="17.78" y="0" drill="1.1" diameter="3.1496"/>
-<text x="-14.859" y="10.541" size="1.016" layer="25">&gt;NAME</text>
-<text x="-7.9756" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-14.859" y="10.541" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-7.9756" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-9.271" y1="-1.524" x2="-8.763" y2="1.524" layer="21"/>
 <rectangle x1="-16.002" y1="-0.381" x2="-15.24" y2="0.381" layer="21"/>
 <rectangle x1="15.24" y1="-0.381" x2="16.002" y2="0.381" layer="21"/>
@@ -4833,8 +4962,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-22.86" y1="0" x2="-20.955" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-22.86" y="0" drill="1.1" diameter="3.81" shape="square"/>
 <pad name="-" x="22.86" y="0" drill="1.1" diameter="3.81"/>
-<text x="-19.812" y="8.763" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.2446" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-19.812" y="8.763" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.2446" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
@@ -4900,8 +5029,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-22.86" y1="0" x2="-20.955" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-22.86" y="0" drill="1.1" diameter="3.81" shape="square"/>
 <pad name="-" x="22.86" y="0" drill="1.1" diameter="3.81"/>
-<text x="-19.558" y="9.271" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.2446" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-19.558" y="9.271" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.2446" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
@@ -4967,8 +5096,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-22.86" y1="0" x2="-20.955" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-22.86" y="0" drill="1.1" diameter="3.81" shape="square"/>
 <pad name="-" x="22.86" y="0" drill="1.1" diameter="3.81"/>
-<text x="-19.685" y="11.176" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.2446" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-19.685" y="11.176" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.2446" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
@@ -5034,8 +5163,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-22.86" y1="0" x2="-20.955" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-22.86" y="0" drill="1.1" diameter="3.81" shape="square"/>
 <pad name="-" x="22.86" y="0" drill="1.1" diameter="3.81"/>
-<text x="-19.685" y="11.43" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.2446" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-19.685" y="11.43" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.2446" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
@@ -5101,8 +5230,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-22.86" y1="0" x2="-20.955" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-22.86" y="0" drill="1.1" diameter="3.81" shape="square"/>
 <pad name="-" x="22.86" y="0" drill="1.1" diameter="3.81"/>
-<text x="-19.558" y="13.208" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.2446" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-19.558" y="13.208" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.2446" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="20.32" y1="-0.381" x2="20.828" y2="0.381" layer="21"/>
 <rectangle x1="-20.828" y1="-0.381" x2="-20.32" y2="0.381" layer="21"/>
@@ -5124,8 +5253,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="5.08" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="1" diameter="2.54" shape="square"/>
 <pad name="-" x="2.54" y="0" drill="1" diameter="2.54"/>
-<text x="4.699" y="2.7432" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.1242" y="-3.2258" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="4.699" y="2.7432" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.1242" y="-3.2258" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
 <package name="E5-13">
@@ -5145,31 +5274,31 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="6.985" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="1" diameter="2.54" shape="square"/>
 <pad name="-" x="2.54" y="0" drill="1" diameter="2.54"/>
-<text x="6.3754" y="4.1148" size="1.016" layer="25">&gt;NAME</text>
-<text x="-4.572" y="-3.937" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="6.3754" y="4.1148" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-4.572" y="-3.937" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
 </package>
 <package name="E5-4">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
  grid 5.05 mm, diameter 4 mm</description>
-<wire x1="1.1153" y1="1.6985" x2="1.1153" y2="-1.6985" width="0.1524" layer="21" curve="-113.419"/>
-<wire x1="-1.1153" y1="1.6985" x2="-1.1153" y2="-1.6985" width="0.1524" layer="21" curve="113.419"/>
-<wire x1="1.1153" y1="1.6985" x2="-1.1153" y2="1.6985" width="0.1524" layer="21" curve="66.5809"/>
-<wire x1="-1.1153" y1="-1.6985" x2="1.1153" y2="-1.6985" width="0.1524" layer="21" curve="66.5809"/>
-<wire x1="0" y1="1.397" x2="0" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.762" x2="-1.016" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0.762" x2="-1.016" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0.254" x2="1.016" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.254" x2="1.016" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.762" x2="0" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.524" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="0.889" y2="1.27" width="0.1524" layer="21"/>
-<pad name="+" x="0" y="2.54" drill="0.8" shape="square" rot="R270" stop="no"/>
-<pad name="-" x="0" y="-2.54" drill="0.8" rot="R270" stop="no"/>
-<text x="-1.397" y="2.032" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="1.524" y="-1.778" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
+<wire x1="-1.6985" y1="1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="21" curve="-113.419"/>
+<wire x1="-1.6985" y1="-1.1153" x2="1.6985" y2="-1.1153" width="0.1524" layer="21" curve="113.419"/>
+<wire x1="-1.6985" y1="1.1153" x2="-1.6985" y2="-1.1153" width="0.1524" layer="21" curve="66.5809"/>
+<wire x1="1.6985" y1="-1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="21" curve="66.5809"/>
+<wire x1="-1.397" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="0" drill="0.7" shape="octagon" stop="no"/>
+<pad name="-" x="2.54" y="0" drill="0.7" stop="no"/>
+<text x="1.905" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-1.27" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
 <package name="E5-5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5189,8 +5318,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="0.8" diameter="1.905" shape="square"/>
 <pad name="-" x="2.54" y="0" drill="0.8" diameter="1.905"/>
-<text x="2.54" y="1.27" size="1.016" layer="25">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="2.54" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
 <package name="E5-6">
@@ -5211,8 +5340,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="0.8" diameter="1.905" shape="square"/>
 <pad name="-" x="2.54" y="0" drill="0.8" diameter="1.905"/>
-<text x="3.048" y="1.778" size="1.016" layer="25">&gt;NAME</text>
-<text x="3.048" y="-2.921" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="3.048" y="1.778" size="0.6096" layer="25">&gt;NAME</text>
+<text x="3.048" y="-2.921" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
 <package name="E5-8,5">
@@ -5232,8 +5361,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="4.445" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="1" diameter="2.54" shape="square"/>
 <pad name="-" x="2.54" y="0" drill="1" diameter="2.54"/>
-<text x="4.1402" y="2.286" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.5146" y="-3.0226" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="4.1402" y="2.286" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.5146" y="-3.0226" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
 <package name="E50-25">
@@ -5303,8 +5432,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-25.4" y1="0" x2="-23.495" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-25.4" y="0" drill="1.1" diameter="3.81" shape="square"/>
 <pad name="-" x="24.765" y="0" drill="1.1" diameter="3.81"/>
-<text x="-22.098" y="13.208" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.7846" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-22.098" y="13.208" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.7846" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-5.08" y1="-1.524" x2="-4.572" y2="1.524" layer="21"/>
 <rectangle x1="22.225" y1="-0.381" x2="22.733" y2="0.381" layer="21"/>
 <rectangle x1="-23.368" y1="-0.381" x2="-22.86" y2="0.381" layer="21"/>
@@ -5376,8 +5505,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-25.4" y1="0" x2="-23.495" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-25.4" y="0" drill="1.1938" diameter="3.81" shape="square"/>
 <pad name="-" x="24.765" y="0" drill="1.1938" diameter="3.81"/>
-<text x="-21.971" y="15.748" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.7846" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-21.971" y="15.748" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.7846" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-5.08" y1="-1.524" x2="-4.572" y2="1.524" layer="21"/>
 <rectangle x1="22.225" y1="-0.381" x2="22.733" y2="0.381" layer="21"/>
 <rectangle x1="-23.368" y1="-0.381" x2="-22.86" y2="0.381" layer="21"/>
@@ -5443,8 +5572,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-27.94" y1="0" x2="-26.035" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-27.94" y="0" drill="1.1" diameter="3.81" shape="square"/>
 <pad name="-" x="27.94" y="0" drill="1.1" diameter="3.81"/>
-<text x="-24.638" y="13.208" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.2446" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-24.638" y="13.208" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.2446" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="25.4" y1="-0.381" x2="25.908" y2="0.381" layer="21"/>
 <rectangle x1="-25.908" y1="-0.381" x2="-25.4" y2="0.381" layer="21"/>
@@ -5510,8 +5639,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-27.94" y1="0" x2="-26.035" y2="0" width="0.762" layer="51"/>
 <pad name="+" x="-27.94" y="0" drill="1.1938" diameter="3.81" shape="square"/>
 <pad name="-" x="27.94" y="0" drill="1.1938" diameter="3.81"/>
-<text x="-24.511" y="15.748" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.2446" y="-2.4892" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-24.511" y="15.748" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.2446" y="-2.4892" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="25.4" y1="-0.381" x2="25.908" y2="0.381" layer="21"/>
 <rectangle x1="-25.908" y1="-0.381" x2="-25.4" y2="0.381" layer="21"/>
@@ -5528,8 +5657,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.7732" y1="1.1613" x2="1.7781" y2="-1.143" width="0.1524" layer="51" curve="-29.8953"/>
 <pad name="+" x="-2.54" y="0" drill="0.8" diameter="2.54" shape="square"/>
 <pad name="-" x="2.54" y="0" drill="0.8" diameter="2.54"/>
-<text x="1.651" y="2.4638" size="1.016" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="1.651" y="2.4638" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="E7,5-16">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5546,8 +5675,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="8.255" width="0.1524" layer="21"/>
 <pad name="-" x="3.81" y="0" drill="1" diameter="3.1496"/>
 <pad name="+" x="-3.81" y="0" drill="1" diameter="3.1496" shape="square"/>
-<text x="7.874" y="3.81" size="1.016" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-4.2926" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="7.874" y="3.81" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-4.2926" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
 </package>
 <package name="E7,5-18">
@@ -5565,8 +5694,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="8.89" width="0.1524" layer="21"/>
 <pad name="-" x="3.81" y="0" drill="1" diameter="3.1496"/>
 <pad name="+" x="-3.81" y="0" drill="1" diameter="3.1496" shape="square"/>
-<text x="8.001" y="5.08" size="1.016" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-4.2926" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="8.001" y="5.08" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-4.2926" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
 </package>
 <package name="E2,5-6E">
@@ -5584,33 +5713,33 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="2.794" width="0.1524" layer="21"/>
 <pad name="-" x="1.27" y="0" drill="0.8" diameter="1.5748"/>
 <pad name="+" x="-1.27" y="0" drill="0.8" diameter="1.5748" shape="square"/>
-<text x="2.667" y="1.524" size="1.016" layer="25">&gt;NAME</text>
-<text x="2.667" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="2.667" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="2.667" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
 <package name="E2,5-4">
-<wire x1="-1.27" y1="1.2065" x2="-1.27" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.4605" y1="1.016" x2="-1.27" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="-1.27" y2="0.8255" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="-1.0795" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.5842" width="0.1524" layer="51"/>
-<wire x1="0" y1="0.5842" x2="-0.889" y2="0.5842" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="0.5842" x2="-0.889" y2="0.2032" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="0.2032" x2="0.889" y2="0.2032" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
+<wire x1="1.2065" y1="1.27" x2="1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.4605" x2="1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="0.8255" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="1.016" y2="1.0795" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0" x2="0.5842" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.5842" y1="0" x2="0.5842" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.5842" y1="0.889" x2="0.2032" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.2032" y1="0.889" x2="0.2032" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.2032" y1="-0.889" x2="0.5842" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.5842" y1="-0.889" x2="0.5842" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.8" diameter="1.6002" rot="R270"/>
-<pad name="+" x="0" y="1.27" drill="0.8" diameter="1.6002" shape="square" rot="R270"/>
-<text x="-1.524" y="-1.651" size="1.016" layer="25" rot="R90" align="bottom-right">&gt;NAME</text>
-<text x="2.0955" y="0.635" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
-<wire x1="0" y1="-1.27" x2="0" y2="-0.5842" width="0.1524" layer="51"/>
-<wire x1="0" y1="-0.5842" x2="0.889" y2="-0.5842" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="-0.5842" x2="0.889" y2="-0.2032" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="-0.2032" x2="-0.889" y2="-0.2032" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="-0.2032" x2="-0.889" y2="-0.5842" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="-0.5842" x2="0" y2="-0.5842" width="0.1524" layer="51"/>
-<rectangle x1="-0.127" y1="-1.1938" x2="0.127" y2="0.4318" layer="21" rot="R90"/>
+<pad name="-" x="-1.27" y="0" drill="0.8" diameter="1.6002" rot="R180"/>
+<pad name="+" x="1.27" y="0" drill="0.8" diameter="1.6002" shape="square" rot="R180"/>
+<text x="-1.651" y="1.524" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0.635" y="-2.0955" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-1.27" y1="0" x2="-0.5842" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.5842" y1="0" x2="-0.5842" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.5842" y1="-0.889" x2="-0.2032" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.2032" y1="-0.889" x2="-0.2032" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.2032" y1="0.889" x2="-0.5842" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.5842" y1="0.889" x2="-0.5842" y2="0" width="0.1524" layer="51"/>
+<rectangle x1="-0.508" y1="-0.8128" x2="-0.254" y2="0.8128" layer="21"/>
 </package>
 <package name="E2.5-4/V">
 <wire x1="1.27" y1="1.2065" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
@@ -5626,8 +5755,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
 <pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
-<text x="-1.651" y="1.524" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="0.635" y="-2.0955" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.27" y="2.54" size="0.6096" layer="25" align="top-right">&gt;NAME</text>
+<text x="1.27" y="-1.5875" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="0" y1="-1.27" x2="0" y2="-0.5842" width="0.1524" layer="51"/>
 <wire x1="0" y1="-0.5842" x2="0.889" y2="-0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="-0.5842" x2="0.889" y2="-0.2032" width="0.1524" layer="51"/>
@@ -5651,8 +5780,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <pad name="-" x="0" y="1.27" drill="0.7" rot="R90"/>
 <pad name="+" x="0" y="-1.27" drill="0.7" shape="square" rot="R90"/>
-<text x="-1.397" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.397" y="-2.413" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<text x="-1.397" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.397" y="-2.413" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.762" x2="0.254" y2="1.778" layer="51" rot="R90"/>
 </package>
 <package name="E5-5/V">
@@ -5671,9 +5800,53 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.381" y1="1.27" x2="0.889" y2="1.27" width="0.1524" layer="21"/>
 <pad name="+" x="0" y="2.54" drill="0.7" shape="square" rot="R270"/>
 <pad name="-" x="0" y="-2.54" drill="0.7" rot="R270"/>
-<text x="1.27" y="2.286" size="1.016" layer="25">&gt;NAME</text>
-<text x="1.524" y="-2.032" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="1.27" y="2.286" size="0.6096" layer="25">&gt;NAME</text>
+<text x="1.524" y="-2.032" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
+</package>
+<package name="E5-4-R45">
+<wire x1="-2.474096875" y1="-0.574521875" x2="0.574525" y2="2.474096875" width="0.1524" layer="21" curve="-116.147"/>
+<wire x1="-0.574525" y1="-2.47409375" x2="2.47409375" y2="0.574525" width="0.1524" layer="21" curve="116.147"/>
+<wire x1="-2.474096875" y1="-0.574521875" x2="-0.574525" y2="-2.47409375" width="0.1524" layer="51" curve="63.8534"/>
+<wire x1="2.47409375" y1="0.574525" x2="0.574525" y2="2.474096875" width="0.1524" layer="51" curve="63.8534"/>
+<wire x1="-0.987828125" y1="-0.987825" x2="-0.538815625" y2="-0.5388125" width="0.1524" layer="21"/>
+<wire x1="-0.538815625" y1="-0.5388125" x2="0.17960625" y2="-1.257234375" width="0.1524" layer="21"/>
+<wire x1="0.17960625" y1="-1.257234375" x2="0.538815625" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="0.538815625" y1="-0.898025" x2="-0.898025" y2="0.53881875" width="0.1524" layer="21"/>
+<wire x1="-0.898025" y1="0.53881875" x2="-1.257234375" y2="0.17960625" width="0.1524" layer="21"/>
+<wire x1="-1.257234375" y1="0.17960625" x2="-0.538815625" y2="-0.5388125" width="0.1524" layer="21"/>
+<wire x1="0.4490125" y1="0.449015625" x2="0.987828125" y2="0.98783125" width="0.1524" layer="21"/>
+<wire x1="-1.52664375" y1="-0.628615625" x2="-1.167434375" y2="-0.26940625" width="0.1524" layer="21"/>
+<wire x1="-1.167434375" y1="-0.628615625" x2="-1.52664375" y2="-0.26940625" width="0.1524" layer="21"/>
+<pad name="+" x="-1.27" y="-1.27" drill="0.8" diameter="1.905" shape="square" rot="R45"/>
+<pad name="-" x="1.27" y="1.27" drill="0.8" diameter="1.905" rot="R45"/>
+<text x="0.898025" y="2.694078125" size="0.6096" layer="25">&gt;NAME</text>
+<text x="2.694075" y="0.898028125" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+<rectangle x1="0.105209375" y1="-0.6567875" x2="0.613209375" y2="1.3752125" layer="21" rot="R45"/>
+</package>
+<package name="E2,5-3/V">
+<wire x1="0.9525" y1="0.762" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="0.8255" y1="0.635" x2="0.9525" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="0.9525" y1="0.635" x2="0.9525" y2="0.508" width="0.0762" layer="21"/>
+<wire x1="0.9525" y1="0.635" x2="1.0795" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.4445" width="0.0762" layer="51"/>
+<wire x1="0" y1="0.4445" x2="-0.6985" y2="0.4445" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="0.4445" x2="-0.6985" y2="0.1397" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="0.1397" x2="0.6985" y2="0.1397" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
+<circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
+<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
+<pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
+<text x="-1.016" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.016" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
+<wire x1="0" y1="-0.4445" x2="0.6985" y2="-0.4445" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="-0.4445" x2="0.6985" y2="-0.1397" width="0.0762" layer="51"/>
+<wire x1="0.6985" y1="-0.1397" x2="-0.6985" y2="-0.1397" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="-0.1397" x2="-0.6985" y2="-0.4445" width="0.0762" layer="51"/>
+<wire x1="-0.6985" y1="-0.4445" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
+<rectangle x1="-0.1143" y1="-0.9779" x2="0.1143" y2="0.3937" layer="21" rot="R90"/>
 </package>
 <package name="C025-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5692,8 +5865,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-1.778" y="1.397" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.778" y="-2.667" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-1.778" y="1.397" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.778" y="-2.667" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-025X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5716,8 +5889,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="1.524" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-2.794" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-2.794" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-030X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5740,8 +5913,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-040X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5764,8 +5937,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="2.159" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="2.159" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-050X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5788,8 +5961,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.81" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="2.54" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.81" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-060X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5812,8 +5985,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8"/>
 <pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="3.048" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-2.413" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="3.048" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-2.413" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5834,8 +6007,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0" y="1.524" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.524" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.524" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
@@ -5858,8 +6031,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="3.683" y1="-1.016" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="2.54" y="0" drill="0.8" rot="R180"/>
 <pad name="2" x="-2.54" y="0" drill="0.8" rot="R180"/>
-<text x="4.064" y="1.27" size="1.016" layer="25" rot="R270">&gt;NAME</text>
-<text x="-4.064" y="-1.27" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<text x="4.064" y="1.27" size="0.6096" layer="25" rot="R270">&gt;NAME</text>
+<text x="-4.064" y="-1.27" size="0.6096" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="C050-045X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5880,8 +6053,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3.683" y1="2.032" x2="-3.429" y2="2.286" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="2.667" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.81" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.556" y="2.667" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.81" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-030X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5902,8 +6075,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3.683" y1="1.27" x2="-3.429" y2="1.524" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.556" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-050X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5924,8 +6097,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3.683" y1="2.286" x2="-3.429" y2="2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.159" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.429" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.159" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-055X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5946,8 +6119,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3.683" y1="2.54" x2="-3.429" y2="2.794" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="3.175" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.302" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.429" y="3.175" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.302" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-075X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5968,8 +6141,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3.683" y1="3.429" x2="-3.429" y2="3.683" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="4.064" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.921" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.429" y="4.064" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.921" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-032X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5990,8 +6163,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.508" y1="0" x2="0.508" y2="-0.889" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-4.826" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.826" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-4.826" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-042X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6012,8 +6185,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.699" y="2.413" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.651" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.699" y="2.413" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-052X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6034,8 +6207,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.826" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-043X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6056,8 +6229,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-6.604" y1="1.524" x2="-6.096" y2="2.032" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="1"/>
 <pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="2.413" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-1.651" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-6.096" y="2.413" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-054X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6078,8 +6251,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-6.604" y1="2.032" x2="-6.096" y2="2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="1"/>
 <pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-6.096" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.905" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-064X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6100,8 +6273,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-6.604" y1="2.54" x2="-6.096" y2="3.048" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-5.08" y="0" drill="1"/>
 <pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="3.429" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-6.096" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-054X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6122,8 +6295,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-9.017" y1="2.032" x2="-8.509" y2="2.54" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.382" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.382" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-064X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6144,8 +6317,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-9.017" y1="2.54" x2="-8.509" y2="3.048" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="3.429" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-072X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6166,8 +6339,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-9.017" y1="3.048" x2="-8.509" y2="3.556" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="3.937" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="3.937" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-084X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6188,8 +6361,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-9.017" y1="3.556" x2="-8.509" y2="4.064" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="4.445" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="4.445" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-091X182">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6210,8 +6383,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-9.017" y1="3.937" x2="-8.509" y2="4.445" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-7.493" y="0" drill="1"/>
 <pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="4.826" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-8.509" y="4.826" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-035X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6232,8 +6405,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3.683" y1="1.524" x2="-3.429" y2="1.778" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="2.159" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.429" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.556" y="2.159" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.429" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-063X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6254,8 +6427,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.9"/>
 <pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="3.429" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-4.826" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-020X036">
 <wire x1="-0.889" y1="0" x2="-0.127" y2="0.889" width="0.091440625" layer="21" curve="-90"/>
@@ -6265,8 +6438,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.54" y1="0" x2="1.6637" y2="0" width="0.0762" layer="51"/>
 <wire x1="0" y1="0" x2="0.889" y2="0" width="0.0762" layer="51"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0.254" y="0.9652" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="3.556" y="0" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
+<text x="0.254" y="0.9652" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="3.556" y="0" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
 <pad name="1" x="0" y="0" drill="0.8" rot="R180"/>
 <wire x1="3.429" y1="0" x2="2.667" y2="-0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="-0.127" y1="-0.889" x2="2.667" y2="-0.889" width="0.091440625" layer="21"/>
@@ -6281,8 +6454,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
 <wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
 <pad name="2" x="0" y="-1.27" drill="0.8" rot="R270" stop="no"/>
-<text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="0.508" y="-2.413" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
+<text x="-1.016" y="0" size="0.6096" layer="25" align="center-right">&gt;NAME</text>
+<text x="0.508" y="-2.413" size="0.6096" layer="27" rot="R180">&gt;VALUE</text>
 <pad name="1" x="0" y="1.27" drill="0.8" rot="R90" stop="no"/>
 <wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
@@ -6307,8 +6480,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0.762" y1="3.556" x2="1.016" y2="3.302" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="0" y="3.81" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.81" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="3.81" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="C050-024X044/V">
 <wire x1="-0.635" y1="2.159" x2="0.635" y2="2.159" width="0.1524" layer="51"/>
@@ -6327,8 +6500,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0" y1="1.27" x2="0" y2="0.3048" width="0.1524" layer="21"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="-1.016" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.016" y="-2.286" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<text x="-1.016" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.016" y="-2.286" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.7305" x2="0.1905" y2="-1.9685" layer="51" rot="R270"/>
 <rectangle x1="-0.1905" y1="1.9685" x2="0.1905" y2="2.7305" layer="51" rot="R270"/>
 </package>
@@ -6349,33 +6522,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.016" y1="3.683" x2="1.27" y2="3.429" width="0.1524" layer="21" curve="-90"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<text x="0" y="4.064" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.064" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="C050-020X036/V">
-<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="0" y="2.54" drill="0.8" rot="R90"/>
-<text x="-0.8128" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="0.8128" y="0" size="0.8128" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.8" rot="R270"/>
-<wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="51"/>
-<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
-<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.381" width="0.0762" layer="51"/>
-<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
+<text x="0" y="4.064" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.064" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="C050-020X044/V">
 <wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
-<pad name="2" x="0" y="2.54" drill="0.8" rot="R90"/>
-<text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="1.016" y="0" size="1.016" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-2.54" drill="0.8" rot="R90"/>
+<text x="-1.016" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.016" y="0" size="0.8128" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
 <wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="51"/>
@@ -6390,10 +6546,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="C050-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="-2.54" y="0" drill="0.8" rot="R180"/>
-<text x="0" y="1.27" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.27" size="1.016" layer="27" align="top-center">&gt;VALUE</text>
-<pad name="1" x="2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.8" rot="R180"/>
+<text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" rot="R180" align="center-left">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
 <wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
 <wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
 <wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
@@ -6405,12 +6561,120 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
 <wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
 </package>
+<package name="0204/10">
+<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
+ Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-5.08" y="0" drill="0.8"/>
+<pad name="2" x="5.08" y="0" drill="0.8"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+</package>
+<package name="0204/10-V">
+<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
+ Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="5.08" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="-5.08" drill="0.8" rot="R270"/>
+<text x="-0.635" y="3.175" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.921" width="0.508" layer="51"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.921" width="0.508" layer="51"/>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+</package>
+<package name="C075-020X044">
+<wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
+<wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
+<pad name="2" x="3.81" y="0" drill="0.8" rot="R180"/>
+<text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.8"/>
+<wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
+<wire x1="-3.81" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
+<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
+<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
+<wire x1="3.81" y1="0" x2="0.381" y2="0" width="0.0762" layer="51"/>
+<wire x1="-2.159" y1="-0.254" x2="-1.778" y2="-0.635" width="0.1016" layer="21" curve="90"/>
+<wire x1="2.159" y1="0.254" x2="2.159" y2="-0.254" width="0.1016" layer="21"/>
+<wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
+</package>
+<package name="C075-020X044/V">
+<wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
+<pad name="2" x="0" y="-3.81" drill="0.8" rot="R90"/>
+<text x="-1.016" y="2.54" size="0.6096" layer="25" rot="R180" align="center-left">&gt;NAME</text>
+<text x="0.635" y="-2.54" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
+<wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="0.3937" width="0.0762" layer="51"/>
+<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
+<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="-0.254" y1="2.159" x2="-0.635" y2="1.778" width="0.1016" layer="21" curve="90"/>
+<wire x1="0.254" y1="-2.159" x2="-0.254" y2="-2.159" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="-2.159" x2="-0.635" y2="-1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.254" y1="-2.159" x2="0.635" y2="-1.778" width="0.1016" layer="21" curve="90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL">
-<text x="-2.54" y="1.651" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-2.54" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
 <text x="-0.9525" y="1.27" size="1.27" layer="94" rot="R90">+</text>
-<text x="-2.54" y="-1.651" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
 <pin name="-" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
 <pin name="+" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
@@ -6423,14 +6687,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="0" y1="0.889" x2="-1.9685" y2="0.889" width="0.127" layer="94"/>
 </symbol>
 <symbol name="C">
-<text x="-2.286" y="1.651" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-2.286" y="-1.651" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
 <pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.1524" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
-<rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
+<rectangle x1="-1.778" y1="-0.762" x2="1.778" y2="-0.254" layer="94"/>
+<rectangle x1="-1.778" y1="0.254" x2="1.778" y2="0.762" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6809,6 +7073,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <technology name=""/>
 </technologies>
 </device>
+<device name="E5-4-R45" package="E5-4-R45">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E2,5-3/V" package="E2,5-3/V">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C" prefix="C" uservalue="yes">
@@ -7124,6 +7406,42 @@ In this library the device names are the same as the pin names of the symbols, t
 </technologies>
 </device>
 <device name="050-020X044" package="C050-020X044">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/10" package="0204/10">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/10-V" package="0204/10-V">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044" package="C075-020X044">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044/V" package="C075-020X044/V">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -8265,45 +8583,45 @@ In this library the device names are the same as the pin names of the symbols, t
 <packages>
 <package name="TO92-EBC">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line E B C from top&lt;p&gt;</description>
-<wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.127" layer="21" curve="-129.583"/>
-<wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.127" layer="51"/>
-<wire x1="-2.413" y1="-0.1341" x2="-2.664" y2="-1.397" width="0.127" layer="51" curve="27.9376"/>
-<wire x1="-2.664" y1="-1.397" x2="-2.413" y2="-2.4059" width="0.127" layer="51" curve="22.4788"/>
-<wire x1="-1.404" y1="-1.397" x2="-2.664" y2="-1.397" width="0.127" layer="51"/>
-<wire x1="-2.4135" y1="-2.4059" x2="-2.095" y2="-2.921" width="0.127" layer="21" curve="13.0385"/>
-<wire x1="-1.136" y1="-1.397" x2="-1.404" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="2.413" y1="-2.4059" x2="2.664" y2="-1.397" width="0.127" layer="51" curve="22.4788"/>
-<wire x1="2.664" y1="-1.397" x2="2.413" y2="-0.1341" width="0.127" layer="51" curve="27.9376"/>
-<wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.127" layer="51"/>
-<wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.127" layer="21" curve="13.6094"/>
-<pad name="C" x="2.54" y="-1.27" drill="0.8" shape="octagon" rot="R90"/>
-<pad name="E" x="-2.54" y="-1.27" drill="0.8" shape="octagon" rot="R90"/>
-<pad name="B" x="0" y="-1.27" drill="0.8" shape="octagon" rot="R90"/>
-<text x="-2.54" y="1.778" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-4.572" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-2.032" y="-2.54" size="0.3048" layer="21">E</text>
-<text x="0.508" y="-2.54" size="0.3048" layer="21">B</text>
-<text x="3.048" y="-2.54" size="0.3048" layer="21">C</text>
+<wire x1="1.651" y1="-2.095" x2="1.651" y2="2.095" width="0.127" layer="21"/>
+<wire x1="-1.1359" y1="-2.413" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="0.127" y1="1.136" x2="0.127" y2="-1.136" width="0.127" layer="51"/>
+<wire x1="-1.1359" y1="-2.413" x2="0.127" y2="-2.664" width="0.127" layer="51" curve="27.9376"/>
+<wire x1="0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="51" curve="22.4788"/>
+<wire x1="0.127" y1="-1.404" x2="0.127" y2="-2.664" width="0.127" layer="51"/>
+<wire x1="1.1359" y1="-2.4135" x2="1.651" y2="-2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="0.127" y1="-1.136" x2="0.127" y2="-1.404" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="0.127" y2="2.664" width="0.127" layer="51" curve="22.4788"/>
+<wire x1="0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="51" curve="27.9376"/>
+<wire x1="0.127" y1="2.664" x2="0.127" y2="1.404" width="0.127" layer="51"/>
+<wire x1="0.127" y1="1.404" x2="0.127" y2="1.136" width="0.127" layer="21"/>
+<wire x1="1.651" y1="2.095" x2="1.1118" y2="2.4247" width="0.127" layer="21" curve="13.6094"/>
+<pad name="C" x="0" y="2.54" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="E" x="0" y="-2.54" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="B" x="0" y="0" drill="0.8" shape="octagon" rot="R180"/>
+<text x="1.27" y="-2.032" size="0.3048" layer="21" rot="R90">E</text>
+<text x="1.27" y="0.508" size="0.3048" layer="21" rot="R90">B</text>
+<text x="1.27" y="3.048" size="0.3048" layer="21" rot="R90">C</text>
+<text x="-1.27" y="2.54" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
 <package name="TO92">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<pad name="3" x="2.54" y="0" drill="0.8" shape="octagon"/>
-<pad name="1" x="-2.54" y="0" drill="0.8" shape="octagon"/>
-<pad name="2" x="0" y="0" drill="0.8" shape="octagon"/>
-<text x="0" y="1.016" size="0.8128" layer="25" ratio="10" rot="R180" align="top-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.8128" layer="27" ratio="10" rot="R180" align="bottom-center">&gt;VALUE</text>
-<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583"/>
-<wire x1="2.664" y1="-0.127" x2="-2.664" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.127" layer="21" curve="27.9376"/>
-<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.127" layer="21" curve="22.4788"/>
-<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.127" layer="21" curve="13.0385"/>
-<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.127" layer="21" curve="22.4788"/>
-<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="27.9376"/>
-<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
-<text x="-1.905" y="-0.635" size="0.3048" layer="21">1</text>
+<pad name="3" x="0" y="-2.54" drill="0.8" shape="octagon" rot="R270"/>
+<pad name="1" x="0" y="2.54" drill="0.8" shape="octagon" rot="R270"/>
+<pad name="2" x="0" y="0" drill="0.8" shape="octagon" rot="R270"/>
+<text x="-1.27" y="2.54" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="1.27" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="2.664" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
+<text x="-0.635" y="1.905" size="0.3048" layer="21" rot="R180">1</text>
 </package>
 </packages>
 <symbols>
@@ -8728,7 +9046,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="ECM" library="ECM" deviceset="ECM" device="-4"/>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="" value="1.6-15pF"/>
 <part name="R1" library="r" deviceset="R" device="0204/2V" value="4.7"/>
-<part name="C4" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E2,5-3/V" value="1uF"/>
 <part name="+9V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
@@ -8774,13 +9092,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="33.02" y1="30.48" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <junction x="33.02" y="33.02"/>
 <wire x1="33.02" y1="33.02" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="T1" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="C3" gate="1" pin="1"/>
 <wire x1="17.78" y1="48.26" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="40.64" x2="17.78" y2="31.75" width="0.1524" layer="91"/>
@@ -8793,7 +9111,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="40.64" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="40.64" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
@@ -8813,7 +9131,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="33.02" y1="17.78" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <junction x="33.02" y="17.78"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="ECM" gate="1" pin="-"/>
 <wire x1="2.54" y1="24.13" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 </segment>
@@ -8829,11 +9147,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="+UB" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="58.42" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <junction x="33.02" y="66.04"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="58.42" x2="2.54" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <junction x="17.78" y="66.04"/>

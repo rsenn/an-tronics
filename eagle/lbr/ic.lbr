@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -850,7 +850,7 @@
 <vertex x="-8.89" y="-1.524"/>
 </polygon>
 <wire x1="-6.35" y1="-3.81" x2="-8.89" y2="-3.81" width="0.254" layer="94"/>
-<pin name="DIODE/BIAS" x="-10.16" y="0" visible="pad" length="short" direction="in"/>
+<pin name="DIODE/BIAS" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
 <circle x="9.41605" y="0" radius="1.79605" width="0.254" layer="94"/>
 <circle x="10.90395" y="0" radius="1.79605" width="0.254" layer="94"/>
 <pin name="AMP/BIAS" x="10.16" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>

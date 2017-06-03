@@ -848,7 +848,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-H" prefix="R" uservalue="yes">
+<deviceset name="R-H" prefix="R">
 <gates>
 <gate name="G$1" symbol="R-H" x="0" y="0"/>
 </gates>
@@ -3878,12 +3878,6 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <wire x1="-1.016" y1="-3.048" x2="1.016" y2="-3.048" width="0.254" layer="94"/>
 <wire x1="-0.381" y1="-3.556" x2="0.381" y2="-3.556" width="0.254" layer="94"/>
 </symbol>
-<symbol name="SPAD">
-<pin name="P$1" x="0" y="0" visible="off" length="point" direction="pas" function="dot"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<circle x="-3.81" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-6.35" y="0" size="1.27" layer="95" align="center-right">&gt;NAME</text>
-</symbol>
 <symbol name="VCC2">
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
@@ -3953,32 +3947,6 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <connects>
 <connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$2" pin="GND" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SPAD+-" prefix="J" uservalue="yes">
-<gates>
-<gate name="-" symbol="SPAD" x="0" y="-2.54"/>
-<gate name="+" symbol="SPAD" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="+-" package="SPAD+-">
-<connects>
-<connect gate="+" pin="P$1" pad="2"/>
-<connect gate="-" pin="P$1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-+" package="SPAD-+">
-<connects>
-<connect gate="+" pin="P$1" pad="2"/>
-<connect gate="-" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5728,14 +5696,14 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="R2" library="r" deviceset="R-H" device="0204/10-V" value="2.7k"/>
 <part name="R3" library="r" deviceset="R" device="0204/10-V" value="2.2k"/>
-<part name="R4" library="r" deviceset="R" device="0204/10" value="220"/>
-<part name="R5" library="r" deviceset="R-H" device="0204/10" value="470"/>
+<part name="R4" library="r" deviceset="R" device="0204/10-V" value="220"/>
+<part name="R5" library="r" deviceset="R-H" device="0204/7-V" value="470"/>
 <part name="R6" library="r" deviceset="R" device="0204/10-V" value="4.7k"/>
-<part name="R7" library="r" deviceset="R-H" device="0204/10-V" value="3.6k"/>
-<part name="R9" library="r" deviceset="R" device="0204/10-V" value="1k"/>
-<part name="R10" library="r" deviceset="R-H" device="0204/2V" value="680k"/>
-<part name="C1" library="c" deviceset="CPOL" device="E2,5-5/V" value="100uF/16V"/>
-<part name="C2" library="c" deviceset="C-H" device="050-020X044/V" value="68nF"/>
+<part name="R7" library="r" deviceset="R-H" device="0204/10" value="3.6k"/>
+<part name="R9" library="r" deviceset="R" device="0204/10" value="1k"/>
+<part name="R10" library="r" deviceset="R-H" device="0204/10-V" value="680k"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2.5-5" value="100uF/16V"/>
+<part name="C2" library="c" deviceset="C-H" device="050-020X044" value="68nF"/>
 <part name="R11" library="r" deviceset="R" device="0204/10-V" value="470"/>
 <part name="R12" library="r" deviceset="R-H" device="0204/10-V" value="12k"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
@@ -5747,10 +5715,8 @@ Source: www.kingbright.com</description>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="U$4" library="pad" deviceset="V+" device=""/>
-<part name="USB" library="pad" deviceset="SPAD+-" device="-+"/>
 <part name="U$5" library="pad" deviceset="V+" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
-<part name="LI-ION" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="S5" library="pad" deviceset="GND" device=""/>
 <part name="U$6" library="pad" deviceset="V+" device=""/>
 <part name="S6" library="pad" deviceset="GND" device=""/>
@@ -5760,9 +5726,9 @@ Source: www.kingbright.com</description>
 <part name="S10" library="pad" deviceset="GND" device=""/>
 <part name="S11" library="pad" deviceset="GND" device=""/>
 <part name="S12" library="pad" deviceset="GND" device=""/>
-<part name="R8" library="r" deviceset="R" device="0204/10" value="680"/>
+<part name="R8" library="r" deviceset="R" device="0204/10-V" value="680"/>
 <part name="IC1" library="ic" deviceset="LM324" device="N"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/10-V" value="1"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/10" value="1"/>
 <part name="T1" library="t" deviceset="BC327" device=""/>
 </parts>
 <sheets>
@@ -5791,12 +5757,8 @@ Source: www.kingbright.com</description>
 <instance part="S2" gate="1" x="-2.54" y="-2.54"/>
 <instance part="S3" gate="1" x="38.1" y="-12.7"/>
 <instance part="U$4" gate="G$1" x="81.28" y="30.48"/>
-<instance part="USB" gate="-" x="96.52" y="55.88"/>
-<instance part="USB" gate="+" x="96.52" y="60.96"/>
 <instance part="U$5" gate="G$1" x="99.06" y="63.5"/>
 <instance part="S4" gate="1" x="99.06" y="50.8"/>
-<instance part="LI-ION" gate="-" x="119.38" y="10.16" rot="R180"/>
-<instance part="LI-ION" gate="+" x="119.38" y="15.24" rot="R180"/>
 <instance part="S5" gate="1" x="116.84" y="5.08"/>
 <instance part="U$6" gate="G$1" x="25.4" y="21.59"/>
 <instance part="S6" gate="1" x="25.4" y="3.81"/>
@@ -5851,7 +5813,6 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="V+"/>
-<pinref part="USB" gate="+" pin="P$1"/>
 <wire x1="99.06" y1="63.5" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -5885,13 +5846,11 @@ Source: www.kingbright.com</description>
 <wire x1="38.1" y1="-10.16" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="USB" gate="-" pin="P$1"/>
 <pinref part="S4" gate="1" pin="GND"/>
 <wire x1="99.06" y1="53.34" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LI-ION" gate="-" pin="P$1"/>
 <pinref part="S5" gate="1" pin="GND"/>
 <wire x1="116.84" y1="7.62" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
@@ -6040,7 +5999,6 @@ Source: www.kingbright.com</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="15.24" x2="111.76" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LI-ION" gate="+" pin="P$1"/>
 <wire x1="119.38" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
 <junction x="111.76" y="15.24"/>
 <pinref part="R1" gate="G$1" pin="2"/>

@@ -1556,7 +1556,7 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <part name="R3" library="r" deviceset="R" device="0202/7-V" value="15k"/>
 <part name="C2" library="c" deviceset="C-H" device="075-020X044" value="2.7nF"/>
 <part name="C1" library="c" deviceset="C-H" device="075-020X044" value="2.7nF"/>
-<part name="OUT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
+<part name="OUT" library="pad" deviceset="SPAD+-" device="+-" value="SPAD+-+-"/>
 <part name="J1" library="pad" deviceset="VCC_GND" device="PWR-L"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="R4" library="r" deviceset="POT" device="-V" value="5k"/>

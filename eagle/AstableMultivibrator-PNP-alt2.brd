@@ -75,29 +75,29 @@
 Lyle Williams -February 29, 2016
 http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-tuner</description>
 <plain>
-<wire x1="0" y1="0" x2="27.94" y2="0" width="0" layer="20"/>
+<wire x1="-2.54" y1="0" x2="27.94" y2="0" width="0" layer="20"/>
 <wire x1="27.94" y1="0" x2="27.94" y2="15.24" width="0" layer="20"/>
-<wire x1="27.94" y1="15.24" x2="0" y2="15.24" width="0" layer="20"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="27.94" y1="15.24" x2="-2.54" y2="15.24" width="0" layer="20"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="c">
 <description>&lt;b&gt;Capacitors&lt;/b&gt;&lt;p&gt;
 </description>
 <packages>
-<package name="C050-020X044">
+<package name="C075-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="2.54" y="0" drill="0.8" rot="R180"/>
-<text x="-2.159" y="1.27" size="0.8128" layer="25" align="center-left">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<pad name="2" x="3.81" y="0" drill="0.8" rot="R180"/>
+<text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.8"/>
 <wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
 <wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
 <rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
 <rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
-<wire x1="2.54" y1="0" x2="0.381" y2="0" width="0.0762" layer="51"/>
+<wire x1="3.81" y1="0" x2="0.381" y2="0" width="0.0762" layer="51"/>
 <wire x1="-2.159" y1="-0.254" x2="-1.778" y2="-0.635" width="0.1016" layer="21" curve="90"/>
 <wire x1="2.159" y1="0.254" x2="2.159" y2="-0.254" width="0.1016" layer="21"/>
 <wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
@@ -232,7 +232,7 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
 </class>
 </classes>
 <designrules name="default">
@@ -415,23 +415,23 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="c" package="C050-020X044" value="2.7nF" x="12.7" y="7.62"/>
-<element name="C1" library="c" package="C050-020X044" value="2.7nF" x="12.7" y="10.16"/>
-<element name="R2" library="r" package="0202/7-V" value="5.1k" x="7.62" y="6.35" smashed="yes">
-<attribute name="NAME" x="7.366" y="8.255" size="0.8128" layer="25" ratio="10" align="bottom-right"/>
-<attribute name="VALUE" x="7.62" y="6.35" size="0.8128" layer="27" ratio="10" rot="R90" align="center"/>
-</element>
-<element name="R1" library="r" package="0202/7-V" value="15k" x="5.08" y="6.35" smashed="yes">
+<element name="C2" library="c" package="C075-020X044" value="2.7nF" x="11.43" y="7.62"/>
+<element name="C1" library="c" package="C075-020X044" value="2.7nF" x="11.43" y="10.16"/>
+<element name="R2" library="r" package="0202/7-V" value="5.1k" x="5.08" y="6.35" smashed="yes">
 <attribute name="NAME" x="4.826" y="8.255" size="0.8128" layer="25" ratio="10" align="bottom-right"/>
 <attribute name="VALUE" x="5.08" y="6.35" size="0.8128" layer="27" ratio="10" rot="R90" align="center"/>
+</element>
+<element name="R1" library="r" package="0202/7-V" value="15k" x="2.54" y="6.35" smashed="yes">
+<attribute name="NAME" x="2.286" y="8.255" size="0.8128" layer="25" ratio="10" align="bottom-right"/>
+<attribute name="VALUE" x="2.54" y="6.35" size="0.8128" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="R3" library="r" package="0202/7-V" value="15k" x="17.78" y="6.35" smashed="yes">
 <attribute name="NAME" x="17.526" y="8.255" size="0.8128" layer="25" ratio="10" align="bottom-right"/>
 <attribute name="VALUE" x="17.78" y="6.35" size="0.8128" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
-<element name="T1" library="t" package="TO92-CBE" value="BC557" x="5.08" y="12.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.08" y="11.43" size="0.8128" layer="25" ratio="10" align="center"/>
-<attribute name="VALUE" x="5.08" y="13.5255" size="0.8128" layer="27" ratio="10" align="center"/>
+<element name="T1" library="t" package="TO92-CBE" value="BC557" x="2.54" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.54" y="11.43" size="0.8128" layer="25" ratio="10" align="center"/>
+<attribute name="VALUE" x="2.54" y="13.5255" size="0.8128" layer="27" ratio="10" align="center"/>
 </element>
 <element name="T2" library="t" package="TO92-CBE" value="BC557" x="17.78" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.78" y="11.43" size="0.8128" layer="25" ratio="10" align="center"/>
@@ -440,7 +440,7 @@ design rules under a new name.</description>
 <element name="OUT" library="pad" package="SPAD-+" value="SPAD+--+" x="24.13" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.924" y="12.7" size="0.8128" layer="21" ratio="9" rot="R90" align="top-center"/>
 </element>
-<element name="J1" library="pad" package="PWR-L" value="" x="2.54" y="3.81"/>
+<element name="J1" library="pad" package="PWR-L" value="" x="0" y="3.81"/>
 <element name="R4" library="r" package="POT-V" value="5k" x="22.86" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.4" y="8.509" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="24.13" y="2.159" size="0.8128" layer="27" ratio="10"/>
@@ -451,8 +451,8 @@ design rules under a new name.</description>
 <contactref element="T1" pad="C"/>
 <contactref element="C1" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="10.16" y1="10.16" x2="7.62" y2="10.16" width="0.6096" layer="16"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="12.7" width="0.6096" layer="16"/>
+<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="12.7" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="T2" pad="B"/>
@@ -461,20 +461,13 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="12.7" x2="17.78" y2="10.16" width="0.6096" layer="16"/>
 <wire x1="17.78" y1="10.16" x2="15.24" y2="10.16" width="0.6096" layer="16"/>
 </signal>
-<signal name="N$1">
-<contactref element="T2" pad="C"/>
-<contactref element="C2" pad="2"/>
-<wire x1="20.32" y1="7.62" x2="15.24" y2="7.62" width="0.6096" layer="16"/>
-<contactref element="R4" pad="A"/>
-<wire x1="20.32" y1="7.62" x2="20.32" y2="12.7" width="0.6096" layer="16"/>
-</signal>
 <signal name="N$3">
 <contactref element="T1" pad="B"/>
 <contactref element="C2" pad="1"/>
 <contactref element="R1" pad="2"/>
-<wire x1="10.16" y1="7.62" x2="5.08" y2="7.62" width="0.6096" layer="16"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.6096" layer="16"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="12.7" width="0.6096" layer="16"/>
+<wire x1="7.62" y1="7.62" x2="2.54" y2="7.62" width="0.6096" layer="16"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="OUT" pad="2"/>
@@ -485,24 +478,31 @@ design rules under a new name.</description>
 <contactref element="R2" pad="1"/>
 <contactref element="R3" pad="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="17.78" y1="2.54" x2="7.62" y2="2.54" width="0.6096" layer="16"/>
-<wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="17.78" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="16"/>
 <contactref element="J1" pad="1"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="16"/>
-<contactref element="OUT" pad="1"/>
-<wire x1="17.78" y1="2.54" x2="20.32" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="16"/>
 <contactref element="R4" pad="E"/>
+<wire x1="17.78" y1="2.54" x2="20.32" y2="2.54" width="0.6096" layer="16"/>
+<contactref element="OUT" pad="1"/>
 <wire x1="22.86" y1="12.7" x2="22.86" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="22.86" y1="2.54" x2="20.32" y2="2.54" width="0.6096" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="T1" pad="E"/>
 <contactref element="T2" pad="E"/>
-<wire x1="2.54" y1="5.08" x2="12.7" y2="5.08" width="0.6096" layer="16"/>
+<wire x1="0" y1="5.08" x2="12.7" y2="5.08" width="0.6096" layer="16"/>
 <wire x1="12.7" y1="5.08" x2="12.7" y2="12.7" width="0.6096" layer="16"/>
 <wire x1="12.7" y1="12.7" x2="15.24" y2="12.7" width="0.6096" layer="16"/>
 <contactref element="J1" pad="2"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="12.7" width="0.6096" layer="16"/>
+<wire x1="0" y1="5.08" x2="0" y2="12.7" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$1">
+<contactref element="T2" pad="C"/>
+<contactref element="C2" pad="2"/>
+<contactref element="R4" pad="A"/>
+<wire x1="15.24" y1="7.62" x2="20.32" y2="7.62" width="0.6096" layer="16"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="12.7" width="0.6096" layer="16"/>
 </signal>
 </signals>
 </board>
