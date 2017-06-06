@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1206,6 +1206,21 @@
 <rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
 <rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
 </package>
+<package name="CONN-2X3P">
+<pad name="3" x="2.54" y="-1.27" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
+<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<text x="-3.81" y="-2.794" size="0.6096" layer="23" rot="R90" align="bottom-right">1</text>
+<text x="0" y="3.175" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.175" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="4" x="-2.54" y="1.27" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
+<pad name="5" x="0" y="1.27" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
+<pad name="6" x="2.54" y="1.27" drill="0.9" diameter="1.778" shape="octagon" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -1699,6 +1714,19 @@
 <connect gate="-2" pin="A" pad="2A"/>
 <connect gate="-2" pin="E" pad="2E"/>
 <connect gate="-2" pin="S" pad="2S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2X3P" package="CONN-2X3P">
+<connects>
+<connect gate="-1" pin="A" pad="1"/>
+<connect gate="-1" pin="E" pad="2"/>
+<connect gate="-1" pin="S" pad="3"/>
+<connect gate="-2" pin="A" pad="4"/>
+<connect gate="-2" pin="E" pad="5"/>
+<connect gate="-2" pin="S" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
