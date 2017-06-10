@@ -106,7 +106,7 @@ eagle_to_svg() {
    esac
   EAGLE_CMDS=${EAGLE_CMDS:+"$EAGLE_CMDS; "}$EAGLE_CMD
 
- exec_cmd EAGLE -C "$EAGLE_CMD; QUIT"      "$INPUT" &
+ exec_cmd EAGLE -N- -C "$EAGLE_CMD; QUIT"      "$INPUT" &
   pid=$!
 
   while [ ! -s "$OUTPUT" ]; do
@@ -141,6 +141,8 @@ eagle_print() {
   find_program INKSCAPE "inkscape" 'reg query "HKLM\SOFTWARE\Classes\inkscape.svg\shell\edit\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "Inkscape not found"
   find_program PDFTK "pdftk" || error "pdftk not found"
   find_program PDFTOCAIRO "pdftocairo" || error "pdftocairo not found"
+
+EAGLE=${EAGLE//eagle.exe/eaglecon.exe}
 
   for ARG; do
 
