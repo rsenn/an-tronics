@@ -174,12 +174,12 @@ eagle_print() {
     
    (set -x;
    rm -f "${BASE}-boards.svg"
-   "$MYDIR"/svg_stack.py  --direction=h --margin=2 \
+   "$MYDIR"/svg_stack.py  --direction=h --margin="10mm" \
       "${BRD%.*}"-{board,board-mirrored}.svg \
      >"${BASE}-boards.svg"
    
    rm -f "${BASE}.svg"
-   "$MYDIR"/svg_stack.py  --direction=v --margin=4 \
+   "$MYDIR"/svg_stack.py  --direction=v --margin="40mm" \
       "${SCH%.*}-schematic.svg" \
       "${BASE}-boards.svg" \
      >"${BASE}.svg"
