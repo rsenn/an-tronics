@@ -13,19 +13,28 @@ str_toupper ()
 find_program() {
   V=$1
   N=$2
+  S=$3
   if [ -e scripts/"$N" ]; then
     P=scripts/"$N"
   elif type "$N" 2>/dev/null >/dev/null; then
     P=$N
   else
     P=$(ls -d {scripts/,/usr/,$SYSTEMDRIVE/{Programs,Program\ Files*}/*/,/mingw{32,64}/,$SYSTEMDRIVE/"$(str_toupper "$N")"*/}{,bin/}"$N".exe 2>/dev/null)
-    [ -n "$P" -a -e "$P" ] || unset P
+    [ -n "$P" -a -e "$P" ] || {
+      if [ -n "$S" ]; then 
+        P=$(eval "$S")
+        type  cygpath 2>/dev/null >/dev/null && P=$(cygpath "$P")
+        [ -z "$P" -o '!' -e "$P" ] && unset P
+      else 
+    unset P
+      fi      
+    }
   fi
   if [ -n "$P" ]; then
     msg "Found $V: $P"
   set_var "$V" "$P"
   else
-  return 1
+    return 1
   fi
 }
 
@@ -59,6 +68,13 @@ exec_cmd() {
   R=$?
   echo " (R=$R)" 1>&2)  1>&10
 }
+
+inkscape_crop_svg() {
+  exec_cmd INKSCAPE --verb=FitCanvasToDrawing --verb=FileSave --verb=FileClose  "$@"
+
+}
+
+
 
 eagle_print_to_pdf() {
 
@@ -102,9 +118,8 @@ EOF
 
 # (#exec_cmd GHOSTSCRIPT -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=svg2write -dLanguageLevel=2 -sOutputFile="${OUTPUT%.pdf}.svg" -f "$OUTPUT"
 #  : #exec_cmd PDFTOPS -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
-exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
-#)
 
+#)
 echo 1>&2
 }
 
@@ -116,18 +131,19 @@ eagle_print() {
 
   exec 10>eagle-print.log
 
-  find_program EAGLE "eagle" || error "eagle not found"
+  find_program EAGLE "eagle" 'reg query "HKLM\SOFTWARE\Classes\Applications\eagle.exe\shell\open\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "eagle not found"
+  find_program INKSCAPE "inkscape" 'reg query "HKLM\SOFTWARE\Classes\inkscape.svg\shell\edit\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "Inkscape not found"
   find_program PDFTK "pdftk" || error "pdftk not found"
   find_program PDFTOCAIRO "pdftocairo" || error "pdftocairo not found"
 
   for ARG; do
 
    (SCH=${ARG%.*}
-   SCH=${SCH%-[[:lower:]]*}
-   SCH=$SCH.sch
-  BRD=${ARG%.*}.brd
-  OUT=doc/pdf/$(basename "${BRD%.*}").pdf
-   trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
+    SCH=${SCH%-[[:lower:]]*}
+    SCH=$SCH.sch
+    BRD=${ARG%.*}.brd
+    OUT=doc/pdf/$(basename "${BRD%.*}").pdf
+    trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
   ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
@@ -141,18 +157,20 @@ eagle_print() {
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board.pdf"
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
 
-#(	for FILE in "${SCH%.*}"-schematic.pdf \
-#	"${BRD%.*}"-{board,board-mirrored}.pdf
-#	 do
-#	 
-# echo "Converting $FILE ..." 1>&2
-# echo 1>&2
-#	exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
-#
-#	done)
+    echo "Blah" 1>&2
 
-    )
-  done
+   (for OUTPUT in "${SCH%.*}"-schematic.pdf \
+  "${BRD%.*}"-{board,board-mirrored}.pdf \
+  ; do
+      echo "Converting $OUTPUT ..." 1>&2
+      echo 1>&2
+     exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
+      inkscape_crop_svg "${OUTPUT%.pdf}.svg"
+    done)
+#  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
+#
+#  done)
+  ); done
 }
 
 eagle_print "$@"
