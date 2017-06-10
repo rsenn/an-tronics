@@ -1,5 +1,6 @@
 #!/bin/sh
-NAME=$(basename "$0" .sh)
+MYNAME=$(basename "$0" .sh)
+MYDIR=$(dirname "$0")
 
 set_var() {
     eval "shift;$1=\"\$*\""
@@ -46,7 +47,7 @@ get_pdf_info() {
 }
 
 msg() {
-  echo "${NAME:+$NAME: }$@" 1>&2
+  echo "${MYNAME:+$MYNAME: }$@" 1>&2
 }
 
 error() {
@@ -164,9 +165,23 @@ eagle_print() {
   ; do
       echo "Converting $OUTPUT ..." 1>&2
       echo 1>&2
-     exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
+      exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
       inkscape_crop_svg "${OUTPUT%.pdf}.svg"
     done)
+    
+    
+   (set -x;
+   "$MYDIR"/scripts/svg_stack.py  --direction=h --margin=10 \
+      "${BRD%.*}"-{board,board-mirrored}.svg \
+      >"$MYDIR/${BRD%.*}-boards.svg"
+      
+   "$MYDIR"/scripts/svg_stack.py  --direction=v --margin=20 \
+      "${SCH%.*}-schematic.svg" \
+      "$MYDIR/${BRD%.*}-boards.svg" \
+      >"$MYDIR/${BRD%.*}.svg"
+    )
+
+      
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
 #
 #  done)
