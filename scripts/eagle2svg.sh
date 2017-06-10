@@ -135,7 +135,7 @@ eagle_print() {
    ORIENTATION="landscape" PAPER="a5"  SCALE="1.0"
 #   ORIENTATION="landscape" PAPER="a4"  SCALE="2.0"
 
-      set -e
+     # set -e
 
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board.pdf"
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
