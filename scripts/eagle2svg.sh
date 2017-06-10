@@ -71,7 +71,13 @@ exec_cmd() {
 }
 
 inkscape_crop_svg() {
-  exec_cmd INKSCAPE --verb=FitCanvasToDrawing --verb=FileSave --verb=FileClose  "$@"
+  while [ -n "$1" -a -f "$1" ]; do 
+  rm -f "${1%.svg}.tmp.svg"
+    exec_cmd INKSCAPE --export-plain-svg="${1%.svg}.tmp.svg" "$1"
+    mv -vf "${1%.svg}.tmp.svg" "$1"
+    exec_cmd INKSCAPE --verb=FitCanvasToDrawing --verb=FileSave --verb=FileClose --verb=FileQuit "$1" &
+    shift
+  done
 
 }
 
@@ -108,7 +114,7 @@ eagle_print_to_pdf() {
   kill $pid 2>/dev/null
   wait $pid
 
- (TMP=$(mktemp infoXXXXXX.txt)
+ : || (TMP=$(mktemp infoXXXXXX.txt)
   trap 'mv -f -- "$OUTPUT.$$" "$OUTPUT"; rm -f "$TMP"' EXIT
   cat >$TMP <<EOF
 InfoBegin
@@ -116,12 +122,7 @@ InfoKey: Title
 InfoValue: $(basename "$OUTPUT" .pdf)
 EOF
    exec_cmd PDFTK "$OUTPUT" update_info "$TMP" output  "$OUTPUT.$$")
-
-# (#exec_cmd GHOSTSCRIPT -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=svg2write -dLanguageLevel=2 -sOutputFile="${OUTPUT%.pdf}.svg" -f "$OUTPUT"
-#  : #exec_cmd PDFTOPS -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
-
-#)
-echo 1>&2
+  echo 1>&2
 }
 
 eagle_print() {
@@ -143,6 +144,7 @@ eagle_print() {
     SCH=${SCH%-[[:lower:]]*}
     SCH=$SCH.sch
     BRD=${ARG%.*}.brd
+    BASE=$(basename "${BRD%.*}")
     OUT=doc/pdf/$(basename "${BRD%.*}").pdf
     trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
@@ -171,14 +173,16 @@ eagle_print() {
     
     
    (set -x;
-   "$MYDIR"/scripts/svg_stack.py  --direction=h --margin=10 \
+   rm -f "${BASE}-boards.svg"
+   "$MYDIR"/svg_stack.py  --direction=h --margin=2 \
       "${BRD%.*}"-{board,board-mirrored}.svg \
-      >"$MYDIR/${BRD%.*}-boards.svg"
-      
-   "$MYDIR"/scripts/svg_stack.py  --direction=v --margin=20 \
+     >"${BASE}-boards.svg"
+   
+   rm -f "${BASE}.svg"
+   "$MYDIR"/svg_stack.py  --direction=v --margin=4 \
       "${SCH%.*}-schematic.svg" \
-      "$MYDIR/${BRD%.*}-boards.svg" \
-      >"$MYDIR/${BRD%.*}.svg"
+      "${BASE}-boards.svg" \
+     >"${BASE}.svg"
     )
 
       
