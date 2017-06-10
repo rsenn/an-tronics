@@ -178,20 +178,20 @@ eagle_print() {
     
    (set -x;
    rm -f "${BASE}-boards.svg"
-   "$MYDIR"/svg_stack.py  --direction=h --margin=10 \
+   "$MYDIR"/svg_stack.py  --direction=h --margin=1 \
       "${BRD%.*}"-{board,board-mirrored}.svg \
      >"${BASE}-boards.svg"
    
    rm -f "${BASE}.svg"
-   "$MYDIR"/svg_stack.py  --direction=v --margin=40 \
+   "$MYDIR"/svg_stack.py  --direction=v --margin=5 \
       "${SCH%.*}-schematic.svg" \
       "${BASE}-boards.svg" \
      >"${BASE}.svg"
     )
     
     svg_set_size "${BASE}.svg" 595.27559 841.88976
-   exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalLeft --verb=AlignVerticalTop --verb=FileSave --verb=FileQuit "${BASE}.svg"
-    exec_cmd INKSCAPE --export-area-page -f "$BASE.svg" -A "$BASE.pdf"
+  # exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalLeft --verb=AlignVerticalTop --verb=FileSave --verb=FileQuit "${BASE}.svg"
+    exec_cmd INKSCAPE --export-area-drawing -f "$BASE.svg" -A "$BASE.pdf"
       
       
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
