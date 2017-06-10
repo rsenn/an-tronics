@@ -87,7 +87,7 @@ inkscape_crop_svg() {
 
 
 
-eagle_print_to_pdf() {
+eagle_to_svg() {
 
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
@@ -135,7 +135,7 @@ eagle_print() {
 
   export HOME="$(cygpath -a "$USERPROFILE")"
 
-  exec 10>eagle-print.log
+  exec 10>$MYNAME.log
 
   find_program EAGLE "eagle" 'reg query "HKLM\SOFTWARE\Classes\Applications\eagle.exe\shell\open\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "eagle not found"
   find_program INKSCAPE "inkscape" 'reg query "HKLM\SOFTWARE\Classes\inkscape.svg\shell\edit\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "Inkscape not found"
@@ -152,8 +152,8 @@ eagle_print() {
     OUT=doc/pdf/$(basename "${BRD%.*}").pdf
     trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
-#  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
-  ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
+#  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
+  ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
 
   #ORIENTATION="landscape" PAPER="a5"  SCALE="3.0 -1"
    ORIENTATION="landscape" PAPER="a5"  SCALE="1.0"
@@ -161,8 +161,8 @@ eagle_print() {
 
      # set -e
 
-    eagle_print_to_pdf "$BRD" "${BRD%.*}-board.pdf"
-    eagle_print_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
+    eagle_to_svg "$BRD" "${BRD%.*}-board.pdf"
+    eagle_to_svg "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
 
     echo "Blah" 1>&2
 
