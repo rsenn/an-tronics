@@ -100,9 +100,10 @@ InfoValue: $(basename "$OUTPUT" .pdf)
 EOF
    exec_cmd PDFTK "$OUTPUT" update_info "$TMP" output  "$OUTPUT.$$")
 
- (#exec_cmd GHOSTSCRIPT -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=eps2write -dLanguageLevel=2 -sOutputFile="${OUTPUT%.pdf}.eps" -f "$OUTPUT"
-  : #exec_cmd PDFTOPS -eps "$OUTPUT" "${OUTPUT%.pdf}.eps" && ${RMTEMP} -vf -- "$OUTPUT"
-)
+# (#exec_cmd GHOSTSCRIPT -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=svg2write -dLanguageLevel=2 -sOutputFile="${OUTPUT%.pdf}.svg" -f "$OUTPUT"
+#  : #exec_cmd PDFTOPS -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
+exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
+#)
 
 echo 1>&2
 }
@@ -126,7 +127,7 @@ eagle_print() {
    SCH=$SCH.sch
   BRD=${ARG%.*}.brd
   OUT=doc/pdf/$(basename "${BRD%.*}").pdf
-   trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,eps}' EXIT
+   trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
   ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
@@ -140,15 +141,15 @@ eagle_print() {
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board.pdf"
     eagle_print_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
 
-	for FILE in "${SCH%.*}"-schematic.pdf \
-	"${BRD%.*}"-{board,board-mirrored}.pdf
-	 do
-	 
- echo "Converting $FILE ..." 1>&2
- echo 1>&2
-	exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
-
-	done
+#(	for FILE in "${SCH%.*}"-schematic.pdf \
+#	"${BRD%.*}"-{board,board-mirrored}.pdf
+#	 do
+#	 
+# echo "Converting $FILE ..." 1>&2
+# echo 1>&2
+#	exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
+#
+#	done)
 
     )
   done
