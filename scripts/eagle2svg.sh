@@ -190,9 +190,8 @@ eagle_print() {
     )
     
     svg_set_size "${BASE}.svg" 595.27559 841.88976
-    exec_cmd INKSCAPE --export-area-page --verb=EditSelectAll --verb=AlignHorizontalCenter --verb=AlignVerticalCenter --verb=FileSaveAs:"${BASE}.pdf" --verb=FileQuit "${BASE}.svg"
-
-      
+    exec_cmd INKSCAPE --export-area-page --verb=EditSelectAll --verb=AlignHorizontalCenter --verb=AlignVerticalCenter --verb=FileSave --verb=FileQuit "${BASE}.svg"
+    exec_cmd INKSCAPE -f "$BASE.svg" -A "$BASE.pdf"
       
       
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
