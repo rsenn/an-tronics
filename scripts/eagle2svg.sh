@@ -70,6 +70,10 @@ exec_cmd() {
   echo " (R=$R)" 1>&2)  1>&10
 }
 
+svg_set_size() {
+  sed -i "/<svg / { s|width=\"[^\"]*\"|width=\"$2\"| ; s|height=\"[^\"]*\"|height=\"$3\"| }" "$1"
+}
+
 inkscape_crop_svg() {
   while [ -n "$1" -a -f "$1" ]; do 
   rm -f "${1%.svg}.tmp.svg"
@@ -174,16 +178,19 @@ eagle_print() {
     
    (set -x;
    rm -f "${BASE}-boards.svg"
-   "$MYDIR"/svg_stack.py  --direction=h --margin="10mm" \
+   "$MYDIR"/svg_stack.py  --direction=h --margin=10 \
       "${BRD%.*}"-{board,board-mirrored}.svg \
      >"${BASE}-boards.svg"
    
    rm -f "${BASE}.svg"
-   "$MYDIR"/svg_stack.py  --direction=v --margin="40mm" \
+   "$MYDIR"/svg_stack.py  --direction=v --margin=40 \
       "${SCH%.*}-schematic.svg" \
       "${BASE}-boards.svg" \
      >"${BASE}.svg"
     )
+    
+    svg_set_size "${BASE}.svg" 595.27559 841.88976
+    exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalCenter --verb=AlignVerticalCenter --verb=FileSave --verb=FileQuit "${BASE}.svg"
 
       
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
