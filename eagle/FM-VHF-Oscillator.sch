@@ -7153,7 +7153,7 @@
 <instance part="ANT1" gate="ANT" x="63.5" y="57.15"/>
 <instance part="T1" gate="G$1" x="30.48" y="40.64"/>
 <instance part="L2" gate="L1" x="48.26" y="57.15" rot="MR0"/>
-<instance part="C6" gate="1" x="48.26" y="27.94"/>
+<instance part="C6" gate="1" x="48.26" y="25.4"/>
 <instance part="C7" gate="G$1" x="68.58" y="48.26"/>
 <instance part="R4" gate="G$1" x="76.2" y="40.64"/>
 <instance part="S1" gate="1" x="76.2" y="31.75"/>
@@ -7175,7 +7175,7 @@
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="T1" gate="G$1" pin="E"/>
 <pinref part="C6" gate="1" pin="1"/>
-<wire x1="48.26" y1="30.48" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="27.94" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <junction x="48.26" y="33.02"/>
 </segment>
 </net>
@@ -7222,7 +7222,7 @@
 <pinref part="ECM" gate="1" pin="-"/>
 <wire x1="2.54" y1="24.13" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C6" gate="1" pin="2"/>
-<wire x1="48.26" y1="25.4" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="22.86" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$2" pin="GND"/>
 <pinref part="C5" gate="1" pin="2"/>

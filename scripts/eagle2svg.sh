@@ -146,9 +146,10 @@ EAGLE=${EAGLE//eagle.exe/eaglecon.exe}
 
   for ARG; do
 
-   (SCH=${ARG%.*}
-    SCH=${SCH%-[[:lower:]]*}
-    SCH=$SCH.sch
+   (SCH=${ARG%.*}.sch
+    if [ ! -e "${SCH}.sch" ]; then
+      SCH=${SCH%-[[:lower:]]*}.sch
+    fi
     BRD=${ARG%.*}.brd
     BASE=$(basename "${BRD%.*}")
     OUT=doc/pdf/$(basename "${BRD%.*}").pdf

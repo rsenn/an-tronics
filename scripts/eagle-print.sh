@@ -122,32 +122,30 @@ eagle_print() {
 
   for ARG; do
 
-   (SCH=${ARG%.*}
-   SCH=${SCH%-[[:lower:]]*}
-   SCH=$SCH.sch
-  BRD=${ARG%.*}.brd
-  OUT=doc/pdf/$(basename "${BRD%.*}").pdf
-   trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,eps}' EXIT
+   (SCH=${ARG%.*}.sch
+    if [ ! -e "${SCH}.sch" ]; then
+      SCH=${SCH%-[[:lower:]]*}.sch
+    fi
+    BRD=${ARG%.*}.brd
+    OUT=doc/pdf/$(basename "${BRD%.*}").pdf
+     trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,eps}' EXIT
 
-#  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
-  ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
+  #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
+    ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
 
-  #ORIENTATION="landscape" PAPER="a5"  SCALE="3.0 -1"
-   ORIENTATION="landscape" PAPER="a5"  SCALE="1.0"
-#   ORIENTATION="landscape" PAPER="a4"  SCALE="2.0"
+    #ORIENTATION="landscape" PAPER="a5"  SCALE="3.0 -1"
+     ORIENTATION="landscape" PAPER="a5"  SCALE="1.0"
+  #   ORIENTATION="landscape" PAPER="a4"  SCALE="2.0"
 
-      set -e
+        set -e
 
-    eagle_print_to_pdf "$BRD" "${BRD%.*}-board.pdf"
-    eagle_print_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
+      eagle_print_to_pdf "$BRD" "${BRD%.*}-board.pdf"
+      eagle_print_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
 
-  exec_cmd GHOSTSCRIPT -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER  -dEPSCrop -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile="$OUT"   \
-  "${SCH%.*}"-schematic.eps \
-  "${BRD%.*}"-{board,board-mirrored}.eps \
+    exec_cmd GHOSTSCRIPT -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER  -dEPSCrop -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile="$OUT"   \
+    "${SCH%.*}"-schematic.eps \
+    "${BRD%.*}"-{board,board-mirrored}.eps \
   ) || exit $?
-
-
-
   done
 }
 
