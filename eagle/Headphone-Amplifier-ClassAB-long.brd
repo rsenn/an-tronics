@@ -129,8 +129,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
 <pad name="+" x="-2.54" y="0" drill="0.7" shape="octagon" stop="no"/>
 <pad name="-" x="2.54" y="0" drill="0.7" stop="no"/>
-<text x="1.905" y="1.524" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<text x="1.905" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-1.27" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
 </package>
 <package name="E2,5-4">
@@ -147,8 +147,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
 <pad name="-" x="-1.27" y="0" drill="0.8" diameter="1.6002" rot="R180"/>
 <pad name="+" x="1.27" y="0" drill="0.8" diameter="1.6002" shape="square" rot="R180"/>
-<text x="-1.651" y="1.524" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="0.635" y="-2.0955" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.651" y="1.524" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0.635" y="-2.0955" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="-0.5842" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.5842" y1="0" x2="-0.5842" y2="-0.889" width="0.1524" layer="51"/>
 <wire x1="-0.5842" y1="-0.889" x2="-0.2032" y2="-0.889" width="0.1524" layer="51"/>
@@ -173,8 +173,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="0.381" y1="1.27" x2="0.889" y2="1.27" width="0.1524" layer="21"/>
 <pad name="+" x="0" y="2.54" drill="0.7" shape="square" rot="R270"/>
 <pad name="-" x="0" y="-2.54" drill="0.7" rot="R270"/>
-<text x="1.27" y="2.286" size="0.8128" layer="25">&gt;NAME</text>
-<text x="1.524" y="-2.032" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<text x="1.27" y="2.286" size="0.6096" layer="25">&gt;NAME</text>
+<text x="1.524" y="-2.032" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
 </package>
 </packages>
