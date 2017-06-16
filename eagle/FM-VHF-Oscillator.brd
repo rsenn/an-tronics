@@ -72,9 +72,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="35.56" y2="0" width="0" layer="20"/>
-<wire x1="35.56" y1="0" x2="35.56" y2="22.86" width="0" layer="20"/>
-<wire x1="35.56" y1="22.86" x2="0" y2="22.86" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="27.94" y2="0" width="0" layer="20"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="22.86" width="0" layer="20"/>
+<wire x1="27.94" y1="22.86" x2="0" y2="22.86" width="0" layer="20"/>
 <wire x1="0" y1="22.86" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -3620,12 +3620,12 @@ design rules under a new name.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
+<param name="RoutingGrid" value="100mil"/>
+<param name="AutoGrid" value="0"/>
 <param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
+<param name="TopRouterVariant" value="0"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="0"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -3640,7 +3640,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="-"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -3715,22 +3715,22 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="ANT1" library="pad" package="SPAD" value="ANT" x="30.48" y="12.7"/>
-<element name="C1" library="cap-trim" package="TRIM-2222-808" value="2.5 - 30pF" x="12.7" y="17.78" rot="R90"/>
-<element name="C2" library="c" package="C025-015X024" value="22pF" x="19.05" y="8.89" rot="R270"/>
-<element name="C3" library="c" package="C050-020X036/V" value="1nF" x="7.62" y="5.08" rot="R180"/>
+<element name="ANT1" library="pad" package="SPAD" value="ANT" x="20.32" y="15.24" rot="R270"/>
+<element name="C1" library="cap-trim" package="TRIM-2222-808" value="2.5 - 30pF" x="10.16" y="17.78" rot="R90"/>
+<element name="C2" library="c" package="C025-015X024" value="22pF" x="15.24" y="8.89" rot="R270"/>
+<element name="C3" library="c" package="C050-020X036/V" value="1nF" x="5.08" y="5.08" rot="R180"/>
 <element name="C4" library="c" package="C050-024X044" value="330nF" x="5.08" y="10.16"/>
-<element name="C5" library="c" package="C050-020X044/V" value="22nF" x="30.48" y="17.78" rot="R90"/>
-<element name="C6" library="c" package="C050-020X036" value="1nF" x="12.7" y="5.08" rot="R270"/>
-<element name="C7" library="c" package="C050-024X044" value="1nF" x="25.4" y="7.62"/>
+<element name="C5" library="c" package="C050-020X044/V" value="22nF" x="22.86" y="20.32" rot="R90"/>
+<element name="C6" library="c" package="C050-020X036" value="1nF" x="7.62" y="5.08" rot="R270"/>
+<element name="C7" library="c" package="C050-024X044" value="1nF" x="17.78" y="7.62" rot="R270"/>
 <element name="ECM" library="ECM" package="ECM-4" value="ECM-4" x="2.54" y="3.81"/>
-<element name="L2" library="l" package="L-04/7V-X" value="1uH" x="21.59" y="16.51"/>
-<element name="R1" library="r" package="0204/2V" value="470" x="10.16" y="3.81"/>
+<element name="L2" library="l" package="L-04/7V-X" value="1uH" x="16.51" y="16.51"/>
+<element name="R1" library="r" package="0204/2V" value="470" x="12.7" y="3.81"/>
 <element name="R2" library="r" package="0202/7-V" value="4.7k" x="2.54" y="16.51"/>
-<element name="R3" library="r" package="0202/7-V" value="47k" x="7.62" y="16.51"/>
-<element name="R4" library="r" package="0202/5-V" value="330k" x="25.4" y="5.08" rot="R270"/>
-<element name="S2" library="pad" package="PWR-R" value="VCC_GNDPWR-R" x="33.02" y="5.08"/>
-<element name="T1" library="t" package="TO92-CBE" value="BC547" x="15.24" y="10.16"/>
+<element name="R3" library="r" package="0202/7-V" value="47k" x="5.08" y="16.51"/>
+<element name="R4" library="r" package="0202/5-V" value="330k" x="20.32" y="5.08"/>
+<element name="S2" library="pad" package="PWR-R" value="VCC_GNDPWR-R" x="22.86" y="3.81"/>
+<element name="T1" library="t" package="TO92-CBE" value="BC547" x="10.16" y="10.16"/>
 </elements>
 <signals>
 <signal name="N$3">
@@ -3738,25 +3738,27 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="T1" pad="E"/>
 <contactref element="C6" pad="1"/>
-<wire x1="15.24" y1="7.62" x2="19.05" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="7.62" x2="15.24" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="5.08" x2="12.7" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="7.62" x2="15.24" y2="7.62" width="0.6096" layer="16"/>
+<wire x1="15.24" y1="7.62" x2="12.7" y2="7.62" width="0.6096" layer="16"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="5.08" width="0.6096" layer="16"/>
+<wire x1="7.62" y1="7.62" x2="10.16" y2="7.62" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R3" pad="2"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="T1" pad="B"/>
-<wire x1="7.62" y1="10.16" x2="15.24" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="12.7" width="0.6096" layer="16"/>
+<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.6096" layer="16"/>
+<wire x1="7.62" y1="10.16" x2="10.16" y2="10.16" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="R2" pad="2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="ECM" pad="1"/>
-<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="5.08" width="0.6096" layer="16"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.6096" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="R4" pad="2"/>
@@ -3766,12 +3768,13 @@ design rules under a new name.</description>
 <contactref element="C6" pad="2"/>
 <contactref element="S2" pad="1"/>
 <contactref element="C5" pad="2"/>
-<wire x1="33.02" y1="3.81" x2="33.02" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="5.08" x2="33.02" y2="3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="2.54" x2="22.86" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="2.54" x2="12.7" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="5.08" y1="2.54" x2="12.7" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="12.7" y1="2.54" x2="7.62" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="7.62" y1="2.54" x2="20.32" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="20.32" width="0.6096" layer="16"/>
+<wire x1="20.32" y1="2.54" x2="25.4" y2="2.54" width="0.6096" layer="16"/>
+<wire x1="25.4" y1="2.54" x2="22.86" y2="2.54" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="L2" pad="1"/>
@@ -3780,11 +3783,12 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="ANT1" pad="1"/>
 <contactref element="C7" pad="1"/>
-<wire x1="22.86" y1="7.62" x2="30.48" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="10.16" x2="22.86" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="12.7" x2="19.05" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="12.7" x2="19.05" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="12.7" x2="15.24" y2="12.7" width="0.6096" layer="16"/>
+<wire x1="10.16" y1="12.7" x2="12.7" y2="15.24" width="0.6096" layer="16"/>
+<wire x1="15.24" y1="10.16" x2="20.32" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="20.32" y1="10.16" x2="20.32" y2="15.24" width="0.6096" layer="16"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="10.16" width="0.6096" layer="16"/>
+<wire x1="17.78" y1="10.16" x2="15.24" y2="10.16" width="0.6096" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="R3" pad="1"/>
@@ -3793,16 +3797,18 @@ design rules under a new name.</description>
 <contactref element="L2" pad="2"/>
 <contactref element="S2" pad="2"/>
 <contactref element="C5" pad="1"/>
-<wire x1="22.86" y1="20.32" x2="27.94" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="20.32" x2="22.86" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="20.32" x2="15.24" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="20.32" x2="7.62" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="33.02" y1="6.35" x2="27.94" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="20.32" x2="2.54" y2="20.32" width="0.6096" layer="16"/>
+<wire x1="20.32" y1="20.32" x2="17.78" y2="20.32" width="0.6096" layer="16"/>
+<wire x1="17.78" y1="20.32" x2="12.7" y2="20.32" width="0.6096" layer="16"/>
+<wire x1="12.7" y1="20.32" x2="5.08" y2="20.32" width="0.6096" layer="16"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="20.32" width="0.6096" layer="16"/>
+<wire x1="22.86" y1="20.32" x2="20.32" y2="20.32" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="C7" pad="2"/>
 <contactref element="R4" pad="1"/>
-<wire x1="27.94" y1="5.08" x2="27.94" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="5.08" x2="20.32" y2="5.08" width="0.6096" layer="16"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="7.62" width="0.6096" layer="16"/>
 </signal>
 </signals>
 </board>
