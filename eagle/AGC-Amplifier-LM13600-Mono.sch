@@ -3791,7 +3791,7 @@
 <part name="R5" library="r" deviceset="R" device="0202/7-V" value="22k"/>
 <part name="R1" library="r" deviceset="R" device="0202/7" value="470"/>
 <part name="R2" library="r" deviceset="R" device="0202/7-V" value="470"/>
-<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4" value="2.2uF"/>
+<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4/V" value="2.2uF"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4/V"/>
 <part name="R6" library="r" deviceset="R" device="0202/7" value="180"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>

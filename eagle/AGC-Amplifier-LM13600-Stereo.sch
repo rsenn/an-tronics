@@ -3851,6 +3851,7 @@ XXX</description>
 <part name="OUT" library="pad" deviceset="SAUDIO" device=""/>
 <part name="S5" library="pad" deviceset="GND" device=""/>
 <part name="U$1" library="pad" deviceset="VCC" device=""/>
+<part name="IC2" library="ic" deviceset="LM13600" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3891,6 +3892,7 @@ XXX</description>
 <instance part="IC1" gate="B*" x="104.14" y="27.94" rot="MR180"/>
 <instance part="S5" gate="1" x="22.86" y="33.02"/>
 <instance part="U$1" gate="G$1" x="66.04" y="7.62" rot="R180"/>
+<instance part="IC2" gate="B" x="-12.7" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -3995,6 +3997,9 @@ XXX</description>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="12.7" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="142.24" y1="57.15" x2="142.24" y2="46.99" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -4073,6 +4078,9 @@ XXX</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="43.18" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
 <junction x="109.22" y="40.64"/>
+</segment>
+<segment>
+<wire x1="85.09" y1="26.67" x2="44.45" y2="26.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
