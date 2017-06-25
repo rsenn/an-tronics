@@ -15,7 +15,7 @@
 			"file": "scripts/init-brd.rb",
 			"settings":
 			{
-				"buffer_size": 6962,
+				"buffer_size": 6968,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -29,7 +29,10 @@
 			}
 		},
 		{
+			"contents": "",
 			"file": "/I/PortableApps/SublimeTextPortable/App/64-bit/Data/Packages/BeautifyRuby/Default (Windows).sublime-keymap",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -68,11 +71,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/roman/Documents/fmbug",
-		"/C/Users/roman/Documents/fmbug/scripts"
-	],
 	"file_history":
 	[
 		"/C/Users/roman/Documents/pictest/src/config-12f1840.h",
@@ -245,15 +243,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6962,
+						"buffer_size": 6968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6074,
-								6074
+								0,
+								0
 							]
 						],
 						"settings":
@@ -354,8 +352,8 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": null,
-							"translate_tabs_to_spaces": null
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 3015.0,

@@ -1,6 +1,6 @@
 [Eagle]
-Version="07 07 00"
-Platform="Linux"
+Version="07 06 00"
+Platform="Windows"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
 Desktop="Desktop"
@@ -24,5 +24,5 @@ State=2
 Number=0
 
 [Desktop]
-Screen="2640 1024"
+Screen="1280 1024"
 Window="Win_1"
