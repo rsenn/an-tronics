@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5155,9 +5155,9 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <part name="SUPPLY9" library="pad" deviceset="-12V" device=""/>
 <part name="GND13" library="pad" deviceset="GND" device=""/>
 <part name="R13" library="r" deviceset="POT" device="" value="10k"/>
-<part name="R9" library="r" deviceset="R" device="0204/7" value="10k"/>
-<part name="R17" library="r" deviceset="R" device="0204/7" value="5.6k"/>
-<part name="R15" library="r" deviceset="R" device="0204/7" value="12k"/>
+<part name="R9" library="r" deviceset="R" device="0204/10" value="10k"/>
+<part name="R17" library="r" deviceset="R" device="0204/10" value="5.6k"/>
+<part name="R15" library="r" deviceset="R" device="0204/10" value="12k"/>
 <part name="GND15" library="pad" deviceset="GND" device=""/>
 <part name="SQUARE" library="pad" deviceset="SPAD" device=""/>
 <part name="GND14" library="pad" deviceset="GND" device=""/>
