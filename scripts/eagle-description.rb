@@ -70,21 +70,27 @@ end
 #  STDERR.puts "Processing '#{file_name}' ... "
 
   begin
+    @out = []
 	@doc = Nokogiri::XML(File.open(file_name))
-	
+
 	elems = @doc.xpath("/eagle/drawing/*/description")
 	elems.each do |e|
 	  pte = PlainTextExtractor.new(true)
 	  pte << e.content
 
       text = pte.plaintext.gsub("\n", "\\n")
-	  
-	  puts "#{file_name}: [#{e.path}] '#{text}'"
+	 
+      @out.push "#{file_name}: [#{e.path}] '#{text}'" 
+	  #puts "#{file_name}: [#{e.path}] '#{text}'"
 	  
 	  if @description != "" then
 		e.content = format_html(@description)
 	  end
 	end
+
+    if @out.empty? then @out.push "#{file_name}:" end
+
+    puts @out.join('\n')
 
 	if @description != "" then
 	  to = file_name+".bak"
