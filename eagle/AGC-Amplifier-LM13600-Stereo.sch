@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3851,7 +3851,6 @@ XXX</description>
 <part name="OUT" library="pad" deviceset="SAUDIO" device=""/>
 <part name="S5" library="pad" deviceset="GND" device=""/>
 <part name="U$1" library="pad" deviceset="VCC" device=""/>
-<part name="IC2" library="ic" deviceset="LM13600" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3892,7 +3891,6 @@ XXX</description>
 <instance part="IC1" gate="B*" x="104.14" y="27.94" rot="MR180"/>
 <instance part="S5" gate="1" x="22.86" y="33.02"/>
 <instance part="U$1" gate="G$1" x="66.04" y="7.62" rot="R180"/>
-<instance part="IC2" gate="B" x="-12.7" y="76.2"/>
 </instances>
 <busses>
 </busses>

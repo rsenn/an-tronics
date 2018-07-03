@@ -1,6 +1,6 @@
 [Eagle]
-Version="07 06 00"
-Platform="Windows"
+Version="07 07 00"
+Platform="Linux"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
 Desktop="Desktop"
@@ -19,10 +19,10 @@ UsedLibrary="eagle/lbr/t.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="30 215 1271 872"
+Loc="30 74 1271 731"
 State=2
 Number=0
 
 [Desktop]
-Screen="2640 1024"
+Screen="1366 768"
 Window="Win_1"
