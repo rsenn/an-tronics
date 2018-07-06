@@ -128,6 +128,15 @@ EOF
    exec_cmd PDFTK "$OUTPUT" update_info "$TMP" output  "$OUTPUT.$$")
   echo 1>&2
 }
+type cygpath 2>/dev/null >/dev/null || cygpath() {
+
+  while [ $# -gt 0 ]; do
+    case "$1" in
+       -*) shift ;;
+       *) echo "$1"; shift ;;
+    esac
+  done
+}
 
 eagle_print() {
 
@@ -150,10 +159,11 @@ N=$#
   for ARG; do
    I=$((I+1))
    echo "Processing '$ARG' ($((I))/$((N)))" 1>&2
-   (SCH=${ARG%.*}.sch
+   (SCH=${ARG%.*}
     if [ ! -e "${SCH}.sch" ]; then
       SCH=${SCH%-[[:lower:]]*}.sch
     fi
+    SCH=${SCH}.sch
     BRD=${ARG%.*}.brd
     BASE=$(basename "${BRD%.*}")
     OUT=doc/pdf/$(basename "${BRD%.*}").pdf
