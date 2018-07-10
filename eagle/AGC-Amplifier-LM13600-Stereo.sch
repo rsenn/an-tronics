@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -57,6 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -69,6 +70,8 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <description>&lt;h1&gt;AGC Amplifier using LM13600&lt;/h1&gt;&lt;br/&gt;
@@ -147,7 +150,7 @@ XXX</description>
 <vertex x="-8.89" y="-1.524"/>
 </polygon>
 <wire x1="-6.35" y1="-3.81" x2="-8.89" y2="-3.81" width="0.254" layer="94"/>
-<pin name="DIODE/BIAS" x="-10.16" y="0" visible="pad" length="short" direction="in"/>
+<pin name="DIODE/BIAS" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
 <circle x="9.41605" y="0" radius="1.79605" width="0.254" layer="94"/>
 <circle x="10.90395" y="0" radius="1.79605" width="0.254" layer="94"/>
 <pin name="AMP/BIAS" x="10.16" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>
@@ -3995,9 +3998,6 @@ XXX</description>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="12.7" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="142.24" y1="57.15" x2="142.24" y2="46.99" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -4076,9 +4076,6 @@ XXX</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="43.18" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
 <junction x="109.22" y="40.64"/>
-</segment>
-<segment>
-<wire x1="85.09" y1="26.67" x2="44.45" y2="26.67" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
