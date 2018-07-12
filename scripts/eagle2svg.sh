@@ -91,6 +91,11 @@ eagle_to_svg() {
 
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
+  
+  if [ -n "$OUTDIR" ]; then
+  OUTPUT="$OUTDIR"/$(basename "$OUTPUT")
+  fi
+  
   rm -f -- "$OUTPUT"
   OPTIONS=$3
   : ${SCALE:=1.0}
