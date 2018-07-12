@@ -122,8 +122,8 @@ eagle_print() {
 
   for ARG; do
 
-   (SCH=${ARG%.*}.sch
-    if [ ! -e "${SCH}.sch" ]; then
+   (SCH=${ARG%.*}
+    if [ ! -e "${SCH}" ]; then
       SCH=${SCH%-[[:lower:]]*}.sch
     fi
     BRD=${ARG%.*}.brd

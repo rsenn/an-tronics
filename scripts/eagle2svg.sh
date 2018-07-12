@@ -147,7 +147,7 @@ eagle_print() {
   exec 10>$MYNAME.log
 
   find_program EAGLE "eagle" 'reg query "HKLM\SOFTWARE\Classes\Applications\eagle.exe\shell\open\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "eagle not found"
-  find_program INKSCAPE "inkscape" 'reg query "HKLM\SOFTWARE\Classes\inkscape.svg\shell\edit\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "Inkscape not found"
+  find_program INKSCAPE "inkscape" 'reg query "HKLM\SOFTWARE\Classes\svgfile\shell\Inkscape\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "Inkscape not found"
   find_program PDFTK "pdftk" || error "pdftk not found"
   find_program PDFTOCAIRO "pdftocairo" || error "pdftocairo not found"
 
