@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -77,10 +77,10 @@
 http://circuitsjunkyard.blogspot.ch/p/blog-page.html
 http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 <plain>
-<wire x1="0" y1="1.27" x2="40.64" y2="1.27" width="0" layer="20"/>
-<wire x1="40.64" y1="1.27" x2="40.64" y2="29.21" width="0" layer="20"/>
-<wire x1="40.64" y1="29.21" x2="0" y2="29.21" width="0" layer="20"/>
-<wire x1="0" y1="29.21" x2="0" y2="1.27" width="0" layer="20"/>
+<wire x1="0" y1="1.27" x2="40.64" y2="1.27" width="0" layer="47"/>
+<wire x1="40.64" y1="1.27" x2="40.64" y2="29.21" width="0" layer="47"/>
+<wire x1="40.64" y1="29.21" x2="0" y2="29.21" width="0" layer="47"/>
+<wire x1="0" y1="29.21" x2="0" y2="1.27" width="0" layer="47"/>
 </plain>
 <libraries>
 <library name="d">
@@ -541,7 +541,12 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="13.97" x2="17.78" y2="11.43" width="1.27" layer="16"/>
 <wire x1="15.24" y1="3.81" x2="17.78" y2="3.81" width="1.27" layer="16"/>
 <wire x1="33.02" y1="13.97" x2="25.4" y2="13.97" width="1.27" layer="16"/>
-<wire x1="33.02" y1="13.97" x2="29.21" y2="13.97" width="0" layer="19" extent="1-1"/>
+<polygon width="0.254" layer="16" isolate="1.27">
+<vertex x="0" y="0"/>
+<vertex x="0" y="30.48"/>
+<vertex x="40.64" y="30.48"/>
+<vertex x="40.64" y="0"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <contactref element="R11" pad="2"/>
@@ -656,8 +661,7 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="16.51" x2="17.78" y2="16.51" width="1.27" layer="16"/>
 <wire x1="17.78" y1="16.51" x2="17.78" y2="19.05" width="1.27" layer="16"/>
 <wire x1="33.02" y1="16.51" x2="25.4" y2="16.51" width="1.27" layer="16"/>
-<wire x1="38.1" y1="16.51" x2="38.1" y2="12.7" width="0" layer="19" extent="1-16"/>
-<wire x1="38.1" y1="12.7" x2="38.1" y2="11.43" width="0" layer="19" extent="16-16"/>
+<wire x1="38.1" y1="6.35" x2="38.1" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="16.51" x2="33.02" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">

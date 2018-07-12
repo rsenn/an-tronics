@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -68,11 +68,10 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;Switches, Buttons &amp; Jumpers&lt;/b&gt;&lt;p&gt;
-</description>
+<description>&lt;b&gt;Switches, Buttons &amp; Jumpers&lt;/b&gt;&lt;p&gt;</description>
 <packages>
 <package name="SLSW-1P2T-V">
 <wire x1="1.27" y1="4.572" x2="-2.54" y2="4.572" width="0.1524" layer="21"/>
@@ -594,6 +593,10 @@
 </packages>
 <symbols>
 <symbol name="SW-1P2T">
+<text x="-7.112" y="0" size="1.016" layer="95" rot="R90" align="bottom-center">&gt;NAME</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="S" x="5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="O" x="-5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <wire x1="-6.604" y1="1.651" x2="-6.604" y2="0" width="0.254" layer="94"/>
 <wire x1="-6.604" y1="0" x2="-4.699" y2="0" width="0.1524" layer="94"/>
 <wire x1="-6.604" y1="0" x2="-6.604" y2="-1.651" width="0.254" layer="94"/>
@@ -604,15 +607,18 @@
 <wire x1="-1.27" y1="1.778" x2="-1.27" y2="2.413" width="0.254" layer="94"/>
 <wire x1="-3.556" y1="0" x2="-3.048" y2="-0.762" width="0.1524" layer="94"/>
 <wire x1="-3.048" y1="-0.762" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-7.112" y="0" size="1.016" layer="95" rot="R90" align="bottom-center">&gt;NAME</text>
-<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="S" x="5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="O" x="-5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<text x="-7.112" y="0" size="1.778" layer="95" rot="R90" align="bottom-center">&gt;NAME</text>
 <wire x1="-1.524" y1="0" x2="-0.889" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 <symbol name="SW-1P3T">
+<text x="-3.175" y="8.89" size="1.016" layer="95">&gt;NAME</text>
+<text x="3.175" y="7.112" size="0.8128" layer="96">&gt;VALUE</text>
+<pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="B" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="C" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 <wire x1="3.175" y1="7.62" x2="1.27" y2="7.62" width="0.254" layer="94"/>
 <wire x1="1.27" y1="7.62" x2="1.27" y2="5.715" width="0.1524" layer="94"/>
 <wire x1="1.27" y1="7.62" x2="-0.635" y2="7.62" width="0.254" layer="94"/>
@@ -627,29 +633,12 @@
 <wire x1="1.27" y1="2.54" x2="1.27" y2="2.667" width="0.1524" layer="94"/>
 <wire x1="1.27" y1="4.572" x2="0.508" y2="4.064" width="0.1524" layer="94"/>
 <wire x1="0.508" y1="4.064" x2="1.27" y2="3.556" width="0.1524" layer="94"/>
-<text x="-3.175" y="8.89" size="1.016" layer="95">&gt;NAME</text>
-<text x="3.175" y="7.112" size="0.8128" layer="96">&gt;VALUE</text>
-<pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="B" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="A" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-3.175" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.175" y="7.112" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="5.08" y1="-4.445" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.715" y2="-5.08" width="0.254" layer="94"/>
-<pin name="C" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="SW-2P2T">
-<wire x1="-11.43" y1="1.905" x2="-11.43" y2="0" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="0" x2="-9.525" y2="0" width="0.1524" layer="94"/>
-<wire x1="-11.43" y1="0" x2="-11.43" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="0" x2="-8.382" y2="0" width="0.1524" layer="94"/>
-<wire x1="-7.366" y1="0" x2="-6.985" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.905" x2="-6.985" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-8.382" y1="0" x2="-7.874" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-7.874" y1="-0.762" x2="-7.366" y2="0" width="0.1524" layer="94"/>
 <text x="-13.97" y="-1.905" size="1.016" layer="95" rot="R90">&gt;NAME</text>
 <text x="-11.43" y="3.175" size="0.8128" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="P" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
@@ -668,6 +657,21 @@
 <pin name="O1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <wire x1="-6.35" y1="0" x2="-4.445" y2="0" width="0.1524" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="1.905" x2="-11.43" y2="0" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="0" x2="-9.525" y2="0" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="0" x2="-11.43" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="0" x2="-8.382" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.366" y1="0" x2="-6.985" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.905" x2="-6.985" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-8.382" y1="0" x2="-7.874" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-7.874" y1="-0.762" x2="-7.366" y2="0" width="0.1524" layer="94"/>
+<text x="-13.97" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-11.43" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 <symbol name="SW-1P1T">
 <wire x1="-6.35" y1="1.905" x2="-6.35" y2="0" width="0.254" layer="94"/>

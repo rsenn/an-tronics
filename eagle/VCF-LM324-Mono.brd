@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -76,10 +76,10 @@
 
 http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=asc&amp;highlight=</description>
 <plain>
-<wire x1="38.1" y1="40.64" x2="0" y2="40.64" width="0" layer="20"/>
-<wire x1="0" y1="40.64" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="0" x2="38.1" y2="0" width="0" layer="20"/>
-<wire x1="38.1" y1="0" x2="38.1" y2="40.64" width="0" layer="20"/>
+<wire x1="38.1" y1="40.64" x2="0" y2="40.64" width="0" layer="47"/>
+<wire x1="0" y1="40.64" x2="0" y2="0" width="0" layer="47"/>
+<wire x1="0" y1="0" x2="38.1" y2="0" width="0" layer="47"/>
+<wire x1="38.1" y1="0" x2="38.1" y2="40.64" width="0" layer="47"/>
 </plain>
 <libraries>
 <library name="pad">
@@ -536,6 +536,12 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="25.4" x2="2.54" y2="25.4" width="1.27" layer="16"/>
 <wire x1="22.86" y1="10.16" x2="22.86" y2="20.32" width="1.27" layer="16"/>
 <wire x1="22.86" y1="20.32" x2="22.86" y2="22.86" width="1.27" layer="16"/>
+<polygon width="0.254" layer="16" isolate="1.27" orphans="yes" thermals="no">
+<vertex x="0" y="7.62"/>
+<vertex x="0" y="40.64"/>
+<vertex x="38.1" y="40.64"/>
+<vertex x="38.1" y="7.62"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="R4" pad="1"/>
@@ -550,7 +556,8 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="C2" pad="2"/>
 <contactref element="R3" pad="E"/>
-<wire x1="10.16" y1="12.7" x2="12.7" y2="10.16" width="1.27" layer="16"/>
+<wire x1="10.16" y1="12.7" x2="12.7" y2="12.7" width="1.27" layer="16"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="10.16" width="1.27" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="S"/>
@@ -560,7 +567,7 @@ design rules under a new name.</description>
 <wire x1="33.02" y1="30.48" x2="33.02" y2="33.02" width="1.27" layer="16"/>
 <wire x1="30.48" y1="30.48" x2="33.02" y2="30.48" width="1.27" layer="16"/>
 <wire x1="33.02" y1="30.48" x2="33.02" y2="15.24" width="1.27" layer="16"/>
-<wire x1="15.24" y1="15.24" x2="33.02" y2="15.24" width="0.8128" layer="1"/>
+<wire x1="15.24" y1="15.24" x2="33.02" y2="15.24" width="1.27" layer="1"/>
 <via x="15.24" y="15.24" extent="1-16" drill="0.6" shape="square"/>
 <via x="33.02" y="15.24" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="15.24" y1="15.24" x2="8.89" y2="15.24" width="1.27" layer="16"/>
@@ -601,8 +608,8 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="27.94" y1="30.48" x2="26.67" y2="27.94" width="1.27" layer="16"/>
-<wire x1="26.67" y1="27.94" x2="10.16" y2="27.94" width="1.27" layer="16"/>
+<wire x1="27.94" y1="30.48" x2="27.94" y2="27.94" width="1.27" layer="16"/>
+<wire x1="27.94" y1="27.94" x2="10.16" y2="27.94" width="1.27" layer="16"/>
 <wire x1="27.94" y1="33.02" x2="27.94" y2="30.48" width="1.27" layer="16"/>
 <wire x1="30.48" y1="33.02" x2="27.94" y2="33.02" width="1.27" layer="16"/>
 </signal>

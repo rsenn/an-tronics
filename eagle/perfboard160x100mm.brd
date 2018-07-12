@@ -91,10 +91,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="99.06" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="160.02" y2="0" width="0.127" layer="20"/>
-<wire x1="0" y1="99.06" x2="160.02" y2="99.06" width="0.127" layer="20"/>
-<wire x1="160.02" y1="0" x2="160.02" y2="99.06" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="99.06" width="0.127" layer="47"/>
+<wire x1="0" y1="0" x2="160.02" y2="0" width="0.127" layer="47"/>
+<wire x1="0" y1="99.06" x2="160.02" y2="99.06" width="0.127" layer="47"/>
+<wire x1="160.02" y1="0" x2="160.02" y2="99.06" width="0.127" layer="47"/>
 </plain>
 <libraries>
 </libraries>

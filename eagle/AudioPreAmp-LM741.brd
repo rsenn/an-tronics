@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -72,10 +72,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="30.48" y2="0" width="0" layer="20"/>
-<wire x1="30.48" y1="0" x2="30.48" y2="22.86" width="0" layer="20"/>
-<wire x1="30.48" y1="22.86" x2="0" y2="22.86" width="0" layer="20"/>
-<wire x1="0" y1="22.86" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="30.48" y2="0" width="0" layer="47"/>
+<wire x1="30.48" y1="0" x2="30.48" y2="22.86" width="0" layer="47"/>
+<wire x1="30.48" y1="22.86" x2="0" y2="22.86" width="0" layer="47"/>
+<wire x1="0" y1="22.86" x2="0" y2="0" width="0" layer="47"/>
 </plain>
 <libraries>
 <library name="c">
@@ -579,6 +579,12 @@ design rules under a new name.</description>
 <via x="25.4" y="17.78" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="1.27" layer="16"/>
 <wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="1.27" layer="16"/>
+<polygon width="0.254" layer="16" isolate="1.27">
+<vertex x="0" y="0"/>
+<vertex x="30.48" y="0"/>
+<vertex x="30.48" y="22.86"/>
+<vertex x="0" y="22.86"/>
+</polygon>
 </signal>
 <signal name="N$4">
 <contactref element="C3" pad="+"/>

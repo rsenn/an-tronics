@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -76,10 +76,10 @@
 http://www.datasheetdir.com/BA6229+Motor-Controller-Drivers
 http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</description>
 <plain>
-<wire x1="0" y1="-2.54" x2="38.1" y2="-2.54" width="0" layer="20"/>
-<wire x1="38.1" y1="-2.54" x2="38.1" y2="20.32" width="0" layer="20"/>
-<wire x1="38.1" y1="20.32" x2="0" y2="20.32" width="0" layer="20"/>
-<wire x1="0" y1="20.32" x2="0" y2="-2.54" width="0" layer="20"/>
+<wire x1="0" y1="-2.54" x2="38.1" y2="-2.54" width="0" layer="47"/>
+<wire x1="38.1" y1="-2.54" x2="38.1" y2="20.32" width="0" layer="47"/>
+<wire x1="38.1" y1="20.32" x2="0" y2="20.32" width="0" layer="47"/>
+<wire x1="0" y1="20.32" x2="0" y2="-2.54" width="0" layer="47"/>
 </plain>
 <libraries>
 <library name="c">
@@ -472,6 +472,12 @@ design rules under a new name.</description>
 <via x="7.62" y="5.08" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="1.27" layer="16"/>
 <wire x1="17.78" y1="5.08" x2="27.94" y2="5.08" width="1.27" layer="16"/>
+<polygon width="0.254" layer="16" isolate="1.27" orphans="yes" thermals="no">
+<vertex x="0" y="22.86"/>
+<vertex x="0" y="-2.54"/>
+<vertex x="38.1" y="-2.54"/>
+<vertex x="38.1" y="22.86"/>
+</polygon>
 </signal>
 <signal name="N$2">
 <contactref element="C2" pad="1"/>

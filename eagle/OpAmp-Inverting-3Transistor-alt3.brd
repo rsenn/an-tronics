@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -76,10 +76,10 @@
 Lyle Williams -December 01, 2011 
 http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-three-discrete-transistors</description>
 <plain>
-<wire x1="0" y1="0" x2="25.4" y2="0" width="0" layer="20"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="22.86" width="0" layer="20"/>
-<wire x1="25.4" y1="22.86" x2="0" y2="22.86" width="0" layer="20"/>
-<wire x1="0" y1="22.86" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0" layer="47"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="22.86" width="0" layer="47"/>
+<wire x1="25.4" y1="22.86" x2="0" y2="22.86" width="0" layer="47"/>
+<wire x1="0" y1="22.86" x2="0" y2="0" width="0" layer="47"/>
 </plain>
 <libraries>
 <library name="c">
@@ -509,6 +509,12 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="2.54" x2="12.7" y2="7.62" width="1.27" layer="16"/>
 <via x="20.32" y="7.62" extent="1-16" drill="0.6" shape="square"/>
 <via x="20.32" y="2.54" extent="1-16" drill="0.6" shape="square"/>
+<polygon width="0.254" layer="16" isolate="1.27" orphans="yes" thermals="no">
+<vertex x="0" y="22.86"/>
+<vertex x="0" y="0"/>
+<vertex x="25.4" y="0"/>
+<vertex x="25.4" y="22.86"/>
+</polygon>
 </signal>
 <signal name="N$3">
 <contactref element="T3" pad="C"/>

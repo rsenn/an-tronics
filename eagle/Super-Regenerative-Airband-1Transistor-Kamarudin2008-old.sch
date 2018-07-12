@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -3116,28 +3116,28 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="4.445" y1="1.397" x2="-4.191" y2="1.397" width="0.127" layer="21"/>
 <text x="-4.572" y="0" size="0.8128" layer="21" font="vector" align="center-right">1</text>
 <text x="-4.191" y="-1.778" size="1.016" layer="25" align="top-left">&gt;NAME</text>
-<wire x1="-3.81" y1="1.143" x2="-3.81" y2="-1.143" width="0.4064" layer="20"/>
-<wire x1="-3.81" y1="-1.143" x2="1.27" y2="-1.143" width="0.4064" layer="20"/>
-<wire x1="1.27" y1="-1.143" x2="1.27" y2="1.143" width="0.4064" layer="20"/>
-<wire x1="1.27" y1="1.143" x2="-3.81" y2="1.143" width="0.4064" layer="20"/>
-<wire x1="0.8255" y1="-0.0635" x2="0.127" y2="0.635" width="0.127" layer="20" curve="90"/>
-<wire x1="0.127" y1="0.635" x2="-0.254" y2="0.635" width="0.127" layer="20"/>
-<wire x1="-0.254" y1="0.635" x2="-0.8255" y2="0.0635" width="0.127" layer="20" curve="90"/>
-<wire x1="-0.8255" y1="0.0635" x2="-0.8255" y2="-0.0635" width="0.127" layer="20"/>
-<wire x1="-0.762" y1="0.3175" x2="-1.8415" y2="0.3175" width="0.127" layer="20"/>
-<wire x1="-3.429" y1="0" x2="-2.7305" y2="-0.6985" width="0.127" layer="20" curve="90"/>
-<wire x1="-2.7305" y1="-0.6985" x2="-2.3495" y2="-0.6985" width="0.127" layer="20"/>
-<wire x1="-2.3495" y1="-0.6985" x2="-1.778" y2="-0.127" width="0.127" layer="20" curve="90"/>
-<wire x1="-1.778" y1="-0.127" x2="-1.778" y2="0" width="0.127" layer="20"/>
-<wire x1="-1.778" y1="0" x2="-2.4765" y2="0.6985" width="0.127" layer="20" curve="90"/>
-<wire x1="-2.4765" y1="0.6985" x2="-2.8575" y2="0.6985" width="0.127" layer="20"/>
-<wire x1="-2.8575" y1="0.6985" x2="-3.429" y2="0.127" width="0.127" layer="20" curve="90"/>
-<wire x1="-3.429" y1="0.127" x2="-3.429" y2="0" width="0.127" layer="20"/>
-<wire x1="-0.8255" y1="-0.0635" x2="-0.127" y2="-0.762" width="0.127" layer="20" curve="90"/>
-<wire x1="-0.127" y1="-0.762" x2="0.254" y2="-0.762" width="0.127" layer="20"/>
-<wire x1="0.254" y1="-0.762" x2="0.8255" y2="-0.1905" width="0.127" layer="20" curve="90"/>
-<wire x1="0.8255" y1="-0.1905" x2="0.8255" y2="-0.0635" width="0.127" layer="20"/>
-<wire x1="-1.778" y1="-0.3175" x2="-0.8255" y2="-0.3175" width="0.127" layer="20"/>
+<wire x1="-3.81" y1="1.143" x2="-3.81" y2="-1.143" width="0.4064" layer="47"/>
+<wire x1="-3.81" y1="-1.143" x2="1.27" y2="-1.143" width="0.4064" layer="47"/>
+<wire x1="1.27" y1="-1.143" x2="1.27" y2="1.143" width="0.4064" layer="47"/>
+<wire x1="1.27" y1="1.143" x2="-3.81" y2="1.143" width="0.4064" layer="47"/>
+<wire x1="0.8255" y1="-0.0635" x2="0.127" y2="0.635" width="0.127" layer="47" curve="90"/>
+<wire x1="0.127" y1="0.635" x2="-0.254" y2="0.635" width="0.127" layer="47"/>
+<wire x1="-0.254" y1="0.635" x2="-0.8255" y2="0.0635" width="0.127" layer="47" curve="90"/>
+<wire x1="-0.8255" y1="0.0635" x2="-0.8255" y2="-0.0635" width="0.127" layer="47"/>
+<wire x1="-0.762" y1="0.3175" x2="-1.8415" y2="0.3175" width="0.127" layer="47"/>
+<wire x1="-3.429" y1="0" x2="-2.7305" y2="-0.6985" width="0.127" layer="47" curve="90"/>
+<wire x1="-2.7305" y1="-0.6985" x2="-2.3495" y2="-0.6985" width="0.127" layer="47"/>
+<wire x1="-2.3495" y1="-0.6985" x2="-1.778" y2="-0.127" width="0.127" layer="47" curve="90"/>
+<wire x1="-1.778" y1="-0.127" x2="-1.778" y2="0" width="0.127" layer="47"/>
+<wire x1="-1.778" y1="0" x2="-2.4765" y2="0.6985" width="0.127" layer="47" curve="90"/>
+<wire x1="-2.4765" y1="0.6985" x2="-2.8575" y2="0.6985" width="0.127" layer="47"/>
+<wire x1="-2.8575" y1="0.6985" x2="-3.429" y2="0.127" width="0.127" layer="47" curve="90"/>
+<wire x1="-3.429" y1="0.127" x2="-3.429" y2="0" width="0.127" layer="47"/>
+<wire x1="-0.8255" y1="-0.0635" x2="-0.127" y2="-0.762" width="0.127" layer="47" curve="90"/>
+<wire x1="-0.127" y1="-0.762" x2="0.254" y2="-0.762" width="0.127" layer="47"/>
+<wire x1="0.254" y1="-0.762" x2="0.8255" y2="-0.1905" width="0.127" layer="47" curve="90"/>
+<wire x1="0.8255" y1="-0.1905" x2="0.8255" y2="-0.0635" width="0.127" layer="47"/>
+<wire x1="-1.778" y1="-0.3175" x2="-0.8255" y2="-0.3175" width="0.127" layer="47"/>
 </package>
 </packages>
 <symbols>
@@ -3336,21 +3336,23 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="L-04-5/5V">
-<pad name="2" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
-<pad name="1" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
-<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<text x="-1.778" y="0.635" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.778" y="-0.635" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
+<pad name="2" x="2.54" y="-2.54" drill="0.8"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.8"/>
+<wire x1="1.905" y1="1.778" x2="0" y2="3.683" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.683" x2="-1.905" y2="1.778" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0.889" x2="0.254" y2="2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="2.794" x2="-1.905" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0" x2="0" y2="1.905" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.905" x2="-1.905" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.889" x2="0" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.016" x2="-1.905" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.905" y1="-0.889" x2="0" y2="-2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.889" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.778" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<text x="-2.413" y="0.762" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-2.413" y="-0.762" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
 </package>
 <package name="L-04/7V">
 <pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
@@ -3422,47 +3424,6 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="1.27" y1="2.794" x2="2.54" y2="1.524" width="0.127" layer="22" curve="-90"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/7V">
-<pad name="2" x="3.81" y="-3.81" drill="0.8" rot="R180"/>
-<pad name="1" x="-1.27" y="3.81" drill="0.8" rot="R180"/>
-<wire x1="2.54" y1="2.413" x2="1.27" y2="3.683" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="3.683" x2="0" y2="2.413" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="1.651" x2="1.27" y2="2.921" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.921" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.889" x2="1.27" y2="2.159" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.159" x2="0" y2="0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.127" x2="1.27" y2="1.397" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.397" x2="0" y2="0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-0.635" x2="1.27" y2="0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-1.397" x2="1.27" y2="-0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.127" x2="0" y2="-1.397" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.159" x2="1.27" y2="-0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.889" x2="0" y2="-2.159" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.159" x2="1.27" y2="-3.429" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.159" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0" y1="2.413" x2="0" y2="3.81" width="0.127" layer="21"/>
-<text x="-0.508" y="0.762" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-0.508" y="-0.762" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
-</package>
-<package name="L-04-5/5">
-<pad name="2" x="2.54" y="1.27" drill="0.8" rot="R270"/>
-<pad name="1" x="-2.54" y="-1.27" drill="0.8" rot="R270"/>
-<wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0" x2="-1.016" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.254" y1="1.27" x2="-1.524" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.524" y1="0" x2="-0.254" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="0.508" y1="1.27" x2="-0.762" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.762" y1="0" x2="0.508" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
-<text x="0" y="1.651" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="L-02/7V">
 <pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
 <pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
@@ -3507,7 +3468,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <text x="0" y="1.905" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.905" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="L-04-5/5V-X">
+<package name="L-04-2/5V-X">
 <pad name="2" x="-1.27" y="-2.54" drill="0.8"/>
 <pad name="1" x="1.27" y="2.54" drill="0.8"/>
 <wire x1="-1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="-90"/>
@@ -3523,28 +3484,6 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <text x="2.032" y="0.635" size="0.8128" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
 <text x="2.032" y="-1.905" size="0.8128" layer="27" rot="R180" align="top-right">&gt;VALUE</text>
 <wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
-</package>
-<package name="L-04/7">
-<pad name="1" x="3.81" y="0" drill="0.8" rot="R270"/>
-<pad name="2" x="-3.81" y="0" drill="0.8" rot="R270"/>
-<wire x1="-2.286" y1="1.27" x2="-3.556" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-3.556" y1="0" x2="-2.286" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.524" y1="1.27" x2="-2.794" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.794" y1="0" x2="-1.524" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.762" y1="1.27" x2="-2.032" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.032" y1="0" x2="-0.762" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="0.762" y1="1.27" x2="-0.508" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.508" y1="0" x2="0.762" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.524" y1="1.27" x2="0.254" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0.254" y1="0" x2="1.524" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="2.286" y1="1.27" x2="1.016" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="1.016" y1="0" x2="2.286" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="2.286" y1="-1.27" x2="3.556" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.286" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
-<text x="0" y="2.032" size="0.8128" layer="25" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
 </package>
 <package name="L-04/7V-X">
 <pad name="1" x="-1.27" y="-3.81" drill="0.8"/>
@@ -3569,6 +3508,159 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <text x="1.016" y="-3.81" size="0.8128" layer="25" align="center-left">&gt;NAME</text>
 <text x="1.016" y="-5.08" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
 </package>
+<package name="L-04-5/7V">
+<pad name="2" x="2.54" y="-3.81" drill="0.8"/>
+<pad name="1" x="-2.54" y="3.81" drill="0.8"/>
+<wire x1="1.905" y1="2.286" x2="0" y2="4.064" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="4.064" x2="-1.905" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="1.397" x2="0" y2="3.175" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.175" x2="-1.905" y2="1.397" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0.508" x2="0" y2="2.413" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.413" x2="-1.905" y2="0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.381" x2="0.254" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="1.524" x2="-1.905" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.27" x2="0" y2="0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.635" x2="-1.905" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-2.159" x2="0" y2="-0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.254" x2="-1.905" y2="-2.159" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.905" y1="-2.159" x2="0" y2="-4.064" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-2.159" x2="1.905" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.413" x2="-1.905" y2="3.81" width="0.127" layer="21"/>
+<text x="-2.413" y="0.762" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-2.413" y="-0.762" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-2.54" y1="3.81" x2="-1.905" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-3.81" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
+</package>
+<package name="L-04-2/5V">
+<pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
+<pad name="1" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
+<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="-2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="-1.778" y="0.635" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.778" y="-0.635" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="L-04-2/5">
+<pad name="2" x="2.54" y="1.27" drill="0.8" rot="R270"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.8" rot="R270"/>
+<wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.286" y1="0" x2="-1.016" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.254" y1="1.27" x2="-1.524" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.524" y1="0" x2="-0.254" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0.508" y1="1.27" x2="-0.762" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.762" y1="0" x2="0.508" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<text x="0" y="1.651" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="L-04/7">
+<pad name="1" x="3.81" y="0" drill="0.8" rot="R270"/>
+<pad name="2" x="-3.81" y="0" drill="0.8" rot="R270"/>
+<wire x1="-2.286" y1="1.27" x2="-3.556" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-3.556" y1="0" x2="-2.286" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.524" y1="1.27" x2="-2.794" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.794" y1="0" x2="-1.524" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.762" y1="1.27" x2="-2.032" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.032" y1="0" x2="-0.762" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="0.762" y1="1.27" x2="-0.508" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.508" y1="0" x2="0.762" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.524" y1="1.27" x2="0.254" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="0" x2="1.524" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.27" x2="1.016" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.016" y1="0" x2="2.286" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.27" x2="3.556" y2="0" width="0.127" layer="21" curve="90"/>
+<text x="0" y="2.032" size="0.8128" layer="25" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
+</package>
+<package name="ED16-X">
+<wire x1="-4.445" y1="0.508" x2="-7.62" y2="1.143" width="0.6096" layer="51"/>
+<wire x1="3.429" y1="2.794" x2="6.096" y2="4.826" width="0.6096" layer="21"/>
+<wire x1="4.318" y1="1.397" x2="7.366" y2="2.54" width="0.6096" layer="21"/>
+<wire x1="3.937" y1="2.159" x2="6.858" y2="3.683" width="0.6096" layer="21"/>
+<wire x1="4.445" y1="0.635" x2="7.62" y2="1.27" width="0.6096" layer="21"/>
+<wire x1="2.921" y1="3.302" x2="5.207" y2="5.715" width="0.6096" layer="21"/>
+<wire x1="2.413" y1="3.683" x2="4.191" y2="6.477" width="0.6096" layer="21"/>
+<wire x1="1.778" y1="4.064" x2="3.048" y2="7.112" width="0.6096" layer="21"/>
+<wire x1="-4.191" y1="1.27" x2="-7.239" y2="2.54" width="0.6096" layer="51"/>
+<wire x1="-4.064" y1="-0.127" x2="-7.62" y2="-1.143" width="0.6096" layer="51"/>
+<wire x1="-4.064" y1="-1.905" x2="-6.858" y2="-3.683" width="0.6096" layer="21"/>
+<wire x1="4.445" y1="-0.127" x2="7.747" y2="-0.127" width="0.6096" layer="21"/>
+<wire x1="4.445" y1="-0.889" x2="7.62" y2="-1.651" width="0.6096" layer="21"/>
+<wire x1="4.191" y1="-1.651" x2="7.112" y2="-3.048" width="0.6096" layer="21"/>
+<wire x1="3.81" y1="-2.413" x2="6.477" y2="-4.191" width="0.6096" layer="21"/>
+<wire x1="3.302" y1="-3.048" x2="5.715" y2="-5.207" width="0.6096" layer="21"/>
+<wire x1="2.667" y1="-3.556" x2="4.826" y2="-6.096" width="0.6096" layer="21"/>
+<wire x1="2.032" y1="-3.937" x2="3.683" y2="-6.858" width="0.6096" layer="21"/>
+<wire x1="1.27" y1="-4.318" x2="2.413" y2="-7.366" width="0.6096" layer="21"/>
+<wire x1="0.381" y1="-4.445" x2="0.889" y2="-7.62" width="0.6096" layer="21"/>
+<wire x1="-0.381" y1="-4.445" x2="-0.508" y2="-7.747" width="0.6096" layer="21"/>
+<wire x1="-1.143" y1="-4.318" x2="-1.778" y2="-7.493" width="0.6096" layer="21"/>
+<wire x1="-1.778" y1="-4.064" x2="-3.048" y2="-7.112" width="0.6096" layer="21"/>
+<wire x1="-2.54" y1="-3.683" x2="-4.318" y2="-6.477" width="0.6096" layer="21"/>
+<wire x1="-3.175" y1="-3.175" x2="-5.334" y2="-5.715" width="0.6096" layer="21"/>
+<wire x1="-3.683" y1="-2.54" x2="-6.223" y2="-4.699" width="0.6096" layer="21"/>
+<wire x1="-4.318" y1="-1.016" x2="-7.366" y2="-2.413" width="0.6096" layer="51"/>
+<wire x1="1.143" y1="4.318" x2="1.778" y2="7.493" width="0.6096" layer="21"/>
+<wire x1="0.381" y1="4.445" x2="0.508" y2="7.747" width="0.6096" layer="21"/>
+<wire x1="-0.381" y1="4.445" x2="-0.889" y2="7.62" width="0.6096" layer="21"/>
+<wire x1="-1.143" y1="4.318" x2="-2.286" y2="7.366" width="0.6096" layer="21"/>
+<wire x1="-1.778" y1="4.064" x2="-3.302" y2="6.985" width="0.6096" layer="21"/>
+<wire x1="-2.413" y1="3.683" x2="-4.318" y2="6.35" width="0.6096" layer="21"/>
+<wire x1="-3.048" y1="3.175" x2="-5.334" y2="5.588" width="0.6096" layer="21"/>
+<wire x1="-3.556" y1="2.54" x2="-6.223" y2="4.572" width="0.6096" layer="21"/>
+<wire x1="-3.937" y1="1.905" x2="-6.858" y2="3.429" width="0.6096" layer="21"/>
+<wire x1="-4.4519" y1="-1.5038" x2="-4.4519" y2="1.5038" width="0.1524" layer="21" curve="322.67126"/>
+<wire x1="-7.338" y1="-1.5161" x2="-7.338" y2="1.5161" width="0.1524" layer="21" curve="336.652815"/>
+<wire x1="-7.338" y1="1.5161" x2="-7.338" y2="-1.5161" width="0.1524" layer="51" curve="23.347185"/>
+<wire x1="-4.4519" y1="1.5038" x2="-4.4519" y2="-1.5038" width="0.1524" layer="51" curve="37.32874"/>
+<pad name="2" x="0" y="6.35" drill="1.016" diameter="2.1844" shape="octagon" rot="R90"/>
+<pad name="1" x="0" y="-3.81" drill="1.016" diameter="2.1844" shape="octagon" rot="R90"/>
+<text x="0" y="8.255" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="0" y="-8.255" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+</package>
+<package name="L-04-5/5V-C">
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
+<pad name="1" x="0" y="2.54" drill="0.8"/>
+<wire x1="1.905" y1="1.778" x2="0" y2="3.683" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.683" x2="-1.905" y2="1.778" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0.889" x2="0.254" y2="2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="2.794" x2="-1.905" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0" x2="0" y2="1.905" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.905" x2="-1.905" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.889" x2="0" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.016" x2="-1.905" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<text x="-2.413" y="0.762" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-2.413" y="-0.762" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="1.905" y1="-0.889" x2="0" y2="-2.794" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="L-08-5/5H">
+<pad name="2" x="2.54" y="-2.54" drill="0.8" rot="R90"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.8" rot="R90"/>
+<text x="-2.54" y="4.191" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
+<text x="-0.381" y="-3.81" size="0.8128" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-2.159" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="2.54" x2="-2.159" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="-2.54" x2="2.159" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="0.889" y1="-3.048" x2="2.159" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-3.048" x2="0.635" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="-3.048" x2="-0.889" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.159" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="-3.048" x2="-0.127" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="0.127" y1="-3.048" x2="1.397" y2="3.302" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L-SHORT">
@@ -3592,15 +3684,6 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <gate name="L1" symbol="L-SHORT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="04/7" package="L-04/7V">
-<connects>
-<connect gate="L1" pin="1" pad="1"/>
-<connect gate="L1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="02/5" package="L-02/5V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
@@ -3621,14 +3704,14 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="04-5/7" package="L-04-5/7V">
 <connects>
-<connect gate="L1" pin="1" pad="1"/>
-<connect gate="L1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="2"/>
+<connect gate="L1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/5V" package="L-04-5/5V">
+<device name="04-2/5V" package="L-04-2/5V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -3637,7 +3720,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/5" package="L-04-5/5">
+<device name="04-5/5" package="L-04-2/5">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -3664,7 +3747,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04-5/5V-X" package="L-04-5/5V-X">
+<device name="04-5/5V-X" package="L-04-2/5V-X">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -3673,7 +3756,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/7" package="L-04/7">
+<device name="04/7" package="L-04/7">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -3682,7 +3765,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/7V" package="L-04/7V">
+<device name="04/7V" package="L-04/7V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -3691,7 +3774,43 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/7V-X" package="L-04/7V-X">
+<device name="04/7V-X" package="L-04/7V-X">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ED16-X" package="ED16-X">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="04-5/5V" package="L-04-5/5V">
+<connects>
+<connect gate="L1" pin="1" pad="2"/>
+<connect gate="L1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="04-5/5V-C" package="L-04-5/5V-C">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-08-5/5H" package="L-08-5/5H">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -3715,7 +3834,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </classes>
 <parts>
 <part name="C1" library="c" deviceset="C" device="050-020X036" value="6p"/>
-<part name="L1" library="l" deviceset="L-SHORT" device="L-04/7V-X" value="6turns on d=0.7mm"/>
+<part name="L1" library="l" deviceset="L-SHORT" device="04-5/5V" value="6turns on d=0.7mm"/>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="2p"/>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15 - 140p"/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
@@ -3726,7 +3845,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <part name="C6" library="c" deviceset="C" device="050-020X036" value="1n"/>
 <part name="R3" library="r" deviceset="R" device="0202/7" value="12k"/>
 <part name="U$3" library="pad" deviceset="GND" device=""/>
-<part name="L2" library="l" deviceset="L-SHORT" device="04-5/5V" value="L-SHORT02/5"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="02/5" value="L-SHORT02/5"/>
 <part name="C7" library="c" deviceset="C" device="050-020X036" value="470n"/>
 <part name="R4" library="r" deviceset="R-H" device="0202/7" value="22k"/>
 <part name="U$4" library="pad" deviceset="GND" device=""/>
@@ -3775,7 +3894,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <instance part="R4" gate="G$1" x="45.72" y="43.18"/>
 <instance part="U$4" gate="1" x="45.72" y="81.28" rot="MR0"/>
 <instance part="C8" gate="1" x="45.72" y="88.9"/>
-<instance part="SW1" gate="1" x="62.23" y="86.36" rot="MR0"/>
+<instance part="SW1" gate="1" x="62.23" y="86.36"/>
 <instance part="ANT1" gate="ANT" x="53.34" y="71.12"/>
 <instance part="BAT+" gate="G$1" x="73.66" y="86.36" rot="R180"/>
 <instance part="BAT-" gate="G$1" x="73.66" y="73.66" rot="R180"/>
@@ -3824,16 +3943,22 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="7.62" y1="93.98" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <junction x="7.62" y="93.98"/>
-<pinref part="C8" gate="1" pin="1"/>
-<wire x1="30.48" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="93.98" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
-<junction x="45.72" y="93.98"/>
 <pinref part="L1" gate="L1" pin="2"/>
-<wire x1="57.15" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C8" gate="1" pin="1"/>
+<wire x1="45.72" y1="91.44" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <junction x="30.48" y="93.98"/>
-<pinref part="SW1" gate="1" pin="S"/>
-<wire x1="57.15" y1="88.9" x2="57.15" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="88.9" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<junction x="45.72" y="93.98"/>
+<pinref part="SW1" gate="1" pin="O"/>
+<wire x1="53.34" y1="88.9" x2="57.15" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="88.9" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<junction x="53.34" y="88.9"/>
+<pinref part="SW1" gate="1" pin="P"/>
+<wire x1="53.34" y1="81.28" x2="62.23" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="81.28" x2="62.23" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3944,21 +4069,17 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <junction x="30.48" y="48.26"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$9" class="0">
 <segment>
-<wire x1="68.58" y1="90.17" x2="67.31" y2="90.17" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="1" pin="O"/>
-<wire x1="67.31" y1="90.17" x2="67.31" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
-<junction x="67.31" y="88.9"/>
 <pinref part="BAT+" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="86.36" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="1" pin="P"/>
-<wire x1="62.23" y1="81.28" x2="62.23" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="88.9" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="86.36" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="91.44" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="86.36" x2="71.12" y2="80.01" width="0.1524" layer="91"/>
 <junction x="71.12" y="86.36"/>
+<pinref part="SW1" gate="1" pin="S"/>
+<wire x1="68.58" y1="88.9" x2="67.31" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
