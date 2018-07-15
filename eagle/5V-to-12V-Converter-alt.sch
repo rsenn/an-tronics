@@ -966,13 +966,13 @@ http://www.romanblack.com/smps/conv.htm</description>
 <devicesets>
 <deviceset name="1N4148" prefix="D">
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="35-7" package="DO35-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -980,8 +980,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -989,8 +989,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="35-2.54" package="DO35-2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -998,8 +998,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="35-2.54A" package="DO35-2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1007,8 +1007,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-12" package="DO34-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1016,8 +1016,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-5" package="DO34-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1025,8 +1025,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1034,8 +1034,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-2,5" package="DO34-2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1043,8 +1043,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-2,5-A" package="DO34-2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1052,8 +1052,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-10" package="DO34-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1061,8 +1061,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-7V" package="DO34-7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1070,8 +1070,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-5V" package="DO34-5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1079,8 +1079,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-10V" package="DO34-10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1088,8 +1088,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-12V" package="DO34-12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1097,8 +1097,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="OA79" package="OA79-18">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1106,8 +1106,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="-7-10" package="DO7-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1115,8 +1115,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="-7-7" package="DO7-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1124,8 +1124,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="-7-5" package="DO7-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1133,8 +1133,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="-34-18" package="DO34-18">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1142,8 +1142,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34-20" package="DO34-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1153,13 +1153,13 @@ http://www.romanblack.com/smps/conv.htm</description>
 </deviceset>
 <deviceset name="Z-DIODE" prefix="D">
 <gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
+<gate name="1" symbol="ZD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="Z10" package="DO35Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1167,8 +1167,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="Z7" package="DO35Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1176,8 +1176,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="Z5" package="DO35Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1185,8 +1185,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="Z2_54" package="DO35Z2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1194,8 +1194,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="Z2_54A" package="DO35Z2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1203,8 +1203,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="Z12" package="DO34Z12">
 <connects>
-<connect gate="G$1" pin="A" pad="A1"/>
-<connect gate="G$1" pin="C" pad="C1"/>
+<connect gate="1" pin="A" pad="A1"/>
+<connect gate="1" pin="C" pad="C1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1212,8 +1212,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z7" package="DO34Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1221,8 +1221,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z5" package="DO34Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1230,8 +1230,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z2,5" package="DO34Z2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1239,8 +1239,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z2,5-A" package="DO34Z2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1248,8 +1248,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z10" package="DO34Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1257,8 +1257,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z7V" package="DO34Z7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1266,8 +1266,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z10V" package="DO34Z10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1275,8 +1275,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z12V" package="DO34Z12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1284,8 +1284,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="34Z5V" package="DO34Z5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2007,13 +2007,13 @@ http://www.romanblack.com/smps/conv.htm</description>
 <devicesets>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2021,8 +2021,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2030,8 +2030,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2039,8 +2039,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2048,8 +2048,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2057,8 +2057,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2066,8 +2066,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2075,8 +2075,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2084,8 +2084,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2093,8 +2093,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2102,8 +2102,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2111,8 +2111,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2120,8 +2120,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/2-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2132,13 +2132,13 @@ http://www.romanblack.com/smps/conv.htm</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2146,8 +2146,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2155,8 +2155,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2164,8 +2164,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2173,8 +2173,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2182,8 +2182,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2191,8 +2191,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2200,8 +2200,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2209,8 +2209,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2218,8 +2218,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2227,8 +2227,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2236,8 +2236,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2245,8 +2245,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2254,8 +2254,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2263,8 +2263,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2272,8 +2272,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2281,8 +2281,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2290,8 +2290,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2299,8 +2299,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2308,8 +2308,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2317,8 +2317,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2326,8 +2326,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2335,8 +2335,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2344,8 +2344,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2353,8 +2353,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2362,8 +2362,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4933,13 +4933,13 @@ http://www.romanblack.com/smps/conv.htm</description>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4947,8 +4947,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4956,8 +4956,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4965,8 +4965,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4974,8 +4974,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4983,8 +4983,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4992,8 +4992,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5001,8 +5001,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5010,8 +5010,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5019,8 +5019,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5028,8 +5028,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5037,8 +5037,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5046,8 +5046,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5055,8 +5055,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5064,8 +5064,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5073,8 +5073,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5082,8 +5082,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5091,8 +5091,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5100,8 +5100,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5109,8 +5109,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5118,8 +5118,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5127,8 +5127,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5136,8 +5136,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5145,8 +5145,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5154,8 +5154,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5163,8 +5163,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5172,8 +5172,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5181,8 +5181,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5190,8 +5190,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5199,8 +5199,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5208,8 +5208,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5217,8 +5217,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5226,8 +5226,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5235,8 +5235,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5244,8 +5244,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5253,8 +5253,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5262,8 +5262,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5271,8 +5271,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5280,8 +5280,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5289,8 +5289,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5298,8 +5298,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5695,14 +5695,14 @@ http://www.romanblack.com/smps/conv.htm</description>
 <devicesets>
 <deviceset name="BC337" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="CBE" package="TO92-CBE">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5710,9 +5710,9 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="CBE-A" package="TO92-CBE-A">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6309,17 +6309,17 @@ http://www.romanblack.com/smps/conv.htm</description>
 <plain>
 </plain>
 <instances>
-<instance part="D1" gate="G$1" x="48.26" y="88.9" rot="R270"/>
-<instance part="R1" gate="G$1" x="7.62" y="78.74"/>
-<instance part="R2" gate="G$1" x="22.86" y="55.88"/>
-<instance part="R3" gate="G$1" x="33.02" y="63.5"/>
-<instance part="R4" gate="G$1" x="43.18" y="81.28"/>
-<instance part="C1" gate="G$1" x="-10.16" y="66.04"/>
+<instance part="D1" gate="1" x="48.26" y="88.9" rot="R270"/>
+<instance part="R1" gate="1" x="7.62" y="78.74"/>
+<instance part="R2" gate="1" x="22.86" y="55.88"/>
+<instance part="R3" gate="1" x="33.02" y="63.5"/>
+<instance part="R4" gate="1" x="43.18" y="81.28"/>
+<instance part="C1" gate="1" x="-10.16" y="66.04"/>
 <instance part="C2" gate="1" x="43.18" y="55.88"/>
-<instance part="T1" gate="G$1" x="48.26" y="63.5"/>
-<instance part="T2" gate="G$1" x="20.32" y="78.74"/>
-<instance part="D2" gate="G$1" x="71.12" y="67.31" rot="MR0"/>
-<instance part="C3" gate="G$1" x="66.04" y="68.58"/>
+<instance part="T1" gate="1" x="48.26" y="63.5"/>
+<instance part="T2" gate="1" x="20.32" y="78.74"/>
+<instance part="D2" gate="1" x="71.12" y="67.31" rot="MR0"/>
+<instance part="C3" gate="1" x="66.04" y="68.58"/>
 <instance part="L1" gate="L1" x="7.62" y="88.9" rot="R90"/>
 <instance part="5V" gate="-" x="-12.7" y="48.26"/>
 <instance part="5V" gate="+" x="-12.7" y="88.9"/>
@@ -6331,25 +6331,25 @@ http://www.romanblack.com/smps/conv.htm</description>
 <nets>
 <net name="N$7" class="0">
 <segment>
-<pinref part="T2" gate="G$1" pin="B"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="T2" gate="1" pin="B"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="12.7" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="78.74" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
 <junction x="15.24" y="78.74"/>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="C"/>
 <wire x1="50.8" y1="68.58" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="2.54" y1="78.74" x2="-5.08" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="78.74" x2="-5.08" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="88.9" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="88.9" x2="-12.7" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C1" gate="1" pin="+"/>
 <wire x1="-10.16" y1="68.58" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-10.16" y="88.9"/>
 <pinref part="L1" gate="L1" pin="2"/>
@@ -6358,13 +6358,13 @@ http://www.romanblack.com/smps/conv.htm</description>
 <pinref part="5V" gate="+" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="43.18" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="43.18" y1="86.36" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <junction x="43.18" y="88.9"/>
 <wire x1="22.86" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="C"/>
+<pinref part="T2" gate="1" pin="C"/>
 <wire x1="22.86" y1="83.82" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="L1" gate="L1" pin="1"/>
 <wire x1="12.7" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
@@ -6373,31 +6373,31 @@ http://www.romanblack.com/smps/conv.htm</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="50.8" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="69.85" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <junction x="71.12" y="88.9"/>
-<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="C3" gate="1" pin="+"/>
 <wire x1="66.04" y1="71.12" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
 <junction x="66.04" y="88.9"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D2" gate="1" pin="C"/>
 <pinref part="12V" gate="+" pin="P$1"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C1" gate="1" pin="-"/>
 <wire x1="-10.16" y1="63.5" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-10.16" y="48.26"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="22.86" y1="48.26" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <junction x="22.86" y="48.26"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D2" gate="1" pin="A"/>
 <wire x1="43.18" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
@@ -6405,13 +6405,13 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="71.12" y1="64.77" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="64.77" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
 <junction x="71.12" y="48.26"/>
-<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C3" gate="1" pin="-"/>
 <wire x1="66.04" y1="66.04" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <junction x="66.04" y="48.26"/>
 <pinref part="C2" gate="1" pin="2"/>
 <wire x1="43.18" y1="53.34" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <junction x="43.18" y="48.26"/>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <wire x1="50.8" y1="58.42" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <junction x="50.8" y="48.26"/>
 <pinref part="5V" gate="-" pin="P$1"/>
@@ -6420,25 +6420,25 @@ http://www.romanblack.com/smps/conv.htm</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="22.86" y1="60.96" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="R3" gate="1" pin="1"/>
+<pinref part="T2" gate="1" pin="E"/>
 <wire x1="22.86" y1="63.5" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 <junction x="22.86" y="63.5"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 <pinref part="C2" gate="1" pin="1"/>
 <wire x1="45.72" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="63.5" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="38.1" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <junction x="43.18" y="63.5"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="43.18" y1="76.2" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <junction x="43.18" y="63.5"/>
 </segment>

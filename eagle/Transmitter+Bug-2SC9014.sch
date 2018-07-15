@@ -129,7 +129,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <deviceset name="+UB" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="+UB" x="0" y="0"/>
+<gate name="1" symbol="+UB" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -2531,13 +2531,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <devicesets>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2545,8 +2545,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2554,8 +2554,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2563,8 +2563,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2572,8 +2572,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2581,8 +2581,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2590,8 +2590,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2599,8 +2599,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2608,8 +2608,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2617,8 +2617,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2626,8 +2626,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2635,8 +2635,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2644,8 +2644,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/2-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2653,8 +2653,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2662,8 +2662,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="-V-X" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2674,13 +2674,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2688,8 +2688,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2697,8 +2697,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2706,8 +2706,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2715,8 +2715,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2724,8 +2724,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2733,8 +2733,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2742,8 +2742,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2751,8 +2751,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2760,8 +2760,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2769,8 +2769,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2778,8 +2778,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2787,8 +2787,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2796,8 +2796,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2805,8 +2805,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2814,8 +2814,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2823,8 +2823,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2832,8 +2832,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2841,8 +2841,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2850,8 +2850,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2859,8 +2859,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2868,8 +2868,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2877,8 +2877,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2886,8 +2886,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2895,8 +2895,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2904,8 +2904,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5077,12 +5077,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <devicesets>
 <deviceset name="SPAD" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SPAD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6245,14 +6245,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <devicesets>
 <deviceset name="2SC9014" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="-TO92" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6260,9 +6260,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6836,14 +6836,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <devicesets>
 <deviceset name="CONN-3P" prefix="J">
 <gates>
-<gate name="G$1" symbol="PINCONN-3P" x="0" y="0"/>
+<gate name="1" symbol="PINCONN-3P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-3P" package="CONN-3P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6853,13 +6853,13 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 <deviceset name="CONN-2P" prefix="J">
 <gates>
-<gate name="G$1" symbol="PINCONN-2P" x="0" y="1.27"/>
+<gate name="1" symbol="PINCONN-2P" x="0" y="1.27"/>
 </gates>
 <devices>
 <device name="2P/H" package="CONN-2P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6867,8 +6867,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 <device name="2P/V" package="CONN-2P-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6987,25 +6987,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <instances>
 <instance part="C2" gate="1" x="48.26" y="41.91"/>
 <instance part="C3" gate="1" x="17.78" y="30.48"/>
-<instance part="R2" gate="G$1" x="-5.08" y="20.32"/>
-<instance part="R3" gate="G$1" x="17.78" y="53.34"/>
+<instance part="R2" gate="1" x="-5.08" y="20.32"/>
+<instance part="R3" gate="1" x="17.78" y="53.34"/>
 <instance part="GND1" gate="1" x="33.02" y="5.08"/>
-<instance part="SUPPLY1" gate="G$1" x="33.02" y="76.2"/>
-<instance part="SUPPLY2" gate="G$1" x="63.5" y="25.4"/>
+<instance part="SUPPLY1" gate="1" x="33.02" y="76.2"/>
+<instance part="SUPPLY2" gate="1" x="63.5" y="25.4"/>
 <instance part="GND3" gate="1" x="63.5" y="2.54"/>
 <instance part="C1" gate="1" x="48.26" y="57.15"/>
-<instance part="R1" gate="G$1" x="33.02" y="25.4"/>
-<instance part="+9V" gate="G$1" x="55.88" y="20.32"/>
-<instance part="GND" gate="G$1" x="55.88" y="10.16"/>
+<instance part="R1" gate="1" x="33.02" y="25.4"/>
+<instance part="+9V" gate="1" x="55.88" y="20.32"/>
+<instance part="GND" gate="1" x="55.88" y="10.16"/>
 <instance part="ANT" gate="ANT" x="63.5" y="71.12"/>
-<instance part="T1" gate="G$1" x="30.48" y="40.64"/>
+<instance part="T1" gate="1" x="30.48" y="40.64"/>
 <instance part="L2" gate="L1" x="33.02" y="57.15" rot="MR0"/>
-<instance part="J1" gate="G$1" x="-19.05" y="17.78" rot="R180"/>
+<instance part="J1" gate="1" x="-19.05" y="17.78" rot="R180"/>
 <instance part="C4" gate="1" x="12.7" y="40.64" rot="R270"/>
-<instance part="R4" gate="G$1" x="-5.08" y="15.24"/>
+<instance part="R4" gate="1" x="-5.08" y="15.24"/>
 <instance part="GND2" gate="1" x="-12.7" y="5.08"/>
-<instance part="JP1" gate="G$1" x="2.54" y="45.72" rot="MR90"/>
-<instance part="R5" gate="G$1" x="-30.48" y="53.34"/>
+<instance part="JP1" gate="1" x="2.54" y="45.72" rot="MR90"/>
+<instance part="R5" gate="1" x="-30.48" y="53.34"/>
 <instance part="GND4" gate="1" x="-30.48" y="22.86"/>
 <instance part="ECM1" gate="1" x="-30.48" y="33.02" rot="MR0"/>
 </instances>
@@ -7018,8 +7018,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="48.26" y1="39.37" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="33.02" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="E"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="T1" gate="1" pin="E"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="33.02" y1="30.48" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <junction x="33.02" y="33.02"/>
 </segment>
@@ -7027,10 +7027,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$5" class="0">
 <segment>
 <wire x1="15.24" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 <wire x1="17.78" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C4" gate="1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="17.78" y1="48.26" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <junction x="17.78" y="40.64"/>
 <wire x1="17.78" y1="40.64" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
@@ -7041,17 +7041,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="55.88" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="GND" gate="G$1" pin="P$1"/>
+<pinref part="GND" gate="1" pin="P$1"/>
 <wire x1="63.5" y1="10.16" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J1" gate="1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-16.51" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="17.78" x2="-12.7" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="33.02" y1="20.32" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C3" gate="1" pin="2"/>
@@ -7072,29 +7072,29 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="17.78" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="66.04" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="+UB"/>
+<pinref part="SUPPLY1" gate="1" pin="+UB"/>
 <pinref part="C1" gate="1" pin="E"/>
 <wire x1="48.26" y1="59.69" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="L2" gate="L1" pin="2"/>
 <wire x1="33.02" y1="66.04" x2="33.02" y2="62.23" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="17.78" y1="58.42" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="17.78" y1="66.04" x2="-30.48" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="66.04" x2="-30.48" y2="58.42" width="0.1524" layer="91"/>
 <junction x="17.78" y="66.04"/>
 </segment>
 <segment>
-<pinref part="SUPPLY2" gate="G$1" pin="+UB"/>
+<pinref part="SUPPLY2" gate="1" pin="+UB"/>
 <wire x1="55.88" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="20.32" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="+9V" gate="G$1" pin="P$1"/>
+<pinref part="+9V" gate="1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="L2" gate="L1" pin="1"/>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="C"/>
 <wire x1="33.02" y1="52.07" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="48.26" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
@@ -7111,14 +7111,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="J1" gate="1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="-16.51" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="0" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="20.32" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C4" gate="1" pin="2"/>
@@ -7128,24 +7128,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="2.54" y="17.78"/>
 <wire x1="0" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="15.24" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
+<pinref part="JP1" gate="1" pin="2"/>
 <wire x1="5.08" y1="43.18" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
 <junction x="5.08" y="40.64"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="J1" gate="1" pin="3"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="-16.51" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="-30.48" y1="48.26" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="1" pin="1"/>
 <wire x1="2.54" y1="43.18" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-30.48" y="40.64"/>

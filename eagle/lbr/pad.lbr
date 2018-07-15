@@ -378,7 +378,7 @@
 </deviceset>
 <deviceset name="SPORT" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -390,7 +390,7 @@
 </deviceset>
 <deviceset name="MOD_IN" prefix="P">
 <gates>
-<gate name="G$1" symbol="IN" x="0" y="0"/>
+<gate name="1" symbol="IN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -402,7 +402,7 @@
 </deviceset>
 <deviceset name="MOD_OUT" prefix="P">
 <gates>
-<gate name="G$1" symbol="OUT" x="0" y="0"/>
+<gate name="1" symbol="OUT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -431,7 +431,7 @@
 </deviceset>
 <deviceset name="V+">
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="1" symbol="V+" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -508,7 +508,7 @@
 </deviceset>
 <deviceset name="VCC">
 <gates>
-<gate name="G$1" symbol="VCC" x="0" y="0"/>
+<gate name="1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -520,14 +520,14 @@
 </deviceset>
 <deviceset name="VCC_GND" prefix="S">
 <gates>
-<gate name="G$1" symbol="VCC2" x="0" y="2.54"/>
-<gate name="G$2" symbol="GND2" x="0" y="-2.54"/>
+<gate name="1" symbol="VCC2" x="0" y="2.54"/>
+<gate name="2" symbol="GND2" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="R" package="SPAD+-">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -535,8 +535,8 @@
 </device>
 <device name="L" package="SPAD-+">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -544,8 +544,8 @@
 </device>
 <device name="PWR-L" package="PWR-L">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -553,8 +553,8 @@
 </device>
 <device name="PWR-R" package="PWR-R">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -564,7 +564,7 @@
 </deviceset>
 <deviceset name="V-">
 <gates>
-<gate name="G$1" symbol="V-" x="0" y="0"/>
+<gate name="1" symbol="V-" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -576,16 +576,16 @@
 </deviceset>
 <deviceset name="VCC_GND_VEE" prefix="PWR">
 <gates>
-<gate name="G$1" symbol="VCC2" x="0" y="5.08"/>
-<gate name="G$2" symbol="GND2" x="0" y="0"/>
-<gate name="G$3" symbol="VEE2" x="0" y="-7.62"/>
+<gate name="1" symbol="VCC2" x="0" y="5.08"/>
+<gate name="2" symbol="GND2" x="0" y="0"/>
+<gate name="3" symbol="VEE2" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="SPAD-3">
 <connects>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$2" pin="GND" pad="2"/>
-<connect gate="G$3" pin="VEE" pad="3"/>
+<connect gate="1" pin="VCC" pad="1"/>
+<connect gate="2" pin="GND" pad="2"/>
+<connect gate="3" pin="VEE" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -593,9 +593,9 @@
 </device>
 <device name="PWR-+GND-" package="SPAD-PWR-+GND-">
 <connects>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$2" pin="GND" pad="GND"/>
-<connect gate="G$3" pin="VEE" pad="VEE"/>
+<connect gate="1" pin="VCC" pad="VCC"/>
+<connect gate="2" pin="GND" pad="GND"/>
+<connect gate="3" pin="VEE" pad="VEE"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -603,9 +603,9 @@
 </device>
 <device name="PWR--GND+" package="SPAD-PWR--GND+">
 <connects>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$2" pin="GND" pad="GND"/>
-<connect gate="G$3" pin="VEE" pad="VEE"/>
+<connect gate="1" pin="VCC" pad="VCC"/>
+<connect gate="2" pin="GND" pad="GND"/>
+<connect gate="3" pin="VEE" pad="VEE"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -615,7 +615,7 @@
 </deviceset>
 <deviceset name="VEE">
 <gates>
-<gate name="G$1" symbol="VEE" x="0" y="0"/>
+<gate name="1" symbol="VEE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -627,16 +627,16 @@
 </deviceset>
 <deviceset name="-12V_GND_+12V" prefix="PWR">
 <gates>
-<gate name="G$1" symbol="+12V-2" x="0" y="11.43"/>
-<gate name="G$2" symbol="-12V-2" x="0" y="3.81"/>
-<gate name="G$3" symbol="GND2" x="8.89" y="7.62"/>
+<gate name="1" symbol="+12V-2" x="0" y="11.43"/>
+<gate name="2" symbol="-12V-2" x="0" y="3.81"/>
+<gate name="3" symbol="GND2" x="8.89" y="7.62"/>
 </gates>
 <devices>
 <device name="-VCC-VEE" package="SPAD-PWR-+GND-">
 <connects>
-<connect gate="G$1" pin="+12V" pad="VCC"/>
-<connect gate="G$2" pin="-12V" pad="VEE"/>
-<connect gate="G$3" pin="GND" pad="GND"/>
+<connect gate="1" pin="+12V" pad="VCC"/>
+<connect gate="2" pin="-12V" pad="VEE"/>
+<connect gate="3" pin="GND" pad="GND"/>
 </connects>
 <technologies>
 <technology name=""/>

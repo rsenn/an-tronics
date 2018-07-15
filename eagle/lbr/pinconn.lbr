@@ -1154,17 +1154,17 @@ Breakout</text>
 <deviceset name="FTDI232-BO">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="FTDI232-BO" x="0" y="-7.62"/>
+<gate name="1" symbol="FTDI232-BO" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="FTDI232-BO">
 <connects>
-<connect gate="G$1" pin="CTS" pad="CTS"/>
-<connect gate="G$1" pin="DTR" pad="DTR"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RXD" pad="RXD"/>
-<connect gate="G$1" pin="TXD" pad="TXD"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="1" pin="CTS" pad="CTS"/>
+<connect gate="1" pin="DTR" pad="DTR"/>
+<connect gate="1" pin="GND" pad="GND"/>
+<connect gate="1" pin="RXD" pad="RXD"/>
+<connect gate="1" pin="TXD" pad="TXD"/>
+<connect gate="1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1172,12 +1172,12 @@ Breakout</text>
 </device>
 <device name="-6P" package="CONN-6P">
 <connects>
-<connect gate="G$1" pin="CTS" pad="2"/>
-<connect gate="G$1" pin="DTR" pad="6"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="1" pin="CTS" pad="2"/>
+<connect gate="1" pin="DTR" pad="6"/>
+<connect gate="1" pin="GND" pad="1"/>
+<connect gate="1" pin="RXD" pad="5"/>
+<connect gate="1" pin="TXD" pad="4"/>
+<connect gate="1" pin="VCC" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1216,14 +1216,14 @@ Breakout</text>
 </deviceset>
 <deviceset name="PIC-UART-NOVDD">
 <gates>
-<gate name="G$1" symbol="PIC-UART-NOVDD" x="0" y="0"/>
+<gate name="1" symbol="PIC-UART-NOVDD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="PIC-UART-NOVDD">
 <connects>
-<connect gate="G$1" pin="RX" pad="18"/>
-<connect gate="G$1" pin="TX" pad="17"/>
-<connect gate="G$1" pin="VSS" pad="19"/>
+<connect gate="1" pin="RX" pad="18"/>
+<connect gate="1" pin="TX" pad="17"/>
+<connect gate="1" pin="VSS" pad="19"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1231,9 +1231,9 @@ Breakout</text>
 </device>
 <device name="-3P" package="CONN-3P">
 <connects>
-<connect gate="G$1" pin="RX" pad="2"/>
-<connect gate="G$1" pin="TX" pad="1"/>
-<connect gate="G$1" pin="VSS" pad="3"/>
+<connect gate="1" pin="RX" pad="2"/>
+<connect gate="1" pin="TX" pad="1"/>
+<connect gate="1" pin="VSS" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1241,9 +1241,9 @@ Breakout</text>
 </device>
 <device name="-4P" package="CONN-4P">
 <connects>
-<connect gate="G$1" pin="RX" pad="2"/>
-<connect gate="G$1" pin="TX" pad="1"/>
-<connect gate="G$1" pin="VSS" pad="3"/>
+<connect gate="1" pin="RX" pad="2"/>
+<connect gate="1" pin="TX" pad="1"/>
+<connect gate="1" pin="VSS" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1286,16 +1286,16 @@ Breakout</text>
 </deviceset>
 <deviceset name="PIC-UART-MCLR">
 <gates>
-<gate name="G$1" symbol="PIC-UART-MCLR" x="0" y="-1.27"/>
+<gate name="1" symbol="PIC-UART-MCLR" x="0" y="-1.27"/>
 </gates>
 <devices>
 <device name="" package="PIC-UART-MCLR">
 <connects>
-<connect gate="G$1" pin="MCLR" pad="1"/>
-<connect gate="G$1" pin="RX" pad="18"/>
-<connect gate="G$1" pin="TX" pad="17"/>
-<connect gate="G$1" pin="VDD" pad="20"/>
-<connect gate="G$1" pin="VSS" pad="19"/>
+<connect gate="1" pin="MCLR" pad="1"/>
+<connect gate="1" pin="RX" pad="18"/>
+<connect gate="1" pin="TX" pad="17"/>
+<connect gate="1" pin="VDD" pad="20"/>
+<connect gate="1" pin="VSS" pad="19"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1305,16 +1305,16 @@ Breakout</text>
 </deviceset>
 <deviceset name="PIC-ICSP">
 <gates>
-<gate name="G$1" symbol="PIC-ICSP" x="2.54" y="0"/>
+<gate name="1" symbol="PIC-ICSP" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="CONN-5P">
 <connects>
-<connect gate="G$1" pin="MCLR" pad="3"/>
-<connect gate="G$1" pin="PGC" pad="4"/>
-<connect gate="G$1" pin="PGD" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
+<connect gate="1" pin="MCLR" pad="3"/>
+<connect gate="1" pin="PGC" pad="4"/>
+<connect gate="1" pin="PGD" pad="5"/>
+<connect gate="1" pin="VDD" pad="2"/>
+<connect gate="1" pin="VSS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1322,11 +1322,11 @@ Breakout</text>
 </device>
 <device name="ICSP" package="PIC-ICSP">
 <connects>
-<connect gate="G$1" pin="MCLR" pad="3"/>
-<connect gate="G$1" pin="PGC" pad="4"/>
-<connect gate="G$1" pin="PGD" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
+<connect gate="1" pin="MCLR" pad="3"/>
+<connect gate="1" pin="PGC" pad="4"/>
+<connect gate="1" pin="PGD" pad="5"/>
+<connect gate="1" pin="VDD" pad="2"/>
+<connect gate="1" pin="VSS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1336,19 +1336,19 @@ Breakout</text>
 </deviceset>
 <deviceset name="HD44780-4BIT" prefix="J">
 <gates>
-<gate name="G$1" symbol="HD44780-8PIN" x="-7.62" y="-1.27"/>
+<gate name="1" symbol="HD44780-8PIN" x="-7.62" y="-1.27"/>
 </gates>
 <devices>
 <device name="-8PIN" package="CONN-8P">
 <connects>
-<connect gate="G$1" pin="D4" pad="5"/>
-<connect gate="G$1" pin="D5" pad="6"/>
-<connect gate="G$1" pin="D6" pad="7"/>
-<connect gate="G$1" pin="D7" pad="8"/>
-<connect gate="G$1" pin="E" pad="4"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="RS" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="1" pin="D4" pad="5"/>
+<connect gate="1" pin="D5" pad="6"/>
+<connect gate="1" pin="D6" pad="7"/>
+<connect gate="1" pin="D7" pad="8"/>
+<connect gate="1" pin="E" pad="4"/>
+<connect gate="1" pin="GND" pad="1"/>
+<connect gate="1" pin="RS" pad="3"/>
+<connect gate="1" pin="VCC" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1356,14 +1356,14 @@ Breakout</text>
 </device>
 <device name="LCD44780-8P" package="CONN-LCD44780">
 <connects>
-<connect gate="G$1" pin="D4" pad="D4"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7" pad="D7"/>
-<connect gate="G$1" pin="E" pad="E"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RS" pad="RS"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="1" pin="D4" pad="D4"/>
+<connect gate="1" pin="D5" pad="D5"/>
+<connect gate="1" pin="D6" pad="D6"/>
+<connect gate="1" pin="D7" pad="D7"/>
+<connect gate="1" pin="E" pad="E"/>
+<connect gate="1" pin="GND" pad="GND"/>
+<connect gate="1" pin="RS" pad="RS"/>
+<connect gate="1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1373,13 +1373,13 @@ Breakout</text>
 </deviceset>
 <deviceset name="CONN-2P" prefix="J">
 <gates>
-<gate name="G$1" symbol="PINCONN-2P" x="0" y="1.27"/>
+<gate name="1" symbol="PINCONN-2P" x="0" y="1.27"/>
 </gates>
 <devices>
 <device name="2P/H" package="CONN-2P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1387,8 +1387,8 @@ Breakout</text>
 </device>
 <device name="2P/V" package="CONN-2P-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1398,14 +1398,14 @@ Breakout</text>
 </deviceset>
 <deviceset name="CONN-3P" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="PINCONN-3P" x="0" y="0"/>
+<gate name="1" symbol="PINCONN-3P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-3P" package="CONN-3P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1415,15 +1415,15 @@ Breakout</text>
 </deviceset>
 <deviceset name="CONN-4P" prefix="J">
 <gates>
-<gate name="G$1" symbol="PINCONN-4P" x="0" y="0"/>
+<gate name="1" symbol="PINCONN-4P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-4P" package="CONN-4P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1433,16 +1433,16 @@ Breakout</text>
 </deviceset>
 <deviceset name="CONN-5P" prefix="J">
 <gates>
-<gate name="G$1" symbol="PINCONN-5P" x="0" y="0"/>
+<gate name="1" symbol="PINCONN-5P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-5P" package="CONN-5P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1452,17 +1452,17 @@ Breakout</text>
 </deviceset>
 <deviceset name="CONN-6P">
 <gates>
-<gate name="G$1" symbol="PINCONN-6P" x="0" y="0"/>
+<gate name="1" symbol="PINCONN-6P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CONN-6P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1473,15 +1473,15 @@ Breakout</text>
 <deviceset name="COMPORT-4PIN-NEW" prefix="J">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="RS232-4PIN-NEW" x="-5.08" y="2.54"/>
+<gate name="1" symbol="RS232-4PIN-NEW" x="-5.08" y="2.54"/>
 </gates>
 <devices>
 <device name="-4P" package="CONN-4P">
 <connects>
-<connect gate="G$1" pin="DTR" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="RXD" pad="3"/>
-<connect gate="G$1" pin="TXD" pad="4"/>
+<connect gate="1" pin="DTR" pad="1"/>
+<connect gate="1" pin="GND" pad="2"/>
+<connect gate="1" pin="RXD" pad="3"/>
+<connect gate="1" pin="TXD" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1489,10 +1489,10 @@ Breakout</text>
 </device>
 <device name="-UART" package="PIC-UART">
 <connects>
-<connect gate="G$1" pin="DTR" pad="17"/>
-<connect gate="G$1" pin="GND" pad="18"/>
-<connect gate="G$1" pin="RXD" pad="19"/>
-<connect gate="G$1" pin="TXD" pad="20"/>
+<connect gate="1" pin="DTR" pad="17"/>
+<connect gate="1" pin="GND" pad="18"/>
+<connect gate="1" pin="RXD" pad="19"/>
+<connect gate="1" pin="TXD" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1500,10 +1500,10 @@ Breakout</text>
 </device>
 <device name="-UART-L" package="PIC-UART-L">
 <connects>
-<connect gate="G$1" pin="DTR" pad="17"/>
-<connect gate="G$1" pin="GND" pad="18"/>
-<connect gate="G$1" pin="RXD" pad="19"/>
-<connect gate="G$1" pin="TXD" pad="20"/>
+<connect gate="1" pin="DTR" pad="17"/>
+<connect gate="1" pin="GND" pad="18"/>
+<connect gate="1" pin="RXD" pad="19"/>
+<connect gate="1" pin="TXD" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1514,17 +1514,17 @@ Breakout</text>
 <deviceset name="COMPORT-6PIN-NEW" prefix="J">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="RS232-6PIN-NEW" x="2.54" y="0"/>
+<gate name="1" symbol="RS232-6PIN-NEW" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="-6P" package="CONN-6P">
 <connects>
-<connect gate="G$1" pin="CTS" pad="1"/>
-<connect gate="G$1" pin="DTR" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="RTS" pad="4"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="6"/>
+<connect gate="1" pin="CTS" pad="1"/>
+<connect gate="1" pin="DTR" pad="2"/>
+<connect gate="1" pin="GND" pad="3"/>
+<connect gate="1" pin="RTS" pad="4"/>
+<connect gate="1" pin="RXD" pad="5"/>
+<connect gate="1" pin="TXD" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1532,12 +1532,12 @@ Breakout</text>
 </device>
 <device name="-6-FEM90" package="CONN-6P-FEM-90">
 <connects>
-<connect gate="G$1" pin="CTS" pad="1"/>
-<connect gate="G$1" pin="DTR" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="RTS" pad="4"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="6"/>
+<connect gate="1" pin="CTS" pad="1"/>
+<connect gate="1" pin="DTR" pad="2"/>
+<connect gate="1" pin="GND" pad="3"/>
+<connect gate="1" pin="RTS" pad="4"/>
+<connect gate="1" pin="RXD" pad="5"/>
+<connect gate="1" pin="TXD" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1548,17 +1548,17 @@ Breakout</text>
 <deviceset name="COMPORT-6PIN-OLD" prefix="J">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="RS232-6PIN-OLD" x="0" y="0"/>
+<gate name="1" symbol="RS232-6PIN-OLD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-6P" package="CONN-6P">
 <connects>
-<connect gate="G$1" pin="CTS" pad="1"/>
-<connect gate="G$1" pin="DTR" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="RTS" pad="4"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="6"/>
+<connect gate="1" pin="CTS" pad="1"/>
+<connect gate="1" pin="DTR" pad="2"/>
+<connect gate="1" pin="GND" pad="3"/>
+<connect gate="1" pin="RTS" pad="4"/>
+<connect gate="1" pin="RXD" pad="5"/>
+<connect gate="1" pin="TXD" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1566,12 +1566,12 @@ Breakout</text>
 </device>
 <device name="6P-FEM90" package="CONN-6P-FEM-90">
 <connects>
-<connect gate="G$1" pin="CTS" pad="1"/>
-<connect gate="G$1" pin="DTR" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="RTS" pad="4"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="6"/>
+<connect gate="1" pin="CTS" pad="1"/>
+<connect gate="1" pin="DTR" pad="2"/>
+<connect gate="1" pin="GND" pad="3"/>
+<connect gate="1" pin="RTS" pad="4"/>
+<connect gate="1" pin="RXD" pad="5"/>
+<connect gate="1" pin="TXD" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

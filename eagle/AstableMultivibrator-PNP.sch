@@ -138,14 +138,14 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <devicesets>
 <deviceset name="BC557" prefix="T">
 <gates>
-<gate name="G$1" symbol="PNP" x="0" y="0"/>
+<gate name="1" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="CBE" package="TO92-CBE">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -153,9 +153,9 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="CBE-A" package="TO92-CBE-A">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -995,13 +995,13 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1009,8 +1009,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1018,8 +1018,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1027,8 +1027,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1036,8 +1036,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1045,8 +1045,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1054,8 +1054,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1063,8 +1063,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1072,8 +1072,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1081,8 +1081,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1090,8 +1090,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1099,8 +1099,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1108,8 +1108,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1117,8 +1117,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1126,8 +1126,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1135,8 +1135,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1144,8 +1144,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1153,8 +1153,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1162,8 +1162,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1171,8 +1171,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1180,8 +1180,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1189,8 +1189,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1198,8 +1198,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1207,8 +1207,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1216,8 +1216,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1225,8 +1225,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1377,14 +1377,14 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </deviceset>
 <deviceset name="VCC_GND" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="VCC2" x="0" y="2.54"/>
-<gate name="G$2" symbol="GND2" x="0" y="-2.54"/>
+<gate name="1" symbol="VCC2" x="0" y="2.54"/>
+<gate name="2" symbol="GND2" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="R" package="SPAD+-">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1392,8 +1392,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="L" package="SPAD-+">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1401,8 +1401,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="PWR-L" package="PWR-L">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1410,8 +1410,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="PWR-R" package="PWR-R">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1505,13 +1505,13 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <devicesets>
 <deviceset name="C-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="C-H" x="0" y="0"/>
+<gate name="1" symbol="C-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1519,8 +1519,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="050-020X044" package="C050-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1528,8 +1528,8 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </device>
 <device name="075-020X044" package="C0750-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1566,17 +1566,17 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <plain>
 </plain>
 <instances>
-<instance part="T1" gate="G$1" x="20.32" y="33.02" rot="MR0"/>
-<instance part="T2" gate="G$1" x="45.72" y="33.02"/>
-<instance part="R2" gate="G$1" x="17.78" y="15.24"/>
-<instance part="R1" gate="G$1" x="38.1" y="15.24" rot="MR0"/>
-<instance part="R3" gate="G$1" x="27.94" y="15.24"/>
-<instance part="C2" gate="G$1" x="43.18" y="22.86"/>
-<instance part="C1" gate="G$1" x="22.86" y="22.86"/>
+<instance part="T1" gate="1" x="20.32" y="33.02" rot="MR0"/>
+<instance part="T2" gate="1" x="45.72" y="33.02"/>
+<instance part="R2" gate="1" x="17.78" y="15.24"/>
+<instance part="R1" gate="1" x="38.1" y="15.24" rot="MR0"/>
+<instance part="R3" gate="1" x="27.94" y="15.24"/>
+<instance part="C2" gate="1" x="43.18" y="22.86"/>
+<instance part="C1" gate="1" x="22.86" y="22.86"/>
 <instance part="OUT" gate="-" x="63.5" y="7.62" rot="R180"/>
 <instance part="OUT" gate="+" x="63.5" y="15.24" rot="R180"/>
-<instance part="J1" gate="G$1" x="33.02" y="48.26"/>
-<instance part="J1" gate="G$2" x="33.02" y="3.81"/>
+<instance part="J1" gate="1" x="33.02" y="48.26"/>
+<instance part="J1" gate="2" x="33.02" y="3.81"/>
 <instance part="S1" gate="1" x="60.96" y="2.54"/>
 <instance part="R4" gate="1" x="48.26" y="15.24"/>
 </instances>
@@ -1585,32 +1585,32 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <nets>
 <net name="N$2" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="C"/>
 <wire x1="17.78" y1="27.94" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="17.78" y1="20.32" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <junction x="17.78" y="22.86"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="T2" gate="1" pin="B"/>
 <wire x1="25.4" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="22.86" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="C1" gate="1" pin="2"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="27.94" y1="20.32" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <junction x="27.94" y="22.86"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="T2" gate="G$1" pin="C"/>
+<pinref part="T2" gate="1" pin="C"/>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C2" gate="1" pin="2"/>
 <wire x1="48.26" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R4" gate="1" pin="E"/>
 <wire x1="48.26" y1="20.32" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
@@ -1619,12 +1619,12 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 <wire x1="22.86" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="33.02" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="38.1" y1="20.32" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <junction x="38.1" y="22.86"/>
 </segment>
@@ -1639,17 +1639,17 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <net name="GND" class="0">
 <segment>
 <wire x1="17.78" y1="7.62" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="27.94" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="7.62" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="10.16" x2="17.78" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="27.94" y1="10.16" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
 <junction x="27.94" y="7.62"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="38.1" y1="10.16" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
 <junction x="38.1" y="7.62"/>
-<pinref part="J1" gate="G$2" pin="GND"/>
+<pinref part="J1" gate="2" pin="GND"/>
 <wire x1="33.02" y1="3.81" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <junction x="33.02" y="7.62"/>
 <wire x1="48.26" y1="7.62" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
@@ -1665,13 +1665,13 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <wire x1="17.78" y1="38.1" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="T2" gate="1" pin="E"/>
 <wire x1="33.02" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="43.18" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VCC"/>
+<pinref part="J1" gate="1" pin="VCC"/>
 <wire x1="33.02" y1="48.26" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <junction x="33.02" y="43.18"/>
 </segment>

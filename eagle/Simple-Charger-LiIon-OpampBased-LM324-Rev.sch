@@ -875,13 +875,13 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <devicesets>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-H" x="0" y="0"/>
+<gate name="1" symbol="R-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -889,8 +889,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -898,8 +898,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -907,8 +907,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -916,8 +916,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -925,8 +925,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -934,8 +934,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -943,8 +943,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -952,8 +952,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -961,8 +961,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -970,8 +970,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -979,8 +979,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -988,8 +988,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -997,8 +997,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1006,8 +1006,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1015,8 +1015,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1024,8 +1024,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1033,8 +1033,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1042,8 +1042,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1051,8 +1051,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/2" package="0202/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1060,8 +1060,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1069,8 +1069,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/2.54" package="0204/2.54">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1081,13 +1081,13 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1095,8 +1095,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1104,8 +1104,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1113,8 +1113,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1122,8 +1122,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1131,8 +1131,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1140,8 +1140,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1149,8 +1149,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1158,8 +1158,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1167,8 +1167,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1176,8 +1176,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1185,8 +1185,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1194,8 +1194,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1203,8 +1203,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1212,8 +1212,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1221,8 +1221,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1230,8 +1230,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1239,8 +1239,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1248,8 +1248,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1257,8 +1257,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1266,8 +1266,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1275,8 +1275,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1284,8 +1284,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1293,8 +1293,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1302,8 +1302,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1311,8 +1311,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1320,8 +1320,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1329,8 +1329,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1338,8 +1338,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/12-V" package="0202/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1347,8 +1347,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0202/2" package="0202/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1356,8 +1356,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="0204/2.54" package="0204/2.54">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4080,13 +4080,13 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4094,8 +4094,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4103,8 +4103,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4112,8 +4112,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4121,8 +4121,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4130,8 +4130,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4139,8 +4139,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4148,8 +4148,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4157,8 +4157,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4166,8 +4166,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4175,8 +4175,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4184,8 +4184,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4193,8 +4193,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4202,8 +4202,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4211,8 +4211,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4220,8 +4220,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4229,8 +4229,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4238,8 +4238,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4247,8 +4247,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4256,8 +4256,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4265,8 +4265,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4274,8 +4274,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4283,8 +4283,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4292,8 +4292,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4301,8 +4301,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4310,8 +4310,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4319,8 +4319,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4328,8 +4328,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4337,8 +4337,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4346,8 +4346,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4355,8 +4355,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4364,8 +4364,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4373,8 +4373,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4382,8 +4382,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4391,8 +4391,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4400,8 +4400,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4409,8 +4409,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4418,8 +4418,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4427,8 +4427,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4436,8 +4436,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4445,8 +4445,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4454,8 +4454,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E5-4-R45" package="E5-4-R45">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4463,8 +4463,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="E2,5-3/V" package="E2,5-3/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4922,7 +4922,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <devicesets>
 <deviceset name="V+">
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="1" symbol="V+" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4946,14 +4946,14 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </deviceset>
 <deviceset name="VCC_GND" prefix="S">
 <gates>
-<gate name="G$1" symbol="VCC2" x="0" y="2.54"/>
-<gate name="G$2" symbol="GND2" x="0" y="-2.54"/>
+<gate name="1" symbol="VCC2" x="0" y="2.54"/>
+<gate name="2" symbol="GND2" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="R" package="SPAD+-">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4961,8 +4961,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="L" package="SPAD-+">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4970,8 +4970,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="PWR-L" package="PWR-L">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4979,8 +4979,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="PWR-R" package="PWR-R">
 <connects>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$2" pin="GND" pad="1"/>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="2" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5222,14 +5222,14 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <devicesets>
 <deviceset name="BC327">
 <gates>
-<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
+<gate name="1" symbol="PNP" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5349,13 +5349,13 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <devicesets>
 <deviceset name="LED">
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-3MM" package="LED_3MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="K" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5363,8 +5363,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="-3MM/V" package="LED_3MM/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="K" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5374,13 +5374,13 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </deviceset>
 <deviceset name="LED-H" prefix="LED" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="LED-H" x="0" y="0"/>
+<gate name="1" symbol="LED-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-3MM" package="LED_3MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="K" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5388,8 +5388,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </device>
 <device name="-3MM/V" package="LED_3MM/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="K" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5455,48 +5455,48 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 </plain>
 <instances>
-<instance part="R1" gate="G$1" x="124.46" y="58.42"/>
-<instance part="R7" gate="G$1" x="104.14" y="68.58"/>
-<instance part="R10" gate="G$1" x="48.26" y="48.26"/>
-<instance part="C1" gate="G$1" x="15.24" y="43.18"/>
+<instance part="R1" gate="1" x="124.46" y="58.42"/>
+<instance part="R7" gate="1" x="104.14" y="68.58"/>
+<instance part="R10" gate="1" x="48.26" y="48.26"/>
+<instance part="C1" gate="1" x="15.24" y="43.18"/>
 <instance part="C2" gate="1" x="33.02" y="43.18"/>
-<instance part="R5" gate="G$1" x="111.76" y="50.8" rot="R180"/>
-<instance part="R9" gate="G$1" x="24.13" y="68.58"/>
-<instance part="U$1" gate="G$1" x="15.24" y="71.12"/>
+<instance part="R5" gate="1" x="111.76" y="50.8" rot="R180"/>
+<instance part="R9" gate="1" x="24.13" y="68.58"/>
+<instance part="U$1" gate="1" x="15.24" y="71.12"/>
 <instance part="S1" gate="1" x="33.02" y="35.56"/>
-<instance part="U$2" gate="G$1" x="15.24" y="48.26"/>
+<instance part="U$2" gate="1" x="15.24" y="48.26"/>
 <instance part="S3" gate="1" x="88.9" y="15.24"/>
-<instance part="U$4" gate="G$1" x="132.08" y="68.58"/>
+<instance part="U$4" gate="1" x="132.08" y="68.58"/>
 <instance part="USB" gate="-" x="149.86" y="60.96"/>
 <instance part="USB" gate="+" x="149.86" y="66.04"/>
-<instance part="U$5" gate="G$1" x="152.4" y="68.58"/>
+<instance part="U$5" gate="1" x="152.4" y="68.58"/>
 <instance part="S4" gate="1" x="152.4" y="55.88"/>
 <instance part="LI-ION" gate="-" x="142.24" y="38.1" rot="R180"/>
 <instance part="LI-ION" gate="+" x="142.24" y="43.18" rot="R180"/>
 <instance part="S5" gate="1" x="139.7" y="33.02"/>
-<instance part="U$6" gate="G$1" x="86.36" y="57.15"/>
+<instance part="U$6" gate="1" x="86.36" y="57.15"/>
 <instance part="S6" gate="1" x="86.36" y="39.37"/>
 <instance part="S8" gate="1" x="15.24" y="35.56"/>
 <instance part="S9" gate="1" x="165.1" y="50.8" rot="MR90"/>
 <instance part="S10" gate="1" x="165.1" y="38.1" rot="MR90"/>
 <instance part="S11" gate="1" x="165.1" y="43.18" rot="MR90"/>
 <instance part="S12" gate="1" x="163.83" y="55.88" rot="MR90"/>
-<instance part="R8" gate="G$1" x="48.26" y="68.58" rot="MR0"/>
+<instance part="R8" gate="1" x="48.26" y="68.58" rot="MR0"/>
 <instance part="IC1" gate="D" x="45.72" y="58.42"/>
 <instance part="IC1" gate="C" x="86.36" y="50.8"/>
 <instance part="IC1" gate="P" x="86.36" y="50.8" rot="MR0"/>
 <instance part="IC1" gate="B" x="177.8" y="53.34"/>
 <instance part="IC1" gate="A" x="177.8" y="40.64"/>
-<instance part="T1" gate="G$1" x="129.54" y="50.8"/>
-<instance part="R6" gate="G$1" x="106.68" y="40.64" rot="R180"/>
-<instance part="R2" gate="G$1" x="83.82" y="30.48" rot="R180"/>
+<instance part="T1" gate="1" x="129.54" y="50.8"/>
+<instance part="R6" gate="1" x="106.68" y="40.64" rot="R180"/>
+<instance part="R2" gate="1" x="83.82" y="30.48" rot="R180"/>
 <instance part="S13" gate="1" x="124.46" y="35.56"/>
-<instance part="R4" gate="G$1" x="60.96" y="10.16" rot="R180"/>
-<instance part="R3" gate="G$1" x="76.2" y="10.16" rot="R180"/>
+<instance part="R4" gate="1" x="60.96" y="10.16" rot="R180"/>
+<instance part="R3" gate="1" x="76.2" y="10.16" rot="R180"/>
 <instance part="S2" gate="1" x="53.34" y="5.08"/>
-<instance part="LED2" gate="G$1" x="104.14" y="57.15"/>
-<instance part="LED3" gate="G$1" x="118.11" y="40.64"/>
-<instance part="LED1" gate="G$1" x="82.55" y="20.32"/>
+<instance part="LED2" gate="1" x="104.14" y="57.15"/>
+<instance part="LED3" gate="1" x="118.11" y="40.64"/>
+<instance part="LED1" gate="1" x="82.55" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -5504,33 +5504,33 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <net name="V+" class="0">
 <segment>
 <wire x1="86.36" y1="57.15" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="V+"/>
+<pinref part="U$6" gate="1" pin="V+"/>
 <pinref part="IC1" gate="P" pin="V+"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="V+"/>
+<pinref part="U$1" gate="1" pin="V+"/>
 <wire x1="15.24" y1="71.12" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R9" gate="1" pin="1"/>
 <wire x1="15.24" y1="68.58" x2="19.05" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="+"/>
-<pinref part="U$2" gate="G$1" pin="V+"/>
+<pinref part="C1" gate="1" pin="+"/>
+<pinref part="U$2" gate="1" pin="V+"/>
 <wire x1="15.24" y1="48.26" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="V+"/>
+<pinref part="U$5" gate="1" pin="V+"/>
 <pinref part="USB" gate="+" pin="P$1"/>
 <wire x1="152.4" y1="68.58" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="124.46" y1="63.5" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="V+"/>
+<pinref part="U$4" gate="1" pin="V+"/>
 <wire x1="124.46" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="66.04" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <wire x1="132.08" y1="66.04" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 <junction x="132.08" y="66.04"/>
 </segment>
@@ -5542,7 +5542,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <pinref part="C2" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C1" gate="1" pin="-"/>
 <wire x1="15.24" y1="38.1" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="S8" gate="1" pin="GND"/>
 </segment>
@@ -5587,16 +5587,16 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <pinref part="S3" gate="1" pin="GND"/>
 <wire x1="88.9" y1="17.78" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="K"/>
+<pinref part="LED1" gate="1" pin="K"/>
 </segment>
 <segment>
 <pinref part="S13" gate="1" pin="GND"/>
 <wire x1="124.46" y1="38.1" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="K"/>
+<pinref part="LED3" gate="1" pin="K"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <pinref part="S2" gate="1" pin="GND"/>
 <wire x1="53.34" y1="7.62" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
@@ -5604,19 +5604,19 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R9" gate="1" pin="2"/>
 <wire x1="29.21" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="+IN"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R8" gate="1" pin="2"/>
 <wire x1="33.02" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
 <junction x="33.02" y="68.58"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="1" pin="1"/>
 <wire x1="43.18" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="48.26" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
@@ -5631,33 +5631,33 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <wire x1="78.74" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
 <wire x1="73.66" y1="48.26" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="73.66" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="30.48" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <junction x="73.66" y="30.48"/>
 <wire x1="73.66" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="93.98" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <pinref part="IC1" gate="C" pin="OUT"/>
 <wire x1="99.06" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="50.8" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <junction x="99.06" y="50.8"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="99.06" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="53.34" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <junction x="104.14" y="50.8"/>
-<pinref part="LED2" gate="G$1" pin="K"/>
+<pinref part="LED2" gate="1" pin="K"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R8" gate="1" pin="1"/>
 <wire x1="58.42" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 <junction x="58.42" y="58.42"/>
 <wire x1="58.42" y1="58.42" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
@@ -5665,41 +5665,41 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <wire x1="58.42" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="58.42" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 <junction x="58.42" y="58.42"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R10" gate="1" pin="2"/>
 <wire x1="58.42" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="OUT"/>
 <wire x1="53.34" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 <junction x="58.42" y="68.58"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="104.14" y1="76.2" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="2"/>
 <wire x1="104.14" y1="63.5" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="124.46" y1="50.8" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="116.84" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 <wire x1="124.46" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
 <junction x="124.46" y="50.8"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="C"/>
 <wire x1="132.08" y1="45.72" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="43.18" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="81.28" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="10.16" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 <junction x="132.08" y="30.48"/>
@@ -5710,9 +5710,9 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="111.76" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -5721,10 +5721,10 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <wire x1="78.74" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="10.16" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="66.04" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 <junction x="68.58" y="10.16"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 </segment>
 </net>
 </nets>

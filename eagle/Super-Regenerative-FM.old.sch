@@ -135,14 +135,14 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <deviceset name="BF245B" prefix="Q">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="JET_N" x="0" y="0"/>
+<gate name="1" symbol="JET_N" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="D" pad="3"/>
+<connect gate="1" pin="G" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -876,13 +876,13 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -890,8 +890,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -899,8 +899,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -908,8 +908,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -917,8 +917,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -926,8 +926,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -935,8 +935,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -944,8 +944,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -953,8 +953,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -962,8 +962,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -971,8 +971,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -980,8 +980,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -989,8 +989,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -998,8 +998,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1007,8 +1007,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1016,8 +1016,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1025,8 +1025,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1034,8 +1034,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1043,8 +1043,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1052,8 +1052,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1061,8 +1061,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1070,8 +1070,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1079,8 +1079,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2854,12 +2854,12 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </deviceset>
 <deviceset name="SPAD" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SPAD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3561,13 +3561,13 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
+<gate name="1" symbol="L" x="0" y="0"/>
 </gates>
 <devices>
 <device name="02/5" package="L-02/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3575,8 +3575,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="02/10" package="L-03/10V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3584,8 +3584,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="02/7" package="L-02/7V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3593,8 +3593,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="04/7" package="L-04/7V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3602,8 +3602,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="04/7-M" package="L-04/7-M">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3611,8 +3611,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="-09R" package="L-09R">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="1" pin="1" pad="P$1"/>
+<connect gate="1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3620,8 +3620,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="03/10" package="L-03/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3629,8 +3629,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="-BODY" package="L-BODY">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3638,8 +3638,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="L-04-5/5V-X" package="L-04-5/5V-X">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3647,8 +3647,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="L-04-5/5V" package="L-04-5/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3656,8 +3656,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="L-04-5/5" package="L-04-5/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3665,8 +3665,8 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="L-04/7" package="L-04/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3714,7 +3714,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <text x="55.88" y="20.32" size="1.27" layer="97" font="vector" align="top-left">L2 - 26 turns of AWG 30 around 8mm form</text>
 </plain>
 <instances>
-<instance part="Q1" gate="G$1" x="55.88" y="60.96"/>
+<instance part="Q1" gate="1" x="55.88" y="60.96"/>
 <instance part="C3" gate="1" x="48.26" y="50.8" rot="MR180"/>
 <instance part="C1" gate="1" x="22.86" y="50.8" rot="MR0"/>
 <instance part="R1" gate="1" x="17.78" y="60.96" smashed="yes" rot="R90">
@@ -3724,23 +3724,23 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <instance part="U$1" gate="1" x="17.78" y="35.56"/>
 <instance part="U$2" gate="1" x="55.88" y="35.56"/>
 <instance part="ANT" gate="ANT" x="33.02" y="71.12"/>
-<instance part="L2" gate="G$1" x="73.66" y="60.96"/>
+<instance part="L2" gate="1" x="73.66" y="60.96"/>
 <instance part="C4" gate="1" x="55.88" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.88" y="73.66" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="55.88" y="68.58" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="83.82" y="50.8"/>
+<instance part="R2" gate="1" x="83.82" y="50.8"/>
 <instance part="C5" gate="1" x="88.9" y="50.8" rot="MR0"/>
 <instance part="C6" gate="1" x="96.52" y="60.96" smashed="yes" rot="MR270">
 <attribute name="NAME" x="96.52" y="63.5" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="96.52" y="58.42" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="AOUT+" gate="G$1" x="106.68" y="60.96" rot="R180"/>
+<instance part="AOUT+" gate="1" x="106.68" y="60.96" rot="R180"/>
 <instance part="U$4" gate="1" x="88.9" y="35.56"/>
-<instance part="9V" gate="G$1" x="5.08" y="71.12"/>
-<instance part="AOUT-" gate="G$1" x="106.68" y="53.34" rot="R180"/>
+<instance part="9V" gate="1" x="5.08" y="71.12"/>
+<instance part="AOUT-" gate="1" x="106.68" y="53.34" rot="R180"/>
 <instance part="U$3" gate="1" x="104.14" y="35.56"/>
-<instance part="GND" gate="G$1" x="5.08" y="53.34" rot="MR180"/>
+<instance part="GND" gate="1" x="5.08" y="53.34" rot="MR180"/>
 <instance part="U$5" gate="1" x="7.62" y="35.56" rot="MR0"/>
 <instance part="L1" gate="1" x="35.56" y="60.96"/>
 </instances>
@@ -3749,7 +3749,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="1" pin="G"/>
 <pinref part="U$2" gate="1" pin="GND"/>
 <wire x1="55.88" y1="53.34" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="40.64" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
@@ -3769,7 +3769,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <junction x="17.78" y="40.64"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="83.82" y1="45.72" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C5" gate="1" pin="2"/>
 <wire x1="83.82" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
@@ -3780,20 +3780,20 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </segment>
 <segment>
 <pinref part="U$3" gate="1" pin="GND"/>
-<pinref part="AOUT-" gate="G$1" pin="P$1"/>
+<pinref part="AOUT-" gate="1" pin="P$1"/>
 <wire x1="104.14" y1="38.1" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="1" pin="GND"/>
-<pinref part="GND" gate="G$1" pin="P$1"/>
+<pinref part="GND" gate="1" pin="P$1"/>
 <wire x1="7.62" y1="38.1" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="Q1" gate="1" pin="D"/>
 <wire x1="48.26" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="48.26" y="60.96"/>
@@ -3828,17 +3828,17 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <pinref part="C4" gate="1" pin="2"/>
 <wire x1="58.42" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="71.12" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="1" pin="S"/>
 <wire x1="63.5" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L2" gate="1" pin="2"/>
 <wire x1="63.5" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <junction x="63.5" y="60.96"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="L2" gate="1" pin="1"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="81.28" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="60.96" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C5" gate="1" pin="1"/>
@@ -3852,14 +3852,14 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="AOUT+" gate="G$1" pin="P$1"/>
+<pinref part="AOUT+" gate="1" pin="P$1"/>
 <pinref part="C6" gate="1" pin="2"/>
 <wire x1="106.68" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="9V" gate="G$1" pin="P$1"/>
+<pinref part="9V" gate="1" pin="P$1"/>
 <pinref part="R1" gate="1" pin="E"/>
 <wire x1="5.08" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="71.12" x2="17.78" y2="66.04" width="0.1524" layer="91"/>

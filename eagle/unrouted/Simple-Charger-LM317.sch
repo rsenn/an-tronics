@@ -220,14 +220,14 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 <devicesets>
 <deviceset name="BC337">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="CBE" package="TO92-CBE">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -235,9 +235,9 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="CBE-A" package="TO92-CBE-A">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3029,13 +3029,13 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3043,8 +3043,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3052,8 +3052,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3061,8 +3061,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2.5-5V" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3070,8 +3070,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3079,8 +3079,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3088,8 +3088,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3097,8 +3097,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3106,8 +3106,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3115,8 +3115,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3124,8 +3124,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3133,8 +3133,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3142,8 +3142,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3151,8 +3151,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3160,8 +3160,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3169,8 +3169,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3178,8 +3178,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3187,8 +3187,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3196,8 +3196,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3205,8 +3205,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3214,8 +3214,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3223,8 +3223,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3232,8 +3232,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3241,8 +3241,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3250,8 +3250,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3259,8 +3259,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3268,8 +3268,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3277,8 +3277,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3286,8 +3286,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3295,8 +3295,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3304,8 +3304,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3313,8 +3313,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3322,8 +3322,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3331,8 +3331,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3340,8 +3340,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3349,8 +3349,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3358,8 +3358,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3367,8 +3367,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5025,13 +5025,13 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5039,8 +5039,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5048,8 +5048,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5057,8 +5057,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5066,8 +5066,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5075,8 +5075,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5084,8 +5084,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5093,8 +5093,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5102,8 +5102,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5111,8 +5111,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5120,8 +5120,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5129,8 +5129,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5138,8 +5138,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5147,8 +5147,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5156,8 +5156,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5165,8 +5165,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5174,8 +5174,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5183,8 +5183,8 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5194,14 +5194,14 @@ http://www.instructables.com/id/How-to-make-Lithium-charger/</description>
 </deviceset>
 <deviceset name="RV">
 <gates>
-<gate name="G$1" symbol="RV" x="0" y="0"/>
+<gate name="1" symbol="RV" x="0" y="0"/>
 </gates>
 <devices>
 <device name="PC16S" package="PC16S">
 <connects>
-<connect gate="G$1" pin="1A" pad="1A"/>
-<connect gate="G$1" pin="1E" pad="1E"/>
-<connect gate="G$1" pin="1S" pad="1S"/>
+<connect gate="1" pin="1A" pad="1A"/>
+<connect gate="1" pin="1E" pad="1E"/>
+<connect gate="1" pin="1S" pad="1S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7836,13 +7836,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <deviceset name="R-EU_" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+<gate name="1" symbol="R-EU" x="0" y="0"/>
 </gates>
 <devices>
 <device name="R0402" package="R0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7850,8 +7850,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R0603" package="R0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7859,8 +7859,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R0805" package="R0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7868,8 +7868,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R0805W" package="R0805W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7877,8 +7877,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R1206" package="R1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7886,8 +7886,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R1206W" package="R1206W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7895,8 +7895,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R1210" package="R1210">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7904,8 +7904,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R1210W" package="R1210W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7913,8 +7913,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R2010" package="R2010">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7922,8 +7922,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R2010W" package="R2010W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7931,8 +7931,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R2012" package="R2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7940,8 +7940,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R2012W" package="R2012W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7949,8 +7949,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R2512" package="R2512">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7958,8 +7958,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R2512W" package="R2512W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7967,8 +7967,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R3216" package="R3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7976,8 +7976,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R3216W" package="R3216W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7985,8 +7985,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R3225" package="R3225">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7994,8 +7994,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R3225W" package="R3225W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8003,8 +8003,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R5025" package="R5025">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8012,8 +8012,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R5025W" package="R5025W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8021,8 +8021,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R6332" package="R6332">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8030,8 +8030,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R6332W" package="R6332W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8039,8 +8039,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M0805" package="M0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8048,8 +8048,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M1206" package="M1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8057,8 +8057,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M1406" package="M1406">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8066,8 +8066,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M2012" package="M2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8075,8 +8075,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M2309" package="M2309">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8084,8 +8084,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M3216" package="M3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8093,8 +8093,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M3516" package="M3516">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8102,8 +8102,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="M5923" package="M5923">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8111,8 +8111,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8120,8 +8120,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8129,8 +8129,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0204/2V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8138,8 +8138,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8147,8 +8147,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8156,8 +8156,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8165,8 +8165,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8174,8 +8174,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8183,8 +8183,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8192,8 +8192,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0309/10" package="0309/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8201,8 +8201,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0309/12" package="0309/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8210,8 +8210,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0309/V" package="0309V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8219,8 +8219,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0411/12" package="0411/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8228,8 +8228,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0411/15" package="0411/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8237,8 +8237,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0411/3V" package="0411V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8246,8 +8246,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0414/15" package="0414/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8255,8 +8255,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0414/5V" package="0414V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8264,8 +8264,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0617/17" package="0617/17">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8273,8 +8273,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0617/22" package="0617/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8282,8 +8282,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0617/5V" package="0617V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8291,8 +8291,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0922/22" package="0922/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8300,8 +8300,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0613/5V" package="P0613V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8309,8 +8309,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0613/15" package="P0613/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8318,8 +8318,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0817/22" package="P0817/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8327,8 +8327,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0817/7V" package="P0817V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8336,8 +8336,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="V234/12" package="V234/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8345,8 +8345,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="V235/17" package="V235/17">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8354,8 +8354,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="V526-0" package="V526-0">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8363,8 +8363,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="MELF0102R" package="MINI_MELF-0102R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8372,8 +8372,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="MELF0102W" package="MINI_MELF-0102W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8381,8 +8381,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="MELF0204R" package="MINI_MELF-0204R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8390,8 +8390,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="MELF0204W" package="MINI_MELF-0204W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8399,8 +8399,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="MELF0207R" package="MINI_MELF-0207R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8408,8 +8408,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="MELF0207W" package="MINI_MELF-0207W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8417,8 +8417,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="0922V" package="0922V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8426,8 +8426,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="RDH/15" package="RDH/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8435,8 +8435,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="MELF0102AX" package="MINI_MELF-0102AX">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8444,8 +8444,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R0201" package="R0201">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8453,8 +8453,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="VTA52" package="VTA52">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8462,8 +8462,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="VTA53" package="VTA53">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8471,8 +8471,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="VTA54" package="VTA54">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8480,8 +8480,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="VTA55" package="VTA55">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8489,8 +8489,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="VTA56" package="VTA56">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8498,8 +8498,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="VMTA55" package="VMTA55">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8507,8 +8507,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="VMTB60" package="VMTB60">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8516,8 +8516,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R4527" package="R4527">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8525,8 +8525,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="WSC0001" package="WSC0001">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8534,8 +8534,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="WSC0002" package="WSC0002">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8543,8 +8543,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="WSC01/2" package="WSC01/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8552,8 +8552,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="WSC2515" package="WSC2515">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8561,8 +8561,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="WSC4527" package="WSC4527">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8570,8 +8570,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="WSC6927" package="WSC6927">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8579,8 +8579,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="R1218" package="R1218">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8588,8 +8588,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="1812X7R" package="1812X7R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8597,8 +8597,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="PRL1632" package="PRL1632">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8606,8 +8606,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 <device name="01005" package="R01005">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8668,12 +8668,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <devicesets>
 <deviceset name="SPAD" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SPAD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8713,54 +8713,54 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="55.88" y="78.74"/>
-<instance part="R4" gate="G$1" x="76.2" y="60.96" rot="R180"/>
-<instance part="U$1" gate="G$1" x="63.5" y="35.56" rot="MR0"/>
-<instance part="C1" gate="G$1" x="50.8" y="35.56"/>
-<instance part="R2" gate="G$1" x="99.06" y="50.8" rot="R90"/>
-<instance part="R1" gate="G$1" x="78.74" y="25.4"/>
-<instance part="R3" gate="G$1" x="99.06" y="60.96" rot="R90"/>
-<instance part="C2" gate="G$1" x="33.02" y="35.56"/>
+<instance part="R4" gate="1" x="76.2" y="60.96" rot="R180"/>
+<instance part="U$1" gate="1" x="63.5" y="35.56" rot="MR0"/>
+<instance part="C1" gate="1" x="50.8" y="35.56"/>
+<instance part="R2" gate="1" x="99.06" y="50.8" rot="R90"/>
+<instance part="R1" gate="1" x="78.74" y="25.4"/>
+<instance part="R3" gate="1" x="99.06" y="60.96" rot="R90"/>
+<instance part="C2" gate="1" x="33.02" y="35.56"/>
 <instance part="GND1" gate="1" x="50.8" y="17.78"/>
-<instance part="IN+" gate="G$1" x="22.86" y="78.74"/>
-<instance part="IN-" gate="G$1" x="24.13" y="25.4"/>
-<instance part="B+" gate="G$1" x="114.3" y="60.96" rot="R180"/>
-<instance part="B-" gate="G$1" x="114.3" y="35.56" rot="R180"/>
+<instance part="IN+" gate="1" x="22.86" y="78.74"/>
+<instance part="IN-" gate="1" x="24.13" y="25.4"/>
+<instance part="B+" gate="1" x="114.3" y="60.96" rot="R180"/>
+<instance part="B-" gate="1" x="114.3" y="35.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C1" gate="1" pin="-"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="50.8" y1="31.75" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="E"/>
+<pinref part="U$1" gate="1" pin="E"/>
 <wire x1="50.8" y1="25.4" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="30.48" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
 <junction x="50.8" y="25.4"/>
-<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C2" gate="1" pin="-"/>
 <wire x1="60.96" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="31.75" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="24.13" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <junction x="33.02" y="25.4"/>
-<pinref part="IN-" gate="G$1" pin="P$1"/>
+<pinref part="IN-" gate="1" pin="P$1"/>
 <junction x="60.96" y="25.4"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="83.82" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="25.4" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="B"/>
+<pinref part="U$1" gate="1" pin="B"/>
 <wire x1="91.44" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="104.14" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <junction x="91.44" y="35.56"/>
-<pinref part="B-" gate="G$1" pin="P$1"/>
+<pinref part="B-" gate="1" pin="P$1"/>
 <wire x1="106.68" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="35.56" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
@@ -8769,21 +8769,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="93.98" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="50.8" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1E"/>
+<pinref part="R4" gate="1" pin="1E"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1S"/>
+<pinref part="R4" gate="1" pin="1S"/>
 <wire x1="76.2" y1="65.278" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1A"/>
+<pinref part="R4" gate="1" pin="1A"/>
 <wire x1="76.2" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="66.04" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="91.44" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="76.2" y="66.04"/>
 <pinref part="IC1" gate="A" pin="ADJ"/>
@@ -8792,9 +8792,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="55.88" y1="66.04" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <junction x="55.88" y="66.04"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C1" gate="1" pin="+"/>
 <wire x1="50.8" y1="45.72" x2="50.8" y2="39.37" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="C"/>
+<pinref part="U$1" gate="1" pin="C"/>
 <wire x1="55.88" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="45.72" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
 <junction x="55.88" y="45.72"/>
@@ -8804,25 +8804,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="104.14" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="106.68" y1="60.96" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="B+" gate="G$1" pin="P$1"/>
+<pinref part="B+" gate="1" pin="P$1"/>
 <wire x1="114.3" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
 <junction x="106.68" y="60.96"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="C2" gate="1" pin="+"/>
 <pinref part="IC1" gate="A" pin="IN"/>
 <wire x1="33.02" y1="39.37" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <junction x="33.02" y="78.74"/>
-<pinref part="IN+" gate="G$1" pin="P$1"/>
+<pinref part="IN+" gate="1" pin="P$1"/>
 </segment>
 </net>
 </nets>

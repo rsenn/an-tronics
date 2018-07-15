@@ -958,13 +958,13 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -972,8 +972,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -981,8 +981,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -990,8 +990,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -999,8 +999,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1008,8 +1008,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1017,8 +1017,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1026,8 +1026,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1035,8 +1035,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1044,8 +1044,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1053,8 +1053,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1062,8 +1062,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1071,8 +1071,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1080,8 +1080,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1089,8 +1089,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1098,8 +1098,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1107,8 +1107,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1116,8 +1116,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1125,8 +1125,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1134,8 +1134,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1143,8 +1143,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1152,8 +1152,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1161,8 +1161,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3651,13 +3651,13 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <deviceset name="C" prefix="C" uservalue="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
+<gate name="1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-024X044" package="C025-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3665,8 +3665,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-025X050" package="C025-025X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3674,8 +3674,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-030X050" package="C025-030X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3683,8 +3683,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-040X050" package="C025-040X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3692,8 +3692,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-050X050" package="C025-050X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3701,8 +3701,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-060X050" package="C025-060X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3710,8 +3710,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3719,8 +3719,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-025X075" package="C050-025X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3728,8 +3728,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-045X075" package="C050-045X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3737,8 +3737,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-030X075" package="C050-030X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3746,8 +3746,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-050X075" package="C050-050X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3755,8 +3755,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-055X075" package="C050-055X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3764,8 +3764,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-075X075" package="C050-075X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3773,8 +3773,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="075-032X103" package="C075-032X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3782,8 +3782,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="075-042X103" package="C075-042X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3791,8 +3791,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="075-052X106" package="C075-052X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3800,8 +3800,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="102-043X133" package="C102-043X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3809,8 +3809,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="102-054X133" package="C102-054X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3818,8 +3818,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="102-064X133" package="C102-064X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3827,8 +3827,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="150-054X183" package="C150-054X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3836,8 +3836,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="150-064X183" package="C150-064X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3845,8 +3845,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="150-072X183" package="C150-072X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3854,8 +3854,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="150-084X183" package="C150-084X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3863,8 +3863,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="150-091X182" package="C150-091X182">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3872,8 +3872,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-035X075" package="C050-035X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3881,8 +3881,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="075-063X106" package="C075-063X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3890,8 +3890,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-020X036" package="C025-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3899,8 +3899,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="050-020X036" package="C050-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3908,8 +3908,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3917,8 +3917,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="025-025X060" package="C050-025X060">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3929,13 +3929,13 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3943,8 +3943,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3952,8 +3952,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3961,8 +3961,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3970,8 +3970,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3979,8 +3979,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3988,8 +3988,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3997,8 +3997,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4006,8 +4006,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4015,8 +4015,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4024,8 +4024,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4033,8 +4033,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4042,8 +4042,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4051,8 +4051,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4060,8 +4060,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4069,8 +4069,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4078,8 +4078,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4087,8 +4087,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4096,8 +4096,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4105,8 +4105,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4114,8 +4114,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4123,8 +4123,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4132,8 +4132,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4141,8 +4141,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4150,8 +4150,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4159,8 +4159,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4168,8 +4168,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4177,8 +4177,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4186,8 +4186,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4195,8 +4195,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4204,8 +4204,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4213,8 +4213,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4222,8 +4222,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4231,8 +4231,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4240,8 +4240,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4249,8 +4249,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4258,8 +4258,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4267,8 +4267,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4276,8 +4276,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4285,8 +4285,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4664,13 +4664,13 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <devicesets>
 <deviceset name="1N4148" prefix="D">
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="35-7" package="DO35-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4678,8 +4678,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4687,8 +4687,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="35-2.54" package="DO35-2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4696,8 +4696,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="35-2.54A" package="DO35-2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4705,8 +4705,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-12" package="DO34-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4714,8 +4714,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-5" package="DO34-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4723,8 +4723,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4732,8 +4732,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-2,5" package="DO34-2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4741,8 +4741,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-2,5-A" package="DO34-2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4750,8 +4750,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-10" package="DO34-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4759,8 +4759,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-7V" package="DO34-7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4768,8 +4768,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-5V" package="DO34-5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4777,8 +4777,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-10V" package="DO34-10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4786,8 +4786,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </device>
 <device name="34-12V" package="DO34-12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4926,22 +4926,22 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="71.12" y="25.4" rot="MR180"/>
-<instance part="R1" gate="G$1" x="45.72" y="27.94" rot="R270"/>
-<instance part="R4" gate="G$1" x="45.72" y="22.86" rot="R270"/>
-<instance part="_R5" gate="G$1" x="58.42" y="15.24"/>
-<instance part="R2" gate="G$1" x="78.74" y="43.18" rot="R270"/>
-<instance part="C1" gate="G$1" x="63.5" y="53.34" smashed="yes" rot="R90">
+<instance part="R1" gate="1" x="45.72" y="27.94" rot="R270"/>
+<instance part="R4" gate="1" x="45.72" y="22.86" rot="R270"/>
+<instance part="_R5" gate="1" x="58.42" y="15.24"/>
+<instance part="R2" gate="1" x="78.74" y="43.18" rot="R270"/>
+<instance part="C1" gate="1" x="63.5" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.77" y="55.88" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="64.77" y="50.8" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C2" gate="G$1" x="71.12" y="53.34" smashed="yes" rot="R90">
+<instance part="C2" gate="1" x="71.12" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.39" y="55.88" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="72.39" y="50.8" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R3" gate="1" x="83.82" y="53.34" rot="R180"/>
-<instance part="D1" gate="G$1" x="45.72" y="53.34" rot="MR180"/>
-<instance part="R6" gate="G$1" x="25.4" y="60.96" rot="R90"/>
-<instance part="R7" gate="G$1" x="25.4" y="43.18" rot="R90"/>
+<instance part="D1" gate="1" x="45.72" y="53.34" rot="MR180"/>
+<instance part="R6" gate="1" x="25.4" y="60.96" rot="R90"/>
+<instance part="R7" gate="1" x="25.4" y="43.18" rot="R90"/>
 <instance part="P+1" gate="VCC" x="12.7" y="71.12" smashed="yes">
 <attribute name="VALUE" x="12.7" y="73.66" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -4958,11 +4958,11 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </instance>
 <instance part="GND4" gate="1" x="45.72" y="43.18"/>
 <instance part="P+3" gate="VCC" x="71.12" y="38.1" smashed="yes"/>
-<instance part="C3" gate="G$1" x="97.79" y="25.4" smashed="yes" rot="R90">
+<instance part="C3" gate="1" x="97.79" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="97.79" y="27.94" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="97.79" y="22.86" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="25.4" y="27.94" smashed="yes" rot="R90">
+<instance part="C4" gate="1" x="25.4" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.4" y="30.48" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="25.4" y="25.4" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -4989,12 +4989,12 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <wire x1="12.7" y1="53.34" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="45.72" y1="50.8" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="_R5" gate="G$1" pin="1"/>
+<pinref part="_R5" gate="1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="58.42" y1="7.62" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 </segment>
@@ -5007,7 +5007,7 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="38.1" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 </segment>
@@ -5024,7 +5024,7 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C2" gate="1" pin="2"/>
 <pinref part="R3" gate="1" pin="E"/>
 <wire x1="76.2" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -5038,19 +5038,19 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="91.44" y1="43.18" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="83.82" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <junction x="91.44" y="43.18"/>
-<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="C3" gate="1" pin="+"/>
 <wire x1="91.44" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 <junction x="91.44" y="25.4"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="50.8" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="_R5" gate="G$1" pin="2"/>
+<pinref part="_R5" gate="1" pin="2"/>
 <wire x1="58.42" y1="20.32" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
 <wire x1="58.42" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
@@ -5059,7 +5059,7 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <pinref part="R8" gate="1" pin="S"/>
 <wire x1="15.24" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -5067,23 +5067,23 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <net name="N$8" class="0">
 <segment>
 <pinref part="CV_IN" gate="1" pin="P$1"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="2"/>
 <wire x1="20.32" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="30.48" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="33.02" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="45.72" y1="55.88" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="60.96" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="1" pin="2"/>
+<pinref part="C2" gate="1" pin="1"/>
 <junction x="68.58" y="53.34"/>
 <wire x1="33.02" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <junction x="33.02" y="60.96"/>
@@ -5092,12 +5092,12 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
+<pinref part="C1" gate="1" pin="1"/>
 <wire x1="60.96" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="53.34" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="50.8" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="43.18" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <junction x="58.42" y="43.18"/>
@@ -5108,7 +5108,7 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C3" gate="1" pin="-"/>
 <pinref part="AUDIO_OUT+" gate="1" pin="P$1"/>
 <wire x1="101.6" y1="25.4" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
 </segment>
@@ -5116,14 +5116,14 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <net name="N$1" class="0">
 <segment>
 <pinref part="AUDIO_IN+" gate="1" pin="P$1"/>
-<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="C4" gate="1" pin="+"/>
 <wire x1="15.24" y1="27.94" x2="21.59" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="-"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="C4" gate="1" pin="-"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="29.21" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>

@@ -134,14 +134,14 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <devicesets>
 <deviceset name="BF247B">
 <gates>
-<gate name="G$1" symbol="JFET_N2" x="0" y="0"/>
+<gate name="1" symbol="JFET_N2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="D" pad="1"/>
+<connect gate="1" pin="G" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2940,13 +2940,13 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2954,8 +2954,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2963,8 +2963,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2972,8 +2972,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2981,8 +2981,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2990,8 +2990,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2999,8 +2999,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3008,8 +3008,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3017,8 +3017,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3026,8 +3026,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3035,8 +3035,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3044,8 +3044,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3053,8 +3053,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3062,8 +3062,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3071,8 +3071,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3080,8 +3080,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3089,8 +3089,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3098,8 +3098,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3107,8 +3107,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3116,8 +3116,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3125,8 +3125,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3134,8 +3134,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3143,8 +3143,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3152,8 +3152,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3161,8 +3161,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3170,8 +3170,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3181,13 +3181,13 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </deviceset>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3195,8 +3195,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3204,8 +3204,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3213,8 +3213,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3222,8 +3222,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3231,8 +3231,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3240,8 +3240,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3249,8 +3249,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3258,8 +3258,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3267,8 +3267,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3276,8 +3276,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3285,8 +3285,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3294,8 +3294,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </device>
 <device name="0204/2-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3460,7 +3460,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
     Windungen: 6</text>
 </plain>
 <instances>
-<instance part="T1" gate="G$1" x="30.48" y="38.1"/>
+<instance part="T1" gate="1" x="30.48" y="38.1"/>
 <instance part="L1" gate="L1" x="0" y="30.48"/>
 <instance part="L3" gate="L1" x="0" y="15.24"/>
 <instance part="C2" gate="1" x="10.16" y="30.48" rot="MR0"/>
@@ -3468,8 +3468,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <attribute name="NAME" x="20.32" y="25.4" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="20.32" y="20.32" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="30.48" y="15.24" rot="R180"/>
-<instance part="R2" gate="G$1" x="40.64" y="22.86"/>
+<instance part="R3" gate="1" x="30.48" y="15.24" rot="R180"/>
+<instance part="R2" gate="1" x="40.64" y="22.86"/>
 <instance part="C3" gate="1" x="50.8" y="15.24"/>
 <instance part="L2" gate="L1" x="30.48" y="50.8"/>
 <instance part="C4" gate="1" x="20.32" y="60.96" smashed="yes" rot="R270">
@@ -3478,7 +3478,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </instance>
 <instance part="S1" gate="1" x="30.48" y="2.54"/>
 <instance part="S2" gate="1" x="10.16" y="55.88"/>
-<instance part="R1" gate="G$1" x="40.64" y="60.96"/>
+<instance part="R1" gate="1" x="40.64" y="60.96"/>
 <instance part="BATT" gate="-" x="53.34" y="50.8" rot="R180"/>
 <instance part="BATT" gate="+" x="53.34" y="60.96" rot="R180"/>
 <instance part="S3" gate="1" x="50.8" y="45.72"/>
@@ -3496,7 +3496,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <net name="N$1" class="0">
 <segment>
 <pinref part="L1" gate="L1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="G"/>
+<pinref part="T1" gate="1" pin="G"/>
 <wire x1="0" y1="35.56" x2="0" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="0" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C2" gate="1" pin="E"/>
@@ -3527,7 +3527,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <pinref part="L3" gate="L1" pin="1"/>
 <wire x1="0" y1="10.16" x2="0" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="0" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="30.48" y1="7.62" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="GND"/>
 <wire x1="30.48" y1="7.62" x2="30.48" y2="5.08" width="0.1524" layer="91"/>
@@ -3554,7 +3554,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <net name="N$4" class="0">
 <segment>
 <pinref part="C3" gate="1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="50.8" y1="17.78" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="AF" gate="+" pin="P$1"/>
@@ -3564,27 +3564,27 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="1"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="35.56" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="22.86" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C1" gate="1" pin="1"/>
 <wire x1="30.48" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 <junction x="30.48" y="22.86"/>
-<pinref part="T1" gate="G$1" pin="S"/>
+<pinref part="T1" gate="1" pin="S"/>
 <wire x1="30.48" y1="33.02" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="D"/>
+<pinref part="T1" gate="1" pin="D"/>
 <pinref part="L2" gate="L1" pin="1"/>
 <wire x1="30.48" y1="43.18" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <pinref part="L2" gate="L1" pin="2"/>
 <wire x1="35.56" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
@@ -3595,7 +3595,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="45.72" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="BATT" gate="+" pin="P$1"/>
 </segment>

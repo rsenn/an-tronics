@@ -195,21 +195,21 @@ Low profile connectors, straight&lt;p&gt;
 <deviceset name="ML10" prefix="SV" uservalue="yes">
 <description>&lt;b&gt;HARTING&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="10P" x="0" y="0"/>
+<gate name="1" symbol="10P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ML10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="10" pad="10"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+<connect gate="1" pin="7" pad="7"/>
+<connect gate="1" pin="8" pad="8"/>
+<connect gate="1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name="">
@@ -333,13 +333,13 @@ Low profile connectors, straight&lt;p&gt;
 <devicesets>
 <deviceset name="063-EU">
 <gates>
-<gate name="G$1" symbol="CPOL-EU" x="0" y="-2.54"/>
+<gate name="1" symbol="CPOL-EU" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="063_025">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -347,8 +347,8 @@ Low profile connectors, straight&lt;p&gt;
 </device>
 <device name="2" package="063_025_2">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -356,8 +356,8 @@ Low profile connectors, straight&lt;p&gt;
 </device>
 <device name="3" package="063_025_3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -365,8 +365,8 @@ Low profile connectors, straight&lt;p&gt;
 </device>
 <device name="4" package="063_025_4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -374,8 +374,8 @@ Low profile connectors, straight&lt;p&gt;
 </device>
 <device name="L3" package="063_025_L3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -383,8 +383,8 @@ Low profile connectors, straight&lt;p&gt;
 </device>
 <device name="L3A" package="063_025_L3A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -392,8 +392,8 @@ Low profile connectors, straight&lt;p&gt;
 </device>
 <device name="P2" package="063_025_P2">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5272,13 +5272,13 @@ Cermet, abgedichtet nach IP67</description>
 <deviceset name="C-EU" prefix="C" uservalue="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+<gate name="1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
 <device name="C0402" package="C0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5286,8 +5286,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C0504" package="C0504">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5295,8 +5295,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C0603" package="C0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5304,8 +5304,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C0805" package="C0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5313,8 +5313,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1005" package="C1005">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5322,8 +5322,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1206" package="C1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5331,8 +5331,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1210" package="C1210">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5340,8 +5340,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1310" package="C1310">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5349,8 +5349,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1608" package="C1608">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5358,8 +5358,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1812" package="C1812">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5367,8 +5367,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1825" package="C1825">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5376,8 +5376,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C2012" package="C2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5385,8 +5385,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C3216" package="C3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5394,8 +5394,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C3225" package="C3225">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5403,8 +5403,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C4532" package="C4532">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5412,8 +5412,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C4564" package="C4564">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5421,8 +5421,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025-024X044" package="C025-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5430,8 +5430,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025-025X050" package="C025-025X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5439,8 +5439,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025-030X050" package="C025-030X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5448,8 +5448,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025-040X050" package="C025-040X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5457,8 +5457,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025-050X050" package="C025-050X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5466,8 +5466,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025-060X050" package="C025-060X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5475,8 +5475,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C025_050-024X070" package="C025_050-024X070">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5484,8 +5484,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025_050-025X075" package="C025_050-025X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5493,8 +5493,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025_050-035X075" package="C025_050-035X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5502,8 +5502,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025_050-045X075" package="C025_050-045X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5511,8 +5511,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="025_050-055X075" package="C025_050-055X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5520,8 +5520,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5529,8 +5529,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-025X075" package="C050-025X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5538,8 +5538,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-045X075" package="C050-045X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5547,8 +5547,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-030X075" package="C050-030X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5556,8 +5556,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-050X075" package="C050-050X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5565,8 +5565,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-055X075" package="C050-055X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5574,8 +5574,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-075X075" package="C050-075X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5583,8 +5583,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050H075X075" package="C050H075X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5592,8 +5592,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="075-032X103" package="C075-032X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5601,8 +5601,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="075-042X103" package="C075-042X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5610,8 +5610,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="075-052X106" package="C075-052X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5619,8 +5619,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="102-043X133" package="C102-043X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5628,8 +5628,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="102-054X133" package="C102-054X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5637,8 +5637,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="102-064X133" package="C102-064X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5646,8 +5646,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="102_152-062X184" package="C102_152-062X184">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5655,8 +5655,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="150-054X183" package="C150-054X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5664,8 +5664,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="150-064X183" package="C150-064X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5673,8 +5673,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="150-072X183" package="C150-072X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5682,8 +5682,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="150-084X183" package="C150-084X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5691,8 +5691,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="150-091X182" package="C150-091X182">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5700,8 +5700,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="225-062X268" package="C225-062X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5709,8 +5709,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="225-074X268" package="C225-074X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5718,8 +5718,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="225-087X268" package="C225-087X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5727,8 +5727,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="225-108X268" package="C225-108X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5736,8 +5736,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="225-113X268" package="C225-113X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5745,8 +5745,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="275-093X316" package="C275-093X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5754,8 +5754,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="275-113X316" package="C275-113X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5763,8 +5763,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="275-134X316" package="C275-134X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5772,8 +5772,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="275-205X316" package="C275-205X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5781,8 +5781,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="325-137X374" package="C325-137X374">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5790,8 +5790,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="325-162X374" package="C325-162X374">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5799,8 +5799,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="325-182X374" package="C325-182X374">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5808,8 +5808,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="375-192X418" package="C375-192X418">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5817,8 +5817,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="375-203X418" package="C375-203X418">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5826,8 +5826,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="050-035X075" package="C050-035X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5835,8 +5835,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="375-155X418" package="C375-155X418">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5844,8 +5844,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="075-063X106" package="C075-063X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5853,8 +5853,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="275-154X316" package="C275-154X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5862,8 +5862,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="275-173X316" package="C275-173X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5871,8 +5871,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C0402K" package="C0402K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5880,8 +5880,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C0603K" package="C0603K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5889,8 +5889,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C0805K" package="C0805K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5898,8 +5898,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1206K" package="C1206K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5907,8 +5907,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1210K" package="C1210K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5916,8 +5916,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1812K" package="C1812K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5925,8 +5925,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C1825K" package="C1825K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5934,8 +5934,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C2220K" package="C2220K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5943,8 +5943,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="C2225K" package="C2225K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5955,13 +5955,13 @@ Cermet, abgedichtet nach IP67</description>
 <deviceset name="R-EU_" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+<gate name="1" symbol="R-EU" x="0" y="0"/>
 </gates>
 <devices>
 <device name="R0402" package="R0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5969,8 +5969,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R0603" package="R0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5978,8 +5978,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R0805" package="R0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5987,8 +5987,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R0805W" package="R0805W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5996,8 +5996,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R1005" package="R1005">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6005,8 +6005,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R1206" package="R1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6014,8 +6014,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R1206W" package="R1206W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6023,8 +6023,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R1210" package="R1210">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6032,8 +6032,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R1210W" package="R1210W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6041,8 +6041,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R2010" package="R2010">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6050,8 +6050,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R2010W" package="R2010W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6059,8 +6059,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R2012" package="R2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6068,8 +6068,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R2012W" package="R2012W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6077,8 +6077,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R2512" package="R2512">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6086,8 +6086,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R2512W" package="R2512W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6095,8 +6095,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R3216" package="R3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6104,8 +6104,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R3216W" package="R3216W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6113,8 +6113,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R3225" package="R3225">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6122,8 +6122,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R3225W" package="R3225W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6131,8 +6131,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R5025" package="R5025">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6140,8 +6140,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R5025W" package="R5025W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6149,8 +6149,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R6332" package="R6332">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6158,8 +6158,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="R6332W" package="R6332W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6167,8 +6167,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M0805" package="M0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6176,8 +6176,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M1206" package="M1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6185,8 +6185,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M1406" package="M1406">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6194,8 +6194,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M2012" package="M2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6203,8 +6203,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M2309" package="M2309">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6212,8 +6212,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M3216" package="M3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6221,8 +6221,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M3516" package="M3516">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6230,8 +6230,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="M5923" package="M5923">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6239,8 +6239,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6248,8 +6248,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6257,8 +6257,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0204/2V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6266,8 +6266,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6275,8 +6275,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6284,8 +6284,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6293,8 +6293,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6302,8 +6302,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6311,8 +6311,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6320,8 +6320,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0309/10" package="0309/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6329,8 +6329,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0309/12" package="0309/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6338,8 +6338,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0309/V" package="0309V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6347,8 +6347,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0411/12" package="0411/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6356,8 +6356,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0411/15" package="0411/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6365,8 +6365,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0411/3V" package="0411V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6374,8 +6374,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0414/15" package="0414/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6383,8 +6383,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0414/5V" package="0414V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6392,8 +6392,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0617/17" package="0617/17">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6401,8 +6401,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0617/22" package="0617/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6410,8 +6410,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0617/5V" package="0617V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6419,8 +6419,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0922/22" package="0922/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6428,8 +6428,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0613/5V" package="P0613V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6437,8 +6437,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0613/15" package="P0613/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6446,8 +6446,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0817/22" package="P0817/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6455,8 +6455,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0817/7V" package="P0817V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6464,8 +6464,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="V234/12" package="V234/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6473,8 +6473,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="V235/17" package="V235/17">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6482,8 +6482,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="V526-0" package="V526-0">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6491,8 +6491,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="MELF0102R" package="MINI_MELF-0102R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6500,8 +6500,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="MELF0102W" package="MINI_MELF-0102W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6509,8 +6509,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="MELF0204R" package="MINI_MELF-0204R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6518,8 +6518,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="MELF0204W" package="MINI_MELF-0204W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6527,8 +6527,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="MELF0207R" package="MINI_MELF-0207R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6536,8 +6536,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="MELF0207W" package="MINI_MELF-0207W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6545,8 +6545,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="0922V" package="0922V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6554,8 +6554,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="RDH/15" package="RDH/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6563,8 +6563,8 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="MELF0102AX" package="MINI_MELF-0102AX">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6575,14 +6575,14 @@ Cermet, abgedichtet nach IP67</description>
 <deviceset name="R-TRIMM" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Trimm resistor&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="R-TRIM" x="0" y="0"/>
+<gate name="1" symbol="R-TRIM" x="0" y="0"/>
 </gates>
 <devices>
 <device name="3304W" package="RTRIM3304W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6590,9 +6590,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3165W" package="RTRIM3165W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6600,9 +6600,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3202" package="RTRIM3202">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6610,9 +6610,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3314J" package="RTRIM3314J">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6620,9 +6620,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="4G/J" package="RTRIM4G/J">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6630,9 +6630,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="CVR42A" package="RTRIMCVR42A">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6640,9 +6640,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3214W" package="RTRIM3214W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6650,9 +6650,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3224G" package="RTRIM3224G">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6660,9 +6660,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3224J" package="RTRIM3224J">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6670,9 +6670,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3224X" package="RTRIM3224X">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6680,9 +6680,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3103" package="RTRIM3103">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6690,9 +6690,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="5W" package="RTRIM5W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6700,9 +6700,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="5X" package="RTRIM5X">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6710,9 +6710,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="TSM53YJ" package="RTRIMTSM53YJ">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6720,9 +6720,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="TSM53YL" package="RTRIMTSM53YL">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6730,9 +6730,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="TS63X" package="RTRIMTS63X">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6740,9 +6740,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="TS63Y" package="RTRIMTS63Y">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6750,9 +6750,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="TS63Z" package="RTRIMTS63Z">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6760,9 +6760,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3296P" package="RTRIM3296P">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6770,9 +6770,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3296W" package="RTRIM3296W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6780,9 +6780,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3296X" package="RTRIM3296X">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6790,9 +6790,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3296Y" package="RTRIM3296Y">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6800,9 +6800,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="74W" package="RTRIM74W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6810,9 +6810,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="74X" package="RTRIM74X">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6820,9 +6820,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3224W" package="RTRIM3224W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6830,9 +6830,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3339P" package="RTRIM3339P">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6840,9 +6840,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="64P" package="RTRIM64P">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6850,9 +6850,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="64W" package="RTRIM64W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6860,9 +6860,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="64X" package="RTRIM64X">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6870,9 +6870,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="64Y" package="RTRIM64Y">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6880,9 +6880,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="64Z" package="RTRIM64Z">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6890,9 +6890,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3059Y" package="RTRIM3059Y">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6900,9 +6900,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="70Y" package="RTRIM70Y">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6910,9 +6910,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3374" package="RTRIM3374">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6920,9 +6920,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3299W" package="RTRIM3299W">
 <connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6930,9 +6930,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="43P" package="RTRIM43P">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6940,9 +6940,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="3006P" package="RTRIM3006P">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6950,9 +6950,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="T18" package="RTRIMT18">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6960,9 +6960,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="T93XA" package="RTRIMT93XA">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6970,9 +6970,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="T93XB" package="RTRIMT93XB">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6980,9 +6980,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="T93YA" package="RTRIMT93YA">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6990,9 +6990,9 @@ Cermet, abgedichtet nach IP67</description>
 </device>
 <device name="T93YB" package="RTRIMT93YB">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7051,7 +7051,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <deviceset name="-15V" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="-15V" x="0" y="0"/>
+<gate name="1" symbol="-15V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7344,14 +7344,14 @@ Grid 2.54 mm&lt;p&gt;
 <devicesets>
 <deviceset name="POT-EU" prefix="POT" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="POT-EU" x="0" y="0"/>
+<gate name="1" symbol="POT-EU" x="0" y="0"/>
 </gates>
 <devices>
 <device name="16MM" package="16MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7359,9 +7359,9 @@ Grid 2.54 mm&lt;p&gt;
 </device>
 <device name="" package="POT">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7369,9 +7369,9 @@ Grid 2.54 mm&lt;p&gt;
 </device>
 <device name="25" package="B25P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7379,9 +7379,9 @@ Grid 2.54 mm&lt;p&gt;
 </device>
 <device name="375" package="B375P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7738,13 +7738,13 @@ NS Package M08A</description>
 &lt;li&gt;a.k.a. 1N914
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-2" package="DO35-2">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7752,8 +7752,8 @@ NS Package M08A</description>
 </device>
 <device name="-3" package="DO35-3">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7761,8 +7761,8 @@ NS Package M08A</description>
 </device>
 <device name="-4" package="DO35-4">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8057,13 +8057,13 @@ body 3.9 mm/JEDEC MS-012AC</description>
 &lt;p&gt;&lt;u&gt;WIMA &lt;/u&gt;&lt;br&gt;
 MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;</description>
 <gates>
-<gate name="G$1" symbol="C" x="0" y="-1.27"/>
+<gate name="1" symbol="C" x="0" y="-1.27"/>
 </gates>
 <devices>
 <device name="2" package="072X025">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8570,13 +8570,13 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <devicesets>
 <deviceset name="R-H" prefix="R">
 <gates>
-<gate name="G$1" symbol="R-H" x="0" y="0"/>
+<gate name="1" symbol="R-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8584,8 +8584,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8593,8 +8593,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8602,8 +8602,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8611,8 +8611,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8620,8 +8620,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8629,8 +8629,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8638,8 +8638,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8647,8 +8647,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8656,8 +8656,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8665,8 +8665,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8674,8 +8674,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8683,8 +8683,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8692,8 +8692,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8701,8 +8701,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8710,8 +8710,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8719,8 +8719,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8728,8 +8728,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8737,8 +8737,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8937,13 +8937,13 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <devicesets>
 <deviceset name="C-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="C-H" x="0" y="0"/>
+<gate name="1" symbol="C-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8951,8 +8951,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="050-020X044" package="C050-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8960,8 +8960,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="075-020X044" package="C075-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8969,8 +8969,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="075-020X044/V" package="C075-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8978,8 +8978,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="050-020X044/V" package="C050-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8987,8 +8987,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8996,8 +8996,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="050-024X044/V" package="C050-024X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9005,8 +9005,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="050-020X036" package="C050-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9014,8 +9014,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="050-020X036/V" package="C050-020X036/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9097,14 +9097,14 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <devicesets>
 <deviceset name="2N3904" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9112,9 +9112,9 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </device>
 <device name="EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9297,19 +9297,19 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <text x="203.708" y="111.252" size="1.778" layer="91">Initial PW</text>
 </plain>
 <instances>
-<instance part="SV1" gate="G$1" x="53.34" y="0"/>
-<instance part="U$1" gate="G$1" x="35.56" y="2.54"/>
-<instance part="U$2" gate="G$1" x="35.56" y="-5.08"/>
-<instance part="C1" gate="G$1" x="27.94" y="5.08"/>
-<instance part="C2" gate="G$1" x="27.94" y="-2.54"/>
-<instance part="C3" gate="G$1" x="20.32" y="5.08"/>
-<instance part="C4" gate="G$1" x="20.32" y="-2.54"/>
-<instance part="C5" gate="G$1" x="12.7" y="5.08"/>
-<instance part="C6" gate="G$1" x="12.7" y="-2.54"/>
-<instance part="R1" gate="G$1" x="40.64" y="10.16"/>
-<instance part="R2" gate="G$1" x="40.64" y="-10.16"/>
+<instance part="SV1" gate="1" x="53.34" y="0"/>
+<instance part="U$1" gate="1" x="35.56" y="2.54"/>
+<instance part="U$2" gate="1" x="35.56" y="-5.08"/>
+<instance part="C1" gate="1" x="27.94" y="5.08"/>
+<instance part="C2" gate="1" x="27.94" y="-2.54"/>
+<instance part="C3" gate="1" x="20.32" y="5.08"/>
+<instance part="C4" gate="1" x="20.32" y="-2.54"/>
+<instance part="C5" gate="1" x="12.7" y="5.08"/>
+<instance part="C6" gate="1" x="12.7" y="-2.54"/>
+<instance part="R1" gate="1" x="40.64" y="10.16"/>
+<instance part="R2" gate="1" x="40.64" y="-10.16"/>
 <instance part="SUPPLY1" gate="+15V" x="12.7" y="10.16"/>
-<instance part="SUPPLY2" gate="G$1" x="12.7" y="-10.16"/>
+<instance part="SUPPLY2" gate="1" x="12.7" y="-10.16"/>
 <instance part="SUPPLY3" gate="GND" x="73.66" y="-2.54"/>
 <instance part="X1" gate="-1" x="2.54" y="106.68" rot="R180"/>
 <instance part="X1" gate="-2" x="2.54" y="101.6" rot="R180"/>
@@ -9322,141 +9322,141 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <instance part="X5" gate="-1" x="281.94" y="78.74"/>
 <instance part="X5" gate="-2" x="281.94" y="68.58"/>
 <instance part="SUPPLY4" gate="GND" x="5.08" y="99.06"/>
-<instance part="R3" gate="G$1" x="15.24" y="106.68" rot="R180"/>
-<instance part="R4" gate="G$1" x="15.24" y="78.74" rot="R180"/>
-<instance part="R5" gate="G$1" x="15.24" y="55.88" rot="R180"/>
-<instance part="POT1" gate="G$1" x="0" y="78.74"/>
-<instance part="POT2" gate="G$1" x="5.08" y="55.88"/>
+<instance part="R3" gate="1" x="15.24" y="106.68" rot="R180"/>
+<instance part="R4" gate="1" x="15.24" y="78.74" rot="R180"/>
+<instance part="R5" gate="1" x="15.24" y="55.88" rot="R180"/>
+<instance part="POT1" gate="1" x="0" y="78.74"/>
+<instance part="POT2" gate="1" x="5.08" y="55.88"/>
 <instance part="SUPPLY5" gate="+15V" x="0" y="86.36"/>
 <instance part="SUPPLY6" gate="+15V" x="5.08" y="63.5"/>
-<instance part="SUPPLY7" gate="G$1" x="5.08" y="48.26"/>
-<instance part="SUPPLY8" gate="G$1" x="0" y="71.12"/>
+<instance part="SUPPLY7" gate="1" x="5.08" y="48.26"/>
+<instance part="SUPPLY8" gate="1" x="0" y="71.12"/>
 <instance part="SUPPLY9" gate="GND" x="7.62" y="30.48"/>
-<instance part="R6" gate="G$1" x="15.24" y="38.1" rot="R180"/>
+<instance part="R6" gate="1" x="15.24" y="38.1" rot="R180"/>
 <instance part="IC1" gate="A" x="43.18" y="76.2" rot="MR180"/>
 <instance part="IC1" gate="B" x="99.06" y="38.1" rot="R180"/>
 <instance part="IC1" gate="C" x="152.4" y="139.7"/>
 <instance part="IC1" gate="D" x="175.26" y="129.54"/>
 <instance part="SUPPLY10" gate="GND" x="35.56" y="68.58"/>
-<instance part="R7" gate="G$1" x="38.1" y="86.36"/>
-<instance part="R8" gate="G$1" x="50.8" y="86.36"/>
-<instance part="R9" gate="G$1" x="55.88" y="68.58"/>
-<instance part="R10" gate="G$1" x="55.88" y="58.42" rot="R270"/>
+<instance part="R7" gate="1" x="38.1" y="86.36"/>
+<instance part="R8" gate="1" x="50.8" y="86.36"/>
+<instance part="R9" gate="1" x="55.88" y="68.58"/>
+<instance part="R10" gate="1" x="55.88" y="58.42" rot="R270"/>
 <instance part="SUPPLY11" gate="GND" x="55.88" y="50.8"/>
 <instance part="SUPPLY12" gate="GND" x="71.12" y="63.5"/>
-<instance part="R11" gate="G$1" x="76.2" y="53.34" rot="R270"/>
-<instance part="R12" gate="G$1" x="149.86" y="60.96"/>
-<instance part="SUPPLY13" gate="G$1" x="154.94" y="58.42"/>
-<instance part="R13" gate="G$1" x="149.86" y="48.26" rot="R180"/>
+<instance part="R11" gate="1" x="76.2" y="53.34" rot="R270"/>
+<instance part="R12" gate="1" x="149.86" y="60.96"/>
+<instance part="SUPPLY13" gate="1" x="154.94" y="58.42"/>
+<instance part="R13" gate="1" x="149.86" y="48.26" rot="R180"/>
 <instance part="SUPPLY14" gate="GND" x="154.94" y="38.1"/>
 <instance part="SUPPLY15" gate="GND" x="106.68" y="33.02"/>
-<instance part="C7" gate="G$1" x="101.6" y="48.26" rot="R90"/>
-<instance part="D1" gate="G$1" x="71.12" y="38.1" rot="R180"/>
-<instance part="R14" gate="G$1" x="38.1" y="38.1" rot="R180"/>
-<instance part="R15" gate="G$1" x="68.58" y="33.02" rot="MR0"/>
+<instance part="C7" gate="1" x="101.6" y="48.26" rot="R90"/>
+<instance part="D1" gate="1" x="71.12" y="38.1" rot="R180"/>
+<instance part="R14" gate="1" x="38.1" y="38.1" rot="R180"/>
+<instance part="R15" gate="1" x="68.58" y="33.02" rot="MR0"/>
 <instance part="SUPPLY16" gate="GND" x="68.58" y="25.4"/>
-<instance part="R16" gate="G$1" x="99.06" y="127" rot="R180"/>
+<instance part="R16" gate="1" x="99.06" y="127" rot="R180"/>
 <instance part="SUPPLY17" gate="GND" x="88.9" y="124.46"/>
-<instance part="R17" gate="G$1" x="109.22" y="132.08" rot="R90"/>
+<instance part="R17" gate="1" x="109.22" y="132.08" rot="R90"/>
 <instance part="SUPPLY18" gate="+15V" x="109.22" y="139.7"/>
-<instance part="R18" gate="G$1" x="127.508" y="81.534"/>
-<instance part="R19" gate="G$1" x="109.728" y="121.92"/>
+<instance part="R18" gate="1" x="127.508" y="81.534"/>
+<instance part="R19" gate="1" x="109.728" y="121.92"/>
 <instance part="IC3" gate="OTA1" x="124.46" y="124.46" rot="MR180"/>
 <instance part="IC3" gate="BUF1" x="269.24" y="210.82"/>
 <instance part="IC3" gate="OTA2" x="274.32" y="162.56" rot="MR180"/>
 <instance part="IC3" gate="BUF2" x="302.26" y="177.8"/>
 <instance part="SUPPLY19" gate="GND" x="104.648" y="119.38"/>
-<instance part="R20" gate="G$1" x="154.94" y="101.6" rot="R270"/>
-<instance part="R21" gate="G$1" x="175.26" y="106.68"/>
-<instance part="R22" gate="G$1" x="187.96" y="129.54"/>
-<instance part="R23" gate="G$1" x="193.04" y="124.46" rot="R90"/>
-<instance part="R24" gate="G$1" x="154.94" y="111.76" rot="R270"/>
+<instance part="R20" gate="1" x="154.94" y="101.6" rot="R270"/>
+<instance part="R21" gate="1" x="175.26" y="106.68"/>
+<instance part="R22" gate="1" x="187.96" y="129.54"/>
+<instance part="R23" gate="1" x="193.04" y="124.46" rot="R90"/>
+<instance part="R24" gate="1" x="154.94" y="111.76" rot="R270"/>
 <instance part="SUPPLY20" gate="+15V" x="154.94" y="119.38"/>
 <instance part="SUPPLY21" gate="GND" x="154.94" y="93.98"/>
 <instance part="SUPPLY22" gate="GND" x="193.04" y="116.84"/>
-<instance part="C8" gate="G$1" x="137.16" y="119.38"/>
+<instance part="C8" gate="1" x="137.16" y="119.38"/>
 <instance part="IC4" gate="A" x="215.9" y="78.74"/>
 <instance part="SUPPLY23" gate="GND" x="137.16" y="114.3"/>
-<instance part="C9" gate="G$1" x="218.44" y="60.96" rot="R90"/>
+<instance part="C9" gate="1" x="218.44" y="60.96" rot="R90"/>
 <instance part="SUPPLY24" gate="GND" x="205.74" y="58.42"/>
 <instance part="SUPPLY25" gate="+15V" x="236.22" y="73.66"/>
 <instance part="IC2" gate="A" x="261.62" y="78.74"/>
 <instance part="IC2" gate="B" x="226.06" y="20.32" rot="MR180"/>
 <instance part="IC2" gate="C" x="254" y="111.76" rot="MR180"/>
 <instance part="IC2" gate="D" x="276.86" y="114.3"/>
-<instance part="R25" gate="G$1" x="274.32" y="78.74"/>
-<instance part="R26" gate="G$1" x="259.08" y="66.04"/>
-<instance part="R27" gate="G$1" x="254" y="60.96" rot="R90"/>
-<instance part="R28" gate="G$1" x="246.38" y="60.96" rot="R90"/>
+<instance part="R25" gate="1" x="274.32" y="78.74"/>
+<instance part="R26" gate="1" x="259.08" y="66.04"/>
+<instance part="R27" gate="1" x="254" y="60.96" rot="R90"/>
+<instance part="R28" gate="1" x="246.38" y="60.96" rot="R90"/>
 <instance part="X6" gate="-1" x="149.86" y="17.78" rot="R180"/>
 <instance part="X6" gate="-2" x="149.86" y="10.16" rot="R180"/>
 <instance part="SUPPLY26" gate="GND" x="279.4" y="66.04"/>
-<instance part="R29" gate="G$1" x="195.58" y="27.94" rot="R90"/>
-<instance part="R30" gate="G$1" x="228.6" y="33.02" rot="R180"/>
-<instance part="R31" gate="G$1" x="213.36" y="33.02" rot="R180"/>
-<instance part="R32" gate="G$1" x="220.98" y="40.64" rot="R270"/>
-<instance part="R33" gate="G$1" x="220.98" y="48.26" rot="R270"/>
+<instance part="R29" gate="1" x="195.58" y="27.94" rot="R90"/>
+<instance part="R30" gate="1" x="228.6" y="33.02" rot="R180"/>
+<instance part="R31" gate="1" x="213.36" y="33.02" rot="R180"/>
+<instance part="R32" gate="1" x="220.98" y="40.64" rot="R270"/>
+<instance part="R33" gate="1" x="220.98" y="48.26" rot="R270"/>
 <instance part="SUPPLY27" gate="+15V" x="215.9" y="50.8"/>
-<instance part="SUPPLY28" gate="G$1" x="205.74" y="30.48"/>
-<instance part="SUPPLY29" gate="G$1" x="226.06" y="45.72"/>
+<instance part="SUPPLY28" gate="1" x="205.74" y="30.48"/>
+<instance part="SUPPLY29" gate="1" x="226.06" y="45.72"/>
 <instance part="SUPPLY30" gate="GND" x="218.44" y="15.24"/>
-<instance part="C10" gate="G$1" x="200.66" y="68.58"/>
-<instance part="T1" gate="G$1" x="180.34" y="17.78"/>
-<instance part="R34" gate="G$1" x="182.88" y="27.94" rot="R270"/>
+<instance part="C10" gate="1" x="200.66" y="68.58"/>
+<instance part="T1" gate="1" x="180.34" y="17.78"/>
+<instance part="R34" gate="1" x="182.88" y="27.94" rot="R270"/>
 <instance part="SUPPLY31" gate="+15V" x="182.88" y="35.56"/>
 <instance part="SUPPLY32" gate="GND" x="170.18" y="7.62"/>
-<instance part="D2" gate="G$1" x="170.18" y="15.24" rot="R90"/>
-<instance part="R35" gate="G$1" x="165.1" y="17.78"/>
-<instance part="C11" gate="G$1" x="157.48" y="17.78" rot="R90"/>
-<instance part="R36" gate="G$1" x="241.3" y="165.1"/>
-<instance part="R37" gate="G$1" x="251.46" y="165.1" rot="R180"/>
-<instance part="R38" gate="G$1" x="256.54" y="154.94" rot="R270"/>
-<instance part="R39" gate="G$1" x="256.54" y="175.26" rot="R270"/>
-<instance part="R40" gate="G$1" x="271.78" y="180.34"/>
-<instance part="R41" gate="G$1" x="281.94" y="149.86" rot="R90"/>
-<instance part="R42" gate="G$1" x="281.94" y="139.7"/>
+<instance part="D2" gate="1" x="170.18" y="15.24" rot="R90"/>
+<instance part="R35" gate="1" x="165.1" y="17.78"/>
+<instance part="C11" gate="1" x="157.48" y="17.78" rot="R90"/>
+<instance part="R36" gate="1" x="241.3" y="165.1"/>
+<instance part="R37" gate="1" x="251.46" y="165.1" rot="R180"/>
+<instance part="R38" gate="1" x="256.54" y="154.94" rot="R270"/>
+<instance part="R39" gate="1" x="256.54" y="175.26" rot="R270"/>
+<instance part="R40" gate="1" x="271.78" y="180.34"/>
+<instance part="R41" gate="1" x="281.94" y="149.86" rot="R90"/>
+<instance part="R42" gate="1" x="281.94" y="139.7"/>
 <instance part="SUPPLY33" gate="+15V" x="241.3" y="172.72"/>
-<instance part="SUPPLY34" gate="G$1" x="241.3" y="157.48"/>
+<instance part="SUPPLY34" gate="1" x="241.3" y="157.48"/>
 <instance part="SUPPLY35" gate="GND" x="256.54" y="147.32"/>
 <instance part="SUPPLY36" gate="+15V" x="269.24" y="137.16"/>
-<instance part="R43" gate="G$1" x="287.02" y="185.42" rot="R90"/>
+<instance part="R43" gate="1" x="287.02" y="185.42" rot="R90"/>
 <instance part="SUPPLY37" gate="+15V" x="287.02" y="193.04"/>
-<instance part="R44" gate="G$1" x="304.8" y="167.64" rot="R90"/>
-<instance part="SUPPLY38" gate="G$1" x="304.8" y="160.02"/>
-<instance part="R45" gate="G$1" x="309.88" y="172.72" rot="R180"/>
+<instance part="R44" gate="1" x="304.8" y="167.64" rot="R90"/>
+<instance part="SUPPLY38" gate="1" x="304.8" y="160.02"/>
+<instance part="R45" gate="1" x="309.88" y="172.72" rot="R180"/>
 <instance part="X7" gate="-1" x="317.5" y="172.72"/>
 <instance part="X7" gate="-2" x="317.5" y="162.56"/>
 <instance part="SUPPLY39" gate="GND" x="314.96" y="160.02"/>
-<instance part="R46" gate="G$1" x="264.16" y="129.54" rot="R180"/>
-<instance part="R47" gate="G$1" x="274.32" y="124.46" rot="R180"/>
-<instance part="R48" gate="G$1" x="289.56" y="114.3" rot="R180"/>
-<instance part="R49" gate="G$1" x="294.64" y="109.22" rot="R270"/>
+<instance part="R46" gate="1" x="264.16" y="129.54" rot="R180"/>
+<instance part="R47" gate="1" x="274.32" y="124.46" rot="R180"/>
+<instance part="R48" gate="1" x="289.56" y="114.3" rot="R180"/>
+<instance part="R49" gate="1" x="294.64" y="109.22" rot="R270"/>
 <instance part="X8" gate="-1" x="297.18" y="114.3"/>
 <instance part="X8" gate="-2" x="297.18" y="104.14"/>
 <instance part="SUPPLY40" gate="GND" x="294.64" y="101.6"/>
 <instance part="SUPPLY41" gate="GND" x="246.38" y="106.68"/>
-<instance part="R50" gate="G$1" x="254" y="121.92" rot="R180"/>
-<instance part="R51" gate="G$1" x="236.22" y="134.62" rot="R180"/>
+<instance part="R50" gate="1" x="254" y="121.92" rot="R180"/>
+<instance part="R51" gate="1" x="236.22" y="134.62" rot="R180"/>
 <instance part="X9" gate="-1" x="228.6" y="134.62" rot="R180"/>
 <instance part="X9" gate="-2" x="228.6" y="129.54" rot="R180"/>
 <instance part="SUPPLY42" gate="GND" x="231.14" y="124.46"/>
-<instance part="R52" gate="G$1" x="236.22" y="111.76" rot="R180"/>
-<instance part="POT3" gate="G$1" x="223.52" y="111.76"/>
+<instance part="R52" gate="1" x="236.22" y="111.76" rot="R180"/>
+<instance part="POT3" gate="1" x="223.52" y="111.76"/>
 <instance part="SUPPLY43" gate="+15V" x="223.52" y="119.38"/>
-<instance part="SUPPLY44" gate="G$1" x="223.52" y="104.14"/>
+<instance part="SUPPLY44" gate="1" x="223.52" y="104.14"/>
 <instance part="IC1" gate="P" x="0" y="0"/>
 <instance part="IC2" gate="P" x="-5.08" y="0"/>
 <instance part="IC3" gate="SUPPLY" x="5.08" y="0"/>
-<instance part="T2" gate="G$1" x="80.01" y="91.44"/>
-<instance part="T3" gate="G$1" x="91.44" y="66.04"/>
+<instance part="T2" gate="1" x="80.01" y="91.44"/>
+<instance part="T3" gate="1" x="91.44" y="66.04"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$5" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="SV1" gate="1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="45.72" y1="-10.16" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="45.72" y="-5.08"/>
 <junction x="45.72" y="-10.16"/>
@@ -9464,8 +9464,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="10"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="SV1" gate="1" pin="10"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="45.72" y1="10.16" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 <junction x="45.72" y="10.16"/>
 <junction x="45.72" y="5.08"/>
@@ -9473,14 +9473,14 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="+15V" class="0">
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C5" gate="1" pin="1"/>
 <pinref part="SUPPLY1" gate="+15V" pin="+15V"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C3" gate="1" pin="1"/>
 <wire x1="10.16" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C1" gate="1" pin="1"/>
 <wire x1="17.78" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="+"/>
+<pinref part="R1" gate="1" pin="1"/>
+<pinref part="U$1" gate="1" pin="+"/>
 <wire x1="35.56" y1="7.62" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="5.08" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
 <junction x="10.16" y="5.08"/>
@@ -9500,88 +9500,88 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <wire x1="12.7" y1="7.62" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="POT1" gate="G$1" pin="3"/>
+<pinref part="POT1" gate="1" pin="3"/>
 <pinref part="SUPPLY5" gate="+15V" pin="+15V"/>
 </segment>
 <segment>
-<pinref part="POT2" gate="G$1" pin="3"/>
+<pinref part="POT2" gate="1" pin="3"/>
 <pinref part="SUPPLY6" gate="+15V" pin="+15V"/>
 </segment>
 <segment>
 <pinref part="SUPPLY18" gate="+15V" pin="+15V"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R17" gate="1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY20" gate="+15V" pin="+15V"/>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R24" gate="1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="V+"/>
 <wire x1="226.06" y1="71.12" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C9" gate="1" pin="2"/>
 <wire x1="226.06" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="+15V" pin="+15V"/>
 <wire x1="236.22" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="E"/>
+<pinref part="R33" gate="1" pin="E"/>
 <pinref part="SUPPLY27" gate="+15V" pin="+15V"/>
 </segment>
 <segment>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R34" gate="1" pin="1"/>
 <pinref part="SUPPLY31" gate="+15V" pin="+15V"/>
 </segment>
 <segment>
-<pinref part="R36" gate="G$1" pin="A"/>
+<pinref part="R36" gate="1" pin="A"/>
 <pinref part="SUPPLY33" gate="+15V" pin="+15V"/>
 </segment>
 <segment>
 <pinref part="SUPPLY36" gate="+15V" pin="+15V"/>
-<pinref part="R42" gate="G$1" pin="E"/>
+<pinref part="R42" gate="1" pin="E"/>
 <wire x1="269.24" y1="134.62" x2="281.94" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="R43" gate="1" pin="2"/>
 <pinref part="SUPPLY37" gate="+15V" pin="+15V"/>
 </segment>
 <segment>
-<pinref part="POT3" gate="G$1" pin="3"/>
+<pinref part="POT3" gate="1" pin="3"/>
 <pinref part="SUPPLY43" gate="+15V" pin="+15V"/>
 </segment>
 </net>
 <net name="-15V" class="0">
 <segment>
-<pinref part="POT2" gate="G$1" pin="1"/>
-<pinref part="SUPPLY7" gate="G$1" pin="-15V"/>
+<pinref part="POT2" gate="1" pin="1"/>
+<pinref part="SUPPLY7" gate="1" pin="-15V"/>
 </segment>
 <segment>
-<pinref part="POT1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY8" gate="G$1" pin="-15V"/>
+<pinref part="POT1" gate="1" pin="1"/>
+<pinref part="SUPPLY8" gate="1" pin="-15V"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="SUPPLY13" gate="G$1" pin="-15V"/>
+<pinref part="R12" gate="1" pin="2"/>
+<pinref part="SUPPLY13" gate="1" pin="-15V"/>
 </segment>
 <segment>
-<pinref part="R31" gate="G$1" pin="2"/>
-<pinref part="SUPPLY28" gate="G$1" pin="-15V"/>
+<pinref part="R31" gate="1" pin="2"/>
+<pinref part="SUPPLY28" gate="1" pin="-15V"/>
 <wire x1="205.74" y1="33.02" x2="208.28" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="A"/>
-<pinref part="SUPPLY29" gate="G$1" pin="-15V"/>
+<pinref part="R33" gate="1" pin="A"/>
+<pinref part="SUPPLY29" gate="1" pin="-15V"/>
 </segment>
 <segment>
-<pinref part="R36" gate="G$1" pin="E"/>
-<pinref part="SUPPLY34" gate="G$1" pin="-15V"/>
+<pinref part="R36" gate="1" pin="E"/>
+<pinref part="SUPPLY34" gate="1" pin="-15V"/>
 </segment>
 <segment>
-<pinref part="R44" gate="G$1" pin="1"/>
-<pinref part="SUPPLY38" gate="G$1" pin="-15V"/>
+<pinref part="R44" gate="1" pin="1"/>
+<pinref part="SUPPLY38" gate="1" pin="-15V"/>
 </segment>
 <segment>
-<pinref part="POT3" gate="G$1" pin="1"/>
-<pinref part="SUPPLY44" gate="G$1" pin="-15V"/>
+<pinref part="POT3" gate="1" pin="1"/>
+<pinref part="SUPPLY44" gate="1" pin="-15V"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="P" pin="V-"/>
@@ -9589,14 +9589,14 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <wire x1="-5.08" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="SUPPLY" pin="V-"/>
 <wire x1="0" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="SUPPLY2" gate="G$1" pin="-15V"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C6" gate="1" pin="2"/>
+<pinref part="SUPPLY2" gate="1" pin="-15V"/>
+<pinref part="C4" gate="1" pin="2"/>
 <wire x1="15.24" y1="-2.54" x2="22.86" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C2" gate="1" pin="2"/>
 <wire x1="22.86" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="-"/>
+<pinref part="R2" gate="1" pin="1"/>
+<pinref part="U$2" gate="1" pin="-"/>
 <wire x1="35.56" y1="-7.62" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-2.54" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="15.24" y="-2.54"/>
@@ -9613,28 +9613,28 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="-"/>
-<pinref part="U$2" gate="G$1" pin="+"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
+<pinref part="U$1" gate="1" pin="-"/>
+<pinref part="U$2" gate="1" pin="+"/>
+<pinref part="SV1" gate="1" pin="3"/>
+<pinref part="SV1" gate="1" pin="5"/>
 <wire x1="60.96" y1="-2.54" x2="60.96" y2="0" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="7"/>
+<pinref part="SV1" gate="1" pin="7"/>
 <wire x1="60.96" y1="0" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="8"/>
+<pinref part="SV1" gate="1" pin="8"/>
 <wire x1="60.96" y1="2.54" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="6"/>
+<pinref part="SV1" gate="1" pin="6"/>
 <wire x1="45.72" y1="2.54" x2="45.72" y2="0" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="4"/>
+<pinref part="SV1" gate="1" pin="4"/>
 <wire x1="45.72" y1="-2.54" x2="45.72" y2="0" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="1" pin="2"/>
+<pinref part="C2" gate="1" pin="1"/>
 <wire x1="35.56" y1="0" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C3" gate="1" pin="2"/>
+<pinref part="C4" gate="1" pin="1"/>
 <wire x1="25.4" y1="-2.54" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C5" gate="1" pin="2"/>
+<pinref part="C6" gate="1" pin="1"/>
 <wire x1="22.86" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="0" x2="60.96" y2="0" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
@@ -9668,13 +9668,13 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <wire x1="35.56" y1="73.66" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R10" gate="1" pin="2"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="76.2" y1="66.04" x2="74.93" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="B"/>
+<pinref part="T3" gate="1" pin="B"/>
 <wire x1="74.93" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 <junction x="74.93" y="66.04"/>
@@ -9688,42 +9688,42 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="E"/>
+<pinref part="R15" gate="1" pin="E"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R16" gate="1" pin="2"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <wire x1="93.98" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R19" gate="1" pin="1"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
 <junction x="104.648" y="121.92"/>
 </segment>
 <segment>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R23" gate="1" pin="1"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 <pinref part="X4" gate="-2" pin="1"/>
 <junction x="193.04" y="119.38"/>
 <pinref part="X4" gate="-2" pin="1"/>
 </segment>
 <segment>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R20" gate="1" pin="2"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C8" gate="1" pin="2"/>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="GND"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <wire x1="205.74" y1="60.96" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C9" gate="1" pin="1"/>
 <junction x="205.74" y="60.96"/>
 <wire x1="205.74" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C10" gate="1" pin="2"/>
 <wire x1="200.66" y1="66.04" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="60.96" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -9736,17 +9736,17 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <pinref part="SUPPLY32" gate="GND" pin="GND"/>
 <wire x1="170.18" y1="10.16" x2="182.88" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="10.16" x2="182.88" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D2" gate="1" pin="A"/>
 <junction x="170.18" y="10.16"/>
 <pinref part="X6" gate="-2" pin="1"/>
 <wire x1="170.18" y1="10.16" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="R38" gate="1" pin="2"/>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 <pinref part="IC3" gate="OTA2" pin="IN_P"/>
 <wire x1="266.7" y1="160.02" x2="264.16" y2="160.02" width="0.1524" layer="91"/>
@@ -9760,7 +9760,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <junction x="314.96" y="162.56"/>
 </segment>
 <segment>
-<pinref part="R49" gate="G$1" pin="2"/>
+<pinref part="R49" gate="1" pin="2"/>
 <pinref part="X8" gate="-2" pin="1"/>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
 <junction x="294.64" y="104.14"/>
@@ -9778,66 +9778,66 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="SV1" gate="1" pin="1"/>
 <junction x="60.96" y="-5.08"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="9"/>
+<pinref part="SV1" gate="1" pin="9"/>
 <junction x="60.96" y="5.08"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="X1" gate="-1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="5.08" y1="106.68" x2="10.16" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="POT1" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
+<pinref part="POT1" gate="1" pin="2"/>
 <wire x1="5.08" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="POT2" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
+<pinref part="POT2" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="X2" gate="-1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="7.62" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="20.32" y1="106.68" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="20.32" y1="78.74" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="55.88" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="33.02" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="78.74" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R14" gate="1" pin="2"/>
 <junction x="33.02" y="38.1"/>
 <wire x1="33.02" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="2"/>
+<pinref part="R8" gate="1" pin="1"/>
 <wire x1="45.72" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9847,22 +9847,22 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <wire x1="50.8" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="76.2" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="73.66" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="R9" gate="G$1" pin="A"/>
+<pinref part="R8" gate="1" pin="2"/>
+<pinref part="R9" gate="1" pin="A"/>
 <junction x="55.88" y="73.66"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="E"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R9" gate="1" pin="E"/>
+<pinref part="R10" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="S"/>
+<pinref part="R9" gate="1" pin="S"/>
 <wire x1="76.2" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="T2" gate="1" pin="B"/>
 <wire x1="73.66" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="68.58" x2="73.66" y2="87.63" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="87.63" x2="77.47" y2="91.44" width="0.1524" layer="91"/>
@@ -9871,12 +9871,12 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R11" gate="1" pin="1"/>
 <junction x="76.2" y="58.42"/>
-<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="T2" gate="1" pin="E"/>
 <wire x1="76.2" y1="58.42" x2="76.2" y2="82.55" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="82.55" x2="82.55" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="E"/>
+<pinref part="T3" gate="1" pin="E"/>
 <wire x1="93.98" y1="60.96" x2="95.25" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -9886,38 +9886,38 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="106.68" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="40.64" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C7" gate="1" pin="2"/>
 <wire x1="106.68" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R13" gate="1" pin="1"/>
 <pinref part="X3" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R11" gate="1" pin="2"/>
 <wire x1="76.2" y1="48.26" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <wire x1="76.2" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C7" gate="1" pin="1"/>
 <wire x1="99.06" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <junction x="76.2" y="38.1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="R15" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="C"/>
+<pinref part="R15" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="R15" gate="G$1" pin="S"/>
+<pinref part="R14" gate="1" pin="1"/>
+<pinref part="R15" gate="1" pin="S"/>
 <wire x1="43.18" y1="38.1" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="38.1" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -9932,15 +9932,15 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <wire x1="128.27" y1="58.42" x2="128.27" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="128.27" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="128.27" y="58.42"/>
-<pinref part="T2" gate="G$1" pin="C"/>
+<pinref part="T2" gate="1" pin="C"/>
 <wire x1="96.52" y1="93.98" x2="96.52" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="92.71" x2="82.55" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R18" gate="1" pin="1"/>
+<pinref part="R19" gate="1" pin="2"/>
 <wire x1="114.808" y1="121.92" x2="114.3" y2="81.534" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="81.534" x2="122.428" y2="81.534" width="0.1524" layer="91"/>
 <junction x="122.428" y="81.534"/>
@@ -9951,8 +9951,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R16" gate="1" pin="1"/>
+<pinref part="R17" gate="1" pin="1"/>
 <wire x1="109.22" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="OTA1" pin="IN_N"/>
 <wire x1="116.84" y1="127" x2="109.22" y2="127" width="0.1524" layer="91"/>
@@ -9964,7 +9964,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <pinref part="IC1" gate="C" pin="+IN"/>
 <wire x1="144.78" y1="142.24" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="142.24" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C8" gate="1" pin="1"/>
 <junction x="137.16" y="124.46"/>
 </segment>
 </net>
@@ -9987,17 +9987,17 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <wire x1="231.14" y1="76.2" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="91.44" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R29" gate="1" pin="2"/>
 <wire x1="195.58" y1="33.02" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R20" gate="1" pin="1"/>
+<pinref part="R21" gate="1" pin="1"/>
+<pinref part="R24" gate="1" pin="2"/>
 <junction x="154.94" y="106.68"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R24" gate="1" pin="2"/>
 <junction x="154.94" y="106.68"/>
 <junction x="154.94" y="106.68"/>
 <wire x1="154.94" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
@@ -10008,28 +10008,28 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R21" gate="1" pin="2"/>
+<pinref part="R22" gate="1" pin="1"/>
 <wire x1="180.34" y1="106.68" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="106.68" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="OUT"/>
 <wire x1="182.88" y1="129.54" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="1"/>
-<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="R39" gate="1" pin="1"/>
+<pinref part="R40" gate="1" pin="1"/>
 <wire x1="259.08" y1="129.54" x2="251.46" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="129.54" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="149.86" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="180.34" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="180.34" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R46" gate="G$1" pin="2"/>
+<pinref part="R46" gate="1" pin="2"/>
 <junction x="259.08" y="129.54"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="R22" gate="G$1" pin="2"/>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R22" gate="1" pin="2"/>
+<pinref part="R23" gate="1" pin="2"/>
 <pinref part="X4" gate="-1" pin="1"/>
 <junction x="193.04" y="129.54"/>
 <pinref part="X4" gate="-1" pin="1"/>
@@ -10038,7 +10038,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <net name="N$29" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="Q"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R18" gate="1" pin="2"/>
 <wire x1="132.588" y1="81.534" x2="182.88" y2="81.534" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="81.534" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
@@ -10050,7 +10050,7 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <pinref part="IC4" gate="A" pin="DIS"/>
 <wire x1="226.06" y1="81.28" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="+IN"/>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R28" gate="1" pin="2"/>
 <wire x1="246.38" y1="66.04" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="81.28" x2="254" y2="81.28" width="0.1524" layer="91"/>
 <junction x="246.38" y="66.04"/>
@@ -10059,16 +10059,16 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <net name="N$31" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="OUT"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R25" gate="1" pin="1"/>
 <wire x1="269.24" y1="78.74" x2="269.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R26" gate="1" pin="2"/>
 <wire x1="269.24" y1="66.04" x2="264.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
-<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="R26" gate="1" pin="1"/>
+<pinref part="R27" gate="1" pin="2"/>
 <pinref part="IC2" gate="A" pin="-IN"/>
 <wire x1="254" y1="66.04" x2="254" y2="76.2" width="0.1524" layer="91"/>
 <junction x="254" y="66.04"/>
@@ -10076,19 +10076,19 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R25" gate="1" pin="2"/>
 <pinref part="X5" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="IC2" gate="B" pin="-IN"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R29" gate="1" pin="1"/>
 <wire x1="218.44" y1="22.86" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="R31" gate="G$1" pin="1"/>
+<pinref part="R30" gate="1" pin="2"/>
+<pinref part="R31" gate="1" pin="1"/>
 <wire x1="223.52" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R32" gate="1" pin="2"/>
 <junction x="218.44" y="33.02"/>
 <wire x1="218.44" y1="33.02" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="33.02" x2="220.98" y2="35.56" width="0.1524" layer="91"/>
@@ -10098,10 +10098,10 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <net name="N$36" class="0">
 <segment>
 <pinref part="IC2" gate="B" pin="OUT"/>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R30" gate="1" pin="1"/>
 <wire x1="233.68" y1="33.02" x2="233.68" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="1"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R27" gate="1" pin="1"/>
+<pinref part="R28" gate="1" pin="1"/>
 <wire x1="254" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="55.88" x2="246.38" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="20.32" x2="233.68" y2="20.32" width="0.1524" layer="91"/>
@@ -10109,14 +10109,14 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
-<pinref part="R33" gate="G$1" pin="S"/>
+<pinref part="R32" gate="1" pin="1"/>
+<pinref part="R33" gate="1" pin="S"/>
 <wire x1="220.98" y1="43.18" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C10" gate="1" pin="1"/>
 <wire x1="200.66" y1="73.66" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="CV"/>
 <wire x1="200.66" y1="76.2" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
@@ -10124,8 +10124,8 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="C"/>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="T1" gate="1" pin="C"/>
+<pinref part="R34" gate="1" pin="2"/>
 <pinref part="IC4" gate="A" pin="R"/>
 <wire x1="205.74" y1="81.28" x2="189.23" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="189.23" y1="81.28" x2="190.5" y2="22.86" width="0.1524" layer="91"/>
@@ -10134,42 +10134,42 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="B"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="B"/>
+<pinref part="D2" gate="1" pin="C"/>
 <wire x1="170.18" y1="17.78" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R35" gate="1" pin="2"/>
 <junction x="170.18" y="17.78"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="R35" gate="1" pin="1"/>
+<pinref part="C11" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C11" gate="1" pin="1"/>
 <pinref part="X6" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="R36" gate="G$1" pin="S"/>
-<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="R36" gate="1" pin="S"/>
+<pinref part="R37" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="IC3" gate="OTA2" pin="I_BIAS"/>
-<pinref part="R41" gate="G$1" pin="2"/>
+<pinref part="R41" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="R41" gate="G$1" pin="1"/>
-<pinref part="R42" gate="G$1" pin="A"/>
-<pinref part="R42" gate="G$1" pin="S"/>
+<pinref part="R41" gate="1" pin="1"/>
+<pinref part="R42" gate="1" pin="A"/>
+<pinref part="R42" gate="1" pin="S"/>
 <wire x1="287.02" y1="139.7" x2="287.02" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
 </segment>
@@ -10177,12 +10177,12 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <net name="N$46" class="0">
 <segment>
 <pinref part="IC3" gate="OTA2" pin="IN_N"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<pinref part="R39" gate="1" pin="2"/>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="165.1" x2="266.7" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="R38" gate="1" pin="1"/>
 <junction x="256.54" y="160.02"/>
-<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="R37" gate="1" pin="1"/>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="170.18" width="0.1524" layer="91"/>
 <junction x="256.54" y="170.18"/>
 <wire x1="256.54" y1="170.18" x2="256.54" y2="165.1" width="0.1524" layer="91"/>
@@ -10192,9 +10192,9 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <segment>
 <pinref part="IC3" gate="OTA2" pin="OUT"/>
 <wire x1="287.02" y1="162.56" x2="287.02" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R40" gate="G$1" pin="2"/>
+<pinref part="R40" gate="1" pin="2"/>
 <wire x1="294.64" y1="180.34" x2="276.86" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R43" gate="G$1" pin="1"/>
+<pinref part="R43" gate="1" pin="1"/>
 <junction x="294.64" y="180.34"/>
 <pinref part="IC3" gate="BUF2" pin="B"/>
 <wire x1="294.64" y1="180.34" x2="287.02" y2="180.34" width="0.1524" layer="91"/>
@@ -10203,24 +10203,24 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <net name="N$50" class="0">
 <segment>
 <pinref part="IC3" gate="BUF2" pin="E"/>
-<pinref part="R44" gate="G$1" pin="2"/>
-<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="R44" gate="1" pin="2"/>
+<pinref part="R45" gate="1" pin="2"/>
 <junction x="304.8" y="172.72"/>
-<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="R45" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="R45" gate="1" pin="1"/>
 <pinref part="X7" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="R46" gate="1" pin="1"/>
 <pinref part="IC2" gate="D" pin="+IN"/>
 <wire x1="269.24" y1="129.54" x2="269.24" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R47" gate="G$1" pin="2"/>
+<pinref part="R47" gate="1" pin="2"/>
 <wire x1="269.24" y1="124.46" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
 <junction x="269.24" y="124.46"/>
 </segment>
@@ -10228,16 +10228,16 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <net name="N$47" class="0">
 <segment>
 <pinref part="IC2" gate="D" pin="OUT"/>
-<pinref part="R48" gate="G$1" pin="2"/>
+<pinref part="R48" gate="1" pin="2"/>
 <wire x1="284.48" y1="114.3" x2="284.48" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R47" gate="G$1" pin="1"/>
+<pinref part="R47" gate="1" pin="1"/>
 <wire x1="284.48" y1="124.46" x2="279.4" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="R48" gate="G$1" pin="1"/>
-<pinref part="R49" gate="G$1" pin="1"/>
+<pinref part="R48" gate="1" pin="1"/>
+<pinref part="R49" gate="1" pin="1"/>
 <pinref part="X8" gate="-1" pin="1"/>
 <junction x="294.64" y="114.3"/>
 <pinref part="X8" gate="-1" pin="1"/>
@@ -10249,47 +10249,47 @@ MKP2 63, 100V: 1000pF - 0.015uF; MKS2 50V: 0.33 - 0.47uF; 63V: 1000pF - 0.22uF;<
 <pinref part="IC2" gate="C" pin="OUT"/>
 <wire x1="261.62" y1="111.76" x2="269.24" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="111.76" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R50" gate="G$1" pin="1"/>
+<pinref part="R50" gate="1" pin="1"/>
 <wire x1="261.62" y1="121.92" x2="259.08" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
-<pinref part="R50" gate="G$1" pin="2"/>
-<pinref part="R51" gate="G$1" pin="1"/>
+<pinref part="R50" gate="1" pin="2"/>
+<pinref part="R51" gate="1" pin="1"/>
 <wire x1="241.3" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="134.62" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="-IN"/>
 <wire x1="246.38" y1="121.92" x2="248.92" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="114.3" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R52" gate="G$1" pin="1"/>
+<pinref part="R52" gate="1" pin="1"/>
 <wire x1="241.3" y1="111.76" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
-<pinref part="R51" gate="G$1" pin="2"/>
+<pinref part="R51" gate="1" pin="2"/>
 <pinref part="X9" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="R52" gate="G$1" pin="2"/>
-<pinref part="POT3" gate="G$1" pin="2"/>
+<pinref part="R52" gate="1" pin="2"/>
+<pinref part="POT3" gate="1" pin="2"/>
 <wire x1="228.6" y1="111.76" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R12" gate="1" pin="1"/>
+<pinref part="R13" gate="1" pin="2"/>
 <junction x="144.78" y="48.26"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R13" gate="1" pin="2"/>
 <junction x="144.78" y="48.26"/>
 <wire x1="144.78" y1="48.26" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="127" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="C"/>
+<pinref part="T3" gate="1" pin="C"/>
 <wire x1="93.98" y1="71.12" x2="95.25" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="127" y1="76.2" x2="127" y2="60.96" width="0.1524" layer="91"/>

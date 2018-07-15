@@ -1812,7 +1812,7 @@
 <gates>
 <gate name="A" symbol="OPAMP" x="15.24" y="10.16" swaplevel="1"/>
 <gate name="B" symbol="OPAMP" x="15.24" y="-12.7" swaplevel="1"/>
-<gate name="G$1" symbol="PWR+-15" x="15.24" y="10.16"/>
+<gate name="1" symbol="PWR+-15" x="15.24" y="10.16"/>
 </gates>
 <devices>
 <device name="P" package="DIL08">
@@ -1823,8 +1823,8 @@
 <connect gate="B" pin="+IN" pad="5"/>
 <connect gate="B" pin="-IN" pad="6"/>
 <connect gate="B" pin="OUT" pad="7"/>
-<connect gate="G$1" pin="+15V" pad="4"/>
-<connect gate="G$1" pin="-15V" pad="8"/>
+<connect gate="1" pin="+15V" pad="4"/>
+<connect gate="1" pin="-15V" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1838,8 +1838,8 @@
 <connect gate="B" pin="+IN" pad="5"/>
 <connect gate="B" pin="-IN" pad="6"/>
 <connect gate="B" pin="OUT" pad="7"/>
-<connect gate="G$1" pin="+15V" pad="4"/>
-<connect gate="G$1" pin="-15V" pad="8"/>
+<connect gate="1" pin="+15V" pad="4"/>
+<connect gate="1" pin="-15V" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1956,7 +1956,7 @@
 <gate name="B" symbol="OPAMP" x="50.8" y="10.16" swaplevel="1"/>
 <gate name="C" symbol="OPAMP" x="15.24" y="-10.16" swaplevel="1"/>
 <gate name="D" symbol="OPAMP" x="50.8" y="-10.16" swaplevel="1"/>
-<gate name="G$1" symbol="PWR+-15" x="15.24" y="10.16"/>
+<gate name="1" symbol="PWR+-15" x="15.24" y="10.16"/>
 </gates>
 <devices>
 <device name="P" package="DIL14">
@@ -1973,8 +1973,8 @@
 <connect gate="D" pin="+IN" pad="12"/>
 <connect gate="D" pin="-IN" pad="13"/>
 <connect gate="D" pin="OUT" pad="14"/>
-<connect gate="G$1" pin="+15V" pad="4"/>
-<connect gate="G$1" pin="-15V" pad="11"/>
+<connect gate="1" pin="+15V" pad="4"/>
+<connect gate="1" pin="-15V" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1994,8 +1994,8 @@
 <connect gate="D" pin="+IN" pad="12"/>
 <connect gate="D" pin="-IN" pad="13"/>
 <connect gate="D" pin="OUT" pad="14"/>
-<connect gate="G$1" pin="+15V" pad="4"/>
-<connect gate="G$1" pin="-15V" pad="11"/>
+<connect gate="1" pin="+15V" pad="4"/>
+<connect gate="1" pin="-15V" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2302,23 +2302,23 @@
 <deviceset name="ICL8038" prefix="IC">
 <description>Precision Waveform Generator/Voltage Controlled Oscillator&lt;br&gt;https://www.intersil.com/content/dam/Intersil/documents/icl8/icl8038.pdf</description>
 <gates>
-<gate name="G$1" symbol="ICL8038" x="0" y="0"/>
+<gate name="1" symbol="ICL8038" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL14">
 <connects>
-<connect gate="G$1" pin="CAP" pad="10"/>
-<connect gate="G$1" pin="D_ADJ1" pad="4"/>
-<connect gate="G$1" pin="D_ADJ2" pad="5"/>
-<connect gate="G$1" pin="FM_BIAS" pad="7"/>
-<connect gate="G$1" pin="SINE" pad="2"/>
-<connect gate="G$1" pin="SQUARE" pad="9"/>
-<connect gate="G$1" pin="SWEEP" pad="8"/>
-<connect gate="G$1" pin="S_ADJ1" pad="1"/>
-<connect gate="G$1" pin="S_ADJ2" pad="12"/>
-<connect gate="G$1" pin="TRIANGLE" pad="3"/>
-<connect gate="G$1" pin="V+" pad="6"/>
-<connect gate="G$1" pin="V-" pad="11"/>
+<connect gate="1" pin="CAP" pad="10"/>
+<connect gate="1" pin="D_ADJ1" pad="4"/>
+<connect gate="1" pin="D_ADJ2" pad="5"/>
+<connect gate="1" pin="FM_BIAS" pad="7"/>
+<connect gate="1" pin="SINE" pad="2"/>
+<connect gate="1" pin="SQUARE" pad="9"/>
+<connect gate="1" pin="SWEEP" pad="8"/>
+<connect gate="1" pin="S_ADJ1" pad="1"/>
+<connect gate="1" pin="S_ADJ2" pad="12"/>
+<connect gate="1" pin="TRIANGLE" pad="3"/>
+<connect gate="1" pin="V+" pad="6"/>
+<connect gate="1" pin="V-" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2330,29 +2330,29 @@
 <description>PHILIPS - Integrated FM tuner for radio receivers&lt;br&gt;
 &lt;i&gt;http://www.elektronik.sk/datasheet/TDA1574.pdf&lt;/i&gt;</description>
 <gates>
-<gate name="G$1" symbol="TDA1574" x="0" y="0"/>
+<gate name="1" symbol="TDA1574" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL20">
 <connects>
-<connect gate="G$1" pin="AGC" pad="20"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="IFI1" pad="15"/>
-<connect gate="G$1" pin="IFI2" pad="16"/>
-<connect gate="G$1" pin="IFO" pad="12"/>
-<connect gate="G$1" pin="MXI1" pad="1"/>
-<connect gate="G$1" pin="MXI2" pad="2"/>
-<connect gate="G$1" pin="MXO1" pad="18"/>
-<connect gate="G$1" pin="MXO2" pad="19"/>
-<connect gate="G$1" pin="NBI" pad="14"/>
-<connect gate="G$1" pin="OSC" pad="9"/>
-<connect gate="G$1" pin="OSI1" pad="7"/>
-<connect gate="G$1" pin="OSI2" pad="8"/>
-<connect gate="G$1" pin="OSO" pad="6"/>
-<connect gate="G$1" pin="STB" pad="13"/>
-<connect gate="G$1" pin="V+" pad="17"/>
-<connect gate="G$1" pin="VREF" pad="5"/>
-<connect gate="G$1" pin="WBI" pad="3"/>
+<connect gate="1" pin="AGC" pad="20"/>
+<connect gate="1" pin="GND" pad="4"/>
+<connect gate="1" pin="IFI1" pad="15"/>
+<connect gate="1" pin="IFI2" pad="16"/>
+<connect gate="1" pin="IFO" pad="12"/>
+<connect gate="1" pin="MXI1" pad="1"/>
+<connect gate="1" pin="MXI2" pad="2"/>
+<connect gate="1" pin="MXO1" pad="18"/>
+<connect gate="1" pin="MXO2" pad="19"/>
+<connect gate="1" pin="NBI" pad="14"/>
+<connect gate="1" pin="OSC" pad="9"/>
+<connect gate="1" pin="OSI1" pad="7"/>
+<connect gate="1" pin="OSI2" pad="8"/>
+<connect gate="1" pin="OSO" pad="6"/>
+<connect gate="1" pin="STB" pad="13"/>
+<connect gate="1" pin="V+" pad="17"/>
+<connect gate="1" pin="VREF" pad="5"/>
+<connect gate="1" pin="WBI" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2362,21 +2362,21 @@
 </deviceset>
 <deviceset name="BA6229">
 <gates>
-<gate name="G$1" symbol="BA6229" x="0" y="0"/>
+<gate name="1" symbol="BA6229" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SIP10">
 <connects>
-<connect gate="G$1" pin="C1" pad="3"/>
-<connect gate="G$1" pin="C2" pad="9"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="LM+" pad="2"/>
-<connect gate="G$1" pin="LM-" pad="10"/>
-<connect gate="G$1" pin="LMF" pad="5"/>
-<connect gate="G$1" pin="LMR" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="VCC_M" pad="7"/>
-<connect gate="G$1" pin="ZD-" pad="4"/>
+<connect gate="1" pin="C1" pad="3"/>
+<connect gate="1" pin="C2" pad="9"/>
+<connect gate="1" pin="GND" pad="1"/>
+<connect gate="1" pin="LM+" pad="2"/>
+<connect gate="1" pin="LM-" pad="10"/>
+<connect gate="1" pin="LMF" pad="5"/>
+<connect gate="1" pin="LMR" pad="6"/>
+<connect gate="1" pin="VCC" pad="8"/>
+<connect gate="1" pin="VCC_M" pad="7"/>
+<connect gate="1" pin="ZD-" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2386,23 +2386,23 @@
 </deviceset>
 <deviceset name="BA5412">
 <gates>
-<gate name="G$1" symbol="BA5412" x="0" y="0"/>
+<gate name="1" symbol="BA5412" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SIP12">
 <connects>
-<connect gate="G$1" pin="1IN+" pad="5"/>
-<connect gate="G$1" pin="1IN-" pad="4"/>
-<connect gate="G$1" pin="1OUT" pad="2"/>
-<connect gate="G$1" pin="1PWR" pad="3"/>
-<connect gate="G$1" pin="2IN+" pad="8"/>
-<connect gate="G$1" pin="2IN-" pad="9"/>
-<connect gate="G$1" pin="2OUT" pad="11"/>
-<connect gate="G$1" pin="2PWR" pad="10"/>
-<connect gate="G$1" pin="CAP+" pad="7"/>
-<connect gate="G$1" pin="GND" pad="12"/>
-<connect gate="G$1" pin="STBY" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="1" pin="1IN+" pad="5"/>
+<connect gate="1" pin="1IN-" pad="4"/>
+<connect gate="1" pin="1OUT" pad="2"/>
+<connect gate="1" pin="1PWR" pad="3"/>
+<connect gate="1" pin="2IN+" pad="8"/>
+<connect gate="1" pin="2IN-" pad="9"/>
+<connect gate="1" pin="2OUT" pad="11"/>
+<connect gate="1" pin="2PWR" pad="10"/>
+<connect gate="1" pin="CAP+" pad="7"/>
+<connect gate="1" pin="GND" pad="12"/>
+<connect gate="1" pin="STBY" pad="6"/>
+<connect gate="1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2416,7 +2416,7 @@
 <gates>
 <gate name="A" symbol="OPAMP" x="0" y="10.16"/>
 <gate name="B" symbol="OPAMP" x="0" y="-10.16"/>
-<gate name="G$3" symbol="PWR+-" x="12.7" y="0"/>
+<gate name="3" symbol="PWR+-" x="12.7" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL16">
@@ -2427,8 +2427,8 @@
 <connect gate="B" pin="+IN" pad="6"/>
 <connect gate="B" pin="-IN" pad="5"/>
 <connect gate="B" pin="OUT" pad="3"/>
-<connect gate="G$3" pin="V+" pad="2"/>
-<connect gate="G$3" pin="V-" pad="4 9 10 11 12 13 14 15 16"/>
+<connect gate="3" pin="V+" pad="2"/>
+<connect gate="3" pin="V-" pad="4 9 10 11 12 13 14 15 16"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2439,20 +2439,20 @@
 <deviceset name="TA7358" prefix="IC">
 <description>TOSHIBA - FM FRONT-END&lt;br&gt;&lt;i&gt;http://ukradio.info/Degen/TA7358.pdf&lt;/i&gt;</description>
 <gates>
-<gate name="G$1" symbol="TA7358AP" x="0" y="0"/>
+<gate name="1" symbol="TA7358AP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SIP9">
 <connects>
-<connect gate="G$1" pin="BYPASS" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="MIX_IN" pad="4"/>
-<connect gate="G$1" pin="MIX_OUT" pad="6"/>
-<connect gate="G$1" pin="OSC" pad="8"/>
-<connect gate="G$1" pin="OSC_MON" pad="7"/>
-<connect gate="G$1" pin="RF_IN" pad="1"/>
-<connect gate="G$1" pin="RF_OUT" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="1" pin="BYPASS" pad="2"/>
+<connect gate="1" pin="GND" pad="5"/>
+<connect gate="1" pin="MIX_IN" pad="4"/>
+<connect gate="1" pin="MIX_OUT" pad="6"/>
+<connect gate="1" pin="OSC" pad="8"/>
+<connect gate="1" pin="OSC_MON" pad="7"/>
+<connect gate="1" pin="RF_IN" pad="1"/>
+<connect gate="1" pin="RF_OUT" pad="3"/>
+<connect gate="1" pin="VCC" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2463,27 +2463,27 @@
 <deviceset name="TA7757">
 <description>FM / AM IF System (3V USE)&lt;br&gt;&lt;i&gt;http://www.maxdat.eu/_data/15=Letoltesek/Tuner%20Ic/TA7757P%20-%20AM-FM%20IF%20System.pdf&lt;/i&gt;</description>
 <gates>
-<gate name="G$1" symbol="TA7757" x="0" y="0"/>
+<gate name="1" symbol="TA7757" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL16">
 <connects>
-<connect gate="G$1" pin="AGC" pad="6"/>
-<connect gate="G$1" pin="AM/FM" pad="3"/>
-<connect gate="G$1" pin="AM_DET" pad="11"/>
-<connect gate="G$1" pin="AM_IN" pad="2"/>
-<connect gate="G$1" pin="BY1" pad="1"/>
-<connect gate="G$1" pin="BY2" pad="14"/>
-<connect gate="G$1" pin="FM_IF_IN" pad="15"/>
-<connect gate="G$1" pin="GND" pad="8"/>
-<connect gate="G$1" pin="IF_AM_IN" pad="13"/>
-<connect gate="G$1" pin="MX_OUT" pad="16"/>
-<connect gate="G$1" pin="NF_OUT" pad="9"/>
-<connect gate="G$1" pin="OSC" pad="4"/>
-<connect gate="G$1" pin="QUAD" pad="12"/>
-<connect gate="G$1" pin="S-METR" pad="7"/>
-<connect gate="G$1" pin="VCC" pad="10"/>
-<connect gate="G$1" pin="VS" pad="5"/>
+<connect gate="1" pin="AGC" pad="6"/>
+<connect gate="1" pin="AM/FM" pad="3"/>
+<connect gate="1" pin="AM_DET" pad="11"/>
+<connect gate="1" pin="AM_IN" pad="2"/>
+<connect gate="1" pin="BY1" pad="1"/>
+<connect gate="1" pin="BY2" pad="14"/>
+<connect gate="1" pin="FM_IF_IN" pad="15"/>
+<connect gate="1" pin="GND" pad="8"/>
+<connect gate="1" pin="IF_AM_IN" pad="13"/>
+<connect gate="1" pin="MX_OUT" pad="16"/>
+<connect gate="1" pin="NF_OUT" pad="9"/>
+<connect gate="1" pin="OSC" pad="4"/>
+<connect gate="1" pin="QUAD" pad="12"/>
+<connect gate="1" pin="S-METR" pad="7"/>
+<connect gate="1" pin="VCC" pad="10"/>
+<connect gate="1" pin="VS" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2494,27 +2494,27 @@
 <deviceset name="LA3361">
 <description>PLL FM multiplex stereo demodulator&lt;br&gt;&lt;i&gt;http://www.alphacron.de/download/hardware/LA3361.pdf&lt;/i&gt;</description>
 <gates>
-<gate name="G$1" symbol="LA3361" x="0" y="0"/>
+<gate name="1" symbol="LA3361" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL16">
 <connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="CONTROL" pad="9"/>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="L" pad="4"/>
-<connect gate="G$1" pin="LAMP" pad="6"/>
-<connect gate="G$1" pin="MPX_IN" pad="2"/>
-<connect gate="G$1" pin="R" pad="5"/>
-<connect gate="G$1" pin="TUNE" pad="16"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="1" pin="10" pad="10"/>
+<connect gate="1" pin="11" pad="11"/>
+<connect gate="1" pin="12" pad="12"/>
+<connect gate="1" pin="13" pad="13"/>
+<connect gate="1" pin="14" pad="14"/>
+<connect gate="1" pin="15" pad="15"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="8" pad="8"/>
+<connect gate="1" pin="CONTROL" pad="9"/>
+<connect gate="1" pin="GND" pad="7"/>
+<connect gate="1" pin="L" pad="4"/>
+<connect gate="1" pin="LAMP" pad="6"/>
+<connect gate="1" pin="MPX_IN" pad="2"/>
+<connect gate="1" pin="R" pad="5"/>
+<connect gate="1" pin="TUNE" pad="16"/>
+<connect gate="1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2529,7 +2529,7 @@
 <gate name="B" symbol="OPAMP" x="0" y="10.16"/>
 <gate name="C" symbol="OPAMP" x="0" y="-7.62"/>
 <gate name="D" symbol="OPAMP" x="0" y="-22.86"/>
-<gate name="G$5" symbol="PWR+-" x="17.78" y="0"/>
+<gate name="5" symbol="PWR+-" x="17.78" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL14">
@@ -2546,8 +2546,8 @@
 <connect gate="D" pin="+IN" pad="11"/>
 <connect gate="D" pin="-IN" pad="10"/>
 <connect gate="D" pin="OUT" pad="13"/>
-<connect gate="G$5" pin="V+" pad="3"/>
-<connect gate="G$5" pin="V-" pad="12"/>
+<connect gate="5" pin="V+" pad="3"/>
+<connect gate="5" pin="V-" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2821,7 +2821,7 @@
 <description>Operational Amplifier&lt;br&gt;http://www.ti.com/lit/ds/symlink/lm741.pdf</description>
 <gates>
 <gate name="A" symbol="OPAMP" x="0" y="0"/>
-<gate name="G$2" symbol="PWR+-" x="15.24" y="0"/>
+<gate name="2" symbol="PWR+-" x="15.24" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL08">
@@ -2829,8 +2829,8 @@
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="2"/>
 <connect gate="A" pin="OUT" pad="6"/>
-<connect gate="G$2" pin="V+" pad="7"/>
-<connect gate="G$2" pin="V-" pad="4"/>
+<connect gate="2" pin="V+" pad="7"/>
+<connect gate="2" pin="V-" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2842,31 +2842,31 @@
 <description>Direct PLL Frequency Synthesizer for Electronic Tuning&lt;br&gt;
 &lt;i&gt;http://pdf1.alldatasheet.com/datasheet-pdf/view/41207/SANYO/LM7000/+313Q8UOYLXObMPCABt+/datasheet.pdf&lt;/i&gt;</description>
 <gates>
-<gate name="G$1" symbol="LM7000" x="0" y="0"/>
+<gate name="1" symbol="LM7000" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL20">
 <connects>
-<connect gate="G$1" pin="/STOUT" pad="6"/>
-<connect gate="G$1" pin="/STRQ" pad="2"/>
-<connect gate="G$1" pin="/SYC" pad="7"/>
-<connect gate="G$1" pin="AMIF" pad="11"/>
-<connect gate="G$1" pin="AMIN" pad="13"/>
-<connect gate="G$1" pin="BO1" pad="8"/>
-<connect gate="G$1" pin="BO2" pad="9"/>
-<connect gate="G$1" pin="BO3" pad="10"/>
-<connect gate="G$1" pin="CE" pad="3"/>
-<connect gate="G$1" pin="CL" pad="4"/>
-<connect gate="G$1" pin="DATA" pad="5"/>
-<connect gate="G$1" pin="FMIF" pad="12"/>
-<connect gate="G$1" pin="FMIN" pad="14"/>
-<connect gate="G$1" pin="PD1" pad="17"/>
-<connect gate="G$1" pin="PD2" pad="18"/>
-<connect gate="G$1" pin="VDD1" pad="15"/>
-<connect gate="G$1" pin="VDD2" pad="16"/>
-<connect gate="G$1" pin="VSS" pad="19"/>
-<connect gate="G$1" pin="XIN" pad="1"/>
-<connect gate="G$1" pin="XOUT" pad="20"/>
+<connect gate="1" pin="/STOUT" pad="6"/>
+<connect gate="1" pin="/STRQ" pad="2"/>
+<connect gate="1" pin="/SYC" pad="7"/>
+<connect gate="1" pin="AMIF" pad="11"/>
+<connect gate="1" pin="AMIN" pad="13"/>
+<connect gate="1" pin="BO1" pad="8"/>
+<connect gate="1" pin="BO2" pad="9"/>
+<connect gate="1" pin="BO3" pad="10"/>
+<connect gate="1" pin="CE" pad="3"/>
+<connect gate="1" pin="CL" pad="4"/>
+<connect gate="1" pin="DATA" pad="5"/>
+<connect gate="1" pin="FMIF" pad="12"/>
+<connect gate="1" pin="FMIN" pad="14"/>
+<connect gate="1" pin="PD1" pad="17"/>
+<connect gate="1" pin="PD2" pad="18"/>
+<connect gate="1" pin="VDD1" pad="15"/>
+<connect gate="1" pin="VDD2" pad="16"/>
+<connect gate="1" pin="VSS" pad="19"/>
+<connect gate="1" pin="XIN" pad="1"/>
+<connect gate="1" pin="XOUT" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2880,7 +2880,7 @@
 <gate name="B" symbol="OTA" x="0" y="2.54"/>
 <gate name="A*" symbol="OTABUF" x="35.56" y="22.86"/>
 <gate name="B*" symbol="OTABUF" x="35.56" y="2.54"/>
-<gate name="G$5" symbol="PWR+-OTA" x="0" y="22.86"/>
+<gate name="5" symbol="PWR+-OTA" x="0" y="22.86"/>
 </gates>
 <devices>
 <device name="" package="DIL16">
@@ -2899,8 +2899,8 @@
 <connect gate="B" pin="OUT" pad="12"/>
 <connect gate="B*" pin="BUFF/IN" pad="9"/>
 <connect gate="B*" pin="BUFF/OUT" pad="10"/>
-<connect gate="G$5" pin="V+" pad="11"/>
-<connect gate="G$5" pin="V-" pad="6"/>
+<connect gate="5" pin="V+" pad="11"/>
+<connect gate="5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2914,7 +2914,7 @@
 <gate name="B" symbol="OPAMP" x="-20.32" y="-2.54"/>
 <gate name="C" symbol="OPAMP" x="-20.32" y="-15.24"/>
 <gate name="D" symbol="OPAMP" x="-20.32" y="-27.94"/>
-<gate name="G$5" symbol="PWR+-" x="0" y="0"/>
+<gate name="5" symbol="PWR+-" x="0" y="0"/>
 </gates>
 <devices>
 <device name="N" package="DIL14">
@@ -2931,8 +2931,8 @@
 <connect gate="D" pin="+IN" pad="11"/>
 <connect gate="D" pin="-IN" pad="10"/>
 <connect gate="D" pin="OUT" pad="13"/>
-<connect gate="G$5" pin="V+" pad="3"/>
-<connect gate="G$5" pin="V-" pad="12"/>
+<connect gate="5" pin="V+" pad="3"/>
+<connect gate="5" pin="V-" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2952,8 +2952,8 @@
 <connect gate="D" pin="+IN" pad="11"/>
 <connect gate="D" pin="-IN" pad="10"/>
 <connect gate="D" pin="OUT" pad="13"/>
-<connect gate="G$5" pin="V+" pad="3"/>
-<connect gate="G$5" pin="V-" pad="12"/>
+<connect gate="5" pin="V+" pad="3"/>
+<connect gate="5" pin="V-" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2965,7 +2965,7 @@
 <gates>
 <gate name="A" symbol="OTA" x="0" y="0"/>
 <gate name="B" symbol="BUFFER" x="27.94" y="0"/>
-<gate name="G$1" symbol="PWR+-OTA" x="10.16" y="-16.51"/>
+<gate name="1" symbol="PWR+-OTA" x="10.16" y="-16.51"/>
 </gates>
 <devices>
 <device name="-DIL16" package="DIL16">
@@ -2977,8 +2977,8 @@
 <connect gate="A" pin="OUT" pad="11"/>
 <connect gate="B" pin="B_IN" pad="12"/>
 <connect gate="B" pin="B_OUT" pad="14"/>
-<connect gate="G$1" pin="V+" pad="15"/>
-<connect gate="G$1" pin="V-" pad="9"/>
+<connect gate="1" pin="V+" pad="15"/>
+<connect gate="1" pin="V-" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2993,8 +2993,8 @@
 <connect gate="A" pin="OUT" pad="6"/>
 <connect gate="B" pin="B_IN" pad="7"/>
 <connect gate="B" pin="B_OUT" pad="8"/>
-<connect gate="G$1" pin="V+" pad="9"/>
-<connect gate="G$1" pin="V-" pad="5"/>
+<connect gate="1" pin="V+" pad="9"/>
+<connect gate="1" pin="V-" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -292,13 +292,13 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high speed (Philips)</description>
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="DO35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -306,8 +306,8 @@ high speed (Philips)</description>
 </device>
 <device name="DO35-7" package="DO35-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -317,20 +317,20 @@ high speed (Philips)</description>
 </deviceset>
 <deviceset name="BA6110">
 <gates>
-<gate name="G$1" symbol="VCOPAMP" x="-2.54" y="0"/>
+<gate name="1" symbol="VCOPAMP" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="SIL" package="SIL09">
 <connects>
-<connect gate="G$1" pin="+IN" pad="1"/>
-<connect gate="G$1" pin="-IN" pad="2"/>
-<connect gate="G$1" pin="C" pad="4"/>
-<connect gate="G$1" pin="IN1" pad="7"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="OUT1" pad="8"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
-<connect gate="G$1" pin="V+" pad="9"/>
-<connect gate="G$1" pin="V-" pad="5"/>
+<connect gate="1" pin="+IN" pad="1"/>
+<connect gate="1" pin="-IN" pad="2"/>
+<connect gate="1" pin="C" pad="4"/>
+<connect gate="1" pin="IN1" pad="7"/>
+<connect gate="1" pin="OUT" pad="6"/>
+<connect gate="1" pin="OUT1" pad="8"/>
+<connect gate="1" pin="P$3" pad="3"/>
+<connect gate="1" pin="V+" pad="9"/>
+<connect gate="1" pin="V-" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -338,15 +338,15 @@ high speed (Philips)</description>
 </device>
 <device name="" package="SIL09_BA6110">
 <connects>
-<connect gate="G$1" pin="+IN" pad="1"/>
-<connect gate="G$1" pin="-IN" pad="2"/>
-<connect gate="G$1" pin="C" pad="4"/>
-<connect gate="G$1" pin="IN1" pad="7"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="OUT1" pad="8"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
-<connect gate="G$1" pin="V+" pad="9"/>
-<connect gate="G$1" pin="V-" pad="5"/>
+<connect gate="1" pin="+IN" pad="1"/>
+<connect gate="1" pin="-IN" pad="2"/>
+<connect gate="1" pin="C" pad="4"/>
+<connect gate="1" pin="IN1" pad="7"/>
+<connect gate="1" pin="OUT" pad="6"/>
+<connect gate="1" pin="OUT1" pad="8"/>
+<connect gate="1" pin="P$3" pad="3"/>
+<connect gate="1" pin="V+" pad="9"/>
+<connect gate="1" pin="V-" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -429,14 +429,14 @@ high speed (Philips)</description>
 <deviceset name="AUDIO-JACK" prefix="JCK">
 <description>Switching Mono 3.5mm Audio Jack from Erthenvar.</description>
 <gates>
-<gate name="G$1" symbol="AUDIO-JACK" x="0" y="0"/>
+<gate name="1" symbol="AUDIO-JACK" x="0" y="0"/>
 </gates>
 <devices>
 <device name="ERTHENVAR" package="ERTHENVAR-JACK">
 <connects>
-<connect gate="G$1" pin="NORM" pad="2"/>
-<connect gate="G$1" pin="RING" pad="1@1 1@2"/>
-<connect gate="G$1" pin="TIP" pad="3"/>
+<connect gate="1" pin="NORM" pad="2"/>
+<connect gate="1" pin="RING" pad="1@1 1@2"/>
+<connect gate="1" pin="TIP" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -444,9 +444,9 @@ high speed (Philips)</description>
 </device>
 <device name="" package="ERTHENVAR-JACK-90DEG">
 <connects>
-<connect gate="G$1" pin="NORM" pad="P$2"/>
-<connect gate="G$1" pin="RING" pad="P$1"/>
-<connect gate="G$1" pin="TIP" pad="P$3"/>
+<connect gate="1" pin="NORM" pad="P$2"/>
+<connect gate="1" pin="RING" pad="P$1"/>
+<connect gate="1" pin="TIP" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1703,13 +1703,13 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1717,8 +1717,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1726,8 +1726,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1735,8 +1735,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1744,8 +1744,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1753,8 +1753,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1762,8 +1762,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1771,8 +1771,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1780,8 +1780,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1789,8 +1789,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1798,8 +1798,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1807,8 +1807,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1816,8 +1816,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1825,8 +1825,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1834,8 +1834,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1843,8 +1843,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1852,8 +1852,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1861,8 +1861,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1870,8 +1870,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1879,8 +1879,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1888,8 +1888,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1897,8 +1897,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1906,8 +1906,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1915,8 +1915,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1924,8 +1924,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1933,8 +1933,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1942,8 +1942,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1951,8 +1951,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1960,8 +1960,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/12-V" package="0202/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1971,13 +1971,13 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </deviceset>
 <deviceset name="R-H" prefix="R">
 <gates>
-<gate name="G$1" symbol="R-H" x="0" y="0"/>
+<gate name="1" symbol="R-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1985,8 +1985,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1994,8 +1994,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2003,8 +2003,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2012,8 +2012,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2021,8 +2021,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2030,8 +2030,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2039,8 +2039,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2048,8 +2048,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2057,8 +2057,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2066,8 +2066,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2075,8 +2075,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2084,8 +2084,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2093,8 +2093,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2102,8 +2102,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2111,8 +2111,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2120,8 +2120,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2129,8 +2129,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2138,8 +2138,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2356,14 +2356,14 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <devicesets>
 <deviceset name="2N3906-H">
 <gates>
-<gate name="G$1" symbol="PNP-H" x="0" y="0"/>
+<gate name="1" symbol="PNP-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2371,9 +2371,9 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="-EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2383,14 +2383,14 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </deviceset>
 <deviceset name="2N3906" prefix="T">
 <gates>
-<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
+<gate name="1" symbol="PNP" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2398,9 +2398,9 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="TO92-EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2410,14 +2410,14 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </deviceset>
 <deviceset name="2N3904" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2425,9 +2425,9 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2592,7 +2592,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <gate name="B" symbol="OPAMP" x="-20.32" y="-2.54"/>
 <gate name="C" symbol="OPAMP" x="-20.32" y="-15.24"/>
 <gate name="D" symbol="OPAMP" x="-20.32" y="-27.94"/>
-<gate name="G$5" symbol="PWR+-" x="0" y="0"/>
+<gate name="5" symbol="PWR+-" x="0" y="0"/>
 </gates>
 <devices>
 <device name="N" package="DIL14">
@@ -2609,8 +2609,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <connect gate="D" pin="+IN" pad="11"/>
 <connect gate="D" pin="-IN" pad="10"/>
 <connect gate="D" pin="OUT" pad="13"/>
-<connect gate="G$5" pin="V+" pad="3"/>
-<connect gate="G$5" pin="V-" pad="12"/>
+<connect gate="5" pin="V+" pad="3"/>
+<connect gate="5" pin="V-" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2630,8 +2630,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <connect gate="D" pin="+IN" pad="11"/>
 <connect gate="D" pin="-IN" pad="10"/>
 <connect gate="D" pin="OUT" pad="13"/>
-<connect gate="G$5" pin="V+" pad="3"/>
-<connect gate="G$5" pin="V-" pad="12"/>
+<connect gate="5" pin="V+" pad="3"/>
+<connect gate="5" pin="V-" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5778,13 +5778,13 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </deviceset>
 <deviceset name="C-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="C-H" x="0" y="0"/>
+<gate name="1" symbol="C-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5792,8 +5792,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="050-020X044" package="C050-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5801,8 +5801,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="075-020X044" package="C075-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5810,8 +5810,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="075-020X044/V" package="C075-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5819,8 +5819,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="050-020X044/V" package="C050-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5828,8 +5828,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5837,8 +5837,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="050-024X044/V" package="C050-024X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5846,8 +5846,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="050-020X036" package="C050-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5855,8 +5855,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="050-020X036/V" package="C050-020X036/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5867,13 +5867,13 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5881,8 +5881,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5890,8 +5890,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5899,8 +5899,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5908,8 +5908,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5917,8 +5917,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5926,8 +5926,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5935,8 +5935,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5944,8 +5944,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5953,8 +5953,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5962,8 +5962,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5971,8 +5971,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5980,8 +5980,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5989,8 +5989,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5998,8 +5998,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6007,8 +6007,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6016,8 +6016,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6025,8 +6025,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6034,8 +6034,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6043,8 +6043,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6052,8 +6052,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6061,8 +6061,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6070,8 +6070,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6079,8 +6079,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6088,8 +6088,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6097,8 +6097,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6106,8 +6106,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6115,8 +6115,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6124,8 +6124,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6133,8 +6133,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6142,8 +6142,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6151,8 +6151,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6160,8 +6160,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6169,8 +6169,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6178,8 +6178,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6187,8 +6187,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6196,8 +6196,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6205,8 +6205,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6214,8 +6214,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6223,8 +6223,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6232,8 +6232,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6241,8 +6241,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E5-4-R45" package="E5-4-R45">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6250,8 +6250,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-3/V" package="E2,5-3/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6261,13 +6261,13 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </deviceset>
 <deviceset name="CPOL-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CPOL-H" x="0" y="0"/>
+<gate name="1" symbol="CPOL-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E2,5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6275,8 +6275,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6284,8 +6284,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6293,8 +6293,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-3/V" package="E2,5-3/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6302,8 +6302,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6311,8 +6311,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6681,13 +6681,13 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <devicesets>
 <deviceset name="DIODE-H" prefix="D" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="D-H" x="0" y="0"/>
+<gate name="1" symbol="D-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="DO34-10" package="DO34-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6695,8 +6695,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-10V" package="DO34-10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6704,8 +6704,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-5" package="DO34-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6713,8 +6713,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-5V" package="DO34-5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6722,8 +6722,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6731,8 +6731,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-7V" package="DO34-7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6740,8 +6740,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-2,5" package="DO34-2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6749,8 +6749,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-2,5-A" package="DO34-2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6758,8 +6758,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-2,5/V" package="DO34-2,5/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6767,8 +6767,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </device>
 <device name="DO34-2,5-A/V" package="DO34-2,5-A/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6828,17 +6828,17 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <devicesets>
 <deviceset name="CONN-6P">
 <gates>
-<gate name="G$1" symbol="PINCONN-6P" x="0" y="0"/>
+<gate name="1" symbol="PINCONN-6P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CONN-6P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7007,43 +7007,43 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <text x="68.58" y="160.02" size="3.81" layer="94">HANDCLAP </text>
 </plain>
 <instances>
-<instance part="R21" gate="G$1" x="43.18" y="144.78" rot="MR0"/>
-<instance part="R23" gate="G$1" x="43.18" y="124.46" rot="MR180"/>
-<instance part="R31" gate="G$1" x="33.02" y="144.78" rot="MR180"/>
-<instance part="R30" gate="G$1" x="33.02" y="160.02" rot="MR180"/>
+<instance part="R21" gate="1" x="43.18" y="144.78" rot="MR0"/>
+<instance part="R23" gate="1" x="43.18" y="124.46" rot="MR180"/>
+<instance part="R31" gate="1" x="33.02" y="144.78" rot="MR180"/>
+<instance part="R30" gate="1" x="33.02" y="160.02" rot="MR180"/>
 <instance part="GND15" gate="1" x="43.18" y="116.84" rot="MR0"/>
 <instance part="GND16" gate="1" x="33.02" y="116.84" rot="MR0"/>
-<instance part="D1" gate="G$1" x="59.69" y="104.14"/>
-<instance part="D3" gate="G$1" x="59.69" y="88.9"/>
+<instance part="D1" gate="1" x="59.69" y="104.14"/>
+<instance part="D3" gate="1" x="59.69" y="88.9"/>
 <instance part="C5" gate="1" x="68.58" y="99.06" rot="R180"/>
-<instance part="C2" gate="G$1" x="68.58" y="83.82"/>
-<instance part="R40" gate="G$1" x="68.58" y="114.3"/>
+<instance part="C2" gate="1" x="68.58" y="83.82"/>
+<instance part="R40" gate="1" x="68.58" y="114.3"/>
 <instance part="C10" gate="1" x="60.96" y="119.38"/>
-<instance part="R2" gate="G$1" x="78.74" y="124.46" rot="MR0"/>
+<instance part="R2" gate="1" x="78.74" y="124.46" rot="MR0"/>
 <instance part="GND17" gate="1" x="68.58" y="93.98"/>
 <instance part="GND18" gate="1" x="68.58" y="78.74" rot="MR0"/>
 <instance part="GND19" gate="1" x="60.96" y="114.3" rot="MR0"/>
-<instance part="R14" gate="G$1" x="81.28" y="88.9" rot="MR0"/>
-<instance part="R29" gate="G$1" x="88.9" y="99.06"/>
-<instance part="R38" gate="G$1" x="93.98" y="109.22" rot="MR0"/>
-<instance part="R24" gate="G$1" x="93.98" y="139.7"/>
+<instance part="R14" gate="1" x="81.28" y="88.9" rot="MR0"/>
+<instance part="R29" gate="1" x="88.9" y="99.06"/>
+<instance part="R38" gate="1" x="93.98" y="109.22" rot="MR0"/>
+<instance part="R24" gate="1" x="93.98" y="139.7"/>
 <instance part="C16" gate="1" x="86.36" y="139.7"/>
 <instance part="TM1" gate="1" x="78.74" y="106.68"/>
 <instance part="GND20" gate="1" x="86.36" y="114.3" rot="MR0"/>
 <instance part="GND21" gate="1" x="93.98" y="101.6" rot="MR0"/>
 <instance part="C8" gate="1" x="111.76" y="106.68"/>
-<instance part="R17" gate="G$1" x="106.68" y="144.78" rot="MR180"/>
-<instance part="R15" gate="G$1" x="119.38" y="152.4" rot="MR0"/>
-<instance part="C4" gate="G$1" x="142.24" y="152.4" rot="R180"/>
-<instance part="C3" gate="G$1" x="152.4" y="152.4" rot="R180"/>
-<instance part="R26" gate="G$1" x="147.32" y="143.51" rot="MR0"/>
-<instance part="R12" gate="G$1" x="139.7" y="162.56" rot="MR180"/>
-<instance part="R9" gate="G$1" x="162.56" y="157.48" rot="MR0"/>
-<instance part="C15" gate="G$1" x="162.56" y="167.64" rot="R180"/>
-<instance part="C9" gate="G$1" x="132.08" y="129.54" rot="R180"/>
-<instance part="R3" gate="G$1" x="127" y="120.65" rot="MR180"/>
-<instance part="R36" gate="G$1" x="127" y="99.06"/>
-<instance part="R35" gate="G$1" x="134.62" y="95.25" rot="MR180"/>
+<instance part="R17" gate="1" x="106.68" y="144.78" rot="MR180"/>
+<instance part="R15" gate="1" x="119.38" y="152.4" rot="MR0"/>
+<instance part="C4" gate="1" x="142.24" y="152.4" rot="R180"/>
+<instance part="C3" gate="1" x="152.4" y="152.4" rot="R180"/>
+<instance part="R26" gate="1" x="147.32" y="143.51" rot="MR0"/>
+<instance part="R12" gate="1" x="139.7" y="162.56" rot="MR180"/>
+<instance part="R9" gate="1" x="162.56" y="157.48" rot="MR0"/>
+<instance part="C15" gate="1" x="162.56" y="167.64" rot="R180"/>
+<instance part="C9" gate="1" x="132.08" y="129.54" rot="R180"/>
+<instance part="R3" gate="1" x="127" y="120.65" rot="MR180"/>
+<instance part="R36" gate="1" x="127" y="99.06"/>
+<instance part="R35" gate="1" x="134.62" y="95.25" rot="MR180"/>
 <instance part="C14" gate="1" x="119.38" y="106.68"/>
 <instance part="GND22" gate="1" x="119.38" y="96.52" rot="MR0"/>
 <instance part="GND23" gate="1" x="127" y="88.9" rot="MR0"/>
@@ -7051,63 +7051,63 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <instance part="GND25" gate="1" x="157.48" y="124.46" rot="MR0"/>
 <instance part="GND26" gate="1" x="132.08" y="160.02" rot="MR0"/>
 <instance part="GND27" gate="1" x="106.68" y="137.16" rot="MR0"/>
-<instance part="R8" gate="G$1" x="149.86" y="92.71"/>
+<instance part="R8" gate="1" x="149.86" y="92.71"/>
 <instance part="C7" gate="1" x="185.42" y="101.6"/>
-<instance part="R11" gate="G$1" x="185.42" y="91.44" rot="MR0"/>
-<instance part="R13" gate="G$1" x="170.18" y="99.06" rot="MR180"/>
+<instance part="R11" gate="1" x="185.42" y="91.44" rot="MR0"/>
+<instance part="R13" gate="1" x="170.18" y="99.06" rot="MR180"/>
 <instance part="GND29" gate="1" x="170.18" y="91.44" rot="MR0"/>
-<instance part="R25" gate="G$1" x="172.72" y="63.5"/>
-<instance part="R42" gate="G$1" x="185.42" y="38.1"/>
-<instance part="R1" gate="G$1" x="144.78" y="48.26" rot="MR0"/>
-<instance part="R39" gate="G$1" x="152.4" y="40.64" rot="MR180"/>
-<instance part="R27" gate="G$1" x="137.16" y="55.88"/>
-<instance part="D2" gate="G$1" x="81.28" y="63.5"/>
-<instance part="R34" gate="G$1" x="71.12" y="55.88"/>
+<instance part="R25" gate="1" x="172.72" y="63.5"/>
+<instance part="R42" gate="1" x="185.42" y="38.1"/>
+<instance part="R1" gate="1" x="144.78" y="48.26" rot="MR0"/>
+<instance part="R39" gate="1" x="152.4" y="40.64" rot="MR180"/>
+<instance part="R27" gate="1" x="137.16" y="55.88"/>
+<instance part="D2" gate="1" x="81.28" y="63.5"/>
+<instance part="R34" gate="1" x="71.12" y="55.88"/>
 <instance part="GND31" gate="1" x="185.42" y="29.21" rot="MR0"/>
 <instance part="GND32" gate="1" x="152.4" y="33.02" rot="MR0"/>
 <instance part="GND33" gate="1" x="119.38" y="53.34" rot="MR0"/>
 <instance part="GND34" gate="1" x="71.12" y="48.26" rot="MR0"/>
-<instance part="R41" gate="G$1" x="93.98" y="55.88"/>
-<instance part="R4" gate="G$1" x="81.28" y="40.64" rot="MR0"/>
-<instance part="R33" gate="G$1" x="88.9" y="48.26" rot="MR180"/>
+<instance part="R41" gate="1" x="93.98" y="55.88"/>
+<instance part="R4" gate="1" x="81.28" y="40.64" rot="MR0"/>
+<instance part="R33" gate="1" x="88.9" y="48.26" rot="MR180"/>
 <instance part="GND35" gate="1" x="81.28" y="52.07" rot="MR0"/>
-<instance part="R19" gate="G$1" x="30.48" y="33.02" rot="MR180"/>
-<instance part="R28" gate="G$1" x="38.1" y="33.02"/>
+<instance part="R19" gate="1" x="30.48" y="33.02" rot="MR180"/>
+<instance part="R28" gate="1" x="38.1" y="33.02"/>
 <instance part="GND36" gate="1" x="30.48" y="2.54" rot="MR0"/>
-<instance part="C17" gate="G$1" x="104.14" y="48.26" rot="MR0"/>
+<instance part="C17" gate="1" x="104.14" y="48.26" rot="MR0"/>
 <instance part="C6" gate="1" x="73.66" y="30.48"/>
-<instance part="R7" gate="G$1" x="121.92" y="22.86" rot="MR0"/>
-<instance part="R10" gate="G$1" x="121.92" y="30.48" rot="MR180"/>
-<instance part="R20" gate="G$1" x="114.3" y="10.16" rot="MR180"/>
+<instance part="R7" gate="1" x="121.92" y="22.86" rot="MR0"/>
+<instance part="R10" gate="1" x="121.92" y="30.48" rot="MR180"/>
+<instance part="R20" gate="1" x="114.3" y="10.16" rot="MR180"/>
 <instance part="GND37" gate="1" x="114.3" y="2.54" rot="MR0"/>
-<instance part="R22" gate="G$1" x="22.86" y="33.02"/>
-<instance part="R37" gate="G$1" x="22.86" y="10.16"/>
-<instance part="R32" gate="G$1" x="38.1" y="10.16"/>
-<instance part="R18" gate="G$1" x="63.5" y="10.16" rot="MR180"/>
+<instance part="R22" gate="1" x="22.86" y="33.02"/>
+<instance part="R37" gate="1" x="22.86" y="10.16"/>
+<instance part="R32" gate="1" x="38.1" y="10.16"/>
+<instance part="R18" gate="1" x="63.5" y="10.16" rot="MR180"/>
 <instance part="C11" gate="1" x="71.12" y="10.16" rot="MR180"/>
-<instance part="D4" gate="G$1" x="86.36" y="10.16" smashed="yes" rot="R90">
+<instance part="D4" gate="1" x="86.36" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.6074" y="7.62" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="GND38" gate="1" x="63.5" y="2.54" rot="MR0"/>
 <instance part="GND39" gate="1" x="71.12" y="2.54" rot="MR0"/>
-<instance part="R5" gate="G$1" x="200.66" y="68.58" rot="MR180"/>
-<instance part="R16" gate="G$1" x="218.44" y="88.9" rot="MR0"/>
-<instance part="C12" gate="G$1" x="215.9" y="93.98" rot="R180"/>
-<instance part="C13" gate="G$1" x="220.98" y="101.6" rot="R180"/>
+<instance part="R5" gate="1" x="200.66" y="68.58" rot="MR180"/>
+<instance part="R16" gate="1" x="218.44" y="88.9" rot="MR0"/>
+<instance part="C12" gate="1" x="215.9" y="93.98" rot="R180"/>
+<instance part="C13" gate="1" x="220.98" y="101.6" rot="R180"/>
 <instance part="VR17" gate="1" x="208.28" y="106.68" rot="R270"/>
-<instance part="R6" gate="G$1" x="233.68" y="76.2" rot="MR0"/>
+<instance part="R6" gate="1" x="233.68" y="76.2" rot="MR0"/>
 <instance part="GND48" gate="1" x="200.66" y="58.42" rot="MR0"/>
-<instance part="U1" gate="G$1" x="165.1" y="106.68" rot="MR180"/>
-<instance part="R200'" gate="G$1" x="101.6" y="116.84" rot="MR180"/>
-<instance part="C1" gate="G$1" x="119.38" y="58.42" rot="MR180"/>
+<instance part="U1" gate="1" x="165.1" y="106.68" rot="MR180"/>
+<instance part="R200'" gate="1" x="101.6" y="116.84" rot="MR180"/>
+<instance part="C1" gate="1" x="119.38" y="58.42" rot="MR180"/>
 <instance part="P-1" gate="1" x="15.24" y="147.32"/>
 <instance part="P+4" gate="1" x="5.08" y="180.34"/>
 <instance part="GND4" gate="1" x="5.08" y="147.32"/>
 <instance part="GND10" gate="1" x="243.84" y="60.96"/>
-<instance part="Q5" gate="G$1" x="25.4" y="152.4" rot="MR0"/>
-<instance part="T6" gate="G$1" x="180.34" y="48.26" rot="MR0"/>
-<instance part="T4" gate="G$1" x="165.1" y="55.88" rot="MR0"/>
-<instance part="WHITE_NOISE" gate="G$1" x="193.04" y="157.48" rot="R180"/>
+<instance part="Q5" gate="1" x="25.4" y="152.4" rot="MR0"/>
+<instance part="T6" gate="1" x="180.34" y="48.26" rot="MR0"/>
+<instance part="T4" gate="1" x="165.1" y="55.88" rot="MR0"/>
+<instance part="WHITE_NOISE" gate="1" x="193.04" y="157.48" rot="R180"/>
 <instance part="V3" gate="1" x="185.42" y="147.32" rot="MR0"/>
 <instance part="WHITE_NORM" gate="-1" x="187.96" y="170.18" rot="MR180"/>
 <instance part="WHITE_NORM" gate="-2" x="187.96" y="172.72" rot="MR180"/>
@@ -7130,10 +7130,10 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <instance part="P+7" gate="1" x="210.82" y="68.58" rot="R180"/>
 <instance part="P-12" gate="1" x="210.82" y="83.82" rot="R180"/>
 <instance part="REVERB" gate="1" x="106.68" y="91.44"/>
-<instance part="T1" gate="G$1" x="35.56" y="132.08" rot="MR0"/>
-<instance part="T3" gate="G$1" x="134.62" y="22.86"/>
-<instance part="T7" gate="G$1" x="50.8" y="111.76"/>
-<instance part="T2" gate="G$1" x="91.44" y="124.46"/>
+<instance part="T1" gate="1" x="35.56" y="132.08" rot="MR0"/>
+<instance part="T3" gate="1" x="134.62" y="22.86"/>
+<instance part="T7" gate="1" x="50.8" y="111.76"/>
+<instance part="T2" gate="1" x="91.44" y="124.46"/>
 <instance part="IC4" gate="A" x="53.34" y="63.5"/>
 <instance part="IC4" gate="B" x="53.34" y="40.64" rot="MR180"/>
 <instance part="IC4" gate="C" x="53.34" y="20.32" rot="MR180"/>
@@ -7143,36 +7143,36 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <instance part="IC5" gate="P" x="210.82" y="76.2" rot="R180"/>
 <instance part="OUTPUT" gate="-" x="248.92" y="68.58" rot="R180"/>
 <instance part="OUTPUT" gate="+" x="248.92" y="76.2" rot="R180"/>
-<instance part="J1" gate="G$1" x="1.27" y="166.37" rot="MR0"/>
+<instance part="J1" gate="1" x="1.27" y="166.37" rot="MR0"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R23" gate="1" pin="2"/>
+<pinref part="R21" gate="1" pin="2"/>
 <wire x1="43.18" y1="132.08" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="132.08" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 <junction x="43.18" y="132.08"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="R31" gate="G$1" pin="2"/>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R31" gate="1" pin="2"/>
+<pinref part="R30" gate="1" pin="1"/>
 <wire x1="33.02" y1="149.86" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="152.4" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 <junction x="33.02" y="152.4"/>
-<pinref part="Q5" gate="G$1" pin="B"/>
+<pinref part="Q5" gate="1" pin="B"/>
 </segment>
 </net>
 <net name="CV" class="0">
 <segment>
-<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R30" gate="1" pin="2"/>
 <wire x1="33.02" y1="165.1" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="167.64" x2="22.86" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="167.64" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
@@ -7180,21 +7180,21 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="22.86" y1="167.64" x2="20.32" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="167.64" x2="20.32" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="162.56" x2="2.54" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="E"/>
+<pinref part="Q5" gate="1" pin="E"/>
 <label x="7.62" y="162.56" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J1" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="1">
 <segment>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R23" gate="1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="43.18" y1="116.84" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="33.02" y1="116.84" x2="33.02" y2="127" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 </segment>
 <segment>
 <pinref part="C5" gate="1" pin="1"/>
@@ -7202,7 +7202,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="68.58" y1="96.52" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C2" gate="1" pin="-"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="68.58" y1="78.74" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -7219,19 +7219,19 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="86.36" y1="116.84" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="R38" gate="1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="93.98" y1="101.6" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R17" gate="1" pin="1"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="106.68" y1="139.7" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="132.08" y1="162.56" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R12" gate="1" pin="1"/>
 <wire x1="132.08" y1="162.56" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7247,31 +7247,31 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="R36" gate="G$1" pin="2"/>
+<pinref part="R36" gate="1" pin="2"/>
 <wire x1="127" y1="88.9" x2="127" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
-<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R35" gate="1" pin="1"/>
 <wire x1="134.62" y1="88.9" x2="134.62" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R13" gate="1" pin="1"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="170.18" y1="91.44" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
-<pinref part="R42" gate="G$1" pin="2"/>
+<pinref part="R42" gate="1" pin="2"/>
 <wire x1="185.42" y1="29.21" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="R39" gate="1" pin="1"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="152.4" y1="33.02" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R34" gate="1" pin="2"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 <wire x1="71.12" y1="50.8" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -7280,20 +7280,20 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="81.28" y1="52.07" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="55.88" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="R33" gate="1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R19" gate="1" pin="1"/>
 <wire x1="30.48" y1="2.54" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R20" gate="1" pin="1"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="114.3" y1="2.54" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R18" gate="1" pin="1"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="63.5" y1="2.54" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 </segment>
@@ -7303,20 +7303,20 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="71.12" y1="2.54" x2="71.12" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <pinref part="GND48" gate="1" pin="GND"/>
 <wire x1="200.66" y1="58.42" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="119.38" y1="55.88" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C1" gate="1" pin="+"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="2.54" y1="170.18" x2="5.08" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="170.18" x2="5.08" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="J1" gate="1" pin="5"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -7325,7 +7325,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="248.92" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="WHITE_NOISE" gate="G$1" pin="RING"/>
+<pinref part="WHITE_NOISE" gate="1" pin="RING"/>
 <pinref part="V3" gate="1" pin="GND"/>
 <wire x1="185.42" y1="147.32" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
 </segment>
@@ -7345,32 +7345,32 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="GATE" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R21" gate="1" pin="1"/>
 <wire x1="43.18" y1="149.86" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="160.02" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="160.02" x2="17.78" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="172.72" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
 <label x="7.62" y="160.02" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J1" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="88.9" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C16" gate="1" pin="2"/>
 <wire x1="83.82" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="124.46" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 <junction x="86.36" y="124.46"/>
-<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="T2" gate="1" pin="B"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
 <pinref part="C5" gate="1" pin="2"/>
-<pinref part="R40" gate="G$1" pin="2"/>
+<pinref part="R40" gate="1" pin="2"/>
 <wire x1="68.58" y1="109.22" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="62.23" y1="104.14" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="104.14" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 <junction x="68.58" y="104.14"/>
@@ -7378,11 +7378,11 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="R38" gate="G$1" pin="1"/>
-<pinref part="R200'" gate="G$1" pin="1"/>
-<pinref part="R200'" gate="G$1" pin="1"/>
+<pinref part="R38" gate="1" pin="1"/>
+<pinref part="R200'" gate="1" pin="1"/>
+<pinref part="R200'" gate="1" pin="1"/>
 <wire x1="93.98" y1="114.3" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="T2" gate="1" pin="E"/>
 <wire x1="93.98" y1="119.38" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
 <junction x="93.98" y="116.84"/>
@@ -7390,24 +7390,24 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R22" gate="1" pin="1"/>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="147.32" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <junction x="22.86" y="111.76"/>
-<pinref part="Q5" gate="G$1" pin="C"/>
-<pinref part="T7" gate="G$1" pin="B"/>
+<pinref part="Q5" gate="1" pin="C"/>
+<pinref part="T7" gate="1" pin="B"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
 <wire x1="53.34" y1="106.68" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D3" gate="1" pin="A"/>
 <wire x1="57.15" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="104.14" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="88.9" x2="57.15" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="T7" gate="G$1" pin="E"/>
+<pinref part="D1" gate="1" pin="A"/>
+<pinref part="T7" gate="1" pin="E"/>
 <junction x="53.34" y="104.14"/>
 </segment>
 </net>
@@ -7415,17 +7415,17 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <segment>
 <pinref part="C10" gate="1" pin="1"/>
 <wire x1="60.96" y1="121.92" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="R40" gate="1" pin="1"/>
 <wire x1="60.96" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="124.46" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="68.58" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
 <junction x="68.58" y="124.46"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R24" gate="1" pin="2"/>
 <wire x1="93.98" y1="132.08" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C8" gate="1" pin="1"/>
 <wire x1="111.76" y1="109.22" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
@@ -7435,17 +7435,17 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="111.76" y1="132.08" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <junction x="111.76" y="111.76"/>
 <wire x1="93.98" y1="129.54" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="C"/>
+<pinref part="T2" gate="1" pin="C"/>
 <junction x="93.98" y="132.08"/>
 <wire x1="93.98" y1="132.08" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="D3" gate="1" pin="C"/>
+<pinref part="R14" gate="1" pin="2"/>
 <wire x1="62.23" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="C2" gate="1" pin="+"/>
 <wire x1="76.2" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="88.9" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <junction x="68.58" y="88.9"/>
@@ -7453,16 +7453,16 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R29" gate="1" pin="2"/>
 <wire x1="88.9" y1="93.98" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R42" gate="G$1" pin="1"/>
+<pinref part="R42" gate="1" pin="1"/>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="78.74" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="T6" gate="G$1" pin="B"/>
+<pinref part="T6" gate="1" pin="B"/>
 <wire x1="182.88" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="48.26" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R14" gate="1" pin="1"/>
 <wire x1="86.36" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <junction x="88.9" y="88.9"/>
 <junction x="185.42" y="48.26"/>
@@ -7472,20 +7472,20 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <segment>
 <pinref part="TM1" gate="1" pin="S"/>
 <wire x1="81.28" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R29" gate="1" pin="1"/>
 <wire x1="88.9" y1="106.68" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C9" gate="1" pin="1"/>
 <wire x1="134.62" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="R15" gate="1" pin="1"/>
+<pinref part="C4" gate="1" pin="2"/>
 <wire x1="124.46" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="152.4" x2="137.16" y2="143.51" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R26" gate="1" pin="2"/>
 <wire x1="137.16" y1="143.51" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="143.51" x2="137.16" y2="143.51" width="0.1524" layer="91"/>
 <junction x="137.16" y="143.51"/>
@@ -7498,27 +7498,27 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <segment>
 <pinref part="C16" gate="1" pin="1"/>
 <wire x1="86.36" y1="142.24" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R15" gate="1" pin="2"/>
 <wire x1="86.36" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R17" gate="1" pin="2"/>
 <wire x1="106.68" y1="149.86" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
 <junction x="106.68" y="152.4"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C4" gate="1" pin="1"/>
+<pinref part="C3" gate="1" pin="2"/>
+<pinref part="C15" gate="1" pin="2"/>
 <wire x1="160.02" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="167.64" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R9" gate="1" pin="2"/>
 <wire x1="154.94" y1="162.56" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="152.4" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 <junction x="154.94" y="162.56"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R12" gate="1" pin="2"/>
 <wire x1="144.78" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 <junction x="147.32" y="162.56"/>
 <wire x1="149.86" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
@@ -7531,31 +7531,31 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="157.48" y1="132.08" x2="157.48" y2="143.51" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="143.51" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R26" gate="1" pin="1"/>
 <wire x1="152.4" y1="143.51" x2="157.48" y2="143.51" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="132.08" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
 <junction x="157.48" y="143.51"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C3" gate="1" pin="1"/>
 <pinref part="IC5" gate="A" pin="-IN"/>
 </segment>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C9" gate="1" pin="2"/>
 <wire x1="129.54" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="127" y1="129.54" x2="127" y2="125.73" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
+<pinref part="R36" gate="1" pin="1"/>
 <wire x1="127" y1="115.57" x2="127" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="127" y1="111.76" x2="127" y2="104.14" width="0.1524" layer="91"/>
 <junction x="127" y="111.76"/>
 <wire x1="142.24" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="-IN"/>
+<pinref part="U1" gate="1" pin="-IN"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -7568,14 +7568,14 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="WN" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R9" gate="1" pin="1"/>
 <wire x1="167.64" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C15" gate="1" pin="1"/>
 <wire x1="170.18" y1="157.48" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="162.56" x2="170.18" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="167.64" x2="165.1" y2="167.64" width="0.1524" layer="91"/>
 <label x="173.99" y="157.48" size="1.778" layer="95"/>
-<pinref part="WHITE_NOISE" gate="G$1" pin="TIP"/>
+<pinref part="WHITE_NOISE" gate="1" pin="TIP"/>
 <wire x1="185.42" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 <junction x="170.18" y="162.56"/>
 </segment>
@@ -7583,17 +7583,17 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <net name="N$62" class="0">
 <segment>
 <pinref part="C7" gate="1" pin="2"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R11" gate="1" pin="1"/>
 <wire x1="185.42" y1="99.06" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R13" gate="1" pin="2"/>
 <wire x1="170.18" y1="104.14" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT"/>
+<pinref part="U1" gate="1" pin="OUT"/>
 <wire x1="167.64" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="IN1"/>
+<pinref part="U1" gate="1" pin="IN1"/>
 <wire x1="170.18" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 <junction x="170.18" y="106.68"/>
 </segment>
@@ -7602,7 +7602,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <segment>
 <pinref part="C7" gate="1" pin="1"/>
 <wire x1="187.96" y1="106.68" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT1"/>
+<pinref part="U1" gate="1" pin="OUT1"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -7610,10 +7610,10 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="45.72" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="66.04" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R19" gate="1" pin="2"/>
 <wire x1="30.48" y1="38.1" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R28" gate="1" pin="1"/>
 <wire x1="38.1" y1="43.18" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <junction x="38.1" y="43.18"/>
 <pinref part="IC4" gate="B" pin="-IN"/>
@@ -7622,8 +7622,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="D2" gate="1" pin="A"/>
+<pinref part="R34" gate="1" pin="1"/>
 <wire x1="71.12" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="63.5" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
@@ -7633,39 +7633,39 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$65" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D2" gate="1" pin="C"/>
 <wire x1="83.82" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R27" gate="1" pin="1"/>
 <wire x1="93.98" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="1"/>
+<pinref part="R41" gate="1" pin="1"/>
 <wire x1="119.38" y1="60.96" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="63.5" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <junction x="93.98" y="63.5"/>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C1" gate="1" pin="-"/>
 <junction x="119.38" y="63.5"/>
 </segment>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="1"/>
+<pinref part="R39" gate="1" pin="2"/>
 <wire x1="152.4" y1="48.26" x2="165.1" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="48.26" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="45.72" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="48.26" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="T4" gate="G$1" pin="B"/>
+<pinref part="T4" gate="1" pin="B"/>
 <junction x="152.4" y="48.26"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R25" gate="1" pin="2"/>
 <wire x1="177.8" y1="53.34" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="T6" gate="G$1" pin="E"/>
-<pinref part="T4" gate="G$1" pin="E"/>
+<pinref part="T6" gate="1" pin="E"/>
+<pinref part="T4" gate="1" pin="E"/>
 <wire x1="170.18" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="55.88" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
 <junction x="172.72" y="55.88"/>
@@ -7673,20 +7673,20 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$69" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R8" gate="1" pin="2"/>
 <wire x1="149.86" y1="87.63" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="T4" gate="G$1" pin="C"/>
+<pinref part="T4" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="R27" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R27" gate="1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="137.16" y1="48.26" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="48.26" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="C"/>
+<pinref part="T3" gate="1" pin="C"/>
 <junction x="137.16" y="48.26"/>
 </segment>
 </net>
@@ -7694,9 +7694,9 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <segment>
 <wire x1="96.52" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="35.56" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="2"/>
+<pinref part="R41" gate="1" pin="2"/>
 <wire x1="93.98" y1="48.26" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C17" gate="1" pin="2"/>
 <wire x1="101.6" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 <junction x="93.98" y="48.26"/>
 <pinref part="IC4" gate="D" pin="+IN"/>
@@ -7704,7 +7704,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$68" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="60.96" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
@@ -7722,24 +7722,24 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="1"/>
+<pinref part="R10" gate="1" pin="2"/>
 <wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="127" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="30.48" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="B"/>
+<pinref part="T3" gate="1" pin="B"/>
 <junction x="129.54" y="22.86"/>
 </segment>
 </net>
 <net name="N$76" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="2"/>
 <pinref part="C6" gate="1" pin="2"/>
 <wire x1="116.84" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="22.86" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D4" gate="1" pin="C"/>
 <wire x1="86.36" y1="12.7" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
 <junction x="86.36" y="22.86"/>
 </segment>
@@ -7747,23 +7747,23 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <net name="N$78" class="0">
 <segment>
 <wire x1="111.76" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="1" pin="1"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="15.24" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C17" gate="1" pin="1"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
 <junction x="114.3" y="38.1"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R20" gate="1" pin="2"/>
 <pinref part="IC4" gate="D" pin="OUT"/>
 <junction x="114.3" y="30.48"/>
 </segment>
 </net>
 <net name="N$71" class="0">
 <segment>
-<pinref part="R28" gate="G$1" pin="2"/>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R28" gate="1" pin="2"/>
+<pinref part="R32" gate="1" pin="1"/>
 <wire x1="38.1" y1="27.94" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="17.78" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
@@ -7773,8 +7773,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$74" class="0">
 <segment>
-<pinref part="R22" gate="G$1" pin="2"/>
-<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="R22" gate="1" pin="2"/>
+<pinref part="R37" gate="1" pin="1"/>
 <wire x1="22.86" y1="27.94" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="22.86" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
@@ -7788,7 +7788,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <pinref part="C11" gate="1" pin="2"/>
 <wire x1="63.5" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="20.32" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R18" gate="1" pin="2"/>
 <wire x1="63.5" y1="15.24" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
@@ -7801,9 +7801,9 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$73" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="86.36" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R33" gate="1" pin="1"/>
 <wire x1="88.9" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="43.18" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <junction x="88.9" y="40.64"/>
@@ -7812,7 +7812,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$91" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="200.66" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="B" pin="+IN"/>
 </segment>
@@ -7821,18 +7821,18 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <segment>
 <wire x1="109.22" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="91.44" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R11" gate="1" pin="2"/>
 <wire x1="111.76" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="184.15" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="83.82" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="VR17" gate="1" pin="A"/>
 <wire x1="203.2" y1="106.68" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C12" gate="1" pin="2"/>
 <wire x1="213.36" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
 <junction x="203.2" y="93.98"/>
 <wire x1="203.2" y1="93.98" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R16" gate="1" pin="2"/>
 <wire x1="213.36" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
 <junction x="203.2" y="88.9"/>
 <wire x1="203.2" y1="88.9" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
@@ -7848,14 +7848,14 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <wire x1="228.6" y1="93.98" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="88.9" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="76.2" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R16" gate="1" pin="1"/>
 <wire x1="223.52" y1="88.9" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C12" gate="1" pin="1"/>
 <wire x1="218.44" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <junction x="228.6" y="88.9"/>
 <junction x="228.6" y="76.2"/>
-<pinref part="C13" gate="G$1" pin="+"/>
+<pinref part="C13" gate="1" pin="+"/>
 <wire x1="228.6" y1="93.98" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
 <junction x="228.6" y="93.98"/>
@@ -7867,21 +7867,21 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <pinref part="VR17" gate="1" pin="S"/>
 <wire x1="208.28" y1="104.14" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="-"/>
+<pinref part="C13" gate="1" pin="-"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
-<pinref part="R35" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="+IN"/>
+<pinref part="R35" gate="1" pin="2"/>
+<pinref part="U1" gate="1" pin="+IN"/>
 <wire x1="134.62" y1="100.33" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="C"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="U1" gate="1" pin="C"/>
+<pinref part="R8" gate="1" pin="1"/>
 <wire x1="151.13" y1="114.3" x2="149.86" y2="97.79" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7890,25 +7890,25 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="2.54" y1="172.72" x2="5.08" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="172.72" x2="5.08" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="6"/>
+<pinref part="J1" gate="1" pin="6"/>
 </segment>
 <segment>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R24" gate="1" pin="1"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="93.98" y1="147.32" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="116.84" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="T7" gate="G$1" pin="C"/>
+<pinref part="T7" gate="1" pin="C"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R25" gate="1" pin="1"/>
 <wire x1="172.72" y1="71.12" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="V+"/>
+<pinref part="U1" gate="1" pin="V+"/>
 <wire x1="154.94" y1="100.33" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
 </segment>
@@ -7923,35 +7923,35 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 <pinref part="P-1" gate="1" pin="-12V"/>
 <wire x1="2.54" y1="167.64" x2="15.24" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="167.64" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J1" gate="1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="V-"/>
+<pinref part="U1" gate="1" pin="V-"/>
 <wire x1="154.94" y1="113.03" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="P-2" gate="1" pin="-12V"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="17.78" x2="137.16" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="P-3" gate="1" pin="-12V"/>
-<pinref part="T3" gate="G$1" pin="E"/>
+<pinref part="T3" gate="1" pin="E"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D4" gate="1" pin="A"/>
 <wire x1="86.36" y1="7.62" x2="86.36" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="P-4" gate="1" pin="-12V"/>
 </segment>
 <segment>
-<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R32" gate="1" pin="2"/>
 <wire x1="38.1" y1="5.08" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="P-5" gate="1" pin="-12V"/>
 </segment>
 <segment>
-<pinref part="R37" gate="G$1" pin="2"/>
+<pinref part="R37" gate="1" pin="2"/>
 <wire x1="22.86" y1="5.08" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="P-6" gate="1" pin="-12V"/>
 </segment>
 <segment>
-<pinref part="R200'" gate="G$1" pin="2"/>
+<pinref part="R200'" gate="1" pin="2"/>
 <pinref part="P-7" gate="1" pin="-12V"/>
 <wire x1="109.22" y1="121.92" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
@@ -7963,7 +7963,7 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </segment>
 <segment>
 <wire x1="177.8" y1="43.18" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="T6" gate="G$1" pin="C"/>
+<pinref part="T6" gate="1" pin="C"/>
 <pinref part="P-9" gate="1" pin="-12V"/>
 </segment>
 <segment>
@@ -7979,14 +7979,14 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <pinref part="OUTPUT" gate="+" pin="P$1"/>
 <wire x1="248.92" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="WHITE_NOISE" gate="G$1" pin="NORM"/>
+<pinref part="WHITE_NOISE" gate="1" pin="NORM"/>
 <wire x1="185.42" y1="157.48" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="157.48" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="WHITE_NORM" gate="-1" pin="S"/>
@@ -7995,8 +7995,8 @@ with open collector; LM139/LM239/LM339/LM2901/LM3302&lt;br&gt;</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="R31" gate="1" pin="1"/>
+<pinref part="T1" gate="1" pin="C"/>
 <wire x1="33.02" y1="139.7" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>

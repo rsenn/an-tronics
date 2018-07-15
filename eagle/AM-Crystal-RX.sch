@@ -1392,13 +1392,13 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1406,8 +1406,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1415,8 +1415,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1424,8 +1424,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1433,8 +1433,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1442,8 +1442,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1451,8 +1451,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1460,8 +1460,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1469,8 +1469,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1478,8 +1478,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1487,8 +1487,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1496,8 +1496,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1505,8 +1505,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1514,8 +1514,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1523,8 +1523,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1532,8 +1532,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1541,8 +1541,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1550,8 +1550,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1559,8 +1559,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1568,8 +1568,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1577,8 +1577,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1586,8 +1586,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4020,13 +4020,13 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <deviceset name="C" prefix="C" uservalue="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
+<gate name="1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-024X044" package="C025-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4034,8 +4034,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-025X050" package="C025-025X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4043,8 +4043,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-030X050" package="C025-030X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4052,8 +4052,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-040X050" package="C025-040X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4061,8 +4061,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-050X050" package="C025-050X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4070,8 +4070,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-060X050" package="C025-060X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4079,8 +4079,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4088,8 +4088,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-025X075" package="C050-025X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4097,8 +4097,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-045X075" package="C050-045X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4106,8 +4106,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-030X075" package="C050-030X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4115,8 +4115,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-050X075" package="C050-050X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4124,8 +4124,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-055X075" package="C050-055X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4133,8 +4133,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-075X075" package="C050-075X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4142,8 +4142,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="075-032X103" package="C075-032X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4151,8 +4151,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="075-042X103" package="C075-042X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4160,8 +4160,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="075-052X106" package="C075-052X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4169,8 +4169,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="102-043X133" package="C102-043X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4178,8 +4178,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="102-054X133" package="C102-054X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4187,8 +4187,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="102-064X133" package="C102-064X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4196,8 +4196,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="150-054X183" package="C150-054X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4205,8 +4205,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="150-064X183" package="C150-064X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4214,8 +4214,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="150-072X183" package="C150-072X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4223,8 +4223,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="150-084X183" package="C150-084X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4232,8 +4232,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="150-091X182" package="C150-091X182">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4241,8 +4241,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-035X075" package="C050-035X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4250,8 +4250,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="075-063X106" package="C075-063X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4259,8 +4259,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-020X036" package="C025-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4268,8 +4268,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="050-020X036" package="C050-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4277,8 +4277,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4286,8 +4286,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="025-025X060" package="C050-025X060">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4298,13 +4298,13 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4312,8 +4312,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4321,8 +4321,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4330,8 +4330,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2.5-5V" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4339,8 +4339,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4348,8 +4348,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4357,8 +4357,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4366,8 +4366,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4375,8 +4375,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4384,8 +4384,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4393,8 +4393,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4402,8 +4402,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4411,8 +4411,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4420,8 +4420,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4429,8 +4429,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4438,8 +4438,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4447,8 +4447,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4456,8 +4456,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4465,8 +4465,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4474,8 +4474,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4483,8 +4483,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4492,8 +4492,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4501,8 +4501,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4510,8 +4510,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4519,8 +4519,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4528,8 +4528,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4537,8 +4537,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4546,8 +4546,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4555,8 +4555,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4564,8 +4564,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4573,8 +4573,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4582,8 +4582,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4591,8 +4591,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4600,8 +4600,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4609,8 +4609,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4618,8 +4618,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4627,8 +4627,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4636,8 +4636,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4645,8 +4645,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5057,13 +5057,13 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <devicesets>
 <deviceset name="1N4148" prefix="D">
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="35-7" package="DO35-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5071,8 +5071,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5080,8 +5080,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="35-2.54" package="DO35-2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5089,8 +5089,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="35-2.54A" package="DO35-2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5098,8 +5098,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-12" package="DO34-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5107,8 +5107,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-5" package="DO34-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5116,8 +5116,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5125,8 +5125,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-2,5" package="DO34-2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5134,8 +5134,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-2,5-A" package="DO34-2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5143,8 +5143,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-10" package="DO34-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5152,8 +5152,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-7V" package="DO34-7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5161,8 +5161,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-5V" package="DO34-5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5170,8 +5170,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-10V" package="DO34-10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5179,8 +5179,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </device>
 <device name="34-12V" package="DO34-12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5231,12 +5231,12 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </deviceset>
 <deviceset name="SPAD" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SPAD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7806,38 +7806,38 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instances>
 <instance part="C1" gate="1" x="5.08" y="22.86"/>
 <instance part="L1" gate="1" x="22.86" y="22.86"/>
-<instance part="R1" gate="G$1" x="5.08" y="7.62"/>
-<instance part="C2" gate="G$1" x="22.86" y="10.16"/>
+<instance part="R1" gate="1" x="5.08" y="7.62"/>
+<instance part="C2" gate="1" x="22.86" y="10.16"/>
 <instance part="GND1" gate="1" x="12.7" y="-5.08"/>
-<instance part="D1" gate="G$1" x="30.48" y="33.02" rot="MR270"/>
-<instance part="C3" gate="G$1" x="5.08" y="43.18"/>
+<instance part="D1" gate="1" x="30.48" y="33.02" rot="MR270"/>
+<instance part="C3" gate="1" x="5.08" y="43.18"/>
 <instance part="ANT1" gate="ANT" x="5.08" y="50.8"/>
-<instance part="C4" gate="G$1" x="38.1" y="25.4"/>
+<instance part="C4" gate="1" x="38.1" y="25.4"/>
 <instance part="GND2" gate="1" x="38.1" y="10.16"/>
 <instance part="IC1" gate="A" x="60.96" y="30.48"/>
 <instance part="IC1" gate="B" x="93.98" y="30.48"/>
 <instance part="R2" gate="1" x="71.12" y="22.86"/>
-<instance part="R3" gate="G$1" x="71.12" y="7.62"/>
-<instance part="R4" gate="G$1" x="83.82" y="7.62"/>
-<instance part="R5" gate="G$1" x="93.98" y="15.24" rot="R90"/>
-<instance part="R6" gate="G$1" x="111.76" y="30.48" rot="R90"/>
-<instance part="C5" gate="G$1" x="71.12" y="-3.81"/>
-<instance part="C6" gate="G$1" x="83.82" y="-3.81"/>
-<instance part="C7" gate="G$1" x="71.12" y="49.53"/>
+<instance part="R3" gate="1" x="71.12" y="7.62"/>
+<instance part="R4" gate="1" x="83.82" y="7.62"/>
+<instance part="R5" gate="1" x="93.98" y="15.24" rot="R90"/>
+<instance part="R6" gate="1" x="111.76" y="30.48" rot="R90"/>
+<instance part="C5" gate="1" x="71.12" y="-3.81"/>
+<instance part="C6" gate="1" x="83.82" y="-3.81"/>
+<instance part="C7" gate="1" x="71.12" y="49.53"/>
 <instance part="SW1" gate="1" x="78.74" y="55.88" rot="R270"/>
 <instance part="GND3" gate="1" x="71.12" y="-12.7"/>
 <instance part="GND4" gate="1" x="83.82" y="-12.7"/>
 <instance part="IC1" gate="P" x="60.96" y="30.48"/>
 <instance part="GND5" gate="1" x="60.96" y="10.16"/>
-<instance part="R7" gate="G$1" x="38.1" y="44.45" rot="R180"/>
+<instance part="R7" gate="1" x="38.1" y="44.45" rot="R180"/>
 <instance part="GND6" gate="1" x="71.12" y="40.64"/>
-<instance part="C8" gate="G$1" x="123.19" y="30.48" rot="R90"/>
-<instance part="SP+" gate="G$1" x="132.08" y="30.48" rot="R180"/>
-<instance part="SP-" gate="G$1" x="132.08" y="22.86" rot="R180"/>
+<instance part="C8" gate="1" x="123.19" y="30.48" rot="R90"/>
+<instance part="SP+" gate="1" x="132.08" y="30.48" rot="R180"/>
+<instance part="SP-" gate="1" x="132.08" y="22.86" rot="R180"/>
 <instance part="GND7" gate="1" x="129.54" y="15.24"/>
-<instance part="BAT+" gate="G$1" x="88.9" y="50.8" rot="R180"/>
+<instance part="BAT+" gate="1" x="88.9" y="50.8" rot="R180"/>
 <instance part="GND8" gate="1" x="81.28" y="40.64"/>
-<instance part="BAT-" gate="G$1" x="88.9" y="45.72" rot="R180"/>
+<instance part="BAT-" gate="1" x="88.9" y="45.72" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7845,13 +7845,13 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="L1" gate="1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C2" gate="1" pin="1"/>
 <wire x1="22.86" y1="17.78" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
 <junction x="22.86" y="15.24"/>
 <pinref part="C1" gate="1" pin="E"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="5.08" y1="20.32" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="15.24" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
 <junction x="5.08" y="15.24"/>
@@ -7859,10 +7859,10 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="0" x2="12.7" y2="0" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C2" gate="1" pin="2"/>
 <wire x1="12.7" y1="0" x2="22.86" y2="0" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="0" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -7870,7 +7870,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <junction x="12.7" y="0"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C4" gate="1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="38.1" y1="12.7" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -7880,28 +7880,28 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="60.96" y1="12.7" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="C7" gate="1" pin="-"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="71.12" y1="43.18" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C5" gate="1" pin="-"/>
 <wire x1="71.12" y1="-10.16" x2="71.12" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="C6" gate="1" pin="-"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="83.82" y1="-7.62" x2="83.82" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SP-" gate="G$1" pin="P$1"/>
+<pinref part="SP-" gate="1" pin="P$1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="129.54" y1="17.78" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BAT-" gate="G$1" pin="P$1"/>
+<pinref part="BAT-" gate="1" pin="P$1"/>
 <wire x1="88.9" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
@@ -7909,10 +7909,10 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C3" gate="1" pin="2"/>
 <wire x1="5.08" y1="33.02" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C1" gate="1" pin="A"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="5.08" y1="25.4" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="L1" gate="1" pin="1"/>
 <wire x1="5.08" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
@@ -7924,14 +7924,14 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C3" gate="1" pin="1"/>
 <pinref part="ANT1" gate="ANT" pin="1"/>
 <wire x1="5.08" y1="50.8" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="C7" gate="G$1" pin="+"/>
+<pinref part="C7" gate="1" pin="+"/>
 <pinref part="SW1" gate="1" pin="P"/>
 <wire x1="71.12" y1="53.34" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
@@ -7939,7 +7939,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="71.12" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="55.88" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 <junction x="71.12" y="55.88"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="38.1" y1="49.53" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <junction x="60.96" y="55.88"/>
@@ -7947,11 +7947,11 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="D1" gate="1" pin="A"/>
+<pinref part="C4" gate="1" pin="1"/>
 <wire x1="33.02" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="33.02" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="2"/>
 <wire x1="38.1" y1="39.37" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
 <junction x="38.1" y="33.02"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
@@ -7966,7 +7966,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="50.8" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="15.24" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R2" gate="1" pin="A"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="71.12" y1="12.7" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
 <junction x="71.12" y="15.24"/>
 <wire x1="71.12" y1="15.24" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
@@ -7992,9 +7992,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="OUT"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="101.6" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="104.14" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="30.48" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
@@ -8003,41 +8003,41 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="88.9" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="15.24" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="83.82" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="83.82" y1="15.24" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 <junction x="83.82" y="15.24"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="R3" gate="1" pin="1"/>
+<pinref part="C5" gate="1" pin="+"/>
 <wire x1="71.12" y1="2.54" x2="71.12" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="R4" gate="1" pin="1"/>
+<pinref part="C6" gate="1" pin="+"/>
 <wire x1="83.82" y1="2.54" x2="83.82" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="+"/>
+<pinref part="R6" gate="1" pin="1"/>
+<pinref part="C8" gate="1" pin="+"/>
 <wire x1="119.38" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="C8" gate="G$1" pin="-"/>
-<pinref part="SP+" gate="G$1" pin="P$1"/>
+<pinref part="C8" gate="1" pin="-"/>
+<pinref part="SP+" gate="1" pin="P$1"/>
 <wire x1="132.08" y1="30.48" x2="127" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8046,7 +8046,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="SW1" gate="1" pin="O"/>
 <wire x1="81.28" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="BAT+" gate="G$1" pin="P$1"/>
+<pinref part="BAT+" gate="1" pin="P$1"/>
 <wire x1="86.36" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>

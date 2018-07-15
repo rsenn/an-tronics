@@ -124,21 +124,21 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <devicesets>
 <deviceset name="BA6229">
 <gates>
-<gate name="G$1" symbol="BA6229" x="0" y="0"/>
+<gate name="1" symbol="BA6229" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SIL10">
 <connects>
-<connect gate="G$1" pin="C1" pad="3"/>
-<connect gate="G$1" pin="C2" pad="9"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="LM+" pad="2"/>
-<connect gate="G$1" pin="LM-" pad="10"/>
-<connect gate="G$1" pin="LMF" pad="5"/>
-<connect gate="G$1" pin="LMR" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-<connect gate="G$1" pin="VCC_M" pad="7"/>
-<connect gate="G$1" pin="ZD-" pad="4"/>
+<connect gate="1" pin="C1" pad="3"/>
+<connect gate="1" pin="C2" pad="9"/>
+<connect gate="1" pin="GND" pad="1"/>
+<connect gate="1" pin="LM+" pad="2"/>
+<connect gate="1" pin="LM-" pad="10"/>
+<connect gate="1" pin="LMF" pad="5"/>
+<connect gate="1" pin="LMR" pad="6"/>
+<connect gate="1" pin="VCC" pad="8"/>
+<connect gate="1" pin="VCC_M" pad="7"/>
+<connect gate="1" pin="ZD-" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3109,13 +3109,13 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3123,8 +3123,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3132,8 +3132,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3141,8 +3141,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3150,8 +3150,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3159,8 +3159,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3168,8 +3168,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3177,8 +3177,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3186,8 +3186,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3195,8 +3195,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3204,8 +3204,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3213,8 +3213,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3222,8 +3222,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3231,8 +3231,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3240,8 +3240,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3249,8 +3249,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3258,8 +3258,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3267,8 +3267,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3276,8 +3276,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3285,8 +3285,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3294,8 +3294,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3303,8 +3303,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3312,8 +3312,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3321,8 +3321,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3330,8 +3330,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3339,8 +3339,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3348,8 +3348,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3357,8 +3357,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3366,8 +3366,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3375,8 +3375,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3384,8 +3384,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3393,8 +3393,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3402,8 +3402,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3411,8 +3411,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3420,8 +3420,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3429,8 +3429,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3438,8 +3438,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3447,8 +3447,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3456,8 +3456,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3465,8 +3465,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3474,8 +3474,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3869,13 +3869,13 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <devicesets>
 <deviceset name="Z-DIODE" prefix="D">
 <gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
+<gate name="1" symbol="ZD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="Z10" package="DO35Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3883,8 +3883,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="Z7" package="DO35Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3892,8 +3892,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="Z5" package="DO35Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3901,8 +3901,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="Z2_54" package="DO35Z2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3910,8 +3910,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="Z2_54A" package="DO35Z2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3919,8 +3919,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="Z12" package="DO34Z12">
 <connects>
-<connect gate="G$1" pin="A" pad="A1"/>
-<connect gate="G$1" pin="C" pad="C1"/>
+<connect gate="1" pin="A" pad="A1"/>
+<connect gate="1" pin="C" pad="C1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3928,8 +3928,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z7" package="DO34Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3937,8 +3937,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z5" package="DO34Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3946,8 +3946,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z2,5" package="DO34Z2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3955,8 +3955,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z2,5-A" package="DO34Z2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3964,8 +3964,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z10" package="DO34Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3973,8 +3973,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z7V" package="DO34Z7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3982,8 +3982,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z10V" package="DO34Z10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3991,8 +3991,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z12V" package="DO34Z12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4000,8 +4000,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="34Z5V" package="DO34Z5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4352,13 +4352,13 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <devicesets>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4366,8 +4366,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4375,8 +4375,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4384,8 +4384,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4393,8 +4393,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4402,8 +4402,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4411,8 +4411,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4420,8 +4420,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4429,8 +4429,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4438,8 +4438,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4447,8 +4447,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4456,8 +4456,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4465,8 +4465,8 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 </device>
 <device name="0204/2-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4514,14 +4514,14 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <devicesets>
 <deviceset name="CONN-3P" prefix="J">
 <gates>
-<gate name="G$1" symbol="PINCONN-3P" x="0" y="0"/>
+<gate name="1" symbol="PINCONN-3P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-3P" package="CONN-3P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4784,12 +4784,12 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="38.1" y="34.29"/>
+<instance part="IC1" gate="1" x="38.1" y="34.29"/>
 <instance part="S1" gate="1" x="38.1" y="12.7"/>
 <instance part="C1" gate="1" x="15.24" y="22.86"/>
 <instance part="C2" gate="1" x="60.96" y="22.86"/>
-<instance part="D1" gate="G$1" x="5.08" y="25.4"/>
-<instance part="R1" gate="G$1" x="49.53" y="55.88"/>
+<instance part="D1" gate="1" x="5.08" y="25.4"/>
+<instance part="R1" gate="1" x="49.53" y="55.88"/>
 <instance part="MOTOR" gate="-" x="81.28" y="33.02" rot="R180"/>
 <instance part="MOTOR" gate="+" x="81.28" y="35.56" rot="R180"/>
 <instance part="C3" gate="1" x="71.12" y="27.94"/>
@@ -4798,8 +4798,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="PWR" gate="+" x="81.28" y="55.88" rot="MR0"/>
 <instance part="U$2" gate="1" x="78.74" y="63.5" rot="MR0"/>
 <instance part="S2" gate="1" x="78.74" y="40.64" rot="MR0"/>
-<instance part="C4" gate="G$1" x="78.74" y="50.8"/>
-<instance part="J1" gate="G$1" x="7.62" y="50.8" rot="R180"/>
+<instance part="C4" gate="1" x="78.74" y="50.8"/>
+<instance part="J1" gate="1" x="7.62" y="50.8" rot="R180"/>
 <instance part="S3" gate="1" x="17.78" y="48.26"/>
 <instance part="OK1" gate="A" x="7.62" y="82.55" rot="R90"/>
 <instance part="OK1" gate="B" x="36.83" y="82.55" rot="R90"/>
@@ -4809,7 +4809,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="1" pin="GND"/>
 <pinref part="S1" gate="1" pin="GND"/>
 <wire x1="38.1" y1="15.24" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C1" gate="1" pin="2"/>
@@ -4820,7 +4820,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="C2" gate="1" pin="2"/>
 <wire x1="60.96" y1="20.32" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="5.08" y1="22.86" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 <junction x="15.24" y="17.78"/>
@@ -4830,13 +4830,13 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="S2" gate="1" pin="GND"/>
 <wire x1="81.28" y1="45.72" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="45.72" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="-"/>
+<pinref part="C4" gate="1" pin="-"/>
 <wire x1="78.74" y1="48.26" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 <junction x="78.74" y="45.72"/>
 </segment>
 <segment>
 <pinref part="S3" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J1" gate="1" pin="1"/>
 <wire x1="17.78" y1="50.8" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -4844,7 +4844,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <net name="N$2" class="0">
 <segment>
 <pinref part="C2" gate="1" pin="1"/>
-<pinref part="IC1" gate="G$1" pin="C2"/>
+<pinref part="IC1" gate="1" pin="C2"/>
 <wire x1="60.96" y1="25.4" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -4852,22 +4852,22 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <net name="N$3" class="0">
 <segment>
 <pinref part="C1" gate="1" pin="1"/>
-<pinref part="IC1" gate="G$1" pin="C1"/>
+<pinref part="IC1" gate="1" pin="C1"/>
 <wire x1="15.24" y1="25.4" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="ZD-"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="IC1" gate="1" pin="ZD-"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="20.32" y1="33.02" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="33.02" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="LM+"/>
+<pinref part="IC1" gate="1" pin="LM+"/>
 <pinref part="MOTOR" gate="+" pin="P$1"/>
 <wire x1="55.88" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C3" gate="1" pin="1"/>
@@ -4879,7 +4879,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <net name="N$6" class="0">
 <segment>
 <pinref part="MOTOR" gate="-" pin="P$1"/>
-<pinref part="IC1" gate="G$1" pin="LM-"/>
+<pinref part="IC1" gate="1" pin="LM-"/>
 <wire x1="81.28" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C3" gate="1" pin="2"/>
 <wire x1="76.2" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
@@ -4891,17 +4891,17 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="IC1" gate="1" pin="VCC"/>
 <wire x1="38.1" y1="55.88" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="44.45" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC_M"/>
+<pinref part="IC1" gate="1" pin="VCC_M"/>
 <wire x1="55.88" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="60.96" y1="40.64" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="55.88" x2="54.61" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="1" pin="+12V"/>
@@ -4913,15 +4913,15 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="U$2" gate="1" pin="+12V"/>
 <wire x1="81.28" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="55.88" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="C4" gate="1" pin="+"/>
 <wire x1="78.74" y1="53.34" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <junction x="78.74" y="55.88"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="LMF"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="1" pin="LMF"/>
+<pinref part="J1" gate="1" pin="2"/>
 <wire x1="20.32" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="40.64" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="50.8" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
@@ -4929,8 +4929,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="IC1" gate="G$1" pin="LMR"/>
+<pinref part="J1" gate="1" pin="3"/>
+<pinref part="IC1" gate="1" pin="LMR"/>
 <wire x1="10.16" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="48.26" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>

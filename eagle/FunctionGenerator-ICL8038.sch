@@ -130,23 +130,23 @@ http://electro-music.com/forum/post-380531.html</description>
 <devicesets>
 <deviceset name="ICL8038" prefix="IC">
 <gates>
-<gate name="G$1" symbol="ICL8038" x="0" y="0"/>
+<gate name="1" symbol="ICL8038" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL14">
 <connects>
-<connect gate="G$1" pin="CAP" pad="10"/>
-<connect gate="G$1" pin="D_ADJ1" pad="4"/>
-<connect gate="G$1" pin="D_ADJ2" pad="5"/>
-<connect gate="G$1" pin="FM_BIAS" pad="7"/>
-<connect gate="G$1" pin="SINE" pad="2"/>
-<connect gate="G$1" pin="SQUARE" pad="9"/>
-<connect gate="G$1" pin="SWEEP" pad="8"/>
-<connect gate="G$1" pin="S_ADJ1" pad="1"/>
-<connect gate="G$1" pin="S_ADJ2" pad="12"/>
-<connect gate="G$1" pin="TRIANGLE" pad="3"/>
-<connect gate="G$1" pin="V+" pad="6"/>
-<connect gate="G$1" pin="V-" pad="11"/>
+<connect gate="1" pin="CAP" pad="10"/>
+<connect gate="1" pin="D_ADJ1" pad="4"/>
+<connect gate="1" pin="D_ADJ2" pad="5"/>
+<connect gate="1" pin="FM_BIAS" pad="7"/>
+<connect gate="1" pin="SINE" pad="2"/>
+<connect gate="1" pin="SQUARE" pad="9"/>
+<connect gate="1" pin="SWEEP" pad="8"/>
+<connect gate="1" pin="S_ADJ1" pad="1"/>
+<connect gate="1" pin="S_ADJ2" pad="12"/>
+<connect gate="1" pin="TRIANGLE" pad="3"/>
+<connect gate="1" pin="V+" pad="6"/>
+<connect gate="1" pin="V-" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1033,13 +1033,13 @@ http://electro-music.com/forum/post-380531.html</description>
 </deviceset>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1047,8 +1047,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1056,8 +1056,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1065,8 +1065,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1074,8 +1074,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1083,8 +1083,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1092,8 +1092,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1101,8 +1101,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1110,8 +1110,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1119,8 +1119,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1128,8 +1128,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1137,8 +1137,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1146,8 +1146,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/2-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1158,13 +1158,13 @@ http://electro-music.com/forum/post-380531.html</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1172,8 +1172,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1181,8 +1181,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1190,8 +1190,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1199,8 +1199,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1208,8 +1208,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1217,8 +1217,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1226,8 +1226,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1235,8 +1235,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1244,8 +1244,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1253,8 +1253,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1262,8 +1262,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1271,8 +1271,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1280,8 +1280,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1289,8 +1289,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1298,8 +1298,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1307,8 +1307,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1316,8 +1316,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1325,8 +1325,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1334,8 +1334,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1343,8 +1343,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1352,8 +1352,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1361,8 +1361,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1370,8 +1370,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1379,8 +1379,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1388,8 +1388,8 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1467,7 +1467,7 @@ http://electro-music.com/forum/post-380531.html</description>
 </deviceset>
 <deviceset name="VCC">
 <gates>
-<gate name="G$1" symbol="VCC" x="0" y="0"/>
+<gate name="1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -2649,14 +2649,14 @@ http://electro-music.com/forum/post-380531.html</description>
 <devicesets>
 <deviceset name="BC547" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
+<gate name="1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="CBE" package="TO92-CBE">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2664,9 +2664,9 @@ http://electro-music.com/forum/post-380531.html</description>
 </device>
 <device name="CBE-A" package="TO92-CBE-A">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3841,13 +3841,13 @@ Source: www.luxeon.com&lt;p&gt;
 KA-3528ASYC&lt;br&gt;
 Source: www.kingbright.com</description>
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SMT1206" package="1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3855,8 +3855,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LD260" package="LD260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3864,8 +3864,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR2X5" package="LED2X5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3873,8 +3873,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="3MM" package="LED3MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3882,8 +3882,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="5MM" package="LED5MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3891,8 +3891,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LSU260" package="LSU260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3900,8 +3900,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LZR181" package="LZR181">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3909,8 +3909,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B152" package="Q62902-B152">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3918,8 +3918,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B153" package="Q62902-B153">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3927,8 +3927,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B155" package="Q62902-B155">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3936,8 +3936,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B156" package="Q62902-B156">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3945,8 +3945,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH480" package="SFH480">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3954,8 +3954,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH482" package="SFH482">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3963,8 +3963,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR5.7X3.2" package="U57X32">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3972,8 +3972,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="IRL80A" package="IRL80A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3981,8 +3981,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2" package="P-LCC-2">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3990,8 +3990,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MINI-TOP" package="OSRAM-MINI-TOP-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3999,8 +3999,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SIDELED" package="OSRAM-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4008,8 +4008,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SMART-LED" package="SMART-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="B"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4017,8 +4017,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2-BACK" package="P-LCC-2-TOPLED-RG">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4026,8 +4026,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MICRO-SIDELED" package="MICRO-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4035,8 +4035,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-4" package="P-LCC-4">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C@4"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C@4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4044,8 +4044,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0603" package="CHIP-LED0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4053,8 +4053,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0805" package="CHIP-LED0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4062,8 +4062,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="TOPLED-SANTANA" package="MINI-TOPLED-SANTANA">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4071,8 +4071,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0805" package="CHIPLED_0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4080,8 +4080,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_1206" package="CHIPLED_1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4089,8 +4089,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0603" package="CHIPLED_0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4098,8 +4098,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED-0603-TTW" package="CHIPLED-0603-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4107,8 +4107,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="" package="SMARTLED-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4116,8 +4116,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED+" package="LUMILED+">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4125,8 +4125,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED" package="LUMILED">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4134,8 +4134,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="10MM" package="LED10MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4143,8 +4143,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="KA-3528ASYC" package="KA-3528ASYC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4152,8 +4152,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0805" package="SML0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4161,8 +4161,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML1206" package="SML1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4170,8 +4170,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0603" package="SML0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4222,30 +4222,30 @@ Source: www.kingbright.com</description>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="53.34" y="27.94"/>
+<instance part="IC1" gate="1" x="53.34" y="27.94"/>
 <instance part="R5" gate="1" x="20.32" y="35.56" rot="R90"/>
-<instance part="R2" gate="G$1" x="86.36" y="33.02"/>
-<instance part="R1" gate="G$1" x="86.36" y="40.64"/>
-<instance part="R3" gate="G$1" x="12.7" y="45.72"/>
-<instance part="R4" gate="G$1" x="43.18" y="10.16"/>
-<instance part="R6" gate="G$1" x="86.36" y="25.4"/>
-<instance part="R7" gate="G$1" x="109.22" y="25.4"/>
-<instance part="P+1" gate="G$1" x="12.7" y="55.88"/>
+<instance part="R2" gate="1" x="86.36" y="33.02"/>
+<instance part="R1" gate="1" x="86.36" y="40.64"/>
+<instance part="R3" gate="1" x="12.7" y="45.72"/>
+<instance part="R4" gate="1" x="43.18" y="10.16"/>
+<instance part="R6" gate="1" x="86.36" y="25.4"/>
+<instance part="R7" gate="1" x="109.22" y="25.4"/>
+<instance part="P+1" gate="1" x="12.7" y="55.88"/>
 <instance part="S1" gate="1" x="27.94" y="2.54"/>
 <instance part="S2" gate="1" x="53.34" y="2.54"/>
 <instance part="C1" gate="1" x="27.94" y="12.7"/>
 <instance part="SIN" gate="1" x="104.14" y="12.7" rot="R180"/>
 <instance part="TRI" gate="1" x="104.14" y="7.62" rot="R180"/>
 <instance part="SQR" gate="1" x="104.14" y="17.78" rot="R180"/>
-<instance part="T1" gate="G$1" x="121.92" y="25.4"/>
-<instance part="D1" gate="G$1" x="124.46" y="50.8"/>
-<instance part="R8" gate="G$1" x="124.46" y="38.1"/>
+<instance part="T1" gate="1" x="121.92" y="25.4"/>
+<instance part="D1" gate="1" x="124.46" y="50.8"/>
+<instance part="R8" gate="1" x="124.46" y="38.1"/>
 <instance part="S3" gate="1" x="124.46" y="2.54"/>
 <instance part="S4" gate="1" x="12.7" y="2.54" rot="MR0"/>
-<instance part="P+2" gate="G$1" x="53.34" y="55.88"/>
-<instance part="P+3" gate="G$1" x="93.98" y="55.88"/>
-<instance part="P+4" gate="G$1" x="124.46" y="55.88"/>
-<instance part="P+5" gate="G$1" x="12.7" y="15.24"/>
+<instance part="P+2" gate="1" x="53.34" y="55.88"/>
+<instance part="P+3" gate="1" x="93.98" y="55.88"/>
+<instance part="P+4" gate="1" x="124.46" y="55.88"/>
+<instance part="P+5" gate="1" x="12.7" y="15.24"/>
 <instance part="12V" gate="-" x="10.16" y="7.62"/>
 <instance part="12V" gate="+" x="10.16" y="12.7"/>
 </instances>
@@ -4254,45 +4254,45 @@ Source: www.kingbright.com</description>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="P+1" gate="G$1" pin="VCC"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="P+1" gate="1" pin="VCC"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="12.7" y1="55.88" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="V+"/>
+<pinref part="IC1" gate="1" pin="V+"/>
 <wire x1="53.34" y1="55.88" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="G$1" pin="VCC"/>
+<pinref part="P+2" gate="1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="93.98" y1="40.64" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="33.02" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="91.44" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <junction x="93.98" y="33.02"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="91.44" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 <junction x="93.98" y="40.64"/>
-<pinref part="P+3" gate="G$1" pin="VCC"/>
+<pinref part="P+3" gate="1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="124.46" y1="55.88" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="G$1" pin="VCC"/>
+<pinref part="P+4" gate="1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="15.24" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="G$1" pin="VCC"/>
+<pinref part="P+5" gate="1" pin="VCC"/>
 <pinref part="12V" gate="+" pin="P$1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="D_ADJ1"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="1" pin="D_ADJ1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="71.12" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="35.56" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
@@ -4300,21 +4300,21 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="D_ADJ2"/>
+<pinref part="IC1" gate="1" pin="D_ADJ2"/>
 <wire x1="71.12" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="SQUARE"/>
+<pinref part="IC1" gate="1" pin="SQUARE"/>
 <wire x1="71.12" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="78.74" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="25.4" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
 <junction x="78.74" y="25.4"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <pinref part="SQR" gate="1" pin="P$1"/>
 <wire x1="99.06" y1="17.78" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="25.4" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
@@ -4325,9 +4325,9 @@ Source: www.kingbright.com</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="S2" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="V-"/>
+<pinref part="IC1" gate="1" pin="V-"/>
 <wire x1="53.34" y1="5.08" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="53.34" y1="10.16" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 <junction x="53.34" y="10.16"/>
@@ -4338,7 +4338,7 @@ Source: www.kingbright.com</description>
 <wire x1="27.94" y1="10.16" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <pinref part="S3" gate="1" pin="GND"/>
 <wire x1="124.46" y1="5.08" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -4351,16 +4351,16 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="38.1" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="10.16" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="S_ADJ2"/>
+<pinref part="IC1" gate="1" pin="S_ADJ2"/>
 <wire x1="33.02" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="CAP"/>
+<pinref part="IC1" gate="1" pin="CAP"/>
 <pinref part="C1" gate="1" pin="1"/>
 <wire x1="35.56" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="20.32" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
@@ -4368,7 +4368,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="TRIANGLE"/>
+<pinref part="IC1" gate="1" pin="TRIANGLE"/>
 <wire x1="71.12" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="20.32" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="TRI" gate="1" pin="P$1"/>
@@ -4380,34 +4380,34 @@ Source: www.kingbright.com</description>
 <pinref part="SIN" gate="1" pin="P$1"/>
 <wire x1="104.14" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="12.7" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="SINE"/>
+<pinref part="IC1" gate="1" pin="SINE"/>
 <wire x1="76.2" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="R7" gate="1" pin="2"/>
+<pinref part="T1" gate="1" pin="B"/>
 <wire x1="119.38" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="D1" gate="1" pin="C"/>
+<pinref part="R8" gate="1" pin="2"/>
 <wire x1="124.46" y1="45.72" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="C"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="T1" gate="1" pin="C"/>
+<pinref part="R8" gate="1" pin="1"/>
 <wire x1="124.46" y1="30.48" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="12.7" y1="27.94" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R5" gate="1" pin="A"/>
 <wire x1="20.32" y1="30.48" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
@@ -4416,10 +4416,10 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="FM_BIAS"/>
+<pinref part="IC1" gate="1" pin="FM_BIAS"/>
 <wire x1="35.56" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="33.02" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="SWEEP"/>
+<pinref part="IC1" gate="1" pin="SWEEP"/>
 <wire x1="33.02" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R5" gate="1" pin="S"/>
 <wire x1="22.86" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
