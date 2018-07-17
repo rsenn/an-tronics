@@ -76,18 +76,23 @@ eagle_print_to_pdf() {
 
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
+
+  [ -n "$OUTDIR" -a -d "$OUTDIR" ] && OUTPUT=$OUTDIR/$(basename "$OUTPUT")
   rm -f -- "$OUTPUT"
   OPTIONS=$3
   : ${SCALE:=1.0}
   : ${PAPER:="a4"}
-  oRIENTATION=${4:-${ORIENTATION:-portrait}}
+  ORIENTATION=${4:-${ORIENTATION:-portrait}}
   EAGLE_CMD="PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${OUTPUT}' sheets all paper $PAPER"
 
  echo "Processing $1 ..." 1>&2
  echo 1>&2
 
   case $INPUT in
-     *.brd)   EAGLE_CMD="RATSNEST; DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" ;;
+     *.brd)   
+       EAGLE_CMD="DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" 
+       #EAGLE_CMD="RATSNEST;  $EAGLE_CMD" 
+       ;;
    esac
   EAGLE_CMDS=${EAGLE_CMDS:+"$EAGLE_CMDS; "}$EAGLE_CMD
 
@@ -132,6 +137,15 @@ eagle_print() {
   find_program GHOSTSCRIPT "gs" || error "ghostscript not found"
   find_program PDFTOPS "pdftops" || error "pdftops not found"
 
+  while :; do 
+    case "$1" in
+      -d=*|--destdir=*) OUTDIR="${1#*=}"; shift ;;
+      -d|--destdir) OUTDIR="$2"; shift 2 ;;
+      *) break ;;
+    esac
+  done
+  [ -n "$OUTDIR" -a -d "$OUTDIR" ] && echo "OUTDIR is '$OUTDIR'" 1>&2
+
   for ARG; do
 
    (SCH=${ARG%.*}
@@ -139,7 +153,7 @@ eagle_print() {
       SCH=${SCH%-[[:lower:]]*}.sch
     fi
     BRD=${ARG%.*}.brd
-    OUT=doc/pdf/$(basename "${BRD%.*}").pdf
+    OUT=${OUTDIR:-doc/pdf}/$(basename "${BRD%.*}").pdf
      trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,eps}' EXIT
 
   #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_print_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"

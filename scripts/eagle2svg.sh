@@ -65,7 +65,8 @@ exec_cmd() {
 
  (echo -n "$VAR "
   for X in  "$@"; do echo -n "'$X' "; done) 1>&2
-  eval "env - PATH=\"\$PATH\" \"\${$VAR}\" \"\$@\" 2>&1"
+  #eval "env - PATH=\"\$PATH\" \"\${$VAR}\" \"\$@\" 2>&1"
+  eval '"${'$VAR'}" "$@" 2>&1'
   R=$?
   echo " (R=$R)" 1>&2)  1>&10
 }
@@ -92,17 +93,19 @@ eagle_to_svg() {
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
   
-  if [ -n "$OUTDIR" ]; then
-  OUTPUT="$OUTDIR"/$(basename "$OUTPUT")
-  fi
-  
-  rm -f -- "$OUTPUT"
+  TMPOUT=$(dirname "$OUTPUT")/tmp-$$.pdf
+
+  OUTPUT=`outfile "$OUTPUT"`
+
   OPTIONS=$3
   : ${SCALE:=1.0}
   : ${PAPER:="a4"}
   ORIENTATION=${4:-${ORIENTATION:-portrait}}
-  EAGLE_CMD="PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${OUTPUT}' sheets all paper $PAPER"
+  EAGLE_CMD="PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${TMPOUT##*/}' sheets all paper $PAPER"
 
+ (trap 'rm -f "$TMPOUT"' EXIT
+  
+  rm -f -- "$OUTPUT" "$TMPOUT"
  echo "Processing $1 ..." 1>&2
  echo 1>&2
 
@@ -114,7 +117,7 @@ eagle_to_svg() {
  exec_cmd EAGLE -N- -C "$EAGLE_CMD; QUIT"      "$INPUT" &
   pid=$!
 
-  while [ ! -s "$OUTPUT" ]; do
+  while [ ! -s "$TMPOUT" ]; do
     sleep 0.1
   done
 
@@ -122,6 +125,11 @@ eagle_to_svg() {
 
   kill $pid 2>/dev/null
   wait $pid
+
+ 
+  exec_cmd PDFCROP "$TMPOUT" "$OUTPUT" )
+
+  #mv -vf "$TMPOUT"  "$OUTPUT"
 
  : || (TMP=$(mktemp infoXXXXXX.txt)
   trap 'mv -f -- "$OUTPUT.$$" "$OUTPUT"; rm -f "$TMP"' EXIT
@@ -154,13 +162,18 @@ eagle_print() {
   find_program EAGLE "eagle" 'reg query "HKLM\SOFTWARE\Classes\Applications\eagle.exe\shell\open\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "eagle not found"
   find_program INKSCAPE "inkscape" 'reg query "HKLM\SOFTWARE\Classes\svgfile\shell\Inkscape\command" |sed "s,.*REG_SZ\s*\"\?\(.*\.exe\).*,\1,p" -n' || error "Inkscape not found"
   find_program PDFTK "pdftk" || error "pdftk not found"
+  find_program PDFCROP "pdfcrop" || error "pdfcrop not found"
   find_program PDFTOCAIRO "pdftocairo" || error "pdftocairo not found"
 
 EAGLE=${EAGLE//eagle.exe/eaglecon.exe}
 
 I=0
 N=$#
-   
+  
+    outfile() {
+      [ -n "$OUTDIR" -a -d "$OUTDIR" ] && echo "$OUTDIR/$(basename "$1")" ||  echo "$1"
+    }  
+
   for ARG; do
    I=$((I+1))
    echo "Processing '$ARG' ($((I))/$((N)))" 1>&2
@@ -168,10 +181,12 @@ N=$#
     if [ ! -e "${SCH}.sch" ]; then
       SCH=${SCH%-[[:lower:]]*}.sch
     fi
-    SCH=${SCH}.sch
+    #SCH=${SCH}.sch
     BRD=${ARG%.*}.brd
     BASE=$(basename "${BRD%.*}")
-    OUT=doc/pdf/$(basename "${BRD%.*}").pdf
+
+    OUT=`outfile "doc/pdf/$(basename "${BRD%.*}").pdf"`
+  
     trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
@@ -192,6 +207,7 @@ N=$#
    (for OUTPUT in "${SCH%.*}"-schematic.pdf \
   "${BRD%.*}"-{board,board-mirrored}.pdf \
   ; do
+      OUTPUT=`outfile "$OUTPUT"`
       echo "Converting $OUTPUT ..." 1>&2
       echo 1>&2
       exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
