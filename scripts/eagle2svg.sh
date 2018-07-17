@@ -92,16 +92,20 @@ eagle_to_svg() {
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
   
-  if [ -n "$OUTDIR" ]; then
+
+    if [ -n "$OUTDIR" ]; then
   OUTPUT="$OUTDIR"/$(basename "$OUTPUT")
   fi
-  
   rm -f -- "$OUTPUT"
   OPTIONS=$3
   : ${SCALE:=1.0}
   : ${PAPER:="a4"}
   ORIENTATION=${4:-${ORIENTATION:-portrait}}
   EAGLE_CMD="PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${OUTPUT}' sheets all paper $PAPER"
+
+case "$INPUT" in 
+*.brd) EAGLE_CMD="RATSNEST; WRITE; $EAGLE_CMD" ;;
+esac
 
  echo "Processing $1 ..." 1>&2
  echo 1>&2
@@ -172,6 +176,9 @@ N=$#
     BRD=${ARG%.*}.brd
     BASE=$(basename "${BRD%.*}")
     OUT=doc/pdf/$(basename "${BRD%.*}").pdf
+ [ "$OUTDIR" ] && OUT=$OUTDIR/${OUT##*/}
+ [ "$OUTDIR" ] && OUTPUT=$OUTDIR/${OUTPUT##*/}
+ 
     trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"

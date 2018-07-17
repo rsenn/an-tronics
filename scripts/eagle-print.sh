@@ -64,12 +64,13 @@ eagle_print_to_pdf() {
 
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
+  [ "$OUTDIR" ] && OUTPUT=$OUTDIR/$(basename "$OUTPUT")
   rm -f -- "$OUTPUT"
   OPTIONS=$3
   : ${SCALE:=1.0}
   : ${PAPER:="a4"}
   ORIENTATION=${4:-${ORIENTATION:-portrait}}
-  EAGLE_CMD="PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${OUTPUT}' sheets all paper $PAPER"
+  EAGLE_CMD="RATSNEST; PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${OUTPUT}' sheets all paper $PAPER"
 
  echo "Processing $1 ..." 1>&2
  echo 1>&2
