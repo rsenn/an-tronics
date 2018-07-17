@@ -269,9 +269,9 @@
 <gates>
 <gate name="A" symbol="OTA_WD_N" x="0" y="0" swaplevel="1"/>
 <gate name="B" symbol="OTA_WD_N" x="-33.02" y="27.94" swaplevel="1"/>
-<gate name="G$3" symbol="OTA_BUF" x="35.56" y="0" swaplevel="1"/>
-<gate name="G$4" symbol="OTA_BUF" x="2.54" y="27.94" swaplevel="1"/>
-<gate name="G$5" symbol="OTA_WD_PWR" x="10.795" y="-8.255" addlevel="request"/>
+<gate name="3" symbol="OTA_BUF" x="35.56" y="0" swaplevel="1"/>
+<gate name="4" symbol="OTA_BUF" x="2.54" y="27.94" swaplevel="1"/>
+<gate name="5" symbol="OTA_WD_PWR" x="10.795" y="-8.255" addlevel="request"/>
 </gates>
 <devices>
 <device name="N" package="DIL16">
@@ -286,12 +286,12 @@
 <connect gate="B" pin="IABC" pad="16"/>
 <connect gate="B" pin="ID" pad="15"/>
 <connect gate="B" pin="OUT" pad="12"/>
-<connect gate="G$3" pin="IN" pad="7"/>
-<connect gate="G$3" pin="OUT" pad="8"/>
-<connect gate="G$4" pin="IN" pad="10"/>
-<connect gate="G$4" pin="OUT" pad="9"/>
-<connect gate="G$5" pin="V+" pad="11"/>
-<connect gate="G$5" pin="V-" pad="6"/>
+<connect gate="3" pin="IN" pad="7"/>
+<connect gate="3" pin="OUT" pad="8"/>
+<connect gate="4" pin="IN" pad="10"/>
+<connect gate="4" pin="OUT" pad="9"/>
+<connect gate="5" pin="V+" pad="11"/>
+<connect gate="5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -309,12 +309,12 @@
 <connect gate="B" pin="IABC" pad="16"/>
 <connect gate="B" pin="ID" pad="15"/>
 <connect gate="B" pin="OUT" pad="12"/>
-<connect gate="G$3" pin="IN" pad="7"/>
-<connect gate="G$3" pin="OUT" pad="8"/>
-<connect gate="G$4" pin="IN" pad="10"/>
-<connect gate="G$4" pin="OUT" pad="9"/>
-<connect gate="G$5" pin="V+" pad="11"/>
-<connect gate="G$5" pin="V-" pad="6"/>
+<connect gate="3" pin="IN" pad="7"/>
+<connect gate="3" pin="OUT" pad="8"/>
+<connect gate="4" pin="IN" pad="10"/>
+<connect gate="4" pin="OUT" pad="9"/>
+<connect gate="5" pin="V+" pad="11"/>
+<connect gate="5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9519,13 +9519,13 @@ Source: AVX .. aphvc.pdf</description>
 <deviceset name="R-US_" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
-<gate name="G$1" symbol="R-US" x="0" y="0"/>
+<gate name="1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="R0402" package="R0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9533,8 +9533,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R0603" package="R0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9542,8 +9542,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R0805" package="R0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9551,8 +9551,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R0805W" package="R0805W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9560,8 +9560,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R1005" package="R1005">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9569,8 +9569,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R1206" package="R1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9578,8 +9578,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R1206W" package="R1206W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9587,8 +9587,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R1210" package="R1210">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9596,8 +9596,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R1210W" package="R1210W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9605,8 +9605,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R2010" package="R2010">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9614,8 +9614,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R2010W" package="R2010W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9623,8 +9623,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R2012" package="R2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9632,8 +9632,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R2012W" package="R2012W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9641,8 +9641,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R2512" package="R2512">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9650,8 +9650,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R2512W" package="R2512W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9659,8 +9659,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R3216" package="R3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9668,8 +9668,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R3216W" package="R3216W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9677,8 +9677,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R3225" package="R3225">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9686,8 +9686,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R3225W" package="R3225W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9695,8 +9695,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R5025" package="R5025">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9704,8 +9704,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R5025W" package="R5025W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9713,8 +9713,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R6332" package="R6332">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9722,8 +9722,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R6332W" package="R6332W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9731,8 +9731,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M0805" package="M0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9740,8 +9740,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M1206" package="M1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9749,8 +9749,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M1406" package="M1406">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9758,8 +9758,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M2012" package="M2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9767,8 +9767,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M2309" package="M2309">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9776,8 +9776,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M3216" package="M3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9785,8 +9785,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M3516" package="M3516">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9794,8 +9794,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="M5923" package="M5923">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9803,8 +9803,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9812,8 +9812,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9821,8 +9821,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9830,8 +9830,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9839,8 +9839,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9848,8 +9848,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9857,8 +9857,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9866,8 +9866,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9875,8 +9875,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0309/10" package="0309/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9884,8 +9884,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0309/12" package="0309/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9893,8 +9893,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0411/12" package="0411/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9902,8 +9902,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0411/15" package="0411/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9911,8 +9911,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0411/3V" package="0411V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9920,8 +9920,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0414/15" package="0414/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9929,8 +9929,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0414/5V" package="0414V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9938,8 +9938,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0617/17" package="0617/17">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9947,8 +9947,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0617/22" package="0617/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9956,8 +9956,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0617/5V" package="0617V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9965,8 +9965,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0922/22" package="0922/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9974,8 +9974,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0613/5V" package="P0613V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9983,8 +9983,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0613/15" package="P0613/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9992,8 +9992,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0817/22" package="P0817/22">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10001,8 +10001,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0817/7V" package="P0817V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10010,8 +10010,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="V234/12" package="V234/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10019,8 +10019,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="V235/17" package="V235/17">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10028,8 +10028,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="V526-0" package="V526-0">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10037,8 +10037,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="MELF0102AX" package="MINI_MELF-0102AX">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10046,8 +10046,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0922V" package="0922V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10055,8 +10055,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="MELF0102R" package="MINI_MELF-0102R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10064,8 +10064,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="MELF0102W" package="MINI_MELF-0102W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10073,8 +10073,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="MELF0204R" package="MINI_MELF-0204R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10082,8 +10082,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="MELF0204W" package="MINI_MELF-0204W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10091,8 +10091,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="MELF0207R" package="MINI_MELF-0207R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10100,8 +10100,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="MELF0207W" package="MINI_MELF-0207W">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10109,8 +10109,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="RDH/15" package="RDH/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10118,8 +10118,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0204/2V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10127,8 +10127,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="0309/V" package="0309V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10136,8 +10136,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R0201" package="R0201">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10145,8 +10145,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="VMTA55" package="VMTA55">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10154,8 +10154,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="VMTB60" package="VMTB60">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10163,8 +10163,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="VTA52" package="VTA52">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10172,8 +10172,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="VTA53" package="VTA53">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10181,8 +10181,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="VTA54" package="VTA54">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10190,8 +10190,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="VTA55" package="VTA55">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10199,8 +10199,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="VTA56" package="VTA56">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10208,8 +10208,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R4527" package="R4527">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10217,8 +10217,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="WSC0001" package="WSC0001">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10226,8 +10226,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="WSC0002" package="WSC0002">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10235,8 +10235,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="WSC01/2" package="WSC01/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10244,8 +10244,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="WSC2515" package="WSC2515">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10253,8 +10253,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="WSC4527" package="WSC4527">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10262,8 +10262,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="WSC6927" package="WSC6927">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10271,8 +10271,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R1218" package="R1218">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10280,8 +10280,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="1812X7R" package="1812X7R">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10292,13 +10292,13 @@ Source: AVX .. aphvc.pdf</description>
 <deviceset name="CPOL-US" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL-US" x="0" y="0"/>
+<gate name="1" symbol="CPOL-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="CT3216" package="CT3216">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10306,8 +10306,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="CT3528" package="CT3528">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10315,8 +10315,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="CT6032" package="CT6032">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10324,8 +10324,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="CT7343" package="CT7343">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10333,8 +10333,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181A" package="B45181A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10342,8 +10342,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181B" package="B45181B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10351,8 +10351,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181C" package="B45181C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10360,8 +10360,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181D" package="B45181D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10369,8 +10369,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D4" package="TT2D4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10378,8 +10378,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D4L" package="TT2D4L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10387,8 +10387,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D5" package="TT2D5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10396,8 +10396,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D6" package="TT2D6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10405,8 +10405,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D6L" package="TT2D6L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10414,8 +10414,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D7L" package="TT2D7L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10423,8 +10423,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D7" package="TT2D7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10432,8 +10432,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D10" package="TT5D10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10441,8 +10441,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D11" package="TT5D11">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10450,8 +10450,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D11L" package="TT5D11L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10459,8 +10459,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT6D6" package="TT5D6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10468,8 +10468,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D6L" package="TT5D6L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10477,8 +10477,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D7" package="TT5D7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10486,8 +10486,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D7L" package="TT5D7L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10495,8 +10495,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D9" package="TT5D9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10504,8 +10504,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D9L" package="TT5D9L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10513,8 +10513,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR1" package="ETR1">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10522,8 +10522,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR2" package="ETR2">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10531,8 +10531,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR3" package="ETR3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10540,8 +10540,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR4" package="ETR4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10549,8 +10549,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR5" package="ETR5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10558,8 +10558,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-35" package="P128-35">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10567,8 +10567,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-40" package="P128-40">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10576,8 +10576,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-50" package="P128-50">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10585,8 +10585,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-60" package="P128-60">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10594,8 +10594,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-45" package="TAP5-45">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10603,8 +10603,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-50" package="TAP5-50">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10612,8 +10612,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-70" package="TAP5-70">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10621,8 +10621,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-60" package="TAP5-60">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10630,8 +10630,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-80" package="TAP5-80">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10639,8 +10639,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E1.8-4" package="E1,8-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10648,8 +10648,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10657,8 +10657,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10666,8 +10666,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10675,8 +10675,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-5V" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10684,8 +10684,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10693,8 +10693,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10702,8 +10702,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10711,8 +10711,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10720,8 +10720,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2-4" package="E2-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10729,8 +10729,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2-5" package="E2-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10738,8 +10738,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E22-10AXIAL" package="E22-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10747,8 +10747,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E22-6AXIAL" package="E22-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10756,8 +10756,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E22-9AXIAL" package="E22-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10765,8 +10765,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E3.5-10" package="E3,5-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10774,8 +10774,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10783,8 +10783,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10792,8 +10792,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E3.5-8" package="E3,5-8">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10801,8 +10801,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10810,8 +10810,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10819,8 +10819,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10828,8 +10828,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10837,8 +10837,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10846,8 +10846,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10855,8 +10855,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10864,8 +10864,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10873,8 +10873,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10882,8 +10882,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10891,8 +10891,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10900,8 +10900,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10909,8 +10909,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10918,8 +10918,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10927,8 +10927,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10936,8 +10936,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10945,8 +10945,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10954,8 +10954,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10963,8 +10963,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10972,8 +10972,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10981,8 +10981,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10990,8 +10990,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10999,8 +10999,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11008,8 +11008,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11017,8 +11017,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11026,8 +11026,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-20" package="EB20D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11035,8 +11035,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-22.5" package="EB22,5D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11044,8 +11044,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-25" package="EB25D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11053,8 +11053,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-30" package="EB30D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11062,8 +11062,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-35" package="EB35D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11071,8 +11071,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1R" package="085CS_1R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11080,8 +11080,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1W" package="085CS_1W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11089,8 +11089,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1AR" package="085CS_1AR">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11098,8 +11098,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1AW" package="085CS_1AW">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11107,8 +11107,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-2R" package="139CLL-2R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11116,8 +11116,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-2W" package="139CLL-2W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11125,8 +11125,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-3R" package="139CLL-3R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11134,8 +11134,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-3W" package="139CLL-3W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11143,8 +11143,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="140CLH-0810" package="140CLH-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11152,8 +11152,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="140CLH-1010" package="140CLH-1010">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11161,8 +11161,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="140CLH-1014" package="140CLH-1014">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11170,8 +11170,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150CLZ-0810" package="150CLZ-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11179,8 +11179,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150CLZ-1010" package="150CLZ-1010">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11188,8 +11188,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150CLZ-1014" package="150CLZ-1014">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11197,8 +11197,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0405" package="153CLV-0405">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11206,8 +11206,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0505" package="153CLV-0505">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11215,8 +11215,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0605" package="153CLV-0605">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11224,8 +11224,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0807" package="153CLV-0807">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11233,8 +11233,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0810" package="153CLV-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11242,8 +11242,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-1010" package="153CLV-1010">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11251,8 +11251,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-1012" package="153CLV-1012">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11260,8 +11260,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-1014" package="153CLV-1014">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11269,8 +11269,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="175TMP-0808" package="175TMP-0808">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11278,8 +11278,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="175TMP-0810" package="175TMP-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11287,8 +11287,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="A/3216-18R" package="A/3216-18R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11296,8 +11296,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="A/3216-18W" package="A/3216-18W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11305,8 +11305,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B/3528-21R" package="B/3528-21R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11314,8 +11314,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B/3528-21W" package="B/3528-21W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11323,8 +11323,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C/6032-28R" package="C/6032-28R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11332,8 +11332,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C/6032-28W" package="C/6032-28W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11341,8 +11341,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="D/7343-31R" package="D/7343-31R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11350,8 +11350,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="D/7343-31W" package="D/7343-31W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11359,8 +11359,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E/7260-38R" package="E/7260-38R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11368,8 +11368,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E/7260-38W" package="E/7260-38W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11377,8 +11377,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R/2012-12R" package="R/2012-12R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11386,8 +11386,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R/2012-12W" package="R/2012-12W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11395,8 +11395,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="A" package="PANASONIC_A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11404,8 +11404,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B" package="PANASONIC_B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11413,8 +11413,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C" package="PANASONIC_C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11422,8 +11422,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="D" package="PANASONIC_D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11431,8 +11431,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E" package="PANASONIC_E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11440,8 +11440,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="F" package="PANASONIC_F">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11449,8 +11449,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="G" package="PANASONIC_G">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11458,8 +11458,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D5L" package="TT2D5L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11467,8 +11467,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11476,8 +11476,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCA" package="SMC_A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11485,8 +11485,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCZ" package="SMC_Z">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11494,8 +11494,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCP" package="SMC_P">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11503,8 +11503,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCB" package="SMC_B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11512,8 +11512,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCC" package="SMC_C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11521,8 +11521,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCD" package="SMC_D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11530,8 +11530,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCE" package="SMC_E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11539,8 +11539,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_9E" package="SANYO-OSCON_9E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11548,8 +11548,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_9F" package="SANYO-OSCON_9F">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11557,8 +11557,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_A" package="SANYO-OSCON_A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11566,8 +11566,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_A'" package="SANYO-OSCON_A'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11575,8 +11575,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_B" package="SANYO-OSCON_B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11584,8 +11584,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_B'" package="SANYO-OSCON_B'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11593,8 +11593,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_C" package="SANYO-OSCON_C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11602,8 +11602,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_C'" package="SANYO-OSCON_C'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11611,8 +11611,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_C6" package="SANYO-OSCON_C6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11620,8 +11620,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_D" package="SANYO-OSCON_D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11629,8 +11629,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E" package="SANYO-OSCON_E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11638,8 +11638,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E'" package="SANYO-OSCON_E'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11647,8 +11647,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E1" package="SANYO-OSCON_E1">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11656,8 +11656,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E12" package="SANYO-OSCON_E12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11665,8 +11665,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E13" package="SANYO-OSCON_E13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11674,8 +11674,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E7" package="SANYO-OSCON_E7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11683,8 +11683,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E9" package="SANYO-OSCON_E9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11692,8 +11692,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F" package="SANYO-OSCON_F">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11701,8 +11701,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F'" package="SANYO-OSCON_F'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11710,8 +11710,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F0" package="SANYO-OSCON_F0">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11719,8 +11719,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F13" package="SANYO-OSCON_F13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11728,8 +11728,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F8" package="SANYO-OSCON_F8">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11737,8 +11737,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_G" package="SANYO-OSCON_G">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11746,8 +11746,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_H" package="SANYO-OSCON_H">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11755,8 +11755,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_A5" package="SANYO-OSCON_SMD_A5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11764,8 +11764,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_B6" package="SANYO-OSCON_SMD_B6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11773,8 +11773,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_C6" package="SANYO-OSCON_SMD_C6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11782,8 +11782,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_E12" package="SANYO-OSCON_SMD_E12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11791,8 +11791,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_E7" package="SANYO-OSCON_SMD_E7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11800,8 +11800,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_F12" package="SANYO-OSCON_SMD_F12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11809,8 +11809,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_F8" package="SANYO-OSCON_SMD_F8">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11818,8 +11818,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-10X10" package="UD-10X10_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11827,8 +11827,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-4X5,8" package="UD-4X5,8_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11836,8 +11836,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-5X5,8" package="UD-5X5,8_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11845,8 +11845,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-6,3X5,8" package="UD-6,3X5,8_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11854,8 +11854,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-6,3X7,7" package="UD-6,3X7,7_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11863,8 +11863,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-8X10" package="UD-8X10_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11875,13 +11875,13 @@ Source: AVX .. aphvc.pdf</description>
 <deviceset name="C-US" prefix="C" uservalue="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
-<gate name="G$1" symbol="C-US" x="0" y="0"/>
+<gate name="1" symbol="C-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="C0402" package="C0402">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11889,8 +11889,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C0504" package="C0504">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11898,8 +11898,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C0603" package="C0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11907,8 +11907,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C0805" package="C0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11916,8 +11916,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1005" package="C1005">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11925,8 +11925,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1206" package="C1206">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11934,8 +11934,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1210" package="C1210">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11943,8 +11943,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1310" package="C1310">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11952,8 +11952,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1608" package="C1608">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11961,8 +11961,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1812" package="C1812">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11970,8 +11970,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1825" package="C1825">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11979,8 +11979,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C2012" package="C2012">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11988,8 +11988,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C3216" package="C3216">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11997,8 +11997,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C3225" package="C3225">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12006,8 +12006,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C4532" package="C4532">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12015,8 +12015,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C4564" package="C4564">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12024,8 +12024,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025-024X044" package="C025-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12033,8 +12033,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025-025X050" package="C025-025X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12042,8 +12042,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025-030X050" package="C025-030X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12051,8 +12051,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025-040X050" package="C025-040X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12060,8 +12060,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025-050X050" package="C025-050X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12069,8 +12069,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025-060X050" package="C025-060X050">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12078,8 +12078,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C025_050-024X070" package="C025_050-024X070">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12087,8 +12087,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025_050-025X075" package="C025_050-025X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12096,8 +12096,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025_050-035X075" package="C025_050-035X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12105,8 +12105,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025_050-045X075" package="C025_050-045X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12114,8 +12114,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="025_050-055X075" package="C025_050-055X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12123,8 +12123,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12132,8 +12132,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-025X075" package="C050-025X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12141,8 +12141,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-045X075" package="C050-045X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12150,8 +12150,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-030X075" package="C050-030X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12159,8 +12159,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-050X075" package="C050-050X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12168,8 +12168,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-055X075" package="C050-055X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12177,8 +12177,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-075X075" package="C050-075X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12186,8 +12186,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050H075X075" package="C050H075X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12195,8 +12195,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="075-032X103" package="C075-032X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12204,8 +12204,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="075-042X103" package="C075-042X103">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12213,8 +12213,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="075-052X106" package="C075-052X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12222,8 +12222,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="102-043X133" package="C102-043X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12231,8 +12231,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="102-054X133" package="C102-054X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12240,8 +12240,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="102-064X133" package="C102-064X133">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12249,8 +12249,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="102_152-062X184" package="C102_152-062X184">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12258,8 +12258,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150-054X183" package="C150-054X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12267,8 +12267,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150-064X183" package="C150-064X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12276,8 +12276,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150-072X183" package="C150-072X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12285,8 +12285,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150-084X183" package="C150-084X183">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12294,8 +12294,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150-091X182" package="C150-091X182">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12303,8 +12303,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="225-062X268" package="C225-062X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12312,8 +12312,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="225-074X268" package="C225-074X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12321,8 +12321,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="225-087X268" package="C225-087X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12330,8 +12330,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="225-108X268" package="C225-108X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12339,8 +12339,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="225-113X268" package="C225-113X268">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12348,8 +12348,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="275-093X316" package="C275-093X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12357,8 +12357,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="275-113X316" package="C275-113X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12366,8 +12366,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="275-134X316" package="C275-134X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12375,8 +12375,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="275-205X316" package="C275-205X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12384,8 +12384,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="325-137X374" package="C325-137X374">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12393,8 +12393,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="325-162X374" package="C325-162X374">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12402,8 +12402,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="325-182X374" package="C325-182X374">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12411,8 +12411,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="375-192X418" package="C375-192X418">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12420,8 +12420,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="375-203X418" package="C375-203X418">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12429,8 +12429,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="050-035X075" package="C050-035X075">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12438,8 +12438,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="375-155X418" package="C375-155X418">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12447,8 +12447,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="075-063X106" package="C075-063X106">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12456,8 +12456,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="275-154X316" package="C275-154X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12465,8 +12465,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="275-173X316" package="C275-173X316">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12474,8 +12474,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C0402K" package="C0402K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12483,8 +12483,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C0603K" package="C0603K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12492,8 +12492,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C0805K" package="C0805K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12501,8 +12501,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1206K" package="C1206K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12510,8 +12510,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1210K" package="C1210K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12519,8 +12519,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1812K" package="C1812K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12528,8 +12528,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1825K" package="C1825K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12537,8 +12537,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C2220K" package="C2220K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12546,8 +12546,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C2225K" package="C2225K">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12555,8 +12555,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C0201" package="C0201">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12564,8 +12564,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C1808" package="C1808">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12573,8 +12573,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C3640" package="C3640">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12585,13 +12585,13 @@ Source: AVX .. aphvc.pdf</description>
 <deviceset name="CPOL-EU" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="CT3216" package="CT3216">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12599,8 +12599,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="CT3528" package="CT3528">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12608,8 +12608,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="CT6032" package="CT6032">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12617,8 +12617,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="CT7343" package="CT7343">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12626,8 +12626,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181A" package="B45181A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12635,8 +12635,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181B" package="B45181B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12644,8 +12644,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181C" package="B45181C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12653,8 +12653,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B45181D" package="B45181D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12662,8 +12662,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D4" package="TT2D4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12671,8 +12671,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D4L" package="TT2D4L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12680,8 +12680,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D5" package="TT2D5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12689,8 +12689,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D6" package="TT2D6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12698,8 +12698,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D6L" package="TT2D6L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12707,8 +12707,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D7L" package="TT2D7L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12716,8 +12716,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D7" package="TT2D7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12725,8 +12725,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D10" package="TT5D10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12734,8 +12734,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D11" package="TT5D11">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12743,8 +12743,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D11L" package="TT5D11L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12752,8 +12752,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT6D6" package="TT5D6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12761,8 +12761,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D6L" package="TT5D6L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12770,8 +12770,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D7" package="TT5D7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12779,8 +12779,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D7L" package="TT5D7L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12788,8 +12788,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D9" package="TT5D9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12797,8 +12797,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT5D9L" package="TT5D9L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12806,8 +12806,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR1" package="ETR1">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12815,8 +12815,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR2" package="ETR2">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12824,8 +12824,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR3" package="ETR3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12833,8 +12833,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR4" package="ETR4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12842,8 +12842,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="ETR5" package="ETR5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12851,8 +12851,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-35" package="P128-35">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12860,8 +12860,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-40" package="P128-40">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12869,8 +12869,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-50" package="P128-50">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12878,8 +12878,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="P128-60" package="P128-60">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12887,8 +12887,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-45" package="TAP5-45">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12896,8 +12896,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-50" package="TAP5-50">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12905,8 +12905,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-70" package="TAP5-70">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12914,8 +12914,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-60" package="TAP5-60">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12923,8 +12923,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TAP5-80" package="TAP5-80">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12932,8 +12932,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E1.8-4" package="E1,8-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12941,8 +12941,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12950,8 +12950,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12959,8 +12959,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12968,8 +12968,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-5V" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12977,8 +12977,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12986,8 +12986,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12995,8 +12995,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13004,8 +13004,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13013,8 +13013,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2-4" package="E2-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13022,8 +13022,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2-5" package="E2-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13031,8 +13031,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E22-10AXIAL" package="E22-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13040,8 +13040,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E22-6AXIAL" package="E22-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13049,8 +13049,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E22-9AXIAL" package="E22-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13058,8 +13058,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E3.5-10" package="E3,5-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13067,8 +13067,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13076,8 +13076,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13085,8 +13085,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E3.5-8" package="E3,5-8">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13094,8 +13094,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13103,8 +13103,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13112,8 +13112,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13121,8 +13121,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13130,8 +13130,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13139,8 +13139,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13148,8 +13148,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13157,8 +13157,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13166,8 +13166,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13175,8 +13175,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13184,8 +13184,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13193,8 +13193,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13202,8 +13202,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13211,8 +13211,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13220,8 +13220,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13229,8 +13229,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13238,8 +13238,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13247,8 +13247,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13256,8 +13256,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13265,8 +13265,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13274,8 +13274,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13283,8 +13283,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13292,8 +13292,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13301,8 +13301,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13310,8 +13310,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13319,8 +13319,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-20" package="EB20D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13328,8 +13328,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-22.5" package="EB22,5D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13337,8 +13337,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-25" package="EB25D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13346,8 +13346,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-30" package="EB30D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13355,8 +13355,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E10-35" package="EB35D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13364,8 +13364,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1R" package="085CS_1R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13373,8 +13373,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1W" package="085CS_1W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13382,8 +13382,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1AR" package="085CS_1AR">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13391,8 +13391,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="085CS-1AW" package="085CS_1AW">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13400,8 +13400,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-2R" package="139CLL-2R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13409,8 +13409,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-2W" package="139CLL-2W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13418,8 +13418,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-3R" package="139CLL-3R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13427,8 +13427,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="139CLL-3W" package="139CLL-3W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13436,8 +13436,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="140CLH-0810" package="140CLH-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13445,8 +13445,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="140CLH-1010" package="140CLH-1010">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13454,8 +13454,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="140CLH-1014" package="140CLH-1014">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13463,8 +13463,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150CLZ-0810" package="150CLZ-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13472,8 +13472,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150CLZ-1010" package="150CLZ-1010">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13481,8 +13481,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="150CLZ-1014" package="150CLZ-1014">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13490,8 +13490,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0405" package="153CLV-0405">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13499,8 +13499,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0505" package="153CLV-0505">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13508,8 +13508,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0605" package="153CLV-0605">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13517,8 +13517,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0807" package="153CLV-0807">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13526,8 +13526,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-0810" package="153CLV-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13535,8 +13535,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-1010" package="153CLV-1010">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13544,8 +13544,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-1012" package="153CLV-1012">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13553,8 +13553,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="153CLV-1014" package="153CLV-1014">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13562,8 +13562,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="175TMP-0808" package="175TMP-0808">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13571,8 +13571,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="175TMP-0810" package="175TMP-0810">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13580,8 +13580,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="A/3216-18R" package="A/3216-18R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13589,8 +13589,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="A/3216-18W" package="A/3216-18W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13598,8 +13598,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B/3528-21R" package="B/3528-21R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13607,8 +13607,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B/3528-21W" package="B/3528-21W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13616,8 +13616,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C/6032-28R" package="C/6032-28R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13625,8 +13625,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C/6032-28W" package="C/6032-28W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13634,8 +13634,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="D/7343-31R" package="D/7343-31R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13643,8 +13643,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="D/7343-31W" package="D/7343-31W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13652,8 +13652,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E/7260-38R" package="E/7260-38R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13661,8 +13661,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E/7260-38W" package="E/7260-38W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13670,8 +13670,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R/2012-12R" package="R/2012-12R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13679,8 +13679,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="R/2012-12W" package="R/2012-12W">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13688,8 +13688,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="A" package="PANASONIC_A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13697,8 +13697,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="B" package="PANASONIC_B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13706,8 +13706,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="C" package="PANASONIC_C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13715,8 +13715,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="D" package="PANASONIC_D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13724,8 +13724,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E" package="PANASONIC_E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13733,8 +13733,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="F" package="PANASONIC_F">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13742,8 +13742,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="G" package="PANASONIC_G">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13751,8 +13751,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="TT2D5L" package="TT2D5L">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13760,8 +13760,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13769,8 +13769,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCA" package="SMC_A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13778,8 +13778,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCZ" package="SMC_Z">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13787,8 +13787,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCP" package="SMC_P">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13796,8 +13796,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCB" package="SMC_B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13805,8 +13805,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCC" package="SMC_C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13814,8 +13814,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCD" package="SMC_D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13823,8 +13823,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SMCE" package="SMC_E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13832,8 +13832,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_9E" package="SANYO-OSCON_9E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13841,8 +13841,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_9F" package="SANYO-OSCON_9F">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13850,8 +13850,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_A" package="SANYO-OSCON_A">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13859,8 +13859,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_A'" package="SANYO-OSCON_A'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13868,8 +13868,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_B" package="SANYO-OSCON_B">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13877,8 +13877,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_B'" package="SANYO-OSCON_B'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13886,8 +13886,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_C" package="SANYO-OSCON_C">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13895,8 +13895,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_C'" package="SANYO-OSCON_C'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13904,8 +13904,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_C6" package="SANYO-OSCON_C6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13913,8 +13913,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_D" package="SANYO-OSCON_D">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13922,8 +13922,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E" package="SANYO-OSCON_E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13931,8 +13931,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E'" package="SANYO-OSCON_E'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13940,8 +13940,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E1" package="SANYO-OSCON_E1">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13949,8 +13949,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E12" package="SANYO-OSCON_E12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13958,8 +13958,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E13" package="SANYO-OSCON_E13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13967,8 +13967,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E7" package="SANYO-OSCON_E7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13976,8 +13976,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_E9" package="SANYO-OSCON_E9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13985,8 +13985,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F" package="SANYO-OSCON_F">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13994,8 +13994,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F'" package="SANYO-OSCON_F'">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14003,8 +14003,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F0" package="SANYO-OSCON_F0">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14012,8 +14012,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F13" package="SANYO-OSCON_F13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14021,8 +14021,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_F8" package="SANYO-OSCON_F8">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14030,8 +14030,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_G" package="SANYO-OSCON_G">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14039,8 +14039,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_H" package="SANYO-OSCON_H">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14048,8 +14048,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_A5" package="SANYO-OSCON_SMD_A5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14057,8 +14057,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_B6" package="SANYO-OSCON_SMD_B6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14066,8 +14066,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_C6" package="SANYO-OSCON_SMD_C6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14075,8 +14075,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_E12" package="SANYO-OSCON_SMD_E12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14084,8 +14084,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_E7" package="SANYO-OSCON_SMD_E7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14093,8 +14093,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_F12" package="SANYO-OSCON_SMD_F12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14102,8 +14102,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="SANYO_SMD_F8" package="SANYO-OSCON_SMD_F8">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14111,8 +14111,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-10X10" package="UD-10X10_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14120,8 +14120,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-4X5,8" package="UD-4X5,8_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14129,8 +14129,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-5X5,8" package="UD-5X5,8_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14138,8 +14138,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-6,3X8,8" package="UD-6,3X5,8_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14147,8 +14147,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-6,3X7,7" package="UD-6,3X7,7_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14156,8 +14156,8 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 <device name="UD-8X10" package="UD-8X10_NICHICON">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14236,14 +14236,14 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
 Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <gates>
-<gate name="G$1" symbol="POT_EU-" x="0" y="0"/>
+<gate name="1" symbol="POT_EU-" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="3RP/1610N">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14370,17 +14370,17 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <devicesets>
 <deviceset name="POWER">
 <gates>
-<gate name="G$1" symbol="POWER" x="0" y="0"/>
+<gate name="1" symbol="POWER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="POWER_16">
 <connects>
-<connect gate="G$1" pin="+12V" pad="9 10"/>
-<connect gate="G$1" pin="+5V" pad="11 12"/>
-<connect gate="G$1" pin="-12V" pad="1 2"/>
-<connect gate="G$1" pin="CV" pad="13 14"/>
-<connect gate="G$1" pin="GATE" pad="15 16"/>
-<connect gate="G$1" pin="GND" pad="3 4 5 6 7 8"/>
+<connect gate="1" pin="+12V" pad="9 10"/>
+<connect gate="1" pin="+5V" pad="11 12"/>
+<connect gate="1" pin="-12V" pad="1 2"/>
+<connect gate="1" pin="CV" pad="13 14"/>
+<connect gate="1" pin="GATE" pad="15 16"/>
+<connect gate="1" pin="GND" pad="3 4 5 6 7 8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14515,14 +14515,14 @@ grid 5.08 mm</description>
 <deviceset name="BC559*" prefix="Q">
 <description>&lt;b&gt;PNP Transistror&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="PNP" x="0" y="0"/>
+<gate name="1" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name="A"/>
@@ -15699,13 +15699,13 @@ Source: www.luxeon.com&lt;p&gt;
 KA-3528ASYC&lt;br&gt;
 Source: www.kingbright.com</description>
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SMT1206" package="1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15713,8 +15713,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LD260" package="LD260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15722,8 +15722,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR2X5" package="LED2X5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15731,8 +15731,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="3MM" package="LED3MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15740,8 +15740,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="5MM" package="LED5MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15749,8 +15749,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LSU260" package="LSU260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15758,8 +15758,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LZR181" package="LZR181">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15767,8 +15767,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B152" package="Q62902-B152">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15776,8 +15776,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B153" package="Q62902-B153">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15785,8 +15785,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B155" package="Q62902-B155">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15794,8 +15794,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B156" package="Q62902-B156">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15803,8 +15803,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH480" package="SFH480">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15812,8 +15812,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH482" package="SFH482">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15821,8 +15821,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR5.7X3.2" package="U57X32">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15830,8 +15830,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="IRL80A" package="IRL80A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15839,8 +15839,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2" package="P-LCC-2">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15848,8 +15848,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MINI-TOP" package="OSRAM-MINI-TOP-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15857,8 +15857,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SIDELED" package="OSRAM-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15866,8 +15866,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SMART-LED" package="SMART-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="B"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15875,8 +15875,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2-BACK" package="P-LCC-2-TOPLED-RG">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15884,8 +15884,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MICRO-SIDELED" package="MICRO-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15893,8 +15893,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-4" package="P-LCC-4">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C@4"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C@4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15902,8 +15902,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0603" package="CHIP-LED0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15911,8 +15911,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0805" package="CHIP-LED0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15920,8 +15920,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="TOPLED-SANTANA" package="MINI-TOPLED-SANTANA">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15929,8 +15929,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0805" package="CHIPLED_0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15938,8 +15938,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_1206" package="CHIPLED_1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15947,8 +15947,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0603" package="CHIPLED_0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15956,8 +15956,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED-0603-TTW" package="CHIPLED-0603-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15965,8 +15965,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="" package="SMARTLED-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15974,8 +15974,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED+" package="LUMILED+">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15983,8 +15983,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED" package="LUMILED">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15992,8 +15992,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="10MM" package="LED10MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16001,8 +16001,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="KA-3528ASYC" package="KA-3528ASYC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16010,8 +16010,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0805" package="SML0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16019,8 +16019,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML1206" package="SML1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16028,8 +16028,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0603" package="SML0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16112,14 +16112,14 @@ Source: www.kingbright.com</description>
 <deviceset name="AUDIO-JACK">
 <description>Switching Mono 3.5mm Audio Jack from Erthenvar.</description>
 <gates>
-<gate name="G$1" symbol="AUDIO-JACK" x="0" y="0"/>
+<gate name="1" symbol="AUDIO-JACK" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ERTHENVAR-JACK-90DEG">
 <connects>
-<connect gate="G$1" pin="NORM" pad="P$2"/>
-<connect gate="G$1" pin="RING" pad="P$1"/>
-<connect gate="G$1" pin="TIP" pad="P$3"/>
+<connect gate="1" pin="NORM" pad="P$2"/>
+<connect gate="1" pin="RING" pad="P$1"/>
+<connect gate="1" pin="TIP" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16127,9 +16127,9 @@ Source: www.kingbright.com</description>
 </device>
 <device name="ERTHENVAR" package="ERTHENVAR-JACK">
 <connects>
-<connect gate="G$1" pin="NORM" pad="2"/>
-<connect gate="G$1" pin="RING" pad="1@1 1@2"/>
-<connect gate="G$1" pin="TIP" pad="3"/>
+<connect gate="1" pin="NORM" pad="2"/>
+<connect gate="1" pin="RING" pad="1@1 1@2"/>
+<connect gate="1" pin="TIP" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16227,65 +16227,65 @@ Source: www.kingbright.com</description>
 <instance part="IC2" gate="B" x="88.9" y="27.94" rot="MR180"/>
 <instance part="IC3" gate="A" x="162.56" y="27.94" rot="MR180"/>
 <instance part="IC3" gate="B" x="134.62" y="-20.32" rot="R180"/>
-<instance part="R1" gate="G$1" x="20.32" y="96.52"/>
-<instance part="CV1_LEV" gate="G$1" x="7.62" y="96.52"/>
-<instance part="CV2_LEV" gate="G$1" x="7.62" y="78.74"/>
-<instance part="U$1" gate="G$1" x="119.38" y="83.82"/>
-<instance part="C1" gate="G$1" x="144.78" y="88.9"/>
-<instance part="C2" gate="G$1" x="144.78" y="78.74"/>
-<instance part="IC1" gate="G$5" x="198.12" y="63.5"/>
+<instance part="R1" gate="1" x="20.32" y="96.52"/>
+<instance part="CV1_LEV" gate="1" x="7.62" y="96.52"/>
+<instance part="CV2_LEV" gate="1" x="7.62" y="78.74"/>
+<instance part="U$1" gate="1" x="119.38" y="83.82"/>
+<instance part="C1" gate="1" x="144.78" y="88.9"/>
+<instance part="C2" gate="1" x="144.78" y="78.74"/>
+<instance part="IC1" gate="5" x="198.12" y="63.5"/>
 <instance part="P+1" gate="1" x="182.88" y="96.52"/>
 <instance part="P-1" gate="1" x="182.88" y="48.26"/>
 <instance part="GND1" gate="1" x="154.94" y="78.74"/>
-<instance part="Q1" gate="G$1" x="38.1" y="81.28"/>
-<instance part="Q2" gate="G$1" x="48.26" y="81.28" rot="MR0"/>
-<instance part="R4" gate="G$1" x="139.7" y="-12.7"/>
-<instance part="LED1" gate="G$1" x="127" y="-7.62" rot="R90"/>
-<instance part="LED2" gate="G$1" x="139.7" y="-2.54" rot="R270"/>
-<instance part="R5" gate="G$1" x="147.32" y="-30.48" rot="R90"/>
-<instance part="RESONANCE" gate="G$1" x="182.88" y="-22.86" rot="MR0"/>
-<instance part="R7" gate="G$1" x="58.42" y="88.9"/>
-<instance part="C3" gate="G$1" x="71.12" y="83.82"/>
-<instance part="R8" gate="G$1" x="40.64" y="66.04" rot="R90"/>
+<instance part="Q1" gate="1" x="38.1" y="81.28"/>
+<instance part="Q2" gate="1" x="48.26" y="81.28" rot="MR0"/>
+<instance part="R4" gate="1" x="139.7" y="-12.7"/>
+<instance part="LED1" gate="1" x="127" y="-7.62" rot="R90"/>
+<instance part="LED2" gate="1" x="139.7" y="-2.54" rot="R270"/>
+<instance part="R5" gate="1" x="147.32" y="-30.48" rot="R90"/>
+<instance part="RESONANCE" gate="1" x="182.88" y="-22.86" rot="MR0"/>
+<instance part="R7" gate="1" x="58.42" y="88.9"/>
+<instance part="C3" gate="1" x="71.12" y="83.82"/>
+<instance part="R8" gate="1" x="40.64" y="66.04" rot="R90"/>
 <instance part="P-2" gate="1" x="40.64" y="55.88"/>
 <instance part="GND2" gate="1" x="101.6" y="83.82"/>
-<instance part="R9" gate="G$1" x="20.32" y="78.74"/>
+<instance part="R9" gate="1" x="20.32" y="78.74"/>
 <instance part="GND4" gate="1" x="147.32" y="-38.1"/>
 <instance part="GND5" gate="1" x="55.88" y="78.74"/>
-<instance part="R6" gate="G$1" x="27.94" y="45.72" rot="R90"/>
+<instance part="R6" gate="1" x="27.94" y="45.72" rot="R90"/>
 <instance part="GND6" gate="1" x="27.94" y="35.56"/>
-<instance part="R10" gate="G$1" x="33.02" y="10.16" rot="R90"/>
+<instance part="R10" gate="1" x="33.02" y="10.16" rot="R90"/>
 <instance part="GND7" gate="1" x="33.02" y="0"/>
-<instance part="R11" gate="G$1" x="22.86" y="10.16" rot="R90"/>
+<instance part="R11" gate="1" x="22.86" y="10.16" rot="R90"/>
 <instance part="GND8" gate="1" x="22.86" y="0"/>
 <instance part="P+2" gate="1" x="139.7" y="96.52"/>
 <instance part="P-3" gate="1" x="139.7" y="68.58"/>
 <instance part="GND9" gate="1" x="182.88" y="-33.02"/>
-<instance part="C5" gate="G$1" x="73.66" y="5.08"/>
-<instance part="C6" gate="G$1" x="149.86" y="20.32"/>
-<instance part="R12" gate="G$1" x="12.7" y="30.48"/>
-<instance part="R13" gate="G$1" x="63.5" y="45.72"/>
-<instance part="R14" gate="G$1" x="137.16" y="45.72"/>
-<instance part="R15" gate="G$1" x="111.76" y="10.16" rot="R90"/>
+<instance part="C5" gate="1" x="73.66" y="5.08"/>
+<instance part="C6" gate="1" x="149.86" y="20.32"/>
+<instance part="R12" gate="1" x="12.7" y="30.48"/>
+<instance part="R13" gate="1" x="63.5" y="45.72"/>
+<instance part="R14" gate="1" x="137.16" y="45.72"/>
+<instance part="R15" gate="1" x="111.76" y="10.16" rot="R90"/>
 <instance part="GND10" gate="1" x="111.76" y="0"/>
-<instance part="R16" gate="G$1" x="104.14" y="10.16" rot="R90"/>
+<instance part="R16" gate="1" x="104.14" y="10.16" rot="R90"/>
 <instance part="GND11" gate="1" x="104.14" y="0"/>
 <instance part="GND12" gate="1" x="149.86" y="2.54"/>
-<instance part="R17" gate="G$1" x="106.68" y="22.86" rot="R90"/>
+<instance part="R17" gate="1" x="106.68" y="22.86" rot="R90"/>
 <instance part="GND13" gate="1" x="7.62" y="88.9"/>
 <instance part="GND14" gate="1" x="7.62" y="71.12"/>
-<instance part="R18" gate="G$1" x="63.5" y="58.42"/>
-<instance part="R19" gate="G$1" x="111.76" y="58.42"/>
-<instance part="C7" gate="G$1" x="182.88" y="17.78" rot="R180"/>
-<instance part="FREQ" gate="G$1" x="7.62" y="55.88"/>
-<instance part="R21" gate="G$1" x="20.32" y="55.88"/>
+<instance part="R18" gate="1" x="63.5" y="58.42"/>
+<instance part="R19" gate="1" x="111.76" y="58.42"/>
+<instance part="C7" gate="1" x="182.88" y="17.78" rot="R180"/>
+<instance part="FREQ" gate="1" x="7.62" y="55.88"/>
+<instance part="R21" gate="1" x="20.32" y="55.88"/>
 <instance part="P+3" gate="1" x="7.62" y="66.04"/>
 <instance part="P-4" gate="1" x="7.62" y="45.72"/>
-<instance part="HP_IN" gate="G$1" x="167.64" y="7.62" rot="R180"/>
-<instance part="CV_2" gate="G$1" x="-12.7" y="78.74" rot="MR180"/>
-<instance part="CV_1" gate="G$1" x="-12.7" y="96.52" rot="MR180"/>
-<instance part="LP_IN" gate="G$1" x="-12.7" y="25.4" rot="MR180"/>
-<instance part="OUT" gate="G$1" x="195.58" y="0" rot="R180"/>
+<instance part="HP_IN" gate="1" x="167.64" y="7.62" rot="R180"/>
+<instance part="CV_2" gate="1" x="-12.7" y="78.74" rot="MR180"/>
+<instance part="CV_1" gate="1" x="-12.7" y="96.52" rot="MR180"/>
+<instance part="LP_IN" gate="1" x="-12.7" y="25.4" rot="MR180"/>
+<instance part="OUT" gate="1" x="195.58" y="0" rot="R180"/>
 <instance part="IC2" gate="P" x="177.8" y="73.66"/>
 <instance part="IC3" gate="P" x="172.72" y="73.66"/>
 <instance part="GND3" gate="1" x="-5.08" y="17.78"/>
@@ -16300,7 +16300,7 @@ Source: www.kingbright.com</description>
 <net name="-12V" class="0">
 <segment>
 <pinref part="P-1" gate="1" pin="-12V"/>
-<pinref part="IC1" gate="G$5" pin="V-"/>
+<pinref part="IC1" gate="5" pin="V-"/>
 <wire x1="191.135" y1="57.15" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="V-"/>
 <wire x1="177.8" y1="66.04" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
@@ -16313,15 +16313,15 @@ Source: www.kingbright.com</description>
 <junction x="182.88" y="60.96"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R8" gate="1" pin="1"/>
 <pinref part="P-2" gate="1" pin="-12V"/>
 <wire x1="40.64" y1="60.96" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="-12V"/>
+<pinref part="U$1" gate="1" pin="-12V"/>
 <wire x1="129.54" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="83.82" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="C2" gate="1" pin="-"/>
 <wire x1="137.16" y1="71.12" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="71.12" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
@@ -16329,7 +16329,7 @@ Source: www.kingbright.com</description>
 <junction x="139.7" y="71.12"/>
 </segment>
 <segment>
-<pinref part="FREQ" gate="G$1" pin="A"/>
+<pinref part="FREQ" gate="1" pin="A"/>
 <pinref part="P-4" gate="1" pin="-12V"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -16337,7 +16337,7 @@ Source: www.kingbright.com</description>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<pinref part="IC1" gate="G$5" pin="V+"/>
+<pinref part="IC1" gate="5" pin="V+"/>
 <wire x1="191.135" y1="86.36" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="V+"/>
 <wire x1="177.8" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
@@ -16350,10 +16350,10 @@ Source: www.kingbright.com</description>
 <junction x="182.88" y="86.36"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="+12V"/>
+<pinref part="U$1" gate="1" pin="+12V"/>
 <wire x1="129.54" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="88.9" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C1" gate="1" pin="+"/>
 <wire x1="137.16" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="93.98" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
@@ -16361,7 +16361,7 @@ Source: www.kingbright.com</description>
 <junction x="139.7" y="93.98"/>
 </segment>
 <segment>
-<pinref part="FREQ" gate="G$1" pin="E"/>
+<pinref part="FREQ" gate="1" pin="E"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <wire x1="7.62" y1="60.96" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -16371,37 +16371,37 @@ Source: www.kingbright.com</description>
 <pinref part="IC3" gate="B" pin="-IN"/>
 <wire x1="142.24" y1="-17.78" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-17.78" x2="147.32" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="1" pin="A"/>
 <wire x1="147.32" y1="-12.7" x2="147.32" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-7.62" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-2.54" x2="142.24" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="144.78" y1="-12.7" x2="147.32" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="147.32" y="-12.7"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="1" pin="C"/>
 <wire x1="132.08" y1="-7.62" x2="147.32" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="147.32" y="-7.62"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="147.32" y1="-25.4" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="147.32" y="-17.78"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="1" pin="C"/>
 <wire x1="134.62" y1="-2.54" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-2.54" x2="119.38" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="B" pin="OUT"/>
 <wire x1="119.38" y1="-7.62" x2="119.38" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-12.7" x2="119.38" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-20.32" x2="127" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="1" pin="A"/>
 <wire x1="124.46" y1="-7.62" x2="119.38" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="119.38" y="-7.62"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="134.62" y1="-12.7" x2="119.38" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="119.38" y="-12.7"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C5" gate="1" pin="2"/>
 <wire x1="73.66" y1="0" x2="73.66" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-20.32" x2="119.38" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="119.38" y="-20.32"/>
@@ -16409,8 +16409,8 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="R8" gate="1" pin="2"/>
+<pinref part="Q1" gate="1" pin="C"/>
 <wire x1="40.64" y1="71.12" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="-IN"/>
 <wire x1="40.64" y1="73.66" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
@@ -16418,7 +16418,7 @@ Source: www.kingbright.com</description>
 <wire x1="96.52" y1="86.36" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <junction x="40.64" y="73.66"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C3" gate="1" pin="2"/>
 <wire x1="71.12" y1="73.66" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <junction x="71.12" y="73.66"/>
@@ -16426,10 +16426,10 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="2"/>
 <pinref part="IC2" gate="A" pin="OUT"/>
 <wire x1="78.74" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C3" gate="1" pin="1"/>
 <wire x1="71.12" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="86.36" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <junction x="71.12" y="88.9"/>
@@ -16437,11 +16437,11 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="Q1" gate="1" pin="E"/>
 <wire x1="40.64" y1="86.36" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="40.64" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="E"/>
+<pinref part="Q2" gate="1" pin="E"/>
 <wire x1="45.72" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="86.36" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
 <junction x="45.72" y="88.9"/>
@@ -16455,107 +16455,107 @@ Source: www.kingbright.com</description>
 <wire x1="101.6" y1="91.44" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="Q2" gate="1" pin="B"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="55.88" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="27.94" y1="38.1" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="33.02" y1="2.54" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R11" gate="1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="22.86" y1="2.54" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="-"/>
-<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="C1" gate="1" pin="-"/>
+<pinref part="C2" gate="1" pin="+"/>
 <wire x1="144.78" y1="83.82" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="154.94" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <junction x="144.78" y="81.28"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U$1" gate="1" pin="GND"/>
 <wire x1="129.54" y1="86.36" x2="139.7" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="86.36" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RESONANCE" gate="G$1" pin="A"/>
+<pinref part="RESONANCE" gate="1" pin="A"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="182.88" y1="-30.48" x2="182.88" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R15" gate="1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="111.76" y1="5.08" x2="111.76" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R16" gate="1" pin="1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="104.14" y1="5.08" x2="104.14" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CV1_LEV" gate="G$1" pin="A"/>
+<pinref part="CV1_LEV" gate="1" pin="A"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CV2_LEV" gate="G$1" pin="A"/>
+<pinref part="CV2_LEV" gate="1" pin="A"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="HP_IN" gate="G$1" pin="NORM"/>
+<pinref part="HP_IN" gate="1" pin="NORM"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="160.02" y1="7.62" x2="149.86" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="7.62" x2="149.86" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CV_2" gate="G$1" pin="RING"/>
+<pinref part="CV_2" gate="1" pin="RING"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="-5.08" y1="73.66" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CV_1" gate="G$1" pin="RING"/>
+<pinref part="CV_1" gate="1" pin="RING"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="-5.08" y1="91.44" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="LP_IN" gate="G$1" pin="RING"/>
+<pinref part="LP_IN" gate="1" pin="RING"/>
 <wire x1="-5.08" y1="20.32" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OUT" gate="G$1" pin="RING"/>
+<pinref part="OUT" gate="1" pin="RING"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="187.96" y1="-5.08" x2="187.96" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="HP_IN" gate="G$1" pin="RING"/>
+<pinref part="HP_IN" gate="1" pin="RING"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="160.02" y1="2.54" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="CV1_LEV" gate="G$1" pin="S"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="CV1_LEV" gate="1" pin="S"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="15.24" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="CV2_LEV" gate="G$1" pin="S"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="CV2_LEV" gate="1" pin="S"/>
+<pinref part="R9" gate="1" pin="1"/>
 <wire x1="15.24" y1="78.74" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16566,7 +16566,7 @@ Source: www.kingbright.com</description>
 <wire x1="81.28" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="25.4" x2="70.485" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="7.62" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C5" gate="1" pin="1"/>
 <junction x="73.66" y="25.4"/>
 </segment>
 </net>
@@ -16575,7 +16575,7 @@ Source: www.kingbright.com</description>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <pinref part="IC3" gate="A" pin="+IN"/>
 <wire x1="154.94" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C6" gate="1" pin="1"/>
 <wire x1="149.86" y1="25.4" x2="144.145" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="22.86" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <junction x="149.86" y="25.4"/>
@@ -16583,16 +16583,16 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R11" gate="1" pin="2"/>
 <wire x1="22.86" y1="15.24" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="30.48" x2="41.275" y2="31.75" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R12" gate="1" pin="2"/>
 <wire x1="22.86" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <junction x="22.86" y="30.48"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R13" gate="1" pin="1"/>
 <wire x1="58.42" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 <junction x="35.56" y="30.48"/>
@@ -16600,7 +16600,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R10" gate="1" pin="2"/>
 <wire x1="33.02" y1="15.24" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="17.78" x2="41.275" y2="19.05" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
@@ -16610,15 +16610,15 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="IC3" gate="B" pin="+IN"/>
 <wire x1="142.24" y1="-22.86" x2="177.8" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="RESONANCE" gate="G$1" pin="S"/>
+<pinref part="RESONANCE" gate="1" pin="S"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="RESONANCE" gate="G$1" pin="E"/>
+<pinref part="RESONANCE" gate="1" pin="E"/>
 <wire x1="182.88" y1="15.24" x2="182.88" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="+"/>
-<pinref part="OUT" gate="G$1" pin="TIP"/>
+<pinref part="C7" gate="1" pin="+"/>
+<pinref part="OUT" gate="1" pin="TIP"/>
 <wire x1="182.88" y1="5.08" x2="182.88" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="5.08" x2="182.88" y2="5.08" width="0.1524" layer="91"/>
 <junction x="182.88" y="5.08"/>
@@ -16636,18 +16636,18 @@ Source: www.kingbright.com</description>
 <wire x1="175.26" y1="27.94" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="38.1" x2="175.26" y2="27.94" width="0.1524" layer="91"/>
 <junction x="175.26" y="27.94"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R14" gate="1" pin="2"/>
 <wire x1="142.24" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="45.72" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="149.86" y="38.1"/>
-<pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="C7" gate="1" pin="-"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <wire x1="63.5" y1="19.05" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="IABC"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R18" gate="1" pin="1"/>
 <wire x1="58.42" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="58.42" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
@@ -16659,18 +16659,18 @@ Source: www.kingbright.com</description>
 <wire x1="137.16" y1="15.24" x2="137.16" y2="19.05" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="15.24" x2="127" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="127" y1="15.24" x2="127" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R19" gate="1" pin="2"/>
 <wire x1="127" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R16" gate="1" pin="2"/>
 <wire x1="104.14" y1="15.24" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="114.935" y1="31.75" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R14" gate="1" pin="1"/>
 <wire x1="132.08" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="45.72" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <junction x="104.14" y="33.02"/>
@@ -16687,103 +16687,103 @@ Source: www.kingbright.com</description>
 <wire x1="99.06" y1="38.1" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
 <junction x="99.06" y="27.94"/>
 <pinref part="IC2" gate="B" pin="-IN"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R13" gate="1" pin="2"/>
 <wire x1="68.58" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="45.72" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <junction x="76.2" y="38.1"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R17" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="+IN"/>
 <wire x1="111.76" y1="17.78" x2="114.935" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R15" gate="1" pin="2"/>
 <wire x1="111.76" y1="15.24" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 <junction x="111.76" y="17.78"/>
 <wire x1="106.68" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R17" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="25.4" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="96.52" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R9" gate="1" pin="2"/>
 <wire x1="27.94" y1="81.28" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="78.74" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <junction x="27.94" y="78.74"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
+<pinref part="Q1" gate="1" pin="B"/>
 <wire x1="35.56" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <junction x="27.94" y="81.28"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R21" gate="1" pin="2"/>
 <wire x1="25.4" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <junction x="27.94" y="55.88"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="Q2" gate="1" pin="C"/>
 <wire x1="45.72" y1="76.2" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="66.04" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R18" gate="1" pin="2"/>
 <wire x1="86.36" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R19" gate="1" pin="1"/>
 <wire x1="106.68" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <junction x="86.36" y="58.42"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="FREQ" gate="G$1" pin="S"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="FREQ" gate="1" pin="S"/>
+<pinref part="R21" gate="1" pin="1"/>
 <wire x1="15.24" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="CV_2" gate="G$1" pin="TIP"/>
-<pinref part="CV2_LEV" gate="G$1" pin="E"/>
+<pinref part="CV_2" gate="1" pin="TIP"/>
+<pinref part="CV2_LEV" gate="1" pin="E"/>
 <wire x1="-5.08" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="CV1_LEV" gate="G$1" pin="E"/>
+<pinref part="CV1_LEV" gate="1" pin="E"/>
 <wire x1="7.62" y1="101.6" x2="-5.08" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="CV_1" gate="G$1" pin="TIP"/>
+<pinref part="CV_1" gate="1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="LP_IN" gate="G$1" pin="TIP"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="LP_IN" gate="1" pin="TIP"/>
+<pinref part="R12" gate="1" pin="1"/>
 <wire x1="-5.08" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="HP_IN" gate="G$1" pin="TIP"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="HP_IN" gate="1" pin="TIP"/>
+<pinref part="C6" gate="1" pin="2"/>
 <wire x1="160.02" y1="12.7" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="12.7" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="CV_1" gate="G$1" pin="NORM"/>
+<pinref part="CV_1" gate="1" pin="NORM"/>
 <wire x1="-5.08" y1="96.52" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="96.52" x2="-2.54" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="104.14" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="71.12" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="CV"/>
+<pinref part="U$1" gate="1" pin="CV"/>
 <wire x1="132.08" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>

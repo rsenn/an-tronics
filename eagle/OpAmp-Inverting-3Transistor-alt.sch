@@ -168,14 +168,14 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <devicesets>
 <deviceset name="2N3906" prefix="T">
 <gates>
-<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
+<gate name="1" symbol="PNP" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -183,9 +183,9 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="TO92-EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -195,14 +195,14 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </deviceset>
 <deviceset name="2N3904" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -210,9 +210,9 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -998,13 +998,13 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <devicesets>
 <deviceset name="R-H" prefix="R">
 <gates>
-<gate name="G$1" symbol="R-H" x="0" y="0"/>
+<gate name="1" symbol="R-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1012,8 +1012,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1021,8 +1021,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1030,8 +1030,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1039,8 +1039,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1048,8 +1048,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1057,8 +1057,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1066,8 +1066,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1075,8 +1075,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1084,8 +1084,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1093,8 +1093,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1102,8 +1102,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1111,8 +1111,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1120,8 +1120,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1129,8 +1129,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1138,8 +1138,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1147,8 +1147,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1156,8 +1156,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1165,8 +1165,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1177,13 +1177,13 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1191,8 +1191,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1200,8 +1200,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1209,8 +1209,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1218,8 +1218,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1227,8 +1227,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1236,8 +1236,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1245,8 +1245,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1254,8 +1254,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1263,8 +1263,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1272,8 +1272,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1281,8 +1281,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1290,8 +1290,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1299,8 +1299,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1308,8 +1308,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1317,8 +1317,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1326,8 +1326,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1335,8 +1335,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1344,8 +1344,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1353,8 +1353,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1362,8 +1362,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1371,8 +1371,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1380,8 +1380,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1389,8 +1389,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1398,8 +1398,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1407,8 +1407,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1416,8 +1416,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1425,8 +1425,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1434,8 +1434,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="0202/12-V" package="0202/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1881,13 +1881,13 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <devicesets>
 <deviceset name="Z-DIODE" prefix="D">
 <gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
+<gate name="1" symbol="ZD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="Z10" package="DO35Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1895,8 +1895,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="Z7" package="DO35Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1904,8 +1904,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="Z5" package="DO35Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1913,8 +1913,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="Z2_54" package="DO35Z2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1922,8 +1922,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="Z2_54A" package="DO35Z2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1931,8 +1931,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="Z12" package="DO34Z12">
 <connects>
-<connect gate="G$1" pin="A" pad="A1"/>
-<connect gate="G$1" pin="C" pad="C1"/>
+<connect gate="1" pin="A" pad="A1"/>
+<connect gate="1" pin="C" pad="C1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1940,8 +1940,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z7" package="DO34Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1949,8 +1949,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z5" package="DO34Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1958,8 +1958,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z2,5" package="DO34Z2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1967,8 +1967,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z2,5-A" package="DO34Z2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1976,8 +1976,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z10" package="DO34Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1985,8 +1985,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z7V" package="DO34Z7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1994,8 +1994,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z10V" package="DO34Z10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2003,8 +2003,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z12V" package="DO34Z12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2012,8 +2012,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="34Z5V" package="DO34Z5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2021,8 +2021,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="-35Z-2.54" package="DO35Z2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2030,8 +2030,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="-35Z-2.54A" package="DO35Z2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2039,8 +2039,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="-35Z7/V" package="DO35Z7/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2048,8 +2048,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="-35Z10/V" package="DO35Z10/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3527,13 +3527,13 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </deviceset>
 <deviceset name="CPOL-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CPOL-H" x="0" y="0"/>
+<gate name="1" symbol="CPOL-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E2,5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3541,8 +3541,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3550,8 +3550,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3559,8 +3559,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="E2,5-3/V" package="E2,5-3/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3568,8 +3568,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3577,8 +3577,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3620,21 +3620,21 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <plain>
 </plain>
 <instances>
-<instance part="T1" gate="G$1" x="15.24" y="30.48"/>
-<instance part="T2" gate="G$1" x="55.88" y="27.94"/>
-<instance part="T3" gate="G$1" x="45.72" y="38.1"/>
-<instance part="R1" gate="G$1" x="2.54" y="30.48"/>
-<instance part="R2" gate="G$1" x="38.1" y="66.04"/>
-<instance part="R3" gate="G$1" x="35.56" y="38.1"/>
-<instance part="R4" gate="G$1" x="17.78" y="45.72"/>
-<instance part="R5" gate="G$1" x="27.94" y="45.72"/>
-<instance part="R6" gate="G$1" x="58.42" y="45.72"/>
-<instance part="D1" gate="G$1" x="27.94" y="17.78"/>
+<instance part="T1" gate="1" x="15.24" y="30.48"/>
+<instance part="T2" gate="1" x="55.88" y="27.94"/>
+<instance part="T3" gate="1" x="45.72" y="38.1"/>
+<instance part="R1" gate="1" x="2.54" y="30.48"/>
+<instance part="R2" gate="1" x="38.1" y="66.04"/>
+<instance part="R3" gate="1" x="35.56" y="38.1"/>
+<instance part="R4" gate="1" x="17.78" y="45.72"/>
+<instance part="R5" gate="1" x="27.94" y="45.72"/>
+<instance part="R6" gate="1" x="58.42" y="45.72"/>
+<instance part="D1" gate="1" x="27.94" y="17.78"/>
 <instance part="C2" gate="1" x="-7.62" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="-7.62" y="33.02" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="-7.62" y="27.94" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="71.12" y="38.1" rot="MR180"/>
+<instance part="C3" gate="1" x="71.12" y="38.1" rot="MR180"/>
 <instance part="S2" gate="1" x="-10.16" y="15.24"/>
 <instance part="S3" gate="1" x="71.12" y="22.86"/>
 <instance part="IN" gate="-" x="-15.24" y="22.86"/>
@@ -3659,40 +3659,40 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <pinref part="OUT" gate="-" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="27.94" y1="12.7" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="T2" gate="1" pin="E"/>
 <wire x1="58.42" y1="22.86" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="T3" gate="G$1" pin="C"/>
-<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="T3" gate="1" pin="C"/>
+<pinref part="T2" gate="1" pin="B"/>
 <wire x1="48.26" y1="33.02" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="27.94" y1="20.32" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <wire x1="17.78" y1="25.4" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="27.94" y1="22.86" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <junction x="27.94" y="22.86"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="T1" gate="1" pin="C"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="17.78" y1="38.1" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="17.78" y1="40.64" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <junction x="17.78" y="38.1"/>
 </segment>
@@ -3707,16 +3707,16 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <net name="N$5" class="0">
 <segment>
 <pinref part="C2" gate="1" pin="1"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="-5.08" y1="30.48" x2="-2.54" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="R1" gate="1" pin="2"/>
+<pinref part="T1" gate="1" pin="B"/>
 <wire x1="7.62" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="10.16" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="66.04" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
@@ -3725,30 +3725,30 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="T3" gate="G$1" pin="B"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="T3" gate="1" pin="B"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="43.18" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="T2" gate="G$1" pin="C"/>
-<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="T2" gate="1" pin="C"/>
+<pinref part="C3" gate="1" pin="+"/>
 <wire x1="58.42" y1="38.1" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="66.04" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
 <junction x="66.04" y="38.1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="58.42" y1="40.64" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <junction x="58.42" y="38.1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C3" gate="1" pin="-"/>
 <wire x1="73.66" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="OUT" gate="+" pin="P$1"/>
 </segment>
@@ -3759,17 +3759,17 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <wire x1="27.94" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="E"/>
+<pinref part="T3" gate="1" pin="E"/>
 <wire x1="48.26" y1="43.18" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <junction x="48.26" y="53.34"/>
 <wire x1="38.1" y1="55.88" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
 <junction x="38.1" y="53.34"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="27.94" y1="50.8" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
 <junction x="27.94" y="53.34"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="17.78" y1="53.34" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="58.42" y1="50.8" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>

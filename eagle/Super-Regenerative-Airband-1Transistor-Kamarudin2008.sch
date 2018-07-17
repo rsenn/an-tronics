@@ -1893,13 +1893,13 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </deviceset>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1907,8 +1907,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1916,8 +1916,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1925,8 +1925,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1934,8 +1934,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1943,8 +1943,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1952,8 +1952,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1961,8 +1961,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1970,8 +1970,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1979,8 +1979,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1988,8 +1988,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1997,8 +1997,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2009,13 +2009,13 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2023,8 +2023,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2032,8 +2032,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2041,8 +2041,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2050,8 +2050,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2059,8 +2059,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2068,8 +2068,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2077,8 +2077,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2086,8 +2086,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2095,8 +2095,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2104,8 +2104,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2113,8 +2113,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2122,8 +2122,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2131,8 +2131,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2140,8 +2140,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2149,8 +2149,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2158,8 +2158,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2167,8 +2167,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2176,8 +2176,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2185,8 +2185,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2194,8 +2194,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2203,8 +2203,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2212,8 +2212,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2221,8 +2221,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2230,8 +2230,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2239,8 +2239,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2924,12 +2924,12 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </deviceset>
 <deviceset name="SPAD" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SPAD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3303,14 +3303,14 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <devicesets>
 <deviceset name="2N3904" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3318,9 +3318,9 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </device>
 <device name="EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3762,28 +3762,28 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <attribute name="NAME" x="12.7" y="50.8" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="45.72" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="22.86" y="48.26"/>
+<instance part="R2" gate="1" x="22.86" y="48.26"/>
 <instance part="C5" gate="1" x="7.62" y="38.1"/>
 <instance part="C6" gate="1" x="22.86" y="35.56"/>
-<instance part="R3" gate="G$1" x="30.48" y="35.56" rot="MR180"/>
+<instance part="R3" gate="1" x="30.48" y="35.56" rot="MR180"/>
 <instance part="U$3" gate="1" x="7.62" y="22.86" rot="MR0"/>
 <instance part="L2" gate="L1" x="30.48" y="55.88" rot="MR180"/>
 <instance part="C7" gate="1" x="35.56" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.56" y="45.72" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="35.56" y="40.64" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="45.72" y="43.18"/>
+<instance part="R4" gate="1" x="45.72" y="43.18"/>
 <instance part="U$4" gate="1" x="45.72" y="81.28" rot="MR0"/>
 <instance part="C8" gate="1" x="45.72" y="88.9"/>
 <instance part="SW1" gate="1" x="62.23" y="86.36" rot="MR0"/>
 <instance part="ANT1" gate="ANT" x="53.34" y="71.12"/>
-<instance part="BAT+" gate="G$1" x="73.66" y="86.36" rot="R180"/>
-<instance part="BAT-" gate="G$1" x="73.66" y="73.66" rot="R180"/>
+<instance part="BAT+" gate="1" x="73.66" y="86.36" rot="R180"/>
+<instance part="BAT-" gate="1" x="73.66" y="73.66" rot="R180"/>
 <instance part="U$5" gate="1" x="60.96" y="66.04" rot="MR0"/>
-<instance part="AOUT+" gate="G$1" x="53.34" y="43.18" rot="R180"/>
-<instance part="AOUT-" gate="G$1" x="53.34" y="27.94" rot="R180"/>
-<instance part="R5" gate="G$1" x="0" y="63.5"/>
-<instance part="T1" gate="G$1" x="27.94" y="71.12"/>
+<instance part="AOUT+" gate="1" x="53.34" y="43.18" rot="R180"/>
+<instance part="AOUT-" gate="1" x="53.34" y="27.94" rot="R180"/>
+<instance part="R5" gate="1" x="0" y="63.5"/>
+<instance part="T1" gate="1" x="27.94" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -3794,7 +3794,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="30.48" y1="78.74" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="78.74" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="C"/>
 <pinref part="L1" gate="L1" pin="1"/>
 <wire x1="30.48" y1="81.28" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 <junction x="30.48" y="78.74"/>
@@ -3808,7 +3808,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <pinref part="C2" gate="1" pin="2"/>
 <wire x1="43.18" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 <junction x="38.1" y="63.5"/>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <wire x1="30.48" y1="66.04" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="L2" gate="L1" pin="1"/>
 <wire x1="30.48" y1="63.5" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
@@ -3843,7 +3843,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="7.62" y1="83.82" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="30.48" y1="30.48" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R1" gate="1" pin="E"/>
@@ -3858,7 +3858,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <pinref part="C6" gate="1" pin="2"/>
 <wire x1="22.86" y1="33.02" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <junction x="22.86" y="27.94"/>
-<pinref part="AOUT-" gate="G$1" pin="P$1"/>
+<pinref part="AOUT-" gate="1" pin="P$1"/>
 <wire x1="53.34" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <junction x="30.48" y="27.94"/>
 </segment>
@@ -3868,7 +3868,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="45.72" y1="86.36" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BAT-" gate="G$1" pin="P$1"/>
+<pinref part="BAT-" gate="1" pin="P$1"/>
 <pinref part="U$5" gate="1" pin="GND"/>
 <wire x1="73.66" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="73.66" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
@@ -3884,22 +3884,22 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <pinref part="C5" gate="1" pin="1"/>
 <wire x1="7.62" y1="48.26" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
 <junction x="7.62" y="48.26"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="5.08" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
 <junction x="7.62" y="63.5"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <pinref part="C4" gate="1" pin="1"/>
 <wire x1="17.78" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <pinref part="C7" gate="1" pin="1"/>
 <wire x1="40.64" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -3914,23 +3914,23 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="AOUT+" gate="G$1" pin="P$1"/>
+<pinref part="R4" gate="1" pin="2"/>
+<pinref part="AOUT+" gate="1" pin="P$1"/>
 <wire x1="50.8" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="-5.08" y1="63.5" x2="-7.366" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R1" gate="1" pin="S"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="30.48" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="30.48" y1="40.64" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C6" gate="1" pin="1"/>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
@@ -3951,7 +3951,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="67.31" y1="90.17" x2="67.31" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <junction x="67.31" y="88.9"/>
-<pinref part="BAT+" gate="G$1" pin="P$1"/>
+<pinref part="BAT+" gate="1" pin="P$1"/>
 <wire x1="73.66" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="86.36" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="1" pin="P"/>

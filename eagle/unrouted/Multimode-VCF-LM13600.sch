@@ -217,7 +217,7 @@
 <gate name="B" symbol="OTA" x="0" y="2.54"/>
 <gate name="A*" symbol="OTABUF" x="35.56" y="22.86"/>
 <gate name="B*" symbol="OTABUF" x="35.56" y="2.54"/>
-<gate name="G$5" symbol="PWR+-OTA" x="2.54" y="22.86"/>
+<gate name="5" symbol="PWR+-OTA" x="2.54" y="22.86"/>
 </gates>
 <devices>
 <device name="" package="DIL16">
@@ -236,8 +236,8 @@
 <connect gate="B" pin="OUT" pad="12"/>
 <connect gate="B*" pin="BUFF/IN" pad="9"/>
 <connect gate="B*" pin="BUFF/OUT" pad="10"/>
-<connect gate="G$5" pin="V+" pad="11"/>
-<connect gate="G$5" pin="V-" pad="6"/>
+<connect gate="5" pin="V+" pad="11"/>
+<connect gate="5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -312,7 +312,7 @@
 </deviceset>
 <deviceset name="VCC">
 <gates>
-<gate name="G$1" symbol="VCC" x="0" y="0"/>
+<gate name="1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1303,13 +1303,13 @@
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1317,8 +1317,8 @@
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1326,8 +1326,8 @@
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1335,8 +1335,8 @@
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1344,8 +1344,8 @@
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1353,8 +1353,8 @@
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1362,8 +1362,8 @@
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1371,8 +1371,8 @@
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1380,8 +1380,8 @@
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1389,8 +1389,8 @@
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1398,8 +1398,8 @@
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1407,8 +1407,8 @@
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1416,8 +1416,8 @@
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1425,8 +1425,8 @@
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1434,8 +1434,8 @@
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1443,8 +1443,8 @@
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1452,8 +1452,8 @@
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1461,8 +1461,8 @@
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1470,8 +1470,8 @@
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1479,8 +1479,8 @@
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1488,8 +1488,8 @@
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1497,8 +1497,8 @@
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1506,8 +1506,8 @@
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1515,8 +1515,8 @@
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1524,8 +1524,8 @@
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1533,8 +1533,8 @@
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1542,8 +1542,8 @@
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1551,8 +1551,8 @@
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1562,13 +1562,13 @@
 </deviceset>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-H" x="0" y="0"/>
+<gate name="1" symbol="R-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1576,8 +1576,8 @@
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1585,8 +1585,8 @@
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1594,8 +1594,8 @@
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1603,8 +1603,8 @@
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1612,8 +1612,8 @@
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1621,8 +1621,8 @@
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1630,8 +1630,8 @@
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1639,8 +1639,8 @@
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1648,8 +1648,8 @@
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1657,8 +1657,8 @@
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1666,8 +1666,8 @@
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1675,8 +1675,8 @@
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1684,8 +1684,8 @@
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1693,8 +1693,8 @@
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1702,8 +1702,8 @@
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1711,8 +1711,8 @@
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1720,8 +1720,8 @@
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1729,8 +1729,8 @@
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1869,14 +1869,14 @@
 <devicesets>
 <deviceset name="2N3904" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1884,9 +1884,9 @@
 </device>
 <device name="EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4977,13 +4977,13 @@
 </deviceset>
 <deviceset name="C-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="C-H" x="0" y="0"/>
+<gate name="1" symbol="C-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4991,8 +4991,8 @@
 </device>
 <device name="050-020X044" package="C050-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5000,8 +5000,8 @@
 </device>
 <device name="075-020X044" package="C075-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5009,8 +5009,8 @@
 </device>
 <device name="075-020X044/V" package="C075-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5018,8 +5018,8 @@
 </device>
 <device name="050-020X044/V" package="C050-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5027,8 +5027,8 @@
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5036,8 +5036,8 @@
 </device>
 <device name="050-024X044/V" package="C050-024X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5045,8 +5045,8 @@
 </device>
 <device name="050-020X036" package="C050-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5054,8 +5054,8 @@
 </device>
 <device name="050-020X036/V" package="C050-020X036/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5066,13 +5066,13 @@
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5080,8 +5080,8 @@
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5089,8 +5089,8 @@
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5098,8 +5098,8 @@
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5107,8 +5107,8 @@
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5116,8 +5116,8 @@
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5125,8 +5125,8 @@
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5134,8 +5134,8 @@
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5143,8 +5143,8 @@
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5152,8 +5152,8 @@
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5161,8 +5161,8 @@
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5170,8 +5170,8 @@
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5179,8 +5179,8 @@
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5188,8 +5188,8 @@
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5197,8 +5197,8 @@
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5206,8 +5206,8 @@
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5215,8 +5215,8 @@
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5224,8 +5224,8 @@
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5233,8 +5233,8 @@
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5242,8 +5242,8 @@
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5251,8 +5251,8 @@
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5260,8 +5260,8 @@
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5269,8 +5269,8 @@
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5278,8 +5278,8 @@
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5287,8 +5287,8 @@
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5296,8 +5296,8 @@
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5305,8 +5305,8 @@
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5314,8 +5314,8 @@
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5323,8 +5323,8 @@
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5332,8 +5332,8 @@
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5341,8 +5341,8 @@
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5350,8 +5350,8 @@
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5359,8 +5359,8 @@
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5368,8 +5368,8 @@
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5377,8 +5377,8 @@
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5386,8 +5386,8 @@
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5395,8 +5395,8 @@
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5404,8 +5404,8 @@
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5413,8 +5413,8 @@
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5422,8 +5422,8 @@
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5431,8 +5431,8 @@
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5440,8 +5440,8 @@
 </device>
 <device name="E5-4-R45" package="E5-4-R45">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5449,8 +5449,8 @@
 </device>
 <device name="E2,5-3/V" package="E2,5-3/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6401,13 +6401,13 @@
 <devicesets>
 <deviceset name="1N4148" prefix="D">
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="35-7" package="DO35-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6415,8 +6415,8 @@
 </device>
 <device name="35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6424,8 +6424,8 @@
 </device>
 <device name="35-2.54" package="DO35-2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6433,8 +6433,8 @@
 </device>
 <device name="35-2.54A" package="DO35-2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6442,8 +6442,8 @@
 </device>
 <device name="34-12" package="DO34-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6451,8 +6451,8 @@
 </device>
 <device name="34-5" package="DO34-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6460,8 +6460,8 @@
 </device>
 <device name="34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6469,8 +6469,8 @@
 </device>
 <device name="34-2,5" package="DO34-2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6478,8 +6478,8 @@
 </device>
 <device name="34-2,5-A" package="DO34-2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6487,8 +6487,8 @@
 </device>
 <device name="34-10" package="DO34-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6496,8 +6496,8 @@
 </device>
 <device name="34-7V" package="DO34-7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6505,8 +6505,8 @@
 </device>
 <device name="34-5V" package="DO34-5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6514,8 +6514,8 @@
 </device>
 <device name="34-10V" package="DO34-10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6523,8 +6523,8 @@
 </device>
 <device name="34-12V" package="DO34-12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6532,8 +6532,8 @@
 </device>
 <device name="OA79" package="OA79-18">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6541,8 +6541,8 @@
 </device>
 <device name="-7-10" package="DO7-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6550,8 +6550,8 @@
 </device>
 <device name="-7-7" package="DO7-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6559,8 +6559,8 @@
 </device>
 <device name="-7-5" package="DO7-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6568,8 +6568,8 @@
 </device>
 <device name="-34-18" package="DO34-18">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6577,8 +6577,8 @@
 </device>
 <device name="34-20" package="DO34-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6588,13 +6588,13 @@
 </deviceset>
 <deviceset name="Z-DIODE" prefix="D">
 <gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
+<gate name="1" symbol="ZD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="Z10" package="DO35Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6602,8 +6602,8 @@
 </device>
 <device name="Z7" package="DO35Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6611,8 +6611,8 @@
 </device>
 <device name="Z5" package="DO35Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6620,8 +6620,8 @@
 </device>
 <device name="Z2_54" package="DO35Z2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6629,8 +6629,8 @@
 </device>
 <device name="Z2_54A" package="DO35Z2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6638,8 +6638,8 @@
 </device>
 <device name="Z12" package="DO34Z12">
 <connects>
-<connect gate="G$1" pin="A" pad="A1"/>
-<connect gate="G$1" pin="C" pad="C1"/>
+<connect gate="1" pin="A" pad="A1"/>
+<connect gate="1" pin="C" pad="C1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6647,8 +6647,8 @@
 </device>
 <device name="34Z7" package="DO34Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6656,8 +6656,8 @@
 </device>
 <device name="34Z5" package="DO34Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6665,8 +6665,8 @@
 </device>
 <device name="34Z2,5" package="DO34Z2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6674,8 +6674,8 @@
 </device>
 <device name="34Z2,5-A" package="DO34Z2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6683,8 +6683,8 @@
 </device>
 <device name="34Z10" package="DO34Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6692,8 +6692,8 @@
 </device>
 <device name="34Z7V" package="DO34Z7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6701,8 +6701,8 @@
 </device>
 <device name="34Z10V" package="DO34Z10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6710,8 +6710,8 @@
 </device>
 <device name="34Z12V" package="DO34Z12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6719,8 +6719,8 @@
 </device>
 <device name="34Z5V" package="DO34Z5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6728,8 +6728,8 @@
 </device>
 <device name="-35Z-2.54" package="DO35Z2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6737,8 +6737,8 @@
 </device>
 <device name="-35Z-2.54A" package="DO35Z2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6746,8 +6746,8 @@
 </device>
 <device name="-35Z7/V" package="DO35Z7/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6755,8 +6755,8 @@
 </device>
 <device name="-35Z10/V" package="DO35Z10/V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6861,48 +6861,48 @@
 <instance part="IC1" gate="B" x="147.32" y="55.88" rot="MR180"/>
 <instance part="IC1" gate="A*" x="88.9" y="55.88"/>
 <instance part="IC1" gate="B*" x="177.8" y="55.88"/>
-<instance part="IC1" gate="G$5" x="58.42" y="55.88"/>
+<instance part="IC1" gate="5" x="58.42" y="55.88"/>
 <instance part="S1" gate="1" x="58.42" y="43.18"/>
-<instance part="R1" gate="G$1" x="93.98" y="35.56"/>
-<instance part="R2" gate="G$1" x="182.88" y="35.56"/>
-<instance part="R11" gate="G$1" x="20.32" y="60.96"/>
-<instance part="R5" gate="G$1" x="20.32" y="50.8"/>
-<instance part="R29" gate="G$1" x="27.94" y="68.58" rot="MR0"/>
-<instance part="R27" gate="G$1" x="27.94" y="43.18" rot="MR0"/>
-<instance part="R3" gate="G$1" x="20.32" y="25.4" rot="MR0"/>
-<instance part="T8" gate="G$1" x="30.48" y="15.24"/>
-<instance part="R14" gate="G$1" x="33.02" y="0" rot="MR0"/>
+<instance part="R1" gate="1" x="93.98" y="35.56"/>
+<instance part="R2" gate="1" x="182.88" y="35.56"/>
+<instance part="R11" gate="1" x="20.32" y="60.96"/>
+<instance part="R5" gate="1" x="20.32" y="50.8"/>
+<instance part="R29" gate="1" x="27.94" y="68.58" rot="MR0"/>
+<instance part="R27" gate="1" x="27.94" y="43.18" rot="MR0"/>
+<instance part="R3" gate="1" x="20.32" y="25.4" rot="MR0"/>
+<instance part="T8" gate="1" x="30.48" y="15.24"/>
+<instance part="R14" gate="1" x="33.02" y="0" rot="MR0"/>
 <instance part="S2" gate="1" x="33.02" y="-10.16"/>
-<instance part="U$2" gate="G$1" x="33.02" y="22.86"/>
+<instance part="U$2" gate="1" x="33.02" y="22.86"/>
 <instance part="C1" gate="1" x="76.2" y="45.72"/>
-<instance part="R20" gate="G$1" x="55.88" y="17.78"/>
-<instance part="D1" gate="G$1" x="73.66" y="17.78" rot="R90"/>
-<instance part="D2" gate="G$1" x="73.66" y="25.4" rot="R270"/>
-<instance part="R23" gate="G$1" x="81.28" y="10.16" rot="MR0"/>
+<instance part="R20" gate="1" x="55.88" y="17.78"/>
+<instance part="D1" gate="1" x="73.66" y="17.78" rot="R90"/>
+<instance part="D2" gate="1" x="73.66" y="25.4" rot="R270"/>
+<instance part="R23" gate="1" x="81.28" y="10.16" rot="MR0"/>
 <instance part="S3" gate="1" x="81.28" y="0"/>
-<instance part="R22" gate="G$1" x="91.44" y="17.78"/>
+<instance part="R22" gate="1" x="91.44" y="17.78"/>
 <instance part="S4" gate="1" x="93.98" y="25.4"/>
 <instance part="C7" gate="1" x="101.6" y="35.56"/>
-<instance part="R6" gate="G$1" x="116.84" y="50.8"/>
-<instance part="C6" gate="G$1" x="116.84" y="43.18"/>
-<instance part="C10" gate="G$1" x="93.98" y="78.74"/>
-<instance part="R24" gate="G$1" x="81.28" y="78.74"/>
-<instance part="R21" gate="G$1" x="55.88" y="-5.08"/>
+<instance part="R6" gate="1" x="116.84" y="50.8"/>
+<instance part="C6" gate="1" x="116.84" y="43.18"/>
+<instance part="C10" gate="1" x="93.98" y="78.74"/>
+<instance part="R24" gate="1" x="81.28" y="78.74"/>
+<instance part="R21" gate="1" x="55.88" y="-5.08"/>
 <instance part="R18" gate="1" x="101.6" y="-5.08" rot="R180"/>
 <instance part="S5" gate="1" x="101.6" y="-15.24"/>
 <instance part="C4" gate="1" x="45.72" y="43.18"/>
-<instance part="R16" gate="G$1" x="124.46" y="35.56"/>
-<instance part="R26" gate="G$1" x="129.54" y="71.12" rot="MR0"/>
-<instance part="U$1" gate="G$1" x="58.42" y="66.04"/>
-<instance part="R12" gate="G$1" x="119.38" y="-20.32"/>
-<instance part="C8" gate="G$1" x="5.08" y="-20.32"/>
-<instance part="R32" gate="G$1" x="0" y="-27.94" rot="MR0"/>
+<instance part="R16" gate="1" x="124.46" y="35.56"/>
+<instance part="R26" gate="1" x="129.54" y="71.12" rot="MR0"/>
+<instance part="U$1" gate="1" x="58.42" y="66.04"/>
+<instance part="R12" gate="1" x="119.38" y="-20.32"/>
+<instance part="C8" gate="1" x="5.08" y="-20.32"/>
+<instance part="R32" gate="1" x="0" y="-27.94" rot="MR0"/>
 <instance part="S6" gate="1" x="0" y="-38.1"/>
 <instance part="LP_INPUT" gate="1" x="-2.54" y="-20.32"/>
-<instance part="C11" gate="G$1" x="5.08" y="15.24"/>
-<instance part="C3" gate="G$1" x="5.08" y="50.8"/>
-<instance part="R31" gate="G$1" x="0" y="7.62" rot="MR0"/>
-<instance part="R28" gate="G$1" x="0" y="43.18" rot="MR0"/>
+<instance part="C11" gate="1" x="5.08" y="15.24"/>
+<instance part="C3" gate="1" x="5.08" y="50.8"/>
+<instance part="R31" gate="1" x="0" y="7.62" rot="MR0"/>
+<instance part="R28" gate="1" x="0" y="43.18" rot="MR0"/>
 <instance part="S7" gate="1" x="0" y="33.02"/>
 <instance part="S8" gate="1" x="0" y="-2.54"/>
 <instance part="HP_INPUT" gate="1" x="-2.54" y="15.24"/>
@@ -6910,33 +6910,33 @@
 <instance part="C2" gate="1" x="165.1" y="45.72"/>
 <instance part="S9" gate="1" x="165.1" y="38.1"/>
 <instance part="S10" gate="1" x="182.88" y="25.4"/>
-<instance part="T6" gate="G$1" x="127" y="132.08"/>
-<instance part="T7" gate="G$1" x="119.38" y="139.7"/>
-<instance part="R7" gate="G$1" x="129.54" y="116.84"/>
-<instance part="R8" gate="G$1" x="129.54" y="101.6"/>
+<instance part="T6" gate="1" x="127" y="132.08"/>
+<instance part="T7" gate="1" x="119.38" y="139.7"/>
+<instance part="R7" gate="1" x="129.54" y="116.84"/>
+<instance part="R8" gate="1" x="129.54" y="101.6"/>
 <instance part="S11" gate="1" x="129.54" y="91.44"/>
-<instance part="T5" gate="G$1" x="109.22" y="109.22" rot="MR0"/>
+<instance part="T5" gate="1" x="109.22" y="109.22" rot="MR0"/>
 <instance part="R17" gate="1" x="106.68" y="132.08" rot="MR0"/>
-<instance part="D3" gate="G$1" x="93.98" y="127"/>
+<instance part="D3" gate="1" x="93.98" y="127"/>
 <instance part="S12" gate="1" x="93.98" y="119.38"/>
-<instance part="R9" gate="G$1" x="93.98" y="139.7"/>
-<instance part="U$3" gate="G$1" x="78.74" y="147.32" smashed="yes" rot="R90">
+<instance part="R9" gate="1" x="93.98" y="139.7"/>
+<instance part="U$3" gate="1" x="78.74" y="147.32" smashed="yes" rot="R90">
 <attribute name="VALUE" x="74.93" y="147.32" size="1.778" layer="96" align="center-right"/>
 </instance>
-<instance part="R10" gate="G$1" x="106.68" y="147.32"/>
+<instance part="R10" gate="1" x="106.68" y="147.32"/>
 <instance part="R13" gate="1" x="93.98" y="101.6" rot="MR180"/>
 <instance part="S13" gate="1" x="93.98" y="91.44"/>
-<instance part="R15" gate="G$1" x="86.36" y="109.22"/>
+<instance part="R15" gate="1" x="86.36" y="109.22"/>
 <instance part="CV_INPUT" gate="1" x="78.74" y="109.22"/>
 <instance part="PWR" gate="-" x="-2.54" y="93.98"/>
 <instance part="PWR" gate="+" x="-2.54" y="124.46"/>
-<instance part="R30" gate="G$1" x="5.08" y="124.46"/>
-<instance part="C5" gate="G$1" x="12.7" y="109.22"/>
-<instance part="R4" gate="G$1" x="20.32" y="116.84" rot="MR0"/>
-<instance part="R25" gate="G$1" x="20.32" y="101.6"/>
+<instance part="R30" gate="1" x="5.08" y="124.46"/>
+<instance part="C5" gate="1" x="12.7" y="109.22"/>
+<instance part="R4" gate="1" x="20.32" y="116.84" rot="MR0"/>
+<instance part="R25" gate="1" x="20.32" y="101.6"/>
 <instance part="S14" gate="1" x="5.08" y="88.9"/>
-<instance part="C9" gate="G$1" x="27.94" y="101.6" rot="MR0"/>
-<instance part="U$4" gate="G$1" x="27.94" y="124.46" smashed="yes" rot="R270">
+<instance part="C9" gate="1" x="27.94" y="101.6" rot="MR0"/>
+<instance part="U$4" gate="1" x="27.94" y="124.46" smashed="yes" rot="R270">
 <attribute name="VALUE" x="31.75" y="124.46" size="1.778" layer="96" rot="R180" align="center-right"/>
 </instance>
 </instances>
@@ -6945,22 +6945,22 @@
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC1" gate="G$5" pin="V-"/>
+<pinref part="IC1" gate="5" pin="V-"/>
 <pinref part="S1" gate="1" pin="GND"/>
 <wire x1="58.42" y1="45.72" x2="58.42" y2="49.53" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R14" gate="1" pin="2"/>
 <pinref part="S2" gate="1" pin="GND"/>
 <wire x1="33.02" y1="-5.08" x2="33.02" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S3" gate="1" pin="GND"/>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R23" gate="1" pin="2"/>
 <wire x1="81.28" y1="2.54" x2="81.28" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <pinref part="S4" gate="1" pin="GND"/>
 <wire x1="93.98" y1="27.94" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -6970,17 +6970,17 @@
 <wire x1="101.6" y1="-12.7" x2="101.6" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R32" gate="1" pin="2"/>
 <pinref part="S6" gate="1" pin="GND"/>
 <wire x1="0" y1="-35.56" x2="0" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R28" gate="1" pin="2"/>
 <pinref part="S7" gate="1" pin="GND"/>
 <wire x1="0" y1="35.56" x2="0" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="R31" gate="1" pin="2"/>
 <pinref part="S8" gate="1" pin="GND"/>
 <wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="91"/>
 </segment>
@@ -6990,17 +6990,17 @@
 <wire x1="165.1" y1="40.64" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <pinref part="S10" gate="1" pin="GND"/>
 <wire x1="182.88" y1="27.94" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R8" gate="1" pin="2"/>
 <pinref part="S11" gate="1" pin="GND"/>
 <wire x1="129.54" y1="96.52" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D3" gate="1" pin="A"/>
 <pinref part="S12" gate="1" pin="GND"/>
 <wire x1="93.98" y1="121.92" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -7012,17 +7012,17 @@
 <segment>
 <pinref part="PWR" gate="-" pin="P$1"/>
 <wire x1="-2.54" y1="93.98" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R25" gate="1" pin="2"/>
 <wire x1="5.08" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="93.98" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C5" gate="1" pin="-"/>
 <wire x1="12.7" y1="106.68" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
 <junction x="12.7" y="93.98"/>
 <pinref part="S14" gate="1" pin="GND"/>
 <wire x1="5.08" y1="91.44" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
 <junction x="5.08" y="93.98"/>
-<pinref part="C9" gate="G$1" pin="-"/>
+<pinref part="C9" gate="1" pin="-"/>
 <wire x1="27.94" y1="99.06" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <junction x="20.32" y="93.98"/>
@@ -7030,9 +7030,9 @@
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R20" gate="1" pin="1"/>
 <wire x1="45.72" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R21" gate="1" pin="1"/>
 <wire x1="45.72" y1="17.78" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-5.08" x2="50.8" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="C4" gate="1" pin="2"/>
@@ -7042,14 +7042,14 @@
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="2"/>
+<pinref part="R27" gate="1" pin="1"/>
 <wire x1="25.4" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="50.8"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R24" gate="1" pin="1"/>
 <wire x1="38.1" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="78.74" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
@@ -7058,35 +7058,35 @@
 </net>
 <net name="BIAS" class="0">
 <segment>
-<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="R27" gate="1" pin="2"/>
 <wire x1="27.94" y1="38.1" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <label x="27.94" y="35.56" size="1.778" layer="95" rot="R270"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="27.94" y1="35.56" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="35.56" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="27.94" y="35.56"/>
 </segment>
 <segment>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R29" gate="1" pin="1"/>
 <wire x1="27.94" y1="73.66" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="27.94" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R16" gate="1" pin="2"/>
 <wire x1="124.46" y1="30.48" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
 <label x="124.46" y="27.94" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R26" gate="1" pin="1"/>
 <wire x1="129.54" y1="76.2" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="129.54" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="2"/>
+<pinref part="R25" gate="1" pin="1"/>
 <wire x1="20.32" y1="106.68" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="+"/>
+<pinref part="C9" gate="1" pin="+"/>
 <wire x1="20.32" y1="109.22" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="104.14" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="109.22" x2="20.32" y2="109.22" width="0.1524" layer="91"/>
@@ -7098,8 +7098,8 @@
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="T8" gate="G$1" pin="E"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="T8" gate="1" pin="E"/>
+<pinref part="R14" gate="1" pin="1"/>
 <wire x1="33.02" y1="10.16" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="7.62" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="7.62" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
@@ -7112,45 +7112,45 @@
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="T8" gate="G$1" pin="B"/>
+<pinref part="R3" gate="1" pin="2"/>
+<pinref part="T8" gate="1" pin="B"/>
 <wire x1="20.32" y1="20.32" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C11" gate="1" pin="2"/>
 <wire x1="7.62" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 <junction x="20.32" y="15.24"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="T8" gate="G$1" pin="C"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="T8" gate="1" pin="C"/>
+<pinref part="U$2" gate="1" pin="VCC"/>
 <wire x1="33.02" y1="22.86" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$5" pin="V+"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="IC1" gate="5" pin="V+"/>
+<pinref part="U$1" gate="1" pin="VCC"/>
 <wire x1="58.42" y1="66.04" x2="58.42" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="1" pin="1"/>
 <wire x1="101.6" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
+<pinref part="U$3" gate="1" pin="VCC"/>
 <wire x1="93.98" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R9" gate="1" pin="1"/>
 <wire x1="93.98" y1="147.32" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
 <junction x="93.98" y="147.32"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="1"/>
+<pinref part="R30" gate="1" pin="2"/>
 <wire x1="20.32" y1="121.92" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="124.46" x2="12.7" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="C5" gate="1" pin="+"/>
 <wire x1="12.7" y1="124.46" x2="10.16" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="111.76" x2="12.7" y2="124.46" width="0.1524" layer="91"/>
 <junction x="12.7" y="124.46"/>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
+<pinref part="U$4" gate="1" pin="VCC"/>
 <wire x1="20.32" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
 <junction x="20.32" y="124.46"/>
 </segment>
@@ -7169,7 +7169,7 @@
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="A*" pin="BUFF/OUT"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="93.98" y1="40.64" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="43.18" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
@@ -7178,14 +7178,14 @@
 <wire x1="101.6" y1="43.18" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 <junction x="101.6" y="43.18"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C6" gate="1" pin="1"/>
 <wire x1="114.3" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="43.18" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="109.22" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
 <junction x="109.22" y="50.8"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C10" gate="1" pin="2"/>
 <wire x1="101.6" y1="50.8" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <junction x="101.6" y="50.8"/>
@@ -7193,40 +7193,40 @@
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R20" gate="1" pin="2"/>
 <wire x1="60.96" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="17.78" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D2" gate="1" pin="A"/>
 <wire x1="66.04" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
 <junction x="66.04" y="17.78"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="66.04" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D2" gate="1" pin="C"/>
 <wire x1="76.2" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="25.4" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="81.28" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R23" gate="1" pin="1"/>
 <wire x1="81.28" y1="15.24" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
 <junction x="81.28" y="17.78"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R22" gate="1" pin="1"/>
 <wire x1="81.28" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C6" gate="1" pin="2"/>
 <wire x1="119.38" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="43.18" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="43.18" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 <junction x="124.46" y="43.18"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R16" gate="1" pin="1"/>
 <pinref part="IC1" gate="B" pin="+IN"/>
 <wire x1="137.16" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <junction x="124.46" y="50.8"/>
@@ -7234,14 +7234,14 @@
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="C10" gate="1" pin="1"/>
+<pinref part="R24" gate="1" pin="2"/>
 <wire x1="91.44" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R21" gate="1" pin="2"/>
 <pinref part="R18" gate="1" pin="S"/>
 <wire x1="60.96" y1="-5.08" x2="99.06" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
@@ -7250,7 +7250,7 @@
 <segment>
 <pinref part="R18" gate="1" pin="A"/>
 <wire x1="101.6" y1="0" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R22" gate="1" pin="2"/>
 <wire x1="101.6" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C7" gate="1" pin="2"/>
 <wire x1="101.6" y1="33.02" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
@@ -7259,13 +7259,13 @@
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R29" gate="1" pin="2"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="48.26" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="60.96" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="27.94" y="60.96"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R11" gate="1" pin="2"/>
 <wire x1="25.4" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="C4" gate="1" pin="1"/>
 <wire x1="45.72" y1="45.72" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
@@ -7277,9 +7277,9 @@
 <segment>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="137.16" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R26" gate="1" pin="2"/>
 <wire x1="129.54" y1="60.96" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R12" gate="1" pin="2"/>
 <wire x1="129.54" y1="60.96" x2="129.54" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-20.32" x2="124.46" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="129.54" y="60.96"/>
@@ -7287,16 +7287,16 @@
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="R12" gate="1" pin="1"/>
+<pinref part="C8" gate="1" pin="2"/>
 <wire x1="7.62" y1="-20.32" x2="114.3" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R32" gate="1" pin="1"/>
 <wire x1="0" y1="-22.86" x2="0" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C8" gate="1" pin="1"/>
 <wire x1="0" y1="-20.32" x2="2.54" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="LP_INPUT" gate="1" pin="P$1"/>
 <wire x1="-2.54" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
@@ -7305,8 +7305,8 @@
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="R31" gate="1" pin="1"/>
+<pinref part="C11" gate="1" pin="1"/>
 <wire x1="0" y1="12.7" x2="0" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="0" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="HP_INPUT" gate="1" pin="P$1"/>
@@ -7316,16 +7316,16 @@
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="C3" gate="1" pin="2"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="7.62" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C3" gate="1" pin="1"/>
 <wire x1="2.54" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R28" gate="1" pin="1"/>
 <wire x1="0" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="BP_INPUT" gate="1" pin="P$1"/>
 <wire x1="-2.54" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
@@ -7345,13 +7345,13 @@
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R11" gate="1" pin="1"/>
 <wire x1="15.24" y1="60.96" x2="12.7" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="60.96" x2="12.7" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-27.94" x2="190.5" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-27.94" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="43.18" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="182.88" y1="43.18" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B*" pin="BUFF/OUT"/>
 <wire x1="182.88" y1="45.72" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
@@ -7360,16 +7360,16 @@
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="T7" gate="G$1" pin="E"/>
+<pinref part="T7" gate="1" pin="E"/>
 <wire x1="121.92" y1="134.62" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="T6" gate="G$1" pin="B"/>
+<pinref part="T6" gate="1" pin="B"/>
 <wire x1="121.92" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="T6" gate="G$1" pin="E"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="T6" gate="1" pin="E"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="129.54" y1="127" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="AMP/BIAS"/>
 <wire x1="129.54" y1="124.46" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
@@ -7386,10 +7386,10 @@
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="2"/>
 <wire x1="129.54" y1="111.76" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="T5" gate="G$1" pin="B"/>
+<pinref part="R8" gate="1" pin="1"/>
+<pinref part="T5" gate="1" pin="B"/>
 <wire x1="129.54" y1="109.22" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
 <junction x="129.54" y="109.22"/>
@@ -7398,34 +7398,34 @@
 <net name="N$22" class="0">
 <segment>
 <pinref part="R17" gate="1" pin="A"/>
-<pinref part="T5" gate="G$1" pin="C"/>
+<pinref part="T5" gate="1" pin="C"/>
 <wire x1="106.68" y1="127" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="121.92" x2="106.68" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="121.92" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
 <junction x="106.68" y="121.92"/>
-<pinref part="T7" gate="G$1" pin="B"/>
+<pinref part="T7" gate="1" pin="B"/>
 <wire x1="114.3" y1="139.7" x2="116.84" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R17" gate="1" pin="S"/>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D3" gate="1" pin="C"/>
 <wire x1="104.14" y1="132.08" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="132.08" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R9" gate="1" pin="2"/>
 <wire x1="93.98" y1="134.62" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
 <junction x="93.98" y="132.08"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="T7" gate="G$1" pin="C"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="T7" gate="1" pin="C"/>
+<pinref part="R10" gate="1" pin="2"/>
 <wire x1="121.92" y1="144.78" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="T6" gate="G$1" pin="C"/>
+<pinref part="T6" gate="1" pin="C"/>
 <wire x1="129.54" y1="137.16" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <junction x="121.92" y="147.32"/>
@@ -7433,7 +7433,7 @@
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="T5" gate="G$1" pin="E"/>
+<pinref part="T5" gate="1" pin="E"/>
 <wire x1="106.68" y1="104.14" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="101.6" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R13" gate="1" pin="S"/>
@@ -7442,21 +7442,21 @@
 <net name="N$30" class="0">
 <segment>
 <pinref part="R13" gate="1" pin="A"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R15" gate="1" pin="2"/>
 <wire x1="91.44" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="109.22" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R15" gate="1" pin="1"/>
 <pinref part="CV_INPUT" gate="1" pin="P$1"/>
 <wire x1="78.74" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R30" gate="1" pin="1"/>
 <pinref part="PWR" gate="+" pin="P$1"/>
 <wire x1="0" y1="124.46" x2="-2.54" y2="124.46" width="0.1524" layer="91"/>
 </segment>

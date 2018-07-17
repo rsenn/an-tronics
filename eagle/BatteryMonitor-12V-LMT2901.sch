@@ -918,13 +918,13 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -932,8 +932,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -941,8 +941,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -950,8 +950,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -959,8 +959,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -968,8 +968,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -977,8 +977,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -986,8 +986,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -995,8 +995,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1004,8 +1004,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1013,8 +1013,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1022,8 +1022,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1031,8 +1031,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1040,8 +1040,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1049,8 +1049,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1058,8 +1058,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1067,8 +1067,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1076,8 +1076,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1085,8 +1085,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1094,8 +1094,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1103,8 +1103,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1112,8 +1112,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1121,8 +1121,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1130,8 +1130,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1139,8 +1139,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1148,8 +1148,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1196,13 +1196,13 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </deviceset>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1210,8 +1210,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1219,8 +1219,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1228,8 +1228,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1237,8 +1237,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1246,8 +1246,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1255,8 +1255,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1264,8 +1264,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1273,8 +1273,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1282,8 +1282,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1291,8 +1291,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1300,8 +1300,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1309,8 +1309,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </device>
 <device name="0204/2-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1381,7 +1381,7 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 <gate name="B" symbol="OPAMP" x="0" y="10.16"/>
 <gate name="C" symbol="OPAMP" x="0" y="-7.62"/>
 <gate name="D" symbol="OPAMP" x="0" y="-22.86"/>
-<gate name="G$5" symbol="PWR+-" x="17.78" y="0"/>
+<gate name="5" symbol="PWR+-" x="17.78" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL14">
@@ -1398,8 +1398,8 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 <connect gate="D" pin="+IN" pad="11"/>
 <connect gate="D" pin="-IN" pad="10"/>
 <connect gate="D" pin="OUT" pad="13"/>
-<connect gate="G$5" pin="V+" pad="3"/>
-<connect gate="G$5" pin="V-" pad="12"/>
+<connect gate="5" pin="V+" pad="3"/>
+<connect gate="5" pin="V-" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1459,7 +1459,7 @@ http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html</description>
 </deviceset>
 <deviceset name="VCC">
 <gates>
-<gate name="G$1" symbol="VCC" x="0" y="0"/>
+<gate name="1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -2653,13 +2653,13 @@ Source: www.luxeon.com&lt;p&gt;
 KA-3528ASYC&lt;br&gt;
 Source: www.kingbright.com</description>
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SMT1206" package="1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2667,8 +2667,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LD260" package="LD260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2676,8 +2676,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR2X5" package="LED2X5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2685,8 +2685,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="3MM" package="LED3MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2694,8 +2694,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="5MM" package="LED5MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2703,8 +2703,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LSU260" package="LSU260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2712,8 +2712,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LZR181" package="LZR181">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2721,8 +2721,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B152" package="Q62902-B152">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2730,8 +2730,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B153" package="Q62902-B153">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2739,8 +2739,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B155" package="Q62902-B155">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2748,8 +2748,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B156" package="Q62902-B156">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2757,8 +2757,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH480" package="SFH480">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2766,8 +2766,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH482" package="SFH482">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2775,8 +2775,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR5.7X3.2" package="U57X32">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2784,8 +2784,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="IRL80A" package="IRL80A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2793,8 +2793,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2" package="P-LCC-2">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2802,8 +2802,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MINI-TOP" package="OSRAM-MINI-TOP-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2811,8 +2811,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SIDELED" package="OSRAM-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2820,8 +2820,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SMART-LED" package="SMART-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="B"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2829,8 +2829,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2-BACK" package="P-LCC-2-TOPLED-RG">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2838,8 +2838,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MICRO-SIDELED" package="MICRO-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2847,8 +2847,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-4" package="P-LCC-4">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C@4"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C@4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2856,8 +2856,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0603" package="CHIP-LED0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2865,8 +2865,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0805" package="CHIP-LED0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2874,8 +2874,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="TOPLED-SANTANA" package="MINI-TOPLED-SANTANA">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2883,8 +2883,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0805" package="CHIPLED_0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2892,8 +2892,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_1206" package="CHIPLED_1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2901,8 +2901,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0603" package="CHIPLED_0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2910,8 +2910,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED-0603-TTW" package="CHIPLED-0603-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2919,8 +2919,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="" package="SMARTLED-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2928,8 +2928,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED+" package="LUMILED+">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2937,8 +2937,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED" package="LUMILED">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2946,8 +2946,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="10MM" package="LED10MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2955,8 +2955,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="KA-3528ASYC" package="KA-3528ASYC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2964,8 +2964,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0805" package="SML0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2973,8 +2973,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML1206" package="SML1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2982,8 +2982,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0603" package="SML0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3377,13 +3377,13 @@ Source: www.kingbright.com</description>
 <devicesets>
 <deviceset name="Z-DIODE" prefix="D">
 <gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
+<gate name="1" symbol="ZD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="Z10" package="DO35Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3391,8 +3391,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="Z7" package="DO35Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3400,8 +3400,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="Z5" package="DO35Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3409,8 +3409,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="Z2_54" package="DO35Z2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3418,8 +3418,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="Z2_54A" package="DO35Z2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3427,8 +3427,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="Z12" package="DO34Z12">
 <connects>
-<connect gate="G$1" pin="A" pad="A1"/>
-<connect gate="G$1" pin="C" pad="C1"/>
+<connect gate="1" pin="A" pad="A1"/>
+<connect gate="1" pin="C" pad="C1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3436,8 +3436,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z7" package="DO34Z7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3445,8 +3445,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z5" package="DO34Z5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3454,8 +3454,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z2,5" package="DO34Z2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3463,8 +3463,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z2,5-A" package="DO34Z2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3472,8 +3472,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z10" package="DO34Z10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3481,8 +3481,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z7V" package="DO34Z7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3490,8 +3490,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z10V" package="DO34Z10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3499,8 +3499,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z12V" package="DO34Z12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3508,8 +3508,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="34Z5V" package="DO34Z5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6079,13 +6079,13 @@ Source: www.kingbright.com</description>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6093,8 +6093,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6102,8 +6102,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6111,8 +6111,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6120,8 +6120,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6129,8 +6129,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6138,8 +6138,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6147,8 +6147,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6156,8 +6156,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6165,8 +6165,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6174,8 +6174,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6183,8 +6183,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6192,8 +6192,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6201,8 +6201,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6210,8 +6210,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6219,8 +6219,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6228,8 +6228,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6237,8 +6237,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6246,8 +6246,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6255,8 +6255,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6264,8 +6264,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6273,8 +6273,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6282,8 +6282,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6291,8 +6291,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6300,8 +6300,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6309,8 +6309,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6318,8 +6318,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6327,8 +6327,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6336,8 +6336,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6345,8 +6345,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6354,8 +6354,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6363,8 +6363,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6372,8 +6372,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6381,8 +6381,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6390,8 +6390,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6399,8 +6399,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6408,8 +6408,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6417,8 +6417,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6426,8 +6426,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6435,8 +6435,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6444,8 +6444,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6823,36 +6823,36 @@ http://circuitsjunkyard.blogspot.ch/p/blog-page.html
 http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/Batteery+monitor.PNG</text>
 </plain>
 <instances>
-<instance part="R1" gate="G$1" x="-10.16" y="43.18"/>
-<instance part="R2" gate="G$1" x="5.08" y="43.18"/>
-<instance part="R3" gate="G$1" x="5.08" y="24.13"/>
-<instance part="R4" gate="G$1" x="5.08" y="6.35"/>
+<instance part="R1" gate="1" x="-10.16" y="43.18"/>
+<instance part="R2" gate="1" x="5.08" y="43.18"/>
+<instance part="R3" gate="1" x="5.08" y="24.13"/>
+<instance part="R4" gate="1" x="5.08" y="6.35"/>
 <instance part="IC1" gate="A" x="17.78" y="33.02"/>
 <instance part="IC1" gate="B" x="17.78" y="15.24"/>
 <instance part="IC1" gate="C" x="17.78" y="-2.54"/>
 <instance part="IC1" gate="D" x="17.78" y="-20.32"/>
-<instance part="R5" gate="G$1" x="5.08" y="-11.43"/>
-<instance part="R6" gate="G$1" x="5.08" y="-30.48"/>
+<instance part="R5" gate="1" x="5.08" y="-11.43"/>
+<instance part="R6" gate="1" x="5.08" y="-30.48"/>
 <instance part="R7" gate="1" x="5.08" y="-45.72" rot="R270"/>
-<instance part="R8" gate="G$1" x="35.56" y="33.02"/>
-<instance part="R9" gate="G$1" x="35.56" y="15.24"/>
-<instance part="R10" gate="G$1" x="35.56" y="-2.54"/>
-<instance part="R11" gate="G$1" x="35.56" y="-20.32"/>
-<instance part="IC1" gate="G$5" x="17.78" y="33.02" rot="MR0"/>
+<instance part="R8" gate="1" x="35.56" y="33.02"/>
+<instance part="R9" gate="1" x="35.56" y="15.24"/>
+<instance part="R10" gate="1" x="35.56" y="-2.54"/>
+<instance part="R11" gate="1" x="35.56" y="-20.32"/>
+<instance part="IC1" gate="5" x="17.78" y="33.02" rot="MR0"/>
 <instance part="S1" gate="1" x="17.78" y="25.4"/>
-<instance part="U$1" gate="G$1" x="66.04" y="53.34"/>
-<instance part="LED1" gate="G$1" x="45.72" y="43.18"/>
-<instance part="LED2" gate="G$1" x="50.8" y="25.4"/>
-<instance part="LED3" gate="G$1" x="55.88" y="7.62"/>
-<instance part="LED4" gate="G$1" x="60.96" y="-10.16"/>
-<instance part="D1" gate="G$1" x="-10.16" y="30.48"/>
+<instance part="U$1" gate="1" x="66.04" y="53.34"/>
+<instance part="LED1" gate="1" x="45.72" y="43.18"/>
+<instance part="LED2" gate="1" x="50.8" y="25.4"/>
+<instance part="LED3" gate="1" x="55.88" y="7.62"/>
+<instance part="LED4" gate="1" x="60.96" y="-10.16"/>
+<instance part="D1" gate="1" x="-10.16" y="30.48"/>
 <instance part="S2" gate="1" x="-10.16" y="22.86"/>
 <instance part="S3" gate="1" x="5.08" y="-55.88"/>
 <instance part="PWR" gate="-" x="45.72" y="-48.26"/>
 <instance part="PWR" gate="+" x="45.72" y="-38.1"/>
-<instance part="U$2" gate="G$1" x="58.42" y="-35.56"/>
+<instance part="U$2" gate="1" x="58.42" y="-35.56"/>
 <instance part="S4" gate="1" x="58.42" y="-53.34"/>
-<instance part="C1" gate="G$1" x="58.42" y="-43.18" rot="MR0"/>
+<instance part="C1" gate="1" x="58.42" y="-43.18" rot="MR0"/>
 <instance part="C2" gate="1" x="50.8" y="-43.18" rot="MR0"/>
 </instances>
 <busses>
@@ -6860,11 +6860,11 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC1" gate="G$5" pin="V-"/>
+<pinref part="IC1" gate="5" pin="V-"/>
 <pinref part="S1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <pinref part="S2" gate="1" pin="GND"/>
 <wire x1="-10.16" y1="25.4" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
 </segment>
@@ -6877,7 +6877,7 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <wire x1="50.8" y1="-48.26" x2="45.72" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-45.72" x2="50.8" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="50.8" y="-48.26"/>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C1" gate="1" pin="-"/>
 <wire x1="58.42" y1="-45.72" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="58.42" y="-48.26"/>
 </segment>
@@ -6889,39 +6889,39 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="R11" gate="1" pin="2"/>
+<pinref part="LED4" gate="1" pin="C"/>
 <wire x1="40.64" y1="-20.32" x2="60.96" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-20.32" x2="60.96" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="R10" gate="1" pin="2"/>
+<pinref part="LED3" gate="1" pin="C"/>
 <wire x1="40.64" y1="-2.54" x2="55.88" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="R9" gate="1" pin="2"/>
+<pinref part="LED2" gate="1" pin="C"/>
 <wire x1="40.64" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="15.24" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="R8" gate="1" pin="2"/>
+<pinref part="LED1" gate="1" pin="C"/>
 <wire x1="40.64" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="33.02" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R8" gate="1" pin="1"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="30.48" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -6929,21 +6929,21 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="OUT"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R9" gate="1" pin="1"/>
 <wire x1="25.4" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="IC1" gate="C" pin="OUT"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="1" pin="1"/>
 <wire x1="25.4" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="IC1" gate="D" pin="OUT"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R11" gate="1" pin="1"/>
 <wire x1="25.4" y1="-20.32" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6951,10 +6951,10 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <segment>
 <pinref part="IC1" gate="A" pin="+IN"/>
 <wire x1="10.16" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="-2.54" y1="35.56" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="35.56" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="-10.16" y1="38.1" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-10.16" y="35.56"/>
 <pinref part="IC1" gate="B" pin="+IN"/>
@@ -6973,8 +6973,8 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="1"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="5.08" y1="38.1" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="5.08" y1="30.48" x2="5.08" y2="29.21" width="0.1524" layer="91"/>
@@ -6985,10 +6985,10 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <net name="N$11" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="-IN"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="10.16" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="12.7" x2="5.08" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="5.08" y1="12.7" x2="5.08" y2="11.43" width="0.1524" layer="91"/>
 <junction x="5.08" y="12.7"/>
 </segment>
@@ -6997,9 +6997,9 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <segment>
 <pinref part="IC1" gate="C" pin="-IN"/>
 <wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="1" pin="1"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="1.27" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-6.35" width="0.1524" layer="91"/>
 <junction x="5.08" y="-5.08"/>
 </segment>
@@ -7007,56 +7007,56 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <net name="N$13" class="0">
 <segment>
 <pinref part="IC1" gate="D" pin="-IN"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="10.16" y1="-22.86" x2="5.08" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-22.86" x2="5.08" y2="-16.51" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="5.08" y1="-25.4" x2="5.08" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="5.08" y="-22.86"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="-10.16" y1="48.26" x2="-10.16" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="5.08" y1="50.8" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
 <junction x="5.08" y="50.8"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="1" pin="A"/>
 <wire x1="5.08" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="50.8" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="1" pin="A"/>
 <wire x1="45.72" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="50.8" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
 <junction x="45.72" y="50.8"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="1" pin="A"/>
 <wire x1="50.8" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
 <junction x="50.8" y="50.8"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="LED4" gate="1" pin="A"/>
 <wire x1="55.88" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="50.8" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="55.88" y="50.8"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U$1" gate="1" pin="VCC"/>
 <wire x1="66.04" y1="53.34" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
 <junction x="60.96" y="50.8"/>
-<pinref part="IC1" gate="G$5" pin="V+"/>
+<pinref part="IC1" gate="5" pin="V+"/>
 <wire x1="17.78" y1="38.1" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <junction x="17.78" y="50.8"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="+" pin="P$1"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="U$2" gate="1" pin="VCC"/>
 <wire x1="58.42" y1="-35.56" x2="58.42" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-38.1" x2="50.8" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="C2" gate="1" pin="1"/>
 <wire x1="50.8" y1="-38.1" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-38.1" x2="50.8" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="50.8" y="-38.1"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C1" gate="1" pin="+"/>
 <wire x1="58.42" y1="-38.1" x2="58.42" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="58.42" y="-38.1"/>
 </segment>
@@ -7069,7 +7069,7 @@ http://4.bp.blogspot.com/-7IVGEGHsP18/UbQSPsaSAsI/AAAAAAAAAD8/B-pMQNrVhL8/s640/B
 <wire x1="0" y1="-38.1" x2="5.08" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="R7" gate="1" pin="A"/>
 <wire x1="5.08" y1="-38.1" x2="5.08" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="5.08" y1="-35.56" x2="5.08" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="5.08" y="-38.1"/>
 </segment>

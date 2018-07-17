@@ -153,14 +153,14 @@
 <devicesets>
 <deviceset name="2N918">
 <gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
+<gate name="1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TO-72" package="TO-72">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -168,9 +168,9 @@
 </device>
 <device name="TO-72-A45" package="TO-72-A45">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -178,9 +178,9 @@
 </device>
 <device name="TO-72-A45-CE" package="TO-72-A45">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E S"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -188,9 +188,9 @@
 </device>
 <device name="TO-72-CE" package="TO-72">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1 4"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1 4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -200,15 +200,15 @@
 </deviceset>
 <deviceset name="2N918-S">
 <gates>
-<gate name="G$1" symbol="NPN-S" x="0" y="0"/>
+<gate name="1" symbol="NPN-S" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TO-72" package="TO-72">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-<connect gate="G$1" pin="S" pad="4"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -216,10 +216,10 @@
 </device>
 <device name="-A45" package="TO-72-A45">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="S"/>
-<connect gate="G$1" pin="S" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="S"/>
+<connect gate="1" pin="S" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>

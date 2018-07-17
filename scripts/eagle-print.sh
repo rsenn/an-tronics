@@ -9,6 +9,17 @@ str_toupper ()
     echo "$@" | tr "[[:lower:]]" "[[:upper:]]"
 }
 
+type cygpath >/dev/null 2>/dev/null || cygpath() {
+
+  while :; do 
+    case "$1" in
+      -*) shift ;;
+      *) break ;;
+    esac
+  done
+  for ARG; do echo "$ARG"; done
+}
+
 
 find_program() {
   V=$1
@@ -56,6 +67,7 @@ exec_cmd() {
  (echo -n "$VAR "
   for X in  "$@"; do echo -n "'$X' "; done) 1>&2
   eval "env - PATH=\"\$PATH\" \"\${$VAR}\" \"\$@\" 2>&1"
+  eval "\"\${$VAR}\" \"\$@\" 2>&1"
   R=$?
   echo " (R=$R)" 1>&2)  1>&10
 }
@@ -76,7 +88,7 @@ eagle_print_to_pdf() {
  echo 1>&2
 
   case $INPUT in
-     *.brd)   EAGLE_CMD="DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" ;;
+     *.brd)   EAGLE_CMD="RATSNEST; DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" ;;
    esac
   EAGLE_CMDS=${EAGLE_CMDS:+"$EAGLE_CMDS; "}$EAGLE_CMD
 

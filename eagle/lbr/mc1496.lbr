@@ -135,21 +135,21 @@
 <devicesets>
 <deviceset name="MC1496">
 <gates>
-<gate name="G$1" symbol="MC1496" x="0" y="0"/>
+<gate name="1" symbol="MC1496" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL14">
 <connects>
-<connect gate="G$1" pin="+C" pad="8"/>
-<connect gate="G$1" pin="+IN" pad="1"/>
-<connect gate="G$1" pin="+OUT" pad="6"/>
-<connect gate="G$1" pin="-C" pad="10"/>
-<connect gate="G$1" pin="-IN" pad="4"/>
-<connect gate="G$1" pin="-OUT" pad="12"/>
-<connect gate="G$1" pin="B" pad="5"/>
-<connect gate="G$1" pin="G1" pad="2"/>
-<connect gate="G$1" pin="G2" pad="3"/>
-<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="1" pin="+C" pad="8"/>
+<connect gate="1" pin="+IN" pad="1"/>
+<connect gate="1" pin="+OUT" pad="6"/>
+<connect gate="1" pin="-C" pad="10"/>
+<connect gate="1" pin="-IN" pad="4"/>
+<connect gate="1" pin="-OUT" pad="12"/>
+<connect gate="1" pin="B" pad="5"/>
+<connect gate="1" pin="G1" pad="2"/>
+<connect gate="1" pin="G2" pad="3"/>
+<connect gate="1" pin="GND" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>

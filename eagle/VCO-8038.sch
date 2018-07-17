@@ -674,13 +674,13 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <devicesets>
 <deviceset name="1N4148" prefix="D">
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="35-7" package="DO35-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -688,8 +688,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -697,8 +697,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="35-2.54" package="DO35-2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -706,8 +706,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="35-2.54A" package="DO35-2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -715,8 +715,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-12" package="DO34-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -724,8 +724,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-5" package="DO34-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -733,8 +733,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -742,8 +742,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-2,5" package="DO34-2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -751,8 +751,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-2,5-A" package="DO34-2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -760,8 +760,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-10" package="DO34-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -769,8 +769,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-7V" package="DO34-7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -778,8 +778,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-5V" package="DO34-5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -787,8 +787,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-10V" package="DO34-10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -796,8 +796,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="34-12V" package="DO34-12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -805,8 +805,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="OA79" package="OA79-18">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3493,13 +3493,13 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <devicesets>
 <deviceset name="C-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="C-H" x="0" y="0"/>
+<gate name="1" symbol="C-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3507,8 +3507,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="050-020X044" package="C050-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3516,8 +3516,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="075-020X044" package="C075-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3525,8 +3525,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="075-020X044/V" package="C075-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3534,8 +3534,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="050-020X044/V" package="C050-020X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3543,8 +3543,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="050-024X044" package="C050-024X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3552,8 +3552,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="050-024X044/V" package="C050-024X044/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3561,8 +3561,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="050-020X036" package="C050-020X036">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3570,8 +3570,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="050-020X036/V" package="C050-020X036/V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3941,13 +3941,13 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3955,8 +3955,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3964,8 +3964,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3973,8 +3973,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3982,8 +3982,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3991,8 +3991,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4000,8 +4000,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4009,8 +4009,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4018,8 +4018,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4027,8 +4027,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4036,8 +4036,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4045,8 +4045,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4054,8 +4054,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4063,8 +4063,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4072,8 +4072,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4081,8 +4081,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4090,8 +4090,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4099,8 +4099,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4108,8 +4108,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4117,8 +4117,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4126,8 +4126,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4135,8 +4135,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4144,8 +4144,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4153,8 +4153,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4162,8 +4162,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4171,8 +4171,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4180,8 +4180,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4189,8 +4189,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4198,8 +4198,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4207,8 +4207,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4216,8 +4216,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4225,8 +4225,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4234,8 +4234,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4243,8 +4243,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4252,8 +4252,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4261,8 +4261,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4270,8 +4270,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4279,8 +4279,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4288,8 +4288,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4297,8 +4297,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4306,8 +4306,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5621,13 +5621,13 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5635,8 +5635,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5644,8 +5644,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5653,8 +5653,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5662,8 +5662,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5671,8 +5671,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5680,8 +5680,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5689,8 +5689,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5698,8 +5698,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5707,8 +5707,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5716,8 +5716,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5725,8 +5725,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5734,8 +5734,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5743,8 +5743,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5752,8 +5752,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5761,8 +5761,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5770,8 +5770,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5779,8 +5779,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5788,8 +5788,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5797,8 +5797,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5806,8 +5806,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5815,8 +5815,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5824,8 +5824,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5833,8 +5833,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5842,8 +5842,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5851,8 +5851,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5860,8 +5860,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/15-V" package="0204/15-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5869,8 +5869,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/2" package="0204/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5878,8 +5878,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/12-V" package="0202/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5887,8 +5887,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0202/2" package="0202/2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5896,8 +5896,8 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </device>
 <device name="0204/2.54" package="0204/2.54">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5935,14 +5935,14 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </deviceset>
 <deviceset name="POT-H">
 <gates>
-<gate name="G$1" symbol="POT-H" x="0" y="0"/>
+<gate name="1" symbol="POT-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="POT">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="E" pad="E"/>
-<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="E" pad="E"/>
+<connect gate="1" pin="S" pad="S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6103,12 +6103,12 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <devicesets>
 <deviceset name="SPAD" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SPAD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6246,26 +6246,26 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <instance part="IC2" gate="A" x="45.72" y="-40.64" rot="MR180"/>
 <instance part="IC2" gate="C" x="35.56" y="63.5" rot="MR180"/>
 <instance part="IC2" gate="D" x="-20.32" y="63.5" rot="MR180"/>
-<instance part="D1" gate="G$1" x="45.72" y="-30.48" rot="R90"/>
-<instance part="C1" gate="G$1" x="45.72" y="-25.4"/>
-<instance part="R29" gate="G$1" x="35.56" y="-17.78"/>
+<instance part="D1" gate="1" x="45.72" y="-30.48" rot="R90"/>
+<instance part="C1" gate="1" x="45.72" y="-25.4"/>
+<instance part="R29" gate="1" x="35.56" y="-17.78"/>
 <instance part="R23" gate="1" x="35.56" y="-7.62" rot="MR270"/>
 <instance part="V+" gate="1" x="27.94" y="-7.62" rot="R90"/>
 <instance part="SUPPLY2" gate="1" x="43.18" y="-7.62" rot="R90"/>
 <instance part="GND1" gate="1" x="35.56" y="-45.72"/>
 <instance part="GND2" gate="1" x="20.32" y="-48.26"/>
 <instance part="SUPPLY3" gate="1" x="5.08" y="-43.18" rot="R90"/>
-<instance part="R30" gate="G$1" x="12.7" y="-33.02"/>
-<instance part="R26" gate="G$1" x="12.7" y="-43.18" rot="MR180"/>
-<instance part="R8" gate="G$1" x="12.7" y="-6.35" rot="MR180"/>
+<instance part="R30" gate="1" x="12.7" y="-33.02"/>
+<instance part="R26" gate="1" x="12.7" y="-43.18" rot="MR180"/>
+<instance part="R8" gate="1" x="12.7" y="-6.35" rot="MR180"/>
 <instance part="GND3" gate="1" x="-12.7" y="-48.26"/>
 <instance part="SUPPLY4" gate="1" x="-27.94" y="-43.18" rot="R90"/>
-<instance part="R20" gate="G$1" x="-20.32" y="-34.29"/>
-<instance part="R25" gate="G$1" x="-20.32" y="-43.18" rot="MR180"/>
+<instance part="R20" gate="1" x="-20.32" y="-34.29"/>
+<instance part="R25" gate="1" x="-20.32" y="-43.18" rot="MR180"/>
 <instance part="R19" gate="1" x="-30.48" y="-25.4" rot="MR0"/>
 <instance part="R24" gate="1" x="-43.18" y="-25.4"/>
 <instance part="GND4" gate="1" x="-43.18" y="-35.56"/>
-<instance part="SWEEP" gate="G$1" x="-50.8" y="-17.78"/>
+<instance part="SWEEP" gate="1" x="-50.8" y="-17.78"/>
 <instance part="R3" gate="1" x="-10.16" y="22.86"/>
 <instance part="R4" gate="1" x="-10.16" y="17.78"/>
 <instance part="R1" gate="1" x="-22.86" y="17.78" rot="R270"/>
@@ -6273,37 +6273,37 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <instance part="GND6" gate="1" x="25.4" y="2.54"/>
 <instance part="R22" gate="1" x="-2.54" y="0" rot="R90"/>
 <instance part="GND7" gate="1" x="5.08" y="-5.08"/>
-<instance part="R28" gate="G$1" x="-2.54" y="10.16"/>
+<instance part="R28" gate="1" x="-2.54" y="10.16"/>
 <instance part="R11" gate="1" x="-10.16" y="55.88"/>
 <instance part="R18" gate="1" x="-20.32" y="73.66"/>
-<instance part="R16" gate="G$1" x="-30.48" y="81.28"/>
+<instance part="R16" gate="1" x="-30.48" y="81.28"/>
 <instance part="R27" gate="1" x="-38.1" y="66.04"/>
 <instance part="GND8" gate="1" x="-45.72" y="60.96"/>
 <instance part="GND9" gate="1" x="-10.16" y="45.72"/>
-<instance part="TRIANGLE" gate="G$1" x="-5.08" y="55.88" rot="R180"/>
+<instance part="TRIANGLE" gate="1" x="-5.08" y="55.88" rot="R180"/>
 <instance part="SUPPLY6" gate="1" x="-30.48" y="88.9" rot="R180"/>
 <instance part="R12" gate="1" x="45.72" y="55.88" rot="R90"/>
 <instance part="R6" gate="1" x="35.56" y="73.66"/>
-<instance part="R5" gate="G$1" x="25.4" y="81.28"/>
+<instance part="R5" gate="1" x="25.4" y="81.28"/>
 <instance part="R14" gate="1" x="17.78" y="66.04" rot="MR0"/>
 <instance part="GND10" gate="1" x="10.16" y="60.96"/>
 <instance part="GND11" gate="1" x="45.72" y="45.72"/>
-<instance part="SINE" gate="G$1" x="50.8" y="55.88" rot="R180"/>
+<instance part="SINE" gate="1" x="50.8" y="55.88" rot="R180"/>
 <instance part="SUPPLY7" gate="1" x="25.4" y="88.9" rot="R180"/>
 <instance part="SUPPLY8" gate="1" x="91.44" y="48.26" rot="R180"/>
 <instance part="R21" gate="1" x="91.44" y="40.64" rot="MR0"/>
-<instance part="R7" gate="G$1" x="91.44" y="27.94"/>
+<instance part="R7" gate="1" x="91.44" y="27.94"/>
 <instance part="GND12" gate="1" x="91.44" y="17.78"/>
-<instance part="C2" gate="G$1" x="66.04" y="17.78" rot="MR180"/>
-<instance part="C7" gate="G$1" x="78.74" y="12.7" rot="R180"/>
+<instance part="C2" gate="1" x="66.04" y="17.78" rot="MR180"/>
+<instance part="C7" gate="1" x="78.74" y="12.7" rot="R180"/>
 <instance part="SUPPLY9" gate="1" x="78.74" y="27.94" rot="R180"/>
 <instance part="GND13" gate="1" x="78.74" y="5.08"/>
 <instance part="R13" gate="1" x="106.68" y="-27.94"/>
 <instance part="R9" gate="1" x="96.52" y="-10.16" rot="MR0"/>
-<instance part="R17" gate="G$1" x="86.36" y="-2.54" rot="R180"/>
+<instance part="R17" gate="1" x="86.36" y="-2.54" rot="R180"/>
 <instance part="R15" gate="1" x="76.2" y="-17.78" rot="MR0"/>
 <instance part="GND15" gate="1" x="106.68" y="-38.1"/>
-<instance part="SQUARE" gate="G$1" x="111.76" y="-27.94" rot="R180"/>
+<instance part="SQUARE" gate="1" x="111.76" y="-27.94" rot="R180"/>
 <instance part="IC2" gate="B" x="96.52" y="-20.32" rot="MR180"/>
 <instance part="GND14" gate="1" x="86.36" y="-27.94"/>
 <instance part="C3" gate="1" x="68.58" y="71.12"/>
@@ -6314,9 +6314,9 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <instance part="R10" gate="1" x="12.7" y="10.16" rot="R90"/>
 <instance part="P-1" gate="1" x="-10.16" y="0" rot="R270"/>
 <instance part="SUPPLY1" gate="1" x="86.36" y="5.08"/>
-<instance part="0V" gate="G$1" x="81.28" y="66.04" rot="R180"/>
-<instance part="+12V" gate="G$1" x="81.28" y="76.2" rot="R180"/>
-<instance part="-12V" gate="G$1" x="81.28" y="55.88" rot="R180"/>
+<instance part="0V" gate="1" x="81.28" y="66.04" rot="R180"/>
+<instance part="+12V" gate="1" x="81.28" y="76.2" rot="R180"/>
+<instance part="-12V" gate="1" x="81.28" y="55.88" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6330,24 +6330,24 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <segment>
 <pinref part="SUPPLY3" gate="1" pin="+12V"/>
 <wire x1="5.08" y1="-43.18" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="E"/>
+<pinref part="R26" gate="1" pin="E"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="1" pin="+12V"/>
 <wire x1="-27.94" y1="-43.18" x2="-25.4" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="E"/>
+<pinref part="R25" gate="1" pin="E"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="1" pin="+12V"/>
 <pinref part="C3" gate="1" pin="1"/>
 <wire x1="68.58" y1="78.74" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="+12V" gate="G$1" pin="P$1"/>
+<pinref part="+12V" gate="1" pin="P$1"/>
 <wire x1="68.58" y1="76.2" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <junction x="68.58" y="76.2"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R17" gate="1" pin="2"/>
 <wire x1="86.36" y1="5.08" x2="86.36" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="1" pin="+12V"/>
 </segment>
@@ -6364,10 +6364,10 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="C7" gate="1" pin="-"/>
 <pinref part="SUPPLY9" gate="1" pin="-12V"/>
 <wire x1="78.74" y1="27.94" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C2" gate="1" pin="2"/>
 <wire x1="78.74" y1="22.86" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="17.78" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="17.78" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
@@ -6380,7 +6380,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <pinref part="SUPPLY11" gate="1" pin="-12V"/>
 <pinref part="C4" gate="1" pin="2"/>
 <wire x1="68.58" y1="53.34" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="-12V" gate="G$1" pin="P$1"/>
+<pinref part="-12V" gate="1" pin="P$1"/>
 <wire x1="68.58" y1="55.88" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 <junction x="68.58" y="55.88"/>
@@ -6393,12 +6393,12 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C1" gate="1" pin="2"/>
 <wire x1="48.26" y1="-25.4" x2="55.88" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-25.4" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-30.48" x2="55.88" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-40.64" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="48.26" y1="-30.48" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-30.48"/>
 <pinref part="IC2" gate="A" pin="OUT"/>
@@ -6411,12 +6411,12 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="43.18" y1="-30.48" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-30.48" x2="35.56" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="-IN"/>
 <wire x1="35.56" y1="-38.1" x2="38.1" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C1" gate="1" pin="1"/>
 <wire x1="43.18" y1="-25.4" x2="35.56" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-25.4" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="35.56" y="-30.48"/>
@@ -6425,12 +6425,12 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <wire x1="-20.32" y1="-25.4" x2="12.7" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-25.4" x2="12.7" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-11.43" x2="12.7" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R8" gate="1" pin="1"/>
+<pinref part="R29" gate="1" pin="2"/>
 <wire x1="35.56" y1="-22.86" x2="35.56" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R30" gate="1" pin="1"/>
 <wire x1="12.7" y1="-27.94" x2="12.7" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R20" gate="1" pin="1"/>
 <wire x1="-20.32" y1="-29.21" x2="-20.32" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="R19" gate="1" pin="1"/>
 <wire x1="-25.4" y1="-25.4" x2="-20.32" y2="-25.4" width="0.1524" layer="91"/>
@@ -6447,13 +6447,13 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="20.32" y1="-45.72" x2="20.32" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-43.18" x2="17.78" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="A"/>
+<pinref part="R26" gate="1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-12.7" y1="-45.72" x2="-12.7" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="-43.18" x2="-15.24" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="A"/>
+<pinref part="R25" gate="1" pin="A"/>
 </segment>
 <segment>
 <pinref part="R24" gate="1" pin="A"/>
@@ -6501,7 +6501,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="+"/>
+<pinref part="C7" gate="1" pin="+"/>
 <wire x1="78.74" y1="10.16" x2="78.74" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6524,19 +6524,19 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <wire x1="68.58" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="66.04" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 <junction x="68.58" y="66.04"/>
-<pinref part="0V" gate="G$1" pin="P$1"/>
+<pinref part="0V" gate="1" pin="P$1"/>
 <wire x1="76.2" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 <junction x="76.2" y="66.04"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R7" gate="1" pin="2"/>
 <wire x1="91.44" y1="22.86" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="SWEEP" gate="G$1" pin="P$1"/>
+<pinref part="SWEEP" gate="1" pin="P$1"/>
 <pinref part="R24" gate="1" pin="E"/>
 <wire x1="-50.8" y1="-17.78" x2="-43.18" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-17.78" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
@@ -6574,7 +6574,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <pinref part="R4" gate="1" pin="2"/>
 <wire x1="-5.08" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="1" pin="DUTY_2"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R28" gate="1" pin="1"/>
 <wire x1="-2.54" y1="17.78" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="15.24" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
 <junction x="-2.54" y="17.78"/>
@@ -6590,7 +6590,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <pinref part="R18" gate="1" pin="1"/>
 <wire x1="-30.48" y1="73.66" x2="-30.48" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="73.66" x2="-30.48" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R16" gate="1" pin="2"/>
 <wire x1="-30.48" y1="73.66" x2="-30.48" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-30.48" y="73.66"/>
 </segment>
@@ -6609,7 +6609,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="TRIANGLE" gate="G$1" pin="P$1"/>
+<pinref part="TRIANGLE" gate="1" pin="P$1"/>
 <pinref part="R11" gate="1" pin="S"/>
 <wire x1="-5.08" y1="55.88" x2="-7.62" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -6637,7 +6637,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="SINE" gate="G$1" pin="P$1"/>
+<pinref part="SINE" gate="1" pin="P$1"/>
 <pinref part="R12" gate="1" pin="S"/>
 <wire x1="50.8" y1="55.88" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -6663,13 +6663,13 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <net name="N$24" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="TIMING_CAP"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C2" gate="1" pin="1"/>
 <wire x1="55.88" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R17" gate="1" pin="1"/>
 <wire x1="86.36" y1="-7.62" x2="86.36" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-10.16" x2="86.36" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-17.78" x2="86.36" y2="-17.78" width="0.1524" layer="91"/>
@@ -6696,7 +6696,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="SQUARE" gate="G$1" pin="P$1"/>
+<pinref part="SQUARE" gate="1" pin="P$1"/>
 <pinref part="R13" gate="1" pin="S"/>
 <wire x1="111.76" y1="-27.94" x2="109.22" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
@@ -6713,13 +6713,13 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R21" gate="1" pin="A"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="91.44" y1="33.02" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R28" gate="1" pin="2"/>
 <pinref part="R22" gate="1" pin="S"/>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
 </segment>
@@ -6728,27 +6728,27 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <segment>
 <pinref part="R10" gate="1" pin="2"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R8" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R29" gate="1" pin="1"/>
 <pinref part="R23" gate="1" pin="S"/>
 <wire x1="35.56" y1="-12.7" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="R26" gate="G$1" pin="S"/>
+<pinref part="R30" gate="1" pin="2"/>
+<pinref part="R26" gate="1" pin="S"/>
 <wire x1="12.7" y1="-38.1" x2="12.7" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<pinref part="R25" gate="G$1" pin="S"/>
+<pinref part="R20" gate="1" pin="2"/>
+<pinref part="R25" gate="1" pin="S"/>
 <wire x1="-20.32" y1="-39.37" x2="-20.32" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6762,12 +6762,12 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <net name="-12V" class="0">
 <segment>
 <pinref part="SUPPLY6" gate="1" pin="-12V"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R16" gate="1" pin="1"/>
 <wire x1="-30.48" y1="86.36" x2="-30.48" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="1" pin="-12V"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="25.4" y1="88.9" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6779,7 +6779,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <pinref part="R6" gate="1" pin="1"/>
 <wire x1="25.4" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <junction x="25.4" y="66.04"/>

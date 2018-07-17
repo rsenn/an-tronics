@@ -449,14 +449,14 @@
 <devicesets>
 <deviceset name="WQP-PJ301M-12_JACK">
 <gates>
-<gate name="G$1" symbol="JACK" x="0" y="0"/>
+<gate name="1" symbol="JACK" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="WQP-PJ301M-12_JACK">
 <connects>
-<connect gate="G$1" pin="1" pad="P$3"/>
-<connect gate="G$1" pin="2" pad="P$1"/>
-<connect gate="G$1" pin="3" pad="P$2"/>
+<connect gate="1" pin="1" pad="P$3"/>
+<connect gate="1" pin="2" pad="P$1"/>
+<connect gate="1" pin="3" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1631,13 +1631,13 @@ Source: www.luxeon.com&lt;p&gt;
 KA-3528ASYC&lt;br&gt;
 Source: www.kingbright.com</description>
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SMT1206" package="1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1645,8 +1645,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LD260" package="LD260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1654,8 +1654,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR2X5" package="LED2X5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1663,8 +1663,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="3MM" package="LED3MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1672,8 +1672,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="5MM" package="LED5MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1681,8 +1681,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LSU260" package="LSU260">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1690,8 +1690,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="LZR181" package="LZR181">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1699,8 +1699,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B152" package="Q62902-B152">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1708,8 +1708,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B153" package="Q62902-B153">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1717,8 +1717,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B155" package="Q62902-B155">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1726,8 +1726,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B156" package="Q62902-B156">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1735,8 +1735,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH480" package="SFH480">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1744,8 +1744,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SFH482" package="SFH482">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1753,8 +1753,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SQR5.7X3.2" package="U57X32">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1762,8 +1762,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="IRL80A" package="IRL80A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1771,8 +1771,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2" package="P-LCC-2">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1780,8 +1780,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MINI-TOP" package="OSRAM-MINI-TOP-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1789,8 +1789,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SIDELED" package="OSRAM-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1798,8 +1798,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SMART-LED" package="SMART-LED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="B"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1807,8 +1807,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-2-BACK" package="P-LCC-2-TOPLED-RG">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1816,8 +1816,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="MICRO-SIDELED" package="MICRO-SIDELED">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1825,8 +1825,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="P-LCC-4" package="P-LCC-4">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C@4"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C@4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1834,8 +1834,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0603" package="CHIP-LED0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1843,8 +1843,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIP-LED0805" package="CHIP-LED0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1852,8 +1852,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="TOPLED-SANTANA" package="MINI-TOPLED-SANTANA">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1861,8 +1861,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0805" package="CHIPLED_0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1870,8 +1870,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_1206" package="CHIPLED_1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1879,8 +1879,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED_0603" package="CHIPLED_0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1888,8 +1888,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="CHIPLED-0603-TTW" package="CHIPLED-0603-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1897,8 +1897,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="" package="SMARTLED-TTW">
 <connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
+<connect gate="1" pin="A" pad="A@1"/>
+<connect gate="1" pin="C" pad="C@1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1906,8 +1906,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED+" package="LUMILED+">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1915,8 +1915,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="-LUMILED" package="LUMILED">
 <connects>
-<connect gate="G$1" pin="A" pad="2+"/>
-<connect gate="G$1" pin="C" pad="4-"/>
+<connect gate="1" pin="A" pad="2+"/>
+<connect gate="1" pin="C" pad="4-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1924,8 +1924,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="10MM" package="LED10MM">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1933,8 +1933,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="KA-3528ASYC" package="KA-3528ASYC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1942,8 +1942,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0805" package="SML0805">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1951,8 +1951,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML1206" package="SML1206">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1960,8 +1960,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="SML0603" package="SML0603">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2008,7 +2008,7 @@ Source: www.kingbright.com</description>
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
-<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
+<gate name="1" symbol="A3L-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3516,13 +3516,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <deviceset name="DIODE-" prefix="D" uservalue="yes">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="DO41-10" package="DO41-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3530,8 +3530,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3539,8 +3539,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO204-10" package="DO204-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3548,8 +3548,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO15-12" package="DO15-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3557,8 +3557,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD57-10" package="SOD57-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3566,8 +3566,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO201-15" package="DO201-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3575,8 +3575,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO07" package="DO07">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3584,8 +3584,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="P1-10" package="P1-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3593,8 +3593,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="P2-15" package="P2-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3602,8 +3602,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3611,8 +3611,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOT54H" package="SOT54H">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3620,8 +3620,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD523" package="SOD523">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3629,8 +3629,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="TO18D" package="TO18D">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3638,8 +3638,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="C1702-05" package="C1702-05">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3647,8 +3647,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="C1702-15" package="C1702-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3656,8 +3656,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SGA-10" package="SGA-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3665,8 +3665,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD64-10" package="SOD64-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3674,8 +3674,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD61A" package="SOD61A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3683,8 +3683,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD61B" package="SOD61B">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3692,8 +3692,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD61C" package="SOD61C">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3701,8 +3701,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD61D" package="SOD61D">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3710,8 +3710,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD61E" package="SOD61E">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3719,8 +3719,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO27-15" package="DO27-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3728,8 +3728,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD81" package="SOD81">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3737,8 +3737,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD84" package="SOD84">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3746,8 +3746,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="F126-10" package="F126-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3755,8 +3755,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO220S" package="DO220S">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3764,8 +3764,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="TO220H" package="TO220AC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3773,8 +3773,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="TO220V" package="TO220ACS">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3782,8 +3782,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="G4-12" package="G4-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3791,8 +3791,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD83-12" package="SOD83-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3800,8 +3800,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SMB" package="SMB">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3809,8 +3809,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="P6-15" package="P6-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3818,8 +3818,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="C2673" package="C2673">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3827,8 +3827,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="C221B1A" package="C221B1A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3836,8 +3836,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD80C" package="SOD80C">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3845,8 +3845,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="D-10" package="D-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3854,8 +3854,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="D-12.5" package="D-12.5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3863,8 +3863,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="D-2.5" package="D-2.5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3872,8 +3872,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="D-5" package="D-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3881,8 +3881,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="D-7.5" package="D-7.5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3890,8 +3890,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD106-R" package="SOD106-R">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3899,8 +3899,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SMC" package="SMC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3908,8 +3908,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD106-W" package="SOD106-W">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3917,8 +3917,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD106A-R" package="SOD106A-R">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3926,8 +3926,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD110-W" package="SOD110-W">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3935,8 +3935,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD110-R" package="SOD110-R">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3944,8 +3944,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD123" package="SOD123">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3953,8 +3953,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD323-R" package="SOD323-R">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3962,8 +3962,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SOD323-W" package="SOD323-W">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3971,8 +3971,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="GF1" package="GF1">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3980,8 +3980,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="MINIMELF" package="MINIMELF">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3989,8 +3989,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="MELF-MLL41" package="MELF-MLL41">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3998,8 +3998,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="MICROMELF-R" package="MICROMELF-R">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4007,8 +4007,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="MICROMELF-W" package="MICROMELF-W">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4016,8 +4016,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SC79_INFINEON" package="SC79_INFINEON">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4025,8 +4025,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="SCD80-INFINEON" package="SCD80_INFINEON">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4034,8 +4034,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO214AA" package="DO214AA">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4043,8 +4043,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO214AC" package="DO214AC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4052,8 +4052,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO214BA" package="DO214BA">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4061,8 +4061,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO-214AC" package="DO-214AC">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4070,8 +4070,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 <device name="DO41-7.6" package="DO41-7.6">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4174,13 +4174,13 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <deviceset name="PHOTOCELL" prefix="R">
 <description>CdS photoresistor. This is a low cost way to detect light levels. Resistance decreases with more incoming light. SparkFun SKU: SEN-09088</description>
 <gates>
-<gate name="G$1" symbol="PHOTOCELL" x="0" y="0"/>
+<gate name="1" symbol="PHOTOCELL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="PTH" package="PHOTOCELL">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4188,8 +4188,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="PTH-KIT" package="PHOTOCELL-KIT">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5099,13 +5099,13 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5113,8 +5113,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5122,8 +5122,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5131,8 +5131,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5140,8 +5140,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5149,8 +5149,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5158,8 +5158,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5167,8 +5167,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5176,8 +5176,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5185,8 +5185,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5194,8 +5194,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5203,8 +5203,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5212,8 +5212,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5221,8 +5221,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5230,8 +5230,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5239,8 +5239,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5248,8 +5248,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5257,8 +5257,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5266,8 +5266,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5275,8 +5275,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5284,8 +5284,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5293,8 +5293,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5302,8 +5302,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5311,8 +5311,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5320,8 +5320,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5329,8 +5329,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/12-V" package="0204/12-V">
 <connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5340,13 +5340,13 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </deviceset>
 <deviceset name="R-H" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="R-1" x="0" y="0"/>
+<gate name="1" symbol="R-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5354,8 +5354,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5363,8 +5363,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5372,8 +5372,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5381,8 +5381,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5390,8 +5390,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/10-V" package="0204/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5399,8 +5399,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5408,8 +5408,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/7-V" package="0204/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5417,8 +5417,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5426,8 +5426,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5435,8 +5435,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5444,8 +5444,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5453,8 +5453,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="0204/2-V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8171,13 +8171,13 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <devicesets>
 <deviceset name="C-H" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="C-H" x="0" y="0"/>
+<gate name="1" symbol="C-H" x="0" y="0"/>
 </gates>
 <devices>
 <device name="025-015X024" package="C025-015X024">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8185,8 +8185,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="050-020X044" package="C050-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8194,8 +8194,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="075-020X044" package="C0750-020X044">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8206,13 +8206,13 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8220,8 +8220,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8229,8 +8229,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8238,8 +8238,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8247,8 +8247,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8256,8 +8256,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8265,8 +8265,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8274,8 +8274,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8283,8 +8283,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8292,8 +8292,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8301,8 +8301,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8310,8 +8310,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8319,8 +8319,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8328,8 +8328,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8337,8 +8337,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8346,8 +8346,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8355,8 +8355,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8364,8 +8364,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8373,8 +8373,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8382,8 +8382,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8391,8 +8391,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8400,8 +8400,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8409,8 +8409,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8418,8 +8418,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8427,8 +8427,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8436,8 +8436,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8445,8 +8445,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8454,8 +8454,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8463,8 +8463,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8472,8 +8472,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8481,8 +8481,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8490,8 +8490,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8499,8 +8499,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8508,8 +8508,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8517,8 +8517,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8526,8 +8526,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8535,8 +8535,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8544,8 +8544,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8553,8 +8553,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8562,8 +8562,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8571,8 +8571,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9227,14 +9227,14 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </deviceset>
 <deviceset name="SL-SW-ON-OFF-ON">
 <gates>
-<gate name="G$1" symbol="ON-OFF-ON" x="0" y="0"/>
+<gate name="1" symbol="ON-OFF-ON" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-H" package="SLSW-1P2T-H">
 <connects>
-<connect gate="G$1" pin="O" pad="1"/>
-<connect gate="G$1" pin="P" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9557,13 +9557,13 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <devicesets>
 <deviceset name="1N4002" prefix="D">
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-2.54" package="DO35-2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9571,8 +9571,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="-2.54A" package="DO35-2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9715,14 +9715,14 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <devicesets>
 <deviceset name="2N3904" prefix="T">
 <gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+<gate name="1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="3"/>
+<connect gate="1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9730,9 +9730,9 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </device>
 <device name="EBC" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9858,66 +9858,66 @@ negative voltage</text>
 <instances>
 <instance part="C2" gate="1" x="309.88" y="210.82"/>
 <instance part="C3" gate="1" x="309.88" y="223.52"/>
-<instance part="R1" gate="G$1" x="93.98" y="175.26" rot="R180"/>
-<instance part="R2" gate="G$1" x="109.22" y="154.94" rot="R180"/>
-<instance part="R3" gate="G$1" x="114.3" y="165.1" rot="R180"/>
+<instance part="R1" gate="1" x="93.98" y="175.26" rot="R180"/>
+<instance part="R2" gate="1" x="109.22" y="154.94" rot="R180"/>
+<instance part="R3" gate="1" x="114.3" y="165.1" rot="R180"/>
 <instance part="GND1" gate="1" x="63.5" y="165.1"/>
 <instance part="GND2" gate="1" x="104.14" y="187.96" rot="R180"/>
 <instance part="GND5" gate="1" x="327.66" y="213.36"/>
 <instance part="PSU" gate="A" x="269.24" y="215.9"/>
 <instance part="P+1" gate="1" x="327.66" y="233.68"/>
 <instance part="P-1" gate="1" x="327.66" y="198.12"/>
-<instance part="R11" gate="G$1" x="223.52" y="137.16" rot="R180"/>
-<instance part="TRI_OUT" gate="G$1" x="238.76" y="134.62"/>
+<instance part="R11" gate="1" x="223.52" y="137.16" rot="R180"/>
+<instance part="TRI_OUT" gate="1" x="238.76" y="134.62"/>
 <instance part="GND7" gate="1" x="231.14" y="127"/>
-<instance part="R7" gate="G$1" x="320.04" y="157.48"/>
-<instance part="LED1" gate="G$1" x="320.04" y="144.78"/>
+<instance part="R7" gate="1" x="320.04" y="157.48"/>
+<instance part="LED1" gate="1" x="320.04" y="144.78"/>
 <instance part="IC2" gate="A" x="114.3" y="88.9"/>
 <instance part="IC2" gate="D" x="162.56" y="91.44"/>
-<instance part="RATE_CV_IN" gate="G$1" x="48.26" y="68.58" rot="R180"/>
+<instance part="RATE_CV_IN" gate="1" x="48.26" y="68.58" rot="R180"/>
 <instance part="GND6" gate="1" x="58.42" y="78.74" rot="R180"/>
-<instance part="R8" gate="G$1" x="111.76" y="104.14" rot="R180"/>
-<instance part="R12" gate="G$1" x="68.58" y="66.04" rot="R180"/>
+<instance part="R8" gate="1" x="111.76" y="104.14" rot="R180"/>
+<instance part="R12" gate="1" x="68.58" y="66.04" rot="R180"/>
 <instance part="CV_DIR" gate="1" x="86.36" y="66.04" rot="R180"/>
-<instance part="R14" gate="G$1" x="137.16" y="88.9"/>
+<instance part="R14" gate="1" x="137.16" y="88.9"/>
 <instance part="RATE" gate="1" x="119.38" y="53.34"/>
 <instance part="GND11" gate="1" x="104.14" y="96.52" rot="R180"/>
 <instance part="GND13" gate="1" x="152.4" y="101.6" rot="R180"/>
-<instance part="LED2" gate="G$1" x="266.7" y="83.82" rot="R180"/>
-<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
+<instance part="LED2" gate="1" x="266.7" y="83.82" rot="R180"/>
+<instance part="FRAME2" gate="1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="S2" gate="G$1" x="60.96" y="210.82" rot="R270"/>
-<instance part="SQR_OUT" gate="G$1" x="238.76" y="172.72"/>
-<instance part="R4" gate="G$1" x="223.52" y="175.26" rot="R180"/>
-<instance part="R5" gate="G$1" x="180.34" y="193.04"/>
+<instance part="S2" gate="1" x="60.96" y="210.82" rot="R270"/>
+<instance part="SQR_OUT" gate="1" x="238.76" y="172.72"/>
+<instance part="R4" gate="1" x="223.52" y="175.26" rot="R180"/>
+<instance part="R5" gate="1" x="180.34" y="193.04"/>
 <instance part="GND3" gate="1" x="231.14" y="165.1"/>
-<instance part="C6" gate="G$1" x="76.2" y="205.74"/>
-<instance part="C7" gate="G$1" x="73.66" y="193.04"/>
-<instance part="D1" gate="G$1" x="289.56" y="228.6" rot="R270"/>
-<instance part="D2" gate="G$1" x="289.56" y="203.2" rot="R90"/>
+<instance part="C6" gate="1" x="76.2" y="205.74"/>
+<instance part="C7" gate="1" x="73.66" y="193.04"/>
+<instance part="D1" gate="1" x="289.56" y="228.6" rot="R270"/>
+<instance part="D2" gate="1" x="289.56" y="203.2" rot="R90"/>
 <instance part="TRI_LVL" gate="1" x="180.34" y="139.7"/>
 <instance part="SQR_LVL" gate="1" x="180.34" y="177.8"/>
 <instance part="GND4" gate="1" x="180.34" y="162.56"/>
 <instance part="GND14" gate="1" x="180.34" y="124.46"/>
-<instance part="D3" gate="G$1" x="88.9" y="139.7"/>
+<instance part="D3" gate="1" x="88.9" y="139.7"/>
 <instance part="S3" gate="1" x="71.12" y="134.62" rot="R270"/>
 <instance part="IC2" gate="B" x="210.82" y="93.98"/>
 <instance part="IC2" gate="C" x="248.92" y="91.44"/>
-<instance part="R6" gate="G$1" x="162.56" y="76.2"/>
-<instance part="R9" gate="G$1" x="210.82" y="81.28"/>
+<instance part="R6" gate="1" x="162.56" y="76.2"/>
+<instance part="R9" gate="1" x="210.82" y="81.28"/>
 <instance part="GND8" gate="1" x="200.66" y="104.14" rot="R180"/>
-<instance part="R10" gate="G$1" x="236.22" y="71.12" rot="R180"/>
+<instance part="R10" gate="1" x="236.22" y="71.12" rot="R180"/>
 <instance part="GND10" gate="1" x="236.22" y="58.42"/>
-<instance part="R13" gate="G$1" x="134.62" y="53.34"/>
+<instance part="R13" gate="1" x="134.62" y="53.34"/>
 <instance part="P-2" gate="1" x="119.38" y="68.58" rot="R180"/>
 <instance part="GND12" gate="1" x="119.38" y="38.1"/>
-<instance part="R15" gate="G$1" x="162.56" y="53.34"/>
+<instance part="R15" gate="1" x="162.56" y="53.34"/>
 <instance part="RANGE_ADJ" gate="1" x="177.8" y="53.34" rot="R180"/>
 <instance part="P-3" gate="1" x="177.8" y="40.64"/>
-<instance part="R17" gate="G$1" x="76.2" y="154.94"/>
+<instance part="R17" gate="1" x="76.2" y="154.94"/>
 <instance part="IC3" gate="A" x="203.2" y="175.26"/>
 <instance part="IC3" gate="B" x="203.2" y="137.16"/>
 <instance part="IC1" gate="B" x="73.66" y="175.26" rot="MR180"/>
@@ -9925,20 +9925,20 @@ negative voltage</text>
 <instance part="IC3" gate="P" x="347.98" y="215.9"/>
 <instance part="IC1" gate="P" x="358.14" y="215.9"/>
 <instance part="IC2" gate="P" x="337.82" y="215.9"/>
-<instance part="C8" gate="G$1" x="162.56" y="66.04"/>
-<instance part="R18" gate="G$1" x="302.26" y="129.54" rot="R180"/>
+<instance part="C8" gate="1" x="162.56" y="66.04"/>
+<instance part="R18" gate="1" x="302.26" y="129.54" rot="R180"/>
 <instance part="GND9" gate="1" x="320.04" y="116.84"/>
 <instance part="P+2" gate="1" x="320.04" y="170.18"/>
 <instance part="PAD1" gate="P" x="177.8" y="99.06" rot="R270"/>
 <instance part="PAD2" gate="P" x="220.98" y="101.6" rot="R270"/>
-<instance part="C1" gate="G$1" x="76.2" y="215.9" smashed="yes" rot="R90">
+<instance part="C1" gate="1" x="76.2" y="215.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="217.17" size="1.27" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="77.47" y="217.17" size="1.27" layer="96" rot="R180" align="top-right"/>
 </instance>
-<instance part="C9" gate="G$1" x="297.18" y="222.25"/>
-<instance part="C10" gate="G$1" x="297.18" y="210.82"/>
-<instance part="Q2" gate="G$1" x="317.5" y="129.54"/>
-<instance part="Q1" gate="G$1" x="190.5" y="88.9" rot="R90"/>
+<instance part="C9" gate="1" x="297.18" y="222.25"/>
+<instance part="C10" gate="1" x="297.18" y="210.82"/>
+<instance part="Q2" gate="1" x="317.5" y="129.54"/>
+<instance part="Q1" gate="1" x="190.5" y="88.9" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9952,15 +9952,15 @@ negative voltage</text>
 <wire x1="63.5" y1="177.8" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
 <junction x="63.5" y="177.8"/>
 <wire x1="66.04" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C7" gate="1" pin="1"/>
 <wire x1="71.12" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="P"/>
+<pinref part="S2" gate="1" pin="P"/>
 <wire x1="55.88" y1="210.82" x2="53.34" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="210.82" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
 <junction x="63.5" y="193.04"/>
 <pinref part="S3" gate="1" pin="P"/>
-<pinref part="R17" gate="G$1" pin="P$1"/>
+<pinref part="R17" gate="1" pin="P$1"/>
 <wire x1="68.58" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
 <junction x="55.88" y="154.94"/>
 <pinref part="IC1" gate="B" pin="-IN"/>
@@ -9968,7 +9968,7 @@ negative voltage</text>
 </net>
 <net name="TRI" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="81.28" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="175.26" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
 <junction x="83.82" y="175.26"/>
@@ -9977,16 +9977,16 @@ negative voltage</text>
 <label x="88.9" y="165.1" size="1.778" layer="95"/>
 <wire x1="78.74" y1="215.9" x2="83.82" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="215.9" x2="83.82" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C6" gate="1" pin="2"/>
 <wire x1="83.82" y1="205.74" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="193.04" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="205.74" x2="83.82" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C7" gate="1" pin="2"/>
 <wire x1="76.2" y1="193.04" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
 <junction x="83.82" y="193.04"/>
 <junction x="83.82" y="205.74"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C1" gate="1" pin="-"/>
 </segment>
 <segment>
 <pinref part="TRI_LVL" gate="1" pin="E"/>
@@ -9995,18 +9995,18 @@ negative voltage</text>
 <label x="172.72" y="152.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R18" gate="1" pin="2"/>
 <wire x1="297.18" y1="129.54" x2="292.1" y2="129.54" width="0.1524" layer="91"/>
 <label x="292.1" y="129.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="99.06" y1="175.26" x2="104.14" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="175.26" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="104.14" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
 <junction x="104.14" y="175.26"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
@@ -10016,19 +10016,19 @@ negative voltage</text>
 <segment>
 <wire x1="121.92" y1="177.8" x2="127" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="127" y1="177.8" x2="127" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="119.38" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
 <junction x="127" y="165.1"/>
 <wire x1="127" y1="177.8" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
 <junction x="127" y="177.8"/>
 <label x="132.08" y="177.8" size="1.778" layer="95"/>
 <wire x1="127" y1="165.1" x2="127" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <wire x1="127" y1="154.94" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R5" gate="1" pin="1"/>
 <wire x1="172.72" y1="205.74" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="205.74" x2="180.34" y2="198.12" width="0.1524" layer="91"/>
 <label x="172.72" y="205.74" size="1.778" layer="95" rot="R180"/>
@@ -10078,29 +10078,29 @@ negative voltage</text>
 <junction x="309.88" y="215.9"/>
 <junction x="297.18" y="215.9"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="-"/>
-<pinref part="C10" gate="G$1" pin="+"/>
+<pinref part="C9" gate="1" pin="-"/>
+<pinref part="C10" gate="1" pin="+"/>
 </segment>
 <segment>
-<pinref part="TRI_OUT" gate="G$1" pin="1"/>
+<pinref part="TRI_OUT" gate="1" pin="1"/>
 <wire x1="233.68" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="231.14" y1="132.08" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="58.42" y1="68.58" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="RATE_CV_IN" gate="G$1" pin="1"/>
+<pinref part="RATE_CV_IN" gate="1" pin="1"/>
 <wire x1="58.42" y1="71.12" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <junction x="58.42" y="71.12"/>
-<pinref part="RATE_CV_IN" gate="G$1" pin="3"/>
+<pinref part="RATE_CV_IN" gate="1" pin="3"/>
 <wire x1="53.34" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="231.14" y1="167.64" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="SQR_OUT" gate="G$1" pin="1"/>
+<pinref part="SQR_OUT" gate="1" pin="1"/>
 <wire x1="231.14" y1="170.18" x2="233.68" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10132,7 +10132,7 @@ negative voltage</text>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="1" pin="1"/>
 <wire x1="236.22" y1="66.04" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
@@ -10144,7 +10144,7 @@ negative voltage</text>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="320.04" y1="124.46" x2="320.04" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="E"/>
+<pinref part="Q2" gate="1" pin="E"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -10156,7 +10156,7 @@ negative voltage</text>
 <wire x1="281.94" y1="220.98" x2="281.94" y2="228.6" width="0.1524" layer="91"/>
 <junction x="274.32" y="220.98"/>
 <wire x1="281.94" y1="228.6" x2="287.02" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10168,7 +10168,7 @@ negative voltage</text>
 <wire x1="281.94" y1="210.82" x2="281.94" y2="203.2" width="0.1524" layer="91"/>
 <junction x="274.32" y="210.82"/>
 <wire x1="287.02" y1="203.2" x2="281.94" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D2" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -10189,17 +10189,17 @@ negative voltage</text>
 <wire x1="347.98" y1="220.98" x2="347.98" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="228.6" x2="337.82" y2="228.6" width="0.1524" layer="91"/>
 <junction x="337.82" y="228.6"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <pinref part="IC3" gate="P" pin="V+"/>
 <pinref part="IC1" gate="P" pin="V+"/>
 <wire x1="347.98" y1="228.6" x2="358.14" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="228.6" x2="358.14" y2="220.98" width="0.1524" layer="91"/>
 <junction x="347.98" y="228.6"/>
 <pinref part="IC2" gate="P" pin="V+"/>
-<pinref part="C9" gate="G$1" pin="+"/>
+<pinref part="C9" gate="1" pin="+"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R7" gate="1" pin="1"/>
 <wire x1="320.04" y1="162.56" x2="320.04" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 </segment>
@@ -10222,14 +10222,14 @@ negative voltage</text>
 <wire x1="347.98" y1="210.82" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="203.2" x2="337.82" y2="203.2" width="0.1524" layer="91"/>
 <junction x="337.82" y="203.2"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D2" gate="1" pin="A"/>
 <pinref part="IC3" gate="P" pin="V-"/>
 <pinref part="IC1" gate="P" pin="V-"/>
 <wire x1="347.98" y1="203.2" x2="358.14" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="203.2" x2="358.14" y2="210.82" width="0.1524" layer="91"/>
 <junction x="347.98" y="203.2"/>
 <pinref part="IC2" gate="P" pin="V-"/>
-<pinref part="C10" gate="G$1" pin="-"/>
+<pinref part="C10" gate="1" pin="-"/>
 </segment>
 <segment>
 <pinref part="RATE" gate="1" pin="E"/>
@@ -10249,7 +10249,7 @@ negative voltage</text>
 <wire x1="193.04" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="129.54" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="137.16" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R11" gate="1" pin="2"/>
 <wire x1="218.44" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <junction x="213.36" y="137.16"/>
 <pinref part="IC3" gate="B" pin="-IN"/>
@@ -10258,15 +10258,15 @@ negative voltage</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="TRI_OUT" gate="G$1" pin="2"/>
+<pinref part="R11" gate="1" pin="1"/>
+<pinref part="TRI_OUT" gate="1" pin="2"/>
 <wire x1="228.6" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <wire x1="73.66" y1="139.7" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="D3" gate="1" pin="A"/>
 <pinref part="S3" gate="1" pin="O"/>
 </segment>
 </net>
@@ -10276,7 +10276,7 @@ negative voltage</text>
 <wire x1="193.04" y1="172.72" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="167.64" x2="213.36" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="167.64" x2="213.36" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="2"/>
 <wire x1="213.36" y1="175.26" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="175.26" x2="213.36" y2="175.26" width="0.1524" layer="91"/>
 <junction x="213.36" y="175.26"/>
@@ -10286,30 +10286,30 @@ negative voltage</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="O"/>
+<pinref part="S2" gate="1" pin="O"/>
 <wire x1="66.04" y1="213.36" x2="66.04" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="215.9" x2="73.66" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C1" gate="1" pin="+"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="S"/>
+<pinref part="S2" gate="1" pin="S"/>
 <wire x1="66.04" y1="208.28" x2="66.04" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C6" gate="1" pin="1"/>
 <wire x1="66.04" y1="205.74" x2="73.66" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="SQR_OUT" gate="G$1" pin="2"/>
+<pinref part="R4" gate="1" pin="1"/>
+<pinref part="SQR_OUT" gate="1" pin="2"/>
 <wire x1="228.6" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <pinref part="SQR_LVL" gate="1" pin="E"/>
 <wire x1="180.34" y1="187.96" x2="180.34" y2="182.88" width="0.1524" layer="91"/>
 </segment>
@@ -10330,50 +10330,50 @@ negative voltage</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="RATE_CV_IN" gate="G$1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="RATE_CV_IN" gate="1" pin="2"/>
+<pinref part="R12" gate="1" pin="2"/>
 <wire x1="53.34" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R12" gate="1" pin="1"/>
 <wire x1="73.66" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="CV_DIR" gate="1" pin="S"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R8" gate="1" pin="1"/>
 <wire x1="116.84" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="127" y1="104.14" x2="127" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="OUT"/>
 <wire x1="127" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R14" gate="1" pin="1"/>
 <wire x1="132.08" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
 <junction x="127" y="88.9"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R14" gate="1" pin="2"/>
 <pinref part="IC2" gate="D" pin="-IN"/>
 <wire x1="142.24" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="76.2" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
 <junction x="147.32" y="88.9"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="157.48" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <junction x="147.32" y="76.2"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R13" gate="1" pin="2"/>
 <wire x1="139.7" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="53.34" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R15" gate="1" pin="1"/>
 <wire x1="147.32" y1="66.04" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <junction x="147.32" y="53.34"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C8" gate="1" pin="1"/>
 <wire x1="160.02" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 <junction x="147.32" y="66.04"/>
 <pinref part="CV_DIR" gate="1" pin="A"/>
@@ -10387,40 +10387,40 @@ negative voltage</text>
 <wire x1="185.42" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="91.44" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="177.8" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="86.36" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="81.28" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <junction x="177.8" y="91.44"/>
 <junction x="182.88" y="91.44"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C8" gate="1" pin="2"/>
 <wire x1="165.1" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="66.04" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
 <junction x="177.8" y="76.2"/>
 <wire x1="177.8" y1="96.52" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="PAD1" gate="P" pin="P"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="1" pin="B"/>
+<pinref part="Q1" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="IC2" gate="B" pin="-IN"/>
 <wire x1="195.58" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R9" gate="1" pin="1"/>
 <wire x1="200.66" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="81.28" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="81.28" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
 <junction x="200.66" y="91.44"/>
-<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="Q1" gate="1" pin="E"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="IC2" gate="B" pin="OUT"/>
 <wire x1="218.44" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R9" gate="1" pin="2"/>
 <wire x1="215.9" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="81.28" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
 <junction x="220.98" y="93.98"/>
@@ -10435,7 +10435,7 @@ negative voltage</text>
 <wire x1="266.7" y1="88.9" x2="266.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="OUT"/>
 <wire x1="266.7" y1="91.44" x2="256.54" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -10443,25 +10443,25 @@ negative voltage</text>
 <wire x1="266.7" y1="81.28" x2="266.7" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="78.74" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="-IN"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R10" gate="1" pin="2"/>
 <wire x1="241.3" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="88.9" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="76.2" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
 <junction x="236.22" y="78.74"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="1" pin="A"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="RATE" gate="1" pin="S"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R13" gate="1" pin="1"/>
 <wire x1="121.92" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="RANGE_ADJ" gate="1" pin="S"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R15" gate="1" pin="2"/>
 <wire x1="175.26" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10469,7 +10469,7 @@ negative voltage</text>
 <segment>
 <pinref part="CV_DIR" gate="1" pin="E"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R8" gate="1" pin="2"/>
 <wire x1="106.68" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="104.14" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="-IN"/>
@@ -10481,33 +10481,33 @@ negative voltage</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R18" gate="1" pin="1"/>
 <wire x1="307.34" y1="129.54" x2="314.96" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="Q2" gate="1" pin="B"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="1" pin="C"/>
 <wire x1="320.04" y1="134.62" x2="320.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="Q2" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R7" gate="1" pin="2"/>
+<pinref part="LED1" gate="1" pin="A"/>
 <wire x1="320.04" y1="152.4" x2="320.04" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="P$2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R17" gate="1" pin="P$2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="83.82" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="154.94" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D3" gate="1" pin="C"/>
 <wire x1="96.52" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
 <junction x="96.52" y="154.94"/>
 </segment>

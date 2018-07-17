@@ -820,20 +820,20 @@
 </deviceset>
 <deviceset name="SL-SW-2P-3T">
 <gates>
-<gate name="G$1" symbol="SW-1P3T" x="0" y="5.08"/>
-<gate name="G$2" symbol="SW-1P3T" x="0" y="-11.43"/>
+<gate name="1" symbol="SW-1P3T" x="0" y="5.08"/>
+<gate name="2" symbol="SW-1P3T" x="0" y="-11.43"/>
 </gates>
 <devices>
 <device name="" package="SLSW-2P3T">
 <connects>
-<connect gate="G$1" pin="A" pad="A1"/>
-<connect gate="G$1" pin="B" pad="B1"/>
-<connect gate="G$1" pin="C" pad="C1"/>
-<connect gate="G$1" pin="P" pad="P1"/>
-<connect gate="G$2" pin="A" pad="A2"/>
-<connect gate="G$2" pin="B" pad="B2"/>
-<connect gate="G$2" pin="C" pad="C2"/>
-<connect gate="G$2" pin="P" pad="P2"/>
+<connect gate="1" pin="A" pad="A1"/>
+<connect gate="1" pin="B" pad="B1"/>
+<connect gate="1" pin="C" pad="C1"/>
+<connect gate="1" pin="P" pad="P1"/>
+<connect gate="2" pin="A" pad="A2"/>
+<connect gate="2" pin="B" pad="B2"/>
+<connect gate="2" pin="C" pad="C2"/>
+<connect gate="2" pin="P" pad="P2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -903,13 +903,13 @@
 </deviceset>
 <deviceset name="PB-1P-1T" prefix="SW">
 <gates>
-<gate name="G$1" symbol="SW-1P1T" x="0" y="0"/>
+<gate name="1" symbol="SW-1P1T" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="PB-1P1T">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="1" pin="P" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1020,14 +1020,14 @@
 </deviceset>
 <deviceset name="SL-SW-ON-OFF-ON">
 <gates>
-<gate name="G$1" symbol="ON-OFF-ON" x="0" y="0"/>
+<gate name="1" symbol="ON-OFF-ON" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-H" package="SLSW-1P2T-H">
 <connects>
-<connect gate="G$1" pin="O" pad="1"/>
-<connect gate="G$1" pin="P" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1037,22 +1037,22 @@
 </deviceset>
 <deviceset name="SL-SW-2P-4T">
 <gates>
-<gate name="G$1" symbol="SW-1P4T" x="2.54" y="12.7"/>
-<gate name="G$2" symbol="SW-1P4T" x="2.54" y="-12.7"/>
+<gate name="1" symbol="SW-1P4T" x="2.54" y="12.7"/>
+<gate name="2" symbol="SW-1P4T" x="2.54" y="-12.7"/>
 </gates>
 <devices>
 <device name="" package="SLSW-2P4T-2-H">
 <connects>
-<connect gate="G$1" pin="A" pad="A2"/>
-<connect gate="G$1" pin="B" pad="A3"/>
-<connect gate="G$1" pin="C" pad="A4"/>
-<connect gate="G$1" pin="D" pad="A5"/>
-<connect gate="G$1" pin="P" pad="A1 A6"/>
-<connect gate="G$2" pin="A" pad="B2"/>
-<connect gate="G$2" pin="B" pad="B3"/>
-<connect gate="G$2" pin="C" pad="B4"/>
-<connect gate="G$2" pin="D" pad="B5"/>
-<connect gate="G$2" pin="P" pad="B1 B6"/>
+<connect gate="1" pin="A" pad="A2"/>
+<connect gate="1" pin="B" pad="A3"/>
+<connect gate="1" pin="C" pad="A4"/>
+<connect gate="1" pin="D" pad="A5"/>
+<connect gate="1" pin="P" pad="A1 A6"/>
+<connect gate="2" pin="A" pad="B2"/>
+<connect gate="2" pin="B" pad="B3"/>
+<connect gate="2" pin="C" pad="B4"/>
+<connect gate="2" pin="D" pad="B5"/>
+<connect gate="2" pin="P" pad="B1 B6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1060,16 +1060,16 @@
 </device>
 <device name="-A" package="SLSW-2P4T-2-H">
 <connects>
-<connect gate="G$1" pin="A" pad="A2"/>
-<connect gate="G$1" pin="B" pad="A3"/>
-<connect gate="G$1" pin="C" pad="A4"/>
-<connect gate="G$1" pin="D" pad="A5"/>
-<connect gate="G$1" pin="P" pad="A1"/>
-<connect gate="G$2" pin="A" pad="B2"/>
-<connect gate="G$2" pin="B" pad="B3"/>
-<connect gate="G$2" pin="C" pad="B4"/>
-<connect gate="G$2" pin="D" pad="B5"/>
-<connect gate="G$2" pin="P" pad="B1"/>
+<connect gate="1" pin="A" pad="A2"/>
+<connect gate="1" pin="B" pad="A3"/>
+<connect gate="1" pin="C" pad="A4"/>
+<connect gate="1" pin="D" pad="A5"/>
+<connect gate="1" pin="P" pad="A1"/>
+<connect gate="2" pin="A" pad="B2"/>
+<connect gate="2" pin="B" pad="B3"/>
+<connect gate="2" pin="C" pad="B4"/>
+<connect gate="2" pin="D" pad="B5"/>
+<connect gate="2" pin="P" pad="B1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1077,16 +1077,16 @@
 </device>
 <device name="-B" package="SLSW-2P4T-2-H">
 <connects>
-<connect gate="G$1" pin="A" pad="A5"/>
-<connect gate="G$1" pin="B" pad="A4"/>
-<connect gate="G$1" pin="C" pad="A3"/>
-<connect gate="G$1" pin="D" pad="A2"/>
-<connect gate="G$1" pin="P" pad="A6"/>
-<connect gate="G$2" pin="A" pad="B5"/>
-<connect gate="G$2" pin="B" pad="B4"/>
-<connect gate="G$2" pin="C" pad="B3"/>
-<connect gate="G$2" pin="D" pad="B2"/>
-<connect gate="G$2" pin="P" pad="B6"/>
+<connect gate="1" pin="A" pad="A5"/>
+<connect gate="1" pin="B" pad="A4"/>
+<connect gate="1" pin="C" pad="A3"/>
+<connect gate="1" pin="D" pad="A2"/>
+<connect gate="1" pin="P" pad="A6"/>
+<connect gate="2" pin="A" pad="B5"/>
+<connect gate="2" pin="B" pad="B4"/>
+<connect gate="2" pin="C" pad="B3"/>
+<connect gate="2" pin="D" pad="B2"/>
+<connect gate="2" pin="P" pad="B6"/>
 </connects>
 <technologies>
 <technology name=""/>

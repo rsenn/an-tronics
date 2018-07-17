@@ -593,13 +593,13 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <devicesets>
 <deviceset name="1N4148" prefix="D">
 <gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
+<gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
 <device name="35-7" package="DO35-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -607,8 +607,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="35-10" package="DO35-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -616,8 +616,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="35-2.54" package="DO35-2_54">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -625,8 +625,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="35-2.54A" package="DO35-2_54A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -634,8 +634,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-12" package="DO34-12">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -643,8 +643,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-5" package="DO34-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -652,8 +652,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-7" package="DO34-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -661,8 +661,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-2,5" package="DO34-2,5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -670,8 +670,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-2,5-A" package="DO34-2,5-A">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -679,8 +679,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-10" package="DO34-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -688,8 +688,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-7V" package="DO34-7V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -697,8 +697,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-5V" package="DO34-5V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -706,8 +706,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-10V" package="DO34-10V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -715,8 +715,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-12V" package="DO34-12V">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -724,8 +724,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="OA79" package="OA79-18">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -733,8 +733,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="-7-10" package="DO7-10">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -742,8 +742,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="-7-7" package="DO7-7">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -751,8 +751,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="-7-5" package="DO7-5">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -760,8 +760,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="-34-18" package="DO34-18">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -769,8 +769,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="34-20" package="DO34-15">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1434,13 +1434,13 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
+<gate name="1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="0204/5" package="0204/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1448,8 +1448,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0204/7" package="0204/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1457,8 +1457,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0204V" package="0204V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1466,8 +1466,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0207/10" package="0207/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1475,8 +1475,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0207/12" package="0207/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1484,8 +1484,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0207/15" package="0207/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1493,8 +1493,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0207/2V" package="0207/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1502,8 +1502,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0207/5V" package="0207/5V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1511,8 +1511,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0207/7" package="0207/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1520,8 +1520,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0204/10" package="0204/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1529,8 +1529,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0204/12" package="0204/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1538,8 +1538,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0204/15" package="0204/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1547,8 +1547,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0204/2V" package="0204/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1556,8 +1556,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/2V" package="0202/2V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1565,8 +1565,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/5" package="0202/5">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1574,8 +1574,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/7" package="0202/7">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1583,8 +1583,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/10" package="0202/10">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1592,8 +1592,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202V" package="0202V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1601,8 +1601,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/12" package="0202/12">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1610,8 +1610,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/15" package="0202/15">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1619,8 +1619,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/7-V" package="0202/7-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1628,8 +1628,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/5-V" package="0202/5-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1637,8 +1637,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="0202/10-V" package="0202/10-V">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4494,13 +4494,13 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <deviceset name="CPOL" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
-<gate name="G$1" symbol="CPOL" x="0" y="0"/>
+<gate name="1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="E15-5AXIAL" package="E15-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4508,8 +4508,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E15-6AXIAL" package="E15-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4517,8 +4517,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E15-9AXIAL" package="E15-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4526,8 +4526,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2.5-4R" package="E2,5-4R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4535,8 +4535,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2.5-5" package="E2,5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4544,8 +4544,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2.5-6" package="E2,5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4553,8 +4553,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2.5-7" package="E2,5-7">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4562,8 +4562,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2.5-4V" package="E2,5RE">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4571,8 +4571,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E25-10AXIAL" package="E25-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4580,8 +4580,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E25-9AXIAL" package="E25-9">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4589,8 +4589,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E30-10AXIAL" package="E30-10">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4598,8 +4598,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E30-12AXIAL" package="E30-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4607,8 +4607,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E30-16AXIAL" package="E30-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4616,8 +4616,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E35-12AXIAL" package="E35-12">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4625,8 +4625,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E35-14AXIAL" package="E35-14">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4634,8 +4634,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E35-16AXIAL" package="E35-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4643,8 +4643,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E35-18AXIAL" package="E35-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4652,8 +4652,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E45-16AXIAL" package="E45-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4661,8 +4661,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E45-18AXIAL" package="E45-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4670,8 +4670,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E45-21AXIAL" package="E45-21">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4679,8 +4679,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E45-22AXIAL" package="E45-22">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4688,8 +4688,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E45-25AXIAL" package="E45-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4697,8 +4697,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-10.5" package="E5-10,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4706,8 +4706,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-13" package="E5-13">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4715,8 +4715,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-4" package="E5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4724,8 +4724,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-5" package="E5-5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4733,8 +4733,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-6" package="E5-6">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4742,8 +4742,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-8.5" package="E5-8,5">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4751,8 +4751,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E50-25AXIAL" package="E50-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4760,8 +4760,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E50-30AXIAL" package="E50-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4769,8 +4769,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E55-25AXIAL" package="E55-25">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4778,8 +4778,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E55-30AXIAL" package="E55-30">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4787,8 +4787,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-9VAXIAL" package="E5R">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4796,8 +4796,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E7.5-16" package="E7,5-16">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4805,8 +4805,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E7.5-18" package="E7,5-18">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4814,8 +4814,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2,5-6E" package="E2,5-6E">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4823,8 +4823,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2,5-4" package="E2,5-4">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4832,8 +4832,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2,5-3" package="E2,5-3">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4841,8 +4841,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2,5-4/V" package="E2.5-4/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4850,8 +4850,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E2,5-5/V" package="E2,5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4859,8 +4859,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="E5-5/V" package="E5-5/V">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4933,14 +4933,14 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <devicesets>
 <deviceset name="BC547">
 <gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
+<gate name="1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="CBE" package="TO92-CBE">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4948,9 +4948,9 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </device>
 <device name="CBE-A" package="TO92-CBE-A">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5006,12 +5006,12 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </deviceset>
 <deviceset name="SPAD" prefix="P">
 <gates>
-<gate name="G$1" symbol="SPAD" x="0" y="0"/>
+<gate name="1" symbol="SPAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SPAD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5073,35 +5073,35 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <plain>
 </plain>
 <instances>
-<instance part="D1" gate="G$1" x="-7.62" y="55.88" smashed="yes" rot="R90">
+<instance part="D1" gate="1" x="-7.62" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="-7.62" y="58.42" size="1.016" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="-7.62" y="53.34" size="1.016" layer="96" align="top-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="-12.7" y="48.26"/>
+<instance part="R1" gate="1" x="-12.7" y="48.26"/>
 <instance part="C1" gate="1" x="-12.7" y="63.5"/>
 <instance part="C2" gate="1" x="5.08" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.08" y="58.42" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="5.08" y="53.34" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="C3" gate="1" x="35.56" y="55.88"/>
-<instance part="T1" gate="G$1" x="20.32" y="55.88"/>
-<instance part="R2" gate="G$1" x="-2.54" y="71.12"/>
-<instance part="R3" gate="G$1" x="12.7" y="63.5"/>
+<instance part="T1" gate="1" x="20.32" y="55.88"/>
+<instance part="R2" gate="1" x="-2.54" y="71.12"/>
+<instance part="R3" gate="1" x="12.7" y="63.5"/>
 <instance part="C4" gate="1" x="50.8" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.8" y="58.42" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="50.8" y="53.34" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="C5" gate="1" x="78.74" y="55.88"/>
-<instance part="R5" gate="G$1" x="55.88" y="63.5"/>
-<instance part="T2" gate="G$1" x="63.5" y="55.88"/>
-<instance part="R6" gate="G$1" x="66.04" y="78.74"/>
+<instance part="R5" gate="1" x="55.88" y="63.5"/>
+<instance part="T2" gate="1" x="63.5" y="55.88"/>
+<instance part="R6" gate="1" x="66.04" y="78.74"/>
 <instance part="U$3" gate="1" x="91.44" y="35.56"/>
-<instance part="EAR+" gate="G$1" x="93.98" y="71.12" rot="R180"/>
-<instance part="EAR-" gate="G$1" x="93.98" y="55.88" rot="R180"/>
+<instance part="EAR+" gate="1" x="93.98" y="71.12" rot="R180"/>
+<instance part="EAR-" gate="1" x="93.98" y="55.88" rot="R180"/>
 <instance part="ANT1" gate="ANT" x="-12.7" y="71.12"/>
-<instance part="GND" gate="G$1" x="119.38" y="40.64" rot="R180"/>
-<instance part="VCC" gate="G$1" x="119.38" y="86.36" rot="R180"/>
-<instance part="C6" gate="G$1" x="111.76" y="63.5"/>
+<instance part="GND" gate="1" x="119.38" y="40.64" rot="R180"/>
+<instance part="VCC" gate="1" x="119.38" y="86.36" rot="R180"/>
+<instance part="C6" gate="1" x="111.76" y="63.5"/>
 <instance part="R7" gate="1" x="22.86" y="78.74" smashed="yes" rot="MR270">
 <attribute name="NAME" x="20.32" y="82.55" size="1.27" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="20.32" y="74.93" size="1.27" layer="96" align="top-right"/>
@@ -5113,9 +5113,9 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <net name="I1" class="0">
 <segment>
 <pinref part="C2" gate="1" pin="1"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 <wire x1="7.62" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="1" pin="1"/>
 <wire x1="12.7" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="58.42" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
 <junction x="12.7" y="55.88"/>
@@ -5123,11 +5123,11 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </net>
 <net name="DC" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="1" pin="1"/>
 <pinref part="C2" gate="1" pin="2"/>
 <wire x1="-2.54" y1="66.04" x2="-2.54" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="1" pin="A"/>
 <wire x1="-5.08" y1="55.88" x2="-2.54" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-2.54" y="55.88"/>
 </segment>
@@ -5135,9 +5135,9 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <net name="AC" class="0">
 <segment>
 <pinref part="C1" gate="1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R1" gate="1" pin="2"/>
 <wire x1="-12.7" y1="60.96" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="C"/>
 <wire x1="-12.7" y1="55.88" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="55.88" x2="-10.16" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-12.7" y="55.88"/>
@@ -5152,18 +5152,18 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R2" gate="1" pin="2"/>
 <wire x1="-2.54" y1="76.2" x2="-2.54" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="83.82" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <junction x="22.86" y="86.36"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="1" pin="2"/>
 <wire x1="22.86" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="86.36" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="VCC" gate="G$1" pin="P$1"/>
+<pinref part="VCC" gate="1" pin="P$1"/>
 <wire x1="119.38" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <junction x="66.04" y="86.36"/>
-<pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="C6" gate="1" pin="+"/>
 <wire x1="111.76" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="86.36" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <junction x="111.76" y="86.36"/>
@@ -5172,13 +5172,13 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </net>
 <net name="O1" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="1" pin="2"/>
 <wire x1="12.7" y1="68.58" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C3" gate="1" pin="1"/>
 <wire x1="22.86" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="71.12" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="C"/>
 <wire x1="22.86" y1="60.96" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <junction x="22.86" y="71.12"/>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
@@ -5196,8 +5196,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </net>
 <net name="I2" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="R5" gate="1" pin="1"/>
+<pinref part="T2" gate="1" pin="B"/>
 <wire x1="55.88" y1="58.42" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
@@ -5207,29 +5207,29 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </net>
 <net name="O2" class="0">
 <segment>
-<pinref part="T2" gate="G$1" pin="C"/>
+<pinref part="T2" gate="1" pin="C"/>
 <wire x1="66.04" y1="60.96" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="1" pin="2"/>
 <wire x1="55.88" y1="71.12" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R6" gate="1" pin="1"/>
 <wire x1="66.04" y1="73.66" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <junction x="66.04" y="71.12"/>
 <pinref part="C5" gate="1" pin="1"/>
 <wire x1="66.04" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="71.12" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="EAR+" gate="G$1" pin="P$1"/>
+<pinref part="EAR+" gate="1" pin="P$1"/>
 <wire x1="93.98" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <junction x="78.74" y="71.12"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="1" pin="1"/>
 <wire x1="-12.7" y1="43.18" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="40.64" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
 <pinref part="C3" gate="1" pin="2"/>
 <wire x1="35.56" y1="53.34" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
@@ -5239,10 +5239,10 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="66.04" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="40.64" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <junction x="35.56" y="40.64"/>
-<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="T2" gate="1" pin="E"/>
 <wire x1="66.04" y1="50.8" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 <junction x="66.04" y="40.64"/>
-<pinref part="EAR-" gate="G$1" pin="P$1"/>
+<pinref part="EAR-" gate="1" pin="P$1"/>
 <wire x1="93.98" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="55.88" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <junction x="78.74" y="40.64"/>
@@ -5250,9 +5250,9 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="91.44" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="38.1" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <junction x="91.44" y="40.64"/>
-<pinref part="GND" gate="G$1" pin="P$1"/>
+<pinref part="GND" gate="1" pin="P$1"/>
 <wire x1="119.38" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="C6" gate="1" pin="-"/>
 <wire x1="111.76" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="60.96" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
 <junction x="111.76" y="40.64"/>

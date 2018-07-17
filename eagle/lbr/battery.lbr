@@ -227,7 +227,7 @@
 <description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <gates>
-<gate name="G$1" symbol="9V0-BL" x="0" y="0"/>
+<gate name="1" symbol="9V0-BL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="AB9V" package="AB9V">
@@ -246,7 +246,7 @@
  In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <gates>
-<gate name="G$1" symbol="+09V" x="0" y="0"/>
+<gate name="1" symbol="+09V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -259,7 +259,7 @@
 <deviceset name="-9V" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="-09V" x="0" y="0"/>
+<gate name="1" symbol="-09V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
