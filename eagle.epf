@@ -1,5 +1,5 @@
 [Eagle]
-Version="07 07 00"
+Version="07 02 00"
 Platform="Linux"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -7,6 +7,21 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/lcd.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/r.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/d.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/q.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/usb.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/mcu.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/c.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/pinconn.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/o.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/sw.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/t.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/s.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/boards.lbr"
+UsedLibrary="/home/roman/Sources/pictest/eagle/lbr/pad.lbr"
+UsedLibrary="/home/roman/Sources/rsenn/an-tronics/eagle/lbr/cap-trim.lbr"
 UsedLibrary="eagle/lbr/c.lbr"
 UsedLibrary="eagle/lbr/d.lbr"
 UsedLibrary="eagle/lbr/ic.lbr"
@@ -16,6 +31,7 @@ UsedLibrary="eagle/lbr/pinconn.lbr"
 UsedLibrary="eagle/lbr/r.lbr"
 UsedLibrary="eagle/lbr/sw.lbr"
 UsedLibrary="eagle/lbr/t.lbr"
+UsedLibrary="/home/roman/Sources/rsenn/an-tronics/eagle/lbr/ic.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -24,5 +40,5 @@ State=2
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="1600 900"
 Window="Win_1"
