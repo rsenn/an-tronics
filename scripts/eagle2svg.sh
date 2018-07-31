@@ -22,13 +22,13 @@ find_program() {
   else
     P=$(ls -d {scripts/,/usr/,$SYSTEMDRIVE/{Programs,Program\ Files*}/*/,/mingw{32,64}/,$SYSTEMDRIVE/"$(str_toupper "$N")"*/}{,bin/}"$N".exe 2>/dev/null)
     [ -n "$P" -a -e "$P" ] || {
-      if [ -n "$S" ]; then 
+      if [ -n "$S" ]; then
         P=$(eval "$S")
         type  cygpath 2>/dev/null >/dev/null && P=$(cygpath "$P")
         [ -z "$P" -o '!' -e "$P" ] && unset P
-      else 
+      else
     unset P
-      fi      
+      fi
     }
   fi
   if [ -n "$P" ]; then
@@ -76,7 +76,7 @@ svg_set_size() {
 }
 
 inkscape_crop_svg() {
-  while [ -n "$1" -a -f "$1" ]; do 
+  while [ -n "$1" -a -f "$1" ]; do
   rm -f "${1%.svg}.tmp.svg"
     exec_cmd INKSCAPE --export-plain-svg="${1%.svg}.tmp.svg" "$1"
     mv -vf "${1%.svg}.tmp.svg" "$1"
@@ -92,7 +92,7 @@ eagle_to_pdf() {
 
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
-  
+
   TMPOUT=$(dirname "$OUTPUT")/tmp-$$.pdf
 
   OUTPUT=`outfile "$OUTPUT"`
@@ -104,7 +104,7 @@ eagle_to_pdf() {
   EAGLE_CMD="PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${TMPOUT##*/}' sheets all paper $PAPER"
 
  (trap 'rm -f "$TMPOUT"' EXIT
-  
+
   rm -f -- "$OUTPUT" "$TMPOUT"
  echo "Processing $INPUT into $OUTPUT ..." 1>&2
  echo 1>&2
@@ -113,7 +113,7 @@ eagle_to_pdf() {
 
  set-layers() {
    (IFS=" "
-   P="$1"; shift 
+   P="$1"; shift
    [ $# -gt 0 ] || set --  ""{Docu,Finish,Keepout,Map,Names,Origins,Place,Restrict,Silk,Stop,Values}
    set --  $(addprefix "$P" "$@")
    echo "$*")
@@ -121,17 +121,17 @@ eagle_to_pdf() {
 
 
   case $INPUT in
-     *.brd)   
+     *.brd)
 
        EAGLE_LAYERS=$(set -- Origins Stop Cream ; set-layers -b "$@"; set-layers -t "$@")
        EAGLE_LAYERS="$EAGLE_LAYERS -Drills -Holes Document -Reference bValues tValues"
 
        case "$OUTPUT" in
-         *mirrored*) 
-           EAGLE_LAYERS="$EAGLE_LAYERS -Top Bottom -Document Dimension $(set -- Place Origin Names Values Docu ; set-layers -t "$@"; set-layers -b "$@")"
+         *mirrored*)
+           EAGLE_LAYERS="$EAGLE_LAYERS -Top Bottom -Drill -Document Dimension $(set -- Place Origin Names Values Docu ; set-layers -t "$@"; set-layers -b "$@")"
            ;;
          *)
-           EAGLE_LAYERS="$EAGLE_LAYERS Bottom Top $(set -- Names Values Docu ; set-layers -b "$@"; set-layers t "$@")"
+           EAGLE_LAYERS="$EAGLE_LAYERS Bottom Top Drill $(set -- Place Names Values Docu ; set-layers -b "$@"; set-layers t "$@")"
            ;;
        esac
 
@@ -155,7 +155,7 @@ eagle_to_pdf() {
   kill $pid 2>/dev/null
   wait $pid
 
- 
+
   exec_cmd PDFCROP "$TMPOUT" "$OUTPUT" )
 
   #mv -vf "$TMPOUT"  "$OUTPUT"
@@ -197,7 +197,7 @@ eagle_print() {
 
 EAGLE=${EAGLE//eagle.exe/eaglecon.exe}
 
-  while :; do 
+  while :; do
     case "$1" in
       -d=*|--destdir=*) OUTDIR="${1#*=}"; shift ;;
       -d|--destdir) OUTDIR="$2"; shift 2 ;;
@@ -208,10 +208,10 @@ EAGLE=${EAGLE//eagle.exe/eaglecon.exe}
 
 I=0
 N=$#
-  
+
     outfile() {
       [ -n "$OUTDIR" -a -d "$OUTDIR" ] && echo "$OUTDIR/$(basename "$1")" ||  echo "$1"
-    }  
+    }
 
   for ARG; do
    I=$((I+1))
@@ -225,7 +225,7 @@ N=$#
     BASE=$(basename "${BRD%.*}")
 
     OUT=`outfile "doc/pdf/$(basename "${BRD%.*}").pdf"`
-  
+
     trap '${RMTEMP} -f "${BRD%.*}"-{crop,title,schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
@@ -247,7 +247,7 @@ N=$#
 
 
     echo "Blah" 1>&2
-    
+
 
    (for OUTPUT in "${SCH%.*}"-schematic.pdf \
   "${BRD%.*}"-{board,board-mirrored}.pdf \
@@ -265,14 +265,14 @@ N=$#
 
       inkscape_crop_svg "${OUTPUT%.pdf}.svg"
     done)
-    
-    
+
+
    (set -x;
    rm -f "${BASE}-boards.svg"
    python2 "$MYDIR"/svg_stack.py  --direction=h --margin=18pt \
      "${BRD%.*}"-{board,board-mirrored}.svg \
       >"$(outfile "${BASE}-boards.svg")"
-   
+
    rm -f "${BASE}.svg"
    python2 "$MYDIR"/svg_stack.py  --direction=v --margin=9pt \
      $(test -e "${BASE}-title.svg" && outfile "${BASE}-title.svg") \
@@ -280,15 +280,19 @@ N=$#
       "$(outfile "${BASE}-boards.svg")" \
       >"$(outfile "${BASE}.svg")"
     )
-    
+
     #svg_set_size "$(outfile "${BASE}.svg")" 595.27559 841.88976
-    exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalCenter --verb=FileSave --verb=FileQuit "$(outfile "${BASE}.svg")"
+    exec_cmd INKSCAPE \
+      --verb=EditSelectAll \
+      --verb=AlignHorizontalLeft \
+      --verb=FileSave --verb=FileQuit \
+      "$(outfile "${BASE}.svg")"
 
     exec_cmd INKSCAPE --export-area-drawing -f "$(outfile "$BASE.svg")" -A "$(outfile "$BASE.pdf")"
-     
-   exec_cmd PDF 
+
+   exec_cmd PDF
     exec_cmd PDFTOCAIRO -paper A4 -noshrink -expand -svg  "$(outfile "$BASE.pdf")" "$(outfile "$BASE.svg")" || exit $?
-      
+
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
 #
 #  done)
@@ -314,36 +318,23 @@ gen_svg_title() {
 
  SVG=$FILE
  #SVG=${FILE%.*}-title.svg
- 
+
 cat >$SVG <<EOF
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 90" height="6cm" width="14cm">
-  <g font-weight="400" font-size="8.544" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".214">
-    <text style="line-height:1.25" x="5.247" y="274.778" transform="translate(0 -247.759)">
-      <tspan x="5.247" y="274.778" style="-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-weight="700" font-size="10.253" font-family="Century Gothic">$1</tspan>
-    </text>
-    <text style="line-height:1.25" x="5.247" y="285.362" transform="translate(0 -247.759)">
-      <tspan x="5.247" y="285.362" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$2</tspan>
-      <tspan x="5.247" y="296.042" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$3</tspan>
-      <tspan x="5.247" y="306.722" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$4</tspan>
-      <tspan x="5.247" y="317.402" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$5</tspan>
-    </text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 50" height="5cm" width="21cm"><g font-weight="400" letter-spacing="0" word-spacing="0" stroke-width=".214"><text style="line-height:1.25" x="-.35" y="27.019" font-family="sans-serif" transform="translate(21.167 2.333)"><tspan x="-.35" y="27.019" style="-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-weight="700" font-size="10.253" font-family="Century Gothic">$1</tspan></text><text style="line-height:1.25;-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" x="-.223" y="40.249" font-size="6.35" font-family="Century Gothic" transform="translate(21.167 2.333)"><tspan style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" x="-.223" y="40.249">$2</tspan></text></g></svg>
 EOF
 realpath  "$SVG"|addprefix file:// | tee /dev/stderr | xclip -selection clipboard -in)
 }
-get_desc () 
-{ 
+get_desc ()
+{
     OUT=$(sed -n '/<description/ { s,<[^>]*>,,g ; p; q }' "$@");
     html_dequote "$OUT"
 }
-html_dequote() 
-{ 
+html_dequote()
+{
     echo "$*" | ${SED-sed} -e 's|&quot;|"|g' -e 's|&amp;|\&|g' -e 's|&lt;|<|g' -e 's|&gt;|>|g'
 }
-addprefix() 
-{ 
+addprefix()
+{
     ( PREFIX="$1";
     DELIM="${IFS%${IFS#?}}";
     unset LIST;
