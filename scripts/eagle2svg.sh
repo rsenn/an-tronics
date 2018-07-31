@@ -197,7 +197,7 @@ N=$#
 
     OUT=`outfile "doc/pdf/$(basename "${BRD%.*}").pdf"`
   
-    trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.{pdf,svg}' EXIT
+    trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.pdf' EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
   ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
@@ -215,6 +215,7 @@ N=$#
 
     eagle_to_svg "$BRD" "${BRD%.*}-board.pdf"
     eagle_to_svg "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
+
 
     echo "Blah" 1>&2
     
@@ -237,18 +238,18 @@ N=$#
    rm -f "${BASE}-boards.svg"
    python2 "$MYDIR"/svg_stack.py  --direction=h --margin=1 \
       "${BRD%.*}"-{board,board-mirrored}.svg \
-     >"${BASE}-boards.svg"
+      >$(outfile "${BASE}-boards.svg")
    
    rm -f "${BASE}.svg"
    python2 "$MYDIR"/svg_stack.py  --direction=v --margin=5 \
       "${SCH%.*}-schematic.svg" \
-      "${BASE}-boards.svg" \
-     >"${BASE}.svg"
+      $(outfile "${BASE}-boards.svg") \
+      >$(outfile "${BASE}.svg")
     )
     
-    svg_set_size "${BASE}.svg" 595.27559 841.88976
+    svg_set_size $(outfile "${BASE}.svg") 595.27559 841.88976
   # exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalLeft --verb=AlignVerticalTop --verb=FileSave --verb=FileQuit "${BASE}.svg"
-    exec_cmd INKSCAPE --export-area-drawing -f "$BASE.svg" -A "$BASE.pdf"
+    exec_cmd INKSCAPE --export-area-drawing -f $(outfile "$BASE.svg") -A $(outfile "$BASE.pdf")
       
       
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
