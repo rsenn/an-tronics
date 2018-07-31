@@ -240,7 +240,7 @@ N=$#
      DESCRIPTION=$(get_desc <"$BRD")
      [ -z "$DESCRIPTION"  ] && DESCRIPTION=$(get_desc <"$SCH")
 
-     gen_svg_title $(outfile "${BASE}-title.svg") "${BASE//-/ }" $DESCRIPTION
+     gen_svg_title "$(outfile "${BASE}-title.svg")" "${BASE//-/ }" $DESCRIPTION
 
     eagle_to_pdf "$BRD" "${BRD%.*}-board.pdf"
     eagle_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR BLACK
@@ -270,21 +270,21 @@ N=$#
    (set -x;
    rm -f "${BASE}-boards.svg"
    python2 "$MYDIR"/svg_stack.py  --direction=h --margin=18pt \
-      "${BRD%.*}"-{board,board-mirrored}.svg \
-      >$(outfile "${BASE}-boards.svg")
+     "${BRD%.*}"-{board,board-mirrored}.svg \
+      >"$(outfile "${BASE}-boards.svg")"
    
    rm -f "${BASE}.svg"
    python2 "$MYDIR"/svg_stack.py  --direction=v --margin=9pt \
      $(test -e "${BASE}-title.svg" && outfile "${BASE}-title.svg") \
       "${SCH%.*}-schematic.svg" \
-      $(outfile "${BASE}-boards.svg") \
-      >$(outfile "${BASE}.svg")
+      "$(outfile "${BASE}-boards.svg")" \
+      >"$(outfile "${BASE}.svg")"
     )
     
-    #svg_set_size $(outfile "${BASE}.svg") 595.27559 841.88976
-    exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalCenter --verb=FileSave --verb=FileQuit $(outfile "${BASE}.svg")
+    #svg_set_size "$(outfile "${BASE}.svg")" 595.27559 841.88976
+    exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalCenter --verb=FileSave --verb=FileQuit "$(outfile "${BASE}.svg")"
 
-    exec_cmd INKSCAPE --export-area-drawing -f $(outfile "$BASE.svg") -A $(outfile "$BASE.pdf")
+    exec_cmd INKSCAPE --export-area-drawing -f "$(outfile "$BASE.svg")" -A "$(outfile "$BASE.pdf")"
      
    exec_cmd PDF 
     exec_cmd PDFTOCAIRO -paper A4 -noshrink -expand -svg  "$(outfile "$BASE.pdf")" "$(outfile "$BASE.svg")" || exit $?
