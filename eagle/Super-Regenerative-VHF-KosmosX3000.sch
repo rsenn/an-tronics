@@ -5444,7 +5444,7 @@ http://www.edaboard.com/thread140764-4.html#post1374216</description>
 <part name="AF+" library="pad" deviceset="SPAD" device=""/>
 <part name="AF-" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
-<part name="+9V" library="pad" deviceset="SPAD" device=""/>
+<part name="9V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 </parts>
 <sheets>
@@ -5486,7 +5486,7 @@ http://www.edaboard.com/thread140764-4.html#post1374216</description>
 <instance part="AF+" gate="1" x="50.8" y="50.8" rot="R180"/>
 <instance part="AF-" gate="1" x="50.8" y="35.56" rot="R180"/>
 <instance part="ANT1" gate="ANT" x="-20.32" y="60.96"/>
-<instance part="+9V" gate="1" x="50.8" y="101.6" rot="R180"/>
+<instance part="9V" gate="1" x="50.8" y="101.6" rot="R180"/>
 <instance part="GND" gate="1" x="-30.48" y="35.56"/>
 </instances>
 <busses>
@@ -5607,7 +5607,7 @@ http://www.edaboard.com/thread140764-4.html#post1374216</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="+9V" gate="1" pin="P$1"/>
+<pinref part="9V" gate="1" pin="P$1"/>
 <pinref part="R5" gate="1" pin="2"/>
 <wire x1="50.8" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
 </segment>

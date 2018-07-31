@@ -5324,7 +5324,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 <part name="C6" library="c" deviceset="CPOL" device="E2,5-3" value="10u"/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
-<part name="+9V" library="pad" deviceset="SPAD" device=""/>
+<part name="9V" library="pad" deviceset="SPAD" device=""/>
 <part name="R5" library="r" deviceset="R" device="0202/7-V" value="1k"/>
 <part name="T2" library="t" deviceset="BC557" device="CBE-A" value="BC557"/>
 <part name="R6" library="r" deviceset="R" device="0202/7-V" value="10k"/>
@@ -5357,7 +5357,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 <instance part="C6" gate="1" x="78.74" y="66.04" rot="MR0"/>
 <instance part="U$2" gate="1" x="25.4" y="2.54"/>
 <instance part="GND" gate="1" x="81.28" y="7.62" rot="R180"/>
-<instance part="+9V" gate="1" x="81.28" y="73.66" rot="R180"/>
+<instance part="9V" gate="1" x="81.28" y="73.66" rot="R180"/>
 <instance part="R5" gate="1" x="73.66" y="66.04"/>
 <instance part="T2" gate="1" x="71.12" y="45.72"/>
 <instance part="R6" gate="1" x="25.4" y="30.48" rot="MR0"/>
@@ -5445,7 +5445,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="+9V" gate="1" pin="P$1"/>
+<pinref part="9V" gate="1" pin="P$1"/>
 <pinref part="R4" gate="1" pin="1"/>
 <wire x1="81.28" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R5" gate="1" pin="2"/>

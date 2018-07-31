@@ -5412,7 +5412,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 <part name="C6" library="c" deviceset="CPOL" device="E2,5-3" value="10u"/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
 <part name="AF+" library="pad" deviceset="SPAD" device=""/>
-<part name="+9V" library="pad" deviceset="SPAD" device=""/>
+<part name="9V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="AF-" library="pad" deviceset="SPAD" device=""/>
 </parts>
@@ -5443,7 +5443,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 </instance>
 <instance part="U$2" gate="1" x="25.4" y="2.54"/>
 <instance part="AF+" gate="1" x="63.5" y="38.1" rot="R180"/>
-<instance part="+9V" gate="1" x="63.5" y="73.66" rot="R180"/>
+<instance part="9V" gate="1" x="63.5" y="73.66" rot="R180"/>
 <instance part="GND" gate="1" x="63.5" y="7.62" rot="R180"/>
 <instance part="AF-" gate="1" x="63.5" y="22.86" rot="R180"/>
 </instances>
@@ -5570,7 +5570,7 @@ http://siva666siva.webs.com/FM.PDF</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="+9V" gate="1" pin="P$1"/>
+<pinref part="9V" gate="1" pin="P$1"/>
 <pinref part="R4" gate="1" pin="1"/>
 <wire x1="63.5" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
 </segment>

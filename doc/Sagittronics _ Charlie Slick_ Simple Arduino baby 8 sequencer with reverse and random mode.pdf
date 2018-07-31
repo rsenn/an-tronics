@@ -1,38 +1,38 @@
-%PDF-1.3 
-1 0 obj
+%PDF-1.3
+%‚„œ”
+1 0 obj 
 <<
-/Pages      2 0 R
-%% tlines        0 R
 /Type /Catalog
+/Pages 2 0 R
 >>
-endobj
-2 0 obj
+endobj 
+2 0 obj 
 <<
+/Kids []
 /Type /Pages
-/Kids [ ]
 /Count 0
 >>
-endobj
-3 0 obj
+endobj 
+3 0 obj 
 <<
-/Title (an65mG.pdf)
-/CreationDate (D:20180728001729+02'00')
 /ModDate (D:20180728005343+01'00)
+/CreationDate (D:20180728001729+02'00')
+/Title (an65mG.pdf)
 /Producer (K2pdfopt v2.41)
 >>
-endobj
-xref
+endobj xref
 0 4
 0000000000 65535 f 
-0000000010 00000 n 
-0000000085 00000 n 
-0000000138 00000 n 
+0000000015 00000 n 
+0000000066 00000 n 
+0000000120 00000 n 
 trailer
+
 <<
-/Size 4
 /Info 3 0 R
 /Root 1 0 R
+/Size 4
 >>
 startxref
-280
+263
 %%EOF
