@@ -110,7 +110,10 @@ eagle_to_svg() {
  echo 1>&2
 
   case $INPUT in
-     *.brd)   EAGLE_CMD="DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" ;;
+     *.brd)   
+       EAGLE_CMD="DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD"
+        [ "$RATSNEST" = true ] && EAGLE_CMD="RATSNEST; $EAGLE_CMD"
+       ;;
    esac
   EAGLE_CMDS=${EAGLE_CMDS:+"$EAGLE_CMDS; "}$EAGLE_CMD
 
@@ -188,16 +191,16 @@ N=$#
    I=$((I+1))
    echo "Processing '$ARG' ($((I))/$((N)))" 1>&2
    (SCH=${ARG%.*}
-    if [ ! -e "${SCH}.sch" ]; then
-      SCH=${SCH%-[[:lower:]]*}.sch
+    SCH=${ARG%.*}.sch
+    if [ ! -e "${SCH}" ]; then
+      SCH=${ARG%-[[:lower:]]*}.sch
     fi
-    #SCH=${SCH}.sch
     BRD=${ARG%.*}.brd
     BASE=$(basename "${BRD%.*}")
 
     OUT=`outfile "doc/pdf/$(basename "${BRD%.*}").pdf"`
   
-    trap '${RMTEMP} -f "${BRD%.*}"-{schematic,board,board-mirrored}.pdf' EXIT
+    trap '${RMTEMP} -f "${BRD%.*}"-{crop,title,schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
   ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
@@ -211,7 +214,7 @@ N=$#
      DESCRIPTION=$(get_desc <"$BRD")
      [ -z "$DESCRIPTION"  ] && DESCRIPTION=$(get_desc <"$SCH")
 
-    gen_svg_title "${BASE}-title.svg" "${BASE//-/ }" $DESCRIPTION
+     gen_svg_title $(outfile "${BASE}-title.svg") "${BASE//-/ }" $DESCRIPTION
 
     eagle_to_svg "$BRD" "${BRD%.*}-board.pdf"
     eagle_to_svg "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
@@ -230,7 +233,7 @@ N=$#
       #exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
       exec_cmd PDF2SVG "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
 
-     # inkscape_crop_svg "${OUTPUT%.pdf}.svg"
+      inkscape_crop_svg "${OUTPUT%.pdf}.svg"
     done)
     
     
@@ -241,13 +244,14 @@ N=$#
       >$(outfile "${BASE}-boards.svg")
    
    rm -f "${BASE}.svg"
-   python2 "$MYDIR"/svg_stack.py  --direction=v --margin=5 \
+   python2 "$MYDIR"/svg_stack.py  --direction=v --margin=2 \
+     $(test -e "${BASE}-title.svg" && outfile "${BASE}-title.svg") \
       "${SCH%.*}-schematic.svg" \
       $(outfile "${BASE}-boards.svg") \
       >$(outfile "${BASE}.svg")
     )
     
-    svg_set_size $(outfile "${BASE}.svg") 595.27559 841.88976
+  #  svg_set_size $(outfile "${BASE}.svg") 595.27559 841.88976
   # exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalLeft --verb=AlignVerticalTop --verb=FileSave --verb=FileQuit "${BASE}.svg"
     exec_cmd INKSCAPE --export-area-drawing -f $(outfile "$BASE.svg") -A $(outfile "$BASE.pdf")
       
@@ -267,37 +271,28 @@ gen_svg_title() {
  shift 2
  DESCRIPTION=${@:-$(get_desc <"$FILE")}
 
+ DESCRIPTION=${DESCRIPTION//"<"/"&lt;"}
+ DESCRIPTION=${DESCRIPTION//">"/"&gt;"}
+ DESCRIPTION=${DESCRIPTION//"\""/"&quot;"}
+
  set -- "$TITLE" $DESCRIPTION
 
  SVG=$FILE
  #SVG=${FILE%.*}-title.svg
  
 cat >$SVG <<EOF
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 210 89.999998" height="9cm" width="21cm">
-  <defs id="defs2"/>
-  <metadata id="metadata5">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <dc:title/>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform="translate(0,-207.00001)" id="layer1">
-    <g transform="translate(0,-40.758988)" id="g841">
-      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:8.54400349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21360008" x="5.2466145" y="274.77847" id="text817">
-        <tspan id="tspan815" x="5.2466145" y="274.77847" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.25280476px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$1</tspan>
-      </text>
-      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:8.54400349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21360008" x="5.2466145" y="285.36179" id="text817-0">
-        <tspan id="tspan4570" x="5.2466145" y="285.36179" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$2</tspan>
-        <tspan id="tspan4566" x="5.2466145" y="296.04178" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$3</tspan>
-        <tspan id="tspan4578" x="5.2466145" y="306.7218" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$4</tspan>
-        <tspan id="tspan4580" x="5.2466145" y="317.40179" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$5</tspan>
-        <tspan id="tspan4568" x="5.2466145" y="328.08182" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008"/>
-      </text>
-    </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 90" height="6cm" width="14cm">
+  <g font-weight="400" font-size="8.544" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".214">
+    <text style="line-height:1.25" x="5.247" y="274.778" transform="translate(0 -247.759)">
+      <tspan x="5.247" y="274.778" style="-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-weight="700" font-size="10.253" font-family="Century Gothic">$1</tspan>
+    </text>
+    <text style="line-height:1.25" x="5.247" y="285.362" transform="translate(0 -247.759)">
+      <tspan x="5.247" y="285.362" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$2</tspan>
+      <tspan x="5.247" y="296.042" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$3</tspan>
+      <tspan x="5.247" y="306.722" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$4</tspan>
+      <tspan x="5.247" y="317.402" style="-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-size="4.939" font-family="Century Gothic">$5</tspan>
+    </text>
   </g>
 </svg>
 EOF
