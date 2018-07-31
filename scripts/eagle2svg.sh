@@ -136,7 +136,7 @@ eagle_to_pdf() {
        esac
 
        #EAGLE_CMD="DISPLAY  -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream bValues tValues; $EAGLE_CMD"
-        [ "$RATSNEST" = true ] && EAGLE_CMD="RATSNEST; $EAGLE_CMD"
+        [ "$RATSNEST" = true ] && EAGLE_CMD="RATSNEST; WRITE; $EAGLE_CMD"
        ;;
    esac
     [ -n "$EAGLE_LAYERS" ] &&  EAGLE_CMD="DISPLAY  $EAGLE_LAYERS ;  $EAGLE_CMD"
@@ -269,22 +269,24 @@ N=$#
     
    (set -x;
    rm -f "${BASE}-boards.svg"
-   python2 "$MYDIR"/svg_stack.py  --direction=h --margin=1 \
+   python2 "$MYDIR"/svg_stack.py  --direction=h --margin=2.54cm \
       "${BRD%.*}"-{board,board-mirrored}.svg \
       >$(outfile "${BASE}-boards.svg")
    
    rm -f "${BASE}.svg"
-   python2 "$MYDIR"/svg_stack.py  --direction=v --margin=2 \
+   python2 "$MYDIR"/svg_stack.py  --direction=v --margin=2.54cm \
      $(test -e "${BASE}-title.svg" && outfile "${BASE}-title.svg") \
       "${SCH%.*}-schematic.svg" \
       $(outfile "${BASE}-boards.svg") \
       >$(outfile "${BASE}.svg")
     )
     
-  #  svg_set_size $(outfile "${BASE}.svg") 595.27559 841.88976
-  # exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalLeft --verb=AlignVerticalTop --verb=FileSave --verb=FileQuit "${BASE}.svg"
+    #svg_set_size $(outfile "${BASE}.svg") 595.27559 841.88976
+    exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalLeft --verb=AlignVerticalTop --verb=FileSave --verb=FileQuit $(outfile "${BASE}.svg")
+
     exec_cmd INKSCAPE --export-area-drawing -f $(outfile "$BASE.svg") -A $(outfile "$BASE.pdf")
       
+    exec_cmd PDFTOCAIRO -paper A4 -noshrink -expand -svg  "$(outfile "$BASE.pdf")" "$(outfile "$BASE.svg")" || exit $?
       
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
 #
