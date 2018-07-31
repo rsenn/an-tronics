@@ -255,7 +255,7 @@ N=$#
       OUTPUT=`outfile "$OUTPUT"`
       echo "Converting $OUTPUT ..." 1>&2
       echo 1>&2
-      exec_cmd PDFCROP "$OUTPUT"  && mv -vf -- "${OUTPUT%.pdf}-crop.pdf" "$OUTPUT"
+      exec_cmd PDFCROP --margins '5 5 5 5' --clip  "$OUTPUT"  && mv -vf -- "${OUTPUT%.pdf}-crop.pdf" "$OUTPUT"
       #exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
       exec_cmd PDF2SVG "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
 
@@ -269,12 +269,12 @@ N=$#
     
    (set -x;
    rm -f "${BASE}-boards.svg"
-   python2 "$MYDIR"/svg_stack.py  --direction=h --margin=2.54cm \
+   python2 "$MYDIR"/svg_stack.py  --direction=h --margin=18pt \
       "${BRD%.*}"-{board,board-mirrored}.svg \
       >$(outfile "${BASE}-boards.svg")
    
    rm -f "${BASE}.svg"
-   python2 "$MYDIR"/svg_stack.py  --direction=v --margin=2.54cm \
+   python2 "$MYDIR"/svg_stack.py  --direction=v --margin=9pt \
      $(test -e "${BASE}-title.svg" && outfile "${BASE}-title.svg") \
       "${SCH%.*}-schematic.svg" \
       $(outfile "${BASE}-boards.svg") \
@@ -282,10 +282,11 @@ N=$#
     )
     
     #svg_set_size $(outfile "${BASE}.svg") 595.27559 841.88976
-    exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalLeft --verb=AlignVerticalTop --verb=FileSave --verb=FileQuit $(outfile "${BASE}.svg")
+    exec_cmd INKSCAPE --verb=EditSelectAll --verb=AlignHorizontalCenter --verb=FileSave --verb=FileQuit $(outfile "${BASE}.svg")
 
     exec_cmd INKSCAPE --export-area-drawing -f $(outfile "$BASE.svg") -A $(outfile "$BASE.pdf")
-      
+     
+   exec_cmd PDF 
     exec_cmd PDFTOCAIRO -paper A4 -noshrink -expand -svg  "$(outfile "$BASE.pdf")" "$(outfile "$BASE.svg")" || exit $?
       
 #  exec_cmd PDFTOCAIRO -svg  "$FILE" "${FILE%.*}.svg" || exit $?
