@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 MYNAME=$(basename "$0" .sh)
 MYDIR=$(dirname "$0")
 
@@ -164,8 +164,18 @@ eagle_print() {
   find_program PDFTK "pdftk" || error "pdftk not found"
   find_program PDFCROP "pdfcrop" || error "pdfcrop not found"
   find_program PDFTOCAIRO "pdftocairo" || error "pdftocairo not found"
+  find_program PDF2SVG "pdf2svg" || error "pdf2svg not found"
 
 EAGLE=${EAGLE//eagle.exe/eaglecon.exe}
+
+  while :; do 
+    case "$1" in
+      -d=*|--destdir=*) OUTDIR="${1#*=}"; shift ;;
+      -d|--destdir) OUTDIR="$2"; shift 2 ;;
+      -r|--ratsnest) RATSNEST="true"; shift ;;
+      *) break ;;
+    esac
+  done
 
 I=0
 N=$#
@@ -198,6 +208,11 @@ N=$#
 
      # set -e
 
+     DESCRIPTION=$(get_desc <"$BRD")
+     [ -z "$DESCRIPTION"  ] && DESCRIPTION=$(get_desc <"$SCH")
+
+    gen_svg_title "${BASE}-title.svg" "${BASE//-/ }" $DESCRIPTION
+
     eagle_to_svg "$BRD" "${BRD%.*}-board.pdf"
     eagle_to_svg "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
 
@@ -210,19 +225,22 @@ N=$#
       OUTPUT=`outfile "$OUTPUT"`
       echo "Converting $OUTPUT ..." 1>&2
       echo 1>&2
-      exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
-      inkscape_crop_svg "${OUTPUT%.pdf}.svg"
+      exec_cmd PDFCROP "$OUTPUT"  && mv -vf -- "${OUTPUT%.pdf}-crop.pdf" "$OUTPUT"
+      #exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
+      exec_cmd PDF2SVG "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
+
+     # inkscape_crop_svg "${OUTPUT%.pdf}.svg"
     done)
     
     
    (set -x;
    rm -f "${BASE}-boards.svg"
-   "$MYDIR"/svg_stack.py  --direction=h --margin=1 \
+   python2 "$MYDIR"/svg_stack.py  --direction=h --margin=1 \
       "${BRD%.*}"-{board,board-mirrored}.svg \
      >"${BASE}-boards.svg"
    
    rm -f "${BASE}.svg"
-   "$MYDIR"/svg_stack.py  --direction=v --margin=5 \
+   python2 "$MYDIR"/svg_stack.py  --direction=v --margin=5 \
       "${SCH%.*}-schematic.svg" \
       "${BASE}-boards.svg" \
      >"${BASE}.svg"
@@ -238,5 +256,72 @@ N=$#
 #  done)
   ); done
 }
+
+gen_svg_title() {
+
+ FILE=${1}
+ TITLE=${2:-$(basename "${1%.*}")}
+ TITLE=${TITLE%-title*}
+ TITLE=${TITLE//"-"/" "}
+ shift 2
+ DESCRIPTION=${@:-$(get_desc <"$FILE")}
+
+ set -- "$TITLE" $DESCRIPTION
+
+ SVG=$FILE
+ #SVG=${FILE%.*}-title.svg
+ 
+cat >$SVG <<EOF
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 210 89.999998" height="9cm" width="21cm">
+  <defs id="defs2"/>
+  <metadata id="metadata5">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="translate(0,-207.00001)" id="layer1">
+    <g transform="translate(0,-40.758988)" id="g841">
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:8.54400349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21360008" x="5.2466145" y="274.77847" id="text817">
+        <tspan id="tspan815" x="5.2466145" y="274.77847" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.25280476px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$1</tspan>
+      </text>
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:8.54400349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21360008" x="5.2466145" y="285.36179" id="text817-0">
+        <tspan id="tspan4570" x="5.2466145" y="285.36179" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$2</tspan>
+        <tspan id="tspan4566" x="5.2466145" y="296.04178" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$3</tspan>
+        <tspan id="tspan4578" x="5.2466145" y="306.7218" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$4</tspan>
+        <tspan id="tspan4580" x="5.2466145" y="317.40179" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008">$5</tspan>
+        <tspan id="tspan4568" x="5.2466145" y="328.08182" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21360008"/>
+      </text>
+    </g>
+  </g>
+</svg>
+EOF
+(realpath  "$SVG"|addprefix file:// | tee /dev/stderr | xclip -selection clipboard -in)
+}
+get_desc () 
+{ 
+    OUT=$(sed -n '/<description/ { s,<[^>]*>,,g ; p; q }' "$@");
+    html_dequote "$OUT"
+}
+html_dequote() 
+{ 
+    echo "$*" | ${SED-sed} -e 's|&quot;|"|g' -e 's|&amp;|\&|g' -e 's|&lt;|<|g' -e 's|&gt;|>|g'
+}
+addprefix() 
+{ 
+    ( PREFIX="$1";
+    DELIM="${IFS%${IFS#?}}";
+    unset LIST;
+    while shift;
+    [ "$#" -gt 0 ]; do
+        LIST="${LIST+$LIST$DELIM}$PREFIX$1";
+    done;
+    test "${LIST+set}" = set && echo "$LIST" )
+}
+
 
 eagle_print "$@"

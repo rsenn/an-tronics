@@ -85,6 +85,13 @@ eagle_print_to_pdf() {
   ORIENTATION=${4:-${ORIENTATION:-portrait}}
   EAGLE_CMD="PRINT $ORIENTATION $SCALE -0 -caption ${OPTIONS:+$OPTIONS }FILE '${OUTPUT}' sheets all paper $PAPER"
 
+  case "$INPUT" in
+    *.brd) 
+  [ "$RATSNEST" = true ] && EAGLE_CMD="RATSNEST; WRITE; $EAGLE_CMD"
+  ;;
+esac
+  
+
  echo "Processing $1 ..." 1>&2
  echo 1>&2
 
@@ -141,6 +148,7 @@ eagle_print() {
     case "$1" in
       -d=*|--destdir=*) OUTDIR="${1#*=}"; shift ;;
       -d|--destdir) OUTDIR="$2"; shift 2 ;;
+      -r|--ratsnest) RATSNEST="true"; shift ;;
       *) break ;;
     esac
   done
