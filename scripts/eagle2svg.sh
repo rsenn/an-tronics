@@ -88,7 +88,7 @@ inkscape_crop_svg() {
 
 
 
-eagle_to_svg() {
+eagle_to_pdf() {
 
   INPUT=$1
   OUTPUT=${2:-${1%.*}.pdf}
@@ -228,8 +228,8 @@ N=$#
   
     trap '${RMTEMP} -f "${BRD%.*}"-{crop,title,schematic,board,board-mirrored}.{pdf,svg}' EXIT
 
-#  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
-  ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_to_svg "$SCH" "${SCH%.*}-schematic.pdf"
+#  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
+  ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
 
   #ORIENTATION="landscape" PAPER="a5"  SCALE="3.0 -1"
    ORIENTATION="landscape" PAPER="a5"  SCALE="1.0"
@@ -242,8 +242,8 @@ N=$#
 
      gen_svg_title $(outfile "${BASE}-title.svg") "${BASE//-/ }" $DESCRIPTION
 
-    eagle_to_svg "$BRD" "${BRD%.*}-board.pdf"
-    eagle_to_svg "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR
+    eagle_to_pdf "$BRD" "${BRD%.*}-board.pdf"
+    eagle_to_pdf "$BRD" "${BRD%.*}-board-mirrored.pdf" MIRROR BLACK
 
 
     echo "Blah" 1>&2
@@ -258,6 +258,10 @@ N=$#
       exec_cmd PDFCROP "$OUTPUT"  && mv -vf -- "${OUTPUT%.pdf}-crop.pdf" "$OUTPUT"
       #exec_cmd PDFTOCAIRO -svg "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
       exec_cmd PDF2SVG "$OUTPUT" "${OUTPUT%.pdf}.svg" && ${RMTEMP} -vf -- "$OUTPUT"
+
+      case "$OUTPUT" in
+        *mirrored*)  sed -i 's|#00007f|#000000|g ;s|#007f00|#000000|g ; s|#666666|#000000|g ; s|#7f7f7f|000000|g' "${OUTPUT%.pdf}.svg" ;;
+      esac
 
       inkscape_crop_svg "${OUTPUT%.pdf}.svg"
     done)
