@@ -106,15 +106,41 @@ eagle_to_svg() {
  (trap 'rm -f "$TMPOUT"' EXIT
   
   rm -f -- "$OUTPUT" "$TMPOUT"
- echo "Processing $1 ..." 1>&2
+ echo "Processing $INPUT into $OUTPUT ..." 1>&2
  echo 1>&2
+
+
+
+ set-layers() {
+   (IFS=" "
+   P="$1"; shift 
+   [ $# -gt 0 ] || set --  ""{Docu,Finish,Keepout,Map,Names,Origins,Place,Restrict,Silk,Stop,Values}
+   set --  $(addprefix "$P" "$@")
+   echo "$*")
+ }
+
 
   case $INPUT in
      *.brd)   
-       EAGLE_CMD="DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD"
+
+       EAGLE_LAYERS=$(set -- Origins Stop Cream ; set-layers -b "$@"; set-layers -t "$@")
+       EAGLE_LAYERS="$EAGLE_LAYERS -Drills -Holes Document -Reference bValues tValues"
+
+       case "$OUTPUT" in
+         *mirrored*) 
+           EAGLE_LAYERS="$EAGLE_LAYERS -Top Bottom $(set -- Names Values Docu ; set-layers -t "$@"; set-layers -b "$@")"
+           ;;
+         *)
+           EAGLE_LAYERS="$EAGLE_LAYERS Bottom Top $(set -- Names Values Docu ; set-layers -b "$@"; set-layers t "$@")"
+           ;;
+       esac
+
+       #EAGLE_CMD="DISPLAY  -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream bValues tValues; $EAGLE_CMD"
         [ "$RATSNEST" = true ] && EAGLE_CMD="RATSNEST; $EAGLE_CMD"
        ;;
    esac
+    [ -n "$EAGLE_LAYERS" ] &&  EAGLE_CMD="DISPLAY  $EAGLE_LAYERS ;  $EAGLE_CMD"
+
   EAGLE_CMDS=${EAGLE_CMDS:+"$EAGLE_CMDS; "}$EAGLE_CMD
 
  exec_cmd EAGLE -N- -C "$EAGLE_CMD; QUIT"      "$INPUT" &
@@ -264,7 +290,7 @@ N=$#
 
 gen_svg_title() {
 
- FILE=${1}
+(FILE=${1}
  TITLE=${2:-$(basename "${1%.*}")}
  TITLE=${TITLE%-title*}
  TITLE=${TITLE//"-"/" "}
@@ -275,6 +301,8 @@ gen_svg_title() {
  DESCRIPTION=${DESCRIPTION//">"/"&gt;"}
  DESCRIPTION=${DESCRIPTION//"\""/"&quot;"}
 
+ IFS="
+"
  set -- "$TITLE" $DESCRIPTION
 
  SVG=$FILE
@@ -296,7 +324,7 @@ cat >$SVG <<EOF
   </g>
 </svg>
 EOF
-(realpath  "$SVG"|addprefix file:// | tee /dev/stderr | xclip -selection clipboard -in)
+realpath  "$SVG"|addprefix file:// | tee /dev/stderr | xclip -selection clipboard -in)
 }
 get_desc () 
 { 
