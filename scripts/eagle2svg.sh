@@ -128,7 +128,7 @@ eagle_to_pdf() {
 
        case "$OUTPUT" in
          *mirrored*) 
-           EAGLE_LAYERS="$EAGLE_LAYERS -Top Bottom $(set -- Names Values Docu ; set-layers -t "$@"; set-layers -b "$@")"
+           EAGLE_LAYERS="$EAGLE_LAYERS -Top Bottom -Document Dimension $(set -- Place Origin Names Values Docu ; set-layers -t "$@"; set-layers -b "$@")"
            ;;
          *)
            EAGLE_LAYERS="$EAGLE_LAYERS Bottom Top $(set -- Names Values Docu ; set-layers -b "$@"; set-layers t "$@")"
