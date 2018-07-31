@@ -202,6 +202,7 @@ EAGLE=${EAGLE//eagle.exe/eaglecon.exe}
       -d=*|--destdir=*) OUTDIR="${1#*=}"; shift ;;
       -d|--destdir) OUTDIR="$2"; shift 2 ;;
       -r|--ratsnest) RATSNEST="true"; shift ;;
+      -k|--keep*) KEEP_TEMP="true"; shift ;;
       *) break ;;
     esac
   done
@@ -226,7 +227,10 @@ N=$#
 
     OUT=`outfile "doc/pdf/$(basename "${BRD%.*}").pdf"`
 
-    trap '${RMTEMP} -f "${BRD%.*}"-{crop,title,schematic,board,board-mirrored}.{pdf,svg}' EXIT
+    EXTS='pdf'
+    [ "$KEEP_TEMP" != true ] && EXTS="{$EXTS,svg}"
+
+    trap '${RMTEMP} -f "${BRD%.*}"-{crop,title,schematic,board,board-mirrored}.'$EXTS''  EXIT
 
 #  ORIENTATION="portrait" PAPER="a4" SCALE=1.0 eagle_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
   ORIENTATION="landscape" PAPER="a4" SCALE="0.8 -1" eagle_to_pdf "$SCH" "${SCH%.*}-schematic.pdf"
