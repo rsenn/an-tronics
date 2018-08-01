@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+
 NAME=$(basename "$0" .sh)
 
 set_var() {
@@ -87,7 +88,7 @@ eagle_print_to_pdf() {
 
   case "$INPUT" in
     *.brd) 
-  [ "$RATSNEST" = true ] && EAGLE_CMD="RATSNEST; WRITE; $EAGLE_CMD"
+  [ "$RATSNEST" = true ] && EAGLE_CMD="RATSNEST; $EAGLE_CMD"
   ;;
 esac
   
@@ -97,13 +98,16 @@ esac
 
   case $INPUT in
      *.brd)   
-       EAGLE_CMD="DISPLAY -bKeepout -tKeepout -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" 
-       #EAGLE_CMD="RATSNEST;  $EAGLE_CMD" 
+       EAGLE_CMD="DISPLAY -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" 
        ;;
    esac
   EAGLE_CMDS=${EAGLE_CMDS:+"$EAGLE_CMDS; "}$EAGLE_CMD
+  
+  echo "$EAGLE_CMD
+" > dummy
+  exec 9<dummy
 
- exec_cmd EAGLE -C "$EAGLE_CMD; QUIT"      "$INPUT" &
+ exec_cmd EAGLE -C "$EAGLE_CMD; QUIT  "      "$INPUT"  <<<"QUIT"  &
   pid=$!
 
   while [ ! -s "$OUTPUT" ]; do
@@ -138,6 +142,7 @@ eagle_print() {
   export HOME="$(cygpath -a "$USERPROFILE")"
 
   exec 10>eagle-print.log
+
 
   find_program EAGLE "eagle" || error "eagle not found"
   find_program PDFTK "pdftk" || error "pdftk not found"
