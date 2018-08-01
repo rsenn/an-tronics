@@ -236,8 +236,8 @@
 <text x="-1.778" y="-0.635" size="1.778" layer="94">Id</text>
 <text x="10.16" y="2.54" size="1.778" layer="94">Iabc</text>
 <text x="17.78" y="3.175" size="1.778" layer="94">Out</text>
-<text x="10.795" y="6.985" size="1.778" layer="95">&gt;Name</text>
-<text x="10.795" y="10.16" size="1.778" layer="96">&gt;Value</text>
+<text x="10.795" y="6.985" size="1.778" layer="95">Name</text>
+<text x="10.795" y="10.16" size="1.778" layer="96">Value</text>
 <pin name="-IN" x="-10.16" y="5.08" visible="pad" length="middle"/>
 <pin name="ID" x="-10.16" y="0" visible="pad" length="middle"/>
 <pin name="+IN" x="-10.16" y="-5.08" visible="pad" length="middle"/>
