@@ -1574,6 +1574,7 @@
 <pin name="DIS" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
 <pin name="VCC" x="0" y="12.7" length="short" direction="pwr" rot="R270"/>
 <pin name="GND" x="0" y="-12.7" length="short" direction="pwr" rot="R90"/>
+</symbol>
 <symbol name="OTA-X">
 <circle x="13.335" y="0" radius="1.4199" width="0.254" layer="94"/>
 <circle x="12.065" y="0" radius="1.4199" width="0.254" layer="94"/>
@@ -3173,6 +3174,7 @@
 </device>
 </devices>
 </deviceset>
+
 <deviceset name="7555" prefix="IC">
 <gates>
 <gate name="G$1" symbol="555*" x="0" y="0"/>
@@ -3188,6 +3190,10 @@
 <connect gate="G$1" pin="THR" pad="6"/>
 <connect gate="G$1" pin="TR" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+</device>
+</devices>
+</deviceset>
 <deviceset name="LM13700" prefix="IC">
 <gates>
 <gate name="A" symbol="SYNTHDIY_OTA_WD_N" x="-20.32" y="0" addlevel="request"/>
