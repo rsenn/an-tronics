@@ -3447,15 +3447,15 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <sheet>
 <plain>
 <text x="71.12" y="30.48" size="1.524" layer="97" font="fixed" align="top-left">L2: Durchmesser der form D: 4 mm
-    Wickellänge l: 5 mm
+    Wickell@@nge l: 5 mm
     Drahtdurchmesser d: 0.8 mm
     Windungen: 5</text>
 <text x="71.12" y="20.32" size="1.524" layer="97" font="fixed" align="top-left">L3: Durchmesser der form D: 4 mm
-    Wickellänge l: 5 mm
+    Wickell@@nge l: 5 mm
     Drahtdurchmesser d: 0.8 mm
     Windungen: 3</text>
 <text x="71.12" y="40.64" size="1.524" layer="97" font="fixed" align="top-left">L1: Durchmesser der form D: 4 mm
-    Wickellänge l: 5 mm
+    Wickell@@nge l: 5 mm
     Drahtdurchmesser d: 0.8 mm
     Windungen: 6</text>
 </plain>

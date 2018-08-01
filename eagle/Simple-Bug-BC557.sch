@@ -8839,7 +8839,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R1" library="r" deviceset="R" device="0202V"/>
 <part name="C4" library="c" deviceset="CPOL" device="E2,5-3"/>
 <part name="+" library="pad" deviceset="SPAD" device=""/>
-<part name="̶̶" library="pad" deviceset="SPAD" device=""/>
+<part name="@@@@" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
 </parts>
 <sheets>
@@ -8865,7 +8865,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R1" gate="1" x="38.1" y="54.61" rot="MR180"/>
 <instance part="C4" gate="1" x="13.97" y="38.1" rot="MR270"/>
 <instance part="+" gate="1" x="60.96" y="63.5" rot="MR180"/>
-<instance part="̶̶" gate="1" x="60.96" y="58.42" rot="MR180"/>
+<instance part="@@@@" gate="1" x="60.96" y="58.42" rot="MR180"/>
 <instance part="ANT1" gate="ANT" x="68.58" y="35.56" rot="MR0"/>
 </instances>
 <busses>
@@ -8945,7 +8945,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="̶̶" gate="1" pin="P$1"/>
+<pinref part="@@@@" gate="1" pin="P$1"/>
 <wire x1="68.58" y1="57.15" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="58.42" x2="68.58" y2="57.15" width="0.1524" layer="91"/>

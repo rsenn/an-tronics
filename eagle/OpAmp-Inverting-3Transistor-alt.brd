@@ -305,7 +305,7 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie ffür uuml;r
+Die Standard-Design-Rules sind so gew@@hlt, dass sie ff@@r uuml;r
 die meisten Anwendungen passen. Sollte ihre Platine 
 besondere Anforderungen haben, treffen Sie die erforderlichen
 Einstellungen hier und speichern die Design Rules unter 

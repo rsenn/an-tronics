@@ -8373,7 +8373,7 @@
 <part name="R1" library="r" deviceset="R" device="0202V" value="100"/>
 <part name="C4" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
 <part name="+" library="pad" deviceset="SPAD" device=""/>
-<part name="̶̶" library="pad" deviceset="SPAD" device=""/>
+<part name="@@@@" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
 <part name="A-IN" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
@@ -8400,7 +8400,7 @@
 <attribute name="VALUE" x="13.97" y="33.02" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="+" gate="1" x="87.63" y="35.56" rot="R90"/>
-<instance part="̶̶" gate="1" x="87.63" y="21.59" rot="R270"/>
+<instance part="@@@@" gate="1" x="87.63" y="21.59" rot="R270"/>
 <instance part="ANT" gate="ANT" x="76.2" y="68.58"/>
 <instance part="A-IN" gate="1" x="7.62" y="35.56"/>
 <instance part="GND" gate="1" x="7.62" y="12.7"/>
@@ -8505,7 +8505,7 @@
 <wire x1="45.72" y1="12.7" x2="45.72" y2="16.51" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="̶̶" gate="1" pin="P$1"/>
+<pinref part="@@@@" gate="1" pin="P$1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="87.63" y1="20.32" x2="87.63" y2="21.59" width="0.1524" layer="91"/>
 </segment>

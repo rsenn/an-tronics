@@ -4209,8 +4209,8 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 Der Durchmesser der form D: 15 mm
 Drahtdurchmesser d: 0.3 mm
 Drahtdurchmesser mit Isolierung k: 0.327 mm
-Wickellänge l: 7.867 mm
-Länge des Drahtes ohne Leitungen:  1.114 m
+Wickell@@nge l: 7.867 mm
+L@@nge des Drahtes ohne Leitungen:  1.114 m
 Widerstand der Spule zu DC: 0.276 Ohm
 Reaktanz der Spule: 5564.389 Ohm
 Anzahl der Windungen der Spule: 23.142</text>
@@ -4222,8 +4222,8 @@ Drahtdurchmesser mit Isolierung k: 1.09 mm
 Wickelsteigung p: 2 mm
 Anzahl der Windungen der Spule: 5
 Arbeitsfrequenz: 108 MHz
-Induktivität: 0.1 µH
-Eigenkapazität: Cs = 0.25 pF
+Induktivit@@t: 0.1 @@H
+Eigenkapazit@@t: Cs = 0.25 pF
 Spuleneigenresonanzfrequenz: Fsr = 583.251 MHz
 Coil konstruktive Q-Faktor: Q = 545 (Werkstoff Draht: Kupfer)
 Verlustwiderstand: ESR=0.125 Ohm</text>

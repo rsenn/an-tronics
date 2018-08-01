@@ -2531,7 +2531,7 @@
         <element library="r" name="R1" package="0202V" value="" x="10.16" y="3.81"/>
         <element library="c" name="C4" package="E2,5-3" rot="R270" value="" x="20.32" y="8.89"/>
         <element library="pad" name="+" package="SPAD" rot="R180" value="SPAD" x="2.54" y="17.78"/>
-        <element library="pad" name="̶̶SPAD" package="SPAD" rot="R180" value="SPAD" x="2.54" y="2.54"/>
+        <element library="pad" name="@@@@SPAD" package="SPAD" rot="R180" value="SPAD" x="2.54" y="2.54"/>
         <element library="pad" name="ANT1" package="SPAD" rot="R180" value="ANT" x="2.54" y="10.16"/>
       </elements>
       <signals>
@@ -2579,7 +2579,7 @@
           <wire layer="16" width="1.27" x1="22.86" x2="22.86" y1="2.54" y2="7.62"/>
           <wire layer="16" width="1.27" x1="22.86" x2="25.4" y1="7.62" y2="7.62"/>
           <wire layer="16" width="1.27" x1="20.32" x2="10.16" y1="2.54" y2="2.54"/>
-          <contactref element="̶̶" pad="1"/>
+          <contactref element="@@@@" pad="1"/>
           <wire layer="16" width="1.27" x1="10.16" x2="2.54" y1="2.54" y2="2.54"/>
           <polygon isolate="1.27" layer="16" orphans="yes" thermals="no" width="0.254">
             <vertex x="0" y="20.32"/>
