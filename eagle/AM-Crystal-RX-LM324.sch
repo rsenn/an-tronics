@@ -6684,7 +6684,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <part name="SP+" library="pad" deviceset="SPAD" device="" value="SPKR+"/>
 <part name="SP-" library="pad" deviceset="SPAD" device="" value="SPKR-"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="+9V" library="pad" deviceset="SPAD" device="" value="BAT+"/>
+<part name="9V" library="pad" deviceset="SPAD" device="" value="BAT+"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device="" value="BAT-"/>
 <part name="IC2" library="ic" deviceset="LM324" device="N" value="LM324"/>
@@ -6734,7 +6734,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <instance part="SP+" gate="1" x="132.08" y="30.48" rot="R180"/>
 <instance part="SP-" gate="1" x="132.08" y="22.86" rot="R180"/>
 <instance part="GND7" gate="1" x="129.54" y="15.24"/>
-<instance part="+9V" gate="1" x="88.9" y="50.8" rot="R180"/>
+<instance part="9V" gate="1" x="88.9" y="50.8" rot="R180"/>
 <instance part="GND8" gate="1" x="81.28" y="40.64"/>
 <instance part="GND" gate="1" x="88.9" y="45.72" rot="R180"/>
 <instance part="IC2" gate="B" x="60.96" y="30.48" smashed="yes">
@@ -6951,7 +6951,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <net name="N$15" class="0">
 <segment>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="+9V" gate="1" pin="P$1"/>
+<pinref part="9V" gate="1" pin="P$1"/>
 <wire x1="86.36" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="1" pin="O"/>

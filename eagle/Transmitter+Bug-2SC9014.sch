@@ -6966,7 +6966,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="1.6-15pF"/>
 <part name="R1" library="r" deviceset="R" device="0204/2V" value="100"/>
-<part name="+9V" library="pad" deviceset="SPAD" device=""/>
+<part name="9V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
 <part name="T1" library="t" deviceset="2SC9014" device="" value="2SC9014"/>
@@ -6995,7 +6995,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND3" gate="1" x="63.5" y="2.54"/>
 <instance part="C1" gate="1" x="48.26" y="57.15"/>
 <instance part="R1" gate="1" x="33.02" y="25.4"/>
-<instance part="+9V" gate="1" x="55.88" y="20.32"/>
+<instance part="9V" gate="1" x="55.88" y="20.32"/>
 <instance part="GND" gate="1" x="55.88" y="10.16"/>
 <instance part="ANT" gate="ANT" x="63.5" y="71.12"/>
 <instance part="T1" gate="1" x="30.48" y="40.64"/>
@@ -7088,7 +7088,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY2" gate="1" pin="+UB"/>
 <wire x1="55.88" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="20.32" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="+9V" gate="1" pin="P$1"/>
+<pinref part="9V" gate="1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
