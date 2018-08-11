@@ -58,10 +58,10 @@ UsedLibrary="/home/roman/Sources/rsenn/an-tronics/eagle/lbr/t.lbr"
 [Win_1]
 Type="Schematic Editor"
 Loc="0 0 599 399"
-State=2
-Number=1
-File="/mnt/Newx20Data/Sources/rsenn/an-tronics/eagle/Simple-Bug-BC547.sch"
-View="-4.35037 0.351369 86.7357 83.3416"
+State=0
+Number=2
+File="eagle/40106-4069-Synth.sch"
+View="-42.3037 -24.8021 123.441 93.797"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.254"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -88,7 +88,7 @@ PolygonRank=0
 PolygonThermals=1
 PolygonOrphans=0
 TextRatio=8
-DimensionUnit=2
+DimensionUnit=3
 DimensionPrecision=2
 DimensionShowUnit=0
 PinDirection=3
@@ -100,29 +100,25 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -42.3037 -24.8021 123.441 93.797"
 Sheet="1"
 
 [Win_2]
-Loc="56 104 1152 773"
-State=2
-Number=3
-
-[Win_3]
 Type="Board Editor"
-Loc="0 104 599 399"
+Loc="0 0 1088 751"
 State=2
-Number=2
-File="/mnt/Newx20Data/Sources/rsenn/an-tronics/eagle/Simple-Bug-BC547.brd"
-View="-0.589278 -0.538478 23.4493 20.8585"
-WireWidths=" 0.0508 0.1016 0.127 0.1524 0.2032 0.3048 0.4064 0.508 0.6096 0.762 0.889 1.016 1.27 1.524 1.778 0.254"
+Number=1
+File="eagle/40106-4069-Synth.brd"
+View="7.75723 1.55986 41.0414 36.7673"
+WireWidths=" 0.0508 0.1016 0.127 0.1524 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.762 0.889 1.016 1.27 1.524 1.778"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2032 0.2286 0.254 0.3048 0.3556 0.508 0.7112 0.762 0.8128 0.889 0.9906 1.524 2.413 2.6924 3.048 0.2794"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 ViaDrills=" 0.2032 0.2286 0.254 0.3048 0.3556 0.508 0.7112 0.762 0.8128 0.889 0.9906 1.524 2.413 2.6924 3.048 0.2794"
 HoleDrills=" 0.2032 0.2286 0.254 0.3048 0.3556 0.508 0.7112 0.762 0.8128 0.889 0.9906 1.524 2.413 2.6924 3.048 0.2794"
-TextSizes=" 0.381 0.508 0.762 0.889 1.016 1.2192 1.3208 1.397 1.524 1.651 1.778 2.032 2.286 0.8128"
+TextSizes=" 0.381 0.508 0.762 0.8128 0.889 1.016 1.2192 1.3208 1.397 1.524 1.651 1.778 2.032 2.286"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
-PolygonIsolates=" 0.1016 0.127 0.1778 0.2032 0.2286 0.254 0.2794 0.3048 0.3556 0.4064 0.4572 0.508 0.6096 0.762 0.9144 0.1524"
+PolygonIsolates=" 0.127 0.1524 0.1778 0.2032 0.2286 0.254 0.2794 0.3048 0.3556 0.4064 0.4572 0.508 0.6096 0.762 0.9144 152.4"
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
 DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
 DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
@@ -140,7 +136,7 @@ PolygonRank=1
 PolygonThermals=1
 PolygonOrphans=0
 TextRatio=15
-DimensionUnit=2
+DimensionUnit=3
 DimensionPrecision=2
 DimensionShowUnit=0
 PinDirection=3
@@ -153,7 +149,7 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
-[Win_4]
+[Win_3]
 Type="Control Panel"
 Loc="712 326 1593 834"
 State=2
@@ -164,4 +160,3 @@ Screen="1600 900"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
-Window="Win_4"
