@@ -420,8 +420,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1" y1="-2" x2="-2.3" y2="-0.9" width="0.2032" layer="21" curve="-72.598009"/>
 <pad name="1" x="-2" y="0" drill="0.8" diameter="1.6764"/>
 <pad name="2" x="2" y="0" drill="0.8" diameter="1.6764"/>
-<text x="-2" y="2.4" size="0.8128" layer="25">&gt;Name</text>
-<text x="-2" y="-3" size="0.8128" layer="27">&gt;Value</text>
+<text x="-2" y="2.4" size="0.8128" layer="25">Name</text>
+<text x="-2" y="-3" size="0.8128" layer="27">Value</text>
 </package>
 <package name="PHOTOCELL-KIT">
 <description>&lt;h3&gt;PHOTOCELL-KIT&lt;/h3&gt;
@@ -436,8 +436,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <wire x1="1" y1="2" x2="2.1984" y2="1.1286" width="0.2032" layer="21" curve="-72.614209"/>
 <pad name="1" x="-2" y="0" drill="0.9" diameter="1.8796" stop="no"/>
 <pad name="2" x="2" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<text x="-2" y="2.4" size="0.8128" layer="25">&gt;Name</text>
-<text x="-2" y="-3" size="0.8128" layer="27">&gt;Value</text>
+<text x="-2" y="2.4" size="0.8128" layer="25">Name</text>
+<text x="-2" y="-3" size="0.8128" layer="27">Value</text>
 <polygon width="0.127" layer="30">
 <vertex x="-2.0041" y="-0.9525" curve="-90"/>
 <vertex x="-2.959" y="-0.0228" curve="-90.011749"/>
@@ -485,8 +485,8 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <wire x1="-1.27" y1="-1.524" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="1.524" y1="-2.032" x2="1.016" y2="-1.524" width="0.254" layer="94" curve="90"/>
 <wire x1="1.524" y1="-2.032" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="3.048" size="1.778" layer="95">&gt;Name</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;Value</text>
+<text x="-5.08" y="3.048" size="1.778" layer="95">Name</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">Value</text>
 <pin name="P$1" x="-7.62" y="0" visible="off" length="short"/>
 <pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 </symbol>

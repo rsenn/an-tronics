@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6455,12 +6455,12 @@ http://www.romanblack.com/smps/conv.htm</description>
 <instance part="R2" gate="1" x="22.86" y="55.88"/>
 <instance part="R3" gate="1" x="35.56" y="63.5"/>
 <instance part="R4" gate="1" x="43.18" y="86.36"/>
-<instance part="C1" gate="1" x="-10.16" y="66.04"/>
+<instance part="C1" gate="1" x="-10.16" y="71.12"/>
 <instance part="C2" gate="1" x="43.18" y="55.88"/>
 <instance part="T1" gate="1" x="48.26" y="63.5"/>
 <instance part="T2" gate="1" x="20.32" y="83.82"/>
 <instance part="D2" gate="1" x="73.66" y="55.88" rot="MR0"/>
-<instance part="C3" gate="1" x="66.04" y="67.31"/>
+<instance part="C3" gate="1" x="66.04" y="71.12"/>
 <instance part="L1" gate="L1" x="10.16" y="93.98" smashed="yes" rot="MR90">
 <attribute name="NAME" x="10.16" y="92.71" size="1.27" layer="95" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="10.16" y="96.52" size="1.27" layer="96" rot="MR180" align="top-center"/>
@@ -6485,7 +6485,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="-2.54" y1="93.98" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="93.98" x2="-17.78" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C1" gate="1" pin="+"/>
-<wire x1="-10.16" y1="68.58" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="73.66" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-10.16" y="93.98"/>
 <pinref part="5V" gate="+" pin="P$1"/>
 <pinref part="L1" gate="L1" pin="1"/>
@@ -6500,7 +6500,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="66.04" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C3" gate="1" pin="+"/>
 <wire x1="73.66" y1="93.98" x2="90.17" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="69.85" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="73.66" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
 <junction x="66.04" y="93.98"/>
 <pinref part="12V" gate="+" pin="P$1"/>
 <pinref part="D6" gate="1" pin="A"/>
@@ -6511,7 +6511,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="C1" gate="1" pin="-"/>
-<wire x1="-10.16" y1="63.5" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="68.58" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-10.16" y="48.26"/>
 <pinref part="R2" gate="1" pin="2"/>
@@ -6521,7 +6521,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="43.18" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C3" gate="1" pin="-"/>
-<wire x1="66.04" y1="64.77" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="68.58" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <junction x="66.04" y="48.26"/>
 <pinref part="C2" gate="1" pin="2"/>
 <wire x1="43.18" y1="53.34" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
@@ -6585,11 +6585,11 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="50.8" y1="68.58" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="T2" gate="1" pin="B"/>
 <pinref part="R1" gate="1" pin="2"/>
-<wire x1="10.16" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="73.66" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="73.66" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<junction x="12.7" y="83.82"/>
+<wire x1="10.16" y1="83.82" x2="13.97" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="73.66" x2="13.97" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="73.66" x2="13.97" y2="83.82" width="0.1524" layer="91"/>
+<junction x="13.97" y="83.82"/>
 </segment>
 </net>
 <net name="N$1" class="0">

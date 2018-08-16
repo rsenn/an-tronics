@@ -5559,7 +5559,7 @@
 <text x="10.16" y="2.54" size="1.778" layer="94">Iabc</text>
 <text x="17.78" y="3.175" size="1.778" layer="94">Out</text>
 <text x="10.795" y="6.985" size="1.778" layer="95">Name</text>
-<text x="10.795" y="10.16" size="1.778" layer="96">&gt;Value</text>
+<text x="10.795" y="10.16" size="1.778" layer="96">Value</text>
 </symbol>
 <symbol name="SYNTHDIY_OTA_WD_PWR">
 <wire x1="0" y1="9.525" x2="0" y2="4.445" width="0.254" layer="94"/>
