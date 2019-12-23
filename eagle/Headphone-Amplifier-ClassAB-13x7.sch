@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <description>4x4 - Three Transistor Headphone Amplifier - Class AB
 
 http://www.electronics-diy.com/4x4.php</description>
@@ -4621,7 +4621,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="B-T3" class="0">
 <segment>
 <pinref part="T3" gate="1" pin="B"/>
 <pinref part="D1" gate="1" pin="A"/>
@@ -4633,7 +4633,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <junction x="53.34" y="66.04"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="B-T2" class="0">
 <segment>
 <pinref part="T2" gate="1" pin="B"/>
 <pinref part="D2" gate="1" pin="C"/>
@@ -4652,7 +4652,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="Z" class="0">
 <segment>
 <pinref part="T3" gate="1" pin="E"/>
 <pinref part="T2" gate="1" pin="E"/>
@@ -4680,7 +4680,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="22.86" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="B-T1" class="0">
 <segment>
 <pinref part="C2" gate="1" pin="+"/>
 <pinref part="T1" gate="1" pin="B"/>
@@ -4719,7 +4719,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <junction x="20.32" y="30.48"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="OUT-" class="0">
 <segment>
 <pinref part="R2" gate="1" pin="2"/>
 <wire x1="66.04" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
@@ -4735,7 +4735,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <junction x="83.82" y="55.88"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="C3" gate="1" pin="+"/>
 <pinref part="R4" gate="1" pin="1"/>
