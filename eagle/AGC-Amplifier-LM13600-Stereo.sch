@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -73,7 +73,7 @@
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <description>&lt;h1&gt;AGC Amplifier using LM13600&lt;/h1&gt;&lt;br/&gt;
 From: UsingOTAs2.pdf&lt;br/&gt;
 URL: &lt;a href="http://www.idea2ic.com/LM13600/UsingOTAs2.pdf"&gt;http://www.idea2ic.com/LM13600/UsingOTAs2.pdf&lt;/a&gt;&lt;br/&gt;
@@ -229,6 +229,8 @@ XXX</description>
 <devices>
 <device name="" package="DIL16">
 <connects>
+<connect gate="5" pin="V+" pad="11"/>
+<connect gate="5" pin="V-" pad="6"/>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="4"/>
 <connect gate="A" pin="AMP/BIAS" pad="1"/>
@@ -243,8 +245,6 @@ XXX</description>
 <connect gate="B" pin="OUT" pad="12"/>
 <connect gate="B*" pin="BUFF/IN" pad="9"/>
 <connect gate="B*" pin="BUFF/OUT" pad="10"/>
-<connect gate="5" pin="V+" pad="11"/>
-<connect gate="5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

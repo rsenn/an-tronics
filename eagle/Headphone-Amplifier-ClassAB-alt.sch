@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <description>4x4 - Three Transistor Headphone Amplifier - Class AB
 
 http://www.electronics-diy.com/4x4.php</description>
@@ -94,8 +94,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-1.1359" y1="-2.413" x2="0" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
 <wire x1="0" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
 <wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
-<text x="1.016" y="0" size="0.8128" layer="25" ratio="10" align="center">&gt;NAME</text>
-<text x="-0.8255" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<text x="1.524" y="0" size="0.6096" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="-1.143" y="0" size="0.6096" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>
 <package name="TO92-CBE-A">
 <wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
@@ -113,6 +113,24 @@ http://www.electronics-diy.com/4x4.php</description>
 <text x="1.016" y="0" size="0.8128" layer="25" ratio="10" align="center">&gt;NAME</text>
 <text x="-0.8255" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>
+<package name="TO92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<pad name="3" x="0" y="-2.54" drill="0.8" shape="octagon" rot="R270"/>
+<pad name="1" x="0" y="2.54" drill="0.8" shape="octagon" rot="R270"/>
+<pad name="2" x="0" y="0" drill="0.8" shape="octagon" rot="R270"/>
+<text x="-1.27" y="2.54" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="1.27" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="2.664" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
+<text x="-0.635" y="1.905" size="0.3048" layer="21" rot="R180">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NPN">
@@ -128,7 +146,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="1.2065" y1="-2.12725" x2="1.5875" y2="-2.12725" width="0.254" layer="94"/>
 <wire x1="1.5875" y1="-2.12725" x2="1.4605" y2="-1.87325" width="0.254" layer="94"/>
 <text x="-1.524" y="2.54" size="1.27" layer="95" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="4.064" y="2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<text x="-1.524" y="-2.54" size="1.27" layer="96" ratio="10" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.508" y1="-2.54" x2="0.254" y2="2.54" layer="94"/>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
@@ -153,7 +171,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<circle x="1.27" y="0" radius="3.5921" width="0.254" layer="94"/>
+<circle x="1.27" y="0" radius="3.5921" width="0.381" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -162,7 +180,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <gate name="1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="CBE" package="TO92-CBE">
+<device name="" package="TO92-CBE">
 <connects>
 <connect gate="1" pin="B" pad="B"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -172,7 +190,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CBE-A" package="TO92-CBE-A">
+<device name="-A" package="TO92-CBE-A">
 <connects>
 <connect gate="1" pin="B" pad="B"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -184,26 +202,33 @@ http://www.electronics-diy.com/4x4.php</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC557" prefix="T">
+<deviceset name="S8050">
 <gates>
-<gate name="1" symbol="PNP" x="0" y="0"/>
+<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="CBE" package="TO92-CBE">
+<device name="" package="TO92">
 <connects>
-<connect gate="1" pin="B" pad="B"/>
-<connect gate="1" pin="C" pad="C"/>
-<connect gate="1" pin="E" pad="E"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CBE-A" package="TO92-CBE-A">
+</devices>
+</deviceset>
+<deviceset name="S8550">
+<gates>
+<gate name="G$1" symbol="PNP" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
 <connects>
-<connect gate="1" pin="B" pad="B"/>
-<connect gate="1" pin="C" pad="C"/>
-<connect gate="1" pin="E" pad="E"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4448,11 +4473,9 @@ http://www.electronics-diy.com/4x4.php</description>
 </class>
 </classes>
 <parts>
-<part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="T2" library="t" deviceset="BC557" device="CBE" value="BC557"/>
+<part name="T1" library="t" deviceset="BC547" device="" value="BC547"/>
 <part name="D1" library="d" deviceset="1N4148" device="34-5" value="1N4148"/>
 <part name="D2" library="d" deviceset="1N4148" device="34-5" value="1N4148"/>
-<part name="T3" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="R1" library="r" deviceset="R-H" device="0202/7" value="100k"/>
 <part name="R2" library="r" deviceset="R-H" device="0202/5" value="330"/>
 <part name="R3" library="r" deviceset="R" device="0202/5-V" value="100"/>
@@ -4468,6 +4491,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
 <part name="HDPH" library="pad" deviceset="SPAD+-" device="+-"/>
+<part name="U$2" library="t" deviceset="S8050" device=""/>
+<part name="T2" library="t" deviceset="S8550" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4476,10 +4501,8 @@ http://www.electronics-diy.com/4x4.php</description>
 </plain>
 <instances>
 <instance part="T1" gate="1" x="40.64" y="38.1"/>
-<instance part="T2" gate="1" x="66.04" y="45.72"/>
-<instance part="D1" gate="1" x="53.34" y="60.96" rot="R180"/>
-<instance part="D2" gate="1" x="53.34" y="50.8" rot="R180"/>
-<instance part="T3" gate="1" x="66.04" y="66.04"/>
+<instance part="D1" gate="1" x="53.34" y="60.96" rot="MR180"/>
+<instance part="D2" gate="1" x="53.34" y="50.8" rot="MR180"/>
 <instance part="R1" gate="1" x="43.18" y="55.88"/>
 <instance part="R2" gate="1" x="60.96" y="76.2"/>
 <instance part="R3" gate="1" x="83.82" y="66.04" rot="MR0"/>
@@ -4513,13 +4536,14 @@ http://www.electronics-diy.com/4x4.php</description>
 <instance part="U$1" gate="1" x="99.06" y="91.44"/>
 <instance part="HDPH" gate="+" x="101.6" y="76.2" rot="R180"/>
 <instance part="HDPH" gate="-" x="101.6" y="55.88" rot="R180"/>
+<instance part="U$2" gate="G$1" x="66.04" y="66.04"/>
+<instance part="T2" gate="G$1" x="66.04" y="45.72"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="T3" gate="1" pin="B"/>
 <pinref part="D1" gate="1" pin="A"/>
 <wire x1="63.5" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="66.04" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
@@ -4527,11 +4551,11 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="55.88" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="76.2" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 <junction x="53.34" y="66.04"/>
+<pinref part="U$2" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="T2" gate="1" pin="B"/>
 <pinref part="D2" gate="1" pin="C"/>
 <wire x1="63.5" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="45.72" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
@@ -4539,6 +4563,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="43.18" y1="43.18" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 <junction x="53.34" y="45.72"/>
+<pinref part="T2" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4548,10 +4573,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="T3" class="0">
 <segment>
-<pinref part="T3" gate="1" pin="E"/>
-<pinref part="T2" gate="1" pin="E"/>
 <wire x1="68.58" y1="60.96" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R1" gate="1" pin="2"/>
 <wire x1="68.58" y1="55.88" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
@@ -4559,6 +4582,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <junction x="68.58" y="55.88"/>
 <pinref part="C4" gate="1" pin="-"/>
 <wire x1="68.58" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="E"/>
+<pinref part="T2" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4596,7 +4621,6 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="43.18" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="T2" gate="1" pin="C"/>
 <pinref part="S1" gate="1" pin="GND"/>
 <wire x1="68.58" y1="40.64" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="T1" gate="1" pin="E"/>
@@ -4613,6 +4637,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <junction x="20.32" y="30.48"/>
 <pinref part="BAT" gate="-" pin="P$1"/>
 <wire x1="68.58" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4647,7 +4672,6 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="83.82" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="86.36" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <junction x="68.58" y="86.36"/>
-<pinref part="T3" gate="1" pin="C"/>
 <junction x="83.82" y="86.36"/>
 <wire x1="83.82" y1="71.12" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R3" gate="1" pin="1"/>
@@ -4655,6 +4679,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="83.82" y1="76.2" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <junction x="83.82" y="76.2"/>
+<pinref part="U$2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="V+" class="0">
