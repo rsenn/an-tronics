@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -71,7 +71,7 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="trash" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <description>+5V to +13V Converter
 A cheap circuit to make +13V from a +5V supply
 Roman Black - orig Sep 2002 - updated Aug 2006 
@@ -5650,8 +5650,8 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="-1.1359" y1="-2.413" x2="0" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
 <wire x1="0" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
 <wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
-<text x="1.016" y="0" size="0.8128" layer="25" ratio="10" align="center">&gt;NAME</text>
-<text x="-0.8255" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<text x="1.524" y="0" size="0.6096" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="-1.143" y="0" size="0.6096" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>
 <package name="TO92-CBE-A">
 <wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
@@ -5683,13 +5683,16 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="1.4605" y1="-1.61925" x2="1.2065" y2="-2.12725" width="0.254" layer="94"/>
 <wire x1="1.2065" y1="-2.12725" x2="1.5875" y2="-2.12725" width="0.254" layer="94"/>
 <wire x1="1.5875" y1="-2.12725" x2="1.4605" y2="-1.87325" width="0.254" layer="94"/>
-<text x="-1.524" y="2.54" size="1.27" layer="95" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="4.064" y="2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<text x="5.08" y="2.54" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.508" y1="-2.54" x2="0.254" y2="2.54" layer="94"/>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 <circle x="1.27" y="0" radius="3.5921" width="0.381" layer="94"/>
+<text x="3.81" y="-3.81" size="0.6096" layer="94" font="vector" align="center">E</text>
+<text x="3.81" y="3.81" size="0.6096" layer="94" font="vector" align="center">C</text>
+<text x="-3.81" y="-1.27" size="0.6096" layer="94" font="vector" align="center">B</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5760,29 +5763,6 @@ http://www.romanblack.com/smps/conv.htm</description>
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="L-04/7V">
-<pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
-<pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
-<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-2.032" x2="0" y2="-0.762" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-0.762" x2="-1.27" y2="-2.032" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-2.794" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-1.524" x2="-1.27" y2="-2.794" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-3.556" x2="0" y2="-2.286" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.286" x2="-1.27" y2="-3.556" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.27" y1="-3.556" x2="0" y2="-4.826" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-3.556" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="-1.016" y="-5.08" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
-<text x="-1.016" y="-6.35" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
-</package>
 <package name="L-02/5V">
 <pad name="2" x="0" y="-2.54" drill="0.8" rot="R180"/>
 <pad name="1" x="0" y="2.54" drill="0.8" rot="R180"/>
@@ -5831,31 +5811,29 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
 </package>
 <package name="L-04-5/7V">
-<pad name="2" x="3.81" y="-3.81" drill="0.8" rot="R180"/>
-<pad name="1" x="-1.27" y="3.81" drill="0.8" rot="R180"/>
-<wire x1="2.54" y1="2.413" x2="1.27" y2="3.683" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="3.683" x2="0" y2="2.413" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="1.651" x2="1.27" y2="2.921" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.921" x2="0" y2="1.651" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.889" x2="1.27" y2="2.159" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="2.159" x2="0" y2="0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="0.127" x2="1.27" y2="1.397" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="1.397" x2="0" y2="0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-0.635" x2="1.27" y2="0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-1.397" x2="1.27" y2="-0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.127" x2="0" y2="-1.397" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.159" x2="1.27" y2="-0.889" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-0.889" x2="0" y2="-2.159" width="0.127" layer="21" curve="90"/>
-<wire x1="0" y1="-2.159" x2="1.27" y2="-3.429" width="0.127" layer="21" curve="90"/>
-<wire x1="2.54" y1="-2.159" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0" y1="2.413" x2="0" y2="3.81" width="0.127" layer="21"/>
-<text x="-0.508" y="0.762" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-0.508" y="-0.762" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
+<pad name="2" x="2.54" y="-3.81" drill="0.8"/>
+<pad name="1" x="-2.54" y="3.81" drill="0.8"/>
+<wire x1="1.905" y1="2.286" x2="0" y2="4.064" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="4.064" x2="-1.905" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="1.397" x2="0" y2="3.175" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.175" x2="-1.905" y2="1.397" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0.508" x2="0" y2="2.413" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.413" x2="-1.905" y2="0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.381" x2="0.254" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="1.524" x2="-1.905" y2="-0.381" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.27" x2="0" y2="0.635" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.635" x2="-1.905" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-2.159" x2="0" y2="-0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.254" x2="-1.905" y2="-2.159" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.905" y1="-2.159" x2="0" y2="-4.064" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-2.159" x2="1.905" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="2.413" x2="-1.905" y2="3.81" width="0.127" layer="21"/>
+<text x="-2.413" y="0.762" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-2.413" y="-0.762" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-2.54" y1="3.81" x2="-1.905" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-3.81" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/5V">
+<package name="L-04-2/5V">
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
 <pad name="1" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
@@ -5872,7 +5850,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <text x="-1.778" y="-0.635" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/5">
+<package name="L-04-2/5">
 <pad name="2" x="2.54" y="1.27" drill="0.8" rot="R270"/>
 <pad name="1" x="-2.54" y="-1.27" drill="0.8" rot="R270"/>
 <wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
@@ -5932,7 +5910,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <text x="0" y="1.905" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.905" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="L-04-5/5V-X">
+<package name="L-04-2/5V-X">
 <pad name="2" x="-1.27" y="-2.54" drill="0.8"/>
 <pad name="1" x="1.27" y="2.54" drill="0.8"/>
 <wire x1="-1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="-90"/>
@@ -5970,6 +5948,29 @@ http://www.romanblack.com/smps/conv.htm</description>
 <text x="0" y="2.032" size="0.8128" layer="25" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
 </package>
+<package name="L-04/7V">
+<pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
+<pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
+<wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.524" x2="-1.27" y2="0.254" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0.762" x2="-1.27" y2="-0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-2.032" x2="0" y2="-0.762" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-0.762" x2="-1.27" y2="-2.032" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-2.794" x2="0" y2="-1.524" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.524" x2="-1.27" y2="-2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-3.556" x2="0" y2="-2.286" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-2.286" x2="-1.27" y2="-3.556" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.27" y1="-3.556" x2="0" y2="-4.826" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="-3.556" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="-1.016" y="-5.08" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
+<text x="-1.016" y="-6.35" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
+</package>
 <package name="L-04/7V-X">
 <pad name="1" x="-1.27" y="-3.81" drill="0.8"/>
 <pad name="2" x="1.27" y="3.81" drill="0.8"/>
@@ -5990,8 +5991,103 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="1.27" y1="-2.286" x2="0" y2="-3.556" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="-2.286" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.286" x2="1.27" y2="3.81" width="0.127" layer="21"/>
-<text x="1.016" y="-3.81" size="0.8128" layer="25" align="center-left">&gt;NAME</text>
-<text x="1.016" y="-5.08" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
+<text x="-1.016" y="3.556" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.524" y="0" size="0.6096" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+<package name="ED16-X">
+<wire x1="-4.445" y1="0.508" x2="-7.62" y2="1.143" width="0.6096" layer="51"/>
+<wire x1="3.429" y1="2.794" x2="6.096" y2="4.826" width="0.6096" layer="21"/>
+<wire x1="4.318" y1="1.397" x2="7.366" y2="2.54" width="0.6096" layer="21"/>
+<wire x1="3.937" y1="2.159" x2="6.858" y2="3.683" width="0.6096" layer="21"/>
+<wire x1="4.445" y1="0.635" x2="7.62" y2="1.27" width="0.6096" layer="21"/>
+<wire x1="2.921" y1="3.302" x2="5.207" y2="5.715" width="0.6096" layer="21"/>
+<wire x1="2.413" y1="3.683" x2="4.191" y2="6.477" width="0.6096" layer="21"/>
+<wire x1="1.778" y1="4.064" x2="3.048" y2="7.112" width="0.6096" layer="21"/>
+<wire x1="-4.191" y1="1.27" x2="-7.239" y2="2.54" width="0.6096" layer="51"/>
+<wire x1="-4.064" y1="-0.127" x2="-7.62" y2="-1.143" width="0.6096" layer="51"/>
+<wire x1="-4.064" y1="-1.905" x2="-6.858" y2="-3.683" width="0.6096" layer="21"/>
+<wire x1="4.445" y1="-0.127" x2="7.747" y2="-0.127" width="0.6096" layer="21"/>
+<wire x1="4.445" y1="-0.889" x2="7.62" y2="-1.651" width="0.6096" layer="21"/>
+<wire x1="4.191" y1="-1.651" x2="7.112" y2="-3.048" width="0.6096" layer="21"/>
+<wire x1="3.81" y1="-2.413" x2="6.477" y2="-4.191" width="0.6096" layer="21"/>
+<wire x1="3.302" y1="-3.048" x2="5.715" y2="-5.207" width="0.6096" layer="21"/>
+<wire x1="2.667" y1="-3.556" x2="4.826" y2="-6.096" width="0.6096" layer="21"/>
+<wire x1="2.032" y1="-3.937" x2="3.683" y2="-6.858" width="0.6096" layer="21"/>
+<wire x1="1.27" y1="-4.318" x2="2.413" y2="-7.366" width="0.6096" layer="21"/>
+<wire x1="0.381" y1="-4.445" x2="0.889" y2="-7.62" width="0.6096" layer="21"/>
+<wire x1="-0.381" y1="-4.445" x2="-0.508" y2="-7.747" width="0.6096" layer="21"/>
+<wire x1="-1.143" y1="-4.318" x2="-1.778" y2="-7.493" width="0.6096" layer="21"/>
+<wire x1="-1.778" y1="-4.064" x2="-3.048" y2="-7.112" width="0.6096" layer="21"/>
+<wire x1="-2.54" y1="-3.683" x2="-4.318" y2="-6.477" width="0.6096" layer="21"/>
+<wire x1="-3.175" y1="-3.175" x2="-5.334" y2="-5.715" width="0.6096" layer="21"/>
+<wire x1="-3.683" y1="-2.54" x2="-6.223" y2="-4.699" width="0.6096" layer="21"/>
+<wire x1="-4.318" y1="-1.016" x2="-7.366" y2="-2.413" width="0.6096" layer="51"/>
+<wire x1="1.143" y1="4.318" x2="1.778" y2="7.493" width="0.6096" layer="21"/>
+<wire x1="0.381" y1="4.445" x2="0.508" y2="7.747" width="0.6096" layer="21"/>
+<wire x1="-0.381" y1="4.445" x2="-0.889" y2="7.62" width="0.6096" layer="21"/>
+<wire x1="-1.143" y1="4.318" x2="-2.286" y2="7.366" width="0.6096" layer="21"/>
+<wire x1="-1.778" y1="4.064" x2="-3.302" y2="6.985" width="0.6096" layer="21"/>
+<wire x1="-2.413" y1="3.683" x2="-4.318" y2="6.35" width="0.6096" layer="21"/>
+<wire x1="-3.048" y1="3.175" x2="-5.334" y2="5.588" width="0.6096" layer="21"/>
+<wire x1="-3.556" y1="2.54" x2="-6.223" y2="4.572" width="0.6096" layer="21"/>
+<wire x1="-3.937" y1="1.905" x2="-6.858" y2="3.429" width="0.6096" layer="21"/>
+<wire x1="-4.4519" y1="-1.5038" x2="-4.4519" y2="1.5038" width="0.1524" layer="21" curve="322.67126"/>
+<wire x1="-7.338" y1="-1.5161" x2="-7.338" y2="1.5161" width="0.1524" layer="21" curve="336.652815"/>
+<wire x1="-7.338" y1="1.5161" x2="-7.338" y2="-1.5161" width="0.1524" layer="51" curve="23.347185"/>
+<wire x1="-4.4519" y1="1.5038" x2="-4.4519" y2="-1.5038" width="0.1524" layer="51" curve="37.32874"/>
+<pad name="2" x="0" y="6.35" drill="1.016" diameter="2.1844" shape="octagon" rot="R90"/>
+<pad name="1" x="0" y="-3.81" drill="1.016" diameter="2.1844" shape="octagon" rot="R90"/>
+<text x="0" y="8.255" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="0" y="-8.255" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+</package>
+<package name="L-04-5/5V">
+<pad name="2" x="2.54" y="-2.54" drill="0.8"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.8"/>
+<wire x1="1.905" y1="1.778" x2="0" y2="3.683" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.683" x2="-1.905" y2="1.778" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0.889" x2="0.254" y2="2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="2.794" x2="-1.905" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0" x2="0" y2="1.905" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.905" x2="-1.905" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.889" x2="0" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.016" x2="-1.905" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.905" y1="-0.889" x2="0" y2="-2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.889" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.778" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<text x="-2.413" y="0.762" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-2.413" y="-0.762" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+</package>
+<package name="L-04-5/5V-C">
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
+<pad name="1" x="0" y="2.54" drill="0.8"/>
+<wire x1="1.905" y1="1.778" x2="0" y2="3.683" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="3.683" x2="-1.905" y2="1.778" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0.889" x2="0.254" y2="2.794" width="0.127" layer="21" curve="90"/>
+<wire x1="0.254" y1="2.794" x2="-1.905" y2="0.889" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="0" x2="0" y2="1.905" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.905" x2="-1.905" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.905" y1="-0.889" x2="0" y2="1.016" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.016" x2="-1.905" y2="-0.889" width="0.127" layer="21" curve="90"/>
+<text x="-2.413" y="0.762" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-2.413" y="-0.762" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<wire x1="1.905" y1="-0.889" x2="0" y2="-2.794" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="L-08-5/5H">
+<pad name="2" x="2.54" y="-2.54" drill="0.8" rot="R90"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.8" rot="R90"/>
+<text x="-2.54" y="4.191" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
+<text x="-0.381" y="-3.81" size="0.8128" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-2.159" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="2.54" x2="-2.159" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="-2.54" x2="2.159" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="0.889" y1="-3.048" x2="2.159" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-3.048" x2="0.635" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="-3.048" x2="-0.889" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.159" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="-3.048" x2="-0.127" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="0.127" y1="-3.048" x2="1.397" y2="3.302" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6016,15 +6112,6 @@ http://www.romanblack.com/smps/conv.htm</description>
 <gate name="L1" symbol="L-SHORT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="04/7" package="L-04/7V">
-<connects>
-<connect gate="L1" pin="1" pad="1"/>
-<connect gate="L1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="02/5" package="L-02/5V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
@@ -6045,14 +6132,14 @@ http://www.romanblack.com/smps/conv.htm</description>
 </device>
 <device name="04-5/7" package="L-04-5/7V">
 <connects>
-<connect gate="L1" pin="1" pad="1"/>
-<connect gate="L1" pin="2" pad="2"/>
+<connect gate="L1" pin="1" pad="2"/>
+<connect gate="L1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/5V" package="L-04-5/5V">
+<device name="04-2/5V" package="L-04-2/5V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6061,7 +6148,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/5" package="L-04-5/5">
+<device name="04-5/5" package="L-04-2/5">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6088,7 +6175,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04-5/5V-X" package="L-04-5/5V-X">
+<device name="04-5/5V-X" package="L-04-2/5V-X">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6097,7 +6184,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/7" package="L-04/7">
+<device name="04/7" package="L-04/7">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6106,7 +6193,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/7V" package="L-04/7V">
+<device name="04/7V" package="L-04/7V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6115,7 +6202,43 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/7V-X" package="L-04/7V-X">
+<device name="04/7V-X" package="L-04/7V-X">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ED16-X" package="ED16-X">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="04-5/5V" package="L-04-5/5V">
+<connects>
+<connect gate="L1" pin="1" pad="2"/>
+<connect gate="L1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="04-5/5V-C" package="L-04-5/5V-C">
+<connects>
+<connect gate="L1" pin="1" pad="1"/>
+<connect gate="L1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-08-5/5H" package="L-08-5/5H">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6153,7 +6276,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <part name="+12V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="GND2" library="pad" deviceset="SPAD" device=""/>
-<part name="L1" library="l" deviceset="L-SHORT" device="02/5"/>
+<part name="L1" library="l" deviceset="L-SHORT" device="ED16-X"/>
 </parts>
 <sheets>
 <sheet>
@@ -6204,9 +6327,9 @@ http://www.romanblack.com/smps/conv.htm</description>
 <pinref part="C1" gate="1" pin="+"/>
 <wire x1="-10.16" y1="68.58" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-10.16" y="88.9"/>
-<pinref part="L1" gate="L1" pin="2"/>
 <wire x1="2.54" y1="88.9" x2="-5.08" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-5.08" y="88.9"/>
+<pinref part="L1" gate="L1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6291,9 +6414,9 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="22.86" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="T2" gate="1" pin="C"/>
 <wire x1="22.86" y1="83.82" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="L1" gate="L1" pin="1"/>
 <wire x1="12.7" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
 <junction x="22.86" y="88.9"/>
+<pinref part="L1" gate="L1" pin="1"/>
 </segment>
 </net>
 </nets>
