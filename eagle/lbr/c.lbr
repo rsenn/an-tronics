@@ -2332,7 +2332,7 @@
 <wire x1="0.2032" y1="0.762" x2="0.2032" y2="-0.762" width="0.09525" layer="21"/>
 <wire x1="0.2032" y1="-0.762" x2="0.5842" y2="-0.762" width="0.09525" layer="21"/>
 <wire x1="0.5842" y1="-0.762" x2="0.5842" y2="0.762" width="0.09525" layer="21"/>
-<circle x="0" y="0" radius="3.81" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.286" width="0.127" layer="21"/>
 <pad name="-" x="-1.27" y="0" drill="0.9" diameter="1.778" rot="R180"/>
 <pad name="+" x="1.27" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
 <text x="-1.11125" y="1.778" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
