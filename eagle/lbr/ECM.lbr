@@ -74,7 +74,7 @@
 <package name="ECM-5">
 <circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
 <circle x="1.27" y="1.27" radius="0.4279" width="0" layer="21"/>
-<pad name="2" x="0" y="-1.27" drill="0.7" diameter="1.2"/>
+<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
 <pad name="1" x="0" y="1.27" drill="0.7" diameter="1.2" shape="octagon"/>
 <text x="-1.27" y="0" size="1.016" layer="25" rot="R90" align="center">&gt;NAME</text>
 <text x="1.918" y="-1.752" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
@@ -82,7 +82,7 @@
 <package name="ECM-4">
 <circle x="0" y="0" radius="2.032" width="0.127" layer="21"/>
 <circle x="0.889" y="1.27" radius="0.2032" width="0" layer="21"/>
-<pad name="2" x="0" y="-1.27" drill="0.7" diameter="1.2"/>
+<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
 <pad name="1" x="0" y="1.27" drill="0.7" diameter="1.2" shape="octagon"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;NAME</text>
 <text x="0" y="-2.286" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>

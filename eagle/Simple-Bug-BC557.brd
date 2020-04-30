@@ -84,7 +84,7 @@
 <package name="ECM-5">
 <circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
 <circle x="1.27" y="1.27" radius="0.4279" width="0" layer="21"/>
-<pad name="2" x="0" y="-1.27" drill="0.7" diameter="1.2"/>
+<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
 <pad name="1" x="0" y="1.27" drill="0.7" diameter="1.2" shape="octagon"/>
 <text x="-1.27" y="0" size="1.016" layer="25" rot="R90" align="center">&gt;NAME</text>
 <text x="1.918" y="-1.752" size="1.016" layer="27" align="top-left">&gt;VALUE</text>
@@ -1179,8 +1179,8 @@
  &lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
 <package name="0202V">
-<pad name="2" x="0" y="1.27" drill="0.8" rot="R270"/>
-<pad name="1" x="0" y="-1.27" drill="0.8" rot="R270"/>
+<pad name="2" x="0" y="1.27" drill="0.9" rot="R270"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" rot="R270"/>
 <text x="-1.016" y="0.508" size="0.6096" layer="25" ratio="10" align="center-right">&gt;NAME</text>
 <text x="-1.016" y="-0.508" size="0.6096" layer="27" ratio="10" align="center-right">&gt;VALUE</text>
 <circle x="0" y="0.762" radius="0.762" width="0.127" layer="21"/>
@@ -1189,8 +1189,8 @@
 <circle x="0" y="0.762" radius="0.508" width="0.0508" layer="51"/>
 </package>
 <package name="0202/5">
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="1" x="-2.54" y="0" drill="0.9"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
@@ -2290,7 +2290,7 @@
 <wire x1="-0.1397" y1="0.6985" x2="-0.4445" y2="0.6985" width="0.0762" layer="51"/>
 <wire x1="-0.4445" y1="0.6985" x2="-0.4445" y2="0" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.7"/>
+<pad name="-" x="1.27" y="0" drill="0.9"/>
 <pad name="+" x="-1.27" y="0" drill="0.7" shape="square"/>
 <text x="0" y="1.7145" size="0.6096" layer="25" rot="R180" align="top-center">&gt;NAME</text>
 <text x="0" y="-1.7145" size="0.6096" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
@@ -2306,10 +2306,10 @@
 <wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.889" y1="0.635" x2="1.524" y2="0" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="-0.254" y="0.8255" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="0.254" y="0.8255" size="0.6096" layer="27">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" rot="R180"/>
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -2324,7 +2324,7 @@
 <library name="pad">
 <packages>
 <package name="SPAD">
-<pad name="1" x="0" y="0" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" stop="no"/>
 <text x="-1.0795" y="0" size="0.6096" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
@@ -3409,9 +3409,9 @@
 <wire x1="-1.1359" y1="-2.413" x2="0" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
 <wire x1="0" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
 <wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
-<pad name="C" x="0" y="2.54" drill="0.7" diameter="1.4224"/>
-<pad name="E" x="0" y="-2.54" drill="0.7" diameter="1.4224"/>
-<pad name="B" x="2.54" y="0" drill="0.7" diameter="1.4224"/>
+<pad name="C" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="E" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="B" x="2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="1.016" y="0" size="0.8128" layer="25" ratio="10" align="center">&gt;NAME</text>
 <text x="-0.8255" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 </package>

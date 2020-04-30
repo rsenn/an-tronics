@@ -87,7 +87,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <library name="pad">
 <packages>
 <package name="SPAD">
-<pad name="1" x="0" y="0" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" stop="no"/>
 <text x="-1.143" y="0" size="0.6096" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
@@ -100,10 +100,10 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.889" y1="0.635" x2="1.524" y2="0" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="-1.905" y="0.8255" size="1.016" layer="25">&gt;NAME</text>
 <text x="2.159" y="-0.8255" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" rot="R180"/>
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -119,10 +119,10 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
 <wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
-<pad name="2" x="0" y="-1.27" drill="0.8" rot="R270" stop="no"/>
+<pad name="2" x="0" y="-1.27" drill="0.9" rot="R270" stop="no"/>
 <text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
 <text x="0.508" y="-2.413" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
-<pad name="1" x="0" y="1.27" drill="0.8" rot="R90" stop="no"/>
+<pad name="1" x="0" y="1.27" drill="0.9" rot="R90" stop="no"/>
 <wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
@@ -136,10 +136,10 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="0.9652" y1="0.508" x2="0.9652" y2="-0.508" width="0.091440625" layer="21"/>
 <wire x1="2.54" y1="0" x2="1.6637" y2="0" width="0.0762" layer="51"/>
 <wire x1="0" y1="0" x2="0.889" y2="0" width="0.0762" layer="51"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="0.254" y="0.9652" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="3.556" y="0" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.9" rot="R180"/>
 <wire x1="3.429" y1="0" x2="2.667" y2="-0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="-0.127" y1="-0.889" x2="2.667" y2="-0.889" width="0.091440625" layer="21"/>
 <wire x1="-0.127" y1="-0.889" x2="-0.889" y2="0" width="0.091440625" layer="21" curve="-90"/>
@@ -163,8 +163,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="-3.429" y1="1.27" x2="-3.683" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="1.016" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="-1.016" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="2.54" y="0" drill="0.8" rot="R180"/>
-<pad name="2" x="-2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="2.54" y="0" drill="0.9" rot="R180"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" rot="R180"/>
 <text x="4.064" y="1.27" size="1.016" layer="25" rot="R270">&gt;NAME</text>
 <text x="-4.064" y="-1.27" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -230,9 +230,9 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="-1.395" y1="-3.255" x2="1.395" y2="-2.73" width="0.2032" layer="21"/>
 <wire x1="-1.17" y1="-6.215" x2="1.395" y2="-5.69" width="0.2032" layer="21"/>
 <wire x1="-4.54" y1="1.504" x2="4.54" y2="1.504" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.9304"/>
-<pad name="2" x="0" y="0" drill="1" diameter="1.9304"/>
-<pad name="3" x="2.54" y="0" drill="1" diameter="1.9304"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="-4.572" y="2.159" size="1.016" layer="25">&gt;NAME</text>
 <text x="2.032" y="-2.921" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 </package>
@@ -241,8 +241,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.7" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.7" rot="R270"/>
+<pad name="1" x="0" y="3.81" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" rot="R270"/>
 <text x="-0.889" y="0" size="0.8128" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
@@ -319,8 +319,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="L-04-5/5V">
-<pad name="2" x="2.54" y="-2.54" drill="0.8"/>
-<pad name="1" x="-2.54" y="2.54" drill="0.8"/>
+<pad name="2" x="2.54" y="-2.54" drill="0.9"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.9"/>
 <wire x1="1.905" y1="1.778" x2="0" y2="3.683" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="3.683" x2="-1.905" y2="1.778" width="0.127" layer="21" curve="90"/>
 <wire x1="1.905" y1="0.889" x2="0.254" y2="2.794" width="0.127" layer="21" curve="90"/>
@@ -338,8 +338,8 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <wire x1="1.905" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
 </package>
 <package name="L-02/5V">
-<pad name="2" x="0" y="-2.54" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="2.54" drill="0.8" rot="R180"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" rot="R180"/>
+<pad name="1" x="0" y="2.54" drill="0.9" rot="R180"/>
 <wire x1="0.4445" y1="1.0795" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="1.524" x2="-0.508" y2="1.0795" width="0.127" layer="21" curve="90"/>
 <wire x1="0.4445" y1="0.508" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>

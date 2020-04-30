@@ -96,7 +96,7 @@
 </package>
 <package name="PIC-UART">
 <pad name="20" x="0" y="7.62" drill="1" shape="octagon" rot="R270"/>
-<pad name="19" x="0" y="5.08" drill="1" shape="square" rot="R270"/>
+<pad name="19" x="0" y="5.08" drill="0.9" shape="square" rot="R270"/>
 <pad name="18" x="0" y="2.54" drill="1" shape="octagon" rot="R270"/>
 <pad name="17" x="0" y="0" drill="1" shape="octagon" rot="R270"/>
 <wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="22"/>
@@ -112,7 +112,7 @@
 <text x="-2.54" y="-1.016" size="1.016" layer="25" rot="R270" align="top-right">&gt;NAME</text>
 </package>
 <package name="PIC-UART-NOVDD">
-<pad name="19" x="1.27" y="1.27" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="19" x="1.27" y="1.27" drill="0.9" diameter="1.778" shape="square"/>
 <pad name="18" x="3.81" y="1.27" drill="0.8" diameter="1.778" shape="octagon"/>
 <pad name="17" x="6.35" y="1.27" drill="0.8" diameter="1.778" shape="octagon"/>
 <wire x1="0" y1="2.54" x2="0" y2="0" width="0.127" layer="21"/>
@@ -166,7 +166,7 @@
 <pad name="4" x="7.62" y="0" drill="0.9" diameter="1.6764" shape="octagon" rot="R180"/>
 <pad name="3" x="5.08" y="0" drill="0.9" diameter="1.6764" shape="octagon" rot="R180"/>
 <pad name="2" x="2.54" y="0" drill="0.9" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.6764" shape="square" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
 <wire x1="-1.397" y1="1.397" x2="-1.397" y2="-1.397" width="0.127" layer="21"/>
 <wire x1="-1.397" y1="-1.397" x2="11.557" y2="-1.397" width="0.127" layer="21"/>
 <wire x1="11.557" y1="-1.397" x2="11.557" y2="1.397" width="0.127" layer="21"/>
@@ -179,7 +179,7 @@
 <pad name="4" x="7.62" y="0" drill="0.9" diameter="1.6764" shape="octagon" rot="R180"/>
 <pad name="3" x="5.08" y="0" drill="0.9" diameter="1.6764" shape="octagon" rot="R180"/>
 <pad name="2" x="2.54" y="0" drill="0.9" diameter="1.6764" shape="octagon" rot="R180"/>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.6764" shape="square" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-1.27" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-1.27" x2="8.89" y2="1.27" width="0.127" layer="21"/>
@@ -202,7 +202,7 @@
 </package>
 <package name="CONN-2P">
 <pad name="2" x="-2.54" y="0" drill="1.2" diameter="1.9304" shape="octagon"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="1.9304" shape="square"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" shape="square"/>
 <wire x1="1.778" y1="-2.032" x2="1.778" y2="2.032" width="0.127" layer="21"/>
 <wire x1="1.778" y1="2.032" x2="-4.318" y2="2.032" width="0.127" layer="21"/>
 <wire x1="-4.318" y1="2.032" x2="-4.318" y2="-2.032" width="0.127" layer="21"/>
@@ -212,7 +212,7 @@
 </package>
 <package name="PIC-UART-MCLR">
 <pad name="20" x="2.54" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
-<pad name="19" x="0" y="0" drill="0.8" diameter="1.778" shape="square" rot="R180"/>
+<pad name="19" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
 <pad name="18" x="-2.54" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
 <pad name="17" x="-5.08" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
 <wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="22"/>
@@ -235,7 +235,7 @@
 <pad name="4" x="7.62" y="0" drill="0.9" diameter="1.4224" shape="octagon" rot="R180"/>
 <pad name="3" x="5.08" y="0" drill="0.9" diameter="1.4224" shape="octagon" rot="R180"/>
 <pad name="2" x="2.54" y="0" drill="0.9" diameter="1.4224" shape="octagon" rot="R180"/>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.4224" shape="square" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
 <wire x1="-1.016" y1="1.27" x2="-1.016" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.016" y1="-1.27" x2="18.796" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="18.796" y1="-1.27" x2="18.796" y2="1.27" width="0.127" layer="21"/>
@@ -248,7 +248,7 @@
 </package>
 <package name="PIC-ICSP">
 <pad name="4" x="7.62" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
-<pad name="1" x="0" y="0" drill="0.8" diameter="1.778" shape="square" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
 <pad name="2" x="2.54" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
 <pad name="3" x="5.08" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
 <wire x1="11.43" y1="1.27" x2="11.43" y2="-1.27" width="0.127" layer="22"/>
@@ -271,7 +271,7 @@
 <pad name="E" x="0" y="7.62" drill="0.9" diameter="1.4224" shape="octagon" rot="R270"/>
 <pad name="RS" x="0" y="5.08" drill="0.9" diameter="1.4224" shape="octagon" rot="R270"/>
 <pad name="VCC" x="0" y="2.54" drill="0.9" diameter="1.4224" shape="octagon" rot="R270"/>
-<pad name="GND" x="0" y="0" drill="0.9" diameter="1.4224" shape="square" rot="R270"/>
+<pad name="GND" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R270"/>
 <wire x1="-1.27" y1="-1.524" x2="1.27" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-1.524" x2="1.27" y2="19.304" width="0.127" layer="21"/>
 <wire x1="1.27" y1="19.304" x2="-1.27" y2="19.304" width="0.127" layer="21"/>
@@ -292,7 +292,7 @@
 </package>
 <package name="CONN-2P-V">
 <pad name="2" x="0" y="2.54" drill="1.2" diameter="1.9304" shape="octagon" rot="R270"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="1.778" shape="square" rot="R270"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" shape="square" rot="R270"/>
 <wire x1="-1.524" y1="-1.524" x2="1.524" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="1.524" y1="-1.524" x2="1.524" y2="4.064" width="0.127" layer="21"/>
 <wire x1="1.524" y1="4.064" x2="-1.524" y2="4.064" width="0.127" layer="21"/>
@@ -550,7 +550,7 @@
 <package name="PIC-UART-L">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <pad name="20" x="0" y="3.81" drill="1" shape="octagon" rot="R270"/>
-<pad name="19" x="0" y="1.27" drill="1" shape="square" rot="R270"/>
+<pad name="19" x="0" y="1.27" drill="0.9" shape="square" rot="R270"/>
 <pad name="18" x="0" y="-1.27" drill="1" shape="octagon" rot="R270"/>
 <pad name="17" x="0" y="-3.81" drill="1" shape="octagon" rot="R270"/>
 <wire x1="1.27" y1="-5.08" x2="-1.27" y2="-5.08" width="0.127" layer="22"/>
@@ -568,7 +568,7 @@
 <package name="PIC-UART-X">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <pad name="20" x="0" y="3.81" drill="1" shape="octagon" rot="R270"/>
-<pad name="19" x="0" y="1.27" drill="1" shape="square" rot="R270"/>
+<pad name="19" x="0" y="1.27" drill="0.9" shape="square" rot="R270"/>
 <pad name="18" x="0" y="-1.27" drill="1" shape="octagon" rot="R270"/>
 <pad name="17" x="0" y="-3.81" drill="1" shape="octagon" rot="R270"/>
 <wire x1="1.27" y1="-5.08" x2="-1.27" y2="-5.08" width="0.127" layer="22"/>
@@ -586,7 +586,7 @@
 <package name="PIC32-JTAG">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <pad name="4" x="1.27" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
-<pad name="1" x="-6.35" y="0" drill="0.8" diameter="1.778" shape="square" rot="R180"/>
+<pad name="1" x="-6.35" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
 <pad name="2" x="-3.81" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
 <pad name="3" x="-1.27" y="0" drill="0.8" diameter="1.778" shape="octagon" rot="R180"/>
 <wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="22"/>
@@ -608,7 +608,7 @@
 <package name="RS232-4PIN-NEW-L">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <pad name="3" x="0" y="1.27" drill="1" diameter="1.778" shape="octagon" rot="R270"/>
-<pad name="1" x="0" y="-3.81" drill="1" diameter="1.778" shape="square" rot="R270"/>
+<pad name="1" x="0" y="-3.81" drill="0.9" diameter="1.778" shape="square" rot="R270"/>
 <pad name="2" x="0" y="-1.27" drill="1" diameter="1.778" shape="octagon" rot="R270"/>
 <pad name="4" x="0" y="3.81" drill="1" diameter="1.778" shape="octagon" rot="R270"/>
 <wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
@@ -625,7 +625,7 @@
 <package name="RS232-4PIN-NEW">
 <description>&lt;b&gt;Pin connectors&lt;/b&gt;&lt;p&gt;</description>
 <pad name="3" x="0" y="1.27" drill="1" shape="octagon" rot="R270"/>
-<pad name="1" x="0" y="-3.81" drill="1" shape="square" rot="R270"/>
+<pad name="1" x="0" y="-3.81" drill="0.9" shape="square" rot="R270"/>
 <pad name="2" x="0" y="-1.27" drill="1" shape="octagon" rot="R270"/>
 <pad name="4" x="0" y="3.81" drill="1" shape="octagon" rot="R270"/>
 <wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>

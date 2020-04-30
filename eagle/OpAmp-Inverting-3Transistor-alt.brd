@@ -89,10 +89,10 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <package name="C050-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="2" x="2.54" y="0" drill="0.9" rot="R180"/>
 <text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.6096" layer="27" rot="R180" align="center-left">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<pad name="1" x="-2.54" y="0" drill="0.9"/>
 <wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
 <wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
 <wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
@@ -116,7 +116,7 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" rot="R270"/>
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="-1.27" y="2.54" size="0.6096" layer="25" align="top-right">&gt;NAME</text>
 <text x="1.27" y="-1.5875" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
@@ -137,8 +137,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <package name="DO34Z5V">
 <wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.127" layer="51"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.127" layer="51"/>
-<pad name="C" x="0" y="-2.54" drill="0.8" rot="R90"/>
-<pad name="A" x="0" y="2.54" drill="0.8" rot="R90"/>
+<pad name="C" x="0" y="-2.54" drill="0.9" rot="R90"/>
+<pad name="A" x="0" y="2.54" drill="0.9" rot="R90"/>
 <text x="0.381" y="1.3335" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.381" y="-1.3335" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-0.127" y1="-1.27" x2="-0.635" y2="-0.762" width="0.1016" layer="21" curve="-90"/>
@@ -173,8 +173,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="5.08" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-5.08" drill="0.8" rot="R270"/>
+<pad name="1" x="0" y="5.08" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" rot="R270"/>
 <text x="-0.635" y="3.175" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
@@ -205,8 +205,8 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="0.8"/>
-<pad name="2" x="5.08" y="0" drill="0.8"/>
+<pad name="1" x="-5.08" y="0" drill="0.9"/>
+<pad name="2" x="5.08" y="0" drill="0.9"/>
 <text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -268,9 +268,9 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <library name="pad">
 <packages>
 <package name="SPAD+-">
-<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
 <text x="0" y="-2.794" size="0.6096" layer="26" ratio="9" distance="5" align="top-center">&gt;NAME</text>
-<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
@@ -280,9 +280,9 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <text x="1.524" y="0" size="0.6096" layer="27" font="fixed" ratio="9" distance="5" align="center-left">&gt;VALUE</text>
 </package>
 <package name="SPAD-+">
-<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
 <text x="0" y="-2.794" size="0.6096" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
-<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>

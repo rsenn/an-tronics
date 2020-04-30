@@ -85,7 +85,7 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <library name="pad">
 <packages>
 <package name="SPAD">
-<pad name="1" x="0" y="0" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" stop="no"/>
 <text x="-1.143" y="0" size="0.6096" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
@@ -111,8 +111,8 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="0.3302" y1="0" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
 <wire x1="1.27" y1="0" x2="0.3302" y2="0" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="1" x="-2.54" y="0" drill="0.9"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="0" y="1.524" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.524" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
@@ -122,10 +122,10 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.889" y1="0.635" x2="1.524" y2="0" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="-1.905" y="0.8255" size="1.016" layer="25">&gt;NAME</text>
 <text x="2.159" y="-0.8255" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" rot="R180"/>
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -141,10 +141,10 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
 <wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
-<pad name="2" x="0" y="-1.27" drill="0.8" rot="R270" stop="no"/>
+<pad name="2" x="0" y="-1.27" drill="0.9" rot="R270" stop="no"/>
 <text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
 <text x="0.508" y="-2.413" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
-<pad name="1" x="0" y="1.27" drill="0.8" rot="R90" stop="no"/>
+<pad name="1" x="0" y="1.27" drill="0.9" rot="R90" stop="no"/>
 <wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
@@ -190,8 +190,8 @@ http://electronics-diy.com/simple-fm-radio.php</description>
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="L-02/7V-TAP1">
-<pad name="2" x="0" y="-3.81" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="3.81" drill="0.8" rot="R180"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" rot="R180"/>
+<pad name="1" x="0" y="3.81" drill="0.9" rot="R180"/>
 <wire x1="0.6985" y1="1.8415" x2="0" y2="2.54" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="2.54" x2="-0.635" y2="1.8415" width="0.127" layer="21" curve="90"/>
 <wire x1="0.6985" y1="1.27" x2="0" y2="1.9685" width="0.127" layer="21" curve="90"/>
@@ -213,11 +213,11 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="0.6985" y1="-1.905" x2="0" y2="-1.143" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="-1.143" x2="-0.635" y2="-1.905" width="0.127" layer="21" curve="90"/>
 <wire x1="0.6985" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
-<pad name="3" x="2.54" y="1.27" drill="0.8" rot="R180"/>
+<pad name="3" x="2.54" y="1.27" drill="0.9" rot="R180"/>
 </package>
 <package name="L-03/10V">
-<pad name="2" x="0" y="-5.08" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="5.08" drill="0.8" rot="R180"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" rot="R180"/>
+<pad name="1" x="0" y="5.08" drill="0.9" rot="R180"/>
 <wire x1="-1.27" y1="0.762" x2="0" y2="2.032" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="-1.778" x2="0" y2="-0.508" width="0.127" layer="21" curve="-90"/>
@@ -267,9 +267,9 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="-3.81" y1="3.429" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
-<pad name="S" x="0" y="2.54" drill="1.016" diameter="1.9304"/>
-<pad name="A" x="-2.54" y="-2.54" drill="1.016" diameter="1.9304" rot="R90"/>
-<pad name="E" x="2.54" y="-2.54" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="S" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="A" x="-2.54" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="E" x="2.54" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
 <text x="-2.54" y="4.191" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.461" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-3.048" layer="51"/>
@@ -279,8 +279,8 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="0.8"/>
-<pad name="2" x="5.08" y="0" drill="0.8"/>
+<pad name="1" x="-5.08" y="0" drill="0.9"/>
+<pad name="2" x="5.08" y="0" drill="0.9"/>
 <text x="-2.54" y="1.2954" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>

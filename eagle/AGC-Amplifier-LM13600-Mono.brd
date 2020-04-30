@@ -106,9 +106,9 @@
 <library name="pad">
 <packages>
 <package name="SPAD+-">
-<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
 <text x="0" y="-2.794" size="0.6096" layer="26" ratio="9" distance="5" align="top-center">&gt;NAME</text>
-<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
@@ -149,7 +149,7 @@
 <wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" rot="R270"/>
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="-1.27" y="2.54" size="0.6096" layer="25" align="top-right">&gt;NAME</text>
 <text x="1.27" y="-1.5875" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
@@ -212,8 +212,8 @@
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.7" rot="R90"/>
-<pad name="2" x="0" y="-3.81" drill="0.7" rot="R90"/>
+<pad name="1" x="0" y="3.81" drill="0.9" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" rot="R90"/>
 <text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -230,8 +230,8 @@
 <rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
 </package>
 <package name="0202/7">
-<pad name="2" x="3.81" y="0" drill="0.7" rot="R270"/>
-<pad name="1" x="-3.81" y="0" drill="0.7" rot="R270"/>
+<pad name="2" x="3.81" y="0" drill="0.9" rot="R270"/>
+<pad name="1" x="-3.81" y="0" drill="0.9" rot="R270"/>
 <wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>

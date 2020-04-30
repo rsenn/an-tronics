@@ -86,9 +86,9 @@ http://www.electronics-diy.com/4x4.php</description>
 <library name="pad">
 <packages>
 <package name="SPAD+-">
-<pad name="1" x="0" y="-1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
 <text x="0" y="-2.794" size="0.8128" layer="21" ratio="9" distance="5" align="top-center">&gt;NAME</text>
-<pad name="2" x="0" y="1.27" drill="1" diameter="1.778" stop="no"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
@@ -114,7 +114,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" rot="R270"/>
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="-1.27" y="2.54" size="0.8128" layer="25" align="top-right">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
@@ -143,7 +143,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="0.635" y1="1.524" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="1.27" x2="0.889" y2="1.27" width="0.1524" layer="21"/>
 <pad name="+" x="0" y="2.54" drill="0.8" shape="square" rot="R270" stop="no"/>
-<pad name="-" x="0" y="-2.54" drill="0.8" rot="R270" stop="no"/>
+<pad name="-" x="0" y="-2.54" drill="0.9" rot="R270" stop="no"/>
 <text x="-1.397" y="2.032" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.524" y="-1.778" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
@@ -160,7 +160,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.8" diameter="1.6002" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" diameter="1.778" rot="R270"/>
 <pad name="+" x="0" y="1.27" drill="0.8" diameter="1.6002" shape="square" rot="R270"/>
 <text x="-1.524" y="-1.651" size="0.8128" layer="25" rot="R90" align="bottom-right">&gt;NAME</text>
 <text x="2.0955" y="0.635" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
@@ -187,7 +187,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="0.635" y1="1.524" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="1.27" x2="0.889" y2="1.27" width="0.1524" layer="21"/>
 <pad name="+" x="0" y="2.54" drill="0.7" shape="square" rot="R270"/>
-<pad name="-" x="0" y="-2.54" drill="0.7" rot="R270"/>
+<pad name="-" x="0" y="-2.54" drill="0.9" rot="R270"/>
 <text x="1.27" y="2.286" size="0.8128" layer="25">&gt;NAME</text>
 <text x="1.524" y="-2.032" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
@@ -201,8 +201,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <package name="DO34-5">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
  diameter 1.8 mm, horizontal, grid 5.08 mm</description>
-<pad name="C" x="-2.54" y="0" drill="0.8"/>
-<pad name="A" x="2.54" y="0" drill="0.8"/>
+<pad name="C" x="-2.54" y="0" drill="0.9"/>
+<pad name="A" x="2.54" y="0" drill="0.9"/>
 <wire x1="2.54" y1="0" x2="1.905" y2="0" width="0.127" layer="51"/>
 <text x="1.651" y="-0.762" size="0.8128" layer="25" ratio="10" rot="R180" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0.73025" size="0.8128" layer="27" ratio="10" rot="R180" align="top-center">&gt;VALUE</text>
@@ -238,8 +238,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.7" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.7" rot="R270"/>
+<pad name="1" x="0" y="3.81" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" rot="R270"/>
 <text x="-0.889" y="0" size="0.8128" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
@@ -256,8 +256,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
 </package>
 <package name="0202/5">
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="1" x="-2.54" y="0" drill="0.9"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.254" layer="51"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.254" layer="51"/>
@@ -274,8 +274,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202/5-V">
-<pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
+<pad name="1" x="0" y="2.54" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" rot="R270"/>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="51"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -298,8 +298,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-3.81" y="0" drill="0.8"/>
-<pad name="2" x="3.81" y="0" drill="0.8"/>
+<pad name="1" x="-3.81" y="0" drill="0.9"/>
+<pad name="2" x="3.81" y="0" drill="0.9"/>
 <text x="-2.54" y="1.2954" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -351,9 +351,9 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-1.395" y1="-3.255" x2="1.395" y2="-2.73" width="0.2032" layer="21"/>
 <wire x1="-1.17" y1="-6.215" x2="1.395" y2="-5.69" width="0.2032" layer="21"/>
 <wire x1="-4.54" y1="1.504" x2="4.54" y2="1.504" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.9304"/>
-<pad name="2" x="0" y="0" drill="1" diameter="1.9304"/>
-<pad name="3" x="2.54" y="0" drill="1" diameter="1.9304"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="-4.572" y="1.778" size="0.8128" layer="25">&gt;NAME</text>
 <text x="4.572" y="1.778" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 </package>
@@ -365,9 +365,9 @@ http://www.electronics-diy.com/4x4.php</description>
 <packages>
 <package name="TO92-CBE">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  C B E from top&lt;p&gt;</description>
-<pad name="C" x="0" y="2.54" drill="0.7" diameter="1.4224"/>
-<pad name="E" x="0" y="-2.54" drill="0.7" diameter="1.4224"/>
-<pad name="B" x="0" y="0" drill="0.7" diameter="1.4224"/>
+<pad name="C" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="E" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="B" x="0" y="0" drill="0.9" diameter="1.778"/>
 <wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
 <wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
 <wire x1="0" y1="-2.664" x2="0" y2="2.664" width="0.127" layer="21"/>

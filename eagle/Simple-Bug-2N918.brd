@@ -84,7 +84,7 @@
             <package name="ECM-5">
               <circle layer="21" radius="2.54" width="0.2032" x="0" y="0"/>
               <circle layer="21" radius="0.4279" width="0" x="1.27" y="1.27"/>
-              <pad diameter="1.2" drill="0.7" name="2" x="0" y="-1.27"/>
+              <pad diameter="1.778" drill="0.9" name="2" x="0" y="-1.27"/>
               <pad diameter="1.2" drill="0.7" name="1" shape="octagon" x="0" y="1.27"/>
               <text align="center" layer="25" rot="R90" size="1.016" x="-1.27" y="0">&gt;NAME</text>
               <text align="top-left" layer="27" size="1.016" x="1.918" y="-1.752">&gt;VALUE</text>
@@ -1179,8 +1179,8 @@
  &lt;/BODY&gt;&lt;/HTML&gt;</description>
           <packages>
             <package name="0202V">
-              <pad drill="0.8" name="2" rot="R270" x="0" y="1.27"/>
-              <pad drill="0.8" name="1" rot="R270" x="0" y="-1.27"/>
+              <pad drill="0.9" name="2" rot="R270" x="0" y="1.27"/>
+              <pad drill="0.9" name="1" rot="R270" x="0" y="-1.27"/>
               <text align="center-right" layer="25" ratio="10" size="0.6096" x="-1.016" y="0.508">&gt;NAME</text>
               <text align="center-right" layer="27" ratio="10" size="0.6096" x="-1.016" y="-0.508">&gt;VALUE</text>
               <circle layer="21" radius="0.762" width="0.127" x="0" y="0.762"/>
@@ -1189,8 +1189,8 @@
               <circle layer="51" radius="0.508" width="0.0508" x="0" y="0.762"/>
             </package>
             <package name="0202/5">
-              <pad drill="0.8" name="1" x="-2.54" y="0"/>
-              <pad drill="0.8" name="2" x="2.54" y="0"/>
+              <pad drill="0.9" name="1" x="-2.54" y="0"/>
+              <pad drill="0.9" name="2" x="2.54" y="0"/>
               <text align="center" layer="27" ratio="10" size="0.6096" x="0" y="0">&gt;VALUE</text>
               <wire layer="51" width="0.254" x1="2.54" x2="1.651" y1="0" y2="0"/>
               <wire layer="51" width="0.254" x1="-2.54" x2="-1.651" y1="0" y2="0"/>
@@ -2290,7 +2290,7 @@
               <wire layer="51" width="0.0762" x1="-0.1397" x2="-0.4445" y1="0.6985" y2="0.6985"/>
               <wire layer="51" width="0.0762" x1="-0.4445" x2="-0.4445" y1="0.6985" y2="0"/>
               <circle layer="21" radius="1.524" width="0.127" x="0" y="0"/>
-              <pad drill="0.7" name="-" x="1.27" y="0"/>
+              <pad drill="0.9" name="-" x="1.27" y="0"/>
               <pad drill="0.7" name="+" shape="square" x="-1.27" y="0"/>
               <text align="top-center" layer="25" rot="R180" size="0.6096" x="0" y="1.7145">&gt;NAME</text>
               <text align="bottom-center" layer="27" rot="R180" size="0.6096" x="0" y="-1.7145">&gt;VALUE</text>
@@ -2309,10 +2309,10 @@
               <wire layer="21" width="0.091440625" x1="0.9652" x2="0.9652" y1="0.508" y2="-0.508"/>
               <wire layer="51" width="0.0762" x1="2.54" x2="1.6637" y1="0" y2="0"/>
               <wire layer="51" width="0.0762" x1="0" x2="0.889" y1="0" y2="0"/>
-              <pad drill="0.8" name="2" x="2.54" y="0"/>
+              <pad drill="0.9" name="2" x="2.54" y="0"/>
               <text align="bottom-right" layer="25" size="0.6096" x="0.254" y="0.9652">&gt;NAME</text>
               <text align="center-left" layer="27" size="0.6096" x="3.556" y="0">&gt;VALUE</text>
-              <pad drill="0.8" name="1" rot="R180" x="0" y="0"/>
+              <pad drill="0.9" name="1" rot="R180" x="0" y="0"/>
               <wire curve="-90" layer="21" width="0.091440625" x1="3.429" x2="2.667" y1="0" y2="-0.889"/>
               <wire layer="21" width="0.091440625" x1="-0.127" x2="2.667" y1="-0.889" y2="-0.889"/>
               <wire curve="-90" layer="21" width="0.091440625" x1="-0.127" x2="-0.889" y1="-0.889" y2="0"/>
@@ -2324,7 +2324,7 @@
         <library name="pad">
           <packages>
             <package name="SPAD">
-              <pad diameter="1.778" drill="1" name="1" stop="no" x="0" y="0"/>
+              <pad diameter="1.778" drill="0.9" name="1" stop="no" x="0" y="0"/>
               <text align="top-center" distance="5" font="vector" layer="21" ratio="9" rot="R270" size="0.6096" x="-1.0795" y="0">&gt;NAME</text>
             </package>
           </packages>

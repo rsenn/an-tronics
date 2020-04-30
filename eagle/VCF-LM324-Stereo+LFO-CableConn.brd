@@ -82,7 +82,7 @@
 <library name="pad">
 <packages>
 <package name="SPAD">
-<pad name="1" x="0" y="0" drill="1" diameter="1.778" stop="no"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" stop="no"/>
 <text x="-1.143" y="0" size="0.6096" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
@@ -108,8 +108,8 @@
 <wire x1="0.3302" y1="0" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
 <wire x1="1.27" y1="0" x2="0.3302" y2="0" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="1" x="-2.54" y="0" drill="0.9"/>
+<pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="0" y="1.524" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.524" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
@@ -118,10 +118,10 @@
 <package name="C050-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="-2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" rot="R180"/>
 <text x="0" y="1.27" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.27" size="1.016" layer="27" align="top-center">&gt;VALUE</text>
-<pad name="1" x="2.54" y="0" drill="0.8"/>
+<pad name="1" x="2.54" y="0" drill="0.9"/>
 <wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
 <wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
 <wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
@@ -145,7 +145,7 @@
 <wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
 <wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" rot="R270"/>
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="1.7145" y="0" size="1.016" layer="25" rot="R90" align="top-center">&gt;NAME</text>
 <text x="-1.7145" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
@@ -172,8 +172,8 @@
 <wire x1="0" y1="-0.3302" x2="-0.762" y2="-0.3302" width="0.3048" layer="21"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-0.3302" width="0.1524" layer="21"/>
 <wire x1="0" y1="1.27" x2="0" y2="0.3048" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-2.54" drill="0.8" rot="R270"/>
+<pad name="1" x="0" y="2.54" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" rot="R270"/>
 <text x="-1.016" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.016" y="-2.286" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.7305" x2="0.1905" y2="-1.9685" layer="51" rot="R270"/>
@@ -186,8 +186,8 @@
 </description>
 <packages>
 <package name="DO34-5V">
-<pad name="C" x="0" y="-2.54" drill="0.8" rot="R90"/>
-<pad name="A" x="0" y="2.54" drill="0.8" rot="R90"/>
+<pad name="C" x="0" y="-2.54" drill="0.9" rot="R90"/>
+<pad name="A" x="0" y="2.54" drill="0.9" rot="R90"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.127" layer="51"/>
 <text x="0.381" y="1.524" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.508" y="-1.524" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
@@ -214,8 +214,8 @@
 <package name="DO34-7">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
  diameter 1.8 mm, horizontal, grid 7.62 mm</description>
-<pad name="C" x="-3.81" y="0" drill="0.8"/>
-<pad name="A" x="3.81" y="0" drill="0.8"/>
+<pad name="C" x="-3.81" y="0" drill="0.9"/>
+<pad name="A" x="3.81" y="0" drill="0.9"/>
 <wire x1="3.81" y1="0" x2="3.175" y2="0" width="0.127" layer="51"/>
 <text x="1.651" y="-0.762" size="1.016" layer="25" ratio="10" rot="R180" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0.73025" size="0.8128" layer="27" ratio="10" rot="R180" align="top-center">&gt;VALUE</text>
@@ -240,8 +240,8 @@
 <rectangle x1="-3.1496" y1="-0.1016" x2="-1.3208" y2="0.1016" layer="21"/>
 </package>
 <package name="DO34-7V">
-<pad name="C" x="0" y="-3.81" drill="0.8" rot="R90"/>
-<pad name="A" x="0" y="3.81" drill="0.8" rot="R90"/>
+<pad name="C" x="0" y="-3.81" drill="0.9" rot="R90"/>
+<pad name="A" x="0" y="3.81" drill="0.9" rot="R90"/>
 <wire x1="0" y1="3.81" x2="0" y2="2.921" width="0.127" layer="51"/>
 <text x="0.254" y="1.905" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
@@ -342,8 +342,8 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
  type 0204, grid 2.5 mm</description>
 <circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
 <circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
+<pad name="1" x="-1.27" y="0" drill="0.9"/>
+<pad name="2" x="1.27" y="0" drill="0.9"/>
 <text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="51"/>
@@ -358,8 +358,8 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-6.35" y="0" drill="0.8"/>
-<pad name="2" x="6.35" y="0" drill="0.8"/>
+<pad name="1" x="-6.35" y="0" drill="0.9"/>
+<pad name="2" x="6.35" y="0" drill="0.9"/>
 <text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -394,8 +394,8 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-3.81" y="0" drill="0.8"/>
-<pad name="2" x="3.81" y="0" drill="0.8"/>
+<pad name="1" x="-3.81" y="0" drill="0.9"/>
+<pad name="2" x="3.81" y="0" drill="0.9"/>
 <text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -428,8 +428,8 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="0.8"/>
-<pad name="2" x="5.08" y="0" drill="0.8"/>
+<pad name="1" x="-5.08" y="0" drill="0.9"/>
+<pad name="2" x="5.08" y="0" drill="0.9"/>
 <text x="-2.54" y="1.2954" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -462,8 +462,8 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="5.08" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-5.08" drill="0.8" rot="R270"/>
+<pad name="1" x="0" y="5.08" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" rot="R270"/>
 <text x="-0.635" y="3.175" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
@@ -494,8 +494,8 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.8" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.8" rot="R270"/>
+<pad name="1" x="0" y="3.81" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" rot="R270"/>
 <text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
