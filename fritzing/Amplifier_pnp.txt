@@ -1,0 +1,27 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Amplifier
+*Date=16:20:45
+*CreatedBy=Fritzing 0.9.5d.2020-02-07.CD-548-0-3d61c58
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;300 mil [THT];23.9889;-26.6954;90;Bottom;D1
+2;100;THT;2.71639;-29.9847;0;Bottom;R2
+3;100µF;100 mil [THT, electrolytic];20.1789;-48.26;0;Bottom;C1
+4;22;THT;15.9371;-35.4711;90;Bottom;R4
+5;;TO92 [THT];3.47839;-38.0111;0;Bottom;Q3
+6;330;THT;21.4489;-33.02;0;Bottom;R3
+7;;300 mil [THT];46.8489;-54.6354;90;Bottom;D2
+8;100k;2512 [SMD];34.3564;-55.3722;0;Top;R1
+9;;TO92 [THT];3.47839;-45.6311;0;Bottom;Q2
+10;220µF;100 mil [THT, electrolytic];32.8789;-33.02;0;Bottom;C2
+11;;TO92 [THT];3.47839;-53.2511;0;Bottom;Q1
+12;1µF;100 mil [THT, electrolytic];10.0189;-25.4;0;Bottom;C3

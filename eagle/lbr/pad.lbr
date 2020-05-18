@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -39,14 +39,14 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -104,13 +104,14 @@
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <text x="1.651" y="-1.905" size="1.016" layer="48" font="vector" rot="R270" align="center">-</text>
-<text x="1.651" y="2.032" size="1.016" layer="16" font="vector" rot="R90" align="center">+</text>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <text x="0" y="-2.794" size="0.6096" layer="48" font="fixed" ratio="9" distance="5" align="top-center">&gt;VALUE</text>
-<text x="1.651" y="0" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R90" align="center">&gt;NAME</text>
 <text x="1.651" y="2.032" size="1.016" layer="48" font="vector" rot="R90" align="center">+</text>
-<text x="1.651" y="-1.905" size="1.016" layer="16" font="vector" rot="R270" align="center">-</text>
 <circle x="0" y="1.27" radius="0.635" width="0.127" layer="40"/>
+<text x="1.87325" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
+<wire x1="1.61925" y1="1.778" x2="2.12725" y2="1.778" width="0.0762" layer="21"/>
+<wire x1="1.87325" y1="1.524" x2="1.87325" y2="2.032" width="0.0762" layer="21"/>
+<wire x1="1.87325" y1="-1.9685" x2="1.87325" y2="-1.4605" width="0.0762" layer="21"/>
 </package>
 <package name="SPAD-+">
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="square" rot="R180" stop="no"/>
@@ -120,12 +121,13 @@
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <text x="-1.651" y="-2.032" size="1.016" layer="48" font="vector" rot="R90" align="center">-</text>
-<text x="-1.651" y="1.778" size="1.016" layer="16" font="vector" rot="R270" align="center">+</text>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <text x="0" y="2.794" size="0.6096" layer="48" font="fixed" ratio="9" distance="5" rot="R180" align="top-center">&gt;VALUE</text>
-<text x="-1.651" y="0" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
+<text x="-1.93675" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
 <text x="-1.651" y="1.778" size="1.016" layer="48" font="vector" rot="R270" align="center">+</text>
-<text x="-1.651" y="-2.032" size="1.016" layer="16" font="vector" rot="R90" align="center">-</text>
+<wire x1="-2.19075" y1="1.778" x2="-1.68275" y2="1.778" width="0.0762" layer="21"/>
+<wire x1="-1.93675" y1="1.524" x2="-1.93675" y2="2.032" width="0.0762" layer="21"/>
+<wire x1="-1.93675" y1="-1.9685" x2="-1.93675" y2="-1.4605" width="0.0762" layer="21"/>
 </package>
 <package name="PWR-R">
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
@@ -213,7 +215,7 @@
 </packages>
 <symbols>
 <symbol name="HPORT">
-<pin name="P$1" x="0" y="0" visible="off" length="point" direction="pas" function="dot"/>
+<pin name="P$1" x="0" y="0" visible="off" length="point" direction="pas"/>
 <wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <circle x="-3.81" y="0" radius="1.27" width="0.254" layer="94"/>
 <text x="-6.35" y="0" size="1.27" layer="95" align="center-right">&gt;NAME</text>
@@ -341,13 +343,13 @@
 <wire x1="2.032" y1="2.54" x2="-2.032" y2="2.54" width="0.3048" layer="94"/>
 </symbol>
 <symbol name="VPORT">
-<pin name="P$1" x="0" y="0" visible="off" length="point" direction="pas" function="dot" rot="R270"/>
+<pin name="P$1" x="0" y="0" visible="off" length="point" direction="pas" rot="R270"/>
 <wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
 <circle x="0" y="3.81" radius="1.27" width="0.254" layer="94"/>
 <text x="0" y="6.35" size="1.27" layer="95" align="center">&gt;NAME</text>
 </symbol>
 <symbol name="IN_H">
-<pin name="P$1" x="0" y="0" visible="off" length="point" direction="pas" function="dot"/>
+<pin name="P$1" x="0" y="0" visible="off" length="point" direction="pas"/>
 <wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <text x="-6.35" y="0" size="1.27" layer="95" align="center">&gt;NAME</text>
 <wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.254" layer="94"/>

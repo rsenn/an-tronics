@@ -154,13 +154,16 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
 <wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
 <wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
-<text x="3.81" y="2.54" size="1.27" layer="95" ratio="10">&gt;NAME</text>
-<text x="3.81" y="-2.54" size="1.27" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
+<text x="5.08" y="2.54" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <circle x="1.27" y="0" radius="3.5921" width="0.381" layer="94"/>
+<text x="3.81" y="-3.81" size="0.6096" layer="94" font="vector" align="center">C</text>
+<text x="3.81" y="3.81" size="0.6096" layer="94" font="vector" align="center">E</text>
+<text x="-3.81" y="-1.27" size="0.6096" layer="94" font="vector" align="center">B</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2535,28 +2538,6 @@ http://www.electronics-diy.com/4x4.php</description>
 <library name="c">
 <description>&lt;b&gt;Capacitors&lt;/b&gt;&lt;p&gt;</description>
 <packages>
-<package name="E2,5-4">
-<wire x1="0.5842" y1="0.762" x2="0.2032" y2="0.762" width="0.09525" layer="21"/>
-<wire x1="0.2032" y1="0.762" x2="0.2032" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="0.2032" y1="-0.762" x2="0.5842" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="0.5842" y1="-0.762" x2="0.5842" y2="0.762" width="0.09525" layer="21"/>
-<circle x="0" y="0" radius="3.81" width="0.127" layer="21"/>
-<pad name="-" x="-1.27" y="0" drill="0.9" diameter="1.778" rot="R180"/>
-<pad name="+" x="1.27" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
-<text x="-1.11125" y="1.778" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="1.11125" y="1.778" size="0.6096" layer="27">&gt;VALUE</text>
-<wire x1="-0.4937125" y1="0.762" x2="-0.4937125" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="-0.4937125" y1="-0.762" x2="-0.2032" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="-0.2032" y1="-0.762" x2="-0.2032" y2="0.762" width="0.09525" layer="21"/>
-<wire x1="-0.2032" y1="0.762" x2="-0.4937125" y2="0.762" width="0.09525" layer="21"/>
-<wire x1="0.7747" y1="1.0795" x2="0.7747" y2="1.4605" width="0.1016" layer="21"/>
-<wire x1="0.9652" y1="1.27" x2="0.5842" y2="1.27" width="0.1016" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-0.504825" y2="0" width="0.127" layer="21"/>
-<rectangle x1="-0.47625" y1="-0.762" x2="-0.1984375" y2="0.762" layer="21"/>
-<wire x1="1.016" y1="0" x2="0.635" y2="0" width="0.127" layer="21"/>
-<rectangle x1="-0.79375" y1="-0.09525" x2="-0.47625" y2="0.09525" layer="21"/>
-<rectangle x1="0.635" y1="-0.09525" x2="0.889" y2="0.09525" layer="21"/>
-</package>
 <package name="E2,5-6">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
  grid 2.54 mm, diameter 6 mm</description>
@@ -4274,25 +4255,6 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-0.889" y1="-0.5842" x2="0" y2="-0.5842" width="0.1524" layer="51"/>
 <rectangle x1="-0.127" y1="-1.1938" x2="0.127" y2="0.4318" layer="21" rot="R90"/>
 </package>
-<package name="E2,5-5/V">
-<wire x1="-1.27" y1="-1.651" x2="-1.27" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-1.397" x2="-1.27" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.397" x2="-1.27" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.397" x2="-1.524" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.651" x2="0" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="0" y1="-0.762" x2="1.27" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-0.762" x2="1.27" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-0.254" x2="-1.27" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-0.762" x2="0" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="0" y1="0.635" x2="0" y2="1.651" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
-<pad name="+" x="0" y="-1.27" drill="0.9" shape="square" rot="R90"/>
-<text x="-1.397" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.397" y="-2.413" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.762" x2="0.254" y2="1.778" layer="51" rot="R90"/>
-</package>
 <package name="E5-5/V">
 <wire x1="1.3432" y1="2.1557" x2="1.3432" y2="-2.1557" width="0.1524" layer="21" curve="-116.147"/>
 <wire x1="-1.3432" y1="2.1557" x2="-1.3432" y2="-2.1557" width="0.1524" layer="21" curve="116.147"/>
@@ -4356,6 +4318,47 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-0.6985" y1="-0.1397" x2="-0.6985" y2="-0.4445" width="0.0762" layer="51"/>
 <wire x1="-0.6985" y1="-0.4445" x2="0" y2="-0.4445" width="0.0762" layer="51"/>
 <rectangle x1="-0.1143" y1="-0.9779" x2="0.1143" y2="0.3937" layer="21" rot="R90"/>
+</package>
+<package name="E2,5-4">
+<wire x1="0.5842" y1="0.762" x2="0.2032" y2="0.762" width="0.09525" layer="21"/>
+<wire x1="0.2032" y1="0.762" x2="0.2032" y2="-0.762" width="0.09525" layer="21"/>
+<wire x1="0.2032" y1="-0.762" x2="0.5842" y2="-0.762" width="0.09525" layer="21"/>
+<wire x1="0.5842" y1="-0.762" x2="0.5842" y2="0.762" width="0.09525" layer="21"/>
+<circle x="0" y="0" radius="2.286" width="0.127" layer="21"/>
+<pad name="-" x="-1.27" y="0" drill="0.9" diameter="1.778" rot="R180"/>
+<pad name="+" x="1.27" y="0" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
+<text x="-1.11125" y="1.778" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.11125" y="1.778" size="0.6096" layer="27">&gt;VALUE</text>
+<wire x1="-0.4937125" y1="0.762" x2="-0.4937125" y2="-0.762" width="0.09525" layer="21"/>
+<wire x1="-0.4937125" y1="-0.762" x2="-0.2032" y2="-0.762" width="0.09525" layer="21"/>
+<wire x1="-0.2032" y1="-0.762" x2="-0.2032" y2="0.762" width="0.09525" layer="21"/>
+<wire x1="-0.2032" y1="0.762" x2="-0.4937125" y2="0.762" width="0.09525" layer="21"/>
+<wire x1="0.7747" y1="1.0795" x2="0.7747" y2="1.4605" width="0.1016" layer="21"/>
+<wire x1="0.9652" y1="1.27" x2="0.5842" y2="1.27" width="0.1016" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-0.504825" y2="0" width="0.127" layer="21"/>
+<rectangle x1="-0.47625" y1="-0.762" x2="-0.1984375" y2="0.762" layer="21"/>
+<wire x1="1.016" y1="0" x2="0.635" y2="0" width="0.127" layer="21"/>
+<rectangle x1="-0.79375" y1="-0.09525" x2="-0.47625" y2="0.09525" layer="21"/>
+<rectangle x1="0.635" y1="-0.09525" x2="0.889" y2="0.09525" layer="21"/>
+</package>
+<package name="E2,5-5/V">
+<wire x1="-1.27" y1="-1.651" x2="-1.27" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-1.397" x2="-1.27" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.397" x2="-1.27" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.397" x2="-1.524" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.651" x2="0" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.762" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.762" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.762" x2="0" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="1.651" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="0" y="1.27" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="+" x="0" y="-1.27" drill="0.9" shape="square" rot="R90"/>
+<text x="-1.397" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.397" y="-2.413" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.762" x2="0.254" y2="1.778" layer="21" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -4783,13 +4786,14 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <text x="1.651" y="-1.905" size="1.016" layer="48" font="vector" rot="R270" align="center">-</text>
-<text x="1.651" y="2.032" size="1.016" layer="16" font="vector" rot="R90" align="center">+</text>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <text x="0" y="-2.794" size="0.6096" layer="48" font="fixed" ratio="9" distance="5" align="top-center">&gt;VALUE</text>
-<text x="1.651" y="0" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R90" align="center">&gt;NAME</text>
 <text x="1.651" y="2.032" size="1.016" layer="48" font="vector" rot="R90" align="center">+</text>
-<text x="1.651" y="-1.905" size="1.016" layer="16" font="vector" rot="R270" align="center">-</text>
 <circle x="0" y="1.27" radius="0.635" width="0.127" layer="40"/>
+<text x="1.87325" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
+<wire x1="1.61925" y1="1.778" x2="2.12725" y2="1.778" width="0.0762" layer="21"/>
+<wire x1="1.87325" y1="1.524" x2="1.87325" y2="2.032" width="0.0762" layer="21"/>
+<wire x1="1.87325" y1="-1.9685" x2="1.87325" y2="-1.4605" width="0.0762" layer="21"/>
 </package>
 <package name="SPAD-+">
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="square" rot="R180" stop="no"/>
@@ -4799,12 +4803,13 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <text x="-1.651" y="-2.032" size="1.016" layer="48" font="vector" rot="R90" align="center">-</text>
-<text x="-1.651" y="1.778" size="1.016" layer="16" font="vector" rot="R270" align="center">+</text>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <text x="0" y="2.794" size="0.6096" layer="48" font="fixed" ratio="9" distance="5" rot="R180" align="top-center">&gt;VALUE</text>
-<text x="-1.651" y="0" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
+<text x="-1.93675" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
 <text x="-1.651" y="1.778" size="1.016" layer="48" font="vector" rot="R270" align="center">+</text>
-<text x="-1.651" y="-2.032" size="1.016" layer="16" font="vector" rot="R90" align="center">-</text>
+<wire x1="-2.19075" y1="1.778" x2="-1.68275" y2="1.778" width="0.0762" layer="21"/>
+<wire x1="-1.93675" y1="1.524" x2="-1.93675" y2="2.032" width="0.0762" layer="21"/>
+<wire x1="-1.93675" y1="-1.9685" x2="-1.93675" y2="-1.4605" width="0.0762" layer="21"/>
 </package>
 </packages>
 <symbols>
