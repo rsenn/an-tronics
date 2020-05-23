@@ -1,0 +1,246 @@
+0	Amazing All-Band Receiver-dark.pnm
+1.1M	simplefm_photo_medium.png
+1.1M	Solid State Pulse Counting Receiver.pdf
+1.3M	X1000_111_Schaltung.png
+2.1M	Amazing All-Band Receiver-dark.xpm
+2.1M	FM MICROMATIC - The RadioBoard Forums.pdf
+2.2M	Amazing All-Band Receiver-dark.pbm
+3.3M	vcf
+3.4M	regen
+4.0K	Articlamp_482595260.gif
+4.0K	coil-odg.svg
+4.0K	coil.svg
+4.0K	r41.gif
+4.0K	th audio gen pcb.pdf
+4.0K	trim-cap-2.svg
+4.0K	trim-cap-808-segments.svg
+4.0K	trim-cap-img.svg
+4.0K	trim-cap-outline.svg
+4.0K	trim-cap-poly.svg
+4.0K	trim-cap-segcurves.svg
+4.0K	trim-cap-segments2.svg
+4.0K	trim-cap-segments.svg
+5.4M	lb-transistor_text.pdf
+6.6M	vca
+8.0K	0057.gif
+8.0K	327_pasivniprijemnikavio-komunikacija.zip
+8.0K	544-61c4791ae5.gif
+8.0K	audion with q-multiplier.gif
+8.0K	clapp.png
+8.0K	FMsynBF506.png
+8.0K	morely vcf 181.gif
+8.0K	osc8.gif
+8.0K	Poly-SRegen.png
+8.0K	sr.png
+8.0K	SWR2.png
+8.0K	th audio gen schem 2.pdf
+8.0K	vco
+8.0K	wbe4xl0f.gif
+8.0K	X-3000.png
+8.1M	epdf.pub_an-analog-synthesizer-for-the-21st-century.pdf
+12K	5.19.jpg
+12K	6400946800_1404665306.gif
+12K	8038_sine_square_triangle_generator_v2_159.png
+12K	BF970sregen.png
+12K	coil.dxf
+12K	Hartley regen.png
+12K	ledbas2 837.png
+12K	MPS - Parts List.pdf
+12K	osc6.gif
+12K	quickTest.png
+12K	regen.1.gif
+12K	s20133131254138.jpg
+12K	SFMR3.png
+12K	simplefm (1).pdf
+12K	simplefm.pdf
+12K	th audio gen schem 1.pdf
+12K	Transistor Radio.pdf
+12K	trim-cap-outline.dxf
+12K	trim-cap-poly.dxf
+12K	X-4046 VCO - Parts List.pdf
+12K	xjvzq17o.gif
+16K	17di4fg1.gif
+16K	18_1344380038.png
+16K	6099011800_1404666323.png
+16K	audioa13.gif
+16K	FMCoils.png
+16K	FMpulsar1.png
+16K	fm-radio-receiver.gif
+16K	HSRR.png
+16K	improved_simplefm.pdf
+16K	OpenOTA-schematic.png
+16K	Poliakov.png
+16K	simplefm_schematic.gif
+16K	test_106.png
+16K	trim-cap-2.dxf
+16K	trim-cap-808-segments.dxf
+16K	trim-cap-segcurves.dxf
+18M	fm
+20K	0057.ZIP
+20K	headphone_amp.jpg
+20K	magicsmoke.gif
+20K	MPS - Sheet 4.pdf
+20K	mu-pwr-FM-regen-circuit.ps
+20K	Poly-SRegen.JPG
+20K	simp-armstrong.png
+20K	simple darlington regen.png
+20K	t ultrasimplevcf 132.png
+20K	vhf-sregen2.ps
+24K	MPS - Block Diagram.pdf
+24K	MPS - Sheet 2.pdf
+24K	my improved desert rat.gif
+24K	OVFTOYq.png
+24K	poor mans vcf 346.png
+24K	VaricapFig1.gif
+24K	vca_simpler_110.jpg
+28K	324_vhffmprijemnik.zip
+28K	Coils12.jpg
+28K	Coils13.jpg
+28K	MPS - Sheet 1.pdf
+28K	MPS - Sheet 3.pdf
+28K	On-Board Aircraft Crystal AM RX.png
+28K	passive-tone-control-circuit.png
+28K	PNPbf970 (1).png
+28K	PNPbf970.png
+28K	smFMRFstage.png
+28K	trim-cap-segments2.dxf
+28K	VCF1 - Sheet 0001.pdf
+32K	easy_vhf_radio.jpg
+32K	mc1648-type regen(2).gif
+32K	regen.gif
+32K	regen.jpg
+32K	trig2gat_172.png
+32K	UKW-Pendler_klein.JPG
+36K	7MHz_VFO_2N3904-as-Varicap_W1FB.gif
+36K	Amazing All-Band Receiver-dark.png
+36K	fm-synchroontuner with hartley oscillator(1).gif
+36K	regen mod.jpeg
+36K	sensitive-fm-radio-tuner.gif_fit=700%2C508
+36K	#trim-cap-segcurves.dxf
+40K	9014-4148-reflex.png
+40K	ac coupled lm124.png
+40K	cohen-simple-1xistor.png
+40K	low-frequency-lc-oscillator.png
+40K	MicroFM.png
+40K	OpenOTA-board.png
+40K	simple npn self.jpg
+40K	trim-cap.svg
+40K	ukwaudion.jpg
+40K	ZL2PD Audio Amplifier for Receivers_copy.pdf
+44K	103585964 51bb8810d2 o.png
+44K	ABSchem.PNG
+44K	basspp parts.pdf
+44K	regen2 simple.png
+48K	504ukwontvanger.png
+48K	Capacitive_Three-Point_FM_TX-RX.gif
+48K	li-chg.dwg
+48K	lionchg3.pdf
+48K	regen superregen 386 detector full.jpg
+48K	simple-amplifier-by-transistor-ac128.jpg
+48K	th audio gen parts placement guide.pdf
+52K	132964038656213102917_MltimodeVCFbtt7.png
+52K	cb-regen.png
+52K	colpitts-vackar.png
+52K	Selenium Ray Ring regen mod.jpeg
+52K	simple-hybrid.png
+52K	X-4046 VCO - Sheet 0002.pdf
+56K	1003Pendler2.jpg
+56K	upload_2017-3-22_12-41-1.png
+56K	VHFFM.png
+56K	X-4046 VCO - Sheet 0001.pdf
+60K	2009-01-27_142208.jpg
+60K	6768_555_p2_1.jpg
+60K	coil-0.1uH.png
+60K	regenwithbootstrappedbuffer.gif
+60K	ultrasimplevcf 132.png
+60K	varactor-vackar-circuit.png
+60K	VHF_Superregen_RX.gif
+64K	modified.jpg
+64K	Plots.zip
+64K	Rangkaian 8038 frequency.png
+64K	varactor-bad-detector.png
+68K	regen3.png
+68K	t_mse_8k_tsw_v10_801.png
+72K	An Audion Radio.pdf
+72K	lionchg.pdf
+72K	Q&D VCF.png
+72K	simple NPN.jpg
+76K	fmontvanger.jpg
+76K	kosmos_x3000_Pendler-Nachbau.JPG
+76K	Reflex-Wolle-2.png
+80K	JFETRegen-5C.gif
+80K	single transistor FM receiver circuit.png
+80K	small-fm-radio.jpg
+80K	ukw_09.jpg
+84K	FM-Synchroontuner_with_Hartley_oscillator_1_.gif
+84K	p21-22.pdf
+84K	ukw_08.jpg
+88K	Aufbauplan_1.jpg
+88K	lionchg2.pdf
+88K	ukw_06.jpg
+92K	fringe-howl-fixed.png
+92K	miketuggle-1ad-2007-1.jpg
+96K	A BAREBONES REGENNY.pdf
+96K	fm-antenna-amplifier-schematic1.gif
+104K	328_fmradiosa2tranzistora.zip
+104K	favorite 3 regen d.jpg
+104K	superreg(1).jpg
+108K	X3000-Pendler.jpg
+116K	5small.jpg
+116K	Amazing All-Band Receiver-neon.png
+120K	FM-Radio-Circuit-Diagram.jpg
+120K	fm-synchroontuner(1).gif
+120K	regen-circuit.png
+124K	6small.jpg
+128K	3small.jpg
+132K	Amazing All-Band Receiver-board.png
+132K	picsynth.pdf
+132K	pp.PNG
+136K	2131421433-1.png
+136K	4small.jpg
+136K	Datasheet.hk_oa79_1291761.pdf
+136K	FMBBT.png
+136K	t_lm13600_vca_3_166.png
+136K	t resonant filter poor mans vcf 176.png
+140K	250mW audio amplifier - Electronic Circuits and Diagram-Electronics Projects and Design_copy.pdf
+140K	Fm-radio-Receiver-circuit-diagram-1.jpg
+140K	snare2.jpg
+140K	ukw_07.jpg
+148K	g11930.png
+152K	7 regen receivers small.png
+164K	#trim-cap.dxf
+164K	trim-cap.dxf
+168K	funcgen8038-rev3.pdf
+180K	0009061.pdf
+180K	fm-synchroontuner.gif
+184K	rss.gif
+184K	ukw_03.jpg
+188K	vhf-airband.png
+200K	varactor-receiver.png
+208K	filter_166.jpg
+208K	ukw_02.jpg
+208K	ukw_04.jpg
+228K	ukw_14.jpg
+236K	DSC09890.JPG
+248K	image003 140.png
+256K	ICs-sorted-utf16.pdf
+260K	ukw_15.jpg
+276K	0803 - Practical Radio Circuits Part 3.pdf
+276K	VHF-aircraft-receiver-with squelch2.jpg
+280K	2222a-regen_rev3.jpg
+296K	vcf mit verkabelung 361.png
+300K	ukw_13.jpg
+312K	coil-0.1uH.eps
+312K	ukw_10.jpg
+328K	PICSynth Schematic_files
+340K	VCF-LM324-Stereo+LFO-POT2x3.sch
+356K	2n918.pdf
+380K	regen_simple.jpg
+444K	fmontvanger.png
+500K	W3LW-regens.pdf
+508K	DSC09887.JPG
+524K	329_fmprijemnik.zip
+532K	class-ab-amp-schematic.jpg
+548K	2222a-regen.jpg
+584K	oscar4.jpg
+728K	lfo

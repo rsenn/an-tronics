@@ -1,0 +1,69 @@
+1.4M	9811qex026.pdf
+4.0K	a1d696282b124ef507afe3908afb103d.gif
+4.0K	du.txt
+4.0K	r11.gif
+4.0K	r14.gif
+4.0K	r30.gif
+4.0K	r40.gif
+4.0K	r6.gif
+4.0K	wbe4xl0f.gif
+8.0K	ASR3.png
+8.0K	circuit-diagram-of-transistor-radio-receiver-general-wiring.gif
+8.0K	circuit.jpg
+8.0K	download.png
+8.0K	pippin.gif
+8.0K	single-transistor-vco-fm-transmitter.gif
+8.0K	ukv-radio-fm-dinamik-naushniki-nizkoomnie.png
+8.0K	unnamed (1).gif
+12K	250mw-fm-vhf-transmitter.gif
+12K	30m_QRPP.png
+12K	4c3cbaafe87a55c71062a83f0b79f7f5.gif
+12K	5040cb0367c949125b49a0eacca1b7a9.jpg
+12K	AM-univ.gif
+12K	forced-quenching-improves-three-transistor-fm-tuner.gif
+12K	JLH69_microAmp.png
+12K	reflex2sch.gif
+12K	Regenerative_Receiver.png
+12K	simple-radio.png
+16K	15xmtr1.jpg
+16K	220px-Reflexschaltung.png
+16K	26a62caa87b02ddef36243b441652aeb.jpg
+16K	elektor-regen-as-built.ps
+16K	r105.gif
+16K	rx.gif
+16K	unnamed (2).jpg
+16K	unnamed.gif
+16K	uu80b.GIF
+24K	aircraft_receiver.jpg
+28K	APboard.png
+28K	basic-fm-transmitter.jpg
+28K	matchbox.gif
+32K	4ffe1ee897b52a9f5f7aa63475ad1b43.jpg
+32K	4tr.jpg
+32K	elektor-regen-as-built.jpg
+32K	single-transistor-radio-circuit.jpg
+36K	retroradio.gif
+40K	988dc0075c702e23d696805d21f5370e.jpg
+40K	Simple-FM-Radio-3V.jpg
+44K	fm-receiver-circuit-diagram.png
+44K	Two-Transistor-Regenerative-Receiver-Schematic-Circuit-Diagram.jpg
+48K	direct-coupled-radio.jpeg
+48K	unnamed (3).jpg
+56K	FM generalised design.png
+56K	unnamed (1).jpg
+60K	small-fm-radio.jpg
+60K	variant 1.png
+68K	CRYSTAL OSCILLATOR WITH FM CAPABILITY.JPG
+68K	rsz_futura_fm1.jpg
+72K	2018-11-25-one-transistor-fm-receiver-schematic-part-1-rustybolt.jpg
+72K	unnamed.jpg
+80K	maxresdefault.jpg
+88K	media_817_817bc07b-7400-4e01-b10f-06e7fde4e277_image.jpeg
+100K	b07c62d63c69a7cf6e788c2265858051.png
+176K	One Transistor FM Super Regen Receiver.png
+180K	s-fmsh.jpg
+188K	ux7ZS.png
+268K	Radio Shack Special (FM Receiver).pdf
+272K	Alan Yates' Laboratory - Micropower FM Broadcast Receiver.pdf
+768K	Homebrew_ - The RadioBoard Forums.pdf
+896K	Original Reflex 1914.png

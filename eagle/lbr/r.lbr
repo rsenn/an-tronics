@@ -745,11 +745,11 @@
 <package name="R-TRIM">
 <circle x="0" y="0" radius="3.81" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="1.4199" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
-<pad name="3" x="2.54" y="0" drill="0.9" diameter="1.778"/>
-<text x="-2.515" y="4.205" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-2.515" y="-5.605" size="0.6096" layer="27">&gt;VALUE</text>
+<pad name="E" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="S" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="A" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="0.025" y="4.205" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.025" y="-4.335" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 <rectangle x1="-1.016" y1="-0.254" x2="1.016" y2="0.254" layer="21"/>
 <rectangle x1="-0.254" y1="-1.016" x2="0.254" y2="1.016" layer="21"/>
 </package>
@@ -1726,9 +1726,9 @@
 </device>
 <device name="R-TRIM" package="R-TRIM">
 <connects>
-<connect gate="1" pin="A" pad="1"/>
-<connect gate="1" pin="E" pad="3"/>
-<connect gate="1" pin="S" pad="2"/>
+<connect gate="1" pin="A" pad="E"/>
+<connect gate="1" pin="E" pad="A"/>
+<connect gate="1" pin="S" pad="S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1894,15 +1894,42 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRIM-2">
+<deviceset name="TRIM-2" prefix="VR" uservalue="yes">
 <gates>
 <gate name="1" symbol="TPOT-2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="R-TRIM-2" package="R-TRIM">
 <connects>
-<connect gate="1" pin="1" pad="1 2"/>
-<connect gate="1" pin="2" pad="3"/>
+<connect gate="1" pin="1" pad="E S"/>
+<connect gate="1" pin="2" pad="A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TR-3TO2" package="TRIM-POT">
+<connects>
+<connect gate="1" pin="1" pad="A"/>
+<connect gate="1" pin="2" pad="E S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TR-2-V" package="POT-V">
+<connects>
+<connect gate="1" pin="1" pad="A"/>
+<connect gate="1" pin="2" pad="E S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TR-2" package="POT">
+<connects>
+<connect gate="1" pin="1" pad="A"/>
+<connect gate="1" pin="2" pad="E S"/>
 </connects>
 <technologies>
 <technology name=""/>
