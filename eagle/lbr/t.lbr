@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -84,9 +84,9 @@
 <wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
 <wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
 <wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
-<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
-<pad name="2" x="0" y="0" drill="0.9" diameter="1.778"/>
+<pad name="C" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="E" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="B" x="0" y="0" drill="0.9" diameter="1.778"/>
 <text x="1.27" y="0" size="0.6096" layer="25" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <text x="-1.143" y="0" size="0.4064" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <text x="0.635" y="0.635" size="0.254" layer="48" rot="R270" align="center-right">B</text>
@@ -771,9 +771,9 @@
 </device>
 <device name="" package="TO92-EBC">
 <connects>
-<connect gate="1" pin="B" pad="2"/>
-<connect gate="1" pin="C" pad="3"/>
-<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -816,9 +816,9 @@
 </device>
 <device name="EBC" package="TO92-EBC">
 <connects>
-<connect gate="1" pin="B" pad="2"/>
-<connect gate="1" pin="C" pad="3"/>
-<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -860,9 +860,9 @@
 </device>
 <device name="TO92-EBC" package="TO92-EBC">
 <connects>
-<connect gate="1" pin="B" pad="2"/>
-<connect gate="1" pin="C" pad="3"/>
-<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -972,9 +972,9 @@
 </device>
 <device name="-TO92-EBC" package="TO92-EBC">
 <connects>
-<connect gate="1" pin="B" pad="2"/>
-<connect gate="1" pin="C" pad="3"/>
-<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1016,9 +1016,9 @@
 </device>
 <device name="-EBC" package="TO92-EBC">
 <connects>
-<connect gate="1" pin="B" pad="2"/>
-<connect gate="1" pin="C" pad="3"/>
-<connect gate="1" pin="E" pad="1"/>
+<connect gate="1" pin="B" pad="B"/>
+<connect gate="1" pin="C" pad="C"/>
+<connect gate="1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1060,9 +1060,9 @@
 </device>
 <device name="-TO92" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1104,9 +1104,9 @@
 </device>
 <device name="-TO92" package="TO92-EBC">
 <connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1124,6 +1124,40 @@
 <connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
 <connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BF494">
+<gates>
+<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92-CEB">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N2222">
+<gates>
+<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92-EBC">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
 </connects>
 <technologies>
 <technology name=""/>
