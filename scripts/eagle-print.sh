@@ -129,7 +129,7 @@ EOF
    exec_cmd PDFTK "$OUTPUT" update_info "$TMP" output  "$OUTPUT.$$")
 
  (#exec_cmd GHOSTSCRIPT -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=eps2write -dLanguageLevel=2 -sOutputFile="${OUTPUT%.pdf}.eps" -f "$OUTPUT"
-  exec_cmd PDFTOPS -eps "$OUTPUT" "${OUTPUT%.pdf}.eps" && ${RMTEMP} -vf -- "$OUTPUT"
+  exec_cmd PDFTOPS -eps "$OUTPUT" "${OUTPUT%.pdf}.eps" #&& ${RMTEMP} -vf -- "$OUTPUT"
 )
 
 echo 1>&2

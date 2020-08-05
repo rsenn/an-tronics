@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="4" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6298,7 +6298,10 @@ http://www.romanblack.com/smps/conv.htm</description>
 <instance part="+12V" gate="1" x="74.93" y="88.9" rot="R180"/>
 <instance part="GND" gate="1" x="-12.7" y="48.26"/>
 <instance part="GND2" gate="1" x="73.66" y="48.26" rot="R180"/>
-<instance part="L1" gate="L1" x="7.62" y="88.9" rot="R90"/>
+<instance part="L1" gate="L1" x="7.62" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.08" y="91.44" size="1.27" layer="95" rot="R270" align="top-right"/>
+<attribute name="VALUE" x="10.16" y="91.44" size="1.27" layer="96" rot="R90" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>

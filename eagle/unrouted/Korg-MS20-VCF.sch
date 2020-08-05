@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="4" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -128,7 +128,7 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="synthdiy">
 <description>&lt;b&gt;Synthesizer Devices&lt;/b&gt;&lt;p&gt;
@@ -276,6 +276,12 @@
 <devices>
 <device name="N" package="DIL16">
 <connects>
+<connect gate="3" pin="IN" pad="7"/>
+<connect gate="3" pin="OUT" pad="8"/>
+<connect gate="4" pin="IN" pad="10"/>
+<connect gate="4" pin="OUT" pad="9"/>
+<connect gate="5" pin="V+" pad="11"/>
+<connect gate="5" pin="V-" pad="6"/>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="4"/>
 <connect gate="A" pin="IABC" pad="1"/>
@@ -286,12 +292,6 @@
 <connect gate="B" pin="IABC" pad="16"/>
 <connect gate="B" pin="ID" pad="15"/>
 <connect gate="B" pin="OUT" pad="12"/>
-<connect gate="3" pin="IN" pad="7"/>
-<connect gate="3" pin="OUT" pad="8"/>
-<connect gate="4" pin="IN" pad="10"/>
-<connect gate="4" pin="OUT" pad="9"/>
-<connect gate="5" pin="V+" pad="11"/>
-<connect gate="5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -299,6 +299,12 @@
 </device>
 <device name="M" package="SO16">
 <connects>
+<connect gate="3" pin="IN" pad="7"/>
+<connect gate="3" pin="OUT" pad="8"/>
+<connect gate="4" pin="IN" pad="10"/>
+<connect gate="4" pin="OUT" pad="9"/>
+<connect gate="5" pin="V+" pad="11"/>
+<connect gate="5" pin="V-" pad="6"/>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="4"/>
 <connect gate="A" pin="IABC" pad="1"/>
@@ -309,12 +315,6 @@
 <connect gate="B" pin="IABC" pad="16"/>
 <connect gate="B" pin="ID" pad="15"/>
 <connect gate="B" pin="OUT" pad="12"/>
-<connect gate="3" pin="IN" pad="7"/>
-<connect gate="3" pin="OUT" pad="8"/>
-<connect gate="4" pin="IN" pad="10"/>
-<connect gate="4" pin="OUT" pad="9"/>
-<connect gate="5" pin="V+" pad="11"/>
-<connect gate="5" pin="V-" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
