@@ -6,6 +6,9 @@ GITHUB_API_TOKEN=foo
 # TO DO: This variable seems to fail sometimes. Fix it.
 #PROJECT_NAME=$${PWD\#\#*/}
 
+PROJECTS = 40106-4069-Synth 555-ADSR-Rene-Schmitz 555-Oscillator 555-Synth 5V-to-12V-Converter-alt 5V-to-12V-Converter 5V-to-12V-Converter-ManyDiodes AGC-Amplifier-LM13600-Mono AGC-Amplifier-LM13600-Monosch AGC-Amplifier-LM13600-Stereo Amazing-All-Band-Receiver-alt Amazing-All-Band-Receiver AM-Crystal-RX AM-Crystal-RX-LM324 Amplifier-ClassAB AstableMultivibrator-NPN-alt AstableMultivibrator-NPN-CapPol AstableMultivibrator-NPN-CapPol-LED AstableMultivibrator-PNP-alt2 AstableMultivibrator-PNP-alt AstableMultivibrator-PNP AstableMultivibrator-PNP-CapPol AstableMultivibrator-PNP-old Audio-Amplifier-RickAndersen AudioPreAmp-LM741 Aurel super-regen receiver ASR2 ba662 BatteryMonitor-12V-LMT2901 EFM_VCF_4622 EFM_VCF6c FM Radio Circuit FM Radio Simple Receiver FM Simple Regen FM-VHF-Oscillator FunctionGenerator-ICL8038 Headphone-Amplifier-ClassAB-10x10 Headphone-Amplifier-ClassAB-13x6 Headphone-Amplifier-ClassAB-13x7 Headphone-Amplifier-ClassAB-alt2 Headphone-Amplifier-ClassAB-alt3 Headphone-Amplifier-ClassAB-alt4 Headphone-Amplifier-ClassAB-alt Headphone-Amplifier-ClassAB Headphone-Amplifier-ClassAB-long Headphone-Amplifier-ClassAB-smallest Headphone-Amplifier-ClassAB-Stereo-alt3 Headphone-Amplifier-ClassAB-Stereo-alt Headphone-Amplifier-ClassAB-Stereo ioboard2 Low-Frequency-LC-Oscillator Low-Frequency-LC-Oscillator-Hartley mainboard2 MotorController-BA6229 MotorControllerOpto-BA6229 MS20-VCF NE556-CD4069-Synth-Toy-2 NE556-CD4069-Synth-Toy NE556-CD4069-Synth-Toy-CableConn One-Transistor-FM-Super-Regen OpAmp-Inverting-3Transistor-alt2 OpAmp-Inverting-3Transistor-alt3 OpAmp-Inverting-3Transistor-alt OpAmp-Inverting-3Transistor OpenOTA Simple-Analog-Amp-BC547 Simple-Bug-2N918 Simple-Bug-2SC9014 Simple-Bug-BC547 Simple-Bug-BC557 Simple-Charger-LiIon-OpampBased-LM324 Simple-Charger-LiIon-OpampBased-LM324-prev Simple-Charger-LiIon-OpampBased-LM324-Rev Simple-Charger-LiIon-OpampBased-LM358 Simple-Transmitter-2N918 Simple-Transmitter-2SC9014 Simple-Transmitter-BC547 StereoAmplifier-BA5412 StyroCutter-556-heatsink-5V Super-Regenerative-Airband-1Transistor-Kamarudin2008-old Super-Regenerative-FM Super-Regenerative-FM-KosmosX3000 Super-Regenerative-FM.old Super-Regenerative-FM-Tuner-ForcedQuench Super-Regenerative-Receiver-1Transistor-ElektorSeptember2007 Super-Regenerative-Receiver-2Transistor-ElektorSeptember2007 Super-Regenerative-VHF-2Transistor-RickAndersen-October2006-alt Super-Regenerative-VHF-2Transistor-RickAndersen-October2006 Super-Regenerative-VHF-2Transistor-RickAndersen-October2006-old Super-Regenerative-VHF-KosmosX3000 ToneControl-BC547 Transmitter+Bug-BC547 Triangulator-LM324 Triangulator-LM358 VCF-LM324-Mono VCF-LM324-Stereo VCF-LM324-Stereo+LFO-Alt VCF-LM324-Stereo+LFO-CableConn VCF-LM324-Stereo+LFO-POT2x3 VCF-LM358-Stereo VCLFO_th_2 VCO-8038
+
+
 # For now it's just written in the makefile and you manually change it.
 PROJECT_NAME=test
 
@@ -27,27 +30,33 @@ BOTTOM_SOLDERMASK_COLOUR?=2D114A
 # On Mac OSX we will create a link to the Eagle binary:
 # sudo ln -s /Applications/EAGLE/EAGLE.app/Contents/MacOS/EAGLE /usr/bin/eagle 
 
-.SILENT: all gerbers git github clean
+.SILENT: gerbers git github clean
 
-all : gerbers git github
+all : 
+	@for x in $(PROJECTS); do \
+		echo "make project PROJECT_NAME=$${x%.brd} || exit $?" 1>&2 ; \
+		make project PROJECT_NAME=$${x%.brd} || exit $?; \
+		done
 
-.PHONY: gerbers
+.PHONY: gerbers project
+project : gerbers #git github
+
 
 gerbers :
 
 	mkdir -p gerbers
 	mkdir -p temp
 	for f in `ls *.s#* *.b#* 2> /dev/null`; do mv $$f ./temp/; done
-	echo "Generating Gerber files..."
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GTL $(PROJECT_NAME).brd Top Pads Vias Dimension > /dev/null
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GBL $(PROJECT_NAME).brd Bottom Pads Vias > /dev/null
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GTO $(PROJECT_NAME).brd tPlace tNames tValues > /dev/null
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GTP $(PROJECT_NAME).brd tCream > /dev/null
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GBO $(PROJECT_NAME).brd bPlace bNames bValues > /dev/null
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GTS $(PROJECT_NAME).brd tStop > /dev/null
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GBS $(PROJECT_NAME).brd bStop > /dev/null
-	eagle -X -d GERBER_RS274X -o ./gerbers/$(PROJECT_NAME).GML $(PROJECT_NAME).brd Milling > /dev/null
-	eagle -X -d EXCELLON -o ./gerbers/$(PROJECT_NAME).TXT $(PROJECT_NAME).brd Drills Holes > /dev/null
+	echo "Generating Gerber files for '$(PROJECT_NAME)'..."
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTL" "eagle/$(PROJECT_NAME).brd" Top Pads Vias Dimension > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBL" "eagle/$(PROJECT_NAME).brd" Bottom Pads Vias > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTO" "eagle/$(PROJECT_NAME).brd" tPlace tNames tValues > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTP" "eagle/$(PROJECT_NAME).brd" tCream > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBO" "eagle/$(PROJECT_NAME).brd" bPlace bNames bValues > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTS" "eagle/$(PROJECT_NAME).brd" tStop > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBS" "eagle/$(PROJECT_NAME).brd" bStop > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GML" "eagle/$(PROJECT_NAME).brd" Milling > /dev/null
+	eagle -X -d EXCELLON -o "./gerbers/$(PROJECT_NAME).TXT" "eagle/$(PROJECT_NAME).brd" Drills Holes > /dev/null
 	
 	`gerbv --export=png --output=$(PROJECT_NAME)-pcb.png --dpi=$(GERBER_IMAGE_RESOLUTION) --background=#$(BACKGROUND_COLOUR) --f=#$(HOLES_COLOUR) \
 	gerbers/$(PROJECT_NAME).TXT --f=#$(SILKSCREEN_COLOUR) gerbers/$(PROJECT_NAME).GTO --f=#$(PADS_COLOUR) gerbers/$(PROJECT_NAME).GTS --f=#$(TOP_SOLDERMASK_COLOUR) \
