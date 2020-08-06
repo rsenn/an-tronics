@@ -18,10 +18,6 @@ PROJECTS  = \
   Amazing-All-Band-Receiver \
   AM-Crystal-RX \
   AM-Crystal-RX-LM324 \
-  AstableMultivibrator-NPN-CapPol \
-  AstableMultivibrator-NPN-CapPol-LED \
-  AstableMultivibrator-PNP \
-  AstableMultivibrator-PNP-CapPol \
   Audio-Amplifier-RickAndersen \
   AudioPreAmp-LM741 \
   FM-VHF-Oscillator \
@@ -33,10 +29,8 @@ PROJECTS  = \
   Headphone-Amplifier-ClassAB-Stereo \
   Low-Frequency-LC-Oscillator \
   Low-Frequency-LC-Oscillator-Hartley \
-  mainboard2 \
   MotorController-BA6229 \
   MotorControllerOpto-BA6229 \
-  MS20-VCF \
   NE556-CD4069-Synth-Toy-2 \
   NE556-CD4069-Synth-Toy \
   NE556-CD4069-Synth-Toy-CableConn \
@@ -44,10 +38,6 @@ PROJECTS  = \
   OpAmp-Inverting-3Transistor \
   OpenOTA \
   Simple-Analog-Amp-BC547 \
-  Simple-Bug-2N918 \
-  Simple-Bug-2SC9014 \
-  Simple-Bug-BC547 \
-  Simple-Bug-BC557 \
   Simple-Charger-LiIon-OpampBased-LM324 \
   Simple-Charger-LiIon-OpampBased-LM324-Rev \
   Simple-Charger-LiIon-OpampBased-LM358 \
@@ -68,12 +58,10 @@ PROJECTS  = \
   Triangulator-LM324 \
   Triangulator-LM358 \
   VCF-LM324-Mono \
-  VCF-LM324-Stereo \
   VCF-LM324-Stereo+LFO-Alt \
   VCF-LM324-Stereo+LFO-CableConn \
   VCF-LM324-Stereo+LFO-POT2x3 \
   VCF-LM358-Stereo \
-  VCLFO_th_2 \
   VCO-8038
 
 #PROJECTS += AGC-Amplifier-LM13600-Stereo Amplifier-ClassAB
@@ -105,8 +93,10 @@ BOTTOM_SOLDERMASK_COLOUR?=2D114A
 
 all :
 	@for x in $(PROJECTS); do \
-	echo "make project PROJECT_NAME=$${x%.brd} || { echo "Abort: $$?" 1>&2; exit $$?; }" 1>&2 ; \
-	make project PROJECT_NAME=$${x%.brd} || exit $?; \
+	 if [ "eagle/$$x.brd" -nt "gerbers/$$x.TXT" ]; then \
+	echo "make project PROJECT_NAME=$$x" 1>&2 ; \
+	make project PROJECT_NAME=$$x || { R=$$?; echo "Abort: $$R" 1>&2; exit $$R; }  \
+	fi; \
 	done
 
 .PHONY: gerbers project
@@ -120,15 +110,15 @@ gerbers :
 	-@mkdir -p temp
 	-@for f in `ls *.s#* *.b#* 2> /dev/null`; do mv $$f ./temp/; done
 	@echo "Generating Gerber files for 'eagle/$(PROJECT_NAME).brd' ..." 1>&2
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTL" "eagle/$(PROJECT_NAME).brd" Top Pads Vias Dimension > /dev/null
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBL" "eagle/$(PROJECT_NAME).brd" Bottom Pads Vias > /dev/null
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTO" "eagle/$(PROJECT_NAME).brd" tPlace tNames tValues > /dev/null
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTP" "eagle/$(PROJECT_NAME).brd" tCream > /dev/null
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBO" "eagle/$(PROJECT_NAME).brd" bPlace bNames bValues > /dev/null
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTS" "eagle/$(PROJECT_NAME).brd" tStop > /dev/null
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBS" "eagle/$(PROJECT_NAME).brd" bStop > /dev/null
-	@eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GML" "eagle/$(PROJECT_NAME).brd" Milling > /dev/null
-	@eagle -X -d EXCELLON -o "./gerbers/$(PROJECT_NAME).TXT" "eagle/$(PROJECT_NAME).brd" Drills Holes > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTL" "eagle/$(PROJECT_NAME).brd" Top Pads Vias Dimension > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBL" "eagle/$(PROJECT_NAME).brd" Bottom Pads Vias > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTO" "eagle/$(PROJECT_NAME).brd" tPlace tNames tValues > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTP" "eagle/$(PROJECT_NAME).brd" tCream > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBO" "eagle/$(PROJECT_NAME).brd" bPlace bNames bValues > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GTS" "eagle/$(PROJECT_NAME).brd" tStop > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GBS" "eagle/$(PROJECT_NAME).brd" bStop > /dev/null
+	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GML" "eagle/$(PROJECT_NAME).brd" Milling > /dev/null
+	eagle -X -d EXCELLON -o "./gerbers/$(PROJECT_NAME).TXT" "eagle/$(PROJECT_NAME).brd" Drills Holes > /dev/null
 
 	@`gerbv --export=png --output=$(PROJECT_NAME)-pcb.png --dpi=$(GERBER_IMAGE_RESOLUTION) --background=#$(BACKGROUND_COLOUR) --f=#$(HOLES_COLOUR) \
 	"gerbers/$(PROJECT_NAME).TXT" --f=#$(SILKSCREEN_COLOUR) gerbers/$(PROJECT_NAME).GTO --f=#$(PADS_COLOUR) gerbers/$(PROJECT_NAME).GTS --f=#$(TOP_SOLDERMASK_COLOUR) \
