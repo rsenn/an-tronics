@@ -62,7 +62,8 @@ PROJECTS  = \
   VCF-LM324-Stereo+LFO-CableConn \
   VCF-LM324-Stereo+LFO-POT2x3 \
   VCF-LM358-Stereo \
-  VCO-8038
+  VCO-8038 \
+	AGC-Amplifier-LM13600-Stereo
 
 #PROJECTS += AGC-Amplifier-LM13600-Stereo Amplifier-ClassAB
 #PROJECTS := $(filter FM%,$(PROJECTS))
@@ -93,9 +94,10 @@ BOTTOM_SOLDERMASK_COLOUR?=2D114A
 
 all :
 	@for x in $(PROJECTS); do \
-	 if [ "eagle/$$x.brd" -nt "gerbers/$$x.TXT" ]; then \
-	echo "make project PROJECT_NAME=$$x" 1>&2 ; \
-	make project PROJECT_NAME=$$x || { R=$$?; echo "Abort: $$R" 1>&2; exit $$R; }  \
+	PROJECT="$${x##*/}"; PROJECT=$${PROJECT%.brd}; \
+	 if [ "eagle/$$PROJECT.brd" -nt "gerbers/$$x.TXT" ]; then \
+	echo "make project PROJECT_NAME=$$PROJECT" 1>&2 ; \
+	make project PROJECT_NAME=$$PROJECT || { R=$$?; echo "Abort: $$R" 1>&2; exit $$R; }  \
 	fi; \
 	done
 
