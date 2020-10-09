@@ -100,7 +100,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="-1.905" y="0.8255" size="1.016" layer="25">&gt;NAME</text>
 <text x="2.159" y="-0.8255" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.9" rot="R180"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" />
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -116,10 +116,10 @@ http://www.ke3ij.com/superrgn.htm</description>
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
 <wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
-<pad name="2" x="0" y="-1.27" drill="0.9" rot="R270" stop="no"/>
+<pad name="2" x="0" y="-1.27" drill="0.9"  stop="no"/>
 <text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
 <text x="0.508" y="-2.413" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
-<pad name="1" x="0" y="1.27" drill="0.9" rot="R90" stop="no"/>
+<pad name="1" x="0" y="1.27" drill="0.9"  stop="no"/>
 <wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
@@ -136,7 +136,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="0.254" y="0.9652" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="3.556" y="0" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="0" drill="0.9" rot="R180"/>
+<pad name="1" x="0" y="0" drill="0.9" />
 <wire x1="3.429" y1="0" x2="2.667" y2="-0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="-0.127" y1="-0.889" x2="2.667" y2="-0.889" width="0.091440625" layer="21"/>
 <wire x1="-0.127" y1="-0.889" x2="-0.889" y2="0" width="0.091440625" layer="21" curve="-90"/>
@@ -160,8 +160,8 @@ http://www.ke3ij.com/superrgn.htm</description>
 <wire x1="-3.429" y1="1.27" x2="-3.683" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="1.016" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="-1.016" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="2.54" y="0" drill="0.9" rot="R180"/>
-<pad name="2" x="-2.54" y="0" drill="0.9" rot="R180"/>
+<pad name="1" x="2.54" y="0" drill="0.9" />
+<pad name="2" x="-2.54" y="0" drill="0.9" />
 <text x="4.064" y="1.27" size="1.016" layer="25" rot="R270">&gt;NAME</text>
 <text x="-4.064" y="-1.27" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -177,7 +177,7 @@ http://www.ke3ij.com/superrgn.htm</description>
 <wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
 <wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.9" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" />
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="1.7145" y="0" size="1.016" layer="25" rot="R90" align="top-center">&gt;NAME</text>
 <text x="-1.7145" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
@@ -228,8 +228,8 @@ http://www.ke3ij.com/superrgn.htm</description>
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="L-02/7V">
-<pad name="2" x="0" y="-3.81" drill="0.9" rot="R180"/>
-<pad name="1" x="0" y="3.81" drill="0.9" rot="R180"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" />
+<pad name="1" x="0" y="3.81" drill="0.9" />
 <wire x1="0.6985" y1="2.0955" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="2.794" x2="-0.635" y2="2.0955" width="0.127" layer="21" curve="90"/>
 <wire x1="0.6985" y1="1.524" x2="0" y2="2.2225" width="0.127" layer="21" curve="90"/>
@@ -256,8 +256,8 @@ http://www.ke3ij.com/superrgn.htm</description>
 <wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.9" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.9" rot="R270"/>
+<pad name="1" x="0" y="3.81" drill="0.9" />
+<pad name="2" x="0" y="-3.81" drill="0.9" />
 <text x="-0.889" y="0" size="1.016" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
@@ -278,8 +278,8 @@ http://www.ke3ij.com/superrgn.htm</description>
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-3.81" drill="0.9" rot="R90"/>
-<pad name="2" x="0" y="3.81" drill="0.9" rot="R90"/>
+<pad name="1" x="0" y="-3.81" drill="0.9" />
+<pad name="2" x="0" y="3.81" drill="0.9" />
 <text x="-0.254" y="1.905" size="1.016" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>

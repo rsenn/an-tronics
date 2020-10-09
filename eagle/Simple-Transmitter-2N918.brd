@@ -2296,7 +2296,7 @@
 <wire x1="0.4445" y1="-0.6985" x2="0.4445" y2="0" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
 <pad name="-" x="-1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon" rot="R180"/>
-<pad name="+" x="1.27" y="0" drill="0.9" diameter="1.778" rot="R180"/>
+<pad name="+" x="1.27" y="0" drill="0.9" diameter="1.778" />
 <text x="-0.9525" y="-1.2065" size="0.8128" layer="25" rot="R180">&gt;NAME</text>
 <text x="1.2065" y="1.016" size="0.8128" layer="27">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="-0.4445" y2="0" width="0.0762" layer="51"/>

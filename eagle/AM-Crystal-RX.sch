@@ -101,9 +101,9 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="-0.889" y1="-3.705" x2="-0.889" y2="-4.191" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="-3.705" x2="0.889" y2="-4.191" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="3.556" drill="1.3208" rot="R270"/>
-<pad name="3" x="0" y="-3.556" drill="1.3208" rot="R270"/>
-<pad name="2" x="-3.556" y="0" drill="1.3208" rot="R270"/>
+<pad name="1" x="0" y="3.556" drill="1.3208" />
+<pad name="3" x="0" y="-3.556" drill="1.3208" />
+<pad name="2" x="-3.556" y="0" drill="1.3208" />
 <text x="-3.937" y="4.445" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-6.223" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="-0.254" x2="1.27" y2="0.254" layer="21" rot="R270"/>
@@ -2475,7 +2475,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="-0.635" y1="0" x2="-1.651" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <pad name="-" x="-1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon" rot="R180"/>
-<pad name="+" x="1.27" y="0" drill="0.8128" diameter="1.6002" rot="R180"/>
+<pad name="+" x="1.27" y="0" drill="0.8128" diameter="1.6002" />
 <text x="-1.397" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.143" y="-2.413" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.762" y1="-1.27" x2="-0.254" y2="1.27" layer="51" rot="R180"/>
@@ -3932,7 +3932,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="1.8542" y1="-0.889" x2="1.8542" y2="0" width="0.1524" layer="51"/>
 <circle x="1.27" y="0" radius="2.032" width="0.1524" layer="21"/>
 <pad name="-" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon" rot="R180"/>
-<pad name="+" x="2.54" y="0" drill="0.8128" diameter="1.6002" rot="R180"/>
+<pad name="+" x="2.54" y="0" drill="0.8128" diameter="1.6002" />
 <text x="-0.381" y="1.524" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.905" y="-2.0955" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="0.6858" y2="0" width="0.1524" layer="51"/>
@@ -3956,7 +3956,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="0.4445" y1="-0.6985" x2="0.4445" y2="0" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
 <pad name="-" x="-1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon" rot="R180"/>
-<pad name="+" x="1.27" y="0" drill="0.8128" diameter="1.6002" rot="R180"/>
+<pad name="+" x="1.27" y="0" drill="0.8128" diameter="1.6002" />
 <text x="-1.2065" y="0.8255" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.2065" y="1.016" size="0.8128" layer="27">&gt;VALUE</text>
 <wire x1="-1.27" y1="0" x2="-0.4445" y2="0" width="0.0762" layer="51"/>
@@ -3980,7 +3980,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="0.889" y1="1.8542" x2="0" y2="1.8542" width="0.1524" layer="51"/>
 <circle x="0" y="1.27" radius="2.032" width="0.1524" layer="21"/>
 <pad name="-" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon" rot="R270"/>
-<pad name="+" x="0" y="2.54" drill="0.8128" diameter="1.6002" rot="R270"/>
+<pad name="+" x="0" y="2.54" drill="0.8128" diameter="1.6002" />
 <text x="-1.651" y="2.794" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="0.635" y="-0.8255" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="0" y2="0.6858" width="0.1524" layer="51"/>
@@ -4791,10 +4791,10 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="-1.651" y1="0" x2="-0.762" y2="-0.635" width="0.1524" layer="22"/>
 <wire x1="-1.651" y1="0" x2="-1.651" y2="0.635" width="0.1524" layer="22"/>
 <wire x1="-1.651" y1="-0.635" x2="-1.651" y2="0" width="0.1524" layer="22"/>
-<pad name="C" x="-1.27" y="0" drill="0.6" diameter="1.4224" rot="R180"/>
+<pad name="C" x="-1.27" y="0" drill="0.6" diameter="1.4224" />
 <text x="-2.159" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" rot="R180"/>
+<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" />
 <circle x="-1.27" y="0" radius="1.27" width="0.254" layer="22"/>
 <wire x1="0.0635" y1="0" x2="1.27" y2="0" width="0.4064" layer="22"/>
 </package>
@@ -4903,7 +4903,7 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="-0.889" y1="0" x2="-0.127" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0" x2="-0.889" y2="-0.4445" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0.508" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" rot="R180"/>
+<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" />
 <text x="0" y="1.397" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.8128" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
 <pad name="C" x="-1.27" y="0" drill="0.6" diameter="1.4224"/>
@@ -5259,14 +5259,14 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" diameter="1.27" />
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" diameter="1.27" />
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" diameter="1.27" />
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" diameter="1.27" />
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" diameter="1.27" />
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" diameter="1.27" />
+<pad name="6" x="1.27" y="3.81" drill="0.8128" diameter="1.27" />
+<pad name="5" x="3.81" y="3.81" drill="0.8128" diameter="1.27" />
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>

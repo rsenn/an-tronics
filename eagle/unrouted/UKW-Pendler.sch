@@ -850,7 +850,7 @@
 <text x="-2.54" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04/7-TAP1">
+<package name="L-04/10-TAP1">
 <pad name="2" x="0" y="-5.08" drill="0.8"/>
 <pad name="1" x="0" y="5.08" drill="0.8"/>
 <wire x1="-1.27" y1="2.0955" x2="0" y2="3.3655" width="0.127" layer="21" curve="-90"/>
@@ -894,7 +894,7 @@
 <text x="-2.54" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-08/7V-TAP1">
+<package name="L-08/20V-TAP1">
 <pad name="T" x="5.08" y="2.54" drill="1.2" diameter="1.9304" rot="R180"/>
 <text x="-7.62" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-7.62" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
@@ -933,7 +933,7 @@
 <wire x1="5.08" y1="2.54" x2="4" y2="3.27" width="0.127" layer="21"/>
 <wire x1="0" y1="10.16" x2="0" y2="9.27" width="0.127" layer="21"/>
 </package>
-<package name="L-04/10V-TAP1">
+<package name="L-04/12V-TAP1">
 <pad name="2" x="0" y="-6.35" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <wire x1="-1.27" y1="-1.524" x2="0" y2="-0.254" width="0.127" layer="22" curve="-90"/>
@@ -965,7 +965,7 @@
 <wire x1="-3.81" y1="2.54" x2="-5.08" y2="3.81" width="0.127" layer="22"/>
 <pad name="3" x="-5.08" y="3.81" drill="0.8"/>
 </package>
-<package name="L-06/10V-TAP1">
+<package name="L-06/12V-TAP1">
 <pad name="2" x="0" y="-6.35" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <text x="-3.048" y="0.762" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
@@ -994,7 +994,7 @@
 <wire x1="-1.905" y1="-2.921" x2="-0.508" y2="-4.318" width="0.127" layer="21" curve="90"/>
 <wire x1="1.905" y1="-2.921" x2="0" y2="-4.826" width="0.127" layer="22" curve="-90"/>
 </package>
-<package name="L-08/10V-TAP1">
+<package name="L-08/12V-TAP1">
 <pad name="2" x="0" y="-6.35" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <text x="2.54" y="6.35" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
@@ -1014,7 +1014,7 @@
 <wire x1="-3.048" y1="-2.286" x2="3.302" y2="-3.556" width="0.3048" layer="21"/>
 <wire x1="-3.048" y1="-0.762" x2="3.302" y2="-2.032" width="0.3048" layer="21"/>
 </package>
-<package name="L-08/10-TAP1">
+<package name="L-08/12-TAP1">
 <pad name="2" x="6.35" y="0" drill="0.8" rot="R90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8" rot="R90"/>
 <text x="1.27" y="3.81" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
@@ -1034,7 +1034,7 @@
 <wire x1="2.286" y1="3.048" x2="3.556" y2="-3.302" width="0.3048" layer="22"/>
 <wire x1="0.762" y1="3.048" x2="2.032" y2="-3.302" width="0.3048" layer="22"/>
 </package>
-<package name="L-08/10-X-TAP1">
+<package name="L-08/12-X-TAP1">
 <pad name="2" x="6.35" y="0" drill="0.8" rot="R90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8" rot="R90"/>
 <text x="1.27" y="3.81" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
@@ -1072,7 +1072,7 @@
 <pad name="P$2" x="0" y="-5.08" drill="1" diameter="1.9304" rot="R180"/>
 <pad name="P$3" x="-5.08" y="2.54" drill="1" diameter="1.9304" rot="R180"/>
 </package>
-<package name="L-08-7/5H-TAP1">
+<package name="L-08-7/8-TAP1">
 <pad name="2" x="5.08" y="-2.54" drill="0.8" rot="R90"/>
 <pad name="1" x="-2.54" y="2.54" drill="0.8" rot="R90"/>
 <text x="-2.54" y="4.191" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
@@ -1106,7 +1106,7 @@
 <text x="-1.905" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.905" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04/10V">
+<package name="L-04/12V">
 <pad name="2" x="1.27" y="-6.35" drill="0.8"/>
 <pad name="1" x="1.27" y="6.35" drill="0.8"/>
 <wire x1="0" y1="-1.524" x2="1.27" y2="-0.254" width="0.127" layer="22" curve="-90"/>
@@ -1135,7 +1135,7 @@
 <wire x1="1.27" y1="2.794" x2="2.54" y2="1.524" width="0.127" layer="22" curve="-90"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/7V">
+<package name="L-04-5/8V">
 <pad name="2" x="2.54" y="-3.81" drill="0.8"/>
 <pad name="1" x="-2.54" y="3.81" drill="0.8"/>
 <wire x1="1.905" y1="2.286" x2="0" y2="4.064" width="0.127" layer="21" curve="90"/>
@@ -1273,7 +1273,7 @@
 <text x="0" y="2.032" size="0.8128" layer="25" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
 </package>
-<package name="L-04/7V">
+<package name="L-04/8V">
 <pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
@@ -1365,7 +1365,7 @@
 <text x="0" y="8.255" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="0" y="-8.255" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04-5/5V">
+<package name="L-04-5/6V">
 <pad name="2" x="2.54" y="-2.54" drill="0.8"/>
 <pad name="1" x="-2.54" y="2.54" drill="0.8"/>
 <wire x1="1.905" y1="1.778" x2="0" y2="3.683" width="0.127" layer="21" curve="90"/>
@@ -1384,7 +1384,7 @@
 <wire x1="-2.54" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.905" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/5V-C">
+<package name="L-04-5/6V-C">
 <pad name="2" x="0" y="-2.54" drill="0.8"/>
 <pad name="1" x="0" y="2.54" drill="0.8"/>
 <wire x1="1.905" y1="1.778" x2="0" y2="3.683" width="0.127" layer="21" curve="90"/>
@@ -1399,7 +1399,7 @@
 <text x="-2.413" y="-0.762" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
 <wire x1="1.905" y1="-0.889" x2="0" y2="-2.794" width="0.127" layer="21" curve="-90"/>
 </package>
-<package name="L-08-5/5H">
+<package name="L-08-5/8">
 <pad name="2" x="2.54" y="-2.54" drill="0.8" rot="R90"/>
 <pad name="1" x="-2.54" y="2.54" drill="0.8" rot="R90"/>
 <text x="-2.54" y="4.191" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
@@ -1481,7 +1481,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7" package="L-04/7-TAP1">
+<device name="04/7" package="L-04/10-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1491,7 +1491,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="08/7V" package="L-08/7V-TAP1">
+<device name="08/7V" package="L-08/20V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1501,7 +1501,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/10V" package="L-04/10V-TAP1">
+<device name="04/10V" package="L-04/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1511,7 +1511,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="06/10V" package="L-06/10V-TAP1">
+<device name="06/10V" package="L-06/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1521,7 +1521,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="08/10V" package="L-08/10V-TAP1">
+<device name="08/10V" package="L-08/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1531,7 +1531,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="08/10" package="L-08/10-TAP1">
+<device name="08/10" package="L-08/12-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1541,7 +1541,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="08/10-X" package="L-08/10-X-TAP1">
+<device name="08/10-X" package="L-08/12-X-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1571,7 +1571,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08-7/5H" package="L-08-7/5H-TAP1">
+<device name="L-08-7/5H" package="L-08-7/8-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1597,7 +1597,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/10" package="L-04/10V">
+<device name="04/10" package="L-04/12V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -1606,7 +1606,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/7" package="L-04-5/7V">
+<device name="04-5/7" package="L-04-5/8V">
 <connects>
 <connect gate="L1" pin="1" pad="2"/>
 <connect gate="L1" pin="2" pad="1"/>
@@ -1669,7 +1669,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7V" package="L-04/7V">
+<device name="04/7V" package="L-04/8V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -1696,7 +1696,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/5V" package="L-04-5/5V">
+<device name="04-5/5V" package="L-04-5/6V">
 <connects>
 <connect gate="L1" pin="1" pad="2"/>
 <connect gate="L1" pin="2" pad="1"/>
@@ -1705,7 +1705,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/5V-C" package="L-04-5/5V-C">
+<device name="04-5/5V-C" package="L-04-5/6V-C">
 <connects>
 <connect gate="L1" pin="1" pad="2"/>
 <connect gate="L1" pin="2" pad="1"/>
@@ -1714,7 +1714,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08-5/5H" package="L-08-5/5H">
+<device name="L-08-5/8" package="L-08-5/8">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>

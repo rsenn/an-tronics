@@ -159,7 +159,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="0.762" y1="-1.27" x2="0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.635" y1="0" x2="-1.651" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="-1.27" y="0" drill="0.9" rot="R180"/>
+<pad name="-" x="-1.27" y="0" drill="0.9" />
 <pad name="+" x="1.27" y="0" drill="0.7" shape="square" rot="R180"/>
 <text x="-1.397" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.143" y="-2.413" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
@@ -177,7 +177,7 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.9" diameter="1.778" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" diameter="1.778" />
 <pad name="+" x="0" y="1.27" drill="0.8" diameter="1.6002" shape="square" rot="R270"/>
 <text x="-1.524" y="-1.651" size="1.016" layer="25" rot="R90" align="bottom-right">&gt;NAME</text>
 <text x="2.0955" y="0.635" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
@@ -271,8 +271,8 @@ http://www.electronics-diy.com/4x4.php</description>
 <wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.9" rot="R270"/>
-<pad name="2" x="0" y="-3.81" drill="0.9" rot="R270"/>
+<pad name="1" x="0" y="3.81" drill="0.9" />
+<pad name="2" x="0" y="-3.81" drill="0.9" />
 <text x="-0.889" y="0" size="0.8128" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>

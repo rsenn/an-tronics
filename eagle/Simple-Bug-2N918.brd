@@ -1179,8 +1179,8 @@
  &lt;/BODY&gt;&lt;/HTML&gt;</description>
           <packages>
             <package name="0202V">
-              <pad drill="0.9" name="2" rot="R270" x="0" y="1.27"/>
-              <pad drill="0.9" name="1" rot="R270" x="0" y="-1.27"/>
+              <pad drill="0.9" name="2"  x="0" y="1.27"/>
+              <pad drill="0.9" name="1"  x="0" y="-1.27"/>
               <text align="center-right" layer="25" ratio="10" size="0.6096" x="-1.016" y="0.508">&gt;NAME</text>
               <text align="center-right" layer="27" ratio="10" size="0.6096" x="-1.016" y="-0.508">&gt;VALUE</text>
               <circle layer="21" radius="0.762" width="0.127" x="0" y="0.762"/>
@@ -2312,7 +2312,7 @@
               <pad drill="0.9" name="2" x="2.54" y="0"/>
               <text align="bottom-right" layer="25" size="0.6096" x="0.254" y="0.9652">&gt;NAME</text>
               <text align="center-left" layer="27" size="0.6096" x="3.556" y="0">&gt;VALUE</text>
-              <pad drill="0.9" name="1" rot="R180" x="0" y="0"/>
+              <pad drill="0.9" name="1"  x="0" y="0"/>
               <wire curve="-90" layer="21" width="0.091440625" x1="3.429" x2="2.667" y1="0" y2="-0.889"/>
               <wire layer="21" width="0.091440625" x1="-0.127" x2="2.667" y1="-0.889" y2="-0.889"/>
               <wire curve="-90" layer="21" width="0.091440625" x1="-0.127" x2="-0.889" y1="-0.889" y2="0"/>

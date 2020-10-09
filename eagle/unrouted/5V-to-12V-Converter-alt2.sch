@@ -5760,7 +5760,7 @@ http://www.romanblack.com/smps/conv.htm</description>
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="L-04/7V">
+<package name="L-04/8V">
 <pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
@@ -5801,7 +5801,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <text x="-1.905" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.905" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04/10V">
+<package name="L-04/12V">
 <pad name="2" x="1.27" y="-6.35" drill="0.8"/>
 <pad name="1" x="1.27" y="6.35" drill="0.8"/>
 <wire x1="0" y1="-1.524" x2="1.27" y2="-0.254" width="0.127" layer="22" curve="-90"/>
@@ -5830,7 +5830,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="1.27" y1="2.794" x2="2.54" y2="1.524" width="0.127" layer="22" curve="-90"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/7V">
+<package name="L-04-5/8V">
 <pad name="2" x="3.81" y="-3.81" drill="0.8" rot="R180"/>
 <pad name="1" x="-1.27" y="3.81" drill="0.8" rot="R180"/>
 <wire x1="2.54" y1="2.413" x2="1.27" y2="3.683" width="0.127" layer="21" curve="90"/>
@@ -5855,7 +5855,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/5V">
+<package name="L-04-5/6V">
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
 <pad name="1" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
@@ -6016,7 +6016,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <gate name="L1" symbol="L-SHORT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="04/7" package="L-04/7V">
+<device name="04/7" package="L-04/8V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6034,7 +6034,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/10" package="L-04/10V">
+<device name="04/10" package="L-04/12V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6043,7 +6043,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/7" package="L-04-5/7V">
+<device name="04-5/7" package="L-04-5/8V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6052,7 +6052,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04-5/5V" package="L-04-5/5V">
+<device name="04-5/5V" package="L-04-5/6V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>
@@ -6106,7 +6106,7 @@ http://www.romanblack.com/smps/conv.htm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/7V" package="L-04/7V">
+<device name="L-04/8V" package="L-04/8V">
 <connects>
 <connect gate="L1" pin="1" pad="1"/>
 <connect gate="L1" pin="2" pad="2"/>

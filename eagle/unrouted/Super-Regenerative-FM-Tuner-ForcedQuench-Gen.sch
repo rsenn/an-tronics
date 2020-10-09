@@ -127,7 +127,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <text x="-2.54" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04/7-TAP1">
+<package name="L-04/10-TAP1">
 <pad name="2" x="0" y="-5.08" drill="0.8"/>
 <pad name="1" x="0" y="5.08" drill="0.8"/>
 <wire x1="-1.27" y1="2.0955" x2="0" y2="3.3655" width="0.127" layer="21" curve="-90"/>
@@ -171,7 +171,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <text x="-2.54" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-08/7V-TAP1">
+<package name="L-08/20V-TAP1">
 <pad name="T" x="5.08" y="2.54" drill="1.2" diameter="1.9304" rot="R180"/>
 <text x="-7.62" y="1.27" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-7.62" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
@@ -210,7 +210,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="5.08" y1="2.54" x2="4" y2="3.27" width="0.127" layer="21"/>
 <wire x1="0" y1="10.16" x2="0" y2="9.27" width="0.127" layer="21"/>
 </package>
-<package name="L-04/10V-TAP1">
+<package name="L-04/12V-TAP1">
 <pad name="2" x="0" y="-6.35" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <wire x1="-1.27" y1="-1.524" x2="0" y2="-0.254" width="0.127" layer="22" curve="-90"/>
@@ -242,7 +242,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.81" y1="2.54" x2="-5.08" y2="3.81" width="0.127" layer="22"/>
 <pad name="3" x="-5.08" y="3.81" drill="0.8"/>
 </package>
-<package name="L-06/10V-TAP1">
+<package name="L-06/12V-TAP1">
 <pad name="2" x="0" y="-6.35" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <text x="-3.048" y="0.762" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
@@ -271,7 +271,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-1.905" y1="-2.921" x2="-0.508" y2="-4.318" width="0.127" layer="21" curve="90"/>
 <wire x1="1.905" y1="-2.921" x2="0" y2="-4.826" width="0.127" layer="22" curve="-90"/>
 </package>
-<package name="L-08/10V-TAP1">
+<package name="L-08/12V-TAP1">
 <pad name="2" x="0" y="-6.35" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <text x="2.54" y="6.35" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
@@ -291,7 +291,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="-3.048" y1="-2.286" x2="3.302" y2="-3.556" width="0.3048" layer="21"/>
 <wire x1="-3.048" y1="-0.762" x2="3.302" y2="-2.032" width="0.3048" layer="21"/>
 </package>
-<package name="L-08/10-TAP1">
+<package name="L-08/12-TAP1">
 <pad name="2" x="6.35" y="0" drill="0.8" rot="R90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8" rot="R90"/>
 <text x="1.27" y="3.81" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
@@ -311,7 +311,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="2.286" y1="3.048" x2="3.556" y2="-3.302" width="0.3048" layer="22"/>
 <wire x1="0.762" y1="3.048" x2="2.032" y2="-3.302" width="0.3048" layer="22"/>
 </package>
-<package name="L-08/10-X-TAP1">
+<package name="L-08/12-X-TAP1">
 <pad name="2" x="6.35" y="0" drill="0.8" rot="R90"/>
 <pad name="1" x="-6.35" y="0" drill="0.8" rot="R90"/>
 <text x="1.27" y="3.81" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
@@ -391,7 +391,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <text x="-1.27" y="1.27" size="0.8128" layer="21" align="bottom-right">&gt;NAME</text>
 <text x="-1.27" y="-1.27" size="0.8128" layer="21" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04/7V">
+<package name="L-04/8V">
 <pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
@@ -414,7 +414,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <text x="-1.016" y="-5.08" size="0.8128" layer="25" align="center-right">&gt;NAME</text>
 <text x="-1.016" y="-6.35" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
 </package>
-<package name="L-04/7-M">
+<package name="L-04/10-M">
 <pad name="2" x="0" y="-3.81" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <wire x1="-1.27" y1="3.3655" x2="0" y2="4.6355" width="0.127" layer="21" curve="-90"/>
@@ -437,7 +437,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <wire x1="1.27" y1="5.08" x2="0" y2="6.35" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.2225" x2="0" y2="-3.81" width="0.127" layer="21"/>
 </package>
-<package name="L-09R">
+<package name="L-8R">
 <pad name="P$1" x="-2.54" y="0" drill="1" shape="octagon"/>
 <pad name="P$2" x="2.54" y="0" drill="1" shape="octagon"/>
 <circle x="0" y="0" radius="3.8608" width="0.127" layer="21"/>
@@ -560,7 +560,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <text x="2.032" y="-1.905" size="0.8128" layer="27" rot="R180" align="top-right">&gt;VALUE</text>
 <wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
 </package>
-<package name="L-04-5/5V">
+<package name="L-04-5/6V">
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
 <pad name="1" x="1.27" y="-2.54" drill="0.8" rot="R180"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
@@ -702,7 +702,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7" package="L-04/7-TAP1">
+<device name="04/7" package="L-04/10-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -712,7 +712,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="08/7V" package="L-08/7V-TAP1">
+<device name="08/7V" package="L-08/20V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -722,7 +722,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04/10V-TAP1" package="L-04/10V-TAP1">
+<device name="L-04/12V-TAP1" package="L-04/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -732,7 +732,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-06/10V-TAP1" package="L-06/10V-TAP1">
+<device name="L-06/12V-TAP1" package="L-06/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -742,7 +742,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08/10V-TAP1" package="L-08/10V-TAP1">
+<device name="L-08/12V-TAP1" package="L-08/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -752,7 +752,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08/10-TAP1" package="L-08/10-TAP1">
+<device name="L-08/12-TAP1" package="L-08/12-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -762,7 +762,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-08/10-X-TAP1" package="L-08/10-X-TAP1">
+<device name="L-08/12-X-TAP1" package="L-08/12-X-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -809,7 +809,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7" package="L-04/7V">
+<device name="04/7" package="L-04/8V">
 <connects>
 <connect gate="1" pin="1" pad="2"/>
 <connect gate="1" pin="2" pad="1"/>
@@ -818,7 +818,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7-M" package="L-04/7-M">
+<device name="04/7-M" package="L-04/10-M">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -827,7 +827,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="-09R" package="L-09R">
+<device name="-09R" package="L-8R">
 <connects>
 <connect gate="1" pin="1" pad="P$1"/>
 <connect gate="1" pin="2" pad="P$2"/>
@@ -863,7 +863,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 <technology name=""/>
 </technologies>
 </device>
-<device name="L-04-5/5V" package="L-04-5/5V">
+<device name="L-04-5/6V" package="L-04-5/6V">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -4361,7 +4361,7 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 </class>
 </classes>
 <parts>
-<part name="L1" library="l" deviceset="L-TAP1" device="L-08/10-TAP1" value="0.1uH"/>
+<part name="L1" library="l" deviceset="L-TAP1" device="L-08/12-TAP1" value="0.1uH"/>
 <part name="T1" library="t" deviceset="BF245B" device="TO92" value="BF245A"/>
 <part name="C1" library="c" deviceset="C" device="025-015X024" value="20pF"/>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="10pF"/>

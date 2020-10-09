@@ -98,10 +98,10 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="0" y="2.54" drill="0.9" rot="R90"/>
+<pad name="2" x="0" y="2.54" drill="0.9" />
 <text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
 <text x="1.016" y="0" size="1.016" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.9" rot="R270"/>
+<pad name="1" x="0" y="-2.54" drill="0.9" />
 <wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.127" layer="21" curve="-90"/>
@@ -114,7 +114,7 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <package name="C050-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="-2.54" y="0" drill="0.9" rot="R180"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" />
 <text x="0" y="1.27" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.27" size="1.016" layer="27" align="top-center">&gt;VALUE</text>
 <pad name="1" x="2.54" y="0" drill="0.9"/>
@@ -136,7 +136,7 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <pad name="2" x="2.54" y="0" drill="0.9"/>
 <text x="-0.254" y="0.8255" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="0.254" y="0.8255" size="0.8128" layer="27">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.9" rot="R180"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" />
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -221,8 +221,8 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
 <pad name="S" x="0" y="2.54" drill="0.9" diameter="1.778"/>
-<pad name="A" x="-2.54" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
-<pad name="E" x="2.54" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="A" x="-2.54" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="E" x="2.54" y="-2.54" drill="0.9" diameter="1.778" />
 <text x="-2.54" y="4.191" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.461" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-3.048" layer="51"/>
@@ -369,17 +369,17 @@ http://electronics-diy.com/simple-fm-radio.php</description>
 <wire x1="3.638009375" y1="-3.20420625" x2="4.060759375" y2="-3.172425" width="0.001" layer="21"/>
 <wire x1="4.060759375" y1="-3.172425" x2="4.363221875" y2="-2.923965625" width="0.001" layer="21"/>
 <wire x1="4.363221875" y1="-2.923965625" x2="4.476" y2="-2.549746875" width="0.001" layer="21"/>
-<pad name="4" x="3.81" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
-<pad name="3" x="-3.81" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
-<pad name="1" x="-3.81" y="2.54" drill="0.9" diameter="1.778" rot="R90"/>
-<pad name="2" x="3.81" y="2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="3" x="-3.81" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="-3.81" y="2.54" drill="0.9" diameter="1.778" />
+<pad name="2" x="3.81" y="2.54" drill="0.9" diameter="1.778" />
 </package>
-<package name="L-08/10-X-TAP1">
-<pad name="2" x="6.35" y="0" drill="0.9" rot="R90"/>
-<pad name="1" x="-6.35" y="0" drill="0.9" rot="R90"/>
+<package name="L-08/12-X-TAP1">
+<pad name="2" x="6.35" y="0" drill="0.9" />
+<pad name="1" x="-6.35" y="0" drill="0.9" />
 <text x="1.27" y="3.81" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="1.27" y="-3.81" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-<pad name="3" x="-3.81" y="2.54" drill="0.9" rot="R270"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.9" />
 <wire x1="-6.35" y1="0" x2="-5.08" y2="0" width="0.3048" layer="21"/>
 <wire x1="-5.08" y1="0" x2="-5.08" y2="3.048" width="0.3048" layer="21"/>
 <wire x1="-3.81" y1="-3.302" x2="-5.08" y2="3.048" width="0.3048" layer="21"/>
@@ -600,7 +600,7 @@ design rules under a new name.</description>
 <element name="Q1" library="t" package="TO92" value="BF245B" x="25.4" y="12.7" rot="R180"/>
 <element name="R1" library="r" package="POT-V" value="1k" x="12.7" y="5.08" rot="R180"/>
 <element name="R2" library="r" package="0204/10" value="10k" x="35.56" y="7.62"/>
-<element name="L1" library="l" package="L-08/10-X-TAP1" value="0.22uH" x="11.43" y="15.24"/>
+<element name="L1" library="l" package="L-08/12-X-TAP1" value="0.22uH" x="11.43" y="15.24"/>
 </elements>
 <signals>
 <signal name="GND">

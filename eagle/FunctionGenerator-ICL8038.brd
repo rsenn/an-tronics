@@ -87,7 +87,7 @@ http://electro-music.com/forum/post-380531.html</description>
 <package name="C050-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="-2.54" y="0" drill="0.9" rot="R180"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" />
 <text x="0" y="1.27" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 <pad name="1" x="2.54" y="0" drill="0.9"/>
@@ -194,8 +194,8 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202/5-V">
-<pad name="1" x="0" y="2.54" drill="0.9" rot="R270"/>
-<pad name="2" x="0" y="-2.54" drill="0.9" rot="R270"/>
+<pad name="1" x="0" y="2.54" drill="0.9" />
+<pad name="2" x="0" y="-2.54" drill="0.9" />
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="51"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="51"/>

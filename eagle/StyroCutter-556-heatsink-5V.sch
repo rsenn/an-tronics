@@ -9249,9 +9249,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.127" layer="21" curve="22.4788"/>
 <wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="27.9376"/>
 <wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
-<pad name="C" x="-2.54" y="0" drill="0.7" diameter="1.4224" rot="R90"/>
-<pad name="E" x="2.54" y="0" drill="0.7" diameter="1.4224" rot="R90"/>
-<pad name="B" x="0" y="0" drill="0.7" diameter="1.4224" rot="R90"/>
+<pad name="C" x="-2.54" y="0" drill="0.7" diameter="1.4224" />
+<pad name="E" x="2.54" y="0" drill="0.7" diameter="1.4224" />
+<pad name="B" x="0" y="0" drill="0.7" diameter="1.4224" />
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -9265,9 +9265,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.127" layer="21" curve="22.4788"/>
 <wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="27.9376"/>
 <wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
-<pad name="C" x="-2.54" y="0" drill="0.7" diameter="1.4224" rot="R90"/>
-<pad name="E" x="2.54" y="0" drill="0.7" diameter="1.4224" rot="R90"/>
-<pad name="B" x="0" y="2.54" drill="0.7" diameter="1.4224" rot="R90"/>
+<pad name="C" x="-2.54" y="0" drill="0.7" diameter="1.4224" />
+<pad name="E" x="2.54" y="0" drill="0.7" diameter="1.4224" />
+<pad name="B" x="0" y="2.54" drill="0.7" diameter="1.4224" />
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -14586,10 +14586,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-1.651" y1="0" x2="-0.762" y2="-0.635" width="0.1524" layer="22"/>
 <wire x1="-1.651" y1="0" x2="-1.651" y2="0.635" width="0.1524" layer="22"/>
 <wire x1="-1.651" y1="-0.635" x2="-1.651" y2="0" width="0.1524" layer="22"/>
-<pad name="C" x="-1.27" y="0" drill="0.6" diameter="1.4224" rot="R180"/>
+<pad name="C" x="-1.27" y="0" drill="0.6" diameter="1.4224" />
 <text x="-2.159" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" rot="R180"/>
+<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" />
 <circle x="-1.27" y="0" radius="1.27" width="0.254" layer="22"/>
 <wire x1="0.0635" y1="0" x2="1.27" y2="0" width="0.4064" layer="22"/>
 </package>
@@ -14694,7 +14694,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-0.889" y1="0" x2="-0.127" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0" x2="-0.889" y2="-0.4445" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0.508" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" rot="R180"/>
+<pad name="A" x="1.27" y="0" drill="0.6" diameter="1.4224" />
 <text x="0" y="1.397" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.8128" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
 <pad name="C" x="-1.27" y="0" drill="0.6" diameter="1.4224"/>

@@ -2874,7 +2874,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="L-08/7V-TAP1">
+<package name="L-08/20V-TAP1">
 <pad name="T" x="5.08" y="2.54" drill="1.2" diameter="1.9304" rot="R180"/>
 <text x="-7.62" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-7.62" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
@@ -2960,7 +2960,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <text x="-2.54" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04/7-TAP1">
+<package name="L-04/10-TAP1">
 <pad name="2" x="0" y="-5.08" drill="0.8"/>
 <pad name="1" x="0" y="5.08" drill="0.8"/>
 <wire x1="-1.27" y1="2.0955" x2="0" y2="3.3655" width="0.127" layer="21" curve="-90"/>
@@ -3040,7 +3040,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <text x="-1.905" y="1.27" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.905" y="-1.27" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 </package>
-<package name="L-04/7V">
+<package name="L-04/8V">
 <pad name="1" x="1.27" y="-5.08" drill="0.8" rot="R180"/>
 <pad name="2" x="-1.27" y="2.54" drill="0.8" rot="R180"/>
 <wire x1="1.27" y1="1.778" x2="0" y2="3.048" width="0.127" layer="21" curve="90"/>
@@ -3063,7 +3063,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <text x="-1.016" y="-4.318" size="1.016" layer="25" align="center-right">&gt;NAME</text>
 <text x="-1.016" y="-5.588" size="0.8128" layer="27" align="center-right">&gt;VALUE</text>
 </package>
-<package name="L-04/7-M">
+<package name="L-04/10-M">
 <pad name="2" x="0" y="-3.81" drill="0.8"/>
 <pad name="1" x="0" y="6.35" drill="0.8"/>
 <wire x1="-1.27" y1="3.3655" x2="0" y2="4.6355" width="0.127" layer="21" curve="-90"/>
@@ -3086,7 +3086,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="1.27" y1="5.08" x2="0" y2="6.35" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.2225" x2="0" y2="-3.81" width="0.127" layer="21"/>
 </package>
-<package name="L-09R">
+<package name="L-8R">
 <pad name="P$1" x="-2.54" y="0" drill="1" shape="octagon"/>
 <pad name="P$2" x="2.54" y="0" drill="1" shape="octagon"/>
 <circle x="0" y="0" radius="3.8608" width="0.127" layer="21"/>
@@ -3286,7 +3286,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7" package="L-04/7-TAP1">
+<device name="04/7" package="L-04/10-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -3296,7 +3296,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="08/7V" package="L-08/7V-TAP1">
+<device name="08/7V" package="L-08/20V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -3343,7 +3343,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7" package="L-04/7V">
+<device name="04/7" package="L-04/8V">
 <connects>
 <connect gate="1" pin="1" pad="2"/>
 <connect gate="1" pin="2" pad="1"/>
@@ -3352,7 +3352,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/7-M" package="L-04/7-M">
+<device name="04/7-M" package="L-04/10-M">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -3361,7 +3361,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-09R" package="L-09R">
+<device name="-09R" package="L-8R">
 <connects>
 <connect gate="1" pin="1" pad="P$1"/>
 <connect gate="1" pin="2" pad="P$2"/>

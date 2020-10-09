@@ -124,7 +124,7 @@ http://www.next.gr/oscillators/sine-wave/low-frequency-lc-oscillator-l14396.html
 <wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
 <wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.9" rot="R270"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" />
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="1.7145" y="0" size="1.016" layer="25" rot="R90" align="top-center">&gt;NAME</text>
 <text x="-1.7145" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
@@ -151,7 +151,7 @@ http://www.next.gr/oscillators/sine-wave/low-frequency-lc-oscillator-l14396.html
 <wire x1="0.762" y1="-1.27" x2="0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.635" y1="0" x2="-1.651" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="-1.27" y="0" drill="0.9" rot="R180"/>
+<pad name="-" x="-1.27" y="0" drill="0.9" />
 <pad name="+" x="1.27" y="0" drill="0.7" shape="square" rot="R180"/>
 <text x="-1.397" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.143" y="-2.413" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
@@ -173,8 +173,8 @@ http://www.next.gr/oscillators/sine-wave/low-frequency-lc-oscillator-l14396.html
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="L-03/10V">
-<pad name="2" x="0" y="-5.08" drill="0.9" rot="R180"/>
-<pad name="1" x="0" y="5.08" drill="0.9" rot="R180"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" />
+<pad name="1" x="0" y="5.08" drill="0.9" />
 <wire x1="-1.27" y1="0.762" x2="0" y2="2.032" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="-0.508" x2="0" y2="0.762" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="-1.778" x2="0" y2="-0.508" width="0.127" layer="21" curve="-90"/>
@@ -227,8 +227,8 @@ http://www.next.gr/oscillators/sine-wave/low-frequency-lc-oscillator-l14396.html
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="6.35" drill="0.9" rot="R270"/>
-<pad name="2" x="0" y="-6.35" drill="0.9" rot="R270"/>
+<pad name="1" x="0" y="6.35" drill="0.9" />
+<pad name="2" x="0" y="-6.35" drill="0.9" />
 <text x="-1.2954" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>

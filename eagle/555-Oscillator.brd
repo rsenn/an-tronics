@@ -164,10 +164,10 @@
 <wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="0" y="2.54" drill="0.9" rot="R90"/>
+<pad name="2" x="0" y="2.54" drill="0.9" />
 <text x="-0.8128" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="0.8128" y="0" size="0.6096" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.9" rot="R270"/>
+<pad name="1" x="0" y="-2.54" drill="0.9" />
 <wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.127" layer="21" curve="-90"/>
@@ -291,8 +291,8 @@
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
 <pad name="S" x="0" y="2.54" drill="0.9" diameter="1.778"/>
-<pad name="A" x="-2.54" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
-<pad name="E" x="2.54" y="-2.54" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="A" x="-2.54" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="E" x="2.54" y="-2.54" drill="0.9" diameter="1.778" />
 <text x="-2.54" y="4.191" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.461" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-3.048" layer="51"/>

@@ -338,9 +338,9 @@ type 0207, grid 5 mm</description>
 <wire x1="-4.572" y1="0" x2="-4.572" y2="-14.732" width="0.127" layer="21"/>
 <wire x1="-4.572" y1="-14.732" x2="4.572" y2="-14.732" width="0.127" layer="21"/>
 <wire x1="4.572" y1="-14.732" x2="4.572" y2="-13.208" width="0.127" layer="21"/>
-<pad name="P$1" x="-4.6" y="-10.862" drill="0.9" rot="R180"/>
-<pad name="P$2" x="0" y="-7.62" drill="0.9" rot="R180"/>
-<pad name="P$3" x="0" y="-13.716" drill="0.9" rot="R180"/>
+<pad name="P$1" x="-4.6" y="-10.862" drill="0.9" />
+<pad name="P$2" x="0" y="-7.62" drill="0.9" />
+<pad name="P$3" x="0" y="-13.716" drill="0.9" />
 <text x="-3.556" y="1.524" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="2SC536F">
