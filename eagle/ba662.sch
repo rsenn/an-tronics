@@ -330,8 +330,8 @@
 <part name="Q3" library="audioint" deviceset="PNP-DUAL" device="PMP5201"/>
 <part name="Q4" library="audioint" deviceset="PNP-DUAL" device="PMP5201"/>
 <part name="Q9" library="audioint" deviceset="NPN-DUAL" device="PMP4201"/>
-<part name="R21" library="audioint" deviceset="RESISTOR" device="0603-SM" value="11k"/>
-<part name="R20" library="audioint" deviceset="RESISTOR" device="0603-SM" value="50k"/>
+<part name="R21" library="audioint" deviceset="RESISTOR" device="0603-SM" value="11kΩ"/>
+<part name="R20" library="audioint" deviceset="RESISTOR" device="0603-SM" value="50kΩ"/>
 </parts>
 <sheets>
 <sheet>

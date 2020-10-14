@@ -5402,15 +5402,15 @@
 <parts>
 <part name="IC1" library="ic" deviceset="40106" device="N"/>
 <part name="IC2" library="ic" deviceset="4069" device="N" value="4069N"/>
-<part name="R1" library="r" deviceset="POT" device="" value="100k"/>
-<part name="R2" library="r" deviceset="POT" device="" value="100k"/>
-<part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="1uF"/>
+<part name="R1" library="r" deviceset="POT" device="" value="100kΩ"/>
+<part name="R2" library="r" deviceset="POT" device="" value="100kΩ"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="1μF"/>
 <part name="C2" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
 <part name="C3" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
 <part name="C4" library="c" deviceset="C" device="050-020X044/V" value="220nF"/>
 <part name="C5" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="R3" library="r" deviceset="POT-STEREO" device="" value="100k"/>
+<part name="R3" library="r" deviceset="POT-STEREO" device="" value="100kΩ"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="R4" library="r" deviceset="R-H" device="0202/2V"/>

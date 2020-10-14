@@ -717,13 +717,13 @@ design rules under a new name.</description>
 <element name="C1" library="c" package="C050-024X044" value="100nF" x="35.56" y="45.72" rot="R180"/>
 <element name="C11" library="c" package="C050-020X044" value="100nF" x="55.88" y="27.94" rot="R180"/>
 <element name="C2" library="c" package="C050-024X044" value="100nF" x="27.94" y="35.56" rot="R180"/>
-<element name="C3" library="c" package="E2,5-3" value="1uF" x="27.94" y="31.75"/>
-<element name="C4" library="c" package="C050-020X044" value="1uF" x="25.4" y="43.18" rot="R180"/>
+<element name="C3" library="c" package="E2,5-3" value="1μF" x="27.94" y="31.75"/>
+<element name="C4" library="c" package="C050-020X044" value="1μF" x="25.4" y="43.18" rot="R180"/>
 <element name="C5" library="c" package="C050-024X044" value="100nF" x="35.56" y="22.86" rot="R180"/>
 <element name="C6" library="c" package="C050-024X044" value="100nF" x="27.94" y="22.86" rot="R180"/>
-<element name="C7" library="c" package="E2,5-3" value="1uF" x="26.67" y="27.94" rot="R270"/>
-<element name="C8" library="c" package="C050-020X044" value="1uF" x="22.86" y="17.78" rot="R180"/>
-<element name="C9" library="c" package="C050-024X044/V" value="1uF" x="50.8" y="40.64" rot="R90"/>
+<element name="C7" library="c" package="E2,5-3" value="1μF" x="26.67" y="27.94" rot="R270"/>
+<element name="C8" library="c" package="C050-020X044" value="1μF" x="22.86" y="17.78" rot="R180"/>
+<element name="C9" library="c" package="C050-024X044/V" value="1μF" x="50.8" y="40.64" rot="R90"/>
 <element name="CV_IN" library="pad" package="SPAD" value="CV_IN" x="20.32" y="38.1"/>
 <element name="D1" library="d" package="DO34-5V" value="1N4148" x="33.02" y="33.02"/>
 <element name="D2" library="d" package="DO34-7" value="1N4148" x="36.83" y="20.32" rot="R180"/>
@@ -739,37 +739,37 @@ design rules under a new name.</description>
 <element name="OUT_GND" library="pad" package="SPAD" value="SPAD" x="43.18" y="17.78" rot="R180"/>
 <element name="OUT_LEFT" library="pad" package="SPAD" value="SPAD" x="22.86" y="30.48" rot="R270"/>
 <element name="OUT_RIGHT" library="pad" package="SPAD" value="SPAD" x="22.86" y="27.94" rot="R270"/>
-<element name="R10" library="r" package="0204/10-V" value="1k" x="20.32" y="25.4"/>
-<element name="R11" library="r" package="0204/10" value="470k" x="33.02" y="17.78"/>
-<element name="R12" library="r" package="0204/12" value="100k" x="46.99" y="25.4" rot="R180"/>
-<element name="R13" library="r" package="0204V" value="100k" x="41.91" y="22.86" rot="R180"/>
-<element name="R14" library="r" package="0204/10" value="100k" x="33.02" y="25.4" rot="R180"/>
+<element name="R10" library="r" package="0204/10-V" value="1kΩ" x="20.32" y="25.4"/>
+<element name="R11" library="r" package="0204/10" value="470kΩ" x="33.02" y="17.78"/>
+<element name="R12" library="r" package="0204/12" value="100kΩ" x="46.99" y="25.4" rot="R180"/>
+<element name="R13" library="r" package="0204V" value="100kΩ" x="41.91" y="22.86" rot="R180"/>
+<element name="R14" library="r" package="0204/10" value="100kΩ" x="33.02" y="25.4" rot="R180"/>
 <element name="R15-1-A" library="pad" package="SPAD" value="SPAD" x="22.86" y="35.56" rot="R270"/>
 <element name="R15-1-S" library="pad" package="SPAD" value="SPAD" x="22.86" y="33.02" rot="R270"/>
 <element name="R15-2-A" library="pad" package="SPAD" value="SPAD" x="22.86" y="22.86" rot="R270"/>
 <element name="R15-2-S" library="pad" package="SPAD" value="SPAD" x="22.86" y="25.4" rot="R270"/>
-<element name="R16" library="r" package="0204/7" value="47k" x="49.53" y="22.86"/>
-<element name="R17" library="r" package="0204/7-V" value="4.7k" x="68.58" y="49.53" rot="R90"/>
+<element name="R16" library="r" package="0204/7" value="47kΩ" x="49.53" y="22.86"/>
+<element name="R17" library="r" package="0204/7-V" value="4.7kΩ" x="68.58" y="49.53" rot="R90"/>
 <element name="R18-A" library="pad" package="SPAD" value="SPAD" x="60.96" y="48.26" rot="R180"/>
 <element name="R18-E" library="pad" package="SPAD" value="SPAD" x="60.96" y="38.1" rot="R180"/>
 <element name="R18-S" library="pad" package="SPAD" value="SPAD" x="69.85" y="45.72"/>
-<element name="R19" library="r" package="0204/10" value="4.7k" x="60.96" y="30.48" rot="R90"/>
-<element name="R2" library="r" package="0204/10" value="1k" x="27.94" y="40.64"/>
+<element name="R19" library="r" package="0204/10" value="4.7kΩ" x="60.96" y="30.48" rot="R90"/>
+<element name="R2" library="r" package="0204/10" value="1kΩ" x="27.94" y="40.64"/>
 <element name="R20-A" library="pad" package="SPAD" value="SPAD" x="58.42" y="48.26" rot="R270"/>
 <element name="R20-E" library="pad" package="SPAD" value="SPAD" x="58.42" y="50.8" rot="R270"/>
 <element name="R20-S" library="pad" package="SPAD" value="SPAD" x="73.66" y="46.99"/>
-<element name="R21" library="r" package="0204V" value="100k" x="44.45" y="40.64" rot="R180"/>
-<element name="R22" library="r" package="0204/10-V" value="100k" x="50.8" y="45.72" rot="R90"/>
-<element name="R23" library="r" package="0204/10" value="1k" x="71.12" y="40.64"/>
-<element name="R3" library="r" package="0204/10" value="1k" x="27.94" y="38.1" rot="R180"/>
-<element name="R4" library="r" package="0204/7" value="470k" x="34.29" y="43.18"/>
-<element name="R5" library="r" package="0204V" value="100k" x="41.91" y="45.72" rot="R180"/>
-<element name="R6" library="r" package="0204/10" value="100k" x="45.72" y="43.18" rot="R180"/>
-<element name="R7" library="r" package="0204V" value="100k" x="36.83" y="38.1"/>
+<element name="R21" library="r" package="0204V" value="100kΩ" x="44.45" y="40.64" rot="R180"/>
+<element name="R22" library="r" package="0204/10-V" value="100kΩ" x="50.8" y="45.72" rot="R90"/>
+<element name="R23" library="r" package="0204/10" value="1kΩ" x="71.12" y="40.64"/>
+<element name="R3" library="r" package="0204/10" value="1kΩ" x="27.94" y="38.1" rot="R180"/>
+<element name="R4" library="r" package="0204/7" value="470kΩ" x="34.29" y="43.18"/>
+<element name="R5" library="r" package="0204V" value="100kΩ" x="41.91" y="45.72" rot="R180"/>
+<element name="R6" library="r" package="0204/10" value="100kΩ" x="45.72" y="43.18" rot="R180"/>
+<element name="R7" library="r" package="0204V" value="100kΩ" x="36.83" y="38.1"/>
 <element name="R8-A" library="pad" package="SPAD" value="SPAD" x="40.64" y="40.64" rot="R270"/>
 <element name="R8-E" library="pad" package="SPAD" value="SPAD" x="58.42" y="45.72" rot="R270"/>
 <element name="R8-S" library="pad" package="SPAD" value="SPAD" x="20.32" y="40.64" rot="R270"/>
-<element name="R9" library="r" package="0204/10-V" value="1k" x="17.78" y="25.4"/>
+<element name="R9" library="r" package="0204/10-V" value="1kΩ" x="17.78" y="25.4"/>
 <element name="TRI" library="pad" package="SPAD" value="TRIANGLE" x="78.74" y="40.64" rot="R180"/>
 </elements>
 <signals>

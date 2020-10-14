@@ -653,27 +653,27 @@ design rules under a new name.</description>
 <element name="C6" library="c" package="C050-020X044/V" value="10nF" x="7.62" y="12.7" rot="R270"/>
 <element name="IC1" library="ic" package="DIL14" value="LM556N" x="11.43" y="27.94"/>
 <element name="IC2" library="ic" package="DIL14" value="4069N" x="36.83" y="27.94"/>
-<element name="DCY1" library="r" package="POT" value="20k" x="33.02" y="7.62"/>
+<element name="DCY1" library="r" package="POT" value="20kΩ" x="33.02" y="7.62"/>
 <element name="R2" library="r" package="0204/10" value="R-H0204/10" x="43.18" y="17.78"/>
-<element name="RES1" library="r" package="POT-STEREO-2X3" value="100k" x="22.86" y="7.62"/>
-<element name="CV1" library="r" package="POT" value="20k" x="10.16" y="5.08"/>
-<element name="R5" library="r" package="0204/10-V" value="33k" x="2.54" y="30.48"/>
+<element name="RES1" library="r" package="POT-STEREO-2X3" value="100kΩ" x="22.86" y="7.62"/>
+<element name="CV1" library="r" package="POT" value="20kΩ" x="10.16" y="5.08"/>
+<element name="R5" library="r" package="0204/10-V" value="33kΩ" x="2.54" y="30.48"/>
 <element name="S3" library="pad" package="PWR-L" value="VCC_GNDPWR-L" x="-5.08" y="3.81"/>
 <element name="OUT" library="pad" package="SPAD+-" value="" x="43.18" y="6.35"/>
 <element name="U$4" library="sw" package="SLSW-2P4T-2-H" value="SL-SW-2P-4T" x="92.71" y="36.83" rot="R270"/>
 <element name="C7" library="c" package="C050-020X044" value="100nF" x="20.32" y="17.78" rot="R270"/>
-<element name="R1" library="r" package="0204/10-V" value="33k" x="22.86" y="25.4"/>
+<element name="R1" library="r" package="0204/10-V" value="33kΩ" x="22.86" y="25.4"/>
 <element name="C8" library="c" package="C050-024X044" value="330nF" x="60.96" y="22.86"/>
 <element name="C9" library="c" package="C050-024X044" value="330nF" x="60.96" y="17.78" rot="R180"/>
-<element name="DCY2" library="r" package="POT" value="20k" x="63.5" y="6.35"/>
-<element name="RES2" library="r" package="POT-STEREO-2X3" value="100k" x="53.34" y="7.62"/>
+<element name="DCY2" library="r" package="POT" value="20kΩ" x="63.5" y="6.35"/>
+<element name="RES2" library="r" package="POT-STEREO-2X3" value="100kΩ" x="53.34" y="7.62"/>
 <element name="C10" library="c" package="C050-020X044/V" value="470nF" x="58.42" y="15.24" rot="R90"/>
 <element name="C11" library="c" package="C050-024X044" value="470nF" x="48.26" y="27.94"/>
 <element name="R3" library="r" package="0204/10" value="R-H0204/10" x="53.34" y="22.86" rot="R270"/>
 <element name="C12" library="c" package="C050-024X044" value="68nF" x="63.5" y="30.48" rot="R270"/>
 <element name="C13" library="c" package="C050-024X044" value="68nF" x="53.34" y="30.48" rot="R180"/>
-<element name="DCY3" library="r" package="POT" value="20k" x="93.98" y="5.08"/>
-<element name="RES3" library="r" package="POT-STEREO-1X6-V" value="100k" x="73.66" y="7.62"/>
+<element name="DCY3" library="r" package="POT" value="20kΩ" x="93.98" y="5.08"/>
+<element name="RES3" library="r" package="POT-STEREO-1X6-V" value="100kΩ" x="73.66" y="7.62"/>
 <element name="C14" library="c" package="C050-020X044/V" value="470nF" x="73.66" y="15.24" rot="R270"/>
 </elements>
 <signals>

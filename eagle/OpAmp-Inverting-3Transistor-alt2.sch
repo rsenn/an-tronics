@@ -5249,17 +5249,17 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="T2" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="T3" library="t" deviceset="BC557" device="CBE" value="BC557"/>
-<part name="R1" library="r" deviceset="R-H" device="0202/10-V" value="100k"/>
-<part name="R2" library="r" deviceset="R-H" device="0202/7" value="1M"/>
-<part name="R3" library="r" deviceset="R-H" device="0202/7" value="75k"/>
-<part name="R4" library="r" deviceset="R" device="0202/7" value="7.5k"/>
-<part name="R5" library="r" deviceset="R" device="0202/7" value="4.7k"/>
-<part name="R6" library="r" deviceset="R" device="0202/7-V" value="1k"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/10-V" value="100kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/7" value="1MΩ"/>
+<part name="R3" library="r" deviceset="R-H" device="0202/7" value="75kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0202/7" value="7.5kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0202/7" value="4.7kΩ"/>
+<part name="R6" library="r" deviceset="R" device="0202/7-V" value="1kΩ"/>
 <part name="D1" library="d" deviceset="Z-DIODE" device="34Z2,5" value="Z=3.3V"/>
 <part name="C2" library="c" deviceset="C" device="050-020X044" value="33nF"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="OUT" library="pad" deviceset="SPAD+-" device="+-"/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-4/V" value="3.3uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2,5-4/V" value="3.3μF"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="J1" library="pad" deviceset="VCC_GND" device="PWR-R"/>

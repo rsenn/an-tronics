@@ -3831,24 +3831,24 @@ XXX</description>
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="LM13600" device=""/>
-<part name="R4" library="r" deviceset="R" device="0202/7" value="22k"/>
-<part name="R5" library="r" deviceset="R" device="0202/7-V" value="33k"/>
-<part name="R1" library="r" deviceset="R" device="0202/7-V" value="470"/>
-<part name="R2" library="r" deviceset="R" device="0202/7" value="470"/>
-<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4" value="2.2uF"/>
-<part name="C2" library="c" deviceset="CPOL" device="E2,5-4/V" value="47uF"/>
-<part name="R6" library="r" deviceset="R" device="0202/7-V" value="180"/>
+<part name="R4" library="r" deviceset="R" device="0202/7" value="22kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0202/7-V" value="33kΩ"/>
+<part name="R1" library="r" deviceset="R" device="0202/7-V" value="470Ω"/>
+<part name="R2" library="r" deviceset="R" device="0202/7" value="470Ω"/>
+<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4" value="2.2μF"/>
+<part name="C2" library="c" deviceset="CPOL" device="E2,5-4/V" value="47μF"/>
+<part name="R6" library="r" deviceset="R" device="0202/7-V" value="180Ω"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="PWR" library="pad" deviceset="VCC_GND_VEE" device="PWR--GND+" value="VCC_GND_VEEPWR--GND+"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="R3" library="r" deviceset="R" device="0202/7" value="22k"/>
-<part name="R7" library="r" deviceset="R" device="0202/7-V" value="33k"/>
-<part name="R8" library="r" deviceset="R" device="0202/7-V" value="470"/>
-<part name="R9" library="r" deviceset="R" device="0202/7-V" value="470"/>
-<part name="C3" library="c" deviceset="CPOL-H" device="E2,5-4" value="2.2uF"/>
-<part name="C4" library="c" deviceset="CPOL" device="E2,5-4/V" value="47uF"/>
-<part name="R10" library="r" deviceset="R" device="0202/7-V" value="180"/>
+<part name="R3" library="r" deviceset="R" device="0202/7" value="22kΩ"/>
+<part name="R7" library="r" deviceset="R" device="0202/7-V" value="33kΩ"/>
+<part name="R8" library="r" deviceset="R" device="0202/7-V" value="470Ω"/>
+<part name="R9" library="r" deviceset="R" device="0202/7-V" value="470Ω"/>
+<part name="C3" library="c" deviceset="CPOL-H" device="E2,5-4" value="2.2μF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E2,5-4/V" value="47μF"/>
+<part name="R10" library="r" deviceset="R" device="0202/7-V" value="180Ω"/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
 <part name="IN" library="pad" deviceset="SAUDIO" device="L-GND-R" value="SAUDIOL-GND-R"/>
 <part name="OUT" library="pad" deviceset="SAUDIO" device=""/>

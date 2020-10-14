@@ -4893,18 +4893,18 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="LM324" device="N" value="LM324"/>
-<part name="R1" library="r" deviceset="R" device="0202/7" value="470k"/>
-<part name="R4" library="r" deviceset="R" device="0202V" value="100k"/>
-<part name="_R5" library="r" deviceset="R" device="0202/7" value="100k"/>
-<part name="R2" library="r" deviceset="R" device="0202V" value="100k"/>
+<part name="R1" library="r" deviceset="R" device="0202/7" value="470kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0202V" value="100kΩ"/>
+<part name="_R5" library="r" deviceset="R" device="0202/7" value="100kΩ"/>
+<part name="R2" library="r" deviceset="R" device="0202V" value="100kΩ"/>
 <part name="C1" library="c" deviceset="C" device="050-024X044" value="100nF"/>
 <part name="C2" library="c" deviceset="C" device="050-024X044" value="100nF"/>
-<part name="R3" library="r" deviceset="POT" device="-P5" value="10k"/>
+<part name="R3" library="r" deviceset="POT" device="-P5" value="10kΩ"/>
 <part name="D1" library="d" deviceset="1N4148" device="34-7" value="1N4148"/>
-<part name="R6" library="r" deviceset="R" device="0202/10" value="1k"/>
-<part name="R7" library="r" deviceset="R" device="0202/7" value="1k"/>
+<part name="R6" library="r" deviceset="R" device="0202/10" value="1kΩ"/>
+<part name="R7" library="r" deviceset="R" device="0202/7" value="1kΩ"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="R8" library="r" deviceset="POT" device="-P5" value="100k"/>
+<part name="R8" library="r" deviceset="POT" device="-P5" value="100kΩ"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="CV_IN" library="pad" deviceset="SPAD" device="" value="CV_IN"/>
 <part name="AUDIO_IN+" library="pad" deviceset="SPAD" device="" value="AUDIO_IN"/>
@@ -4914,8 +4914,8 @@ http://electro-music.com/forum/topic-45231-0.html&amp;postdays=0&amp;postorder=a
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
-<part name="C4" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2,5-3" value="1μF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E2,5-3" value="1μF"/>
 <part name="AUDIO_IN-" library="pad" deviceset="SPAD" device=""/>
 <part name="AUDIO_OUT-" library="pad" deviceset="SPAD" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>

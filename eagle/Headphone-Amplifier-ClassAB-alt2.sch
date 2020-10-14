@@ -4903,17 +4903,17 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="T1" library="t" deviceset="2N3904" device="" value="2N3904"/>
 <part name="D1" library="d" deviceset="DIODE" device="34-5-V" value="1N4148"/>
 <part name="D2" library="d" deviceset="DIODE" device="34-5V" value="1N4148"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/10" value="100k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10" value="330"/>
-<part name="R3" library="r" deviceset="R" device="0204/10" value="100"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/2.54" value="27"/>
-<part name="C1" library="c" deviceset="CPOL" device="E2,5-3" value="4.7uF"/>
-<part name="R5" library="r" deviceset="POT" device="-3P" value="100k"/>
-<part name="C2" library="c" deviceset="CPOL" device="E2,5-3" value="4.7uF"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10" value="330Ω"/>
+<part name="R3" library="r" deviceset="R" device="0204/10" value="100Ω"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/2.54" value="27Ω"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-3" value="4.7μF"/>
+<part name="R5" library="r" deviceset="POT" device="-3P" value="100kΩ"/>
+<part name="C2" library="c" deviceset="CPOL" device="E2,5-3" value="4.7μF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E5-5" value="470uF"/>
-<part name="C4" library="c" deviceset="CPOL" device="E2.5-5" value="100uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E5-5" value="470μF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E2.5-5" value="100μF"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>

@@ -9754,63 +9754,63 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <parts>
 <part name="C2" library="c" deviceset="C" device="050-020X044/V" value="100n"/>
 <part name="C3" library="c" deviceset="C" device="050-020X044/V" value="100n"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/10" value="33k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="100k"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/10" value="33kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
 <part name="GND1" library="pad" deviceset="GND" device=""/>
 <part name="GND2" library="pad" deviceset="GND" device=""/>
 <part name="GND5" library="pad" deviceset="GND" device=""/>
 <part name="PSU" library="pinhead" deviceset="PINHD-2X5" device=""/>
 <part name="P+1" library="pad" deviceset="+12V" device=""/>
 <part name="P-1" library="pad" deviceset="-12V" device=""/>
-<part name="R11" library="r" deviceset="R-H" device="0204/10" value="1k"/>
+<part name="R11" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
 <part name="TRI_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="GND7" library="pad" deviceset="GND" device=""/>
-<part name="R7" library="r" deviceset="R" device="0204/10-V" value="27k"/>
+<part name="R7" library="r" deviceset="R" device="0204/10-V" value="27kΩ"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
 <part name="RATE_CV_IN" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="r" deviceset="R-H" device="0204/10" value="100k"/>
-<part name="R12" library="r" deviceset="R-H" device="0204/10" value="100k"/>
-<part name="CV_DIR" library="r" deviceset="POT" device="-3P" value="10k"/>
-<part name="R14" library="r" deviceset="R-H" device="0204/10" value="100k"/>
-<part name="RATE" library="r" deviceset="POT" device="-3P" value="10k"/>
+<part name="R8" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
+<part name="R12" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
+<part name="CV_DIR" library="r" deviceset="POT" device="-3P" value="10kΩ"/>
+<part name="R14" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
+<part name="RATE" library="r" deviceset="POT" device="-3P" value="10kΩ"/>
 <part name="GND11" library="pad" deviceset="GND" device=""/>
 <part name="GND13" library="pad" deviceset="GND" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="5MM"/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="S2" library="sw" deviceset="SL-SW-ON-OFF-ON" device="-H" value="SKS07SP"/>
 <part name="SQR_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="R4" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R5" library="r" deviceset="R" device="0204/10-V" value="220k"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0204/10-V" value="220kΩ"/>
 <part name="GND3" library="pad" deviceset="GND" device=""/>
 <part name="C6" library="c" deviceset="C-H" device="050-020X044" value="220nF"/>
 <part name="C7" library="c" deviceset="C-H" device="075-020X044" value="4,7nF"/>
 <part name="D1" library="d" deviceset="1N4002" device="-2.54" value="Diode 1A 50V"/>
 <part name="D2" library="d" deviceset="1N4002" device="-2.54A" value="Diode 1A 50V"/>
-<part name="TRI_LVL" library="r" deviceset="POT" device="-3P" value="100k"/>
-<part name="SQR_LVL" library="r" deviceset="POT" device="-3P" value="100k"/>
+<part name="TRI_LVL" library="r" deviceset="POT" device="-3P" value="100kΩ"/>
+<part name="SQR_LVL" library="r" deviceset="POT" device="-3P" value="100kΩ"/>
 <part name="GND4" library="pad" deviceset="GND" device=""/>
 <part name="GND14" library="pad" deviceset="GND" device=""/>
 <part name="D3" library="diode" deviceset="DIODE-" device="D-5" value="1N4148"/>
 <part name="S3" library="sw" deviceset="SL-SW-1P-2T" device="-H" value="SKS04SP"/>
 <part name="IC2" library="ic" deviceset="LM324" device="N"/>
-<part name="R6" library="r" deviceset="R-H" device="0204/10" value="4k7"/>
-<part name="R9" library="r" deviceset="R-H" device="0204/10" value="10k"/>
+<part name="R6" library="r" deviceset="R-H" device="0204/10" value="4.7kΩ"/>
+<part name="R9" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
 <part name="GND8" library="pad" deviceset="GND" device=""/>
-<part name="R10" library="r" deviceset="R" device="0204/10" value="10k"/>
+<part name="R10" library="r" deviceset="R" device="0204/10" value="10kΩ"/>
 <part name="GND10" library="pad" deviceset="GND" device=""/>
-<part name="R13" library="r" deviceset="R-H" device="0204/10" value="330k"/>
+<part name="R13" library="r" deviceset="R-H" device="0204/10" value="330kΩ"/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="GND12" library="pad" deviceset="GND" device=""/>
-<part name="R15" library="r" deviceset="R-H" device="0204/10" value="100k"/>
-<part name="RANGE_ADJ" library="r" deviceset="POT" device="-3P" value="10k"/>
+<part name="R15" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
+<part name="RANGE_ADJ" library="r" deviceset="POT" device="-3P" value="10kΩ"/>
 <part name="P-3" library="pad" deviceset="-12V" device=""/>
 <part name="R17" library="SparkFun-Sensors" deviceset="PHOTOCELL" device="PTH" value="Token PGM5539"/>
 <part name="IC3" library="ic" deviceset="LM358" device="N"/>
 <part name="IC1" library="ic" deviceset="LM358" device="N"/>
 <part name="C8" library="c" deviceset="C-H" device="025-015X024" value="100p"/>
-<part name="R18" library="r" deviceset="R-H" device="0204/10" value="100k"/>
+<part name="R18" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
 <part name="GND9" library="pad" deviceset="GND" device=""/>
 <part name="P+2" library="pad" deviceset="+12V" device=""/>
 <part name="PAD1" library="wirepad" deviceset="1,6/0,8" device=""/>

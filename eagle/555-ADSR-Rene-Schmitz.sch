@@ -4097,20 +4097,20 @@
 <part name="T2" library="t" deviceset="BC547" device=""/>
 <part name="T3" library="t" deviceset="BC547" device=""/>
 <part name="IC2" library="ic" deviceset="LM358" device="N"/>
-<part name="R1" library="r" deviceset="TRIM" device="R-TRIM" value="2M2"/>
-<part name="R2" library="r" deviceset="TRIM" device="R-TRIM" value="2M2"/>
+<part name="R1" library="r" deviceset="TRIM" device="R-TRIM" value="2.2MΩ"/>
+<part name="R2" library="r" deviceset="TRIM" device="R-TRIM" value="2.2MΩ"/>
 <part name="C1" library="c" deviceset="C-H" device="050-020X044" value="10n"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="10k"/>
-<part name="R4" library="r" deviceset="R" device="0204/10-V" value="22k"/>
-<part name="R5" library="r" deviceset="R-H" device="0204/10" value="1M"/>
-<part name="R6" library="r" deviceset="R" device="0204/10" value="4.7k"/>
-<part name="R7" library="r" deviceset="R" device="0204/10" value="4.7k"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0204/10-V" value="22kΩ"/>
+<part name="R5" library="r" deviceset="R-H" device="0204/10" value="1MΩ"/>
+<part name="R6" library="r" deviceset="R" device="0204/10" value="4.7kΩ"/>
+<part name="R7" library="r" deviceset="R" device="0204/10" value="4.7kΩ"/>
 <part name="S2" library="pad" deviceset="VCC_GND" device="L"/>
-<part name="R8" library="r" deviceset="R" device="0204/10" value="4.7k"/>
+<part name="R8" library="r" deviceset="R" device="0204/10" value="4.7kΩ"/>
 <part name="D1" library="d" deviceset="DIODE-H" device="DO34-7"/>
 <part name="D2" library="d" deviceset="DIODE-H" device="DO34-7"/>
-<part name="R9" library="r" deviceset="R-H" device="0204/10" value="220"/>
-<part name="R10" library="r" deviceset="R-H" device="0204/10" value="220"/>
+<part name="R9" library="r" deviceset="R-H" device="0204/10" value="220Ω"/>
+<part name="R10" library="r" deviceset="R-H" device="0204/10" value="220Ω"/>
 <part name="C2" library="c" deviceset="C" device="050-025X075/V" value="10n"/>
 <part name="U$1" library="pad" deviceset="VCC" device=""/>
 <part name="U$2" library="pad" deviceset="VCC" device=""/>
@@ -4125,11 +4125,11 @@
 <part name="TRIG" library="pad" deviceset="SPAD" device=""/>
 <part name="D5" library="d" deviceset="DIODE" device="34-7V"/>
 <part name="IC1" library="ic" deviceset="7555" device=""/>
-<part name="R11" library="r" deviceset="TRIM" device="R-TRIM" value="10k"/>
-<part name="R12" library="r" deviceset="TRIM" device="R-TRIM" value="2.2M"/>
-<part name="R13" library="r" deviceset="R" device="0204/10-V" value="220"/>
-<part name="R14" library="r" deviceset="R" device="0204/10" value="4.7k"/>
-<part name="R15" library="r" deviceset="R-H" device="0204/10" value="10k"/>
+<part name="R11" library="r" deviceset="TRIM" device="R-TRIM" value="10kΩ"/>
+<part name="R12" library="r" deviceset="TRIM" device="R-TRIM" value="2.2MΩ"/>
+<part name="R13" library="r" deviceset="R" device="0204/10-V" value="220Ω"/>
+<part name="R14" library="r" deviceset="R" device="0204/10" value="4.7kΩ"/>
+<part name="R15" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
 <part name="S10" library="pad" deviceset="GND" device=""/>
 <part name="S8" library="pad" deviceset="GND" device=""/>
 <part name="C3" library="c" deviceset="C" device="050-025X075/V" value="2.2n"/>

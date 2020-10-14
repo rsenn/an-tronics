@@ -15095,23 +15095,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="POT" library="piher-pt16" deviceset="PIHER-PT16S" device="" value="2.5M"/>
 <part name="C1" library="c" deviceset="C" device="050-020X036" value="4.7nF"/>
 <part name="C2" library="c" deviceset="C" device="050-020X036" value="10nF"/>
-<part name="R1" library="r" deviceset="R" device="0204/12" value="10k"/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="47uF/35V"/>
+<part name="R1" library="r" deviceset="R" device="0204/12" value="10kΩ"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="47μF/35V"/>
 <part name="Q1" library="power-mosfet" deviceset="PMOSFET_N" device="TO220BV" value="IRFB3207ZPbF"/>
 <part name="IC1" library="ne555-556" deviceset="*556-ALT" device="-DIL14" value="NE556"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="r" deviceset="R" device="0204/10" value="1k"/>
+<part name="R2" library="r" deviceset="R" device="0204/10" value="1kΩ"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="R3" library="r" deviceset="R" device="0202/2V" value="1k"/>
+<part name="R3" library="r" deviceset="R" device="0202/2V" value="1kΩ"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="print-conn" deviceset="PCON3_MIGROS" device=""/>
 <part name="U$2" library="heatsink" deviceset="AQ" device="-SO" value="AQ-SO"/>
 <part name="IC2" library="linear" deviceset="78*" device="T" technology="05" value="7805T"/>
-<part name="C5" library="c" deviceset="C" device="050-024X044" value="0.33uF"/>
-<part name="C6" library="c" deviceset="C" device="050-024X044" value="0.1uF"/>
+<part name="C5" library="c" deviceset="C" device="050-024X044" value="0.33μF"/>
+<part name="C6" library="c" deviceset="C" device="050-024X044" value="0.1μF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="c" deviceset="C" device="050-020X036" value="100nF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>

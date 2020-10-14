@@ -3601,15 +3601,15 @@ http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-
 <part name="T1" library="t" deviceset="2N3904" device="EBC" value="2N3904"/>
 <part name="T2" library="t" deviceset="2N3904" device="EBC" value="2N3904"/>
 <part name="T3" library="t" deviceset="2N3906" device="TO92-EBC" value="2N3906"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/10" value="100k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1M"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10-V" value="75k"/>
-<part name="R4" library="r" deviceset="R" device="0204/10-V" value="7.5k"/>
-<part name="R5" library="r" deviceset="R" device="0204/10-V" value="4.7k"/>
-<part name="R6" library="r" deviceset="R" device="0204/10-V" value="1k"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1MΩ"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10-V" value="75kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0204/10-V" value="7.5kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0204/10-V" value="4.7kΩ"/>
+<part name="R6" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
 <part name="D1" library="d" deviceset="Z-DIODE" device="34Z5V" value="Z=3.3V"/>
 <part name="C2" library="c" deviceset="C" device="050-020X044" value="33nF"/>
-<part name="C3" library="c" deviceset="CPOL-H" device="E2,5-4/V" value="3.3uF"/>
+<part name="C3" library="c" deviceset="CPOL-H" device="E2,5-4/V" value="3.3μF"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+"/>

@@ -6018,31 +6018,31 @@ http://www.ke3ij.com/amp.htm</description>
 </classes>
 <parts>
 <part name="T1" library="t" deviceset="2N3904" device=""/>
-<part name="R1" library="r" deviceset="R-H" device="0202/7-V" value="390k"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/7-V" value="390kΩ"/>
 <part name="C1" library="c" deviceset="C" device="050-020X044" value="470n"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="T2" library="t" deviceset="2N3904" device=""/>
-<part name="R2" library="r" deviceset="R-H" device="0202/7-V" value="390k"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/7-V" value="390kΩ"/>
 <part name="C2" library="c" deviceset="C" device="050-020X044" value="470n"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="T3" library="t" deviceset="2N3904" device=""/>
-<part name="R3" library="r" deviceset="R-H" device="0202/7-V" value="390k"/>
+<part name="R3" library="r" deviceset="R-H" device="0202/7-V" value="390kΩ"/>
 <part name="C3" library="c" deviceset="C" device="050-020X044" value="470n"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
-<part name="R4" library="r" deviceset="R-H" device="0202/7-V" value="27k"/>
-<part name="R5" library="r" deviceset="R" device="0202/7-V" value="4.7k"/>
+<part name="R4" library="r" deviceset="R-H" device="0202/7-V" value="27kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0202/7-V" value="4.7kΩ"/>
 <part name="C4" library="c" deviceset="C" device="025-015X024" value="10n"/>
-<part name="R6" library="r" deviceset="R" device="0202/7-V" value="4.7k"/>
+<part name="R6" library="r" deviceset="R" device="0202/7-V" value="4.7kΩ"/>
 <part name="C5" library="c" deviceset="C" device="025-015X024" value="10n"/>
 <part name="D1" library="d" deviceset="1N4148" device="34-2,5-A" value="1N414834-2,5-A"/>
 <part name="D2" library="d" deviceset="1N4148" device="34-5V" value=""/>
 <part name="T4" library="t" deviceset="2N3904" device=""/>
 <part name="T5" library="t" deviceset="2N3906" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
-<part name="R7" library="r" deviceset="R" device="0202/7" value="2.2k"/>
+<part name="R7" library="r" deviceset="R" device="0202/7" value="2.2kΩ"/>
 <part name="C6" library="c" deviceset="CPOL" device="E5-6" value="1000u"/>
 <part name="S5" library="pad" deviceset="GND" device=""/>
-<part name="R8" library="r" deviceset="R-H" device="0202/7" value="100"/>
+<part name="R8" library="r" deviceset="R-H" device="0202/7" value="100Ω"/>
 <part name="SW1" library="sw" deviceset="SL-SW-1P-2T" device="-H"/>
 <part name="V+" library="pad" deviceset="SPAD" device=""/>
 <part name="V-" library="pad" deviceset="SPAD" device=""/>

@@ -14426,39 +14426,39 @@ drill 1.0 mm</description>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="IN2_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
-<part name="CV2_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="IN2_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100kΩ"/>
+<part name="CV2_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100kΩ"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
-<part name="CUTOFF_INIT" library="rcl" deviceset="R-TRIMM" device="64W" value="100k"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
+<part name="CUTOFF_INIT" library="rcl" deviceset="R-TRIMM" device="64W" value="100kΩ"/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="P-4" library="supply1" deviceset="-12V" device=""/>
 <part name="Q4" library="transistor-npn" deviceset="2N3904" device=""/>
 <part name="Q5" library="transistor-pnp" deviceset="2N3906" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
+<part name="C5" library="rcl" deviceset="CPOL-US" device="B45181A" value="10μF"/>
 <part name="D1" library="diode" deviceset="1N4148" device="DO35-7"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="P-3" library="supply1" deviceset="-12V" device=""/>
-<part name="CUTOFF" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="CUTOFF" library="pot" deviceset="3RP/1610N" device="" value="100kΩ"/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="CV1" library="solpad" deviceset="LSP10" device=""/>
 <part name="CV1_NORM" library="solpad" deviceset="LSP10" device=""/>
 <part name="CV2" library="solpad" deviceset="LSP10" device=""/>
-<part name="C3" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
-<part name="C4" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
+<part name="C3" library="rcl" deviceset="C-US" device="025-030X050" value="0.1μF"/>
+<part name="C4" library="rcl" deviceset="C-US" device="025-030X050" value="0.1μF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="IN_2" library="solpad" deviceset="LSP10" device=""/>
-<part name="IN1_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="IN1_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100kΩ"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="IN_1" library="solpad" deviceset="LSP10" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
-<part name="CV1_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
+<part name="CV1_LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100kΩ"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P-1" library="supply1" deviceset="-12V" device=""/>
@@ -14476,54 +14476,54 @@ drill 1.0 mm</description>
 <part name="D11" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="D12" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="Q2" library="transistor-npn" deviceset="2N3904" device=""/>
-<part name="C9" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
-<part name="C8" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
-<part name="C7" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
-<part name="C6" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
+<part name="C9" library="rcl" deviceset="C-US" device="025-030X050" value="0.1μF"/>
+<part name="C8" library="rcl" deviceset="C-US" device="025-030X050" value="0.1μF"/>
+<part name="C7" library="rcl" deviceset="C-US" device="025-030X050" value="0.1μF"/>
+<part name="C6" library="rcl" deviceset="C-US" device="025-030X050" value="0.1μF"/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
-<part name="R22" library="rcl" deviceset="R-US_" device="0207/7" value="470k"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="0207/7" value="470kΩ"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R29" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R29" library="rcl" deviceset="R-US_" device="0207/7" value="10kΩ"/>
 <part name="P-7" library="supply1" deviceset="-12V" device=""/>
-<part name="C12" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
-<part name="R17" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
+<part name="C12" library="rcl" deviceset="CPOL-US" device="B45181A" value="10μF"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="0207/7" value="1kΩ"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-US_" device="0207/7" value="560k"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="0207/7" value="560kΩ"/>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="P-5" library="supply1" deviceset="-12V" device=""/>
-<part name="R15" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
-<part name="C11" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
-<part name="R20" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="0207/7" value="1kΩ"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="0207/7" value="1kΩ"/>
+<part name="C11" library="rcl" deviceset="CPOL-US" device="B45181A" value="10μF"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="0207/7" value="10kΩ"/>
 <part name="P+9" library="supply1" deviceset="+12V" device=""/>
-<part name="C10" library="rcl" deviceset="CPOL-US" device="B45181A" value="220uF"/>
-<part name="RESONANCE" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="C10" library="rcl" deviceset="CPOL-US" device="B45181A" value="220μF"/>
+<part name="RESONANCE" library="pot" deviceset="3RP/1610N" device="" value="100kΩ"/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="RES_CV" library="solpad" deviceset="LSP10" device=""/>
-<part name="R24" library="rcl" deviceset="R-US_" device="0207/7" value="220k"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="0207/7" value="220k"/>
-<part name="R27" library="rcl" deviceset="R-US_" device="0207/7" value="1M"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="0207/7" value="220kΩ"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="0207/7" value="220kΩ"/>
+<part name="R27" library="rcl" deviceset="R-US_" device="0207/7" value="1MΩ"/>
 <part name="P+11" library="supply1" deviceset="+12V" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R19" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="0207/7" value="1kΩ"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="0207/7" value="10kΩ"/>
 <part name="P-6" library="supply1" deviceset="-12V" device=""/>
-<part name="R26" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
+<part name="R26" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="R30" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
+<part name="R30" library="rcl" deviceset="R-US_" device="0207/7" value="100kΩ"/>
 <part name="OUT" library="solpad" deviceset="LSP10" device=""/>
-<part name="R31" library="rcl" deviceset="R-US_" device="0207/7" value="220"/>
-<part name="R28" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R31" library="rcl" deviceset="R-US_" device="0207/7" value="220Ω"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="0207/7" value="10kΩ"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
-<part name="C2" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
-<part name="SCALE_TRIM" library="rcl" deviceset="R-TRIMM" device="64W" value="2k"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="B45181A" value="10μF"/>
+<part name="C2" library="rcl" deviceset="CPOL-US" device="B45181A" value="10μF"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="0207/7" value="1kΩ"/>
+<part name="SCALE_TRIM" library="rcl" deviceset="R-TRIMM" device="64W" value="2kΩ"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="Q3" library="transistor-pnp" deviceset="2N3906" device=""/>
 </parts>

@@ -5817,22 +5817,22 @@ http://www.ke3ij.com/superrgn.htm</description>
 </classes>
 <parts>
 <part name="C1" library="c" deviceset="C" device="050-020X036" value="7pF"/>
-<part name="L1" library="l" deviceset="L-SHORT" device="04-5/5V" value="0.22uH"/>
+<part name="L1" library="l" deviceset="L-SHORT" device="04-5/5V" value="0.22μH"/>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15pF"/>
 <part name="C4" library="c" deviceset="C" device="050-024X044/V" value="470nF"/>
-<part name="R2" library="r" deviceset="R-H" device="0202/7" value="12k"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/7" value="12kΩ"/>
 <part name="C5" library="c" deviceset="C" device="025-020X036" value="1nF"/>
 <part name="C6" library="c" deviceset="C" device="025-020X036" value="1nF"/>
-<part name="R3" library="r" deviceset="R" device="0202/5-V" value="10k"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="L-08-5/8" value="0.33uH"/>
+<part name="R3" library="r" deviceset="R" device="0202/5-V" value="10kΩ"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="L-08-5/8" value="0.33μH"/>
 <part name="C7" library="c" deviceset="C" device="050-024X044/V" value="470nF"/>
-<part name="R4" library="r" deviceset="R-H" device="0202/7-V" value="22k"/>
+<part name="R4" library="r" deviceset="R-H" device="0202/7-V" value="22kΩ"/>
 <part name="C8" library="c" deviceset="C" device="050-020X044" value="100nF"/>
-<part name="R5" library="r" deviceset="R-H" device="0202/7" value="330k"/>
+<part name="R5" library="r" deviceset="R-H" device="0202/7" value="330kΩ"/>
 <part name="C9" library="c" deviceset="C" device="025-015X024" value="10nF"/>
-<part name="R6" library="r" deviceset="R-H" device="0202/7-V" value="220k"/>
-<part name="R7" library="r" deviceset="R" device="0202/7-V" value="4.7k"/>
-<part name="C2" library="c" deviceset="CPOL" device="E2,5-3" value="2.2uF"/>
+<part name="R6" library="r" deviceset="R-H" device="0202/7-V" value="220kΩ"/>
+<part name="R7" library="r" deviceset="R" device="0202/7-V" value="4.7kΩ"/>
+<part name="C2" library="c" deviceset="CPOL" device="E2,5-3" value="2.2μF"/>
 <part name="C10" library="c" deviceset="C" device="050-020X036/V" value="47nF"/>
 <part name="T1" library="t" deviceset="2N3904" device=""/>
 <part name="T2" library="t" deviceset="2N3904" device=""/>

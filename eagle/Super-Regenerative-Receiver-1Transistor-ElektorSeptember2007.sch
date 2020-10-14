@@ -5398,15 +5398,15 @@ http://siva666siva.webs.com/FM.PDF</description>
 </classes>
 <parts>
 <part name="C1" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
-<part name="R1" library="r" deviceset="R" device="0204/10" value="10k"/>
-<part name="R2" library="r" deviceset="R" device="0204/10" value="10k"/>
+<part name="R1" library="r" deviceset="R" device="0204/10" value="10kΩ"/>
+<part name="R2" library="r" deviceset="R" device="0204/10" value="10kΩ"/>
 <part name="T1" library="t" deviceset="2N3904" device="" value="2N3904"/>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="" value="22p"/>
 <part name="L1" library="l" deviceset="L-SHORT" device="L-04-5/5V-X" value="5"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036/V" value="10p"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="02/7V" value="0.33uH"/>
-<part name="R3" library="r" deviceset="R" device="0204/10" value="10k"/>
-<part name="R4" library="r" deviceset="R" device="0204/7" value="10k"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="02/7V" value="0.33μH"/>
+<part name="R3" library="r" deviceset="R" device="0204/10" value="10kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0204/7" value="10kΩ"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
 <part name="C5" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
 <part name="C6" library="c" deviceset="CPOL" device="E2,5-3" value="10u"/>

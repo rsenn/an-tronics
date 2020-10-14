@@ -1721,15 +1721,15 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 <parts>
 <part name="T1" library="t" deviceset="BC557" device="CBE" value="BC557"/>
 <part name="T2" library="t" deviceset="BC557" device="CBE" value="BC557"/>
-<part name="R2" library="r" deviceset="R" device="0202/5-V" value="5.1k"/>
-<part name="R1" library="r" deviceset="R" device="0202/5-V" value="15k"/>
-<part name="R3" library="r" deviceset="R" device="0202/5-V" value="15k"/>
+<part name="R2" library="r" deviceset="R" device="0202/5-V" value="5.1kΩ"/>
+<part name="R1" library="r" deviceset="R" device="0202/5-V" value="15kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/5-V" value="15kΩ"/>
 <part name="C2" library="c" deviceset="C-H" device="050-020X044" value="2.7nF"/>
 <part name="C1" library="c" deviceset="C-H" device="050-020X044" value="2.7nF"/>
 <part name="OUT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="J1" library="pad" deviceset="VCC_GND" device="PWR-L"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="R4" library="r" deviceset="POT" device="-V" value="5k"/>
+<part name="R4" library="r" deviceset="POT" device="-V" value="5kΩ"/>
 </parts>
 <sheets>
 <sheet>

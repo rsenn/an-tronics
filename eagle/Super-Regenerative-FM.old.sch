@@ -3689,13 +3689,13 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <part name="Q1" library="t" deviceset="BF245B" device=""/>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIN" value="15p"/>
 <part name="C1" library="c" deviceset="C" device="050-020X036/V" value="1n"/>
-<part name="R1" library="r" deviceset="POT" device="-V" value="1k"/>
+<part name="R1" library="r" deviceset="POT" device="-V" value="1kΩ"/>
 <part name="U$1" library="pad" deviceset="GND" device=""/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
-<part name="L2" library="l" deviceset="L" device="-BODY" value="3.3uH"/>
+<part name="L2" library="l" deviceset="L" device="-BODY" value="3.3μH"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036" value="4.7pF"/>
-<part name="R2" library="r" deviceset="R" device="0204/10" value="10k"/>
+<part name="R2" library="r" deviceset="R" device="0204/10" value="10kΩ"/>
 <part name="C5" library="c" deviceset="C" device="050-020X044" value="4.7n"/>
 <part name="C6" library="c" deviceset="C" device="050-020X044" value="100n"/>
 <part name="AOUT+" library="pad" deviceset="SPAD" device=""/>
@@ -3705,7 +3705,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <part name="U$3" library="pad" deviceset="GND" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="U$5" library="pad" deviceset="GND" device=""/>
-<part name="L1" library="l" deviceset="L-TAP1" device="L-08/12-X-TAP1" value="0.22uH"/>
+<part name="L1" library="l" deviceset="L-TAP1" device="L-08/12-X-TAP1" value="0.22μH"/>
 </parts>
 <sheets>
 <sheet>

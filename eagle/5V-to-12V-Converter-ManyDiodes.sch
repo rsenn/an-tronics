@@ -6426,16 +6426,16 @@ http://www.romanblack.com/smps/conv.htm</description>
 </classes>
 <parts>
 <part name="D1" library="d" deviceset="1N4148" device="34-12" value="1N414834-12"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/7-V" value="10k"/>
-<part name="R2" library="r" deviceset="R" device="0204/10" value="6.8"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R4" library="r" deviceset="R" device="0204/7-V" value="15k"/>
-<part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="47uF/16V"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/7-V" value="10kΩ"/>
+<part name="R2" library="r" deviceset="R" device="0204/10" value="6.8Ω"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0204/7-V" value="15kΩ"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="47μF/16V"/>
 <part name="C2" library="c" deviceset="C" device="050-020X036" value="1nF"/>
 <part name="T1" library="t" deviceset="BC337" device="CBE" value="BC337"/>
 <part name="T2" library="t" deviceset="BC337" device="CBE" value="BC337"/>
 <part name="D2" library="d" deviceset="Z-DIODE" device="-35Z10/V" value="Z=10V/400mW"/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-4/V" value="10uF/25V"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2,5-4/V" value="10μF/25V"/>
 <part name="L1" library="l" deviceset="L-SHORT" device="ED16-X" value="470uH/4.9 DC Ohms"/>
 <part name="12V" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="5V" library="pad" deviceset="SPAD+-" device="-+"/>

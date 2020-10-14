@@ -763,17 +763,17 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="c" package="E2,5-5/V" value="10uF" x="-24.13" y="77.47"/>
-<element name="C2" library="c" package="E2,5-5/V" value="10uF" x="-30.48" y="77.47"/>
+<element name="C1" library="c" package="E2,5-5/V" value="10μF" x="-24.13" y="77.47"/>
+<element name="C2" library="c" package="E2,5-5/V" value="10μF" x="-30.48" y="77.47"/>
 <element name="C3" library="c" package="C050-020X036/V" value="4n7" x="-64.77" y="66.04"/>
 <element name="C5" library="c" package="C050-020X036/V" value="1n" x="-68.58" y="66.04"/>
 <element name="C6" library="c" package="C050-020X036/V" value="1n" x="-72.39" y="66.04"/>
-<element name="C7" library="c" package="E2,5-5/V" value="0.47uF" x="-16.51" y="77.47"/>
-<element name="CV1_LEV" library="r" package="POT-V" value="100k" x="-39.37" y="68.58"/>
-<element name="CV2_LEV" library="r" package="POT-V" value="100k" x="-48.26" y="68.58"/>
+<element name="C7" library="c" package="E2,5-5/V" value="0.47μF" x="-16.51" y="77.47"/>
+<element name="CV1_LEV" library="r" package="POT-V" value="100kΩ" x="-39.37" y="68.58"/>
+<element name="CV2_LEV" library="r" package="POT-V" value="100kΩ" x="-48.26" y="68.58"/>
 <element name="CV_1" library="erthenvar" package="ERTHENVAR-JACK-90DEG" value="AUDIO-JACK" x="-22.86" y="17.78"/>
 <element name="CV_2" library="erthenvar" package="ERTHENVAR-JACK-90DEG" value="AUDIO-JACK" x="-35.56" y="17.78"/>
-<element name="FREQ" library="r" package="POT" value="100k" x="-30.48" y="36.83"/>
+<element name="FREQ" library="r" package="POT" value="100kΩ" x="-30.48" y="36.83"/>
 <element name="HP_IN" library="erthenvar" package="ERTHENVAR-JACK-90DEG" value="AUDIO-JACK" x="-48.26" y="17.78"/>
 <element name="IC1" library="ic" package="DIL16" value="LM13700" x="-19.05" y="36.83"/>
 <element name="IC2" library="ic" package="DIL08" value="TL082P" x="-30.48" y="54.61">
@@ -791,25 +791,25 @@ design rules under a new name.</description>
 <element name="OUT" library="erthenvar" package="ERTHENVAR-JACK-90DEG" value="AUDIO-JACK" x="-73.66" y="17.78"/>
 <element name="Q1" library="t" package="TO92-CBE" value="BC557CBE" x="-55.88" y="66.04"/>
 <element name="Q2" library="t" package="TO92-CBE" value="BC557CBE" x="-60.96" y="66.04"/>
-<element name="R1" library="r" package="0204/10" value="100k" x="-55.88" y="74.93"/>
-<element name="R10" library="r" package="0204/10-V" value="220" x="-46.99" y="33.02"/>
-<element name="R11" library="r" package="0204/10-V" value="220" x="-73.66" y="33.02"/>
-<element name="R12" library="r" package="0204/10" value="10k" x="-44.45" y="82.55"/>
-<element name="R13" library="r" package="0204/10-V" value="10k" x="-50.8" y="33.02"/>
-<element name="R14" library="r" package="0204/10-V" value="10k" x="-54.61" y="33.02"/>
-<element name="R15" library="r" package="0204/10-V" value="220" x="-58.42" y="33.02"/>
-<element name="R16" library="r" package="0204/10-V" value="220" x="-62.23" y="33.02"/>
-<element name="R17" library="r" package="0204/10-V" value="10k" x="-66.04" y="33.02"/>
-<element name="R18" library="r" package="0204/10" value="10k" x="-57.15" y="82.55"/>
-<element name="R19" library="r" package="0204/10-V" value="10k" x="-69.85" y="33.02"/>
-<element name="R21" library="r" package="0204/10" value="100k" x="-69.85" y="82.55"/>
-<element name="R4" library="r" package="0204/10" value="10k" x="-68.58" y="74.93"/>
-<element name="R5" library="r" package="0204/10-V" value="1k8" x="-13.97" y="55.88"/>
-<element name="R6" library="r" package="0204/10-V" value="1k8" x="-17.78" y="55.88"/>
-<element name="R7" library="r" package="0204/10" value="4k7" x="-19.05" y="82.55"/>
-<element name="R8" library="r" package="0204/10-V" value="470k" x="-21.59" y="55.88"/>
-<element name="R9" library="r" package="0204/10" value="100k" x="-31.75" y="82.55"/>
-<element name="RESONANCE" library="r" package="POT" value="100k" x="-40.64" y="36.83"/>
+<element name="R1" library="r" package="0204/10" value="100kΩ" x="-55.88" y="74.93"/>
+<element name="R10" library="r" package="0204/10-V" value="220Ω" x="-46.99" y="33.02"/>
+<element name="R11" library="r" package="0204/10-V" value="220Ω" x="-73.66" y="33.02"/>
+<element name="R12" library="r" package="0204/10" value="10kΩ" x="-44.45" y="82.55"/>
+<element name="R13" library="r" package="0204/10-V" value="10kΩ" x="-50.8" y="33.02"/>
+<element name="R14" library="r" package="0204/10-V" value="10kΩ" x="-54.61" y="33.02"/>
+<element name="R15" library="r" package="0204/10-V" value="220Ω" x="-58.42" y="33.02"/>
+<element name="R16" library="r" package="0204/10-V" value="220Ω" x="-62.23" y="33.02"/>
+<element name="R17" library="r" package="0204/10-V" value="10kΩ" x="-66.04" y="33.02"/>
+<element name="R18" library="r" package="0204/10" value="10kΩ" x="-57.15" y="82.55"/>
+<element name="R19" library="r" package="0204/10-V" value="10kΩ" x="-69.85" y="33.02"/>
+<element name="R21" library="r" package="0204/10" value="100kΩ" x="-69.85" y="82.55"/>
+<element name="R4" library="r" package="0204/10" value="10kΩ" x="-68.58" y="74.93"/>
+<element name="R5" library="r" package="0204/10-V" value="1.8kΩ" x="-13.97" y="55.88"/>
+<element name="R6" library="r" package="0204/10-V" value="1.8kΩ" x="-17.78" y="55.88"/>
+<element name="R7" library="r" package="0204/10" value="4.7kΩ" x="-19.05" y="82.55"/>
+<element name="R8" library="r" package="0204/10-V" value="470kΩ" x="-21.59" y="55.88"/>
+<element name="R9" library="r" package="0204/10" value="100kΩ" x="-31.75" y="82.55"/>
+<element name="RESONANCE" library="r" package="POT" value="100kΩ" x="-40.64" y="36.83"/>
 <element name="U$1" library="eurorack" package="POWER_16" value="POWER" x="-26.67" y="68.58"/>
 </elements>
 <signals>

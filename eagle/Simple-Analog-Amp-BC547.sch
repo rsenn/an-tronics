@@ -1795,8 +1795,8 @@
 </classes>
 <parts>
 <part name="T1" library="t" deviceset="BC547" device=""/>
-<part name="R1" library="r" deviceset="R-H" device="0204/10" value="470k"/>
-<part name="R2" library="r" deviceset="R" device="0204/10-V" value="1k"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/10" value="470kΩ"/>
+<part name="R2" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
 <part name="C1" library="c" deviceset="C-H" device="050-020X044" value="100n"/>
 <part name="OUT" library="pad" deviceset="HPORT" device=""/>
 <part name="IN" library="pad" deviceset="HPORT" device=""/>

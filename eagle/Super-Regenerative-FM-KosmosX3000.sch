@@ -3938,14 +3938,14 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <part name="L3" library="l" deviceset="L-SHORT" device="04-5/5V-C" value="40nH"/>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIN" value="33pF"/>
 <part name="C1" library="c" deviceset="C" device="050-020X044" value="5nF"/>
-<part name="R3" library="r" deviceset="R" device="0204/10-V" value="3.3k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10-V" value="10k"/>
+<part name="R3" library="r" deviceset="R" device="0204/10-V" value="3.3kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10-V" value="10kΩ"/>
 <part name="C3" library="c" deviceset="C" device="050-020X044" value="6.8nF"/>
 <part name="L2" library="l" deviceset="L-SHORT" device="04-5/5V-C" value="73nH"/>
 <part name="C4" library="c" deviceset="C" device="050-020X044" value="100nF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="R1" library="r" deviceset="R-H" device="0204/15-V" value="150"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/15-V" value="150Ω"/>
 <part name="BATT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="C5" library="c" deviceset="C" device="025-015X024" value="15p"/>

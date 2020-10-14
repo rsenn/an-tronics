@@ -6788,18 +6788,18 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="r" deviceset="R" device="0204/10" value="470"/>
-<part name="R2" library="r" deviceset="R" device="0204/10" value="12k"/>
-<part name="R3" library="r" deviceset="R" device="0204/10" value="220"/>
-<part name="R4" library="r" deviceset="R" device="0204/10" value="220"/>
+<part name="R1" library="r" deviceset="R" device="0204/10" value="470Ω"/>
+<part name="R2" library="r" deviceset="R" device="0204/10" value="12kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0204/10" value="220Ω"/>
+<part name="R4" library="r" deviceset="R" device="0204/10" value="220Ω"/>
 <part name="IC1" library="ic" deviceset="LMT2901N" device=""/>
-<part name="R5" library="r" deviceset="R" device="0204/10" value="220"/>
-<part name="R6" library="r" deviceset="R" device="0204/10" value="7.5k"/>
+<part name="R5" library="r" deviceset="R" device="0204/10" value="220Ω"/>
+<part name="R6" library="r" deviceset="R" device="0204/10" value="7.5kΩ"/>
 <part name="R7" library="r" deviceset="POT" device=""/>
-<part name="R8" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R9" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R10" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R11" library="r" deviceset="R-H" device="0204/10" value="1k"/>
+<part name="R8" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R9" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R10" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R11" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="U$1" library="pad" deviceset="VCC" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
@@ -6812,7 +6812,7 @@ Source: www.kingbright.com</description>
 <part name="PWR" library="pad" deviceset="SPAD+-" device=""/>
 <part name="U$2" library="pad" deviceset="VCC" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
-<part name="C1" library="c" deviceset="CPOL" device="E2,5-4" value="100uF"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-4" value="100μF"/>
 <part name="C2" library="c" deviceset="C" device="050-020X044" value="100nF"/>
 </parts>
 <sheets>

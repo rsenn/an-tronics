@@ -13911,11 +13911,11 @@ Source: http://www.osram.convergy.de/</description>
 </classes>
 <parts>
 <part name="IC14" library="303parts" deviceset="LA44140" device=""/>
-<part name="R159" library="rcl" deviceset="R-US_" device="0207/5V" value="33K"/>
-<part name="R135" library="rcl" deviceset="R-US_" device="0207/5V" value="4.7k"/>
+<part name="R159" library="rcl" deviceset="R-US_" device="0207/5V" value="33kΩ" />
+<part name="R135" library="rcl" deviceset="R-US_" device="0207/5V" value="4.7kΩ"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R161" library="rcl" deviceset="R-US_" device="0207/5V" value="1K"/>
-<part name="R165" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R161" library="rcl" deviceset="R-US_" device="0207/5V" value="1kΩ" />
+<part name="R165" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C47" library="rcl" deviceset="C-US" device="050-075X075" value=".0068"/>
@@ -13931,49 +13931,49 @@ Source: http://www.osram.convergy.de/</description>
 <part name="C43" library="rcl" deviceset="CPOL-US" device="E5-5" value="1000/6.3"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C44" library="rcl" deviceset="CPOL-US" device="E5-6" value="47/16"/>
-<part name="R160" library="rcl" deviceset="R-US_" device="0207/5V" value="10k"/>
-<part name="R153" library="rcl" deviceset="R-US_" device="0207/5V" value="100k"/>
+<part name="R160" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ"/>
+<part name="R153" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R158" library="rcl" deviceset="R-US_" device="0207/5V" value="10k"/>
+<part name="R158" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ"/>
 <part name="C53" library="rcl" deviceset="CPOL-US" device="E5-6" value="47/16"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R136" library="rcl" deviceset="R-US_" device="0207/5V" value="100"/>
-<part name="R154" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R157" library="rcl" deviceset="R-US_" device="0207/5V" value="10k"/>
-<part name="R155" library="rcl" deviceset="R-US_" device="0207/5V" value="47K"/>
-<part name="R156" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R136" library="rcl" deviceset="R-US_" device="0207/5V" value="100Ω"/>
+<part name="R154" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R157" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ"/>
+<part name="R155" library="rcl" deviceset="R-US_" device="0207/5V" value="47kΩ" />
+<part name="R156" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="IC15A" library="303parts" deviceset="BA662" device=""/>
-<part name="R124" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R125" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R126" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
+<part name="R124" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R125" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R126" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
 <part name="C37" library="rcl" deviceset="CPOL-US" device="E5-6" value="10/16"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R121" library="rcl" deviceset="R-US_" device="0207/5V" value="220K"/>
+<part name="R121" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ" />
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R122" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R122" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="C20" library="rcl" deviceset="C-US" device="050-024X044" value=".01"/>
 <part name="C21" library="rcl" deviceset="C-US" device="050-024X044" value=".01"/>
 <part name="C38" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
-<part name="R128" library="rcl" deviceset="R-US_" device="0207/5V" value="220K"/>
-<part name="R127" library="rcl" deviceset="R-US_" device="0207/5V" value="47K"/>
-<part name="R129" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
+<part name="R128" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ" />
+<part name="R127" library="rcl" deviceset="R-US_" device="0207/5V" value="47kΩ" />
+<part name="R129" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
 <part name="C40" library="rcl" deviceset="CPOL-US" device="E5-6" value="10/16"/>
-<part name="R162" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
+<part name="R162" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="D27" library="diode" deviceset="1N4148" device=""/>
-<part name="R120" library="rcl" deviceset="R-US_" device="0207/5V" value="22k"/>
+<part name="R120" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ"/>
 <part name="C36" library="rcl" deviceset="C-US" device="050-025X075" value=".033"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R119" library="rcl" deviceset="R-US_" device="0207/5V" value="47K"/>
-<part name="R142" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R143" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R148" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R145" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R150" library="rcl" deviceset="R-US_" device="0207/5V" value="22"/>
-<part name="R149" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R151" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
-<part name="R144" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R146" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
+<part name="R119" library="rcl" deviceset="R-US_" device="0207/5V" value="47kΩ" />
+<part name="R142" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R143" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R148" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R145" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R150" library="rcl" deviceset="R-US_" device="0207/5V" value="22Ω"/>
+<part name="R149" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R151" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
+<part name="R144" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R146" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
 <part name="C72" library="rcl" deviceset="CPOL-US" device="E5-6" value="10/16"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C54" library="rcl" deviceset="C-US" device="050-055X075" value=".047"/>
@@ -13982,83 +13982,83 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="D37" library="diode" deviceset="1N4148" device=""/>
-<part name="R152" library="rcl" deviceset="R-US_" device="0207/5V" value="100"/>
+<part name="R152" library="rcl" deviceset="R-US_" device="0207/5V" value="100Ω"/>
 <part name="C62" library="rcl" deviceset="CPOL-US" device="E2.5-7" value="1/35"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="R138" library="rcl" deviceset="R-US_" device="0207/5V" value="68K"/>
+<part name="R138" library="rcl" deviceset="R-US_" device="0207/5V" value="68kΩ" />
 <part name="Q39" library="303parts" deviceset="2SK30" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="D26" library="diode" deviceset="1N4148" device=""/>
 <part name="D29" library="diode" deviceset="1N4148" device=""/>
 <part name="D28" library="diode" deviceset="1N4148" device=""/>
-<part name="R117" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
+<part name="R117" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="IC12" library="40xx" deviceset="4066" device="N"/>
-<part name="R140" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R141" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R139" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R140" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R141" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R139" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="D35" library="diode" deviceset="1N4148" device=""/>
 <part name="D34" library="diode" deviceset="1N4148" device=""/>
-<part name="R137" library="rcl" deviceset="R-US_" device="0207/10" value="1K"/>
-<part name="R133" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
+<part name="R137" library="rcl" deviceset="R-US_" device="0207/10" value="1kΩ" />
+<part name="R133" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
 <part name="D36" library="diode" deviceset="1N4148" device=""/>
-<part name="R134" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
+<part name="R134" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
 <part name="C41" library="rcl" deviceset="C-US" device="050-030X075" value=".1"/>
-<part name="R130" library="rcl" deviceset="R-US_" device="0207/5V" value="100"/>
-<part name="R132" library="rcl" deviceset="R-US_" device="0207/5V" value="100"/>
-<part name="R123" library="rcl" deviceset="R-US_" device="0207/5V" value="1.5M"/>
+<part name="R130" library="rcl" deviceset="R-US_" device="0207/5V" value="100Ω"/>
+<part name="R132" library="rcl" deviceset="R-US_" device="0207/5V" value="100Ω"/>
+<part name="R123" library="rcl" deviceset="R-US_" device="0207/5V" value="1.5MΩ"/>
 <part name="C42" library="rcl" deviceset="CPOL-US" device="E2.5-7" value="1/35"/>
-<part name="R131" library="rcl" deviceset="R-US_" device="0207/5V" value="220K"/>
+<part name="R131" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ" />
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="IC9" library="41xx" deviceset="4174" device="P"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="R90" library="rcl" deviceset="R-US_" device="0207/5V" value="200k"/>
-<part name="R88" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R89" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R84" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R77" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R75" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R74" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R76" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R87" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R79" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R80" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R81" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R78" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
+<part name="R90" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ"/>
+<part name="R88" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R89" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R84" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R77" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R75" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R74" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R76" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R87" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R79" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R80" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R81" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R78" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="C35" library="rcl" deviceset="C-US" device="050-045X075" value=".22"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R93" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R91" library="rcl" deviceset="R-US_" device="0207/5V" value="1M"/>
-<part name="R92" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R93" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R91" library="rcl" deviceset="R-US_" device="0207/5V" value="1MΩ"/>
+<part name="R92" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="R59" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R59" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="IC11" library="303parts" deviceset="AN6562" device="N"/>
-<part name="R107" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
+<part name="R107" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
 <part name="D31" library="diode" deviceset="1N4148" device=""/>
 <part name="D30" library="diode" deviceset="1N4148" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="C34" library="rcl" deviceset="C-US" device="050-035X075" value=".001"/>
-<part name="R103" library="rcl" deviceset="R-US_" device="0207/5V" value="220k"/>
-<part name="R102" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R104" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R106" library="rcl" deviceset="R-US_" device="0207/5V" value="27K"/>
-<part name="R118" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R103" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ"/>
+<part name="R102" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R104" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R106" library="rcl" deviceset="R-US_" device="0207/5V" value="27kΩ" />
+<part name="R118" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="D25" library="diode" deviceset="1N4148" device=""/>
-<part name="R101" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R101" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="Q28" library="303parts" deviceset="2SK30" device=""/>
-<part name="R105" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R105" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-US" device="050-024X044" value=".01"/>
-<part name="R35" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R34" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R36" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R35" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R34" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R36" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="C11" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="R45" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
+<part name="R45" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
 <part name="C33" library="rcl" deviceset="C-US" device="050-024X044" value=".01"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="Q26" library="303parts" deviceset="2SC1583" device=""/>
@@ -14093,49 +14093,49 @@ Source: http://www.osram.convergy.de/</description>
 <part name="C26" library="rcl" deviceset="C-US" device="075-032X103" value=".033"/>
 <part name="Q12" library="303parts" deviceset="2SC1583" device=""/>
 <part name="Q21" library="303parts" deviceset="2SC1583" device=""/>
-<part name="R115" library="rcl" deviceset="R-US_" device="0207/2V" value="10K"/>
+<part name="R115" library="rcl" deviceset="R-US_" device="0207/2V" value="10kΩ" />
 <part name="C30" library="rcl" deviceset="CPOL-US" device="E5-6" value="10/16"/>
-<part name="R62" library="rcl" deviceset="R-US_" device="0207/5V" value="220K"/>
+<part name="R62" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ" />
 <part name="C17" library="rcl" deviceset="CPOL-US" device="E3.5-8" value="1/50"/>
-<part name="R70" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R68" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
+<part name="R70" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R68" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
 <part name="C16" library="rcl" deviceset="CPOL-US" device="E5-6" value="10/16"/>
-<part name="R98" library="rcl" deviceset="R-US_" device="0207/2V" value="2.2K"/>
-<part name="R69" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R97" library="rcl" deviceset="R-US_" device="0207/2V" value="10K"/>
+<part name="R98" library="rcl" deviceset="R-US_" device="0207/2V" value="2.2kΩ" />
+<part name="R69" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R97" library="rcl" deviceset="R-US_" device="0207/2V" value="10kΩ" />
 <part name="C23" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="Q18" library="303parts" deviceset="2SC536F" device=""/>
-<part name="R99" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R67" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R66" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R99" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R67" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R66" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="C22" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="R94" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R94" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
-<part name="R113" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R112" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R109" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R113" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R112" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R109" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="Q20" library="303parts" deviceset="2SC536F" device=""/>
-<part name="R108" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
+<part name="R108" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
-<part name="R116" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R114" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="R116" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R114" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="C25" library="rcl" deviceset="C-US" device="050-030X075" value=".1"/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="C27" library="rcl" deviceset="C-US" device="050-030X075" value=".1"/>
-<part name="R111" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
-<part name="R110" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
+<part name="R111" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
+<part name="R110" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
 <part name="Q19" library="303parts" deviceset="2SC536F" device="UNEVEN" value="2SC536F"/>
-<part name="R96" library="rcl" deviceset="R-US_" device="0207/2V" value="10K"/>
+<part name="R96" library="rcl" deviceset="R-US_" device="0207/2V" value="10kΩ" />
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
 <part name="C28" library="rcl" deviceset="CPOL-US" device="E5-6" value="47/16"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="R95" library="rcl" deviceset="R-US_" device="0207/5V" value="100"/>
+<part name="R95" library="rcl" deviceset="R-US_" device="0207/5V" value="100Ω"/>
 <part name="P+20" library="303parts" deviceset="+5.333V" device=""/>
 <part name="P+21" library="303parts" deviceset="+5.333V" device=""/>
 <part name="P+22" library="303parts" deviceset="+5.333V" device=""/>
@@ -14171,21 +14171,21 @@ Source: http://www.osram.convergy.de/</description>
 <part name="Q10" library="303parts" deviceset="2SA733P" device=""/>
 <part name="Q9" library="303parts" deviceset="2SA733P" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="R64" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R65" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R64" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R65" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="303parts" deviceset="+5.333V" device=""/>
-<part name="R71" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R73" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R63" library="rcl" deviceset="R-US_" device="0207/5V" value="220K"/>
-<part name="R72" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R82" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
+<part name="R71" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R73" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R63" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ" />
+<part name="R72" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R82" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
 <part name="Q22" library="303parts" deviceset="2SC2291" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="R61" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R47" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R61" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R47" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="D24" library="diode" deviceset="1N4148" device=""/>
-<part name="R46" library="rcl" deviceset="R-US_" device="0207/5V" value="47K"/>
+<part name="R46" library="rcl" deviceset="R-US_" device="0207/5V" value="47kΩ" />
 <part name="C13" library="rcl" deviceset="CPOL-US" device="E5-6" value="1/50"/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -14291,14 +14291,14 @@ Source: http://www.osram.convergy.de/</description>
 <part name="S11" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S12" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="V19" library="supply2" deviceset="+5V" device=""/>
-<part name="R259" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R230" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R257" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R247" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R225" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R240" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R218" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R207" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R259" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R230" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R257" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R247" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R225" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R240" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R218" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R207" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="S13" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S14" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S16" library="switch-omron" deviceset="40-XX" device=""/>
@@ -14308,14 +14308,14 @@ Source: http://www.osram.convergy.de/</description>
 <part name="S19" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S20" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="V20" library="supply2" deviceset="+5V" device=""/>
-<part name="R220" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R231" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R263" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R224" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R232" library="rcl" deviceset="R-US_" device="0207/10" value="10K"/>
-<part name="R202" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R226" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R219" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R220" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R231" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R263" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R224" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R232" library="rcl" deviceset="R-US_" device="0207/10" value="10kΩ" />
+<part name="R202" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R226" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R219" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="S21" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S22" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S23" library="switch-omron" deviceset="40-XX" device=""/>
@@ -14324,58 +14324,58 @@ Source: http://www.osram.convergy.de/</description>
 <part name="S26" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S27" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="V21" library="supply2" deviceset="+5V" device=""/>
-<part name="R201" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R212" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R214" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R210" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R209" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R206" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R216" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R234" library="rcl" deviceset="R-US_" device="0207/15" value="10K"/>
-<part name="R237" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R241" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R242" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R243" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R244" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R250" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R251" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R201" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R212" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R214" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R210" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R209" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R206" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R216" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R234" library="rcl" deviceset="R-US_" device="0207/15" value="10kΩ" />
+<part name="R237" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R241" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R242" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R243" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R244" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R250" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R251" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
-<part name="R252" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R253" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R256" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R260" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R261" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R262" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R266" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R267" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R268" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R238" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R239" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R245" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R246" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R248" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R249" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R258" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R265" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R264" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R203" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R229" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R228" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R227" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R223" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R222" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R252" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R253" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R256" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R260" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R261" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R262" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R266" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R267" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R268" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R238" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R239" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R245" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R246" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R248" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R249" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R258" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R265" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R264" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R203" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R229" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R228" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R227" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R223" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R222" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
-<part name="R221" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R217" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R215" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R213" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R211" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R208" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R205" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R204" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R221" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R217" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R215" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R213" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R211" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R208" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R205" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R204" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
 <part name="S2" library="303parts" deviceset="PEC11-S" device=""/>
-<part name="R60" library="rcl" deviceset="R-US_" device="0207/5V" value="22K"/>
+<part name="R60" library="rcl" deviceset="R-US_" device="0207/5V" value="22kΩ" />
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="U$37" library="303parts" deviceset="+12V" device=""/>
 <part name="P+6" library="303parts" deviceset="+5.333V" device=""/>
@@ -14389,7 +14389,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="VR3" library="303parts" deviceset="POT" device="EVU" value="50K(A)"/>
 <part name="VR4" library="303parts" deviceset="DUAL" device="ALPHA" value="50K(B)"/>
 <part name="VR6" library="303parts" deviceset="DUAL" device="ALPHA" value="1M(A)"/>
-<part name="R100B" library="varistor" deviceset="THERMISTOR" device="-7,5" value="1k"/>
+<part name="R100B" library="varistor" deviceset="THERMISTOR" device="-7,5" value="1kΩ"/>
 <part name="IC15B" library="303parts" deviceset="BA6110" device=""/>
 <part name="U$41" library="303parts" deviceset="+12V" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
@@ -14402,31 +14402,31 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="R254" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R255" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R254" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R255" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="Q5" library="303parts" deviceset="2SC536F" device=""/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
-<part name="R233" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R233" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="V1" library="supply2" deviceset="+5V" device=""/>
-<part name="R83" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R85" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
-<part name="R86" library="rcl" deviceset="R-US_" device="0207/5V" value="200K"/>
+<part name="R83" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R85" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
+<part name="R86" library="rcl" deviceset="R-US_" device="0207/5V" value="200kΩ" />
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="TM5" library="303parts" deviceset="TRIM_US-" device="" value="5K(B)"/>
 <part name="TM4" library="303parts" deviceset="TRIM_US-" device="" value="50K(B)"/>
 <part name="TM3" library="303parts" deviceset="TRIM_US-" device="" value="500K(B)"/>
-<part name="R269" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R270" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
-<part name="R236" library="rcl" deviceset="R-US_" device="0207/5V" value="220k"/>
-<part name="R235" library="rcl" deviceset="R-US_" device="0207/5V" value="220k"/>
+<part name="R269" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R270" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
+<part name="R236" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ"/>
+<part name="R235" library="rcl" deviceset="R-US_" device="0207/5V" value="220kΩ"/>
 <part name="C100" library="rcl" deviceset="C-US" device="050-035X075" value=".001"/>
 <part name="C101" library="rcl" deviceset="C-US" device="050-035X075" value=".001"/>
 <part name="IC1" library="74xx-us" deviceset="74*126" device="N"/>
 <part name="V2" library="supply2" deviceset="+5V" device=""/>
-<part name="R200" library="rcl" deviceset="R-US_" device="0207/5V" value="1M"/>
+<part name="R200" library="rcl" deviceset="R-US_" device="0207/5V" value="1MΩ"/>
 <part name="D1" library="diode" deviceset="1N4148" device=""/>
 <part name="D2" library="diode" deviceset="1N4148" device=""/>
 <part name="C106" library="rcl" deviceset="C-US" device="050H075X075" value=".1"/>

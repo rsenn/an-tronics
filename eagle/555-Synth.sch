@@ -5273,13 +5273,13 @@
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="*556" device="N" technology="LM"/>
-<part name="R1" library="r" deviceset="R" device="0204/10-V" value="1k"/>
-<part name="R2" library="r" deviceset="POT" device="-3P" value="10k"/>
+<part name="R1" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
+<part name="R2" library="r" deviceset="POT" device="-3P" value="10kΩ"/>
 <part name="U$1" library="sw" deviceset="SL-SW-2P-4T" device="-A" value="SL-SW-2P-4T-A"/>
 <part name="C1" library="c" deviceset="C" device="050-020X044/V" value="1nF"/>
 <part name="C2" library="c" deviceset="C" device="050-020X044/V" value="100nF"/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-5/V" value="1uF"/>
-<part name="C4" library="c" deviceset="CPOL" device="E2,5-5/V" value="100uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2,5-5/V" value="1μF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E2,5-5/V" value="100μF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="C5" library="c" deviceset="C" device="050-020X044/V" value="100nF"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>

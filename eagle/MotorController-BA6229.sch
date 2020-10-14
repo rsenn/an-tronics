@@ -4722,15 +4722,15 @@ http://beatsdownloadg5.hatenablog.com/entry/reversible-motor-driver-circuit</des
 <parts>
 <part name="IC1" library="ic" deviceset="BA6229" device=""/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="C1" library="c" deviceset="C" device="050-020X044" value="0.1uF"/>
-<part name="C2" library="c" deviceset="C" device="050-020X044" value="0.1uF"/>
+<part name="C1" library="c" deviceset="C" device="050-020X044" value="0.1μF"/>
+<part name="C2" library="c" deviceset="C" device="050-020X044" value="0.1μF"/>
 <part name="D1" library="d" deviceset="Z-DIODE" device="34Z7V" value="Z=4.7V"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/15-V" value="10"/>
-<part name="C3" library="c" deviceset="C" device="050-020X044" value="0.33uF"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/15-V" value="10Ω"/>
+<part name="C3" library="c" deviceset="C" device="050-020X044" value="0.33μF"/>
 <part name="U$1" library="pad" deviceset="VCC" device=""/>
 <part name="U$2" library="pad" deviceset="VCC" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
-<part name="C4" library="c" deviceset="CPOL" device="E5-5/V" value="100uF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E5-5/V" value="100μF"/>
 <part name="J1" library="pinconn" deviceset="CONN-3P" device="-3P"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="MOTOR+" library="pad" deviceset="SPAD" device=""/>

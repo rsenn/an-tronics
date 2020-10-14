@@ -5314,9 +5314,9 @@
 <part name="RFC2" library="l" deviceset="L-H-SHORT" device="-03/10" value="10µH"/>
 <part name="C1" library="c" deviceset="C" device="025-015X024" value="5pF"/>
 <part name="L1" library="l" deviceset="L" device="04/7-V" value="4t"/>
-<part name="R1" library="r" deviceset="R" device="0204/10-V" value="2.2kΩ"/>
+<part name="R1" library="r" deviceset="R" device="0204/10-V" value="2.2kΩ"/>
 <part name="C2" library="c" deviceset="C" device="050-020X036/V" value="0.001"/>
-<part name="VR1" library="r" deviceset="POT" device="-TRIM" value="10kΩ"/>
+<part name="VR1" library="r" deviceset="POT" device="-TRIM" value="10kΩ"/>
 <part name="SW1" library="sw" deviceset="SW-SPST" device="-SL-1P2T-H"/>
 <part name="C3" library="c" deviceset="C-H" device="050-020X036" value="0.001"/>
 <part name="VC1" library="cap-trim" deviceset="C-TR-PH20127" device="" value="20pF"/>
@@ -5327,7 +5327,7 @@
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
 <part name="S5" library="pad" deviceset="GND" device=""/>
-<part name="VR2" library="r" deviceset="TRIM-2" device="-TR-3TO2" value="100kΩ"/>
+<part name="VR2" library="r" deviceset="TRIM-2" device="-TR-3TO2" value="100kΩ"/>
 <part name="S6" library="pad" deviceset="VCC_GND" device="PWR-R"/>
 <part name="J1" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="C6" library="c" deviceset="CPOL-H" device="E2,5-4" value="10µF"/>

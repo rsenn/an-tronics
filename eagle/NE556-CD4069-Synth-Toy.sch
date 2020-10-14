@@ -2983,9 +2983,9 @@
 <part name="IC2" library="ic" deviceset="4069" device="N"/>
 <part name="C1" library="c" deviceset="C-H" device="050-024X044" value="100nF"/>
 <part name="C2" library="c" deviceset="C-H" device="050-024X044" value="100nF"/>
-<part name="DCY1" library="r" deviceset="POT" device="" value="20k"/>
+<part name="DCY1" library="r" deviceset="POT" device="" value="20kΩ"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="RES1" library="r" deviceset="POT-STEREO" device="" value="100k"/>
+<part name="RES1" library="r" deviceset="POT-STEREO" device="" value="100kΩ"/>
 <part name="C3" library="c" deviceset="C" device="050-020X044/V" value="220nF"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="VCC_GND" device="PWR-L"/>
@@ -2995,7 +2995,7 @@
 <part name="S4" library="pad" deviceset="GND" device=""/>
 <part name="C5" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
 <part name="U$2" library="pad" deviceset="VCC" device=""/>
-<part name="CV1" library="r" deviceset="POT" device="" value="20k"/>
+<part name="CV1" library="r" deviceset="POT" device="" value="20kΩ"/>
 <part name="U$3" library="pad" deviceset="VCC" device=""/>
 <part name="S5" library="pad" deviceset="GND" device=""/>
 <part name="C6" library="c" deviceset="C" device="050-020X044/V" value="10nF"/>

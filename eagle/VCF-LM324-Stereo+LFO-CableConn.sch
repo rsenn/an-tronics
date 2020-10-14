@@ -6985,19 +6985,19 @@ Source: www.kingbright.com</description>
 </variantdefs>
 <parts>
 <part name="IC1" library="ic" deviceset="LM324" device="N" value="LM324"/>
-<part name="R23" library="r" deviceset="R" device="0202/7-V" value="1k"/>
-<part name="R16" library="r" deviceset="R" device="0202/7-V" value="47k"/>
-<part name="R17" library="r" deviceset="R" device="0202/7" value="4.7k"/>
-<part name="R18" library="r" deviceset="POT" device="" value="10k"/>
-<part name="R19" library="r" deviceset="R" device="0202/7-V" value="4.7k"/>
+<part name="R23" library="r" deviceset="R" device="0202/7-V" value="1kΩ"/>
+<part name="R16" library="r" deviceset="R" device="0202/7-V" value="47kΩ"/>
+<part name="R17" library="r" deviceset="R" device="0202/7" value="4.7kΩ"/>
+<part name="R18" library="r" deviceset="POT" device="" value="10kΩ"/>
+<part name="R19" library="r" deviceset="R" device="0202/7-V" value="4.7kΩ"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM"/>
-<part name="C9" library="c" deviceset="C" device="050-024X044/V" value="1uF"/>
+<part name="C9" library="c" deviceset="C" device="050-024X044/V" value="1μF"/>
 <part name="D3" library="d" deviceset="1N4148" device="34-7V" value="1N4148"/>
 <part name="D4" library="d" deviceset="1N4148" device="34-7V" value="1N4148"/>
-<part name="R20" library="r" deviceset="POT" device="" value="100k"/>
-<part name="R21" library="r" deviceset="R" device="0202/7-V" value="100k"/>
-<part name="R22" library="r" deviceset="R" device="0202/7-V" value="100k"/>
+<part name="R20" library="r" deviceset="POT" device="" value="100kΩ"/>
+<part name="R21" library="r" deviceset="R" device="0202/7-V" value="100kΩ"/>
+<part name="R22" library="r" deviceset="R" device="0202/7-V" value="100kΩ"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="TRI_OUT" library="pad" deviceset="SPAD" device="" value="TRIANGLE"/>
@@ -7226,15 +7226,15 @@ Source: www.kingbright.com</description>
 </modules>
 <parts>
 <part name="IC1" library="ic" deviceset="LM324" device="N" value="LM324"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/7" value="470k"/>
-<part name="R5" library="r" deviceset="R-H" device="0204/2-V" value="100k"/>
-<part name="R6" library="r" deviceset="R" device="0204/10" value="100k"/>
-<part name="R7" library="r" deviceset="R-H" device="-V" value="100k"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/7" value="470kΩ"/>
+<part name="R5" library="r" deviceset="R-H" device="0204/2-V" value="100kΩ"/>
+<part name="R6" library="r" deviceset="R" device="0204/10" value="100kΩ"/>
+<part name="R7" library="r" deviceset="R-H" device="-V" value="100kΩ"/>
 <part name="C1" library="c" deviceset="C" device="050-024X044" value="100nF"/>
 <part name="C2" library="c" deviceset="C" device="050-024X044" value="100nF"/>
 <part name="D1" library="d" deviceset="1N4148" device="34-5V" value="1N4148"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="1k"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="CV_IN" library="pad" deviceset="SPAD" device="" value="CV_IN"/>
@@ -7243,33 +7243,33 @@ Source: www.kingbright.com</description>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
-<part name="C4" library="c" deviceset="C" device="050-020X044" value="1uF"/>
-<part name="R11" library="r" deviceset="R-H" device="0204/10" value="470k"/>
-<part name="R12" library="r" deviceset="R-H" device="0204/12" value="100k"/>
-<part name="R13" library="r" deviceset="R" device="0204V" value="100k"/>
-<part name="R14" library="r" deviceset="R-H" device="0204/10" value="100k"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2,5-3" value="1μF"/>
+<part name="C4" library="c" deviceset="C" device="050-020X044" value="1μF"/>
+<part name="R11" library="r" deviceset="R-H" device="0204/10" value="470kΩ"/>
+<part name="R12" library="r" deviceset="R-H" device="0204/12" value="100kΩ"/>
+<part name="R13" library="r" deviceset="R" device="0204V" value="100kΩ"/>
+<part name="R14" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
 <part name="C5" library="c" deviceset="C" device="050-024X044" value="100nF"/>
 <part name="C6" library="c" deviceset="C" device="050-024X044" value="100nF"/>
 <part name="D2" library="d" deviceset="1N4148" device="34-7" value="1N4148"/>
-<part name="R9" library="r" deviceset="R-H" device="0204/10-V" value="1k"/>
-<part name="R10" library="r" deviceset="R-H" device="0204/10-V" value="1k"/>
+<part name="R9" library="r" deviceset="R-H" device="0204/10-V" value="1kΩ"/>
+<part name="R10" library="r" deviceset="R-H" device="0204/10-V" value="1kΩ"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
-<part name="C8" library="c" deviceset="C" device="050-020X044" value="1uF"/>
-<part name="R23" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R16" library="r" deviceset="R-H" device="0204/7" value="47k"/>
-<part name="R17" library="r" deviceset="R" device="0204/7-V" value="4.7k"/>
-<part name="R19" library="r" deviceset="R-H" device="0204/10" value="4.7k"/>
+<part name="C7" library="c" deviceset="CPOL" device="E2,5-3" value="1μF"/>
+<part name="C8" library="c" deviceset="C" device="050-020X044" value="1μF"/>
+<part name="R23" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R16" library="r" deviceset="R-H" device="0204/7" value="47kΩ"/>
+<part name="R17" library="r" deviceset="R" device="0204/7-V" value="4.7kΩ"/>
+<part name="R19" library="r" deviceset="R-H" device="0204/10" value="4.7kΩ"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM"/>
-<part name="C9" library="c" deviceset="C" device="050-024X044/V" value="1uF"/>
+<part name="C9" library="c" deviceset="C" device="050-024X044/V" value="1μF"/>
 <part name="D3" library="d" deviceset="1N4148" device="34-7V" value="1N4148"/>
 <part name="D4" library="d" deviceset="1N4148" device="34-7V" value="1N4148"/>
-<part name="R21" library="r" deviceset="R" device="0204V" value="100k"/>
-<part name="R22" library="r" deviceset="R" device="0204/10-V" value="100k"/>
+<part name="R21" library="r" deviceset="R" device="0204V" value="100kΩ"/>
+<part name="R22" library="r" deviceset="R" device="0204/10-V" value="100kΩ"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="TRI" library="pad" deviceset="SPAD" device="" value="TRIANGLE"/>

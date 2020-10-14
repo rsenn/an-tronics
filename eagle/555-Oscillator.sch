@@ -2942,11 +2942,11 @@
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="*555_ALT" device="" value="555"/>
-<part name="C1" library="c" deviceset="C" device="050-020X036/V" value="1uF"/>
+<part name="C1" library="c" deviceset="C" device="050-020X036/V" value="1μF"/>
 <part name="C2" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
-<part name="R1" library="r" deviceset="R" device="0207/10" value="1k"/>
-<part name="R2" library="r" deviceset="R" device="0207/10" value="10k"/>
-<part name="R3" library="r" deviceset="POT" device="-V" value="220k"/>
+<part name="R1" library="r" deviceset="R" device="0207/10" value="1kΩ"/>
+<part name="R2" library="r" deviceset="R" device="0207/10" value="10kΩ"/>
+<part name="R3" library="r" deviceset="POT" device="-V" value="220kΩ"/>
 <part name="S1" library="pad" deviceset="VCC_GND" device="PWR-R" value="VCC_GNDPWR-R"/>
 <part name="OUT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 </parts>

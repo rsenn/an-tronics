@@ -5312,22 +5312,22 @@ http://siva666siva.webs.com/FM.PDF</description>
 </classes>
 <parts>
 <part name="C1" library="c" deviceset="C" device="050-020X036" value="10n"/>
-<part name="R1" library="r" deviceset="R" device="0202/7" value="10k"/>
+<part name="R1" library="r" deviceset="R" device="0202/7" value="10kΩ"/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="L1" library="l" deviceset="L-SHORT" device="L-04/7V-X" value="5"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="10p"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="L-04/7V-X" value="0.33uH"/>
-<part name="R3" library="r" deviceset="R" device="0202V" value="10k"/>
-<part name="R4" library="r" deviceset="R" device="0202/7" value="10k"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="L-04/7V-X" value="0.33μH"/>
+<part name="R3" library="r" deviceset="R" device="0202V" value="10kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0202/7" value="10kΩ"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
 <part name="C5" library="c" deviceset="C" device="050-020X036/V" value="10n"/>
 <part name="C6" library="c" deviceset="CPOL" device="E2,5-3" value="10u"/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="9V" library="pad" deviceset="SPAD" device=""/>
-<part name="R5" library="r" deviceset="R" device="0202/7-V" value="1k"/>
+<part name="R5" library="r" deviceset="R" device="0202/7-V" value="1kΩ"/>
 <part name="T2" library="t" deviceset="BC557" device="CBE-A" value="BC557"/>
-<part name="R6" library="r" deviceset="R" device="0202/7-V" value="10k"/>
+<part name="R6" library="r" deviceset="R" device="0202/7-V" value="10kΩ"/>
 <part name="U$3" library="pad" deviceset="GND" device=""/>
 <part name="SPKR+" library="pad" deviceset="SPAD" device=""/>
 <part name="SPKR-" library="pad" deviceset="SPAD" device=""/>

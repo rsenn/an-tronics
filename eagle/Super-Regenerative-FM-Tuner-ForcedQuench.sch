@@ -4173,20 +4173,20 @@ http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor
 </class>
 </classes>
 <parts>
-<part name="L1" library="l" deviceset="L-TAP1" device="L-08-7/5H" value="0.1uH"/>
+<part name="L1" library="l" deviceset="L-TAP1" device="L-08-7/5H" value="0.1μH"/>
 <part name="T1" library="t" deviceset="BF245B" device="TO92" value="BF245A"/>
 <part name="C1" library="c" deviceset="C" device="025-015X024" value="20pF"/>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="10pF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
-<part name="L2" library="l" deviceset="L" device="04/7-V" value="8.2uH"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/7" value="12k"/>
+<part name="L2" library="l" deviceset="L" device="04/7-V" value="8.2μH"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/7" value="12kΩ"/>
 <part name="C4" library="c" deviceset="C" device="050-020X044" value="2.7nF"/>
 <part name="C5" library="c" deviceset="C" device="025-015X024" value="10nF"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="C7" library="cap-trim" deviceset="C-TR-PH20127" device="-TZ03" value="0.04 - 6pF"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
-<part name="R1" library="r" deviceset="R" device="0204/7" value="10k"/>
+<part name="R1" library="r" deviceset="R" device="0204/7" value="10kΩ"/>
 <part name="C6" library="c" deviceset="C-H" device="050-020X044" value="100nF"/>
 <part name="U$1" library="pad" deviceset="VCC" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>

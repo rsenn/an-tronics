@@ -533,19 +533,19 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="BAT" library="pad" package="SPAD-2" value="SPAD+-" x="25.4" y="3.81"/>
-<element name="C1" library="c" package="E2,5-4" value="4.7uF" x="2.54" y="13.97" rot="R180"/>
-<element name="C2" library="c" package="E2,5-4" value="4.7uF" x="5.08" y="8.89"/>
-<element name="C3" library="c" package="E2,5-5" value="100-1000uF" x="12.7" y="8.89" rot="R90"/>
-<element name="C4" library="c" package="E5-6" value="220uF" x="22.86" y="22.86" rot="R180"/>
+<element name="C1" library="c" package="E2,5-4" value="4.7μF" x="2.54" y="13.97" rot="R180"/>
+<element name="C2" library="c" package="E2,5-4" value="4.7μF" x="5.08" y="8.89"/>
+<element name="C3" library="c" package="E2,5-5" value="100-1000μF" x="12.7" y="8.89" rot="R90"/>
+<element name="C4" library="c" package="E5-6" value="220μF" x="22.86" y="22.86" rot="R180"/>
 <element name="D1" library="d" package="DO34-5" value="1N4148" x="10.16" y="15.24"/>
 <element name="D2" library="d" package="DO34-5" value="1N4148" x="10.16" y="20.32" rot="R180"/>
 <element name="HDPH" library="pad" package="SPAD-2" value="SPAD+-" x="25.4" y="8.89"/>
 <element name="IN" library="pad" package="SPAD-2" value="SPAD+-" x="2.54" y="19.05"/>
-<element name="R1" library="r" package="0202/7" value="100k" x="8.89" y="17.78" rot="R90"/>
-<element name="R2" library="r" package="0202/7" value="330" x="21.59" y="15.24" rot="R90"/>
-<element name="R3" library="r" package="0202/7" value="100" x="21.59" y="12.7" rot="R270"/>
-<element name="R4" library="r" package="0204/7" value="22" x="19.05" y="5.08"/>
-<element name="R5" library="r" package="POT" value="100k" x="5.08" y="2.54"/>
+<element name="R1" library="r" package="0202/7" value="100kΩ" x="8.89" y="17.78" rot="R90"/>
+<element name="R2" library="r" package="0202/7" value="330Ω" x="21.59" y="15.24" rot="R90"/>
+<element name="R3" library="r" package="0202/7" value="100Ω" x="21.59" y="12.7" rot="R270"/>
+<element name="R4" library="r" package="0204/7" value="22Ω" x="19.05" y="5.08"/>
+<element name="R5" library="r" package="POT" value="100kΩ" x="5.08" y="2.54"/>
 <element name="T1" library="t" package="TO92-CBE" value="BC547" x="5.08" y="22.86" rot="R270"/>
 <element name="T2" library="t" package="TO92-CBE" value="BC557" x="15.24" y="22.86"/>
 <element name="T3" library="t" package="TO92-CBE" value="BC547" x="15.24" y="15.24" rot="R180"/>

@@ -527,9 +527,9 @@ design rules under a new name.</description>
 <element name="L2" library="l" package="L-03/10" value="" x="15.24" y="2.54" rot="R180"/>
 <element name="L3" library="l" package="L-04-5/6V-C" value="4 turns" x="20.32" y="17.78" rot="R90"/>
 <element name="Q1" library="t" package="TO92" value="BF256B" x="15.24" y="12.7" rot="R90"/>
-<element name="R3" library="r" package="0204/10" value="3.3k" x="20.32" y="10.16"/>
-<element name="R4" library="r" package="0202/10" value="10k" x="20.32" y="7.62" rot="R180"/>
-<element name="R5" library="r" package="0202/10" value="150" x="25.4" y="17.78" rot="R270"/>
+<element name="R3" library="r" package="0204/10" value="3.3kΩ" x="20.32" y="10.16"/>
+<element name="R4" library="r" package="0202/10" value="10kΩ" x="20.32" y="7.62" rot="R180"/>
+<element name="R5" library="r" package="0202/10" value="150Ω" x="25.4" y="17.78" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">

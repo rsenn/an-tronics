@@ -7778,11 +7778,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="T1" library="t" deviceset="2N918" device="TO-72-A45" value="2N918"/>
-<part name="L1" library="r" deviceset="L" device="04/7" value="1uH"/>
+<part name="L1" library="r" deviceset="L" device="04/7" value="1μH"/>
 <part name="C2" library="c" deviceset="C" device="025-020X036" value="4.7pF"/>
 <part name="C3" library="c" deviceset="C" device="025-020X036" value="1nF"/>
-<part name="R2" library="r" deviceset="R" device="0202/5" value="22k"/>
-<part name="R3" library="r" deviceset="R" device="0202/5" value="47k"/>
+<part name="R2" library="r" deviceset="R" device="0202/5" value="22kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/5" value="47kΩ"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+UB" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+UB" device=""/>

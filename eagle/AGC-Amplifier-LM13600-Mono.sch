@@ -3787,13 +3787,13 @@
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="LM13600" device=""/>
-<part name="R4" library="r" deviceset="R" device="0202/7" value="22k"/>
-<part name="R5" library="r" deviceset="R" device="0202/7-V" value="22k"/>
-<part name="R1" library="r" deviceset="R" device="0202/7" value="470"/>
-<part name="R2" library="r" deviceset="R" device="0202/7-V" value="470"/>
-<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4/V" value="2.2uF"/>
+<part name="R4" library="r" deviceset="R" device="0202/7" value="22kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0202/7-V" value="22kΩ"/>
+<part name="R1" library="r" deviceset="R" device="0202/7" value="470Ω"/>
+<part name="R2" library="r" deviceset="R" device="0202/7-V" value="470Ω"/>
+<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4/V" value="2.2μF"/>
 <part name="C2" library="c" deviceset="CPOL" device="E2,5-4/V"/>
-<part name="R6" library="r" deviceset="R" device="0202/7" value="180"/>
+<part name="R6" library="r" deviceset="R" device="0202/7" value="180Ω"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="PWR" library="pad" deviceset="VCC_GND_VEE" device="PWR-+GND-" value="VCC_GND_VEEPWR-+GND-"/>

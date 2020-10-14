@@ -6137,10 +6137,10 @@ http://www.edaboard.com/thread140764-4.html#post1374216</description>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15p"/>
 <part name="CP" library="c" deviceset="C" device="050-020X036/V" value="4.7n"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="6.8n"/>
-<part name="R3" library="r" deviceset="R" device="0204/10" value="3.3k"/>
-<part name="R4" library="r" deviceset="R-H" device="0202/10" value="10k"/>
+<part name="R3" library="r" deviceset="R" device="0204/10" value="3.3kΩ"/>
+<part name="R4" library="r" deviceset="R-H" device="0202/10" value="10kΩ"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="R5" library="r" deviceset="R-H" device="0202/10" value="150"/>
+<part name="R5" library="r" deviceset="R-H" device="0202/10" value="150Ω"/>
 <part name="C4" library="c" deviceset="CPOL" device="E2,5-4/V" value="100u"/>
 <part name="C5" library="c" deviceset="C" device="025-015X024" value="100n"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>

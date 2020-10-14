@@ -566,27 +566,27 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="c" package="E2,5-5" value="100uF/16V" x="3.81" y="15.24" rot="R180"/>
+<element name="C1" library="c" package="E2,5-5" value="100μF/16V" x="3.81" y="15.24" rot="R180"/>
 <element name="C2" library="c" package="C075-020X044/V" value="68nF" x="25.4" y="19.05" rot="R180"/>
 <element name="IC1" library="ic" package="DIL08" value="LM358N" x="13.97" y="13.97"/>
 <element name="LED1" library="led" package="LED3MM" value="Red" x="35.56" y="16.51" rot="R270"/>
 <element name="LED2" library="led" package="LED3MM" value="Green" x="6.35" y="10.16"/>
 <element name="LED3" library="d" package="LED_3MM" value="BLUE" x="26.67" y="10.16" rot="R180"/>
 <element name="LI-ION" library="pad" package="SPAD+-" value="SPAD+-+-" x="45.72" y="3.81"/>
-<element name="R1" library="r" package="0204/10-V" value="1" x="43.18" y="10.16"/>
-<element name="R10" library="r" package="0204/10-V" value="680k" x="27.94" y="20.32" rot="R180"/>
-<element name="R11" library="r" package="0204/10-V" value="470" x="35.56" y="12.7" rot="R270"/>
-<element name="R12" library="r" package="0204/10-V" value="12k" x="22.86" y="22.86"/>
-<element name="R2" library="r" package="0204/10-V" value="2.7k" x="38.1" y="20.32" rot="R90"/>
-<element name="R3" library="r" package="0204/10-V" value="2.2k" x="35.56" y="7.62" rot="R270"/>
-<element name="R4" library="r" package="0204/10-V" value="220" x="38.1" y="22.86" rot="R270"/>
-<element name="R5" library="r" package="0204/7-V" value="470" x="20.32" y="21.59" rot="R180"/>
-<element name="R6" library="r" package="0204/10-V" value="4.7k" x="35.56" y="5.08" rot="R270"/>
-<element name="R7" library="r" package="0204/10" value="3.6k" x="10.16" y="5.08"/>
-<element name="R8" library="r" package="0204/10-V" value="680" x="30.48" y="20.32"/>
+<element name="R1" library="r" package="0204/10-V" value="1Ω" x="43.18" y="10.16"/>
+<element name="R10" library="r" package="0204/10-V" value="680kΩ" x="27.94" y="20.32" rot="R180"/>
+<element name="R11" library="r" package="0204/10-V" value="470Ω" x="35.56" y="12.7" rot="R270"/>
+<element name="R12" library="r" package="0204/10-V" value="12kΩ" x="22.86" y="22.86"/>
+<element name="R2" library="r" package="0204/10-V" value="2.7kΩ" x="38.1" y="20.32" rot="R90"/>
+<element name="R3" library="r" package="0204/10-V" value="2.2kΩ" x="35.56" y="7.62" rot="R270"/>
+<element name="R4" library="r" package="0204/10-V" value="220Ω" x="38.1" y="22.86" rot="R270"/>
+<element name="R5" library="r" package="0204/7-V" value="470Ω" x="20.32" y="21.59" rot="R180"/>
+<element name="R6" library="r" package="0204/10-V" value="4.7kΩ" x="35.56" y="5.08" rot="R270"/>
+<element name="R7" library="r" package="0204/10" value="3.6kΩ" x="10.16" y="5.08"/>
+<element name="R8" library="r" package="0204/10-V" value="680Ω" x="30.48" y="20.32"/>
 <element name="U$3" library="t" package="TO92" value="BC327" x="40.64" y="17.78" rot="R270"/>
 <element name="USB" library="pad" package="SPAD-+" value="SPAD+--+" x="2.54" y="6.35"/>
-<element name="R9" library="r" package="0204/10" value="1k" x="35.56" y="10.16" rot="R180"/>
+<element name="R9" library="r" package="0204/10" value="1kΩ" x="35.56" y="10.16" rot="R180"/>
 </elements>
 <signals>
 <signal name="V+">

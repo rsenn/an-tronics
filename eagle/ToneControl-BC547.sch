@@ -3282,21 +3282,21 @@
 </class>
 </classes>
 <parts>
-<part name="R1" library="r" deviceset="R-H" device="0204/10" value="4.7k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10" value="4.7k"/>
-<part name="R3" library="r" deviceset="R" device="0204/10-V" value="2.2k"/>
-<part name="R4" library="r" deviceset="R" device="0204/10-V" value="1k"/>
-<part name="R5" library="r" deviceset="POT-H" device="" value="100k"/>
-<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-3" value="3.3uF"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/10" value="4.7kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10" value="4.7kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0204/10-V" value="2.2kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
+<part name="R5" library="r" deviceset="POT-H" device="" value="100kΩ"/>
+<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-3" value="3.3μF"/>
 <part name="C2" library="c" deviceset="CPOL-H" device="E2,5-3"/>
-<part name="C3" library="c" deviceset="CPOL-H" device="E2,5-3" value="3.3uF"/>
-<part name="R6" library="r" deviceset="R" device="0204/10-V" value="330k"/>
-<part name="C4" library="c" deviceset="CPOL-H" device="E2,5-3" value="3.3uF"/>
-<part name="R7" library="r" deviceset="POT-H" device="" value="100k"/>
-<part name="R8" library="r" deviceset="R-H" device="0204/10" value="1k"/>
+<part name="C3" library="c" deviceset="CPOL-H" device="E2,5-3" value="3.3μF"/>
+<part name="R6" library="r" deviceset="R" device="0204/10-V" value="330kΩ"/>
+<part name="C4" library="c" deviceset="CPOL-H" device="E2,5-3" value="3.3μF"/>
+<part name="R7" library="r" deviceset="POT-H" device="" value="100kΩ"/>
+<part name="R8" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
 <part name="S1" library="pad" deviceset="VCC_GND" device="R" value="VCC_GNDR"/>
-<part name="R9" library="r" deviceset="POT" device="" value="20k"/>
+<part name="R9" library="r" deviceset="POT" device="" value="20kΩ"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+"/>
 <part name="C5" library="c" deviceset="C" device="050-020X044/V" value="100nF"/>
 <part name="C6" library="c" deviceset="C" device="050-020X044/V" value="100nF"/>

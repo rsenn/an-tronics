@@ -6958,25 +6958,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <parts>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="4.7pF"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036/V" value="1nF"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/7-V" value="47k"/>
-<part name="R3" library="r" deviceset="R" device="0204/10-V" value="10k"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/7-V" value="47kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0204/10-V" value="10kΩ"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+UB" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+UB" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="1.6-15pF"/>
-<part name="R1" library="r" deviceset="R" device="0204/2V" value="100"/>
+<part name="R1" library="r" deviceset="R" device="0204/2V" value="100Ω"/>
 <part name="9V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
 <part name="T1" library="t" deviceset="2SC9014" device="" value="2SC9014"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="04-5/5V-X" value="1uH"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="04-5/5V-X" value="1μH"/>
 <part name="J1" library="pinconn" deviceset="CONN-3P" device="-3P"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036/V" value="10nF"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/7-V" value="47k"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/7-V" value="47kΩ"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinconn" deviceset="CONN-2P" device="2P/V"/>
-<part name="R5" library="r" deviceset="R" device="0204/10-V" value="4.7k"/>
+<part name="R5" library="r" deviceset="R" device="0204/10-V" value="4.7kΩ"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="ECM1" library="ECM" deviceset="ECM" device="-5"/>
 </parts>

@@ -5409,13 +5409,13 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="r" deviceset="R" device="0204/10-V" value="220"/>
-<part name="R7" library="r" deviceset="R" device="0204/10" value="1k"/>
-<part name="R10" library="r" deviceset="R-H" device="0204/2.54" value="1M"/>
-<part name="C1" library="c" deviceset="CPOL" device="E2.5-5" value="100uF/16V"/>
+<part name="R1" library="r" deviceset="R" device="0204/10-V" value="220Ω"/>
+<part name="R7" library="r" deviceset="R" device="0204/10" value="1kΩ"/>
+<part name="R10" library="r" deviceset="R-H" device="0204/2.54" value="1MΩ"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2.5-5" value="100μF/16V"/>
 <part name="C2" library="c" deviceset="C" device="050-020X044/V" value="100nF"/>
-<part name="R5" library="r" deviceset="R-H" device="0204/10" value="680"/>
-<part name="R9" library="r" deviceset="R-H" device="0204/10" value="27k"/>
+<part name="R5" library="r" deviceset="R-H" device="0204/10" value="680Ω"/>
+<part name="R9" library="r" deviceset="R-H" device="0204/10" value="27kΩ"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="U$2" library="pad" deviceset="V+" device=""/>
@@ -5433,14 +5433,14 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/</description>
 <part name="S10" library="pad" deviceset="GND" device=""/>
 <part name="S11" library="pad" deviceset="GND" device=""/>
 <part name="S12" library="pad" deviceset="GND" device=""/>
-<part name="R8" library="r" deviceset="R-H" device="0204/10" value="680"/>
+<part name="R8" library="r" deviceset="R-H" device="0204/10" value="680Ω"/>
 <part name="IC1" library="ic" deviceset="LM324" device="N"/>
 <part name="T1" library="t" deviceset="BC327" device=""/>
-<part name="R6" library="r" deviceset="R-H" device="0204/10" value="1k"/>
-<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1k"/>
+<part name="R6" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
 <part name="S13" library="pad" deviceset="GND" device=""/>
-<part name="R4" library="r" deviceset="R-H" device="0204/12-V" value="2k"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="2k"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/12-V" value="2kΩ"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10" value="2kΩ"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="LED2" library="d" deviceset="LED" device="-3MM" value="Blue"/>
 <part name="LED3" library="d" deviceset="LED-H" device="-3MM" value="Green"/>

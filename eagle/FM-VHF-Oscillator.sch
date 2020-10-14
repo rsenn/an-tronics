@@ -7119,18 +7119,18 @@
 <parts>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="22pF"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036/V" value="1nF"/>
-<part name="R2" library="r" deviceset="R" device="0202/7-V" value="4.7k"/>
-<part name="R3" library="r" deviceset="R" device="0202/7-V" value="47k"/>
+<part name="R2" library="r" deviceset="R" device="0202/7-V" value="4.7kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/7-V" value="47kΩ"/>
 <part name="ECM" library="ECM" deviceset="ECM" device="-4"/>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="2.5 - 30pF"/>
-<part name="R1" library="r" deviceset="R" device="0204/2V" value="470"/>
+<part name="R1" library="r" deviceset="R" device="0204/2V" value="470Ω"/>
 <part name="C4" library="c" deviceset="C-H" device="050-024X044" value="330nF"/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="04/7V-X" value="1uH"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="04/7V-X" value="1μH"/>
 <part name="C6" library="c" deviceset="C" device="050-020X036" value="1nF"/>
 <part name="C7" library="c" deviceset="C-H" device="050-024X044" value="1nF"/>
-<part name="R4" library="r" deviceset="R" device="0202/5-V" value="330k"/>
+<part name="R4" library="r" deviceset="R" device="0202/5-V" value="330kΩ"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="VCC_GND" device="PWR-R" value="VCC_GNDPWR-R"/>
 <part name="C5" library="c" deviceset="C" device="050-020X044/V" value="22nF"/>

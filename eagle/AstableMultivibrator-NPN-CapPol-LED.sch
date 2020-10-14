@@ -1460,14 +1460,14 @@ http://edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-
 </class>
 </classes>
 <parts>
-<part name="R2" library="r" deviceset="R" device="0202/7-V" value="5.1k"/>
-<part name="R1" library="r" deviceset="R" device="0202/7-V" value="47k"/>
-<part name="R3" library="r" deviceset="R" device="0202/7-V" value="47k"/>
-<part name="C2" library="c" deviceset="CPOL-H" device="E2,5-4" value="10uF"/>
-<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4" value="10uF"/>
+<part name="R2" library="r" deviceset="R" device="0202/7-V" value="5.1kΩ"/>
+<part name="R1" library="r" deviceset="R" device="0202/7-V" value="47kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/7-V" value="47kΩ"/>
+<part name="C2" library="c" deviceset="CPOL-H" device="E2,5-4" value="10μF"/>
+<part name="C1" library="c" deviceset="CPOL-H" device="E2,5-4" value="10μF"/>
 <part name="T1" library="t" deviceset="2SC9014" device=""/>
 <part name="T2" library="t" deviceset="2SC9014" device=""/>
-<part name="R4" library="r" deviceset="R" device="0202/7-V" value="5.1k"/>
+<part name="R4" library="r" deviceset="R" device="0202/7-V" value="5.1kΩ"/>
 <part name="U$1" library="d" deviceset="LED" device="-3MM"/>
 <part name="U$2" library="d" deviceset="LED" device="-3MM"/>
 </parts>

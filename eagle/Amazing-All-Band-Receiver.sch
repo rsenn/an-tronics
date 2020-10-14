@@ -5047,18 +5047,18 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </classes>
 <parts>
 <part name="D1" library="d" deviceset="1N4148" device="34-7V" value="OA79"/>
-<part name="R1" library="r" deviceset="R" device="0202/7-V" value="10k"/>
+<part name="R1" library="r" deviceset="R" device="0202/7-V" value="10kΩ"/>
 <part name="C1" library="c" deviceset="C" device="050-020X036/V" value="100p"/>
 <part name="C2" library="c" deviceset="C" device="050-020X036" value="10n"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="1n"/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="R2" library="r" deviceset="R" device="0202/7" value="10M"/>
-<part name="R3" library="r" deviceset="R" device="0202/7-V" value="10M"/>
+<part name="R2" library="r" deviceset="R" device="0202/7" value="10MΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/7-V" value="10MΩ"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036" value="10n"/>
 <part name="C5" library="c" deviceset="C" device="050-020X036" value="1n"/>
-<part name="R5" library="r" deviceset="R" device="0202/7-V" value="10M"/>
+<part name="R5" library="r" deviceset="R" device="0202/7-V" value="10MΩ"/>
 <part name="T2" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="R6" library="r" deviceset="R" device="0202/7-V" value="100k"/>
+<part name="R6" library="r" deviceset="R" device="0202/7-V" value="100kΩ"/>
 <part name="U$3" library="pad" deviceset="GND" device=""/>
 <part name="EAR+" library="pad" deviceset="SPAD" device=""/>
 <part name="EAR-" library="pad" deviceset="SPAD" device=""/>
@@ -5066,7 +5066,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="VCC" library="pad" deviceset="SPAD" device=""/>
 <part name="C6" library="c" deviceset="CPOL" device="E2,5-3" value="1u"/>
-<part name="R7" library="r" deviceset="POT" device="" value="100k"/>
+<part name="R7" library="r" deviceset="POT" device="" value="100kΩ"/>
 </parts>
 <sheets>
 <sheet>

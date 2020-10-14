@@ -11413,48 +11413,48 @@ TS-003</description>
 </classes>
 <parts>
 <part name="DIN4" library="303parts" deviceset="CP2350" device=""/>
-<part name="R20" library="rcl" deviceset="R-US_" device="0207/5V" value="22"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="0207/5V" value="22Ω"/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="DIN2" library="303parts" deviceset="CP2350" device=""/>
 <part name="DIN3" library="303parts" deviceset="CP2350" device=""/>
 <part name="D48" library="diode" deviceset="1N4148" device=""/>
-<part name="R19" library="rcl" deviceset="R-US_" device="0207/5V" value="220"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="0207/5V" value="220Ω"/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
-<part name="R17" library="rcl" deviceset="R-US_" device="0207/5V" value="1k"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="0207/5V" value="220"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="0207/5V" value="1kΩ"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="0207/5V" value="220Ω"/>
 <part name="V2" library="supply2" deviceset="+5V" device=""/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
-<part name="R18" library="rcl" deviceset="R-US_" device="0207/5V" value="220"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="0207/5V" value="220Ω"/>
 <part name="V4" library="supply2" deviceset="+5V" device=""/>
 <part name="DIN1" library="303parts" deviceset="CP2350" device=""/>
-<part name="R13" library="rcl" deviceset="R-US_" device="0207/5V" value="220"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="0207/5V" value="220Ω"/>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
-<part name="R14" library="rcl" deviceset="R-US_" device="0207/5V" value="220"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="0207/5V" value="220Ω"/>
 <part name="V18" library="supply2" deviceset="+5V" device=""/>
 <part name="CV" library="303parts" deviceset="MONO_CC" device=""/>
 <part name="GATE" library="303parts" deviceset="MONO_CC" device=""/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
-<part name="R164" library="rcl" deviceset="R-US_" device="0207/5V" value="10"/>
-<part name="R186" library="rcl" deviceset="R-US_" device="0207/5V" value="10"/>
+<part name="R164" library="rcl" deviceset="R-US_" device="0207/5V" value="10Ω"/>
+<part name="R186" library="rcl" deviceset="R-US_" device="0207/5V" value="10Ω"/>
 <part name="2" library="supply1" deviceset="GND" device=""/>
 <part name="POWER" library="303parts" deviceset="2.1MMJACK" device=""/>
 <part name="IC25" library="usbtoys" deviceset="FT232" device=""/>
 <part name="GND95" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="0207/5V" value="27"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="0207/5V" value="27"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="0207/5V" value="1.5k"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="0207/5V" value="27Ω"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="0207/5V" value="27Ω"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="0207/5V" value="1.5kΩ"/>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
 <part name="C201" library="rcl" deviceset="C-US" device="050-025X075" value="33nF"/>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="rcl" deviceset="R-US_" device="0207/5V" value="470"/>
-<part name="C204" library="rcl" deviceset="C-US" device="050H075X075" value=".1uF"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="0207/5V" value="470Ω"/>
+<part name="C204" library="rcl" deviceset="C-US" device="050H075X075" value=".1μF"/>
 <part name="GND98" library="supply1" deviceset="GND" device=""/>
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="rcl" deviceset="R-US_" device="0207/5V" value="10K"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ" />
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
-<part name="C203" library="rcl" deviceset="CPOL-US" device="E5-6" value="10uF"/>
-<part name="C202" library="rcl" deviceset="C-US" device="050H075X075" value=".1uF"/>
+<part name="C203" library="rcl" deviceset="CPOL-US" device="E5-6" value="10μF"/>
+<part name="C202" library="rcl" deviceset="C-US" device="050H075X075" value=".1μF"/>
 <part name="GND102" library="supply1" deviceset="GND" device=""/>
 <part name="J6" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="J5" library="con-lstb" deviceset="MA03-1" device=""/>
@@ -11467,23 +11467,23 @@ TS-003</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="V1" library="supply2" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="0207/5V" value="100"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="0207/5V" value="100Ω"/>
 <part name="C8" library="rcl" deviceset="CPOL-US" device="E5-6" value="100/25"/>
 <part name="IC23" library="303parts" deviceset="AN6562" device="N"/>
 <part name="P+1" library="303parts" deviceset="+5.333V" device=""/>
 <part name="U$3" library="303parts" deviceset="+12V" device=""/>
 <part name="C60" library="rcl" deviceset="CPOL-US" device="E5-6" value="10/16"/>
-<part name="R178" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2k"/>
-<part name="R179" library="rcl" deviceset="R-US_" device="0207/5V" value="1.8k"/>
+<part name="R178" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ"/>
+<part name="R179" library="rcl" deviceset="R-US_" device="0207/5V" value="1.8kΩ"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C61" library="rcl" deviceset="CPOL-US" device="E5-6" value="10/16"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="0207/5V" value="1k"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="0207/5V" value="1kΩ"/>
 <part name="C7" library="rcl" deviceset="CPOL-US" device="E5-6" value="100/25"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="0207/5V" value="6.8k"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="0207/5V" value="6.8kΩ"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="TM6" library="303parts" deviceset="TRIM_US-" device="" value="2k"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="0207/5V" value="5.6k"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="0207/5V" value="2.4k"/>
+<part name="TM6" library="303parts" deviceset="TRIM_US-" device="" value="2kΩ"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="0207/5V" value="5.6kΩ"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="0207/5V" value="2.4kΩ"/>
 <part name="D47" library="diode" deviceset="1N4148" device=""/>
 <part name="D46" library="diode" deviceset="1N4148" device=""/>
 <part name="D45" library="diode" deviceset="1N4148" device=""/>
@@ -11503,22 +11503,22 @@ TS-003</description>
 <part name="KK1" library="heatsink" deviceset="D03S" device=""/>
 <part name="IC24" library="optocoupler" deviceset="4N37" device=""/>
 <part name="Q50" library="303parts" deviceset="2SC536F" device=""/>
-<part name="R16" library="rcl" deviceset="R-US_" device="0207/5V" value="100"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="0207/5V" value="100Ω"/>
 <part name="C4" library="rcl" deviceset="C-US" device="050H075X075" value=".1"/>
 <part name="V5" library="supply2" deviceset="+5V" device=""/>
 <part name="V6" library="supply2" deviceset="+5V" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="0207/5V" value="4.7k"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="0207/5V" value="10k"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="0207/5V" value="4.7kΩ"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="0207/5V" value="10kΩ"/>
 <part name="USB" library="303parts" deviceset="ACON_TYPEB" device=""/>
-<part name="C205" library="rcl" deviceset="CPOL-US" device="E5-6" value="10uF"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R26" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2K"/>
-<part name="R28" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
-<part name="R27" library="rcl" deviceset="R-US_" device="0207/5V" value="100K"/>
+<part name="C205" library="rcl" deviceset="CPOL-US" device="E5-6" value="10μF"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R23" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R26" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R25" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R22" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R21" library="rcl" deviceset="R-US_" device="0207/5V" value="2.2kΩ" />
+<part name="R28" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
+<part name="R27" library="rcl" deviceset="R-US_" device="0207/5V" value="100kΩ" />
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>

@@ -8366,12 +8366,12 @@
 </classes>
 <parts>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="L1" library="l" deviceset="L-SHORT" device="04/7" value="1uH"/>
+<part name="L1" library="l" deviceset="L-SHORT" device="04/7" value="1μH"/>
 <part name="C2" library="c" deviceset="C" device="050-020X036-M" value="4.7pF"/>
 <part name="C3" library="c" deviceset="C" device="050-020X036" value="1nF"/>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="-45-2P23" value="1.5-16pF"/>
-<part name="R1" library="r" deviceset="R" device="0202V" value="100"/>
-<part name="C4" library="c" deviceset="CPOL" device="E2,5-3" value="1uF"/>
+<part name="R1" library="r" deviceset="R" device="0202V" value="100Ω"/>
+<part name="C4" library="c" deviceset="CPOL" device="E2,5-3" value="1μF"/>
 <part name="+" library="pad" deviceset="SPAD" device=""/>
 <part name="@@@@" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
@@ -8381,7 +8381,7 @@
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="r" deviceset="R" device="0204/10-V" value="10k"/>
+<part name="R2" library="r" deviceset="R" device="0204/10-V" value="10kΩ"/>
 <part name="C5" library="c" deviceset="C" device="050-020X036" value="1nF"/>
 </parts>
 <sheets>

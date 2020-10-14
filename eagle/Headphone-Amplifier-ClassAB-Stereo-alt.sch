@@ -4553,12 +4553,12 @@ http://www.electronics-diy.com/4x4.php</description>
 <part name="D1" library="d" deviceset="1N4148" device="34-5V" value="1N4148"/>
 <part name="D2" library="d" deviceset="1N4148" device="34-5V" value="1N4148"/>
 <part name="T3" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="R1" library="r" deviceset="R-H" device="0202/5-V" value="100k"/>
-<part name="R2" library="r" deviceset="R-H" device="0202/5-V" value="330"/>
-<part name="R3" library="r" deviceset="R" device="0202/5-V" value="100"/>
-<part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/5-V" value="100kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/5-V" value="330Ω"/>
+<part name="R3" library="r" deviceset="R" device="0202/5-V" value="100Ω"/>
+<part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7μF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="C4" library="c" deviceset="CPOL" device="E5-5/V" value="220uF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E5-5/V" value="220μF"/>
 <part name="U$1" library="pad" deviceset="V+" device=""/>
 </parts>
 <sheets>
@@ -4697,18 +4697,18 @@ http://www.electronics-diy.com/4x4.php</description>
 </module>
 </modules>
 <parts>
-<part name="R4" library="r" deviceset="R-H" device="0204/10" value="22"/>
-<part name="C1" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/10" value="22Ω"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-4" value="4.7μF"/>
 <part name="BAT" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="U$1" library="pad" deviceset="V+" device="" value="+3V"/>
 <part name="R1" library="r" deviceset="POT-STEREO" device=""/>
 <part name="IN" library="pad" deviceset="SAUDIO" device=""/>
-<part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
+<part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7μF"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
-<part name="C3" library="c" deviceset="CPOL" device="E5-6" value="100-1000uF"/>
+<part name="C3" library="c" deviceset="CPOL" device="E5-6" value="100-1000μF"/>
 <part name="S6" library="pad" deviceset="GND" device=""/>
 <part name="OUT" library="pad" deviceset="SAUDIO" device=""/>
 </parts>

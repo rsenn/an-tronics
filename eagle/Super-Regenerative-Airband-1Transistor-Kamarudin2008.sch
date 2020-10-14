@@ -3719,16 +3719,16 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="2p"/>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15 - 140p"/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
-<part name="R1" library="r" deviceset="POT" device="" value="47k"/>
+<part name="R1" library="r" deviceset="POT" device="" value="47kΩ"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036" value="470n"/>
-<part name="R2" library="r" deviceset="R-H" device="0202/7" value="12k"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/7" value="12kΩ"/>
 <part name="C5" library="c" deviceset="C" device="025-020X036" value="1n"/>
 <part name="C6" library="c" deviceset="C" device="050-020X036" value="1n"/>
-<part name="R3" library="r" deviceset="R" device="0202/7" value="12k"/>
+<part name="R3" library="r" deviceset="R" device="0202/7" value="12kΩ"/>
 <part name="U$3" library="pad" deviceset="GND" device=""/>
 <part name="L2" library="l" deviceset="L-SHORT" device="04-5/5V" value="L-SHORT02/5"/>
 <part name="C7" library="c" deviceset="C" device="050-020X036" value="470n"/>
-<part name="R4" library="r" deviceset="R-H" device="0202/7" value="22k"/>
+<part name="R4" library="r" deviceset="R-H" device="0202/7" value="22kΩ"/>
 <part name="U$4" library="pad" deviceset="GND" device=""/>
 <part name="C8" library="c" deviceset="C" device="050-025X075"/>
 <part name="SW1" library="sw" deviceset="SL-SW-1P-2T" device="-H"/>
@@ -3738,7 +3738,7 @@ http://radiobuilder.blogspot.ch/2012/10/airbandregen1t.html</description>
 <part name="U$5" library="pad" deviceset="GND" device=""/>
 <part name="AOUT+" library="pad" deviceset="SPAD" device=""/>
 <part name="AOUT-" library="pad" deviceset="SPAD" device=""/>
-<part name="R5" library="r" deviceset="R-H" device="0202/7" value="68"/>
+<part name="R5" library="r" deviceset="R-H" device="0202/7" value="68Ω"/>
 <part name="T1" library="t" deviceset="2N3904" device=""/>
 </parts>
 <sheets>

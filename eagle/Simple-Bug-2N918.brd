@@ -2522,9 +2522,9 @@
       <elements>
         <element library="c" name="C2" package="C025-020X036" rot="R270" value="4.7pF" x="7.62" y="7.62"/>
         <element library="c" name="C3" package="C025-020X036" rot="R270" value="1nF" x="20.32" y="5.08"/>
-        <element library="r" name="L1" package="L-04/7" value="1uH" x="6.35" y="13.97"/>
-        <element library="r" name="R2" package="0202/5" rot="R270" value="22k" x="20.32" y="15.24"/>
-        <element library="r" name="R3" package="0202/5" rot="R270" value="47k" x="17.78" y="15.24"/>
+        <element library="r" name="L1" package="L-04/7" value="1μH" x="6.35" y="13.97"/>
+        <element library="r" name="R2" package="0202/5" rot="R270" value="22kΩ" x="20.32" y="15.24"/>
+        <element library="r" name="R3" package="0202/5" rot="R270" value="47kΩ" x="17.78" y="15.24"/>
         <element library="t" name="T1" package="TO72-A45" value="2N918" x="15.24" y="7.62"/>
         <element library="ECM" name="ECM" package="ECM-5" rot="R180" value="ECM-5" x="25.4" y="8.89"/>
         <element library="cap-trim" name="C1" package="TRIM808-45" rot="R90" value="C-TR-PH20127-45-2P23" x="12.7" y="15.24"/>

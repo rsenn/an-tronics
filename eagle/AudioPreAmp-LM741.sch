@@ -5053,15 +5053,15 @@
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="LM741" device=""/>
-<part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="4.7uF"/>
-<part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7uF"/>
-<part name="R1" library="r" deviceset="R-H" device="0204/10" value="4.7k"/>
-<part name="R2" library="r" deviceset="POT" device="-P5" value="1M"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10-V" value="10k"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-4/V" value="4.7μF"/>
+<part name="C2" library="c" deviceset="CPOL" device="E2,5-4" value="4.7μF"/>
+<part name="R1" library="r" deviceset="R-H" device="0204/10" value="4.7kΩ"/>
+<part name="R2" library="r" deviceset="POT" device="-P5" value="1MΩ"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10-V" value="10kΩ"/>
 <part name="PWR" library="pad" deviceset="VCC_GND" device="L"/>
-<part name="C3" library="c" deviceset="CPOL" device="E2,5-4" value="47uF"/>
-<part name="R4" library="r" deviceset="R" device="0204/10-V" value="47k"/>
-<part name="R5" library="r" deviceset="R" device="0204/10" value="47k"/>
+<part name="C3" library="c" deviceset="CPOL" device="E2,5-4" value="47μF"/>
+<part name="R4" library="r" deviceset="R" device="0204/10-V" value="47kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0204/10" value="47kΩ"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="U$1" library="pad" deviceset="VCC" device=""/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+"/>
@@ -5070,7 +5070,7 @@
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="U$2" library="pad" deviceset="VCC" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
-<part name="C4" library="c" deviceset="CPOL" device="E2,5-4" value="10uF"/>
+<part name="C4" library="c" deviceset="CPOL" device="E2,5-4" value="10μF"/>
 <part name="C5" library="c" deviceset="C" device="050-020X044/V" value="100nF"/>
 </parts>
 <sheets>

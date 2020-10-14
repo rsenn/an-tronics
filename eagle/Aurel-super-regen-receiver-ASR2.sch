@@ -4404,15 +4404,15 @@
 <part name="L1" library="l" deviceset="L" device="04/7-V" value="200nH"/>
 <part name="C2" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="2 - 20pF"/>
 <part name="C3" library="c" deviceset="C" device="025-015X024" value="33pF"/>
-<part name="R2" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
+<part name="R2" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
 <part name="C4" library="c" deviceset="C" device="025-015X024" value="10pF"/>
-<part name="R5" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
-<part name="R6" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
+<part name="R6" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
 <part name="T1" library="t" deviceset="2N2222" device=""/>
-<part name="R4" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
-<part name="R1" library="r" deviceset="POT" device="" value="10kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
+<part name="R1" library="r" deviceset="POT" device="" value="10kΩ"/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
 <part name="C7" library="c" deviceset="C" device="050-020X044/V" value="1nF"/>
 <part name="C6" library="c" deviceset="C-H" device="050-020X044" value="47nF"/>
 <part name="S2" library="pad" deviceset="VCC_GND" device="PWR-L" value=""/>

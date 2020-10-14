@@ -2697,13 +2697,13 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="john" deviceset="TXS0102EPWR" device=""/>
-<part name="R1" library="john" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="R1" library="john" deviceset="RESISTOR" device="0603" value="10kΩ"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="I2C" library="con-amp-quick" deviceset="M05" device=""/>
 <part name="POWER" library="con-amp-quick" deviceset="M02" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R2" library="john" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="R3" library="john" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="R2" library="john" deviceset="RESISTOR" device="0603" value="10kΩ"/>
+<part name="R3" library="john" deviceset="RESISTOR" device="0603" value="10kΩ"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="C20" library="john" deviceset="0603CAP" device="" value="8.2pf"/>

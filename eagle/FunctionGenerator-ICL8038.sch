@@ -4192,13 +4192,13 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="ICL8038" device=""/>
-<part name="R5" library="r" deviceset="POT" device="" value="250k"/>
-<part name="R2" library="r" deviceset="R-H" device="0202/5" value="10k"/>
-<part name="R1" library="r" deviceset="R-H" device="0202/5" value="10k"/>
-<part name="R3" library="r" deviceset="R" device="0202/5-V" value="330"/>
-<part name="R4" library="r" deviceset="R-H" device="0202/5" value="100k"/>
-<part name="R6" library="r" deviceset="R-H" device="0202/5-V" value="220k"/>
-<part name="R7" library="r" deviceset="R-H" device="0202/5-V" value="10k"/>
+<part name="R5" library="r" deviceset="POT" device="" value="250kΩ"/>
+<part name="R2" library="r" deviceset="R-H" device="0202/5" value="10kΩ"/>
+<part name="R1" library="r" deviceset="R-H" device="0202/5" value="10kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/5-V" value="330Ω"/>
+<part name="R4" library="r" deviceset="R-H" device="0202/5" value="100kΩ"/>
+<part name="R6" library="r" deviceset="R-H" device="0202/5-V" value="220kΩ"/>
+<part name="R7" library="r" deviceset="R-H" device="0202/5-V" value="10kΩ"/>
 <part name="P+1" library="pad" deviceset="VCC" device=""/>
 <part name="S1" library="pad" deviceset="GND" device=""/>
 <part name="S2" library="pad" deviceset="GND" device=""/>
@@ -4208,7 +4208,7 @@ Source: www.kingbright.com</description>
 <part name="SQR" library="pad" deviceset="SPAD" device=""/>
 <part name="T1" library="t" deviceset="BC547" device="CBE"/>
 <part name="D1" library="led" deviceset="LED" device="3MM"/>
-<part name="R8" library="r" deviceset="R" device="0202/5-V" value="470"/>
+<part name="R8" library="r" deviceset="R" device="0202/5-V" value="470Ω"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
 <part name="S4" library="pad" deviceset="GND" device=""/>
 <part name="P+2" library="pad" deviceset="VCC" device=""/>

@@ -7202,22 +7202,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <parts>
 <part name="C2" library="c" deviceset="C" device="025-015X024" value="4.7pF"/>
 <part name="C4" library="c" deviceset="C" device="050-020X036/V" value="1nF"/>
-<part name="R2" library="r" deviceset="R" device="0202/7-V" value="4.7k"/>
-<part name="R3" library="r" deviceset="R" device="0202/7-V" value="33k"/>
+<part name="R2" library="r" deviceset="R" device="0202/7-V" value="4.7kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/7-V" value="33kΩ"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+UB" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+UB" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="ECM" library="ECM" deviceset="ECM" device="-4"/>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="1.6-15pF"/>
-<part name="R1" library="r" deviceset="R" device="0204/2V" value="4.7"/>
+<part name="R1" library="r" deviceset="R" device="0204/2V" value="4.7Ω"/>
 <part name="C7" library="c" deviceset="C" device="050-020X044" value="330nF"/>
 <part name="9V" library="pad" deviceset="SPAD" device=""/>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
 <part name="C5" library="c" deviceset="C" device="050-020X036/V" value="22nF"/>
 <part name="T1" library="t" deviceset="BC547" device="CBE" value="BC547"/>
-<part name="L2" library="l" deviceset="L-SHORT" device="04/7V-X" value="1uH"/>
+<part name="L2" library="l" deviceset="L-SHORT" device="04/7V-X" value="1μH"/>
 <part name="P1" library="pad" deviceset="MOD_IN" device="" value="MOD"/>
 <part name="P2" library="pad" deviceset="MOD_OUT" device="" value="MOD"/>
 <part name="SUPPLY3" library="supply2" deviceset="+UB" device=""/>

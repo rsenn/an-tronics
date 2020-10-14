@@ -3712,10 +3712,10 @@ http://www.next.gr/oscillators/sine-wave/low-frequency-lc-oscillator-l14396.html
 <part name="T1" library="t" deviceset="2SC9014" device="" value="2SC9014"/>
 <part name="T2" library="t" deviceset="2SC9014" device="" value="2SC9014"/>
 <part name="T3" library="t" deviceset="2SC9014" device="" value="2SC9014"/>
-<part name="R1" library="r" deviceset="R" device="0204/15" value="1M"/>
-<part name="R2" library="r" deviceset="R" device="0204/12-V" value="1M"/>
-<part name="R3" library="r" deviceset="R" device="0204/12" value="470"/>
-<part name="R4" library="r" deviceset="POT" device="" value="470"/>
+<part name="R1" library="r" deviceset="R" device="0204/15" value="1MΩ"/>
+<part name="R2" library="r" deviceset="R" device="0204/12-V" value="1MΩ"/>
+<part name="R3" library="r" deviceset="R" device="0204/12" value="470Ω"/>
+<part name="R4" library="r" deviceset="POT" device="" value="470Ω"/>
 <part name="U$4" library="pad" deviceset="GND" device=""/>
 <part name="C1" library="c" deviceset="CPOL" device="E2,5-3" value="4u7"/>
 <part name="L1" library="r" deviceset="L" device="02/10" value="L02/10"/>

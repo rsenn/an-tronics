@@ -6657,8 +6657,8 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 </classes>
 <parts>
 <part name="C1" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIN" value="5-18pF"/>
-<part name="L1" library="r" deviceset="L-SHORT" device="04-5/5" value="0.15uH"/>
-<part name="R1" library="r" deviceset="R" device="0202/7-V" value="1M"/>
+<part name="L1" library="r" deviceset="L-SHORT" device="04-5/5" value="0.15μH"/>
+<part name="R1" library="r" deviceset="R" device="0202/7-V" value="1MΩ"/>
 <part name="C2" library="c" deviceset="C" device="050-025X075/V" value="10nF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="d" deviceset="OA79" device="18/V" value="OA79"/>
@@ -6666,21 +6666,21 @@ http://electronics-diy.com/aircraft-transmission-receiver.php</description>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
 <part name="C4" library="c" deviceset="C" device="050-024X044/V" value="330pF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="r" deviceset="TRIM" device="" value="100k"/>
-<part name="R3" library="r" deviceset="R" device="0202/7" value="3.3k"/>
-<part name="R4" library="r" deviceset="R" device="0202/7-V" value="3.3k"/>
-<part name="R5" library="r" deviceset="R" device="0202/7-V" value="100k"/>
-<part name="R6" library="r" deviceset="R" device="0202/7-V" value="100"/>
-<part name="C5" library="c" deviceset="CPOL" device="E2,5-4/V" value="1uF"/>
-<part name="C6" library="c" deviceset="CPOL" device="E2,5-3/V" value="1uF"/>
-<part name="C7" library="c" deviceset="CPOL" device="E5-5/V" value="100uF"/>
+<part name="R2" library="r" deviceset="TRIM" device="" value="100kΩ"/>
+<part name="R3" library="r" deviceset="R" device="0202/7" value="3.3kΩ"/>
+<part name="R4" library="r" deviceset="R" device="0202/7-V" value="3.3kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0202/7-V" value="100kΩ"/>
+<part name="R6" library="r" deviceset="R" device="0202/7-V" value="100Ω"/>
+<part name="C5" library="c" deviceset="CPOL" device="E2,5-4/V" value="1μF"/>
+<part name="C6" library="c" deviceset="CPOL" device="E2,5-3/V" value="1μF"/>
+<part name="C7" library="c" deviceset="CPOL" device="E5-5/V" value="100μF"/>
 <part name="SW1" library="sw" deviceset="SL-SW-1P-2T" device="-H"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="r" deviceset="R" device="0202/7-V" value="1M"/>
+<part name="R7" library="r" deviceset="R" device="0202/7-V" value="1MΩ"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="c" deviceset="CPOL" device="E2,5-5/V" value="100uF"/>
+<part name="C8" library="c" deviceset="CPOL" device="E2,5-5/V" value="100μF"/>
 <part name="SP+" library="pad" deviceset="SPAD" device="" value="SPKR+"/>
 <part name="SP-" library="pad" deviceset="SPAD" device="" value="SPKR-"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>

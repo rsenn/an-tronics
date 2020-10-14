@@ -5715,60 +5715,60 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 </classes>
 <parts>
 <part name="C1" library="c" deviceset="C-H" device="050-020X036/V" value="1nF"/>
-<part name="R29" library="r" deviceset="R" device="0204/7" value="10M"/>
-<part name="R23" library="r" deviceset="TRIM" device="R-TRIM" value="100k"/>
+<part name="R29" library="r" deviceset="R" device="0204/7" value="10MΩ"/>
+<part name="R23" library="r" deviceset="TRIM" device="R-TRIM" value="100kΩ"/>
 <part name="V+" library="pad" deviceset="+12V" device=""/>
 <part name="SUPPLY2" library="pad" deviceset="-12V" device=""/>
 <part name="GND1" library="pad" deviceset="GND" device=""/>
 <part name="GND2" library="pad" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="pad" deviceset="+12V" device=""/>
-<part name="R30" library="r" deviceset="R" device="0204/10" value="10M"/>
-<part name="R26" library="r" deviceset="POT-H" device="" value="100k"/>
-<part name="R8" library="r" deviceset="R" device="0204/10" value="10k"/>
+<part name="R30" library="r" deviceset="R" device="0204/10" value="10MΩ"/>
+<part name="R26" library="r" deviceset="POT-H" device="" value="100kΩ"/>
+<part name="R8" library="r" deviceset="R" device="0204/10" value="10kΩ"/>
 <part name="GND3" library="pad" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="pad" deviceset="+12V" device=""/>
-<part name="R20" library="r" deviceset="R" device="0204/10" value="100k"/>
-<part name="R25" library="r" deviceset="POT-H" device="" value="100k"/>
-<part name="R19" library="r" deviceset="R-H" device="0204/10" value="100k"/>
-<part name="R24" library="r" deviceset="POT" device="" value="100k"/>
+<part name="R20" library="r" deviceset="R" device="0204/10" value="100kΩ"/>
+<part name="R25" library="r" deviceset="POT-H" device="" value="100kΩ"/>
+<part name="R19" library="r" deviceset="R-H" device="0204/10" value="100kΩ"/>
+<part name="R24" library="r" deviceset="POT" device="" value="100kΩ"/>
 <part name="GND4" library="pad" deviceset="GND" device=""/>
 <part name="SWEEP" library="pad" deviceset="SPAD" device=""/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="1.5k"/>
-<part name="R4" library="r" deviceset="R-H" device="0204/10" value="1.5k"/>
-<part name="R1" library="r" deviceset="TRIM" device="R-TRIM" value="1k"/>
+<part name="R3" library="r" deviceset="R-H" device="0204/10" value="1.5kΩ"/>
+<part name="R4" library="r" deviceset="R-H" device="0204/10" value="1.5kΩ"/>
+<part name="R1" library="r" deviceset="TRIM" device="R-TRIM" value="1kΩ"/>
 <part name="GND5" library="pad" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R22" library="r" deviceset="TRIM" device="R-TRIM" value="100k"/>
+<part name="R22" library="r" deviceset="TRIM" device="R-TRIM" value="100kΩ"/>
 <part name="GND7" library="pad" deviceset="GND" device=""/>
-<part name="R28" library="r" deviceset="R" device="0204/10" value="470k"/>
-<part name="R11" library="r" deviceset="POT" device="" value="10k"/>
-<part name="R18" library="r" deviceset="R-H" device="0204/10" value="30k"/>
-<part name="R16" library="r" deviceset="R" device="0204/10" value="24k"/>
-<part name="R27" library="r" deviceset="R-H" device="0204/10" value="120k"/>
+<part name="R28" library="r" deviceset="R" device="0204/10" value="470kΩ"/>
+<part name="R11" library="r" deviceset="POT" device="" value="10kΩ"/>
+<part name="R18" library="r" deviceset="R-H" device="0204/10" value="30kΩ"/>
+<part name="R16" library="r" deviceset="R" device="0204/10" value="24kΩ"/>
+<part name="R27" library="r" deviceset="R-H" device="0204/10" value="120kΩ"/>
 <part name="GND8" library="pad" deviceset="GND" device=""/>
 <part name="GND9" library="pad" deviceset="GND" device=""/>
 <part name="TRIANGLE" library="pad" deviceset="SPAD" device=""/>
 <part name="SUPPLY6" library="pad" deviceset="-12V" device=""/>
-<part name="R12" library="r" deviceset="POT" device="" value="10k"/>
-<part name="R6" library="r" deviceset="R-H" device="0204/10" value="10k"/>
-<part name="R5" library="r" deviceset="R" device="0204/10" value="5.6k"/>
-<part name="R14" library="r" deviceset="R-H" device="0204/10" value="12k"/>
+<part name="R12" library="r" deviceset="POT" device="" value="10kΩ"/>
+<part name="R6" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
+<part name="R5" library="r" deviceset="R" device="0204/10" value="5.6kΩ"/>
+<part name="R14" library="r" deviceset="R-H" device="0204/10" value="12kΩ"/>
 <part name="GND10" library="pad" deviceset="GND" device=""/>
 <part name="GND11" library="pad" deviceset="GND" device=""/>
 <part name="SINE" library="pad" deviceset="SPAD" device=""/>
 <part name="SUPPLY7" library="pad" deviceset="-12V" device=""/>
 <part name="SUPPLY8" library="pad" deviceset="-12V" device=""/>
-<part name="R21" library="r" deviceset="TRIM" device="R-TRIM" value="100k"/>
-<part name="R7" library="r" deviceset="R" device="0204/7" value="10k"/>
+<part name="R21" library="r" deviceset="TRIM" device="R-TRIM" value="100kΩ"/>
+<part name="R7" library="r" deviceset="R" device="0204/7" value="10kΩ"/>
 <part name="GND12" library="pad" deviceset="GND" device=""/>
 <part name="C2" library="c" deviceset="C-H" device="050-020X036" value="4.7nF"/>
-<part name="C7" library="c" deviceset="CPOL" device="E5-5/V" value="4.7uF"/>
+<part name="C7" library="c" deviceset="CPOL" device="E5-5/V" value="4.7μF"/>
 <part name="SUPPLY9" library="pad" deviceset="-12V" device=""/>
 <part name="GND13" library="pad" deviceset="GND" device=""/>
-<part name="R13" library="r" deviceset="POT" device="" value="10k"/>
-<part name="R9" library="r" deviceset="R-H" device="0204/10" value="10k"/>
-<part name="R17" library="r" deviceset="R" device="0204/10" value="5.6k"/>
-<part name="R15" library="r" deviceset="R-H" device="0204/10" value="12k"/>
+<part name="R13" library="r" deviceset="POT" device="" value="10kΩ"/>
+<part name="R9" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
+<part name="R17" library="r" deviceset="R" device="0204/10" value="5.6kΩ"/>
+<part name="R15" library="r" deviceset="R-H" device="0204/10" value="12kΩ"/>
 <part name="GND15" library="pad" deviceset="GND" device=""/>
 <part name="SQUARE" library="pad" deviceset="SPAD" device=""/>
 <part name="GND14" library="pad" deviceset="GND" device=""/>
@@ -5777,7 +5777,7 @@ http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html</description>
 <part name="SUPPLY11" library="pad" deviceset="-12V" device=""/>
 <part name="GND16" library="pad" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="pad" deviceset="+12V" device=""/>
-<part name="R10" library="r" deviceset="TRIM-2" device="R-TRIM-2" value="10k"/>
+<part name="R10" library="r" deviceset="TRIM-2" device="R-TRIM-2" value="10kΩ"/>
 <part name="P-1" library="pad" deviceset="-12V" device=""/>
 <part name="SUPPLY1" library="pad" deviceset="+12V" device=""/>
 <part name="0V" library="pad" deviceset="SPAD" device=""/>

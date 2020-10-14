@@ -632,21 +632,21 @@ design rules under a new name.</description>
 <element name="C2" library="c" package="C050-025X075" value="10nF" x="11.43" y="11.43" rot="R90"/>
 <element name="C3" library="c" package="C025-015X024" value="" x="8.89" y="27.94"/>
 <element name="C4" library="c" package="C050-024X044" value="330pF" x="16.51" y="11.43" rot="R270"/>
-<element name="C5" library="c" package="E2,5-3" value="1uF" x="21.59" y="7.62" rot="R90"/>
-<element name="C6" library="c" package="E2,5-3" value="1uF" x="26.67" y="7.62" rot="R90"/>
-<element name="C7" library="c" package="E2,5-5" value="100uF" x="31.75" y="7.62" rot="R90"/>
+<element name="C5" library="c" package="E2,5-3" value="1μF" x="21.59" y="7.62" rot="R90"/>
+<element name="C6" library="c" package="E2,5-3" value="1μF" x="26.67" y="7.62" rot="R90"/>
+<element name="C7" library="c" package="E2,5-5" value="100μF" x="31.75" y="7.62" rot="R90"/>
 <element name="D1" library="d" package="DO34-10" value="DETECTOR" x="16.51" y="21.59" rot="R270"/>
 <element name="IC1" library="ic" package="DIL08" value="LM358N" x="30.48" y="17.78" rot="R270"/>
-<element name="R1" library="r" package="0202/7-V" value="10M" x="6.35" y="12.7"/>
-<element name="R2" library="pot" package="B64Y" value="100k" x="44.45" y="29.21" rot="R90"/>
+<element name="R1" library="r" package="0202/7-V" value="10MΩ" x="6.35" y="12.7"/>
+<element name="R2" library="pot" package="B64Y" value="100kΩ" x="44.45" y="29.21" rot="R90"/>
 <element name="R3" library="r" package="0202/7" value="" x="21.59" y="15.24" rot="R90"/>
 <element name="R4" library="r" package="0202/7" value="" x="30.48" y="11.43"/>
-<element name="R5" library="r" package="0202/7" value="100k" x="36.83" y="15.24" rot="R270"/>
-<element name="R6" library="r" package="0202/7" value="100" x="39.37" y="7.62" rot="R90"/>
+<element name="R5" library="r" package="0202/7" value="100kΩ" x="36.83" y="15.24" rot="R270"/>
+<element name="R6" library="r" package="0202/7" value="100Ω" x="39.37" y="7.62" rot="R90"/>
 <element name="SW1" library="sw" package="SLSW-1P2T-H" value="SL-SW-1P-2T-H" x="44.45" y="19.05" rot="R270"/>
-<element name="L1" library="r" package="L-04/10" value="0.1uH" x="13.97" y="20.32"/>
-<element name="R7" library="r" package="0202/7" value="10M" x="19.05" y="20.32" rot="R270"/>
-<element name="C8" library="c" package="E2,5-5" value="100uF" x="34.29" y="2.54" rot="R90"/>
+<element name="L1" library="r" package="L-04/10" value="0.1μH" x="13.97" y="20.32"/>
+<element name="R7" library="r" package="0202/7" value="10MΩ" x="19.05" y="20.32" rot="R270"/>
+<element name="C8" library="c" package="E2,5-5" value="100μF" x="34.29" y="2.54" rot="R90"/>
 <element name="SP+" library="pad" package="SPAD" value="SPKR+" x="44.45" y="1.27"/>
 <element name="SP-" library="pad" package="SPAD" value="SPKR-" x="44.45" y="3.81"/>
 <element name="BAT+" library="pad" package="SPAD" value="BAT+" x="44.45" y="11.43"/>
