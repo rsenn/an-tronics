@@ -1,5 +1,5 @@
 # Put in your GitHub account details.
-GITHUB_USER=foo
+GITHUB_USER=rsenn
 GITHUB_API_TOKEN=foo
 
 # Project name = directory name.
@@ -76,12 +76,12 @@ PROJECT_NAME=test
 
 # Gerbv PCB image preview parameters - colours, plus resolution.
 GERBER_IMAGE_RESOLUTION?=400
-BACKGROUND_COLOUR?=000000
-HOLES_COLOUR?=000000
-SILKSCREEN_COLOUR?=C4C4C4
-PADS_COLOUR?=FFDE4E
-TOP_SOLDERMASK_COLOUR?=630B79
-BOTTOM_SOLDERMASK_COLOUR?=2D114A
+BACKGROUND_COLOUR ?= \#ffffff
+HOLES_COLOUR ?= \#ffffff
+SILKSCREEN_COLOUR ?= \#afafaf
+PADS_COLOUR ?= \#4ba54b
+TOP_SOLDERMASK_COLOUR ?= \#a54b4b
+BOTTOM_SOLDERMASK_COLOUR ?= \#4b4ba5
 
 # STUFF YOU WILL NEED:
 # - git, gerbv and eagle must be installed and must be in path.
@@ -97,7 +97,7 @@ BOTTOM_SOLDERMASK_COLOUR?=2D114A
 all :
 	@for x in $(PROJECTS); do \
 	PROJECT="$${x##*/}"; PROJECT=$${PROJECT%.brd}; \
-	 if [ "eagle/$$PROJECT.brd" -nt "gerbers/$$x.TXT" ]; then \
+	 if [ "eagle/$$PROJECT.brd" -nt "gerbers/$$x.TXT" -o Makefile -nt "gerbers/$$x.zip" ]; then \
 	echo "make project PROJECT_NAME=$$PROJECT" 1>&2 ; \
 	make project PROJECT_NAME=$$PROJECT || { R=$$?; echo "Abort: $$R" 1>&2; exit $$R; }  \
 	fi; \
@@ -124,15 +124,27 @@ gerbers :
 	eagle -X -d GERBER_RS274X -o "./gerbers/$(PROJECT_NAME).GML" "eagle/$(PROJECT_NAME).brd" Milling > /dev/null
 	eagle -X -d EXCELLON -o "./gerbers/$(PROJECT_NAME).TXT" "eagle/$(PROJECT_NAME).brd" Drills Holes > /dev/null
 
-	@`gerbv --export=png --output=$(PROJECT_NAME)-pcb.png --dpi=$(GERBER_IMAGE_RESOLUTION) --background=#$(BACKGROUND_COLOUR) --f=#$(HOLES_COLOUR) \
-	"gerbers/$(PROJECT_NAME).TXT" --f=#$(SILKSCREEN_COLOUR) gerbers/$(PROJECT_NAME).GTO --f=#$(PADS_COLOUR) gerbers/$(PROJECT_NAME).GTS --f=#$(TOP_SOLDERMASK_COLOUR) \
-	"gerbers/$(PROJECT_NAME).GTL" --f=#$(BOTTOM_SOLDERMASK_COLOUR) gerbers/$(PROJECT_NAME).GBL &`
+	sed -i "s|X\\([0-9]\\+\\)[0-9]\\+Y\\([0-9]\\+\\)[0-9]$$|X\\1Y\\2|" "./gerbers/$(PROJECT_NAME).TXT"
+
+	for FMT in png pdf; do (set -x; gerbv --export=$$FMT --output="gerbers/$(PROJECT_NAME)-pcb.$$FMT" --dpi=$(GERBER_IMAGE_RESOLUTION) --background=$(BACKGROUND_COLOUR) \
+    --f=$(SILKSCREEN_COLOUR) "gerbers/$(PROJECT_NAME).GTO" \
+    --f=$(HOLES_COLOUR) "gerbers/$(PROJECT_NAME).TXT" \
+    --f=$(PADS_COLOUR) "gerbers/$(PROJECT_NAME).GTS" \
+    --f=$(TOP_SOLDERMASK_COLOUR) "gerbers/$(PROJECT_NAME).GTL" \
+    --f=$(BOTTOM_SOLDERMASK_COLOUR) "gerbers/$(PROJECT_NAME).GBL" \
+    ); done
+
+  #pdftocairo -svg "gerbers/$(PROJECT_NAME)-pcb.pdf" "gerbers/$(PROJECT_NAME)-pcb.svg"
+	pdf2svg "gerbers/$(PROJECT_NAME)-pcb.pdf" "gerbers/$(PROJECT_NAME)-pcb.svg"
+	
 	@{ echo "Gerber photoplotter files and board preview rendering generated:"; \
   echo "  gerbers/$(PROJECT_NAME).TXT"; \
   echo "  gerbers/$(PROJECT_NAME).GTL"; } 1>&2
+	@$(RM) "gerbers/$(PROJECT_NAME).zip"
+	(cd gerbers && zip -q -9 "$(PROJECT_NAME)".zip "$(PROJECT_NAME)".{dri,GBL,GBO,GBS,GML,gpi,GTL,GTO,GTP,GTS,TXT} )
 
 
-	if [ ! -e README.markdown ]; then echo "$(PROJECT_NAME) \n\n ![](https://github.com/$(GITHUB_USER)/$(PROJECT_NAME)/raw/master/$(PROJECT_NAME)-pcb.png)" >> \
+	if  ! grep -q "^$(PROJECT_NAME) " README.markdown; then echo "$(PROJECT_NAME) \n\n ![](https://github.com/$(GITHUB_USER)/an-tronics/raw/master/gerbers/$(PROJECT_NAME)-pcb.png)" >> \
 	README.markdown; fi
 
 # TO DO: Can we get Eagle to automatically export the schematic, as a PDF or PostScript or PNG, at the command line?
@@ -162,6 +174,6 @@ github : git
 	echo "Done."
 
 clean :
-	rm -rf *.{GTL,GBL,GTO,GTP,GBO,GTS,GBS,GML,TXT,dri,gpi,png}
-	rm -rf ./gerbers
+	rm -rf gerbers/*.{GTL,GBL,GTO,GTP,GBO,GTS,GBS,GML,TXT,dri,gpi,zip}
+	#rm -rf ./gerbers
 	rm -rf .git
