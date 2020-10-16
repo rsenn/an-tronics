@@ -65,6 +65,8 @@ PROJECTS  = \
   VCO-8038 \
 	AGC-Amplifier-LM13600-Stereo
 
+PROJECTS := $(patsubst eagle/%,%,$(shell grep -L -E '(layer="19"|<polygon.*layer="16")' eagle/*.brd))
+
 #PROJECTS += AGC-Amplifier-LM13600-Stereo Amplifier-ClassAB
 #PROJECTS := $(filter FM%,$(PROJECTS))
 
