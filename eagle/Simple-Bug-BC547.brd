@@ -3735,7 +3735,7 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="2.54" x2="7.62" y2="2.54" width="1.27" layer="16"/>
 <wire x1="7.62" y1="2.54" x2="2.54" y2="2.54" width="1.27" layer="16"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="1.27" layer="16"/>
-<polygon width="0.254" layer="16" isolate="1.27" orphans="yes" thermals="no">
+<polygon width="0" layer="16" isolate="1.27" orphans="yes" thermals="no">
 <vertex x="0" y="0"/>
 <vertex x="0" y="20.32"/>
 <vertex x="22.86" y="20.32"/>

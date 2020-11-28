@@ -96,9 +96,9 @@ esac
  echo "Processing $1 ..." 1>&2
  echo 1>&2
 
-  case $INPUT in
+  false && case $INPUT in
      *.brd)   
-       EAGLE_CMD="DISPLAY -bRestrict -tRestrict -bTest -tTest -bOrigins -tOrigins -bStop -tStop -bCream -tCream -Drills -Holes -Document -Reference bValues tValues; $EAGLE_CMD" 
+       EAGLE_CMD="DISPLAY Bottom Top; $EAGLE_CMD" 
        ;;
    esac
   EAGLE_CMDS=${EAGLE_CMDS:+"$EAGLE_CMDS; "}$EAGLE_CMD
@@ -107,7 +107,7 @@ esac
 " > dummy
   exec 9<dummy
 
- exec_cmd EAGLE -C "$EAGLE_CMD; QUIT  "      "$INPUT"  <<<"QUIT"  &
+ exec_cmd EAGLE -N- -C "$EAGLE_CMD; QUIT  "      "$INPUT"  <<<"QUIT"  &
   pid=$!
 
   while [ ! -s "$OUTPUT" ]; do

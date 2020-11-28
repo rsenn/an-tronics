@@ -117,7 +117,7 @@
 <wire x1="0.14" y1="0.699" x2="0.14" y2="-0.699" width="0.076" layer="21"/>
 <wire x1="0.14" y1="-0.699" x2="0.445" y2="-0.699" width="0.076" layer="21"/>
 <wire x1="0.445" y1="-0.699" x2="0.445" y2="0" width="0.076" layer="21"/>
-<polygon width="0.002" layer="21">
+<polygon width="0" layer="21">
 <vertex x="0.406" y="0.686"/>
 <vertex x="0.178" y="0.686"/>
 <vertex x="0.178" y="-0.686"/>
@@ -182,20 +182,20 @@
 <wire x1="0" y1="0.064" x2="0.381" y2="-0.635" width="0.076" layer="21"/>
 <wire x1="0.381" y1="0.064" x2="0" y2="0.064" width="0.076" layer="21"/>
 <wire x1="0" y1="0.064" x2="-0.381" y2="0.064" width="0.076" layer="21"/>
-<polygon width="0.002" layer="21">
+<polygon width="0" layer="21">
 <vertex x="0.635" y="0.826"/>
 <vertex x="-0.635" y="0.826"/>
 <vertex x="-0.635" y="0.571"/>
 <vertex x="0.635" y="0.571"/>
 </polygon>
 <wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.127" layer="21"/>
-<polygon width="0.002" layer="21">
+<polygon width="0" layer="21">
 <vertex x="0.102" y="1.321"/>
 <vertex x="0.102" y="1.88"/>
 <vertex x="-0.102" y="1.88"/>
 <vertex x="-0.102" y="1.321"/>
 </polygon>
-<polygon width="0.002" layer="21">
+<polygon width="0" layer="21">
 <vertex x="-0.102" y="-1.321"/>
 <vertex x="-0.102" y="-1.88"/>
 <vertex x="0.102" y="-1.88"/>
@@ -222,13 +222,13 @@
 <wire x1="0" y1="-0.064" x2="0.381" y2="-0.064" width="0.076" layer="21"/>
 <rectangle x1="-0.635" y1="-0.826" x2="0.635" y2="-0.571" layer="21"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.127" layer="21"/>
-<polygon width="0.002" layer="21">
+<polygon width="0" layer="21">
 <vertex x="-0.102" y="-1.321"/>
 <vertex x="-0.102" y="-1.88"/>
 <vertex x="0.102" y="-1.88"/>
 <vertex x="0.102" y="-1.321"/>
 </polygon>
-<polygon width="0.002" layer="21">
+<polygon width="0" layer="21">
 <vertex x="0.102" y="1.321"/>
 <vertex x="0.102" y="1.88"/>
 <vertex x="-0.102" y="1.88"/>
@@ -257,7 +257,7 @@
 <wire x1="2.54" y1="0.286" x2="2.214" y2="0.683" width="0.127" layer="21" curve="89.701683"/>
 <wire x1="2.214" y1="0.683" x2="1.81" y2="0.643" width="0.127" layer="21" curve="35.057918"/>
 <wire x1="1.81" y1="0.643" x2="1.659" y2="0.546" width="0.127" layer="21" curve="15.855998"/>
-<polygon width="0.002" layer="21">
+<polygon width="0" layer="21">
 <vertex x="-2.54" y="0.159"/>
 <vertex x="-2.921" y="0.159"/>
 <vertex x="-2.921" y="-0.159"/>

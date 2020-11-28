@@ -567,7 +567,7 @@ design rules under a new name.</description>
 <contactref element="R8" pad="1"/>
 <wire x1="33.02" y1="22.86" x2="30.48" y2="22.86" width="1.27" layer="16"/>
 <wire x1="20.32" y1="22.86" x2="30.48" y2="22.86" width="1.27" layer="16"/>
-<polygon width="0.3048" layer="16" isolate="1.27">
+<polygon width="0" layer="16" isolate="1.27">
 <vertex x="0" y="40.64"/>
 <vertex x="35.56" y="40.64"/>
 <vertex x="35.56" y="0"/>

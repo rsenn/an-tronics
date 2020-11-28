@@ -362,7 +362,7 @@
 <hole x="-0.2032" y="-14.351" drill="1.3"/>
 <hole x="5.842" y="-15.6972" drill="1.3"/>
 <hole x="4.1656" y="-15.6972" drill="1.3"/>
-<polygon width="0.127" layer="45">
+<polygon width="0" layer="45">
 <vertex x="2" y="3.5"/>
 <vertex x="8" y="3.5"/>
 <vertex x="8" y="0"/>

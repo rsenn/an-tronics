@@ -679,7 +679,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <pad name="3" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<polygon width="0.127" layer="21">
+<polygon width="0" layer="21">
 <vertex x="-2.032" y="-1.524"/>
 <vertex x="-2.54" y="-0.508"/>
 <vertex x="-2.54" y="0.508"/>

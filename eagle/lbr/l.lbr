@@ -939,6 +939,33 @@
 <wire x1="0" y1="10.16" x2="0" y2="9.27" width="0.127" layer="21"/>
 <wire x1="5.08" y1="0" x2="4" y2="-0.54" width="0.127" layer="21"/>
 </package>
+<package name="L-04/10V-TAP1A">
+<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778"/>
+<wire x1="-1.27" y1="2.0955" x2="0" y2="3.3655" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="3.3655" x2="1.27" y2="2.0955" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="1.3335" x2="0" y2="2.6035" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.6035" x2="1.27" y2="1.3335" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="0.5715" x2="0" y2="1.8415" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.8415" x2="1.27" y2="0.5715" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.1905" x2="0" y2="1.0795" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.0795" x2="1.27" y2="-0.1905" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-0.9525" x2="0" y2="0.3175" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="0.3175" x2="1.27" y2="-0.9525" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-1.7145" x2="0" y2="-0.4445" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="-0.4445" x2="1.27" y2="-1.7145" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-2.4765" x2="0" y2="-1.2065" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="-1.2065" x2="1.27" y2="-2.4765" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="-2.4765" x2="0" y2="-3.7465" width="0.127" layer="21" curve="-90"/>
+<pad name="T" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="2.54" y="2.54" size="0.8128" layer="25">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-1.27" y1="-2.4765" x2="-1.27" y2="-3.4925" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.0955" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.4925" x2="0" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-0.0635" x2="-1.27" y2="-0.0635" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L">
@@ -984,7 +1011,6 @@
 <wire x1="0" y1="2.54" x2="-1.27" y2="3.81" width="0.1778" layer="94" curve="-90"/>
 <wire x1="0" y1="5.08" x2="-1.27" y2="3.81" width="0.1778" layer="94" curve="90"/>
 <text x="-2.54" y="0" size="1.27" layer="96" rot="R270" align="top-center">&gt;VALUE</text>
-<pin name="3" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <circle x="0" y="2.54" radius="0.127" width="0.254" layer="94"/>
 </symbol>
 <symbol name="L-H-SHORT">
@@ -1359,7 +1385,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="04/10V" package="L-04/12V-TAP1">
+<device name="04/12V" package="L-04/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1369,7 +1395,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="06/10V" package="L-06/12V-TAP1">
+<device name="06/12V" package="L-06/12V-TAP1">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -1434,6 +1460,16 @@
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
 <connect gate="1" pin="T" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="04/7-T1A" package="L-04/10V-TAP1A">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="T" pad="T"/>
 </connects>
 <technologies>
 <technology name=""/>

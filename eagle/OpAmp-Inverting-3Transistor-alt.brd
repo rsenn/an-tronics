@@ -507,7 +507,7 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="5.08" x2="20.32" y2="2.54" width="1.27" layer="16"/>
 <contactref element="IN" pad="1"/>
 <contactref element="OUT" pad="1"/>
-<polygon width="0.254" layer="16" isolate="1.27" orphans="yes" thermals="no">
+<polygon width="0" layer="16" isolate="1.27" orphans="yes" thermals="no">
 <vertex x="0" y="0"/>
 <vertex x="0" y="25.4"/>
 <vertex x="27.94" y="25.4"/>

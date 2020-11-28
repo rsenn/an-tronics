@@ -1455,7 +1455,7 @@
 <pad name="+" x="1.27" y="0" drill="0.9" shape="square"/>
 <text x="-1.397" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="0" y="-2.921" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.762" y1="-1.27" x2="-0.254" y2="1.27" layer="51" rot="R180"/>
+<rectangle x1="-0.762" y1="-1.27" x2="-0.254" y2="1.27" layer="21" rot="R180"/>
 </package>
 <package name="E7,5-18">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -2304,6 +2304,7 @@
 <text x="2.54" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
+<circle x="-2.54" y="0" radius="0.889" width="0.1524" layer="21"/>
 </package>
 <package name="E5-6">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -2420,7 +2421,7 @@
 <rectangle x1="-0.53975" y1="-0.09525" x2="0.22225" y2="0.09525" layer="21" rot="R90"/>
 <rectangle x1="-0.22225" y1="-0.09525" x2="0.53975" y2="0.09525" layer="21" rot="R270"/>
 <text x="-0.889" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
-<text x="1.27" y="-1.27" size="0.6096" layer="27" rot="R180" align="center-left">&gt;VALUE</text>
+<text x="1.27" y="-1.27" size="0.6096" layer="27" align="center-right">&gt;VALUE</text>
 </package>
 <package name="C050-025X060">
 <wire x1="0.635" y1="0.3048" x2="0" y2="0.3048" width="0.3048" layer="21"/>

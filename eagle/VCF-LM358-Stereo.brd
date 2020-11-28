@@ -605,7 +605,7 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="13.97" x2="21.59" y2="16.51" width="1.27" layer="16"/>
 <via x="29.21" y="13.97" extent="1-16" drill="0.7" shape="square"/>
 <via x="21.59" y="13.97" extent="1-16" drill="0.7" shape="square"/>
-<polygon width="0.254" layer="16" isolate="1.27" orphans="yes" thermals="no">
+<polygon width="0" layer="16" isolate="1.27" orphans="yes" thermals="no">
 <vertex x="-5.08" y="52.07"/>
 <vertex x="-5.08" y="-2.54"/>
 <vertex x="45.72" y="-2.54"/>
