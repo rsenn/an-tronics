@@ -1,4 +1,4 @@
-PROJECT_NAME = an-tronics
+LAYOUT_NAME = an-tronics
 
 # Put in your GitHub account details.
 GITHUB_USER=rsenn
@@ -6,9 +6,9 @@ GITHUB_API_TOKEN=foo
 
 # Project name = directory name.
 # TO DO: This variable seems to fail sometimes. Fix it.
-#PROJECT_NAME=$${PWD\#\#*/}
+#LAYOUT_NAME=$${PWD\#\#*/}
 
-PROJECTS  = \
+LAYOUTS  = \
   40106-4069-Synth \
   555-ADSR-Rene-Schmitz \
   555-Oscillator \
@@ -67,10 +67,10 @@ PROJECTS  = \
   VCO-8038 \
 	AGC-Amplifier-LM13600-Stereo
 
-PROJECTS := $(patsubst eagle/%,%,$(shell grep -L -E '(layer="19"|<polygon.*layer="16")' eagle/*.brd))
+LAYOUTS := $(patsubst eagle/%,%,$(shell grep -L -E '(layer="19"|<polygon.*layer="16")' eagle/*.brd))
 
-#PROJECTS += AGC-Amplifier-LM13600-Stereo Amplifier-ClassAB
-#PROJECTS := $(filter FM%,$(PROJECTS))
+#LAYOUTS += AGC-Amplifier-LM13600-Stereo Amplifier-ClassAB
+#LAYOUTS := $(filter FM%,$(LAYOUTS))
 
 
 # Gerbv PCB image preview parameters - colours, plus resolution.
@@ -94,11 +94,11 @@ BOTTOM_SOLDERMASK_COLOUR ?= \#4b4ba5
 .SILENT: _gerbers git github clean
 
 all :
-	@for x in $(PROJECTS); do \
-	PROJECT="$${x##*/}"; PROJECT=$${PROJECT%.brd}; \
-	 if [ "eagle/$$PROJECT.brd" -nt "gerbers/$$x.TXT" -o Makefile -nt "gerbers/$$x.zip" ]; then \
-	echo "make project PROJECT_NAME=$$PROJECT" 1>&2 ; \
-	make project PROJECT_NAME=$$PROJECT || { R=$$?; echo "Abort: $$R" 1>&2; exit $$R; }  \
+	@for x in $(LAYOUTS); do \
+	LAYOUT="$${x##*/}"; LAYOUT=$${LAYOUT%.brd}; \
+	 if [ "eagle/$$LAYOUT.brd" -nt "gerbers/$$x.TXT" -o Makefile -nt "gerbers/$$x.zip" ]; then \
+	echo "make project LAYOUT_NAME=$$LAYOUT" 1>&2 ; \
+	make project LAYOUT_NAME=$$LAYOUT || { R=$$?; echo "Abort: $$R" 1>&2; exit $$R; }  \
 	fi; \
 	done
 
@@ -118,14 +118,14 @@ github : git
 
 # TO DO: When we call the API to see if the repository exists, it cannot see your private repos unless the username and key is put in.
 
-	-curl -f https://github.com/api/v2/yaml/repos/show/$(GITHUB_USER)/$(PROJECT_NAME) > /dev/null 2>&1; \
+	-curl -f https://github.com/api/v2/yaml/repos/show/$(GITHUB_USER)/$(LAYOUT_NAME) > /dev/null 2>&1; \
 	if [ $$? -eq 0 ]; then echo "GitHub remote repository already exists."; fi
 
 # TO DO: Known bug case - breaks if the GitHub repository exists but there is still a remote set for some reason in the local git repo.
 
-	-curl -f https://github.com/api/v2/yaml/repos/show/$(GITHUB_USER)/$(PROJECT_NAME) > /dev/null 2>&1; if [ $$? -eq 22 ]; then \
-	curl -F 'login=$(GITHUB_USER)' -F 'token=$(GITHUB_API_TOKEN)' https://github.com/api/v2/yaml/repos/create -F 'name=$(PROJECT_NAME)' > /dev/null 2>&1; \
-	git remote add origin git@github.com:$(GITHUB_USER)/$(PROJECT_NAME).git; echo "Built new GitHub remote repository."; fi
+	-curl -f https://github.com/api/v2/yaml/repos/show/$(GITHUB_USER)/$(LAYOUT_NAME) > /dev/null 2>&1; if [ $$? -eq 22 ]; then \
+	curl -F 'login=$(GITHUB_USER)' -F 'token=$(GITHUB_API_TOKEN)' https://github.com/api/v2/yaml/repos/create -F 'name=$(LAYOUT_NAME)' > /dev/null 2>&1; \
+	git remote add origin git@github.com:$(GITHUB_USER)/$(LAYOUT_NAME).git; echo "Built new GitHub remote repository."; fi
 	echo "Pushing to GitHub remote repository..."
 	git push -u origin master 2> /dev/null
 	echo "Done."
