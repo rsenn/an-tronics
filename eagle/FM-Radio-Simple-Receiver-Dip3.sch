@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
+<layer number="29" name="tStop" color="2" fill="3" visible="no" active="no"/>
+<layer number="30" name="bStop" color="5" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -77,9 +77,9 @@
 <packages>
 <package name="TO92">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778" rot="R270"/>
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" rot="R270"/>
-<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" rot="R270"/>
+<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778"/>
 <text x="1.7145" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0.8255" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
@@ -619,9 +619,9 @@
 <circle x="0" y="0" radius="1.2192" width="0.127" layer="21"/>
 <circle x="-3.881025" y="-1.805128125" radius="0.254" width="0.127" layer="21"/>
 <circle x="-1.798715625" y="-3.901440625" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="2.54" drill="1.1" shape="octagon"/>
-<pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon"/>
-<pad name="3" x="2.54" y="-2.54" drill="1.1" shape="octagon"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="-2.54" drill="0.9" diameter="1.778"/>
 <circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
 <text x="0" y="2.54" size="1.016" layer="25" align="top-center">&gt;NAME</text>
@@ -6081,19 +6081,6 @@
 <pad name="1" x="0" y="0" drill="0.9" diameter="1.778" stop="no"/>
 <text x="-1.0795" y="0" size="0.6096" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
 </package>
-<package name="SPAD-+">
-<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="square" rot="R180" stop="no"/>
-<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
-<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="0" y="2.794" size="0.6096" layer="48" ratio="9" distance="5" rot="R180" align="top-center">&gt;VALUE</text>
-<text x="-1.93675" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
-<wire x1="-2.19075" y1="1.778" x2="-1.68275" y2="1.778" width="0.0762" layer="21"/>
-<wire x1="-1.93675" y1="1.524" x2="-1.93675" y2="2.032" width="0.0762" layer="21"/>
-<wire x1="-1.93675" y1="-1.9685" x2="-1.93675" y2="-1.4605" width="0.0762" layer="21"/>
-</package>
 <package name="SPAD+-">
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="square" stop="no"/>
 <pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
@@ -6106,6 +6093,18 @@
 <wire x1="1.61925" y1="1.778" x2="2.12725" y2="1.778" width="0.0762" layer="21"/>
 <wire x1="1.87325" y1="1.524" x2="1.87325" y2="2.032" width="0.0762" layer="21"/>
 <wire x1="1.87325" y1="-1.9685" x2="1.87325" y2="-1.4605" width="0.0762" layer="21"/>
+</package>
+<package name="SPAD-+">
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="square" rot="R180" stop="no"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="-1.93675" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
+<wire x1="-2.19075" y1="1.778" x2="-1.68275" y2="1.778" width="0.0762" layer="21"/>
+<wire x1="-1.93675" y1="1.524" x2="-1.93675" y2="2.032" width="0.0762" layer="21"/>
+<wire x1="-1.93675" y1="-1.9685" x2="-1.93675" y2="-1.4605" width="0.0762" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6252,15 +6251,16 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.33" drill="0">
+<clearance class="0" value="0.33"/>
 </class>
 </classes>
 <parts>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIND" value="2 - 20pF"/>
-<part name="L1" library="l" deviceset="L" device="10/10X" value="0.2µH"/>
+<part name="L1" library="l" deviceset="L" device="10/10Y" value="0.2µH"/>
 <part name="T2" library="t" deviceset="2N2222" device=""/>
 <part name="C4" library="c" deviceset="C-H" device="050-020X044" value="220nF"/>
-<part name="R3" library="r" deviceset="POT" device="" value="10kΩ"/>
+<part name="R3" library="r" deviceset="POT" device="-3P" value="10kΩ"/>
 <part name="R2" library="r" deviceset="R-H" device="0204/10" value="10kΩ"/>
 <part name="AF" library="pad" deviceset="SPAD+-" device="+-" value="SPAD+-+-"/>
 <part name="BAT" library="pad" deviceset="VCC_GND" device="L" value="VCC_GNDL"/>
