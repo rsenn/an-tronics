@@ -108,8 +108,8 @@
 <text x="-1.27" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="1.143" y="0" size="0.4064" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 <text x="0.635" y="0.635" size="0.254" layer="48" rot="R270" align="center-right">B</text>
-<text x="0.635" y="3.175" size="0.254" layer="48" rot="R270" align="center-right">E</text>
-<text x="0.635" y="-1.905" size="0.254" layer="48" rot="R270" align="center-right">C</text>
+<text x="0.635" y="3.175" size="0.254" layer="48" rot="R270" align="center-right">C</text>
+<text x="0.635" y="-1.905" size="0.254" layer="48" rot="R270" align="center-right">E</text>
 </package>
 <package name="TO92-EBC-A">
 <wire x1="1.651" y1="-2.095" x2="1.651" y2="2.095" width="0.127" layer="21"/>
@@ -6273,10 +6273,10 @@
 </class>
 </classes>
 <parts>
-<part name="T1" library="t" deviceset="2N2222" device="-EBC" value="2N2222-EBC"/>
-<part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="2 - 20pF"/>
+<part name="T1" library="t" deviceset="2N2222" device="" value="2N2222"/>
+<part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIND" value="2 - 20pF"/>
 <part name="L1" library="l" deviceset="L" device="04/08" value="200nH"/>
-<part name="T2" library="t" deviceset="2N2222" device="-EBC" value="2N2222-EBC"/>
+<part name="T2" library="t" deviceset="2N2222" device="" value="2N2222"/>
 <part name="C4" library="c" deviceset="C-H" device="050-020X044" value="220nF"/>
 <part name="VR1" library="r" deviceset="POT" device="-3P" value="10kΩ"/>
 <part name="R2" library="r" deviceset="R-H" device="0204/10-V" value="10kΩ"/>
@@ -6285,7 +6285,7 @@
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
 <part name="C5" library="c" deviceset="C" device="050-020X036/V" value="2.2nF"/>
 <part name="C2" library="c" deviceset="C" device="025-024X044" value="100nF"/>
-<part name="100µF" library="c" deviceset="CPOL" device="E2,5-5/V"/>
+<part name="C1" library="c" deviceset="CPOL" device="E2,5-5/V" value="100µF"/>
 <part name="R1" library="r" deviceset="R-H" device="0202/7-V" value="1kΩ"/>
 </parts>
 <sheets>
@@ -6307,7 +6307,7 @@
 <instance part="ANT" gate="ANT" x="27.94" y="91.44"/>
 <instance part="C5" gate="1" x="68.58" y="68.58"/>
 <instance part="C2" gate="1" x="12.7" y="68.58"/>
-<instance part="100µF" gate="1" x="5.08" y="68.58"/>
+<instance part="C1" gate="1" x="5.08" y="68.58"/>
 <instance part="R1" gate="1" x="-2.54" y="88.9"/>
 </instances>
 <busses>
@@ -6396,7 +6396,7 @@
 <junction x="27.94" y="48.26"/>
 <pinref part="C2" gate="1" pin="2"/>
 <wire x1="12.7" y1="48.26" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="100µF" gate="1" pin="-"/>
+<pinref part="C1" gate="1" pin="-"/>
 <wire x1="5.08" y1="66.04" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <junction x="12.7" y="48.26"/>
@@ -6408,7 +6408,7 @@
 <pinref part="R2" gate="1" pin="1"/>
 <wire x1="12.7" y1="71.12" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="100µF" gate="1" pin="+"/>
+<pinref part="C1" gate="1" pin="+"/>
 <wire x1="5.08" y1="71.12" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="88.9" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
 <junction x="12.7" y="88.9"/>
