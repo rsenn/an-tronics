@@ -1076,7 +1076,7 @@
 <package name="CONN-3P">
 <pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778" rot="R180"/>
 <pad name="2" x="0" y="0" drill="0.9" diameter="1.778" rot="R180"/>
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" shape="square" rot="R180"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.524" shape="square" rot="R180"/>
 <wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>

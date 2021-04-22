@@ -2262,7 +2262,7 @@
 <package name="E5-4">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
  grid 5.05 mm, diameter 4 mm</description>
-<pad name="+" x="-2.54" y="0" drill="0.9" shape="square" stop="no"/>
+<pad name="+" x="-2.54" y="0" drill="0.9" diameter="1.524" shape="square" stop="no"/>
 <pad name="-" x="2.54" y="0" drill="0.9" diameter="1.778" stop="no"/>
 <text x="0" y="-1.905" size="0.6096" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="1.905" size="0.6096" layer="27" align="center">&gt;VALUE</text>
@@ -2395,7 +2395,7 @@
 <wire x1="-0.1397" y1="0.6985" x2="-0.4445" y2="0.6985" width="0.0762" layer="21"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
 <pad name="-" x="1.27" y="0" drill="0.9" diameter="1.778"/>
-<pad name="+" x="-1.27" y="0" drill="0.9" shape="square"/>
+<pad name="+" x="-1.27" y="0" drill="0.9" diameter="1.524" shape="square"/>
 <text x="0.762" y="-1.397" size="0.4064" layer="25" align="top-left">&gt;NAME</text>
 <text x="-0.762" y="-1.397" size="0.4064" layer="27" align="top-right">&gt;VALUE</text>
 <wire x1="1.016" y1="0" x2="0.4445" y2="0" width="0.127" layer="21"/>
@@ -2481,7 +2481,7 @@
 <wire x1="0" y1="0.635" x2="0" y2="1.651" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <pad name="-" x="0" y="1.27" drill="0.9" diameter="1.778"/>
-<pad name="+" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
+<pad name="+" x="0" y="-1.27" drill="0.9" diameter="1.524" shape="square"/>
 <text x="-2.286" y="2.413" size="0.6096" layer="25" rot="R90" align="bottom-right">&gt;NAME</text>
 <text x="2.794" y="-2.667" size="0.6096" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.762" x2="0.254" y2="1.778" layer="21" rot="R90"/>
