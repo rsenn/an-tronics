@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -167,6 +167,47 @@
 <text x="-3.048" y="5.461" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 </package>
+<package name="DIL4-SMD">
+<description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
+ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="2.315" y1="3.18" x2="2.315" y2="-2.164" width="0.1524" layer="21"/>
+<wire x1="2.315" y1="-2.164" x2="2.315" y2="-3.18" width="0.1524" layer="21"/>
+<wire x1="-2.315" y1="3.18" x2="2.315" y2="3.18" width="0.1524" layer="21"/>
+<wire x1="2.315" y1="-3.18" x2="-2.315" y2="-3.18" width="0.1524" layer="21"/>
+<wire x1="-2.315" y1="-3.18" x2="-2.315" y2="-2.164" width="0.1524" layer="21"/>
+<wire x1="-2.315" y1="-2.164" x2="-2.315" y2="3.18" width="0.1524" layer="21"/>
+<wire x1="2.315" y1="-2.164" x2="-2.315" y2="-2.164" width="0.1524" layer="21"/>
+<smd name="1" x="-1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
+<smd name="2" x="1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
+<smd name="3" x="1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
+<smd name="4" x="-1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
+<text x="-2.54" y="-3.175" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-3.175" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.875" y1="-5.15" x2="-0.65" y2="-3.2" layer="51"/>
+<rectangle x1="0.665" y1="-5.15" x2="1.89" y2="-3.2" layer="51"/>
+<rectangle x1="0.65" y1="3.2" x2="1.875" y2="5.15" layer="51" rot="R180"/>
+<rectangle x1="-1.89" y1="3.2" x2="-0.665" y2="5.15" layer="51" rot="R180"/>
+</package>
+<package name="DIL04">
+<description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
+ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="2.921" y1="-2.54" x2="2.921" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="2.54" x2="-2.921" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.921" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="2.54" x2="-1.524" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="2.54" x2="-2.286" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="2.54" x2="-2.286" y2="2.54" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="1.27" drill="0.8128" shape="offset" rot="R180"/>
+<pad name="2" x="-3.81" y="-1.27" drill="0.8128" shape="offset" rot="R180"/>
+<pad name="3" x="3.81" y="-1.27" drill="0.8128" shape="offset"/>
+<pad name="4" x="3.81" y="1.27" drill="0.8128" shape="offset"/>
+<text x="-2.921" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.667" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<wire x1="-1.905" y1="2.159" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="555_ALT">
@@ -184,6 +225,62 @@
 <pin name="DIS" x="-12.7" y="5.08" length="short" direction="pas"/>
 <pin name="V+" x="-2.54" y="12.7" length="short" direction="pwr" rot="R270"/>
 <pin name="GND" x="-2.54" y="-12.7" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="OK-LD">
+<description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
+ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="-6.985" y1="5.08" x2="9.525" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.985" y1="-5.08" x2="9.525" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="9.525" y1="5.08" x2="9.525" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-6.985" y1="5.08" x2="-6.985" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-1.143" x2="3.429" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="3.429" y1="0.254" x2="2.54" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.127" x2="3.048" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-0.635" x2="3.429" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="1.397" x2="2.413" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="2.413" y1="1.016" x2="2.921" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.921" y1="0.508" x2="3.302" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="3.302" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-3.175" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.27" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-3.175" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="7.366" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="6.858" y1="-1.016" x2="7.366" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="7.366" y1="-2.286" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.366" y1="-2.286" x2="6.096" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="-1.778" x2="6.858" y2="-1.016" width="0.1524" layer="94"/>
+<circle x="-3.175" y="2.54" radius="0.254" width="0.4064" layer="94"/>
+<circle x="-3.175" y="-2.54" radius="0.254" width="0.4064" layer="94"/>
+<text x="-6.985" y="5.715" size="1.778" layer="95" ratio="10">&gt;NAME</text>
+<text x="-6.985" y="-7.62" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
+<rectangle x1="4.699" y1="-2.54" x2="5.461" y2="2.54" layer="94"/>
+<pin name="AC1" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="AC2" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="E" x="12.7" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="C" x="12.7" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -205,6 +302,48 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SFH620" prefix="IC">
+<description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
+ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<gates>
+<gate name="G$1" symbol="OK-LD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="6" package="DIL4-SMD">
+<connects>
+<connect gate="G$1" pin="AC1" pad="1"/>
+<connect gate="G$1" pin="AC2" pad="2"/>
+<connect gate="G$1" pin="C" pad="4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="VISHAY/TELEFUNKEN" constant="no"/>
+<attribute name="MPN" value="SFH6206-3" constant="no"/>
+<attribute name="OC_FARNELL" value="1469585" constant="no"/>
+<attribute name="OC_NEWARK" value="58K2214" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A" package="DIL04">
+<connects>
+<connect gate="G$1" pin="AC1" pad="1"/>
+<connect gate="G$1" pin="AC2" pad="2"/>
+<connect gate="G$1" pin="C" pad="4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="SFH620A-2" constant="no"/>
+<attribute name="OC_FARNELL" value="1469594" constant="no"/>
+<attribute name="OC_NEWARK" value="97K9546" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2958,6 +3097,7 @@
 <part name="S1" library="pad" deviceset="VCC_GND" device="PWR-R" value="VCC_GNDPWR-R"/>
 <part name="OUT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="C1" library="c" deviceset="C" device="050-024X044/V" value="470n"/>
+<part name="IC2" library="ic" deviceset="SFH620" device="A"/>
 </parts>
 <sheets>
 <sheet>
@@ -2974,6 +3114,7 @@
 <instance part="OUT" gate="-" x="78.74" y="45.72" rot="R180"/>
 <instance part="OUT" gate="+" x="78.74" y="58.42" rot="R180"/>
 <instance part="C1" gate="1" x="20.32" y="27.94"/>
+<instance part="IC2" gate="G$1" x="-5.08" y="63.5"/>
 </instances>
 <busses>
 </busses>
