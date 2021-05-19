@@ -105,9 +105,9 @@
 <wire x1="-3.141503125" y1="-1.6973125" x2="-3.141503125" y2="1.6792625" width="0.127" layer="21" curve="-56.758486"/>
 <wire x1="3.108753125" y1="-1.6973125" x2="-1.7046625" y2="3.116103125" width="0.127" layer="21" curve="146.758486"/>
 <circle x="0" y="0" radius="1.271" width="0.1524" layer="21"/>
-<pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
-<pad name="1" x="2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
-<pad name="3" x="-2.54" y="2.54" drill="1" shape="octagon" rot="R135"/>
+<pad name="2" x="-2.54" y="-2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R135"/>
+<pad name="1" x="2.54" y="-2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R135"/>
+<pad name="3" x="-2.54" y="2.54" drill="1" diameter="1.27" shape="octagon" rot="R135"/>
 <text x="-3.81" y="3.81" size="1.016" layer="25">&gt;NAME</text>
 <text x="3.556" y="3.81" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 <rectangle x1="-1.235575" y1="-0.313828125" x2="1.202825" y2="0.295771875" layer="21" rot="R270"/>
@@ -361,9 +361,9 @@
 <wire x1="1.12560625" y1="-0.1993875" x2="1.142953125" y2="-0.00928125" width="0.0508" layer="21"/>
 <wire x1="-1.085140625" y1="0.318953125" x2="1.089146875" y2="0.318953125" width="0.0508" layer="21"/>
 <wire x1="-1.09868125" y1="-0.337515625" x2="1.089146875" y2="-0.337515625" width="0.0508" layer="21"/>
-<pad name="1" x="-3.55" y="-0.0025" drill="1.1" shape="octagon"/>
-<pad name="3" x="3.55" y="-0.0025" drill="1.1" shape="octagon"/>
-<pad name="2" x="0.00185625" y="3.55" drill="1.1" shape="octagon"/>
+<pad name="1" x="-3.55" y="-0.0025" drill="1.1" diameter="1.27" shape="octagon"/>
+<pad name="3" x="3.55" y="-0.0025" drill="1.1" diameter="1.27" shape="octagon"/>
+<pad name="2" x="0.00185625" y="3.55" drill="1.1" diameter="1.27" shape="octagon"/>
 </package>
 <package name="TRIM808-GFX45">
 <wire x1="-2.9720375" y1="-1.597084375" x2="-2.907275" y2="-1.51281875" width="0.0508" layer="21"/>
@@ -543,9 +543,9 @@
 <wire x1="0.655390625" y1="-0.933834375" x2="0.802084375" y2="-0.811675" width="0.0508" layer="21"/>
 <wire x1="-0.541321875" y1="0.995925" x2="0.99613125" y2="-0.54153125" width="0.0508" layer="21"/>
 <wire x1="-1.015090625" y1="0.54130625" x2="0.5319375" y2="-1.005725" width="0.0508" layer="21"/>
-<pad name="1" x="-2.54" y="2.54" drill="1.1" shape="octagon" rot="R315"/>
-<pad name="3" x="2.54" y="-2.54" drill="1.1" shape="octagon" rot="R315"/>
-<pad name="2" x="2.54" y="2.54" drill="1.1" shape="octagon" rot="R315"/>
+<pad name="1" x="-2.54" y="2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R315"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R315"/>
+<pad name="2" x="2.54" y="2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R315"/>
 </package>
 <package name="TRIM-2222-808">
 <wire x1="-2.584971875" y1="-3.874165625" x2="-3.22783125" y2="-3.23130625" width="0.127" layer="21"/>
@@ -593,9 +593,9 @@
 <circle x="0" y="0" radius="1.2192" width="0.127" layer="21"/>
 <circle x="-1.467878125" y="-4.02071875" radius="0.254" width="0.127" layer="21"/>
 <circle x="1.48685" y="-4.03061875" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-3.5921" y="0" drill="1.1" shape="octagon" rot="R45"/>
-<pad name="2" x="0" y="3.5921" drill="1.1" shape="octagon" rot="R45"/>
-<pad name="3" x="3.5921" y="0" drill="1.1" shape="octagon" rot="R45"/>
+<pad name="1" x="-3.5921" y="0" drill="1.1" diameter="1.27" shape="octagon" rot="R45"/>
+<pad name="2" x="0" y="3.5921" drill="1.1" diameter="1.27" shape="octagon" rot="R45"/>
+<pad name="3" x="3.5921" y="0" drill="1.1" diameter="1.27" shape="octagon" rot="R45"/>
 <circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
 </package>

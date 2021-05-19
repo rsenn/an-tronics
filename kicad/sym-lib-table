@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FM-Radio-Simple-Receiver-BB-eagle-import)(type Legacy)(uri ${KIPRJMOD}/FM-Radio-Simple-Receiver-BB-eagle-import.lib)(options "")(descr ""))
+)

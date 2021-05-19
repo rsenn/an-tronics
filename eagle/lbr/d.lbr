@@ -512,8 +512,8 @@
 <rectangle x1="1.27" y1="-0.0762" x2="7.239" y2="0.0762" layer="21" rot="R180"/>
 </package>
 <package name="DO34Z12">
-<pad name="C1" x="-6.35" y="0" drill="0.8" shape="octagon"/>
-<pad name="A1" x="6.35" y="0" drill="0.8" shape="octagon"/>
+<pad name="C1" x="-6.35" y="0" drill="0.8" diameter="1.27" shape="octagon"/>
+<pad name="A1" x="6.35" y="0" drill="0.8" diameter="1.27" shape="octagon"/>
 <wire x1="6.35" y1="0" x2="5.715" y2="0" width="0.127" layer="21"/>
 <text x="1.651" y="-0.762" size="0.8128" layer="25" ratio="10" rot="R180" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0.73025" size="0.8128" layer="27" ratio="10" rot="R180" align="top-center">&gt;VALUE</text>
@@ -1447,8 +1447,8 @@
 <wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
 <wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="21" curve="-28.301701"/>
 <wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="21" curve="31.60822"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.27" shape="octagon"/>
 <text x="1.905" y="0.381" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.905" y="-1.651" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -1472,8 +1472,8 @@
 <wire x1="-1.0082" y1="1.7643" x2="-2.032" y2="0" width="0.254" layer="21" curve="60.255215"/>
 <wire x1="0" y1="2.032" x2="0.9634" y2="1.7891" width="0.254" layer="21" curve="-28.301701"/>
 <wire x1="0" y1="2.032" x2="-1.065" y2="1.7306" width="0.254" layer="21" curve="31.60822"/>
-<pad name="A" x="0" y="1.27" drill="0.8128" shape="octagon"/>
-<pad name="K" x="0" y="-1.27" drill="0.8128" shape="octagon"/>
+<pad name="A" x="0" y="1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K" x="0" y="-1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
 <text x="2.286" y="1.016" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.286" y="-1.016" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
