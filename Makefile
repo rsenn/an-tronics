@@ -70,7 +70,7 @@ LAYOUTS = \
 	VCO-8038 \
 	AGC-Amplifier-LM13600-Stereo
 
-LAYOUTS := $(patsubst eagle/%,%,$(shell grep -L -E '(layer="19"|<polygon.*layer="16")' eagle/*.brd))
+#LAYOUTS := $(patsubst eagle/%,%,$(shell grep -L -E '(layer="19"|<polygon.*layer="16")' eagle/*.brd))
 
 $(info LAYOUTS: $(LAYOUTS))
 
