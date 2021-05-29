@@ -147,10 +147,10 @@
           http://www.birthofasynth.com/Thomas_Henry/Pages/8038.html
         </description>
       <plain>
-        <wire x1="0" y1="0" x2="63.5" y2="0" width="0" layer="47" />
-        <wire x1="63.5" y1="0" x2="63.5" y2="86.36" width="0" layer="47" />
-        <wire x1="63.5" y1="86.36" x2="-1.27" y2="86.36" width="0" layer="47" />
-        <wire x1="-1.27" y1="86.36" x2="0" y2="0" width="0" layer="47" />
+        <wire x1="0" y1="0" x2="63.5" y2="0" width="0" layer="20" />
+        <wire x1="63.5" y1="0" x2="63.5" y2="86.36" width="0" layer="20" />
+        <wire x1="63.5" y1="86.36" x2="-1.27" y2="86.36" width="0" layer="20" />
+        <wire x1="-1.27" y1="86.36" x2="0" y2="0" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="c">

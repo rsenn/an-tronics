@@ -78,10 +78,10 @@
           http://www.circuitdiagram.org/battery-monitor-using-lm339-ic.html
         </description>
       <plain>
-        <wire x1="0" y1="1.27" x2="40.64" y2="1.27" width="0" layer="47" />
-        <wire x1="40.64" y1="1.27" x2="40.64" y2="29.21" width="0" layer="47" />
-        <wire x1="40.64" y1="29.21" x2="0" y2="29.21" width="0" layer="47" />
-        <wire x1="0" y1="29.21" x2="0" y2="1.27" width="0" layer="47" />
+        <wire x1="0" y1="1.27" x2="40.64" y2="1.27" width="0" layer="20" />
+        <wire x1="40.64" y1="1.27" x2="40.64" y2="29.21" width="0" layer="20" />
+        <wire x1="40.64" y1="29.21" x2="0" y2="29.21" width="0" layer="20" />
+        <wire x1="0" y1="29.21" x2="0" y2="1.27" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="d">

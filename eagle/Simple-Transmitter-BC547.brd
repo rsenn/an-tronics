@@ -75,10 +75,10 @@
           Simple FM Transmitter for Line-In, based on NPN Transistor
         </description>
       <plain>
-        <wire x1="0" y1="0" x2="22.84" y2="0" width="0.0254" layer="47" />
-        <wire x1="22.84" y1="0" x2="22.84" y2="20.32" width="0.0254" layer="47" />
-        <wire x1="22.84" y1="20.32" x2="0" y2="20.32" width="0.0254" layer="47" />
-        <wire x1="0" y1="20.32" x2="0" y2="0" width="0.0254" layer="47" />
+        <wire x1="0" y1="0" x2="22.84" y2="0" width="0.0254" layer="20" />
+        <wire x1="22.84" y1="0" x2="22.84" y2="20.32" width="0.0254" layer="20" />
+        <wire x1="22.84" y1="20.32" x2="0" y2="20.32" width="0.0254" layer="20" />
+        <wire x1="0" y1="20.32" x2="0" y2="0" width="0.0254" layer="20" />
         </plain>
       <libraries>
         <library name="cap-trim">

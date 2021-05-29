@@ -79,10 +79,10 @@
           http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_circuits/Amazing%20All-Band%20Receiver.pdf
         </description>
       <plain>
-        <wire x1="31.75" y1="16.51" x2="-1.27" y2="16.51" width="0" layer="47" />
-        <wire x1="-1.27" y1="16.51" x2="-1.27" y2="-1.26" width="0" layer="47" />
-        <wire x1="-1.27" y1="-1.26" x2="31.75" y2="-1.26" width="0" layer="47" />
-        <wire x1="31.75" y1="-1.26" x2="31.75" y2="16.51" width="0" layer="47" />
+        <wire x1="31.75" y1="16.51" x2="-1.27" y2="16.51" width="0" layer="20" />
+        <wire x1="-1.27" y1="16.51" x2="-1.27" y2="-1.26" width="0" layer="20" />
+        <wire x1="-1.27" y1="-1.26" x2="31.75" y2="-1.26" width="0" layer="20" />
+        <wire x1="31.75" y1="-1.26" x2="31.75" y2="16.51" width="0" layer="20" />
         <wire x1="35.56" y1="17.78" x2="0" y2="17.78" width="0" layer="37" />
         <wire x1="35.56" y1="15.24" x2="0" y2="15.24" width="0" layer="37" />
         <wire x1="35.56" y1="12.7" x2="0" y2="12.7" width="0" layer="37" />

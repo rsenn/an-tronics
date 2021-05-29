@@ -81,10 +81,10 @@
           http://electronics-diy.com/aircraft-transmission-receiver.php
         </description>
       <plain>
-        <wire x1="0" y1="0" x2="48.26" y2="0" width="0" layer="47" />
-        <wire x1="48.26" y1="0" x2="48.26" y2="33.02" width="0" layer="47" />
-        <wire x1="48.26" y1="33.02" x2="0" y2="33.02" width="0" layer="47" />
-        <wire x1="0" y1="33.02" x2="0" y2="0" width="0" layer="47" />
+        <wire x1="0" y1="0" x2="48.26" y2="0" width="0" layer="20" />
+        <wire x1="48.26" y1="0" x2="48.26" y2="33.02" width="0" layer="20" />
+        <wire x1="48.26" y1="33.02" x2="0" y2="33.02" width="0" layer="20" />
+        <wire x1="0" y1="33.02" x2="0" y2="0" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="pad">

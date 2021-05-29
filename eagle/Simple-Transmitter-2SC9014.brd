@@ -75,10 +75,10 @@
           Simple FM Transmitter with Electret Microphone, based on NPN Transistor
         </description>
       <plain>
-        <wire x1="35.56" y1="0" x2="5.08" y2="0" width="0" layer="47" />
-        <wire x1="5.08" y1="0" x2="5.08" y2="20.32" width="0" layer="47" />
-        <wire x1="5.08" y1="20.32" x2="35.56" y2="20.32" width="0" layer="47" />
-        <wire x1="35.56" y1="20.32" x2="35.56" y2="0" width="0" layer="47" />
+        <wire x1="35.56" y1="0" x2="5.08" y2="0" width="0" layer="20" />
+        <wire x1="5.08" y1="0" x2="5.08" y2="20.32" width="0" layer="20" />
+        <wire x1="5.08" y1="20.32" x2="35.56" y2="20.32" width="0" layer="20" />
+        <wire x1="35.56" y1="20.32" x2="35.56" y2="0" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="cap-trim">

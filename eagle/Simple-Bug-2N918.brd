@@ -75,10 +75,10 @@
           Simple FM Transmitter with Electret Microphone, using 2N918, an RF NPN Transistor
         </description>
       <plain>
-        <wire layer="47" width="0" x1="0" x2="27.92" y1="0" y2="0" />
-        <wire layer="47" width="0" x1="27.92" x2="27.92" y1="0" y2="20.32" />
-        <wire layer="47" width="0" x1="27.92" x2="0" y1="20.32" y2="20.32" />
-        <wire layer="47" width="0" x1="0" x2="0" y1="20.32" y2="0" />
+        <wire layer="20" width="0" x1="0" x2="27.92" y1="0" y2="0" />
+        <wire layer="20" width="0" x1="27.92" x2="27.92" y1="0" y2="20.32" />
+        <wire layer="20" width="0" x1="27.92" x2="0" y1="20.32" y2="20.32" />
+        <wire layer="20" width="0" x1="0" x2="0" y1="20.32" y2="0" />
         </plain>
       <libraries>
         <library name="ECM">

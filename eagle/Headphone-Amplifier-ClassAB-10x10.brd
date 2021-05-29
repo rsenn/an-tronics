@@ -77,10 +77,10 @@
           http://www.electronics-diy.com/4x4.php
         </description>
       <plain>
-        <wire x1="0" y1="27.94" x2="27.94" y2="27.94" width="0" layer="47" />
-        <wire x1="27.94" y1="27.94" x2="27.94" y2="0" width="0" layer="47" />
-        <wire x1="27.94" y1="0" x2="0" y2="0" width="0" layer="47" />
-        <wire x1="0" y1="0" x2="0" y2="27.94" width="0" layer="47" />
+        <wire x1="0" y1="27.94" x2="27.94" y2="27.94" width="0" layer="20" />
+        <wire x1="27.94" y1="27.94" x2="27.94" y2="0" width="0" layer="20" />
+        <wire x1="27.94" y1="0" x2="0" y2="0" width="0" layer="20" />
+        <wire x1="0" y1="0" x2="0" y2="27.94" width="0" layer="20" />
         <text x="-1.27" y="2.54" size="0.8128" layer="47" font="vector" align="center-right">
             1
           </text>

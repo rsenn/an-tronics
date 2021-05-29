@@ -76,10 +76,10 @@
 
 http://www.electronics-diy.com/4x4.php</description>
 <plain>
-<wire x1="5.08" y1="22.86" x2="40.64" y2="22.86" width="0" layer="47"/>
-<wire x1="40.64" y1="22.86" x2="40.64" y2="40.64" width="0" layer="47"/>
-<wire x1="40.64" y1="40.64" x2="5.08" y2="40.64" width="0" layer="47"/>
-<wire x1="5.08" y1="40.64" x2="5.08" y2="22.86" width="0" layer="47"/>
+<wire x1="5.08" y1="22.86" x2="40.64" y2="22.86" width="0" layer="20"/>
+<wire x1="40.64" y1="22.86" x2="40.64" y2="40.64" width="0" layer="20"/>
+<wire x1="40.64" y1="40.64" x2="5.08" y2="40.64" width="0" layer="20"/>
+<wire x1="5.08" y1="40.64" x2="5.08" y2="22.86" width="0" layer="20"/>
 <hole x="31.75" y="29.21" drill="0.6"/>
 </plain>
 <libraries>

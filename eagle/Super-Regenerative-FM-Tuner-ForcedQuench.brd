@@ -77,10 +77,10 @@
           http://www.edn.com/design/diy/4441531/Forced-quenching-improves-three-transistor-FM-tuner
         </description>
       <plain>
-        <wire x1="38.1" y1="17.78" x2="0" y2="17.78" width="0" layer="47" />
-        <wire x1="0" y1="17.78" x2="0" y2="0" width="0" layer="47" />
-        <wire x1="0" y1="0" x2="38.1" y2="0" width="0" layer="47" />
-        <wire x1="38.1" y1="0" x2="38.1" y2="17.78" width="0" layer="47" />
+        <wire x1="38.1" y1="17.78" x2="0" y2="17.78" width="0" layer="20" />
+        <wire x1="0" y1="17.78" x2="0" y2="0" width="0" layer="20" />
+        <wire x1="0" y1="0" x2="38.1" y2="0" width="0" layer="20" />
+        <wire x1="38.1" y1="0" x2="38.1" y2="17.78" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="pad">

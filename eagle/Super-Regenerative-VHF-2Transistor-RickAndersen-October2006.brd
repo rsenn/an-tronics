@@ -151,10 +151,10 @@
         <text x="38.1" y="-1.27" size="0.8128" layer="51" align="top-center">
             16
           </text>
-        <wire x1="-2.54" y1="1.27" x2="40.64" y2="1.27" width="0" layer="47" />
-        <wire x1="40.64" y1="1.27" x2="40.64" y2="19.05" width="0" layer="47" />
-        <wire x1="40.64" y1="19.05" x2="-2.54" y2="19.05" width="0" layer="47" />
-        <wire x1="-2.54" y1="19.05" x2="-2.54" y2="1.27" width="0" layer="47" />
+        <wire x1="-2.54" y1="1.27" x2="40.64" y2="1.27" width="0" layer="20" />
+        <wire x1="40.64" y1="1.27" x2="40.64" y2="19.05" width="0" layer="20" />
+        <wire x1="40.64" y1="19.05" x2="-2.54" y2="19.05" width="0" layer="20" />
+        <wire x1="-2.54" y1="19.05" x2="-2.54" y2="1.27" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="pad">

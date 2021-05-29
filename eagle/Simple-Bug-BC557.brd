@@ -75,10 +75,10 @@
           Simple FM Transmitter with Electret Microphone, based on PNP Transistor
         </description>
       <plain>
-        <wire x1="25.4" y1="20.32" x2="0.02" y2="20.32" width="0" layer="47" />
-        <wire x1="0.02" y1="20.32" x2="0.02" y2="0" width="0" layer="47" />
-        <wire x1="0.02" y1="0" x2="25.4" y2="0" width="0" layer="47" />
-        <wire x1="25.4" y1="0" x2="25.4" y2="20.32" width="0" layer="47" />
+        <wire x1="25.4" y1="20.32" x2="0.02" y2="20.32" width="0" layer="20" />
+        <wire x1="0.02" y1="20.32" x2="0.02" y2="0" width="0" layer="20" />
+        <wire x1="0.02" y1="0" x2="25.4" y2="0" width="0" layer="20" />
+        <wire x1="25.4" y1="0" x2="25.4" y2="20.32" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="ECM">

@@ -78,10 +78,10 @@
           http://www.edn.com/design/components-and-packaging/4368741/Build-an-op-amp-with-three-discrete-transistors
         </description>
       <plain>
-        <wire x1="0" y1="0" x2="30.48" y2="0" width="0" layer="47" />
-        <wire x1="30.48" y1="0" x2="30.48" y2="20.32" width="0" layer="47" />
-        <wire x1="30.48" y1="20.32" x2="0" y2="20.32" width="0" layer="47" />
-        <wire x1="0" y1="20.32" x2="0" y2="0" width="0" layer="47" />
+        <wire x1="0" y1="0" x2="30.48" y2="0" width="0" layer="20" />
+        <wire x1="30.48" y1="0" x2="30.48" y2="20.32" width="0" layer="20" />
+        <wire x1="30.48" y1="20.32" x2="0" y2="20.32" width="0" layer="20" />
+        <wire x1="0" y1="20.32" x2="0" y2="0" width="0" layer="20" />
         </plain>
       <libraries>
         <library name="c">
