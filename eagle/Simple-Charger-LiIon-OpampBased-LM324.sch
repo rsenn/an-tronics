@@ -5789,7 +5789,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <instance part="U$1" gate="1" x="-7.62" y="50.8"/>
 <instance part="S1" gate="1" x="0" y="30.48"/>
 <instance part="LED1" gate="1" x="50.8" y="21.59"/>
-<instance part="LED2" gate="1" x="-2.54" y="5.08" rot="R180"/>
+<instance part="LED2" gate="1" x="-2.54" y="7.62"/>
 <instance part="LED3" gate="1" x="38.1" y="-2.54"/>
 <instance part="U$2" gate="1" x="-17.78" y="30.48"/>
 <instance part="S2" gate="1" x="-2.54" y="-2.54"/>
@@ -5802,8 +5802,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <instance part="LI-ION" gate="-" x="119.38" y="10.16" rot="R180"/>
 <instance part="LI-ION" gate="+" x="119.38" y="15.24" rot="R180"/>
 <instance part="S5" gate="1" x="116.84" y="5.08"/>
-<instance part="U$6" gate="1" x="25.4" y="21.59"/>
-<instance part="S6" gate="1" x="25.4" y="3.81"/>
+<instance part="U$6" gate="1" x="22.86" y="21.59"/>
+<instance part="S6" gate="1" x="22.86" y="3.81"/>
 <instance part="S7" gate="1" x="-12.7" y="12.7"/>
 <instance part="S8" gate="1" x="-17.78" y="15.24"/>
 <instance part="S9" gate="1" x="111.76" y="45.72" rot="MR90"/>
@@ -5812,8 +5812,8 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <instance part="S12" gate="1" x="110.49" y="50.8" rot="MR90"/>
 <instance part="R8" gate="1" x="50.8" y="30.48"/>
 <instance part="IC1" gate="D" x="22.86" y="38.1"/>
-<instance part="IC1" gate="C" x="25.4" y="15.24"/>
-<instance part="IC1" gate="P" x="25.4" y="15.24" rot="MR0"/>
+<instance part="IC1" gate="C" x="22.86" y="15.24"/>
+<instance part="IC1" gate="P" x="22.86" y="15.24" rot="MR0"/>
 <instance part="IC1" gate="B" x="124.46" y="48.26"/>
 <instance part="IC1" gate="A" x="124.46" y="35.56"/>
 <instance part="R1" gate="1" x="104.14" y="15.24"/>
@@ -5824,7 +5824,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <nets>
 <net name="V+" class="0">
 <segment>
-<wire x1="25.4" y1="21.59" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="21.59" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="1" pin="V+"/>
 <pinref part="IC1" gate="P" pin="V+"/>
 </segment>
@@ -5879,11 +5879,6 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <pinref part="S7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="1" pin="A"/>
-<pinref part="S2" gate="1" pin="GND"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="LED3" gate="1" pin="C"/>
 <pinref part="S3" gate="1" pin="GND"/>
 <wire x1="38.1" y1="-10.16" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
@@ -5901,7 +5896,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <wire x1="116.84" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="6.35" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="6.35" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="S6" gate="1" pin="GND"/>
 <pinref part="IC1" gate="P" pin="V-"/>
 </segment>
@@ -5924,6 +5919,11 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <pinref part="S12" gate="1" pin="GND"/>
 <wire x1="113.03" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="+IN"/>
+</segment>
+<segment>
+<pinref part="S2" gate="1" pin="GND"/>
+<pinref part="LED2" gate="1" pin="C"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5970,16 +5970,16 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="17.78" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R3" gate="1" pin="2"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="-17.78" x2="96.52" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-17.78" x2="96.52" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="12.7" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.1524" layer="91"/>
 <junction x="10.16" y="12.7"/>
-<pinref part="LED2" gate="1" pin="C"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
+<pinref part="LED2" gate="1" pin="A"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -5993,7 +5993,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <segment>
 <pinref part="R9" gate="1" pin="1"/>
 <wire x1="38.1" y1="12.7" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <junction x="38.1" y="15.24"/>
 <wire x1="38.1" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
@@ -6058,7 +6058,7 @@ https://www.circuitsdiy.com/usb-li-ion-charger-revision/ </text>
 <wire x1="5.08" y1="-22.86" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R7" gate="1" pin="2"/>
 <wire x1="2.54" y1="17.78" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 <junction x="5.08" y="17.78"/>
 <pinref part="IC1" gate="C" pin="+IN"/>
 </segment>
