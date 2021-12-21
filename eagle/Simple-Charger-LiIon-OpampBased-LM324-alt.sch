@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="4" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="59" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="62" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="60" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -5731,7 +5731,7 @@ Source: www.kingbright.com</description>
 <part name="R4" library="r" deviceset="R" device="0204/10" value="220Ω"/>
 <part name="R5" library="r" deviceset="R-H" device="0204/10" value="470Ω"/>
 <part name="R6" library="r" deviceset="R" device="0204/10-V" value="4.7kΩ"/>
-<part name="R7" library="r" deviceset="R-H" device="0204/10-V" value="3.6kΩ"/>
+<part name="R7" library="r" deviceset="R-H" device="0204/12-V" value="3.6kΩ"/>
 <part name="R9" library="r" deviceset="R" device="0204/10-V" value="1kΩ"/>
 <part name="R10" library="r" deviceset="R-H" device="0204/2V" value="680kΩ"/>
 <part name="C1" library="c" deviceset="CPOL" device="E2,5-5/V" value="100μF/16V"/>
@@ -5906,32 +5906,12 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <pinref part="IC1" gate="P" pin="V-"/>
 </segment>
 <segment>
-<pinref part="S9" gate="1" pin="GND"/>
-<wire x1="114.3" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="B" pin="-IN"/>
-</segment>
-<segment>
-<pinref part="S10" gate="1" pin="GND"/>
-<wire x1="114.3" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="-IN"/>
-</segment>
-<segment>
-<pinref part="S11" gate="1" pin="GND"/>
-<wire x1="114.3" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="+IN"/>
-</segment>
-<segment>
-<pinref part="S12" gate="1" pin="GND"/>
-<wire x1="113.03" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="B" pin="+IN"/>
-</segment>
-<segment>
 <pinref part="S2" gate="1" pin="GND"/>
 <pinref part="LED1" gate="1" pin="C"/>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="OA1+" class="0">
 <segment>
 <pinref part="R12" gate="1" pin="2"/>
 <pinref part="R5" gate="1" pin="1"/>
@@ -5943,7 +5923,7 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <pinref part="IC1" gate="D" pin="+IN"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="OA1=" class="0">
 <segment>
 <pinref part="R5" gate="1" pin="2"/>
 <wire x1="30.48" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
@@ -5961,7 +5941,7 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <pinref part="IC1" gate="D" pin="OUT"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="OA1-" class="0">
 <segment>
 <pinref part="R10" gate="1" pin="1"/>
 <wire x1="25.4" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
@@ -5973,7 +5953,7 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <pinref part="IC1" gate="D" pin="-IN"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="OA2-" class="0">
 <segment>
 <wire x1="15.24" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R3" gate="1" pin="2"/>
@@ -5987,14 +5967,14 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="D3A" class="0">
 <segment>
 <pinref part="LED3" gate="1" pin="A"/>
 <pinref part="R9" gate="1" pin="2"/>
 <wire x1="38.1" y1="0" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="OA2=" class="0">
 <segment>
 <pinref part="R9" gate="1" pin="1"/>
 <wire x1="38.1" y1="12.7" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
@@ -6010,7 +5990,7 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <pinref part="IC1" gate="C" pin="OUT"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="D2A" class="0">
 <segment>
 <pinref part="LED2" gate="1" pin="A"/>
 <wire x1="50.8" y1="24.13" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
@@ -6044,7 +6024,7 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <pinref part="T1" gate="1" pin="E"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="BAT+" class="0">
 <segment>
 <pinref part="R6" gate="1" pin="1"/>
 <wire x1="109.22" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
@@ -6055,7 +6035,7 @@ LED3: Full LED, lights if battery is full, also lights in the case battery absen
 <pinref part="R1" gate="1" pin="2"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="OA2+" class="0">
 <segment>
 <pinref part="R6" gate="1" pin="2"/>
 <wire x1="111.76" y1="2.54" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
