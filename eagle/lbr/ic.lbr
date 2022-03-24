@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -69,8 +69,8 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
@@ -2509,6 +2509,47 @@ Shaper</text>
 <pin name="EMIT" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="COL" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="555_PCB">
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.4064" layer="94"/>
+<text x="-10.16" y="10.922" size="1.016" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.827" size="0.8128" layer="96">&gt;VALUE</text>
+<pin name="TR" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="Q" x="-12.7" y="-2.54" length="short" direction="out"/>
+<pin name="R" x="-12.7" y="-7.62" length="short" direction="in" function="dot"/>
+<pin name="CV" x="12.7" y="-7.62" length="short" direction="in" rot="R180"/>
+<pin name="THR" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="DIS" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="V+" x="12.7" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-12.7" y="7.62" length="short" direction="pwr"/>
+</symbol>
+<symbol name="TBA820">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
+<text x="-2.54" y="1.27" size="1.6764" layer="95" align="center-left">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GAIN" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="INPUT" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="VCC" x="-2.54" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="BOOT" x="2.54" y="10.16" visible="pad" length="short" direction="in" rot="R270"/>
+<pin name="FREQ" x="7.62" y="5.08" visible="pad" length="short" direction="in" rot="R270"/>
+<pin name="RIPPLE" x="5.08" y="-7.62" visible="pad" length="short" direction="in" rot="R90"/>
+<pin name="GND" x="-2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<wire x1="-2.54" y1="-6.35" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="7.62" y2="1.27" width="0.254" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="-2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.1651" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="3.81" width="0.1651" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="1.27" width="0.1651" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-6.35" width="0.1651" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.1651" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="2NUL2CMP" prefix="IC" uservalue="yes">
@@ -4818,6 +4859,50 @@ https://www.digikey.com/product-detail/en/maxlinear-inc/XR2206CP-F/1016-1305-5-N
 <connect gate="G$1" pin="C" pad="2"/>
 <connect gate="G$1" pin="COL" pad="4"/>
 <connect gate="G$1" pin="EMIT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="*555_PCB" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="555_PCB" x="5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="555_PCB" package="DIL08">
+<connects>
+<connect gate="G$1" pin="CV" pad="5"/>
+<connect gate="G$1" pin="DIS" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="Q" pad="3"/>
+<connect gate="G$1" pin="R" pad="4"/>
+<connect gate="G$1" pin="THR" pad="6"/>
+<connect gate="G$1" pin="TR" pad="2"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TBA820">
+<gates>
+<gate name="G$1" symbol="TBA820" x="-15.793221875" y="-4.598496875"/>
+</gates>
+<devices>
+<device name="" package="DIL08">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="7"/>
+<connect gate="G$1" pin="FREQ" pad="1"/>
+<connect gate="G$1" pin="GAIN" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="INPUT" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="RIPPLE" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
