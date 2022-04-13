@@ -16,7 +16,11 @@ get_warning_popup() {
 }
 
 close_warning_popup() {
+ (while :; do 
+  id=${1:-$(get_warning_popup)}
+  if [ -z "$id" ]; then sleep 0.1; continue; fi
   xdotool windowraise ${1:-$(get_warning_popup)}; sleep 0.1; xdotool keydown Return
+  exit 0; done)
 }
 
 find_program() {
@@ -154,9 +158,15 @@ eagle_to_pdf() {
  exec_cmd EAGLE -N- -C "$EAGLE_CMD; QUIT"      "$INPUT" &
   pid=$!
 
+    close_warning_popup &
+    close_pid=$!
+
   while [ ! -s "$TMPOUT" ]; do
     sleep 0.1
   done
+
+  kill $close_pid 2>/dev/null
+  wait $close_pid 
 
   sleep 0.1
 
