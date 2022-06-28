@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -389,8 +389,8 @@
 <wire x1="4.1275" y1="-1.5875" x2="3.4925" y2="-1.5875" width="0.127" layer="21"/>
 <wire x1="-4.1275" y1="-0.9525" x2="-4.1275" y2="-1.5875" width="0.127" layer="21"/>
 <wire x1="-4.1275" y1="-1.5875" x2="-3.4925" y2="-1.5875" width="0.127" layer="21"/>
-<pad name="1" x="2.54" y="0" drill="0.9" diameter="1.778" />
-<pad name="2" x="-2.54" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="-4.1275" y="1.8415" size="1.016" layer="21">&gt;NAME</text>
 </package>
 <package name="PB-2P1T">
@@ -427,10 +427,10 @@
 <wire x1="4.1275" y1="-4.1275" x2="3.4925" y2="-4.1275" width="0.127" layer="21"/>
 <wire x1="-4.1275" y1="-3.4925" x2="-4.1275" y2="-4.1275" width="0.127" layer="21"/>
 <wire x1="-4.1275" y1="-4.1275" x2="-3.4925" y2="-4.1275" width="0.127" layer="21"/>
-<pad name="1" x="2.54" y="-2.54" drill="0.9" diameter="1.778" />
-<pad name="2" x="-2.54" y="-2.54" drill="0.9" diameter="1.778" />
-<pad name="3" x="2.54" y="2.54" drill="0.9" diameter="1.778" />
-<pad name="4" x="-2.54" y="2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="4" x="-2.54" y="2.54" drill="0.9" diameter="1.778"/>
 <text x="-4.1275" y="4.3815" size="1.016" layer="21">&gt;NAME</text>
 </package>
 <package name="SLSW-2P2T-H">
@@ -477,9 +477,9 @@
 <wire x1="2.286" y1="1.524" x2="1.778" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="1.524" x2="1.778" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="0.762" y1="1.524" x2="0.254" y2="1.524" width="0.1524" layer="21"/>
-<pad name="O" x="2.54" y="0" drill="1.1" diameter="2.1844"  stop="no"/>
-<pad name="P" x="0" y="0" drill="1.1" diameter="2.1844"  stop="no"/>
-<pad name="S" x="-2.54" y="0" drill="1.1" diameter="2.1844"  stop="no"/>
+<pad name="O" x="2.54" y="0" drill="1.1" diameter="2.1844" stop="no"/>
+<pad name="P" x="0" y="0" drill="1.1" diameter="2.1844" stop="no"/>
+<pad name="S" x="-2.54" y="0" drill="1.1" diameter="2.1844" stop="no"/>
 <wire x1="0.254" y1="3.556" x2="0.254" y2="1.524" width="0.1524" layer="21"/>
 <text x="-4.318" y="1.778" size="1.016" layer="25">&gt;NAME</text>
 <wire x1="-4.318" y1="-1.524" x2="4.318" y2="-1.524" width="0.1524" layer="21"/>
@@ -500,9 +500,9 @@
 <wire x1="2.286" y1="3.81" x2="1.778" y2="3.81" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="3.81" x2="1.778" y2="3.81" width="0.1524" layer="21"/>
 <wire x1="0.762" y1="3.81" x2="0.254" y2="3.81" width="0.1524" layer="21"/>
-<pad name="O" x="5.08" y="-5.08" drill="1.1" diameter="2.1844"  stop="no"/>
-<pad name="P" x="0" y="-5.08" drill="1.1" diameter="2.1844"  stop="no"/>
-<pad name="S" x="-5.08" y="-5.08" drill="1.1" diameter="2.1844"  stop="no"/>
+<pad name="O" x="5.08" y="-5.08" drill="1.1" diameter="2.1844" stop="no"/>
+<pad name="P" x="0" y="-5.08" drill="1.1" diameter="2.1844" stop="no"/>
+<pad name="S" x="-5.08" y="-5.08" drill="1.1" diameter="2.1844" stop="no"/>
 <wire x1="0.254" y1="11.176" x2="0.254" y2="3.81" width="0.1524" layer="21"/>
 <text x="8.128" y="-1.27" size="1.016" layer="25" rot="SR270" align="center-right">&gt;NAME</text>
 <wire x1="-7.366" y1="-2.54" x2="7.366" y2="-2.54" width="0.1524" layer="21"/>
@@ -590,10 +590,32 @@
 <pad name="B5" x="3.81" y="-1.27" drill="1.1" diameter="1.524" shape="octagon" rot="R270" stop="no"/>
 <pad name="B6" x="6.35" y="-1.27" drill="1.1" diameter="1.524" shape="octagon" rot="R270" stop="no"/>
 </package>
+<package name="SLSW-1P2T-HM">
+<wire x1="-4.318" y1="1.524" x2="-4.318" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="-1.524" x2="4.318" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="-1.524" x2="0.762" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.524" x2="1.778" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-3.556" x2="1.27" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-3.556" x2="0.762" y2="-3.556" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-3.556" x2="1.778" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-1.524" x2="2.286" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-3.556" x2="2.286" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-1.524" x2="0.762" y2="-3.556" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-1.524" x2="1.27" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-3.556" x2="1.778" y2="-3.556" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-3.556" x2="1.778" y2="-3.556" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-3.556" x2="0.254" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="O" x="2.54" y="0" drill="1.1" diameter="2.1844" stop="no"/>
+<pad name="P" x="0" y="0" drill="1.1" diameter="2.1844" stop="no"/>
+<pad name="S" x="-2.54" y="0" drill="1.1" diameter="2.1844" stop="no"/>
+<wire x1="0.254" y1="-1.524" x2="0.254" y2="-3.556" width="0.1524" layer="21"/>
+<text x="-4.318" y="1.778" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-4.318" y1="-1.524" x2="4.318" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="1.524" x2="4.318" y2="1.524" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SW-1P2T">
-<text x="-7.112" y="0" size="1.016" layer="95" rot="R90" align="bottom-center">&gt;NAME</text>
 <pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="S" x="5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="O" x="-5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
@@ -817,6 +839,16 @@
 </technologies>
 </device>
 <device name="-JPSW" package="JPSW-1P2T">
+<connects>
+<connect gate="1" pin="O" pad="O"/>
+<connect gate="1" pin="P" pad="P"/>
+<connect gate="1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HM" package="SLSW-1P2T-HM">
 <connects>
 <connect gate="1" pin="O" pad="O"/>
 <connect gate="1" pin="P" pad="P"/>
