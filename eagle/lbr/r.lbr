@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1323,6 +1323,36 @@
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
+<package name="POT-M">
+<wire x1="4.54" y1="2.43" x2="-4.54" y2="2.43" width="0.2032" layer="21"/>
+<wire x1="4.54" y1="4.43" x2="3.44" y2="4.43" width="0.2032" layer="21"/>
+<wire x1="4.54" y1="2.43" x2="4.54" y2="4.43" width="0.2032" layer="21"/>
+<wire x1="3.44" y1="4.43" x2="3.44" y2="2.53" width="0.2032" layer="21"/>
+<wire x1="4.54" y1="1.7" x2="-4.54" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="0.995" y1="6.39" x2="0.995" y2="9.89" width="0.2032" layer="21"/>
+<wire x1="-0.995" y1="9.89" x2="-0.995" y2="6.39" width="0.2032" layer="21"/>
+<wire x1="1.495" y1="2.53" x2="1.495" y2="6.09" width="0.2032" layer="21"/>
+<wire x1="1.495" y1="6.09" x2="0.995" y2="6.39" width="0.2032" layer="21"/>
+<wire x1="-0.995" y1="6.39" x2="-1.495" y2="6.09" width="0.2032" layer="21"/>
+<wire x1="-1.495" y1="6.09" x2="-1.495" y2="2.53" width="0.2032" layer="21"/>
+<wire x1="0.995" y1="6.39" x2="-0.995" y2="6.39" width="0.2032" layer="21"/>
+<wire x1="0.995" y1="9.89" x2="-0.995" y2="9.89" width="0.2032" layer="21"/>
+<wire x1="4.54" y1="2.43" x2="4.54" y2="-1.504" width="0.2032" layer="21"/>
+<wire x1="-4.54" y1="2.43" x2="-4.54" y2="-1.504" width="0.2032" layer="21"/>
+<wire x1="1.395" y1="5.755" x2="-1.395" y2="5.23" width="0.2032" layer="21"/>
+<wire x1="1.395" y1="5.255" x2="-1.395" y2="4.73" width="0.2032" layer="21"/>
+<wire x1="1.395" y1="4.755" x2="-1.395" y2="4.23" width="0.2032" layer="21"/>
+<wire x1="1.395" y1="4.255" x2="-1.395" y2="3.73" width="0.2032" layer="21"/>
+<wire x1="1.395" y1="3.755" x2="-1.395" y2="3.23" width="0.2032" layer="21"/>
+<wire x1="1.395" y1="3.255" x2="-1.395" y2="2.73" width="0.2032" layer="21"/>
+<wire x1="1.17" y1="6.215" x2="-1.395" y2="5.69" width="0.2032" layer="21"/>
+<wire x1="4.54" y1="-1.504" x2="-4.54" y2="-1.504" width="0.2032" layer="21"/>
+<pad name="A" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="S" x="0" y="0" drill="0.9" diameter="1.778"/>
+<pad name="E" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="4.572" y="-1.778" size="0.6096" layer="25" rot="R180">&gt;NAME</text>
+<text x="-4.572" y="-1.778" size="0.6096" layer="27" rot="R180" align="bottom-right">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -1989,6 +2019,16 @@
 </technologies>
 </device>
 <device name="-TRIM" package="TRIM-POT">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="E" pad="E"/>
+<connect gate="1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-M" package="POT-M">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="E" pad="E"/>
