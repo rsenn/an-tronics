@@ -73,10 +73,10 @@
 <board>
 <description>Analoger Farbmischer mit PNP Transistoren</description>
 <plain>
-<wire x1="0" y1="0" x2="33.02" y2="0" width="0" layer="48"/>
-<wire x1="33.02" y1="0" x2="33.02" y2="53.34" width="0" layer="48"/>
-<wire x1="33.02" y1="53.34" x2="0" y2="53.34" width="0" layer="48"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0" layer="48"/>
+<wire x1="0" y1="0" x2="33.02" y2="0" width="0" layer="20"/>
+<wire x1="33.02" y1="0" x2="33.02" y2="53.34" width="0" layer="20"/>
+<wire x1="33.02" y1="53.34" x2="0" y2="53.34" width="0" layer="20"/>
+<wire x1="0" y1="53.34" x2="0" y2="0" width="0" layer="20"/>
 <hole x="2.54" y="2.54" drill="0.381"/>
 <hole x="30.48" y="2.54" drill="0.381"/>
 <hole x="2.54" y="50.8" drill="0.381"/>
