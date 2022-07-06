@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -74,40 +74,39 @@
 <description>&lt;b&gt;Switches, Buttons &amp; Jumpers&lt;/b&gt;&lt;p&gt;</description>
 <packages>
 <package name="SLSW-1P2T-V">
-<wire x1="1.27" y1="4.572" x2="-2.54" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="4.572" x2="1.27" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.016" x2="1.27" y2="-4.572" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-4.572" x2="1.27" y2="-4.572" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="0" x2="3.302" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.508" x2="3.302" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.016" x2="3.302" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.016" x2="1.27" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="-1.016" x2="3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.524" x2="3.302" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.524" x2="1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="-1.524" x2="3.302" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="-2.032" x2="3.302" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="0" x2="3.302" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="-0.508" x2="3.302" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-2.032" x2="1.27" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.508" x2="1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="4.572" x2="-3.81" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="0" y1="4.572" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-4.572" x2="0" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.508" x2="2.032" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="2.032" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.524" x2="2.032" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.524" x2="0" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.524" x2="2.032" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-2.032" x2="2.032" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="0" x2="2.032" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-0.508" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.508" x2="0" y2="0" width="0.1524" layer="21"/>
 <pad name="O" x="-5.08" y="-2.54" drill="1.1" diameter="1.778" shape="octagon" rot="R180"/>
 <pad name="P" x="-5.08" y="0" drill="1.1" diameter="1.778" shape="octagon" rot="R180"/>
 <pad name="S" x="-5.08" y="2.54" drill="1.1" diameter="1.778" shape="octagon" rot="R180"/>
 <text x="-5.08" y="4.191" size="0.8128" layer="21" ratio="10" rot="R270">1</text>
 <text x="-5.08" y="5.588" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-5.588" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
-<wire x1="-2.54" y1="4.572" x2="-2.54" y2="-4.572" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-2.032" x2="3.302" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="3.302" y2="-2.54" width="0.1524" layer="21"/>
-<rectangle x1="-4.572" y1="2.286" x2="-2.54" y2="2.794" layer="21"/>
+<wire x1="-3.81" y1="4.572" x2="-3.81" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.032" x2="2.032" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.54" x2="2.032" y2="-2.54" width="0.1524" layer="21"/>
+<rectangle x1="-4.572" y1="2.286" x2="-3.81" y2="2.794" layer="21"/>
 <wire x1="-5.08" y1="2.54" x2="-4.318" y2="2.54" width="0.3048" layer="21"/>
-<rectangle x1="-4.572" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+<rectangle x1="-4.572" y1="-0.254" x2="-3.81" y2="0.254" layer="21"/>
 <wire x1="-5.08" y1="0" x2="-4.318" y2="0" width="0.3048" layer="21"/>
-<rectangle x1="-4.572" y1="-2.794" x2="-2.54" y2="-2.286" layer="21"/>
+<rectangle x1="-4.572" y1="-2.794" x2="-3.81" y2="-2.286" layer="21"/>
 <wire x1="-5.08" y1="-2.54" x2="-4.318" y2="-2.54" width="0.3048" layer="21"/>
-<wire x1="1.27" y1="0" x2="3.302" y2="0" width="0.1524" layer="21"/>
 </package>
 <package name="SLSW-2P3T">
 <wire x1="10.414" y1="-3.81" x2="10.414" y2="3.81" width="0.1524" layer="21"/>
