@@ -144,11 +144,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
-<description>Analoger Wellenmustergenerator mit 3 (trippel-Fünf) 555 Timer.
-
-IC1: Pulsgenerator
-IC2: Ein- und Ausschalt Zyklus Generator
-IC3: Tongenerator</description>
+<description>Analoger Wellenmustergenerator mit 3 (trippel-Fünf) 555 Timer.</description>
 <libraries>
 <library name="ic">
 <description>&lt;b&gt;Reference Package&lt;/b&gt;&lt;p&gt;</description>
