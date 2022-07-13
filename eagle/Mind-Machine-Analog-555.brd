@@ -662,7 +662,7 @@ design rules under a new name.</description>
 <element name="R8" library="r" package="0204/10-V" value="1kΩ" x="38.1" y="20.32"/>
 <element name="R9" library="r" package="POT" value="10kΩ" x="8.89" y="11.43"/>
 <element name="SONDE" library="pad" package="SPAD-2" value="SPAD-2" x="15.24" y="30.48"/>
-<element name="SW1" library="sw" package="SLSW-1P2T" value="SL-SW-1P-2T" x="29.21" y="33.02"/>
+<element name="S" library="sw" package="SLSW-1P2T" value="SL-SW-1P-2T" x="29.21" y="33.02"/>
 <element name="TON" library="pad" package="SPAD+-" value="SPAD+-+-" x="38.1" y="49.53"/>
 </elements>
 <signals>
@@ -703,26 +703,26 @@ design rules under a new name.</description>
 <signal name="VCC">
 <contactref element="IC1" pad="8"/>
 <contactref element="IC1" pad="4"/>
-<contactref element="IC2" pad="8"/>
 <contactref element="IC3" pad="8"/>
 <contactref element="R8" pad="1"/>
 <contactref element="R5" pad="S"/>
 <contactref element="R5" pad="E"/>
 <contactref element="R4" pad="1"/>
-<contactref element="IC2" pad="4"/>
 <contactref element="R1" pad="2"/>
 <contactref element="C1" pad="+"/>
-<contactref element="SW1" pad="P"/>
-<wire x1="21.59" y1="24.13" x2="13.97" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="31.75" x2="21.59" y2="24.13" width="0" layer="19" extent="1-1"/>
+<contactref element="S" pad="P"/>
+<contactref element="IC2" pad="4"/>
+<contactref element="IC2" pad="8"/>
+<wire x1="43.18" y1="25.4" x2="41.91" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="25.4" x2="43.18" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="24.13" x2="38.1" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="33.02" x2="34.29" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="31.75" x2="29.21" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="24.13" x2="19.05" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="16.51" x2="21.59" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="11.43" x2="26.67" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="11.43" x2="29.21" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="33.02" x2="19.05" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="34.29" y1="24.13" x2="29.21" y2="33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="25.4" x2="34.29" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="43.18" y1="25.4" x2="38.1" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="36.83" x2="43.18" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="16.51" x2="21.59" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="22.86" y1="46.99" x2="29.21" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
@@ -836,7 +836,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="BATT" pad="2"/>
-<contactref element="SW1" pad="S"/>
+<contactref element="S" pad="S"/>
 <wire x1="29.21" y1="30.48" x2="41.91" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
