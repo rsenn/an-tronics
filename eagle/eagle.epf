@@ -73,7 +73,7 @@ Layer=16
 [Win_2]
 Type="Schematic Editor"
 Loc="151 50 1859 923"
-State=0
+State=2
 Number=1
 File="Mind-Synchronizing-Generator.sch"
 View="-59.9661 -12.16 148.732 98.4438"
@@ -115,12 +115,13 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -59.9661 -12.16 148.732 98.4438"
 Sheet="1"
 
 [Win_3]
 Type="Control Panel"
-Loc="584 115 2503 1103"
-State=2
+Loc="0 24 1919 1012"
+State=1
 Number=0
 
 [Desktop]
