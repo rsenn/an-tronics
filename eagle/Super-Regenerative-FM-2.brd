@@ -71,6 +71,8 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<description>Pendelaudion
+Aus dem Sperrschicht-Feldeffekttransistor BF256B</description>
 <plain>
 <wire x1="0" y1="0" x2="30.48" y2="0" width="0" layer="20"/>
 <wire x1="30.48" y1="0" x2="30.48" y2="40.64" width="0" layer="20"/>
