@@ -784,9 +784,9 @@
 <rectangle x1="-2.8448" y1="-2.0828" x2="-2.3368" y2="-1.2192" layer="94"/>
 <rectangle x1="-2.8448" y1="1.2192" x2="-2.3368" y2="2.0828" layer="94"/>
 <rectangle x1="-2.8448" y1="-0.762" x2="-2.3368" y2="0.762" layer="94"/>
-<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <circle x="-1.778" y="0" radius="3.5921" width="0.381" layer="94"/>
 <rectangle x1="-3.7973" y1="-1.778" x2="-3.2893" y2="1.778" layer="94"/>
 <wire x1="-1.3208" y1="0" x2="-1.7653" y2="0" width="0.1524" layer="94"/>
