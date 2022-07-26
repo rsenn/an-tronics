@@ -75,83 +75,6 @@
 
 http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <libraries>
-<library name="t">
-<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
-</description>
-<packages>
-<package name="TO92">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<pad name="3" x="2.54" y="0" drill="0.8" shape="octagon"/>
-<pad name="1" x="-2.54" y="0" drill="0.8" shape="octagon"/>
-<pad name="2" x="0" y="0" drill="0.8" shape="octagon"/>
-<text x="0" y="-2.54" size="1.016" layer="25" ratio="10" align="top-center">&gt;NAME</text>
-<text x="0" y="3.81" size="0.8128" layer="27" ratio="10" align="bottom-center">&gt;VALUE</text>
-<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583"/>
-<wire x1="2.664" y1="-0.127" x2="-2.664" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.127" layer="21" curve="27.9376"/>
-<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.127" layer="21" curve="22.4788"/>
-<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.127" layer="21" curve="13.0385"/>
-<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.127" layer="21" curve="22.4788"/>
-<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="27.9376"/>
-<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
-<text x="-1.905" y="-0.635" size="0.3048" layer="21">1</text>
-</package>
-</packages>
-<symbols>
-<symbol name="JET_N">
-<wire x1="0" y1="-3.4925" x2="0" y2="-3.556" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.556" x2="0" y2="-3.683" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.683" x2="0" y2="-3.7465" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.7465" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-3.3274" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-3.3528" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="2.54" y="-5.08" size="1.778" layer="95" rot="R180" align="bottom-right">&gt;NAME</text>
-<text x="2.54" y="-7.62" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-<pin name="G" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="D" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<circle x="0" y="-1.778" radius="3.5921" width="0.381" layer="94"/>
-<rectangle x1="-0.254" y1="-5.3213" x2="0.254" y2="-1.2573" layer="94" rot="R90"/>
-<wire x1="0" y1="-3.556" x2="0.508" y2="-4.064" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="-4.064" x2="0" y2="-3.556" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-4.064" x2="-0.508" y2="-4.064" width="0.1524" layer="94"/>
-<wire x1="-0.3175" y1="-4.0005" x2="0.3175" y2="-4.0005" width="0.1524" layer="94"/>
-<wire x1="0.3175" y1="-4.0005" x2="0" y2="-3.683" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.683" x2="-0.254" y2="-3.937" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-3.937" x2="-0.3175" y2="-4.0005" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-3.937" x2="-0.1905" y2="-3.937" width="0.1524" layer="94"/>
-<wire x1="-0.1905" y1="-3.937" x2="0.1905" y2="-3.937" width="0.1524" layer="94"/>
-<wire x1="0.1905" y1="-3.937" x2="0" y2="-3.7465" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.7465" x2="-0.1905" y2="-3.937" width="0.1524" layer="94"/>
-<text x="-5.08" y="-1.27" size="1.778" layer="97" align="top-center">D</text>
-<text x="5.08" y="-1.524" size="1.778" layer="97" align="top-center">S</text>
-<text x="-1.27" y="-6.35" size="1.778" layer="97" align="top-right">G</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BF245B" prefix="Q">
-<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;</description>
-<gates>
-<gate name="1" symbol="JET_N" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92">
-<connects>
-<connect gate="1" pin="D" pad="3"/>
-<connect gate="1" pin="G" pad="1"/>
-<connect gate="1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="r">
 <description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
  Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
@@ -3676,6 +3599,85 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="t">
+<description>&lt;b&gt;Reference Package&lt;/b&gt;&lt;p&gt;</description>
+<packages>
+<package name="TO92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778"/>
+<text x="1.7145" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="0.8255" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="2.664" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
+<text x="-0.635" y="1.905" size="0.3048" layer="21" rot="R180">1</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MOSFET_N">
+<wire x1="-3.5433" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.651" x2="-2.3114" y2="1.651" width="0.1524" layer="94"/>
+<wire x1="-1.3208" y1="0" x2="-1.3208" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="-2.3368" y1="-1.651" x2="-1.3208" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="-1.3208" y1="-1.651" x2="0" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.651" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.651" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.508" x2="-0.508" y2="-0.381" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="-0.381" x2="0.508" y2="-0.381" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-0.381" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0.508" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0.508" x2="-0.6985" y2="0.3175" width="0.1524" layer="94"/>
+<wire x1="-2.3368" y1="0" x2="-1.8288" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="-1.8288" y1="-0.254" x2="-1.8288" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="-1.8288" y1="0.254" x2="-2.3368" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="-1.651" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="1.651" radius="0.127" width="0.4064" layer="94"/>
+<text x="-2.54" y="4.445" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-2.54" y="-4.572" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<rectangle x1="-2.8448" y1="-2.0828" x2="-2.3368" y2="-1.2192" layer="94"/>
+<rectangle x1="-2.8448" y1="1.2192" x2="-2.3368" y2="2.0828" layer="94"/>
+<rectangle x1="-2.8448" y1="-0.762" x2="-2.3368" y2="0.762" layer="94"/>
+<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<circle x="-1.778" y="0" radius="3.5921" width="0.381" layer="94"/>
+<rectangle x1="-3.7973" y1="-1.778" x2="-3.2893" y2="1.778" layer="94"/>
+<wire x1="-1.3208" y1="0" x2="-1.7653" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="0.508" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="0.508" x2="0.6985" y2="0.6985" width="0.1524" layer="94"/>
+<wire x1="-2.0828" y1="0" x2="-1.9558" y2="0" width="0.3048" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BF256B" prefix="T">
+<gates>
+<gate name="1" symbol="MOSFET_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="1" pin="D" pad="3"/>
+<connect gate="1" pin="G" pad="1"/>
+<connect gate="1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3686,7 +3688,6 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </class>
 </classes>
 <parts>
-<part name="Q1" library="t" deviceset="BF245B" device=""/>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIN" value="15p"/>
 <part name="C1" library="c" deviceset="C" device="050-020X036/V" value="1n"/>
 <part name="R1" library="r" deviceset="POT" device="-V" value="1kΩ"/>
@@ -3706,6 +3707,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <part name="GND" library="pad" deviceset="SPAD" device=""/>
 <part name="U$5" library="pad" deviceset="GND" device=""/>
 <part name="L1" library="l" deviceset="L-TAP1" device="L-08/12-X-TAP1" value="0.22μH"/>
+<part name="T1" library="t" deviceset="BF256B" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3714,7 +3716,6 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <text x="55.88" y="20.32" size="1.27" layer="97" font="vector" align="top-left">L2 - 26 turns of AWG 30 around 8mm form</text>
 </plain>
 <instances>
-<instance part="Q1" gate="1" x="55.88" y="60.96"/>
 <instance part="C3" gate="1" x="48.26" y="50.8" rot="MR180"/>
 <instance part="C1" gate="1" x="22.86" y="50.8" rot="MR0"/>
 <instance part="R1" gate="1" x="17.78" y="60.96" smashed="yes" rot="R90">
@@ -3743,13 +3744,13 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <instance part="GND" gate="1" x="5.08" y="53.34" rot="MR180"/>
 <instance part="U$5" gate="1" x="7.62" y="35.56" rot="MR0"/>
 <instance part="L1" gate="1" x="35.56" y="60.96"/>
+<instance part="T1" gate="1" x="55.88" y="60.96" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="Q1" gate="1" pin="G"/>
 <pinref part="U$2" gate="1" pin="GND"/>
 <wire x1="55.88" y1="53.34" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="40.64" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
@@ -3757,6 +3758,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <junction x="55.88" y="40.64"/>
 <pinref part="C3" gate="1" pin="E"/>
 <wire x1="48.26" y1="48.26" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="T1" gate="1" pin="G"/>
 </segment>
 <segment>
 <pinref part="C1" gate="1" pin="2"/>
@@ -3793,7 +3795,6 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="Q1" gate="1" pin="D"/>
 <wire x1="48.26" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="48.26" y="60.96"/>
@@ -3803,6 +3804,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <pinref part="C3" gate="1" pin="A"/>
 <wire x1="48.26" y1="60.96" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="L1" gate="1" pin="2"/>
+<pinref part="T1" gate="1" pin="D"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3828,11 +3830,11 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <pinref part="C4" gate="1" pin="2"/>
 <wire x1="58.42" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="71.12" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="1" pin="S"/>
 <wire x1="63.5" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="L2" gate="1" pin="2"/>
 <wire x1="63.5" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <junction x="63.5" y="60.96"/>
+<pinref part="T1" gate="1" pin="S"/>
 </segment>
 </net>
 <net name="N$6" class="0">
