@@ -5464,11 +5464,11 @@
 <part name="C3" library="c" deviceset="CPOL" device="E2.5-5" value="220μF"/>
 <part name="C4" library="c" deviceset="CPOL" device="E5-4" value="100μF"/>
 <part name="C5" library="c" deviceset="CPOL" device="E2,5-3" value="47μF"/>
-<part name="C8" library="c" deviceset="C-H" device="075-020X044" value="220pF"/>
+<part name="C8" library="c" deviceset="C-H" device="050-024X044/V" value="220pF"/>
 <part name="C7" library="c" deviceset="C" device="025-024X044" value="100nF"/>
 <part name="C9" library="c" deviceset="C" device="075-020X044" value="220nF"/>
 <part name="C6" library="c" deviceset="CPOL-H" device="E2,5-3" value="10μF"/>
-<part name="R5" library="r" deviceset="POT" device="-3P"/>
+<part name="R5" library="r" deviceset="POT" device="-3P" value="22kΩ"/>
 <part name="IN" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="OUT" library="pad" deviceset="SPAD+-" device="+-"/>
 <part name="S2" library="pad" deviceset="GND" device=""/>

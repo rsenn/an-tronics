@@ -178,8 +178,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="1.905" y1="-0.3175" x2="1.905" y2="0.3175" width="0.1016" layer="21"/>
 </package>
 <package name="DO34-7V">
-<pad name="C" x="0" y="3.81" drill="0.8" />
-<pad name="A" x="0" y="-3.81" drill="0.8" />
+<pad name="C" x="0" y="3.81" drill="0.8"/>
+<pad name="A" x="0" y="-3.81" drill="0.8"/>
 <wire x1="0" y1="-3.81" x2="0" y2="-2.921" width="0.127" layer="51"/>
 <text x="-1.016" y="1.905" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-1.016" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
@@ -292,10 +292,10 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="-1.651" y1="0" x2="-0.762" y2="-0.635" width="0.1524" layer="22"/>
 <wire x1="-1.651" y1="0" x2="-1.651" y2="0.635" width="0.1524" layer="22"/>
 <wire x1="-1.651" y1="-0.635" x2="-1.651" y2="0" width="0.1524" layer="22"/>
-<pad name="C" x="-1.27" y="0" drill="0.7" diameter="1.4224" />
+<pad name="C" x="-1.27" y="0" drill="0.7" diameter="1.4224"/>
 <text x="-2.159" y="1.397" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.159" y="-2.667" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="A" x="1.27" y="0" drill="0.7" diameter="1.4224" />
+<pad name="A" x="1.27" y="0" drill="0.7" diameter="1.4224"/>
 <circle x="-1.27" y="0" radius="1.27" width="0.254" layer="22"/>
 <wire x1="0.0635" y1="0" x2="1.27" y2="0" width="0.4064" layer="22"/>
 </package>
@@ -404,7 +404,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="-0.889" y1="0" x2="-0.127" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0" x2="-0.889" y2="-0.4445" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0.508" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<pad name="A" x="1.27" y="0" drill="0.7" diameter="1.4224" />
+<pad name="A" x="1.27" y="0" drill="0.7" diameter="1.4224"/>
 <text x="0" y="1.397" size="1.016" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.8128" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
 <pad name="C" x="-1.27" y="0" drill="0.7" diameter="1.4224"/>
@@ -438,8 +438,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <rectangle x1="-4.4196" y1="-0.1016" x2="-1.3208" y2="0.1016" layer="21"/>
 </package>
 <package name="DO34-5V">
-<pad name="C" x="0" y="-2.54" drill="0.8" />
-<pad name="A" x="0" y="2.54" drill="0.8" />
+<pad name="C" x="0" y="-2.54" drill="0.8"/>
+<pad name="A" x="0" y="2.54" drill="0.8"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.127" layer="51"/>
 <text x="0.381" y="1.524" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.508" y="-1.524" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
@@ -464,8 +464,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <rectangle x1="-0.2794" y1="1.4986" x2="0.2794" y2="1.7018" layer="21" rot="R270"/>
 </package>
 <package name="DO34-10V">
-<pad name="C" x="0" y="-5.08" drill="0.8" />
-<pad name="A" x="0" y="5.08" drill="0.8" />
+<pad name="C" x="0" y="-5.08" drill="0.8"/>
+<pad name="A" x="0" y="5.08" drill="0.8"/>
 <wire x1="0" y1="5.08" x2="0" y2="4.445" width="0.127" layer="51"/>
 <text x="0.254" y="1.524" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.508" y="-1.524" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
@@ -490,8 +490,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <rectangle x1="-1.5494" y1="-2.9718" x2="1.5494" y2="-2.7686" layer="21" rot="R90"/>
 </package>
 <package name="DO34-12V">
-<pad name="C" x="0" y="-6.35" drill="0.8" />
-<pad name="A" x="0" y="6.35" drill="0.8" />
+<pad name="C" x="0" y="-6.35" drill="0.8"/>
+<pad name="A" x="0" y="6.35" drill="0.8"/>
 <wire x1="0" y1="6.35" x2="0" y2="5.715" width="0.127" layer="51"/>
 <text x="0.254" y="1.524" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.508" y="-1.524" size="0.8128" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
@@ -1168,8 +1168,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <package name="0204/2V">
 <circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
 <circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<pad name="2" x="1.27" y="0" drill="0.8" />
-<pad name="1" x="-1.27" y="0" drill="0.8" />
+<pad name="2" x="1.27" y="0" drill="0.8"/>
+<pad name="1" x="-1.27" y="0" drill="0.8"/>
 <text x="-2.1336" y="1.1684" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="51"/>
@@ -1180,8 +1180,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <text x="-2.1336" y="-2.3114" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="0202/2V">
-<pad name="1" x="0" y="-1.27" drill="0.8" />
-<pad name="2" x="0" y="1.27" drill="0.8" />
+<pad name="1" x="0" y="-1.27" drill="0.8"/>
+<pad name="2" x="0" y="1.27" drill="0.8"/>
 <text x="-0.254" y="0.508" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
 <text x="0.254" y="-0.508" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="-0.762" radius="0.762" width="0.127" layer="21"/>
@@ -1213,8 +1213,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.7" />
-<pad name="2" x="0" y="-3.81" drill="0.7" />
+<pad name="1" x="0" y="3.81" drill="0.7"/>
+<pad name="2" x="0" y="-3.81" drill="0.7"/>
 <text x="-0.889" y="0" size="1.016" layer="25" ratio="10" rot="R270" align="top-center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="51"/>
@@ -1253,8 +1253,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202V">
-<pad name="2" x="0" y="1.27" drill="0.8" />
-<pad name="1" x="0" y="-1.27" drill="0.8" />
+<pad name="2" x="0" y="1.27" drill="0.8"/>
+<pad name="1" x="0" y="-1.27" drill="0.8"/>
 <text x="-1.016" y="0.508" size="1.016" layer="25" ratio="10" align="center-right">&gt;NAME</text>
 <text x="-1.016" y="-0.508" size="0.8128" layer="27" ratio="10" align="center-right">&gt;VALUE</text>
 <circle x="0" y="0.762" radius="0.762" width="0.127" layer="21"/>
@@ -1267,8 +1267,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-6.35" drill="0.8" />
-<pad name="2" x="0" y="6.35" drill="0.8" />
+<pad name="1" x="0" y="-6.35" drill="0.8"/>
+<pad name="2" x="0" y="6.35" drill="0.8"/>
 <text x="-1.27" y="0" size="1.016" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 <wire x1="0" y1="6.35" x2="0" y2="1.651" width="0.127" layer="51"/>
@@ -1289,8 +1289,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-7.62" drill="0.8" />
-<pad name="2" x="0" y="7.62" drill="0.8" />
+<pad name="1" x="0" y="-7.62" drill="0.8"/>
+<pad name="2" x="0" y="7.62" drill="0.8"/>
 <text x="-1.27" y="0" size="1.016" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
 <wire x1="0" y1="7.62" x2="0" y2="1.651" width="0.127" layer="51"/>
@@ -1311,8 +1311,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-3.81" drill="0.7" />
-<pad name="2" x="0" y="3.81" drill="0.7" />
+<pad name="1" x="0" y="-3.81" drill="0.7"/>
+<pad name="2" x="0" y="3.81" drill="0.7"/>
 <text x="-0.254" y="1.905" size="1.016" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -1329,8 +1329,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
 </package>
 <package name="0202/5-V">
-<pad name="1" x="0" y="2.54" drill="0.8" />
-<pad name="2" x="0" y="-2.54" drill="0.8" />
+<pad name="1" x="0" y="2.54" drill="0.8"/>
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="51"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -1351,8 +1351,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="-5.08" drill="0.7" />
-<pad name="2" x="0" y="5.08" drill="0.7" />
+<pad name="1" x="0" y="-5.08" drill="0.7"/>
+<pad name="2" x="0" y="5.08" drill="0.7"/>
 <text x="-0.254" y="1.905" size="1.016" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-0.254" y="-1.905" size="0.8128" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="5.08" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -1850,8 +1850,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="-3.429" y1="1.27" x2="-3.683" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="1.016" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="-1.016" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="2.54" y="0" drill="0.8" />
-<pad name="2" x="-2.54" y="0" drill="0.8" />
+<pad name="1" x="2.54" y="0" drill="0.8"/>
+<pad name="2" x="-2.54" y="0" drill="0.8"/>
 <text x="4.064" y="1.27" size="1.016" layer="25" rot="R270">&gt;NAME</text>
 <text x="-4.064" y="-1.27" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -2261,7 +2261,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <pad name="2" x="2.54" y="0" drill="0.8"/>
 <text x="0.254" y="0.9652" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="3.556" y="0" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="0" drill="0.8" />
+<pad name="1" x="0" y="0" drill="0.8"/>
 <wire x1="3.429" y1="0" x2="2.667" y2="-0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="-0.127" y1="-0.889" x2="2.667" y2="-0.889" width="0.091440625" layer="21"/>
 <wire x1="-0.127" y1="-0.889" x2="-0.889" y2="0" width="0.091440625" layer="21" curve="-90"/>
@@ -2275,7 +2275,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <pad name="2" x="2.54" y="0" drill="0.8"/>
 <text x="-1.905" y="0.8255" size="1.016" layer="25">&gt;NAME</text>
 <text x="2.159" y="-0.8255" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8" />
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -2291,10 +2291,10 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
 <wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
-<pad name="2" x="0" y="-1.27" drill="0.8"  stop="no"/>
+<pad name="2" x="0" y="-1.27" drill="0.8" stop="no"/>
 <text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
 <text x="0.508" y="-2.413" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
-<pad name="1" x="0" y="1.27" drill="0.8"  stop="no"/>
+<pad name="1" x="0" y="1.27" drill="0.8" stop="no"/>
 <wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
@@ -2316,8 +2316,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="-1.016" y1="-3.302" x2="-0.762" y2="-3.556" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.762" y1="3.556" x2="-1.016" y2="3.302" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.762" y1="3.556" x2="1.016" y2="3.302" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="2.54" drill="0.8" />
-<pad name="2" x="0" y="-2.54" drill="0.8" />
+<pad name="1" x="0" y="2.54" drill="0.8"/>
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
 <text x="0" y="3.81" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.81" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -2336,8 +2336,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0" y1="-0.3302" x2="-0.762" y2="-0.3302" width="0.3048" layer="21"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-0.3302" width="0.1524" layer="21"/>
 <wire x1="0" y1="1.27" x2="0" y2="0.3048" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="0.8" />
-<pad name="2" x="0" y="-2.54" drill="0.8" />
+<pad name="1" x="0" y="2.54" drill="0.8"/>
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
 <text x="-1.016" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.016" y="-2.286" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.7305" x2="0.1905" y2="-1.9685" layer="51" rot="R270"/>
@@ -2358,8 +2358,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="-1.27" y1="-3.429" x2="-1.016" y2="-3.683" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="3.683" x2="-1.27" y2="3.429" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="3.683" x2="1.27" y2="3.429" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="2.54" drill="0.8" />
-<pad name="2" x="0" y="-2.54" drill="0.8" />
+<pad name="1" x="0" y="2.54" drill="0.8"/>
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
 <text x="0" y="4.064" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.064" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -2367,10 +2367,10 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="0" y="2.54" drill="0.8" />
+<pad name="2" x="0" y="2.54" drill="0.8"/>
 <text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
 <text x="1.016" y="0" size="1.016" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.8" />
+<pad name="1" x="0" y="-2.54" drill="0.8"/>
 <wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.127" layer="21" curve="-90"/>
@@ -2601,7 +2601,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.762" y1="-1.27" x2="0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.635" y1="0" x2="-1.651" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="-1.27" y="0" drill="0.7" />
+<pad name="-" x="-1.27" y="0" drill="0.7"/>
 <pad name="+" x="1.27" y="0" drill="0.7" shape="square" rot="R180"/>
 <text x="-1.397" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.143" y="-2.413" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
@@ -3624,7 +3624,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.635" y1="1.524" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="1.27" x2="0.889" y2="1.27" width="0.1524" layer="21"/>
 <pad name="+" x="0" y="2.54" drill="0.8" shape="square" rot="R270" stop="no"/>
-<pad name="-" x="0" y="-2.54" drill="0.8"  stop="no"/>
+<pad name="-" x="0" y="-2.54" drill="0.8" stop="no"/>
 <text x="-1.397" y="2.032" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.524" y="-1.778" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
@@ -4058,7 +4058,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.8" diameter="1.6002" />
+<pad name="-" x="0" y="-1.27" drill="0.8" diameter="1.6002"/>
 <pad name="+" x="0" y="1.27" drill="0.8" diameter="1.6002" shape="square" rot="R270"/>
 <text x="-1.524" y="-1.651" size="1.016" layer="25" rot="R90" align="bottom-right">&gt;NAME</text>
 <text x="2.0955" y="0.635" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
@@ -4082,7 +4082,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.6985" y1="0.1397" x2="0.6985" y2="0.4445" width="0.0762" layer="51"/>
 <wire x1="0.6985" y1="0.4445" x2="0" y2="0.4445" width="0.0762" layer="51"/>
 <circle x="0" y="0" radius="1.524" width="0.127" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" />
+<pad name="-" x="0" y="-1.27" drill="0.7"/>
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="1.7145" y="0" size="1.016" layer="25" rot="R90" align="top-center">&gt;NAME</text>
 <text x="-1.7145" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
@@ -4106,7 +4106,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.889" y1="0.2032" x2="0.889" y2="0.5842" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="-1.27" drill="0.7" />
+<pad name="-" x="0" y="-1.27" drill="0.7"/>
 <pad name="+" x="0" y="1.27" drill="0.7" shape="square" rot="R270"/>
 <text x="-1.651" y="1.524" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="0.635" y="-2.0955" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
@@ -4131,7 +4131,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="-1.27" y1="-0.762" x2="0" y2="-0.762" width="0.1524" layer="51"/>
 <wire x1="0" y1="0.635" x2="0" y2="1.651" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="0" y="1.27" drill="0.7" />
+<pad name="-" x="0" y="1.27" drill="0.7"/>
 <pad name="+" x="0" y="-1.27" drill="0.7" shape="square" rot="R90"/>
 <text x="-1.397" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.397" y="-2.413" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
@@ -4152,7 +4152,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="0.635" y1="1.524" x2="0.635" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="1.27" x2="0.889" y2="1.27" width="0.1524" layer="21"/>
 <pad name="+" x="0" y="2.54" drill="0.7" shape="square" rot="R270"/>
-<pad name="-" x="0" y="-2.54" drill="0.7" />
+<pad name="-" x="0" y="-2.54" drill="0.7"/>
 <text x="1.27" y="2.286" size="1.016" layer="25">&gt;NAME</text>
 <text x="1.524" y="-2.032" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="0.508" layer="21" rot="R270"/>
@@ -4870,71 +4870,6 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </deviceset>
 </devicesets>
 </library>
-<library name="t">
-<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
-</description>
-<packages>
-<package name="TO92">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<pad name="3" x="0" y="-2.54" drill="0.8" shape="octagon" rot="R270"/>
-<pad name="1" x="0" y="2.54" drill="0.8" shape="octagon" rot="R270"/>
-<pad name="2" x="0" y="0" drill="0.8" shape="octagon" rot="R270"/>
-<text x="-1.27" y="2.54" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="1.27" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
-<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
-<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
-<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="2.664" width="0.127" layer="21"/>
-<wire x1="1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
-<wire x1="-0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
-<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
-<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
-<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
-<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
-<text x="-0.635" y="1.905" size="0.3048" layer="21" rot="R180">1</text>
-</package>
-</packages>
-<symbols>
-<symbol name="NPN">
-<wire x1="2.54" y1="2.54" x2="0.0635" y2="1.30175" width="0.1524" layer="94"/>
-<wire x1="1.4605" y1="-1.36525" x2="1.9685" y2="-2.25425" width="0.1524" layer="94"/>
-<wire x1="1.9685" y1="-2.25425" x2="0.9525" y2="-2.38125" width="0.1524" layer="94"/>
-<wire x1="0.9525" y1="-2.38125" x2="1.4605" y2="-1.36525" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.9685" y2="-2.25425" width="0.1524" layer="94"/>
-<wire x1="1.9685" y1="-2.25425" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.2065" y1="-2.25425" x2="1.778" y2="-2.19075" width="0.3048" layer="94"/>
-<wire x1="1.778" y1="-2.19075" x2="1.4605" y2="-1.61925" width="0.3048" layer="94"/>
-<wire x1="1.4605" y1="-1.61925" x2="1.2065" y2="-2.12725" width="0.254" layer="94"/>
-<wire x1="1.2065" y1="-2.12725" x2="1.5875" y2="-2.12725" width="0.254" layer="94"/>
-<wire x1="1.5875" y1="-2.12725" x2="1.4605" y2="-1.87325" width="0.254" layer="94"/>
-<text x="-1.524" y="2.54" size="1.27" layer="95" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="-1.524" y="-2.54" size="1.27" layer="96" ratio="10" align="top-right">&gt;VALUE</text>
-<rectangle x1="-0.508" y1="-2.54" x2="0.254" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-<circle x="1.27" y="0" radius="3.5921" width="0.381" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2N2907" prefix="T">
-<gates>
-<gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pad">
 <packages>
 <package name="SPAD">
@@ -5011,6 +4946,132 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 </deviceset>
 </devicesets>
 </library>
+<library name="t">
+<description>&lt;b&gt;Reference Package&lt;/b&gt;&lt;p&gt;</description>
+<packages>
+<package name="TO92-CBE">
+<description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  C B E from top&lt;p&gt;</description>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" rot="R180"/>
+<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="2.664" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
+<text x="1.27" y="0" size="0.6096" layer="25" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="-1.143" y="0" size="0.4064" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<text x="0.635" y="0.635" size="0.254" layer="48" rot="R270" align="center-right">B</text>
+<text x="0.635" y="3.175" size="0.254" layer="48" rot="R270" align="center-right">C</text>
+<text x="0.635" y="-1.905" size="0.254" layer="48" rot="R270" align="center-right">E</text>
+</package>
+<package name="TO92-CBE-A">
+<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="0" y1="-2.664" x2="0" y2="2.664" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="0" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="0" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.1359" y1="-2.413" x2="0" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="0" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="0.9525" y="0" size="0.8128" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="-0.8255" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<text x="3.175" y="0.635" size="0.254" layer="48" rot="R270" align="center-right">B</text>
+<text x="0.635" y="3.175" size="0.254" layer="48" rot="R270" align="center-right">C</text>
+<text x="0.635" y="-1.905" size="0.254" layer="48" rot="R270" align="center-right">E</text>
+</package>
+<package name="TO92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778"/>
+<text x="1.7145" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="0.8255" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="-129.583"/>
+<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="2.664" width="0.127" layer="21"/>
+<wire x1="1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-0.127" y1="2.664" x2="-1.1359" y2="2.413" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-1.1359" y1="2.4135" x2="-1.651" y2="2.095" width="0.127" layer="21" curve="13.0385"/>
+<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
+<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
+<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
+<text x="-0.635" y="1.905" size="0.3048" layer="21" rot="R180">1</text>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.0635" y2="1.30175" width="0.1524" layer="94"/>
+<wire x1="1.4605" y1="-1.36525" x2="1.9685" y2="-2.25425" width="0.1524" layer="94"/>
+<wire x1="1.9685" y1="-2.25425" x2="0.9525" y2="-2.38125" width="0.1524" layer="94"/>
+<wire x1="0.9525" y1="-2.38125" x2="1.4605" y2="-1.36525" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.9685" y2="-2.25425" width="0.1524" layer="94"/>
+<wire x1="1.9685" y1="-2.25425" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.2065" y1="-2.25425" x2="1.778" y2="-2.19075" width="0.3048" layer="94"/>
+<wire x1="1.778" y1="-2.19075" x2="1.4605" y2="-1.61925" width="0.3048" layer="94"/>
+<wire x1="1.4605" y1="-1.61925" x2="1.2065" y2="-2.12725" width="0.254" layer="94"/>
+<wire x1="1.2065" y1="-2.12725" x2="1.5875" y2="-2.12725" width="0.254" layer="94"/>
+<wire x1="1.5875" y1="-2.12725" x2="1.4605" y2="-1.87325" width="0.254" layer="94"/>
+<text x="5.08" y="2.54" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-2.54" x2="0.254" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+<circle x="1.27" y="0" radius="3.5921" width="0.381" layer="94"/>
+<text x="3.81" y="-3.81" size="0.6096" layer="94" font="vector" align="center">E</text>
+<text x="3.81" y="3.81" size="0.6096" layer="94" font="vector" align="center">C</text>
+<text x="-3.81" y="-1.27" size="0.6096" layer="94" font="vector" align="center">B</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BC547" prefix="T" uservalue="yes">
+<gates>
+<gate name="1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TO92-CBE" package="TO92-CBE">
+<connects>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A" package="TO92-CBE-A">
+<connects>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="TO92">
+<connects>
+<connect gate="1" pin="B" pad="2"/>
+<connect gate="1" pin="C" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5040,8 +5101,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <part name="VCC" library="pad" deviceset="SPAD" device=""/>
 <part name="C6" library="c" deviceset="CPOL" device="E2,5-3" value="1u"/>
 <part name="R7" library="r" deviceset="POT" device="" value="100kΩ"/>
-<part name="T1" library="t" deviceset="2N2907" device=""/>
-<part name="T2" library="t" deviceset="2N2907" device=""/>
+<part name="T1" library="t" deviceset="BC547" device="-TO92-CBE"/>
+<part name="T2" library="t" deviceset="BC547" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5079,8 +5140,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <attribute name="NAME" x="20.32" y="82.55" size="1.27" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="20.32" y="74.93" size="1.27" layer="96" align="top-right"/>
 </instance>
-<instance part="T1" gate="G$1" x="20.32" y="55.88"/>
-<instance part="T2" gate="G$1" x="63.5" y="55.88"/>
+<instance part="T1" gate="1" x="20.32" y="55.88"/>
+<instance part="T2" gate="1" x="63.5" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -5093,7 +5154,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="12.7" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="58.42" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
 <junction x="12.7" y="55.88"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="T1" gate="1" pin="B"/>
 </segment>
 </net>
 <net name="DC" class="0">
@@ -5157,7 +5218,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <junction x="22.86" y="71.12"/>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R7" gate="1" pin="E"/>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="T1" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="VO1" class="0">
@@ -5177,7 +5238,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="55.88" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="55.88" y="55.88"/>
 <pinref part="C4" gate="1" pin="1"/>
-<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="T2" gate="1" pin="B"/>
 </segment>
 </net>
 <net name="O2" class="0">
@@ -5195,7 +5256,7 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <pinref part="EAR+" gate="1" pin="P$1"/>
 <wire x1="93.98" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 <junction x="78.74" y="71.12"/>
-<pinref part="T2" gate="G$1" pin="C"/>
+<pinref part="T2" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5229,8 +5290,8 @@ http://www.transkommunikation.ch/dateien/schaltungen/diverse_schaltungen/radio_c
 <wire x1="111.76" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="60.96" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
 <junction x="111.76" y="40.64"/>
-<pinref part="T1" gate="G$1" pin="E"/>
-<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="T1" gate="1" pin="E"/>
+<pinref part="T2" gate="1" pin="E"/>
 </segment>
 </net>
 </nets>
