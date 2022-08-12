@@ -6357,6 +6357,39 @@
 <wire x1="-4.318" y1="-1.524" x2="4.318" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="-4.318" y1="1.524" x2="4.318" y2="1.524" width="0.1524" layer="21"/>
 </package>
+<package name="SLSW-1P2T-V2">
+<wire x1="-2.54" y1="-5.334" x2="2.54" y2="-5.334" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="5.334" x2="-2.54" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.778" x2="-6.35" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.794" x2="-6.35" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.794" x2="-6.35" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.794" x2="-2.54" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.302" x2="-6.35" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="3.302" x2="-6.35" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-6.35" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.286" x2="-2.54" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.286" x2="-6.35" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.794" x2="-2.54" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.286" x2="-2.54" y2="1.778" width="0.1524" layer="21"/>
+<pad name="O" x="0" y="2.54" drill="1.1" diameter="2.1844" shape="octagon" rot="R90" stop="no"/>
+<pad name="P" x="0" y="0" drill="1.1" diameter="2.1844" shape="octagon" rot="R90" stop="no"/>
+<pad name="S" x="0" y="-2.54" drill="1.1" diameter="2.1844" shape="octagon" rot="R90" stop="no"/>
+<wire x1="-6.35" y1="1.778" x2="-2.54" y2="1.778" width="0.1524" layer="21"/>
+<text x="-2.794" y="-5.08" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<wire x1="2.54" y1="-5.334" x2="2.54" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-5.334" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="4.318" x2="-2.54" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="4.318" x2="-6.35" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="3.81" x2="-6.35" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="0.762" x2="-6.35" y2="1.27" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SW-1P2T">
@@ -6455,6 +6488,16 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-V2" package="SLSW-1P2T-V2">
+<connects>
+<connect gate="1" pin="O" pad="O"/>
+<connect gate="1" pin="P" pad="P"/>
+<connect gate="1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -6476,7 +6519,7 @@
 <part name="C4" library="c" deviceset="C-H" device="050-020X044" value="1nF"/>
 <part name="C5" library="c" deviceset="C" device="050-020X044/V" value="10nF"/>
 <part name="C6" library="c" deviceset="C" device="050-040X075" value="470nF"/>
-<part name="C7" library="c" deviceset="C" device="075-020X044/V" value="10nF"/>
+<part name="C7" library="c" deviceset="C" device="050-020X044/V" value="10nF"/>
 <part name="C8" library="c" deviceset="C" device="050-040X075" value="470nF"/>
 <part name="C9" library="c" deviceset="CPOL-H" device="E2,5-4" value="47µF"/>
 <part name="C10" library="c" deviceset="C" device="025-025X060" value="220nF"/>
@@ -6507,7 +6550,7 @@
 <part name="U$5" library="pad" deviceset="VCC" device=""/>
 <part name="IC3" library="ic" deviceset="*555_ALT2" device="-LBL" value="555"/>
 <part name="BATT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
-<part name="S" library="sw" deviceset="SL-SW-1P-2T" device="-H" value="SL-SW-1P-2T-H"/>
+<part name="S" library="sw" deviceset="SL-SW-1P-2T" device="-V2" value="SL-SW-1P-2T-V2"/>
 <part name="R12" library="r" deviceset="R-H" device="0204/10" value="1kΩ"/>
 <part name="S11" library="pad" deviceset="GND" device=""/>
 <part name="S12" library="pad" deviceset="GND" device=""/>
