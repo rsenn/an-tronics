@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -612,6 +612,39 @@
 <wire x1="-4.318" y1="-1.524" x2="4.318" y2="-1.524" width="0.1524" layer="21"/>
 <wire x1="-4.318" y1="1.524" x2="4.318" y2="1.524" width="0.1524" layer="21"/>
 </package>
+<package name="SLSW-1P2T-V2">
+<wire x1="-2.54" y1="-5.334" x2="2.54" y2="-5.334" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="5.334" x2="-2.54" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.778" x2="-6.35" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.794" x2="-6.35" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.794" x2="-6.35" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.794" x2="-2.54" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.302" x2="-6.35" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="3.302" x2="-6.35" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-6.35" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.286" x2="-2.54" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.286" x2="-6.35" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.794" x2="-2.54" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.286" x2="-2.54" y2="1.778" width="0.1524" layer="21"/>
+<pad name="O" x="0" y="2.54" drill="1.1" diameter="2.1844" shape="octagon" rot="R90" stop="no"/>
+<pad name="P" x="0" y="0" drill="1.1" diameter="2.1844" shape="octagon" rot="R90" stop="no"/>
+<pad name="S" x="0" y="-2.54" drill="1.1" diameter="2.1844" shape="octagon" rot="R90" stop="no"/>
+<wire x1="-6.35" y1="1.778" x2="-2.54" y2="1.778" width="0.1524" layer="21"/>
+<text x="-2.794" y="-5.08" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<wire x1="2.54" y1="-5.334" x2="2.54" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-5.334" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="4.318" x2="-2.54" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="4.318" x2="-6.35" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="3.81" x2="-6.35" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="0.762" x2="-6.35" y2="1.27" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SW-1P2T">
@@ -848,6 +881,16 @@
 </technologies>
 </device>
 <device name="-HM" package="SLSW-1P2T-HM">
+<connects>
+<connect gate="1" pin="O" pad="O"/>
+<connect gate="1" pin="P" pad="P"/>
+<connect gate="1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-V2" package="SLSW-1P2T-V2">
 <connects>
 <connect gate="1" pin="O" pad="O"/>
 <connect gate="1" pin="P" pad="P"/>
