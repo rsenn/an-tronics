@@ -1091,6 +1091,22 @@
 <wire x1="-3.048" y1="0.381" x2="3.302" y2="-0.889" width="0.2032" layer="21"/>
 <wire x1="-3.048" y1="-2.159" x2="3.302" y2="-3.429" width="0.2032" layer="21"/>
 </package>
+<package name="L-08-10/5">
+<pad name="2" x="-2.54" y="-5.08" drill="0.9" diameter="1.778" rot="R270"/>
+<pad name="1" x="2.54" y="5.08" drill="0.9" diameter="1.778" rot="R270"/>
+<text x="0" y="4.699" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="4.191" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="4.191" x2="-3.048" y2="4.191" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-3.429" x2="3.302" y2="-3.429" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="-2.159" x2="3.302" y2="-3.429" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.651" x2="3.302" y2="0.381" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="4.191" x2="3.302" y2="2.921" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-3.429" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="2.921" x2="3.302" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="0.381" x2="3.302" y2="-0.889" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="-0.889" x2="3.302" y2="-2.159" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L">
@@ -1359,6 +1375,15 @@
 </technologies>
 </device>
 <device name="08-7/5" package="L-08-7/5">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="08-10/5" package="L-08-10/5">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
