@@ -1,5 +1,5 @@
-EAGLE ?= /opt/eagle-9.6.2/eagle.sh
-#EAGLE := /opt/eagle-7.2.0/bin/eagle
+#EAGLE ?= /opt/eagle-9.6.2/eagle.sh
+EAGLE := /opt/eagle-7.2.0/bin/eagle
 
 # Gerbv PCB image preview parameters - colours, plus resolution.
 GERBER_IMAGE_RESOLUTION ?= 400
