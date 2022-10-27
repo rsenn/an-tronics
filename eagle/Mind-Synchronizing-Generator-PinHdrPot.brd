@@ -186,6 +186,16 @@
 <wire x1="-1.93675" y1="1.524" x2="-1.93675" y2="2.032" width="0.0762" layer="21"/>
 <wire x1="-1.93675" y1="-1.9685" x2="-1.93675" y2="-1.4605" width="0.0762" layer="21"/>
 </package>
+<package name="SPAD-2">
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
+<text x="-1.905" y="0" size="1.016" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<text x="1.27" y="-2.54" size="1.016" layer="21" rot="R90" align="top-right">1</text>
+</package>
 <package name="AUDIO-JACK">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
  This library contains electrically-functional connectors. 
@@ -228,46 +238,13 @@
 <text x="-1.27" y="2.032" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.27" y="-2.667" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="SPAD-2">
-<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
-<text x="-1.905" y="0" size="1.016" layer="21" font="vector" ratio="9" distance="5" rot="R270" align="top-center">&gt;NAME</text>
-<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="1.27" y="-2.54" size="1.016" layer="21" rot="R90" align="top-right">1</text>
-</package>
 </packages>
 </library>
 <library name="c">
 <description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
- Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+           Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+           &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="E2,5-6">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
- grid 2.54 mm, diameter 6 mm</description>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="1.651" width="0.127" layer="21"/>
-<wire x1="-1.3335" y1="0" x2="-0.762" y2="0" width="0.09525" layer="21"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.09525" layer="21"/>
-<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.09525" layer="21"/>
-<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.09525" layer="21"/>
-<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.09525" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.09525" layer="21"/>
-<wire x1="0.5953125" y1="0" x2="1.3335" y2="0" width="0.09525" layer="21"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.9" diameter="1.778"/>
-<pad name="+" x="-1.27" y="0" drill="0.9" diameter="1.778" shape="square"/>
-<text x="0" y="1.905" size="0.6096" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.6096" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.032" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.254" y1="1.016" x2="0.254" y2="-1.016" width="0.09525" layer="21"/>
-<wire x1="0.254" y1="-1.016" x2="0.6985" y2="-1.016" width="0.09525" layer="21"/>
-<wire x1="0.6985" y1="-1.016" x2="0.6985" y2="1.016" width="0.09525" layer="21"/>
-<wire x1="0.6985" y1="1.016" x2="0.254" y2="1.016" width="0.09525" layer="21"/>
-<rectangle x1="0.2555875" y1="-1.031875" x2="0.6731" y2="1.031875" layer="21"/>
-</package>
 <package name="C075-020X044/V">
 <wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
@@ -380,6 +357,27 @@
 <rectangle x1="-0.79375" y1="-0.09525" x2="-0.47625" y2="0.09525" layer="21"/>
 <rectangle x1="0.635" y1="-0.09525" x2="0.889" y2="0.09525" layer="21"/>
 </package>
+<package name="E5-8,5">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+ grid 5.08 mm, diameter 8.5 mm</description>
+<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.143" x2="-0.254" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.143" x2="-0.254" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.143" x2="-0.889" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.143" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="2.032" x2="-3.302" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.683" y1="1.651" x2="-2.921" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0" x2="1.651" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4.445" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="0" drill="0.9" diameter="1.778" shape="square"/>
+<pad name="-" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="4.1402" y="2.286" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.5146" y="-3.0226" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="ic">
@@ -415,8 +413,8 @@
 </library>
 <library name="r">
 <description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
-        Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
-        &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+            Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+            &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="0204/10">
 <pad name="1" x="-5.08" y="0" drill="0.9" diameter="1.778"/>
@@ -535,19 +533,19 @@
 </classes>
 <designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+            &lt;p&gt;
+            Die Standard-Design-Rules sind so gewählt, dass sie für 
+            die meisten Anwendungen passen. Sollte ihre Platine 
+            besondere Anforderungen haben, treffen Sie die erforderlichen
+            Einstellungen hier und speichern die Design Rules unter 
+            einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+              &lt;p&gt;
+              The default Design Rules have been set to cover
+              a wide range of applications. Your particular design
+              may have different requirements, so please make the
+              necessary adjustments and save your customized
+              design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
@@ -714,7 +712,6 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="BATT" library="pad" package="SPAD-+" value="SPAD+--+" x="2.54" y="24.13"/>
-<element name="C1" library="c" package="E2,5-6" value="1000µF" x="55.88" y="6.35" rot="R270"/>
 <element name="C10" library="c" package="C050-025X060" value="220nF" x="142.24" y="10.16" rot="R90"/>
 <element name="C2" library="c" package="C050-020X044" value="10nF" x="50.8" y="12.7" rot="R180"/>
 <element name="C3" library="c" package="C050-040X075" value="470nF" x="50.8" y="10.16" rot="R180"/>
@@ -740,13 +737,13 @@ design rules under a new name.</description>
 <element name="R8" library="r" package="0204/10-V" value="1kΩ" x="71.12" y="12.7" rot="R180"/>
 <element name="R9" library="r" package="CONN-3P" value="10kΩ" x="124.46" y="17.78" rot="R180"/>
 <element name="S" library="sw" package="SLSW-1P2T-H" value="SL-SW-1P-2T-H" x="2.54" y="15.24" rot="R90"/>
-<element name="J2" library="pad" package="AUDIO-JACK" value="AUDIO_JACK" x="144.78" y="17.78" rot="R180"/>
 <element name="J1" library="pad" package="SPAD-+" value="SPAD+--+" x="16.51" y="15.24" rot="R90"/>
 <element name="J3" library="pad" package="SPAD-2" value="SPAD-2" x="26.67" y="15.24" rot="R90"/>
+<element name="J2" library="pad" package="AUDIO-JACK" value="AUDIO_JACK" x="144.78" y="17.78" rot="R180"/>
+<element name="C1" library="c" package="E5-8,5" value="1000µF" x="58.42" y="5.08" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="C1" pad="-"/>
 <contactref element="C3" pad="2"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="C2" pad="2"/>
@@ -758,7 +755,6 @@ design rules under a new name.</description>
 <contactref element="C6" pad="2"/>
 <contactref element="R12" pad="1"/>
 <contactref element="IC3" pad="1"/>
-<contactref element="J2" pad="SLEEVE"/>
 <wire x1="55.88" y1="2.54" x2="27.94" y2="2.54" width="0.6096" layer="16"/>
 <wire x1="55.88" y1="5.08" x2="55.88" y2="2.54" width="0.254" layer="16"/>
 <wire x1="55.88" y1="2.54" x2="76.2" y2="2.54" width="0.6096" layer="16"/>
@@ -800,6 +796,9 @@ design rules under a new name.</description>
 <wire x1="45.72" y1="23.495" x2="45.72" y2="22.86" width="0.254" layer="16"/>
 <via x="33.02" y="10.16" extent="1-16" drill="0.6" shape="square"/>
 <via x="109.22" y="12.7" extent="1-16" drill="0.6" shape="square"/>
+<contactref element="C1" pad="-"/>
+<contactref element="J2" pad="TIP"/>
+<wire x1="144.78" y1="17.78" x2="139.78" y2="22.78" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC2" pad="5"/>
@@ -818,14 +817,13 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="IC2" pad="8"/>
 <contactref element="IC2" pad="4"/>
-<contactref element="C1" pad="+"/>
 <wire x1="81.28" y1="22.86" x2="85.09" y2="25.4" width="0.3048" layer="16"/>
 <wire x1="85.09" y1="25.4" x2="93.98" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="93.98" y1="25.4" x2="96.52" y2="22.86" width="0.3048" layer="1" curve="-90"/>
 <wire x1="96.52" y1="22.86" x2="96.52" y2="20.32" width="0.3048" layer="16"/>
 <wire x1="81.28" y1="22.86" x2="78.105" y2="19.3675" width="0.3048" layer="16" curve="40"/>
 <wire x1="78.105" y1="19.3675" x2="73.66" y2="15.24" width="0.3048" layer="16" curve="-40"/>
-<wire x1="55.88" y1="7.62" x2="45.72" y2="7.62" width="0.6096" layer="16"/>
+<wire x1="60.96" y1="7.62" x2="45.72" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="7.62" x2="15.24" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="15.24" y1="7.62" x2="7.62" y2="15.24" width="0.6096" layer="16" curve="-90"/>
 <contactref element="BATT" pad="2"/>
@@ -834,7 +832,6 @@ design rules under a new name.</description>
 <wire x1="48.26" y1="25.4" x2="53.34" y2="25.4" width="0.254" layer="16"/>
 <wire x1="45.72" y1="15.24" x2="45.72" y2="12.7" width="0.254" layer="16"/>
 <wire x1="45.72" y1="12.7" x2="45.72" y2="7.62" width="0.254" layer="1"/>
-<wire x1="55.88" y1="7.62" x2="60.96" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="60.96" y1="7.62" x2="71.12" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="73.66" y1="15.24" x2="71.12" y2="12.7" width="0.254" layer="16" curve="36.869898"/>
 <wire x1="71.12" y1="12.7" x2="71.12" y2="7.62" width="0.254" layer="16"/>
@@ -853,6 +850,8 @@ design rules under a new name.</description>
 <via x="45.72" y="7.62" extent="1-16" drill="0.6" shape="square"/>
 <via x="85.09" y="25.4" extent="1-16" drill="0.6" shape="square"/>
 <via x="96.52" y="22.86" extent="1-16" drill="0.6" shape="square"/>
+<contactref element="C1" pad="+"/>
+<wire x1="60.96" y1="7.62" x2="60.96" y2="5.08" width="0.254" layer="16"/>
 </signal>
 <signal name="Q1">
 <contactref element="R1" pad="1"/>
@@ -980,15 +979,15 @@ design rules under a new name.</description>
 <signal name="N$16">
 <contactref element="R11" pad="2"/>
 <contactref element="C10" pad="1"/>
-<contactref element="J2" pad="RING"/>
-<contactref element="J2" pad="TIP"/>
 <wire x1="139.7" y1="22.86" x2="142.24" y2="20.32" width="0.254" layer="16" curve="-90"/>
 <wire x1="142.24" y1="20.32" x2="142.24" y2="15.24" width="0.254" layer="16"/>
 <wire x1="142.24" y1="15.24" x2="139.78" y2="12.78" width="0.254" layer="16" curve="-90"/>
 <wire x1="139.7" y1="22.86" x2="137.16" y2="25.4" width="0.254" layer="16" curve="-90"/>
 <wire x1="139.78" y1="12.78" x2="139.7" y2="12.78" width="0.254" layer="16"/>
 <wire x1="139.7" y1="12.78" x2="139.7" y2="10.16" width="0.254" layer="16"/>
-<wire x1="139.7" y1="22.86" x2="139.78" y2="22.78" width="0" layer="19" extent="16-16"/>
+<contactref element="J2" pad="RING"/>
+<contactref element="J2" pad="SLEEVE"/>
+<wire x1="142.24" y1="20.32" x2="144.78" y2="17.78" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$17">
 <contactref element="C7" pad="1"/>
@@ -1007,17 +1006,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$4">
 <contactref element="R7" pad="3"/>
-<wire x1="15.24" y1="20.955" x2="18.7550625" y2="28.9150625" width="0.254" layer="1" curve="-45"/>
-<wire x1="18.7550625" y1="28.9150625" x2="19.05" y2="29.21" width="0.254" layer="1"/>
-<wire x1="19.05" y1="29.21" x2="27.885" y2="33.02" width="0.254" layer="1" curve="-45"/>
-<wire x1="27.885" y1="33.02" x2="63.5" y2="33.02" width="0.254" layer="1"/>
+<wire x1="26.67" y1="33.02" x2="63.5" y2="33.02" width="0.254" layer="1"/>
 <wire x1="63.5" y1="33.02" x2="68.58" y2="27.94" width="0.254" layer="1" curve="-90"/>
 <wire x1="68.58" y1="27.94" x2="68.58" y2="20.32" width="0.254" layer="16"/>
 <contactref element="J1" pad="2"/>
-<wire x1="15.24" y1="20.955" x2="15.24" y2="17.78" width="0.254" layer="1"/>
+<wire x1="15.24" y1="21.59" x2="15.24" y2="17.78" width="0.254" layer="1"/>
 <wire x1="15.24" y1="17.78" x2="15.24" y2="15.24" width="0.254" layer="16"/>
 <via x="15.24" y="17.78" extent="1-16" drill="0.6" shape="square"/>
 <via x="68.58" y="27.94" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="26.67" y1="33.02" x2="15.24" y2="21.59" width="0.254" layer="1" curve="90"/>
 </signal>
 <signal name="N$10">
 <contactref element="R10" pad="2"/>
