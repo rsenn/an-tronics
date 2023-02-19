@@ -880,7 +880,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="S">
+<deviceset name="GND" prefix="GND">
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
 </gates>

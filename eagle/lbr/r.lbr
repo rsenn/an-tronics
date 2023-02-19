@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1125,8 +1125,8 @@
 <text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="21"/>
 <wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.508" layer="21"/>
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
+<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="21"/>
+<circle x="1.27" y="0" radius="0.635" width="0.0508" layer="21"/>
 <text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-1.0414" size="0.6096" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
