@@ -233,7 +233,7 @@
 <wire x1="2.921" y1="5.08" x2="1.016" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="-2.921" y1="5.08" x2="-1.016" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="5.08" x2="-1.016" y2="5.08" width="0.1524" layer="21" curve="-180"/>
-<text x="-3.048" y="5.461" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.048" y="5.334" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 </package>
 <package name="DIL14">
