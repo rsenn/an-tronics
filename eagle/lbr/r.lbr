@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="8" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -453,15 +453,13 @@
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
 <package name="0204/2V">
-<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="-0.9525" radius="0.635" width="0.0508" layer="21"/>
 <pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
 <pad name="1" x="0" y="1.27" drill="0.9" diameter="1.778"/>
-<text x="0" y="-2.54" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.508" layer="21"/>
+<text x="0" y="-2.413" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="-0.9525" x2="0" y2="1.27" width="0.508" layer="21"/>
 <wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.508" layer="21"/>
-<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="-0.9525" radius="0.889" width="0.1524" layer="21"/>
 <text x="0" y="2.286" size="0.6096" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="0202/7">
@@ -592,24 +590,22 @@
 <rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202/7-V">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1016" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1016" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1016" layer="21" curve="-90"/>
 <pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
 <pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
-<text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+<text x="0.254" y="1.5875" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.254" y="-1.5875" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="21"/>
 <wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="21"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1016" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1016" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1016" layer="21"/>
 <rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
 <rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
 </package>
@@ -619,15 +615,15 @@
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="21"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="21"/>
-<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1016" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1016" layer="21" curve="90"/>
 <text x="-0.5715" y="1.143" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1016" layer="21" curve="-90"/>
+<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.1016" layer="21"/>
+<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.1016" layer="21"/>
 <rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
 </package>
@@ -1373,6 +1369,18 @@
 <text x="-8.255" y="0" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
 <text x="-7.62" y="-3.81" size="0.6096" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
+<package name="CONN-3P/H">
+<pad name="3" x="-2.54" y="0" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="1" x="2.54" y="0" drill="0.9" diameter="1.524" shape="square" rot="R90"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<text x="3.391390625" y="0.986425" size="0.6096" layer="23" align="bottom-center">1</text>
+<text x="-3.81" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
+<text x="3.81" y="-1.5875" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -1913,20 +1921,20 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="POT-STEREO" prefix="R">
+<deviceset name="POT-STEREO" prefix="RV" uservalue="yes">
 <gates>
-<gate name="-1" symbol="POT" x="0" y="10.16" swaplevel="1"/>
-<gate name="-2" symbol="POT" x="0" y="-10.16" swaplevel="1"/>
+<gate name="A" symbol="POT-H" x="-5.08" y="7.62"/>
+<gate name="B" symbol="POT-H" x="-5.08" y="-12.7"/>
 </gates>
 <devices>
 <device name="" package="POT-STEREO-2X3">
 <connects>
-<connect gate="-1" pin="A" pad="1-A"/>
-<connect gate="-1" pin="E" pad="1-E"/>
-<connect gate="-1" pin="S" pad="1-S"/>
-<connect gate="-2" pin="A" pad="2-A"/>
-<connect gate="-2" pin="E" pad="2-E"/>
-<connect gate="-2" pin="S" pad="2-S"/>
+<connect gate="A" pin="A" pad="1-A"/>
+<connect gate="A" pin="E" pad="1-E"/>
+<connect gate="A" pin="S" pad="1-S"/>
+<connect gate="B" pin="A" pad="2-A"/>
+<connect gate="B" pin="E" pad="2-E"/>
+<connect gate="B" pin="S" pad="2-S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1934,12 +1942,12 @@
 </device>
 <device name="-1X6-V" package="POT-STEREO-1X6-V">
 <connects>
-<connect gate="-1" pin="A" pad="1A"/>
-<connect gate="-1" pin="E" pad="1E"/>
-<connect gate="-1" pin="S" pad="1S"/>
-<connect gate="-2" pin="A" pad="2A"/>
-<connect gate="-2" pin="E" pad="2E"/>
-<connect gate="-2" pin="S" pad="2S"/>
+<connect gate="A" pin="A" pad="1A"/>
+<connect gate="A" pin="E" pad="1E"/>
+<connect gate="A" pin="S" pad="1S"/>
+<connect gate="B" pin="A" pad="2A"/>
+<connect gate="B" pin="E" pad="2E"/>
+<connect gate="B" pin="S" pad="2S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1947,12 +1955,12 @@
 </device>
 <device name="-1X6" package="POT-STEREO-1X6">
 <connects>
-<connect gate="-1" pin="A" pad="1A"/>
-<connect gate="-1" pin="E" pad="1E"/>
-<connect gate="-1" pin="S" pad="1S"/>
-<connect gate="-2" pin="A" pad="2A"/>
-<connect gate="-2" pin="E" pad="2E"/>
-<connect gate="-2" pin="S" pad="2S"/>
+<connect gate="A" pin="A" pad="1A"/>
+<connect gate="A" pin="E" pad="1E"/>
+<connect gate="A" pin="S" pad="1S"/>
+<connect gate="B" pin="A" pad="2A"/>
+<connect gate="B" pin="E" pad="2E"/>
+<connect gate="B" pin="S" pad="2S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1960,12 +1968,12 @@
 </device>
 <device name="2X3P" package="CONN-2X3P">
 <connects>
-<connect gate="-1" pin="A" pad="1"/>
-<connect gate="-1" pin="E" pad="2"/>
-<connect gate="-1" pin="S" pad="3"/>
-<connect gate="-2" pin="A" pad="4"/>
-<connect gate="-2" pin="E" pad="5"/>
-<connect gate="-2" pin="S" pad="6"/>
+<connect gate="A" pin="A" pad="1"/>
+<connect gate="A" pin="E" pad="3"/>
+<connect gate="A" pin="S" pad="2"/>
+<connect gate="B" pin="A" pad="4"/>
+<connect gate="B" pin="E" pad="6"/>
+<connect gate="B" pin="S" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2428,6 +2436,16 @@
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="E" pad="E"/>
 <connect gate="1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3P/H" package="CONN-3P/H">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

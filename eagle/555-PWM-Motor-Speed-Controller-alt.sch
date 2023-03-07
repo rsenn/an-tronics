@@ -185,6 +185,32 @@
 <text x="-3.048" y="5.461" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R180" align="center">&gt;VALUE</text>
 </package>
+<package name="555-DIL">
+<pad name="1" x="-3.81" y="3.81" drill="0.8" diameter="1.27" shape="long"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.8" diameter="1.27" shape="long"/>
+<pad name="7" x="3.81" y="1.27" drill="0.8" diameter="1.27" shape="long"/>
+<pad name="8" x="3.81" y="3.81" drill="0.8" diameter="1.27" shape="long"/>
+<pad name="3" x="-3.81" y="-1.27" drill="0.8" diameter="1.27" shape="long"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.8" diameter="1.27" shape="long"/>
+<pad name="6" x="3.81" y="-1.27" drill="0.8" diameter="1.27" shape="long"/>
+<pad name="5" x="3.81" y="-3.81" drill="0.8" diameter="1.27" shape="long"/>
+<wire x1="2.921" y1="-5.08" x2="2.921" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="5.08" x2="-2.921" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-5.08" x2="-2.921" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="5.08" x2="1.016" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="5.08" x2="-1.016" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="5.08" x2="-1.016" y2="5.08" width="0.1524" layer="21" curve="-180"/>
+<text x="-3.048" y="5.461" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R180" align="center">&gt;VALUE</text>
+<text x="-1.905" y="3.81" size="0.4064" layer="21" font="vector" align="center">GND</text>
+<text x="-1.905" y="1.27" size="0.4064" layer="21" font="vector" align="center">TR</text>
+<text x="-1.905" y="-1.27" size="0.4064" layer="21" font="vector" align="center">Q</text>
+<text x="-1.905" y="-3.81" size="0.4064" layer="21" font="vector" align="center">R</text>
+<text x="1.905" y="3.81" size="0.4064" layer="21" font="vector" align="center">VCC</text>
+<text x="1.905" y="1.27" size="0.4064" layer="21" font="vector" align="center">DIS</text>
+<text x="1.905" y="-1.27" size="0.4064" layer="21" font="vector" align="center">TH</text>
+<text x="1.905" y="-3.81" size="0.4064" layer="21" font="vector" align="center">CV</text>
+</package>
 </packages>
 <symbols>
 <symbol name="555_ALT3">
@@ -200,12 +226,12 @@
 <pin name="CV" x="2.54" y="-12.7" length="short" direction="in" rot="R90"/>
 <pin name="THR" x="-12.7" y="0" length="short" direction="in"/>
 <pin name="DIS" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="V+" x="-2.54" y="12.7" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC" x="-2.54" y="12.7" length="short" direction="pwr" rot="R270"/>
 <pin name="GND" x="-2.54" y="-12.7" length="short" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="*555_ALT3">
+<deviceset name="*555_ALT3" prefix="IC">
 <gates>
 <gate name="G$1" symbol="555_ALT3" x="0" y="0"/>
 </gates>
@@ -219,7 +245,22 @@
 <connect gate="G$1" pin="R" pad="4"/>
 <connect gate="G$1" pin="THR" pad="2"/>
 <connect gate="G$1" pin="TR" pad="6"/>
-<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-555" package="555-DIL">
+<connects>
+<connect gate="G$1" pin="CV" pad="5"/>
+<connect gate="G$1" pin="DIS" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="Q" pad="3"/>
+<connect gate="G$1" pin="R" pad="4"/>
+<connect gate="G$1" pin="THR" pad="2"/>
+<connect gate="G$1" pin="TR" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -287,6 +328,10 @@
 <text x="1.651" y="0" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
 <text x="1.651" y="2.032" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
 <text x="1.651" y="-1.905" size="1.016" layer="16" font="vector" rot="R270" align="center">-</text>
+</package>
+<package name="SPAD">
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" stop="no"/>
+<text x="-1.0795" y="0" size="0.6096" layer="21" ratio="9" rot="R270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -405,6 +450,21 @@
 <connects>
 <connect gate="+" pin="P$1" pad="2"/>
 <connect gate="-" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPAD-1" prefix="J">
+<gates>
+<gate name="G$1" symbol="HPORT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1118,8 +1178,8 @@
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
 <pad name="2" x="0" y="2.54" drill="0.9" diameter="1.778"/>
-<text x="-0.8128" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="0.8128" y="0" size="0.6096" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="-0.635" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0.635" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 <pad name="1" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
 <wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
@@ -1307,6 +1367,22 @@
 <wire x1="4.7625" y1="0.889" x2="4.445" y2="1.143" width="0.1016" layer="21" curve="90"/>
 <rectangle x1="-0.635" y1="-0.9525" x2="-0.254" y2="0.9525" layer="21"/>
 <rectangle x1="0.254" y1="-0.9525" x2="0.635" y2="0.9525" layer="21"/>
+</package>
+<package name="C025-015X024/V">
+<wire x1="0" y1="1.397" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="21"/>
+<wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="21"/>
+<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
+<text x="-1.016" y="0" size="0.6096" layer="25" align="center-right">&gt;NAME</text>
+<text x="0.508" y="-2.413" size="0.6096" layer="27" rot="R180">&gt;VALUE</text>
+<pad name="1" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
+<wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
+<rectangle x1="-0.381" y1="0.0635" x2="0.381" y2="0.254" layer="21"/>
+<rectangle x1="-0.381" y1="-0.254" x2="0.381" y2="-0.0635" layer="21" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -1689,6 +1765,15 @@
 </technologies>
 </device>
 <device name="075-035X050" package="C075-035X050">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="025-015X024/V" package="C025-015X024/V">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -2270,15 +2355,13 @@
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
 <package name="0204/2V">
-<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="-0.9525" radius="0.635" width="0.0508" layer="21"/>
 <pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
 <pad name="1" x="0" y="1.27" drill="0.9" diameter="1.778"/>
-<text x="0" y="-2.54" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.508" layer="21"/>
+<text x="0" y="-2.413" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="-0.9525" x2="0" y2="1.27" width="0.508" layer="21"/>
 <wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.508" layer="21"/>
-<circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
-<circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="-0.9525" radius="0.889" width="0.1524" layer="21"/>
 <text x="0" y="2.286" size="0.6096" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="0202/2V">
@@ -2407,46 +2490,6 @@
 <wire x1="1.27" y1="-0.381" x2="1.27" y2="0.381" width="0.1524" layer="21"/>
 <rectangle x1="1.27" y1="-0.127" x2="1.651" y2="0.127" layer="21"/>
 <rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
-</package>
-<package name="0202/7-V">
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
-<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
-<text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
-<wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="21"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="21"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1524" layer="21"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
-</package>
-<package name="0202/5-V">
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
-<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="21"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="21"/>
-<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.127" layer="21" curve="90"/>
-<text x="-0.5715" y="1.143" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
-<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.127" layer="21"/>
-<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
-<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
 </package>
 <package name="0202/10-V">
 <wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1524" layer="21" curve="-90"/>
@@ -2727,6 +2770,56 @@
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
 <rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
 </package>
+<package name="CONN-3P/H">
+<pad name="3" x="-2.54" y="0" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" rot="R90"/>
+<pad name="1" x="2.54" y="0" drill="0.9" diameter="1.524" shape="square" rot="R90"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<text x="3.391390625" y="0.986425" size="0.6096" layer="23" align="bottom-center">1</text>
+<text x="-3.81" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
+<text x="3.81" y="-1.5875" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
+</package>
+<package name="0202/5-V">
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="21"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="21"/>
+<wire x1="-0.381" y1="1.27" x2="-0.635" y2="1.016" width="0.1016" layer="21" curve="90"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.381" y2="-1.27" width="0.1016" layer="21" curve="90"/>
+<text x="-0.5715" y="1.143" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<wire x1="0.381" y1="1.27" x2="0.635" y2="1.016" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.016" x2="0.381" y2="-1.27" width="0.1016" layer="21" curve="-90"/>
+<wire x1="-0.381" y1="1.27" x2="0.381" y2="1.27" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="1.016" width="0.1016" layer="21"/>
+<wire x1="-0.381" y1="-1.27" x2="0.381" y2="-1.27" width="0.1016" layer="21"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
+</package>
+<package name="0202/7-V">
+<wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1016" layer="21" curve="90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1016" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1016" layer="21" curve="-90"/>
+<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
+<text x="0.254" y="1.5875" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.254" y="-1.5875" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
+<wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-1.651" width="0.254" layer="21"/>
+<wire x1="-0.381" y1="-1.27" x2="-0.635" y2="-1.016" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1016" layer="21" curve="90"/>
+<wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.381" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="1.016" x2="-0.635" y2="-1.016" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="-1.016" width="0.1016" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="1.27" width="0.1016" layer="21"/>
+<rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R90"/>
+<rectangle x1="-0.1905" y1="-1.5875" x2="0.1905" y2="-1.3335" layer="21" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POT-H">
@@ -2852,6 +2945,16 @@
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="E" pad="E"/>
 <connect gate="1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3P/H" package="CONN-3P/H">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="3"/>
+<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3576,8 +3679,9 @@
 <text x="-2.159" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.159" y="-2.667" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <pad name="A" x="1.27" y="0" drill="0.9" diameter="1.778"/>
-<circle x="0.8255" y="0" radius="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.3175" y1="0" x2="-1.27" y2="0" width="0.4064" layer="21"/>
+<circle x="0.8255" y="0" radius="1.016" width="0.1016" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-1.27" y2="0" width="0.4064" layer="21"/>
+<rectangle x1="-1.296365625" y1="-0.202675" x2="-0.180859375" y2="0.202675" layer="21"/>
 </package>
 <package name="DO34-2,5-A">
 <wire x1="0.5715" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
@@ -3588,10 +3692,10 @@
 <wire x1="-0.889" y1="0" x2="-0.889" y2="-0.4445" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="0.508" x2="-0.889" y2="0" width="0.1524" layer="21"/>
 <pad name="A" x="1.27" y="0" drill="0.9" diameter="1.778"/>
-<text x="0" y="1.397" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.8128" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.397" size="0.6096" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
 <pad name="C" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
-<circle x="-0.4445" y="0" radius="1.016" width="0.1524" layer="21"/>
+<circle x="-0.4445" y="0" radius="1.016" width="0.1016" layer="21"/>
 <wire x1="0.6985" y1="0" x2="1.27" y2="0" width="0.3048" layer="21"/>
 </package>
 <package name="DO34-10">
@@ -3939,6 +4043,36 @@
 <rectangle x1="-0.2794" y1="1.4986" x2="0.2794" y2="1.7018" layer="21" rot="R270"/>
 <rectangle x1="-0.2794" y1="-1.7018" x2="0.2794" y2="-1.4986" layer="21" rot="R90"/>
 </package>
+<package name="DO34-2,5/V">
+<wire x1="-0.508" y1="1.143" x2="0.508" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="1.143" x2="0" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.1905" x2="0" y2="1.7145" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.381" x2="-0.508" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.381" x2="0.4445" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.381" x2="0" y2="0.381" width="0.1524" layer="21"/>
+<pad name="C" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
+<text x="-1.143" y="1.397" size="0.8128" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="0.8255" y="-0.254" size="0.8128" layer="27" ratio="10" align="center-left">&gt;VALUE</text>
+<pad name="A" x="0" y="1.27" drill="0.9" diameter="1.778"/>
+<circle x="0" y="0.8255" radius="1.016" width="0.1016" layer="21"/>
+<wire x1="0" y1="-0.3175" x2="0" y2="-1.27" width="0.4064" layer="21"/>
+</package>
+<package name="DO34-2.5V_A">
+<wire x1="0" y1="0.1905" x2="-0.001475" y2="-1.347053125" width="0.1524" layer="21"/>
+<wire x1="-0.509475" y1="-0.585053125" x2="0.506525" y2="-0.585053125" width="0.1524" layer="21"/>
+<wire x1="0.506525" y1="-0.585053125" x2="-0.001475" y2="-1.347053125" width="0.1524" layer="21"/>
+<wire x1="-0.001475" y1="-1.347053125" x2="0" y2="-1.7145" width="0.1524" layer="21"/>
+<wire x1="-0.001475" y1="-1.347053125" x2="-0.509475" y2="-0.585053125" width="0.1524" layer="21"/>
+<wire x1="-0.001475" y1="-1.347053125" x2="0.443025" y2="-1.347053125" width="0.1524" layer="21"/>
+<wire x1="-0.509475" y1="-1.347053125" x2="-0.001475" y2="-1.347053125" width="0.1524" layer="21"/>
+<pad name="A" x="0" y="1.27" drill="0.9" diameter="1.778" rot="R270"/>
+<text x="-1.651" y="0" size="0.8128" layer="25" ratio="10" rot="R180" align="center-left">&gt;NAME</text>
+<text x="0.889" y="0" size="0.8128" layer="27" ratio="10" rot="R180" align="center-right">&gt;VALUE</text>
+<pad name="C" x="0" y="-1.27" drill="0.9" diameter="1.778" rot="R270"/>
+<circle x="-0.001475" y="-0.902553125" radius="1.016" width="0.1016" layer="21"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.27" width="0.4064" layer="21"/>
+<rectangle x1="-0.557753125" y1="0.5359375" x2="0.557753125" y2="0.9412875" layer="21" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -4140,11 +4274,33 @@
 </technologies>
 </device>
 <device name="" package="D-2X5-10">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="34-5-V" package="DO34-5-V">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="34-2,5/V" package="DO34-2,5/V">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="34-2,5/V_A" package="DO34-2.5V_A">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -4174,8 +4330,8 @@
 <wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.127" layer="21" curve="22.4788"/>
 <wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.127" layer="21" curve="27.9376"/>
 <wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.127" layer="21" curve="13.6094"/>
-<text x="1.27" y="0" size="0.6096" layer="25" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<text x="-1.143" y="0" size="0.4064" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<text x="1.27" y="0.3175" size="0.6096" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-0.3175" size="0.4064" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
 <text x="0.635" y="0.635" size="0.254" layer="48" rot="R270" align="center-right">B</text>
 <text x="0.635" y="3.175" size="0.254" layer="48" rot="R270" align="center-right">C</text>
 <text x="0.635" y="-1.905" size="0.254" layer="48" rot="R270" align="center-right">E</text>
@@ -4265,31 +4421,36 @@
 </class>
 </classes>
 <parts>
-<part name="PWR" library="pad" deviceset="VCC_GND" device="L" value="VCC_GNDL"/>
-<part name="C1" library="c" deviceset="C" device="050-020X044/V" value="15nF"/>
+<part name="PWR" library="pad" deviceset="VCC_GND" device="R" value="VCC_GNDR"/>
+<part name="C1" library="c" deviceset="C" device="050-020X036/V" value="15nF"/>
 <part name="GND1" library="pad" deviceset="GND" device=""/>
-<part name="R1" library="r" deviceset="POT-H" device="-3P" value="1kΩ"/>
-<part name="D1" library="d" deviceset="DIODE" device="34-7V"/>
-<part name="D2" library="d" deviceset="DIODE" device="34-7V"/>
-<part name="IC1" library="ic" deviceset="*555_ALT3" device=""/>
-<part name="R2" library="r" deviceset="R" device="0204/10" value="1kΩ"/>
+<part name="R1" library="r" deviceset="POT-H" device="-3P/H" value="1kΩ"/>
+<part name="D1" library="d" deviceset="DIODE" device="34-5V" value="1N4148"/>
+<part name="D2" library="d" deviceset="DIODE" device="34-5-V" value="1N4148"/>
+<part name="IC1" library="ic" deviceset="*555_ALT3" device="" value="555"/>
+<part name="R2" library="r" deviceset="R" device="0204/2V" value="1kΩ"/>
 <part name="U$2" library="pad" deviceset="VCC" device=""/>
 <part name="T1" library="t" deviceset="BC337" device="CBE" value="BC337"/>
-<part name="R3" library="r" deviceset="R-H" device="0204/10" value="4.7kΩ"/>
-<part name="C2" library="c" deviceset="C" device="025-015X024" value="100nF"/>
+<part name="R3" library="r" deviceset="R-H" device="0202/7-V" value="4.7kΩ"/>
+<part name="C2" library="c" deviceset="C" device="025-015X024/V" value="100nF"/>
 <part name="GND2" library="pad" deviceset="GND" device=""/>
 <part name="GND3" library="pad" deviceset="GND" device=""/>
-<part name="MOTOR" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
+<part name="MOTOR" library="pad" deviceset="SPAD+-" device="+-" value="SPAD+-+-"/>
 <part name="U$3" library="pad" deviceset="VCC" device=""/>
-<part name="D3" library="d" deviceset="DIODE" device="35-7" value="1N4002"/>
+<part name="D3" library="d" deviceset="DIODE" device="34-2,5/V" value="1N4002"/>
+<part name="GND4" library="pad" deviceset="GND" device=""/>
+<part name="GND5" library="pad" deviceset="GND" device=""/>
+<part name="SW1" library="pad" deviceset="SPAD-1" device=""/>
+<part name="SW2" library="pad" deviceset="SPAD-1" device=""/>
+<part name="U$1" library="pad" deviceset="VCC" device=""/>
+<part name="U$4" library="pad" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="PWR" gate="1" x="12.7" y="83.82"/>
-<instance part="PWR" gate="G$1" x="12.7" y="27.94"/>
+<instance part="PWR" gate="1" x="-39.37" y="58.42"/>
 <instance part="C1" gate="1" x="17.78" y="38.1"/>
 <instance part="GND1" gate="1" x="17.78" y="27.94"/>
 <instance part="R1" gate="1" x="-17.78" y="71.12" rot="MR180"/>
@@ -4307,21 +4468,18 @@
 <instance part="MOTOR" gate="+" x="71.12" y="73.66" rot="R180"/>
 <instance part="U$3" gate="1" x="60.96" y="83.82"/>
 <instance part="D3" gate="1" x="60.96" y="69.85"/>
+<instance part="GND4" gate="1" x="-35.56" y="40.64"/>
+<instance part="GND5" gate="1" x="12.7" y="27.94"/>
+<instance part="PWR" gate="G$1" x="-43.18" y="40.64"/>
+<instance part="SW1" gate="G$1" x="-48.26" y="53.34"/>
+<instance part="SW2" gate="G$1" x="-48.26" y="48.26"/>
+<instance part="U$1" gate="1" x="-43.18" y="48.26"/>
+<instance part="U$4" gate="1" x="12.7" y="83.82"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VCC" class="0">
-<segment>
-<pinref part="PWR" gate="1" pin="VCC"/>
-<wire x1="12.7" y1="68.58" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="V+"/>
-<pinref part="IC1" gate="G$1" pin="R"/>
-<wire x1="12.7" y1="73.66" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="73.66" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<junction x="12.7" y="73.66"/>
-</segment>
 <segment>
 <pinref part="R2" gate="1" pin="2"/>
 <pinref part="U$2" gate="1" pin="VCC"/>
@@ -4336,13 +4494,25 @@
 <wire x1="60.96" y1="72.39" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 <junction x="60.96" y="73.66"/>
 </segment>
+<segment>
+<wire x1="-48.26" y1="48.26" x2="-43.18" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="1" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="12.7" y1="68.58" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="IC1" gate="G$1" pin="R"/>
+<wire x1="12.7" y1="73.66" x2="13.97" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="73.66" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="1" pin="VCC"/>
+<wire x1="12.7" y1="83.82" x2="13.97" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="83.82" x2="13.97" y2="73.66" width="0.1524" layer="91"/>
+<junction x="13.97" y="73.66"/>
+</segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="PWR" gate="G$1" pin="GND"/>
-<wire x1="12.7" y1="27.94" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-</segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C1" gate="1" pin="2"/>
@@ -4357,6 +4527,18 @@
 <pinref part="T1" gate="1" pin="E"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="60.96" y1="48.26" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWR" gate="G$1" pin="GND"/>
+<wire x1="-43.18" y1="40.64" x2="-43.18" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="43.18" x2="-35.56" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="-35.56" y1="43.18" x2="-35.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4439,6 +4621,13 @@
 <pinref part="D3" gate="1" pin="A"/>
 <wire x1="60.96" y1="67.31" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
 <junction x="60.96" y="66.04"/>
+</segment>
+</net>
+<net name="PWR+" class="0">
+<segment>
+<wire x1="-48.26" y1="53.34" x2="-39.37" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="P$1"/>
+<pinref part="PWR" gate="1" pin="VCC"/>
 </segment>
 </net>
 </nets>
