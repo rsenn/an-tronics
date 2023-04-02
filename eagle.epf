@@ -70,15 +70,10 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -14.2047 38.5257 98.383 100.04"
 Sheet="1"
 
 [Win_2]
-Type="Control Panel"
-Loc="316 0 1911 984"
-State=2
-Number=0
-
-[Win_3]
 Type="Library Editor"
 Loc="320 170 1919 1012"
 State=2
@@ -125,7 +120,7 @@ PadsSameType=0
 Layer=94
 Device="SL-SW-1P-2T"
 
-[Win_4]
+[Win_3]
 Type="Board Editor"
 Loc="0 0 1056 776"
 State=2
@@ -170,6 +165,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=16
+
+[Win_4]
+Type="Control Panel"
+Loc="316 0 1911 984"
+State=2
+Number=0
 
 [Desktop]
 Screen="1920 1080"

@@ -1602,10 +1602,10 @@ design rules under a new name.</description>
 <element name="D8" library="diode" package="DO35-10" value="1N4148" x="-203.2" y="143.51"/>
 <element name="D9" library="diode" package="DO35-10" value="1N4148" x="-17.78" y="151.13"/>
 <element name="IC1" library="74xx-us" package="DIL14" value="74126N" x="-160.02" y="82.55"/>
-<element name="IC11" library="303parts" package="DIL08" value="" x="-19.05" y="95.25"/>
+<element name="IC11" library="303parts" package="DIL08" value="AN6562" x="-19.05" y="95.25"/>
 <element name="IC12" library="40xx" package="DIL14" value="4066N" x="-179.07" y="82.55"/>
 <element name="IC14" library="303parts" package="SIP9" value="LA44140" x="-105.41" y="93.98"/>
-<element name="IC15A" library="303parts" package="SIP9" value="" x="-107.95" y="142.24"/>
+<element name="IC15A" library="303parts" package="SIP9" value="BA662" x="-107.95" y="142.24"/>
 <element name="IC15B" library="303parts" package="SIP9" value="BA6110" x="-129.54" y="93.98"/>
 <element name="IC16" library="74xx-eu" package="DIL16" value="74HC165N" x="-92.71" y="82.55"/>
 <element name="IC17" library="74xx-eu" package="DIL16" value="74HC165N" x="-115.57" y="82.55"/>
