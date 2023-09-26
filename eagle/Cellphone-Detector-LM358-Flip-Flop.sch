@@ -3929,11 +3929,12 @@
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.4064"/>
 </class>
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="LM358" device="N"/>
-<part name="C1" library="c" deviceset="C" device="025-024X044" value="100nF"/>
+<part name="C1" library="c" deviceset="C" device="025-025X060" value="100nF"/>
 <part name="C2" library="c" deviceset="C" device="025-024X044" value="100nF"/>
 <part name="C3" library="c" deviceset="C" device="025-024X044" value="100nF"/>
 <part name="R1" library="r" deviceset="R" device="0204/2" value="6.8MΩ"/>
@@ -3941,7 +3942,7 @@
 <part name="R3" library="r" deviceset="R-H" device="0202/2V" value="6.8MΩ"/>
 <part name="R4" library="r" deviceset="POT" device="-3P" value="470kΩ"/>
 <part name="ANT1" library="pad" deviceset="ANT" device=""/>
-<part name="S1" library="pad" deviceset="VCC_GND" device="PWR-L" value=""/>
+<part name="S1" library="pad" deviceset="VCC_GND" device="R" value="VCC_GNDR"/>
 <part name="SG1" library="buzzer" deviceset="F/CM12P" device=""/>
 <part name="T1" library="t" deviceset="BC327" device=""/>
 <part name="T2" library="t" deviceset="BC327" device=""/>
