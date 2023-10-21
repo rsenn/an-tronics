@@ -854,6 +854,14 @@
 <text x="2.54" y="12.7" size="0.6096" layer="48" font="vector" ratio="10" distance="100" rot="R180" align="center">RXD</text>
 <text x="2.54" y="2.54" size="0.6096" layer="48" font="vector" ratio="10" distance="100" rot="R180" align="center">DTR</text>
 </package>
+<package name="SCREWTERM-2">
+<pad name="P$1" x="-2.54" y="0" drill="1.27" diameter="2.54" shape="octagon"/>
+<pad name="P$2" x="2.54" y="0" drill="1.27" diameter="2.54" shape="octagon"/>
+<wire x1="-5.08" y1="3.81" x2="5.08" y2="3.81" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FTDI232-BO">
@@ -1148,6 +1156,10 @@ Breakout</text>
 <text x="0" y="-2.413" size="1.27" layer="94" font="fixed" ratio="10" distance="100" align="center-left">Orange</text>
 <text x="0" y="-4.953" size="1.27" layer="94" font="fixed" ratio="10" distance="100" align="center-left">Yellow</text>
 <text x="0" y="-7.493" size="1.27" layer="94" font="fixed" ratio="10" distance="100" align="center-left">Red</text>
+</symbol>
+<symbol name="CONN1">
+<circle x="-6.35" y="0" radius="1.524" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1604,6 +1616,23 @@ Breakout</text>
 <connect gate="1" pin="RXD" pad="3"/>
 <connect gate="1" pin="TXD" pad="4"/>
 <connect gate="1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TERM-2" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONN1" x="-2.54" y="7.62"/>
+<gate name="G$2" symbol="CONN1" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SCREWTERM-2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$2" pin="P$1" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -3691,7 +3691,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </classes>
 <parts>
 <part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PINB" value="15p"/>
-<part name="C1" library="c" deviceset="C" device="025-020X036" value="1n"/>
+<part name="C1" library="c" deviceset="C" device="025-025X060" value="1n"/>
 <part name="R1" library="r" deviceset="POT" device="" value="1kΩ"/>
 <part name="U$1" library="pad" deviceset="GND" device=""/>
 <part name="U$2" library="pad" deviceset="GND" device=""/>
