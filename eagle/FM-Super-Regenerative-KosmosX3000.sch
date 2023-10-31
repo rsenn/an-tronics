@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -81,9 +81,9 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <packages>
 <package name="TO92">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778" />
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="0" drill="0.9" diameter="1.778" />
+<pad name="3" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.778"/>
 <text x="1.7145" y="0" size="0.6096" layer="25" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0.8255" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.127" layer="21"/>
@@ -176,8 +176,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="1.905" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
 </package>
 <package name="L-02/5V">
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778" />
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" />
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
 <wire x1="0.4445" y1="1.0795" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="1.524" x2="-0.508" y2="1.0795" width="0.127" layer="21" curve="90"/>
 <wire x1="0.4445" y1="0.508" x2="0" y2="0.9525" width="0.127" layer="21" curve="90"/>
@@ -246,8 +246,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="1.905" y1="-3.81" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
 </package>
 <package name="L-04-2/5V">
-<pad name="2" x="-1.27" y="2.54" drill="0.9" diameter="1.778" />
-<pad name="1" x="1.27" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="2" x="-1.27" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="1" x="1.27" y="-2.54" drill="0.9" diameter="1.778"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
 <wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
@@ -263,8 +263,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.016" width="0.127" layer="21"/>
 </package>
 <package name="L-04-2/5">
-<pad name="2" x="2.54" y="1.27" drill="0.9" diameter="1.778" />
-<pad name="1" x="-2.54" y="-1.27" drill="0.9" diameter="1.778" />
+<pad name="2" x="2.54" y="1.27" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.9" diameter="1.778"/>
 <wire x1="-1.016" y1="1.27" x2="-2.286" y2="0" width="0.127" layer="21" curve="90"/>
 <wire x1="-2.286" y1="0" x2="-1.016" y2="-1.27" width="0.127" layer="21" curve="90"/>
 <wire x1="-0.254" y1="1.27" x2="-1.524" y2="0" width="0.127" layer="21" curve="90"/>
@@ -279,8 +279,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <text x="0" y="-1.651" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="L-02/7V">
-<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778" />
-<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778" />
+<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
 <wire x1="0.6985" y1="2.0955" x2="0" y2="2.794" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="2.794" x2="-0.635" y2="2.0955" width="0.127" layer="21" curve="90"/>
 <wire x1="0.6985" y1="1.524" x2="0" y2="2.2225" width="0.127" layer="21" curve="90"/>
@@ -305,8 +305,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <text x="-1.27" y="-1.27" size="0.8128" layer="21" align="top-right">&gt;VALUE</text>
 </package>
 <package name="L-03/10">
-<pad name="2" x="-5.08" y="0" drill="0.9" diameter="1.778" />
-<pad name="1" x="5.08" y="0" drill="0.9" diameter="1.778" />
+<pad name="2" x="-5.08" y="0" drill="0.9" diameter="1.778"/>
+<pad name="1" x="5.08" y="0" drill="0.9" diameter="1.778"/>
 <wire x1="0.762" y1="1.27" x2="2.032" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.508" y1="1.27" x2="0.762" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.778" y1="1.27" x2="-0.508" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -340,8 +340,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.127" layer="21"/>
 </package>
 <package name="L-04/7">
-<pad name="1" x="3.81" y="0" drill="0.9" diameter="1.778" />
-<pad name="2" x="-3.81" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="3.81" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
 <wire x1="-2.286" y1="1.27" x2="-3.556" y2="0" width="0.127" layer="21" curve="90"/>
 <wire x1="-3.556" y1="0" x2="-2.286" y2="-1.27" width="0.127" layer="21" curve="90"/>
 <wire x1="-1.524" y1="1.27" x2="-2.794" y2="0" width="0.127" layer="21" curve="90"/>
@@ -361,8 +361,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <text x="0" y="-2.032" size="0.8128" layer="27" rot="R180" align="center">&gt;VALUE</text>
 </package>
 <package name="L-04/8V">
-<pad name="1" x="1.27" y="-5.08" drill="0.9" diameter="1.778" />
-<pad name="2" x="-1.27" y="2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="1.27" y="-5.08" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-1.27" y="2.54" drill="0.9" diameter="1.778"/>
 <wire x1="1.27" y1="1.016" x2="0" y2="2.286" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="2.286" x2="-1.27" y2="1.016" width="0.127" layer="21" curve="90"/>
 <wire x1="1.27" y1="0.254" x2="0" y2="1.524" width="0.127" layer="21" curve="90"/>
@@ -468,8 +468,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="1.905" y1="-0.889" x2="0" y2="-2.794" width="0.127" layer="21" curve="-90"/>
 </package>
 <package name="L-08-5/8">
-<pad name="2" x="2.54" y="-2.54" drill="0.9" diameter="1.778" />
-<pad name="1" x="-2.54" y="2.54" drill="0.9" diameter="1.778" />
+<pad name="2" x="2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.9" diameter="1.778"/>
 <text x="-2.54" y="4.191" size="0.8128" layer="25" rot="R180" align="center-right">&gt;NAME</text>
 <text x="-0.381" y="-3.81" size="0.8128" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.54" y1="2.54" x2="-2.159" y2="2.54" width="0.2032" layer="21"/>
@@ -1094,9 +1094,9 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-0.889" y1="-3.705" x2="-0.889" y2="-4.191" width="0.1524" layer="51"/>
 <wire x1="0.889" y1="-3.705" x2="0.889" y2="-4.191" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="3.556" drill="0.9" diameter="1.778" />
-<pad name="3" x="0" y="-3.556" drill="0.9" diameter="1.778" />
-<pad name="2" x="-3.556" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="3.556" drill="0.9" diameter="1.778"/>
+<pad name="3" x="0" y="-3.556" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-3.556" y="0" drill="0.9" diameter="1.778"/>
 <text x="-3.937" y="4.445" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-6.223" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="-0.254" x2="1.27" y2="0.254" layer="21" rot="R270"/>
@@ -1286,7 +1286,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <package name="C050-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778" />
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.6096" layer="27" rot="R180" align="center-left">&gt;VALUE</text>
 <pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
@@ -1308,7 +1308,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="1.016" y1="0" x2="0.3937" y2="0" width="0.0762" layer="51"/>
 <wire x1="-1.016" y1="0" x2="-0.381" y2="0" width="0.0762" layer="51"/>
 <pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778" stop="no"/>
-<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"  stop="no"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778" stop="no"/>
 <wire x1="1.397" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.397" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -1498,8 +1498,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-3.429" y1="1.27" x2="-3.683" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="1.016" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="-1.016" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="2.54" y="0" drill="0.9" diameter="1.778" />
-<pad name="2" x="-2.54" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="4.064" y="1.27" size="0.6096" layer="25" rot="R270">&gt;NAME</text>
 <text x="-4.064" y="-1.27" size="0.6096" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -1909,7 +1909,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="0.254" y="0.9652" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="3.556" y="0" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778"/>
 <wire x1="3.429" y1="0" x2="2.667" y2="-0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="-0.127" y1="-0.889" x2="2.667" y2="-0.889" width="0.091440625" layer="21"/>
 <wire x1="-0.127" y1="-0.889" x2="-0.889" y2="0" width="0.091440625" layer="21" curve="-90"/>
@@ -1923,7 +1923,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
 <text x="-1.778" y="0.8255" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.8255" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
 <wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.0762" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.0762" layer="21"/>
 <wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.0762" layer="21" curve="-90"/>
@@ -1948,8 +1948,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-1.016" y1="-3.302" x2="-0.762" y2="-3.556" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.762" y1="3.556" x2="-1.016" y2="3.302" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.762" y1="3.556" x2="1.016" y2="3.302" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
 <text x="0" y="3.81" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.81" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -1968,8 +1968,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0" y1="-0.3302" x2="-0.762" y2="-0.3302" width="0.3048" layer="21"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-0.3302" width="0.1524" layer="21"/>
 <wire x1="0" y1="1.27" x2="0" y2="0.3048" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
 <text x="-1.016" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="-1.016" y="-2.286" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.7305" x2="0.1905" y2="-1.9685" layer="51" rot="R270"/>
@@ -1990,8 +1990,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-1.27" y1="-3.429" x2="-1.016" y2="-3.683" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="3.683" x2="-1.27" y2="3.429" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="3.683" x2="1.27" y2="3.429" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
 <text x="0" y="4.064" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.064" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -1999,10 +1999,10 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="0" y="2.54" drill="0.9" diameter="1.778" />
+<pad name="2" x="0" y="2.54" drill="0.9" diameter="1.778"/>
 <text x="-0.8128" y="0" size="0.6096" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="0.8128" y="0" size="0.6096" layer="27" rot="R90" align="top-center">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
 <wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
 <wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.127" layer="21" curve="-90"/>
@@ -2015,10 +2015,10 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <package name="C050-020X044/V">
 <wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
 <text x="-1.016" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="1.016" y="0" size="0.8128" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
 <wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="51"/>
@@ -2075,8 +2075,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778"/>
 <text x="-0.635" y="3.175" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
@@ -2105,7 +2105,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <package name="C075-020X044">
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
 <wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778" />
+<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778"/>
 <text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
 <pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
@@ -2123,10 +2123,10 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <package name="C075-020X044/V">
 <wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
-<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778" />
+<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
 <text x="-1.016" y="2.54" size="0.6096" layer="25" rot="R180" align="center-left">&gt;NAME</text>
 <text x="0.635" y="-2.54" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
 <wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
 <wire x1="0" y1="3.81" x2="0" y2="0.3937" width="0.0762" layer="51"/>
@@ -2523,8 +2523,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778"/>
 <text x="-0.635" y="3.175" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
@@ -2577,8 +2577,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778"/>
 <text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="5.08" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -2708,8 +2708,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
 <text x="-1.27" y="3.2004" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
@@ -2740,8 +2740,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
 <text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="3.81" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -2776,8 +2776,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <rectangle x1="-1.651" y1="-0.127" x2="-1.27" y2="0.127" layer="21"/>
 </package>
 <package name="0202/5-V">
-<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.254" layer="51"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -2794,8 +2794,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <rectangle x1="-0.1905" y1="1.3335" x2="0.1905" y2="1.5875" layer="21" rot="R270"/>
 </package>
 <package name="0202/7">
-<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778" />
-<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778" />
+<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
 <wire x1="-1.27" y1="0.381" x2="-1.016" y2="0.635" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="-0.381" x2="-1.016" y2="-0.635" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.381" width="0.1524" layer="21" curve="90"/>
@@ -2854,8 +2854,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="6.35" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-6.35" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="6.35" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-6.35" drill="0.9" diameter="1.778"/>
 <text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
@@ -2921,8 +2921,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="7.62" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-7.62" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="7.62" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-7.62" drill="0.9" diameter="1.778"/>
 <text x="-1.2954" y="-2.54" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0" y="0" size="0.6096" layer="27" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
@@ -2952,8 +2952,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <package name="0204/2V">
 <circle x="0" y="-1.27" radius="0.889" width="0.1524" layer="51"/>
 <circle x="0" y="-1.27" radius="0.635" width="0.0508" layer="51"/>
-<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778" />
-<pad name="1" x="0" y="1.27" drill="0.9" diameter="1.778" />
+<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="1.27" drill="0.9" diameter="1.778"/>
 <text x="0" y="-2.54" size="0.6096" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.508" layer="51"/>
 <wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.508" layer="21"/>
@@ -2964,8 +2964,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <package name="0204/2">
 <circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
 <circle x="1.27" y="0" radius="0.635" width="0.0508" layer="51"/>
-<pad name="1" x="1.27" y="0" drill="0.9" diameter="1.778" />
-<pad name="2" x="-1.27" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
 <text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.508" layer="51"/>
 <wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.508" layer="21"/>
@@ -2994,8 +2994,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.1336" y="-1.0414" size="0.6096" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
-<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778" />
-<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778" />
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
 <circle x="0.762" y="0" radius="0.762" width="0.127" layer="21"/>
 <wire x1="0.762" y1="0" x2="-1.27" y2="0" width="0.254" layer="51"/>
 <wire x1="0.127" y1="0" x2="-0.127" y2="0" width="0.254" layer="21"/>
@@ -3003,8 +3003,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <circle x="0.762" y="0" radius="0.6858" width="0.0508" layer="51"/>
 </package>
 <package name="0202/2V">
-<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778"/>
 <text x="-0.254" y="0.508" size="0.6096" layer="25" ratio="10" rot="R180">&gt;NAME</text>
 <text x="0.254" y="-0.508" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="-0.762" radius="0.762" width="0.127" layer="21"/>
@@ -3016,8 +3016,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <package name="0204/2.54">
 <circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="52"/>
 <circle x="-1.27" y="0" radius="0.635" width="0.0508" layer="52"/>
-<pad name="1" x="1.27" y="0" drill="0.9" diameter="1.778" />
-<pad name="2" x="-1.27" y="0" drill="0.9" diameter="1.778" />
+<pad name="1" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
 <text x="-2.1336" y="1.1684" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.508" layer="52"/>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.508" layer="22"/>
@@ -3253,8 +3253,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 </package>
 <package name="0202V">
-<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" />
-<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" />
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
 <text x="-1.016" y="0.508" size="0.6096" layer="25" ratio="10" align="center-right">&gt;NAME</text>
 <text x="-1.016" y="-0.508" size="0.6096" layer="27" ratio="10" align="center-right">&gt;VALUE</text>
 <circle x="0" y="0.762" radius="0.762" width="0.127" layer="21"/>
@@ -3267,8 +3267,8 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <wire x1="0.381" y1="-1.27" x2="0.635" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.635" y1="1.016" x2="0.381" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.635" y1="1.016" x2="-0.381" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="6.35" drill="0.9" diameter="1.778" />
-<pad name="2" x="0" y="-6.35" drill="0.9" diameter="1.778" />
+<pad name="1" x="0" y="6.35" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-6.35" drill="0.9" diameter="1.778"/>
 <text x="-0.254" y="1.905" size="0.6096" layer="25" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="-0.254" y="-1.905" size="0.6096" layer="27" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="0" y1="6.35" x2="0" y2="1.651" width="0.254" layer="51"/>
@@ -3827,7 +3827,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 </package>
 <package name="SPAD-+">
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="square" rot="R180" stop="no"/>
-<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778"  stop="no"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
 <text x="-1.651" y="0" size="0.6096" layer="48" font="fixed" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
@@ -3948,7 +3948,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <part name="R1" library="r" deviceset="R-H" device="0204/15-V" value="150Ω"/>
 <part name="BATT" library="pad" deviceset="SPAD+-" device="-+" value="SPAD+--+"/>
 <part name="S3" library="pad" deviceset="GND" device=""/>
-<part name="C5" library="c" deviceset="C" device="025-015X024" value="15p"/>
+<part name="C5" library="c" deviceset="C" device="025-015X024" value="15pF"/>
 <part name="ANT" library="pad" deviceset="ANT" device=""/>
 <part name="AF" library="pad" deviceset="SPAD+-" device="+-"/>
 </parts>
@@ -4046,6 +4046,7 @@ http://www.radiomuseum.org/forum/kosmos_x3000_ukw_pendler_mit_fet.html</descript
 <pinref part="AF" gate="-" pin="P$1"/>
 <wire x1="50.8" y1="7.62" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<junction x="50.8" y="7.62"/>
 </segment>
 <segment>
 <pinref part="C4" gate="1" pin="2"/>

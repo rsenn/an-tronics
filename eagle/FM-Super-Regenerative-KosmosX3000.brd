@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -508,7 +508,7 @@ design rules under a new name.</description>
 <element name="C2" library="cap-trim" package="TRIM-2222-808" value="33pF" x="17.78" y="10.16"/>
 <element name="C3" library="c" package="C050-020X044" value="6.8nF" x="33.02" y="5.08" rot="R270"/>
 <element name="C4" library="c" package="C050-020X044" value="100nF" x="30.48" y="5.08" rot="R270"/>
-<element name="C5" library="c" package="C025-015X024" value="15p" x="5.08" y="11.43" rot="R90"/>
+<element name="C5" library="c" package="C025-015X024" value="15pF" x="5.08" y="11.43" rot="R90"/>
 <element name="L1" library="l" package="L-04-5/6V-C" value="100nH" x="10.16" y="12.7"/>
 <element name="L2" library="l" package="L-04-5/6V-C" value="73nH" x="27.94" y="20.32"/>
 <element name="L3" library="l" package="L-04-5/6V-C" value="40nH" x="10.16" y="5.08"/>
