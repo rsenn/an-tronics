@@ -26,8 +26,8 @@ UsedLibrary="eagle/lbr/t.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="632 598 2551 1586"
-State=2
+Loc="1203 169 3119 988"
+State=0
 Number=0
 
 [Desktop]
