@@ -1122,6 +1122,18 @@
 <text x="-1.27" y="-2.54" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="-1.27" y="2.54" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<pin name="3" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="4" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
 <symbol name="L-SHORT">
 <wire x1="0" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94" curve="90"/>
@@ -1201,6 +1213,65 @@
 <text x="0" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
 <pin name="3" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <circle x="0" y="0" radius="0.127" width="0.254" layer="94"/>
+</symbol>
+<symbol name="L-H">
+<wire x1="5.08" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<text x="-2.54" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="2.54" y="1.27" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="L-TAP1-ALT">
+<wire x1="5.08" y1="0" x2="3.81" y2="-1.27" width="0.1778" layer="94" curve="90"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="1.27" width="0.1778" layer="94" curve="-90"/>
+<wire x1="5.08" y1="2.54" x2="3.81" y2="1.27" width="0.1778" layer="94" curve="90"/>
+<text x="6.35" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<pin name="2" x="5.08" y="-5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="5.08" y="5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="T" x="5.08" y="2.54" visible="off" length="point" direction="pas" rot="R180"/>
+<circle x="5.08" y="2.54" radius="0.283978125" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.81" y2="-3.81" width="0.1778" layer="94" curve="-90"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-3.81" width="0.1778" layer="94" curve="90"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-1.27" width="0.1778" layer="94" curve="-90"/>
+<wire x1="5.08" y1="2.54" x2="3.81" y2="3.81" width="0.1778" layer="94" curve="-90"/>
+<wire x1="5.08" y1="5.08" x2="3.81" y2="3.81" width="0.1778" layer="94" curve="90"/>
+<text x="2.54" y="0" size="1.27" layer="96" rot="R270" align="top-center">&gt;VALUE</text>
+<circle x="5.08" y="2.54" radius="0.127" width="0.254" layer="94"/>
+</symbol>
+<symbol name="L-H-ALT">
+<wire x1="5.08" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<text x="-2.54" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="2.54" y="1.27" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="1" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="L-ALT">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="-1.27" y="2.54" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<pin name="2" x="0" y="-5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1762,6 +1833,89 @@
 <connect gate="G$1" pin="2" pad="1"/>
 <connect gate="G$1" pin="3" pad="2"/>
 <connect gate="G$1" pin="T" pad="T"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L-H">
+<gates>
+<gate name="G$1" symbol="L-H" x="5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="-02/5V" package="L-02/5V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-02/7V" package="L-02/7V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-04/7-V" package="L-04/7-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L-TAP1-ALT" prefix="L">
+<gates>
+<gate name="G$1" symbol="L-TAP1-ALT" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="-08-7/5H-TAP1" package="L-08-7/5H-TAP1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="T" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L-H-ALT">
+<gates>
+<gate name="G$1" symbol="L-H-ALT" x="-5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="-04/7-V" package="L-04/7-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L-ALT">
+<gates>
+<gate name="G$1" symbol="L-ALT" x="-10.16" y="-5.08"/>
+</gates>
+<devices>
+<device name="-04/7-V" package="L-04/7-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
