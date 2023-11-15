@@ -2881,14 +2881,14 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.8128" drill="0">
 </class>
 </classes>
 <parts>
 <part name="IC1" library="ic" deviceset="TBA820" device=""/>
 <part name="C1" library="c" deviceset="C-H" device="050-020X044" value="330pF"/>
 <part name="C2" library="c" deviceset="C" device="075-035X050" value="100nF"/>
-<part name="C3" library="c" deviceset="C-H" device="075-035X050" value="220nF"/>
+<part name="C3" library="c" deviceset="C-H" device="050-020X044" value="220nF"/>
 <part name="R1" library="r" deviceset="R" device="0204/10" value="1Ω"/>
 <part name="E" library="pad" deviceset="SPAD" device=""/>
 <part name="V" library="pad" deviceset="SPAD" device=""/>
