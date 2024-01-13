@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="4" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -69,6 +69,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="trash" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <description>Super-Regen FM Radio: "Radio Shack Special"
@@ -1017,6 +1018,62 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <description>&lt;b&gt;Capacitors&lt;/b&gt;&lt;p&gt;
 </description>
 <packages>
+<package name="C050-020X036">
+<wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="0.889" y1="0.635" x2="1.524" y2="0" width="0.0762" layer="21" curve="-90"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-1.778" y="0.8255" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.8255" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.0762" layer="21"/>
+<wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.0762" layer="21" curve="-90"/>
+<wire x1="2.54" y1="0" x2="0.3937" y2="0" width="0.0762" layer="21"/>
+<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
+<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
+<wire x1="-2.54" y1="0" x2="-0.381" y2="0" width="0.0762" layer="21"/>
+<wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.0762" layer="21" curve="-90"/>
+</package>
+<package name="C050-020X036/V">
+<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.1016" layer="21" curve="-90"/>
+<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.1016" layer="21" curve="-90"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<text x="-0.635" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0.635" y="-1.27" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0" y1="1.143" x2="0" y2="0.254" width="0.0508" layer="21"/>
+<rectangle x1="-0.4572" y1="0.0762" x2="0.4572" y2="0.254" layer="21"/>
+<wire x1="0" y1="-1.143" x2="0" y2="-0.254" width="0.0508" layer="21"/>
+<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.1016" layer="21" curve="-90"/>
+<rectangle x1="-0.4572" y1="-0.254" x2="0.4572" y2="-0.0762" layer="21" rot="R180"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.651" width="0.0762" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.651" width="0.0762" layer="21"/>
+<rectangle x1="-0.09921875" y1="1.508125" x2="0.09921875" y2="1.905" layer="21"/>
+<rectangle x1="-0.09921875" y1="-1.905" x2="0.09921875" y2="-1.508125" layer="21" rot="R180"/>
+</package>
+<package name="C050-020X044">
+<wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
+<wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-2.159" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="0" y="-0.6985" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0254" layer="21"/>
+<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
+<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
+<wire x1="2.54" y1="0" x2="0.381" y2="0" width="0.0254" layer="21"/>
+<wire x1="-2.159" y1="-0.254" x2="-1.778" y2="-0.635" width="0.1016" layer="21" curve="90"/>
+<wire x1="2.159" y1="0.254" x2="2.159" y2="-0.254" width="0.1016" layer="21"/>
+<wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
+</package>
 <package name="C025-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
  grid 2.5 mm, outline 2.4 x 4.4 mm</description>
@@ -1030,12 +1087,12 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="1.651" y1="-1.143" x2="2.159" y2="-0.635" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.3048" y1="0.762" x2="-0.3048" y2="-0.762" width="0.3048" layer="21"/>
 <wire x1="0.3302" y1="0.762" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
-<wire x1="1.27" y1="0" x2="0.3302" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-1.778" y="1.397" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.778" y="-2.667" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="1.27" y1="0" x2="0.3302" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<text x="-1.778" y="1.397" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.778" y="-1.397" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 <package name="C025-025X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1048,18 +1105,18 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.413" y1="1.016" x2="-2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
 <wire x1="2.159" y1="-1.27" x2="2.413" y2="-1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="-2.413" y1="-1.016" x2="-2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="1.524" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-2.794" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<text x="-2.286" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-2.794" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-030X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1072,18 +1129,18 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.413" y1="1.27" x2="-2.159" y2="1.524" width="0.1524" layer="21" curve="-90"/>
 <wire x1="2.159" y1="-1.524" x2="2.413" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-2.413" y1="-1.27" x2="-2.159" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<text x="-2.286" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-040X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1096,18 +1153,18 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.413" y1="1.651" x2="-2.159" y2="1.905" width="0.1524" layer="21" curve="-90"/>
 <wire x1="2.159" y1="-1.905" x2="2.413" y2="-1.651" width="0.1524" layer="21" curve="90"/>
 <wire x1="-2.413" y1="-1.651" x2="-2.159" y2="-1.905" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="2.159" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<text x="-2.286" y="2.159" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-050X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1120,18 +1177,18 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.413" y1="2.032" x2="-2.159" y2="2.286" width="0.1524" layer="21" curve="-90"/>
 <wire x1="2.159" y1="-2.286" x2="2.413" y2="-2.032" width="0.1524" layer="21" curve="90"/>
 <wire x1="-2.413" y1="-2.032" x2="-2.159" y2="-2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.286" y="-3.81" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<text x="-2.286" y="2.54" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-3.81" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-060X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1144,27 +1201,27 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.413" y1="2.54" x2="-2.159" y2="2.794" width="0.1524" layer="21" curve="-90"/>
 <wire x1="2.159" y1="-2.794" x2="2.413" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-2.413" y1="-2.54" x2="-2.159" y2="-2.794" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8"/>
-<pad name="2" x="1.27" y="0" drill="0.8"/>
-<text x="-2.286" y="3.048" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-2.413" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778"/>
+<text x="-2.286" y="3.048" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-2.413" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
  grid 5 mm, outline 2.4 x 4.4 mm</description>
-<wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="-2.159" y1="0.635" x2="-1.651" y2="1.143" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-2.159" y1="-0.635" x2="-1.651" y2="-1.143" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.651" y1="1.143" x2="-1.651" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="-0.635" x2="2.159" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="1.651" y1="-1.143" x2="-1.651" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="1.651" y1="1.143" x2="2.159" y2="0.635" width="0.1524" layer="21" curve="-90"/>
 <wire x1="1.651" y1="-1.143" x2="2.159" y2="-0.635" width="0.1524" layer="21" curve="90"/>
@@ -1174,10 +1231,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="0.3302" y1="0" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
 <wire x1="1.27" y1="0" x2="0.3302" y2="0" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0" y="1.524" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.524" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="0" y="1.524" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
@@ -1198,10 +1255,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-3.429" y1="1.27" x2="-3.683" y2="1.016" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="1.016" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="3.683" y1="-1.016" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="2.54" y="0" drill="0.8"/>
-<pad name="2" x="-2.54" y="0" drill="0.8"/>
-<text x="4.064" y="1.27" size="1.016" layer="25" rot="R270">&gt;NAME</text>
-<text x="-4.064" y="-1.27" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="1" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="4.064" y="1.27" size="0.6096" layer="25" rot="R270">&gt;NAME</text>
+<text x="-4.064" y="-1.27" size="0.6096" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="C050-045X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1220,10 +1277,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="3.429" y1="-2.286" x2="3.683" y2="-2.032" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-2.032" x2="-3.429" y2="-2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="2.032" x2="-3.429" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="2.667" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.81" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-3.556" y="2.667" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.81" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-030X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1242,10 +1299,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="3.429" y1="-1.524" x2="3.683" y2="-1.27" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-1.27" x2="-3.429" y2="-1.524" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="1.27" x2="-3.429" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-3.556" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-050X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1264,10 +1321,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="3.429" y1="-2.54" x2="3.683" y2="-2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-2.286" x2="-3.429" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="2.286" x2="-3.429" y2="2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.159" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-3.429" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.159" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-055X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1286,10 +1343,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="3.429" y1="-2.794" x2="3.683" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-2.54" x2="-3.429" y2="-2.794" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="2.54" x2="-3.429" y2="2.794" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="3.175" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.302" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-3.429" y="3.175" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.302" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-075X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1308,10 +1365,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="3.429" y1="-3.683" x2="3.683" y2="-3.429" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-3.429" x2="-3.429" y2="-3.683" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="3.429" x2="-3.429" y2="3.683" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.429" y="4.064" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-2.921" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-3.429" y="4.064" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.921" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-032X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1330,10 +1387,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.4064" layer="21"/>
 <wire x1="0.508" y1="0.889" x2="0.508" y2="0" width="0.4064" layer="21"/>
 <wire x1="0.508" y1="0" x2="0.508" y2="-0.889" width="0.4064" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.9"/>
-<pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-4.826" y="-3.048" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778"/>
+<text x="-4.826" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-4.826" y="-3.048" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-042X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1352,10 +1409,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.159" y1="0" x2="-2.159" y2="-1.27" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.9"/>
-<pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.699" y="2.413" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.651" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778"/>
+<text x="-4.699" y="2.413" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-052X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1374,10 +1431,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.159" y1="0" x2="-2.159" y2="-1.27" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.9"/>
-<pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778"/>
+<text x="-4.826" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-043X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1396,10 +1453,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="6.096" y1="-2.032" x2="6.604" y2="-1.524" width="0.1524" layer="21" curve="90"/>
 <wire x1="-6.604" y1="-1.524" x2="-6.096" y2="-2.032" width="0.1524" layer="21" curve="90"/>
 <wire x1="-6.604" y1="1.524" x2="-6.096" y2="2.032" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="1"/>
-<pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="2.413" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-1.651" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-5.08" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="5.08" y="0" drill="0.9" diameter="1.778"/>
+<text x="-6.096" y="2.413" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-054X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1418,10 +1475,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="6.096" y1="-2.54" x2="6.604" y2="-2.032" width="0.1524" layer="21" curve="90"/>
 <wire x1="-6.604" y1="-2.032" x2="-6.096" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-6.604" y1="2.032" x2="-6.096" y2="2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="1"/>
-<pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-5.08" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="5.08" y="0" drill="0.9" diameter="1.778"/>
+<text x="-6.096" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-1.905" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C102-064X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1440,10 +1497,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="6.096" y1="-3.048" x2="6.604" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-6.604" y1="-2.54" x2="-6.096" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <wire x1="-6.604" y1="2.54" x2="-6.096" y2="3.048" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-5.08" y="0" drill="1"/>
-<pad name="2" x="5.08" y="0" drill="1"/>
-<text x="-6.096" y="3.429" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.524" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-5.08" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="5.08" y="0" drill="0.9" diameter="1.778"/>
+<text x="-6.096" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-054X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1462,10 +1519,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="8.509" y1="-2.54" x2="9.017" y2="-2.032" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="-2.032" x2="-8.509" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="2.032" x2="-8.509" y2="2.54" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-7.493" y="0" drill="1"/>
-<pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.382" y="2.921" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-7.493" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="7.493" y="0" drill="0.9" diameter="1.778"/>
+<text x="-8.382" y="2.921" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-064X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1484,10 +1541,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="8.509" y1="-3.048" x2="9.017" y2="-2.54" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="-2.54" x2="-8.509" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="2.54" x2="-8.509" y2="3.048" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-7.493" y="0" drill="1"/>
-<pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="3.429" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.032" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-7.493" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="7.493" y="0" drill="0.9" diameter="1.778"/>
+<text x="-8.509" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.032" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-072X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1506,10 +1563,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="8.509" y1="-3.556" x2="9.017" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="-3.048" x2="-8.509" y2="-3.556" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="3.048" x2="-8.509" y2="3.556" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-7.493" y="0" drill="1"/>
-<pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="3.937" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.286" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-7.493" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="7.493" y="0" drill="0.9" diameter="1.778"/>
+<text x="-8.509" y="3.937" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.286" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-084X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1528,10 +1585,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="8.509" y1="-4.064" x2="9.017" y2="-3.556" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="-3.556" x2="-8.509" y2="-4.064" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="3.556" x2="-8.509" y2="4.064" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-7.493" y="0" drill="1"/>
-<pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="4.445" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-7.493" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="7.493" y="0" drill="0.9" diameter="1.778"/>
+<text x="-8.509" y="4.445" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C150-091X182">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1550,10 +1607,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="8.509" y1="-4.445" x2="9.017" y2="-3.937" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="-3.937" x2="-8.509" y2="-4.445" width="0.1524" layer="21" curve="90"/>
 <wire x1="-9.017" y1="3.937" x2="-8.509" y2="4.445" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-7.493" y="0" drill="1"/>
-<pad name="2" x="7.493" y="0" drill="1"/>
-<text x="-8.509" y="4.826" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.429" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-7.493" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="7.493" y="0" drill="0.9" diameter="1.778"/>
+<text x="-8.509" y="4.826" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.429" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C050-035X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1572,10 +1629,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="3.429" y1="-1.778" x2="3.683" y2="-1.524" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-1.524" x2="-3.429" y2="-1.778" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="1.524" x2="-3.429" y2="1.778" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-3.556" y="2.159" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.556" y="-3.429" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-3.556" y="2.159" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-3.429" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C075-063X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -1594,60 +1651,43 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-2.159" y1="0" x2="-2.159" y2="-1.27" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.9"/>
-<pad name="2" x="3.81" y="0" drill="0.9"/>
-<text x="-4.826" y="3.429" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778"/>
+<text x="-4.826" y="3.429" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="C025-020X036">
 <wire x1="-0.889" y1="0" x2="-0.127" y2="0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="2.667" y1="0.889" x2="-0.127" y2="0.889" width="0.091440625" layer="21"/>
 <wire x1="2.667" y1="0.889" x2="3.429" y2="0" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="0.9652" y1="0.508" x2="0.9652" y2="-0.508" width="0.091440625" layer="21"/>
-<wire x1="2.54" y1="0" x2="1.6637" y2="0" width="0.0762" layer="51"/>
-<wire x1="0" y1="0" x2="0.889" y2="0" width="0.0762" layer="51"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="0.254" y="0.9652" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="3.556" y="0" size="0.8128" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="0" drill="0.8"/>
+<wire x1="2.54" y1="0" x2="1.6637" y2="0" width="0.0762" layer="21"/>
+<wire x1="0" y1="0" x2="0.889" y2="0" width="0.0762" layer="21"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="0.254" y="0.9652" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="3.556" y="0" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.778"/>
 <wire x1="3.429" y1="0" x2="2.667" y2="-0.889" width="0.091440625" layer="21" curve="-90"/>
 <wire x1="-0.127" y1="-0.889" x2="2.667" y2="-0.889" width="0.091440625" layer="21"/>
 <wire x1="-0.127" y1="-0.889" x2="-0.889" y2="0" width="0.091440625" layer="21" curve="-90"/>
 <rectangle x1="0.4445" y1="-0.127" x2="1.5875" y2="0.127" layer="21" rot="R90"/>
 <rectangle x1="0.9525" y1="-0.127" x2="2.0955" y2="0.127" layer="21" rot="R270"/>
 </package>
-<package name="C050-020X036">
-<wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.127" layer="21"/>
-<wire x1="0.889" y1="0.635" x2="1.524" y2="0" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="2.54" y="0" drill="0.8"/>
-<text x="-0.254" y="0.8255" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="0.254" y="0.8255" size="0.8128" layer="27">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="0" drill="0.8"/>
-<wire x1="1.524" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="-0.635" x2="-1.524" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.54" y1="0" x2="0.3937" y2="0" width="0.0762" layer="51"/>
-<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
-<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
-<wire x1="-2.54" y1="0" x2="-0.381" y2="0" width="0.0762" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
-</package>
 <package name="C025-015X024">
-<wire x1="0" y1="1.397" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-0.3937" width="0.0762" layer="51"/>
-<wire x1="0" y1="1.016" x2="0" y2="0.381" width="0.0762" layer="51"/>
-<pad name="2" x="0" y="-1.27" drill="0.8" stop="no"/>
-<text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="0.508" y="-2.413" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
-<pad name="1" x="0" y="1.27" drill="0.8" stop="no"/>
-<wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.127" layer="21" curve="-90"/>
-<rectangle x1="-0.381" y1="0.0635" x2="0.381" y2="0.254" layer="21"/>
-<rectangle x1="-0.381" y1="-0.254" x2="0.381" y2="-0.0635" layer="21" rot="R180"/>
+<wire x1="-1.397" y1="0" x2="-0.889" y2="0.635" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.889" y1="0.635" x2="-0.889" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0.889" y1="0.635" x2="1.397" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.016" y1="0" x2="0.3937" y2="0" width="0.0762" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-0.381" y2="0" width="0.0762" layer="21"/>
+<pad name="2" x="1.27" y="0" drill="0.9" diameter="1.778" stop="no"/>
+<pad name="1" x="-1.27" y="0" drill="0.9" diameter="1.778" stop="no"/>
+<wire x1="1.397" y1="0" x2="0.889" y2="-0.635" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.889" y1="-0.635" x2="0.889" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="-0.635" x2="-1.397" y2="0" width="0.127" layer="21" curve="-90"/>
+<rectangle x1="-0.53975" y1="-0.09525" x2="0.22225" y2="0.09525" layer="21" rot="R90"/>
+<rectangle x1="-0.22225" y1="-0.09525" x2="0.53975" y2="0.09525" layer="21" rot="R270"/>
+<text x="-0.889" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="0.6096" layer="27" align="center-right">&gt;VALUE</text>
 </package>
 <package name="C050-025X060">
 <wire x1="0.635" y1="0.3048" x2="0" y2="0.3048" width="0.3048" layer="21"/>
@@ -1664,17 +1704,17 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-1.016" y1="-3.302" x2="-0.762" y2="-3.556" width="0.1524" layer="21" curve="90"/>
 <wire x1="-0.762" y1="3.556" x2="-1.016" y2="3.302" width="0.1524" layer="21" curve="90"/>
 <wire x1="0.762" y1="3.556" x2="1.016" y2="3.302" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="2.54" drill="0.8"/>
-<pad name="2" x="0" y="-2.54" drill="0.8"/>
-<text x="0" y="3.81" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.81" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<text x="0" y="3.81" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="C050-024X044/V">
-<wire x1="-0.635" y1="2.159" x2="0.635" y2="2.159" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="2.159" x2="0.635" y2="2.159" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="2.159" x2="1.143" y2="1.651" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-0.635" y1="2.159" x2="-1.143" y2="1.651" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.143" y1="-1.651" x2="1.143" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.159" x2="0.635" y2="-2.159" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="-2.159" x2="0.635" y2="-2.159" width="0.1524" layer="21"/>
 <wire x1="-1.143" y1="-1.651" x2="-1.143" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="1.143" y1="-1.651" x2="0.635" y2="-2.159" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-1.143" y1="-1.651" x2="-0.635" y2="-2.159" width="0.1524" layer="21" curve="90"/>
@@ -1684,10 +1724,10 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="0" y1="-0.3302" x2="-0.762" y2="-0.3302" width="0.3048" layer="21"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-0.3302" width="0.1524" layer="21"/>
 <wire x1="0" y1="1.27" x2="0" y2="0.3048" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="0.8"/>
-<pad name="2" x="0" y="-2.54" drill="0.8"/>
-<text x="-1.016" y="2.286" size="1.016" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="-1.016" y="-2.286" size="0.8128" layer="27" align="top-right">&gt;VALUE</text>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<text x="-1.016" y="2.286" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-1.016" y="-2.286" size="0.6096" layer="27" align="top-right">&gt;VALUE</text>
 <rectangle x1="-0.1905" y1="-2.7305" x2="0.1905" y2="-1.9685" layer="51" rot="R270"/>
 <rectangle x1="-0.1905" y1="1.9685" x2="0.1905" y2="2.7305" layer="51" rot="R270"/>
 </package>
@@ -1706,75 +1746,198 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-1.27" y1="-3.429" x2="-1.016" y2="-3.683" width="0.1524" layer="21" curve="90"/>
 <wire x1="-1.016" y1="3.683" x2="-1.27" y2="3.429" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.016" y1="3.683" x2="1.27" y2="3.429" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="0" y="2.54" drill="0.8"/>
-<pad name="2" x="0" y="-2.54" drill="0.8"/>
-<text x="0" y="4.064" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.064" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="C050-020X036/V">
-<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="0.889" x2="0" y2="1.524" width="0.127" layer="21" curve="-90"/>
-<pad name="2" x="0" y="2.54" drill="0.8"/>
-<text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="1.016" y="0" size="1.016" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.8"/>
-<wire x1="0" y1="1.524" x2="0.635" y2="0.889" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.889" x2="0" y2="-1.524" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="51"/>
-<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
-<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.381" width="0.0762" layer="51"/>
-<wire x1="0" y1="-1.524" x2="-0.635" y2="-0.889" width="0.127" layer="21" curve="-90"/>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<text x="0" y="4.064" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.064" size="0.6096" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="C050-020X044/V">
 <wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
-<pad name="2" x="0" y="2.54" drill="0.8"/>
-<text x="-1.016" y="0" size="1.016" layer="25" align="center-right">&gt;NAME</text>
-<text x="1.016" y="0" size="1.016" layer="27" align="center-left">&gt;VALUE</text>
-<pad name="1" x="0" y="-2.54" drill="0.8"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" diameter="1.778"/>
+<text x="-1.016" y="1.27" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="1.016" y="0" size="0.8128" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="0" y="2.54" drill="0.9" diameter="1.778"/>
 <wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
 <wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="51"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.3937" width="0.0762" layer="21"/>
 <rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
 <rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.381" width="0.0762" layer="51"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.381" width="0.0762" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="-0.635" y2="1.778" width="0.1016" layer="21" curve="90"/>
 <wire x1="0.254" y1="-2.159" x2="-0.254" y2="-2.159" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="-2.159" x2="-0.635" y2="-1.778" width="0.1016" layer="21" curve="-90"/>
 <wire x1="0.254" y1="-2.159" x2="0.635" y2="-1.778" width="0.1016" layer="21" curve="90"/>
 </package>
-<package name="C050-020X044">
-<wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.1016" layer="21"/>
-<wire x1="-2.159" y1="-0.254" x2="-2.159" y2="0.254" width="0.1016" layer="21"/>
-<pad name="2" x="-2.54" y="0" drill="0.8"/>
-<text x="0" y="1.27" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.27" size="1.016" layer="27" align="top-center">&gt;VALUE</text>
-<pad name="1" x="2.54" y="0" drill="0.8"/>
-<wire x1="-2.159" y1="0.254" x2="-1.778" y2="0.635" width="0.1016" layer="21" curve="-90"/>
-<wire x1="1.778" y1="0.635" x2="-1.778" y2="0.635" width="0.1016" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="51"/>
-<rectangle x1="-0.254" y1="-0.127" x2="0.762" y2="0.127" layer="21" rot="R270"/>
-<rectangle x1="-0.762" y1="-0.127" x2="0.254" y2="0.127" layer="21" rot="R90"/>
-<wire x1="2.54" y1="0" x2="0.381" y2="0" width="0.0762" layer="51"/>
-<wire x1="-2.159" y1="-0.254" x2="-1.778" y2="-0.635" width="0.1016" layer="21" curve="90"/>
-<wire x1="2.159" y1="0.254" x2="2.159" y2="-0.254" width="0.1016" layer="21"/>
-<wire x1="2.159" y1="-0.254" x2="1.778" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
-<wire x1="2.159" y1="0.254" x2="1.778" y2="0.635" width="0.1016" layer="21" curve="90"/>
+<package name="0204/10">
+<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
+ Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-5.08" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="5.08" y="0" drill="0.9" diameter="1.778"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.508" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-2.921" y2="0" width="0.508" layer="21"/>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
+<text x="-2.54" y="1.2954" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6256" y="-0.4826" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+</package>
+<package name="0204/10-V">
+<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
+ Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="0" y="5.08" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-5.08" drill="0.9" diameter="1.778"/>
+<text x="-0.635" y="3.175" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" rot="R270" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.921" width="0.508" layer="21"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.921" width="0.508" layer="21"/>
+<wire x1="0.762" y1="2.54" x2="1.016" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="-1.016" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.016" y1="-2.286" x2="-0.762" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.016" y1="-2.286" x2="0.762" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.286" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.778" x2="1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="2.286" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.778" x2="-1.016" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.286" x2="1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.286" x2="-1.016" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="21"/>
+<rectangle x1="-0.1905" y1="-2.9845" x2="0.1905" y2="-2.4765" layer="21" rot="R270"/>
+<rectangle x1="-0.1905" y1="2.4765" x2="0.1905" y2="2.9845" layer="21" rot="R270"/>
+</package>
+<package name="C075-020X044">
+<wire x1="-0.508" y1="-0.635" x2="3.048" y2="-0.635" width="0.1016" layer="21"/>
+<wire x1="-0.889" y1="-0.254" x2="-0.889" y2="0.254" width="0.1016" layer="21"/>
+<pad name="2" x="5.08" y="0" drill="0.9" diameter="1.778"/>
+<text x="-0.889" y="1.27" size="0.6096" layer="25" align="center-left">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<wire x1="-0.889" y1="0.254" x2="-0.508" y2="0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="3.048" y1="0.635" x2="-0.508" y2="0.635" width="0.1016" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0.8763" y2="0" width="0.0762" layer="21"/>
+<rectangle x1="1.016" y1="-0.127" x2="2.032" y2="0.127" layer="21" rot="R270"/>
+<rectangle x1="0.508" y1="-0.127" x2="1.524" y2="0.127" layer="21" rot="R90"/>
+<wire x1="5.08" y1="0" x2="1.651" y2="0" width="0.0762" layer="21"/>
+<wire x1="-0.889" y1="-0.254" x2="-0.508" y2="-0.635" width="0.1016" layer="21" curve="90"/>
+<wire x1="3.429" y1="0.254" x2="3.429" y2="-0.254" width="0.1016" layer="21"/>
+<wire x1="3.429" y1="-0.254" x2="3.048" y2="-0.635" width="0.1016" layer="21" curve="-90"/>
+<wire x1="3.429" y1="0.254" x2="3.048" y2="0.635" width="0.1016" layer="21" curve="90"/>
+</package>
+<package name="C075-020X044/V">
+<wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
+<pad name="2" x="0" y="-3.81" drill="0.9" diameter="1.778"/>
+<text x="-1.016" y="2.54" size="0.6096" layer="25" rot="R180" align="center-left">&gt;NAME</text>
+<text x="0.635" y="-2.54" size="0.6096" layer="27" align="center-left">&gt;VALUE</text>
+<pad name="1" x="0" y="3.81" drill="0.9" diameter="1.778"/>
+<wire x1="0.254" y1="2.159" x2="0.635" y2="1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-1.778" x2="0.635" y2="1.778" width="0.1016" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="0.3937" width="0.0762" layer="21"/>
+<rectangle x1="-0.508" y1="-0.381" x2="0.508" y2="-0.127" layer="21" rot="R180"/>
+<rectangle x1="-0.508" y1="0.127" x2="0.508" y2="0.381" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-0.381" width="0.0762" layer="21"/>
+<wire x1="-0.254" y1="2.159" x2="-0.635" y2="1.778" width="0.1016" layer="21" curve="90"/>
+<wire x1="0.254" y1="-2.159" x2="-0.254" y2="-2.159" width="0.1016" layer="21"/>
+<wire x1="-0.254" y1="-2.159" x2="-0.635" y2="-1.778" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.254" y1="-2.159" x2="0.635" y2="-1.778" width="0.1016" layer="21" curve="90"/>
+</package>
+<package name="C050-040X075">
+<wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="0.635" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.778" x2="2.794" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="1.778" x2="-2.794" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="1.778" x2="2.794" y2="-1.778" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-2.54" y="0" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.778"/>
+<text x="-3.556" y="2.54" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-2.54" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-2.794" y1="-1.778" x2="-2.794" y2="1.778" width="0.1524" layer="21" curve="-90"/>
+</package>
+<package name="C075-035X050">
+<wire x1="-4.445" y1="-1.143" x2="4.445" y2="-1.143" width="0.1016" layer="21"/>
+<wire x1="-4.7625" y1="-0.889" x2="-4.7625" y2="0.889" width="0.1016" layer="21"/>
+<pad name="2" x="3.81" y="0" drill="0.9" diameter="1.778"/>
+<text x="-4.699" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
+<text x="4.572" y="-1.27" size="0.6096" layer="27" distance="0" align="top-right">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.778"/>
+<wire x1="-4.7625" y1="0.889" x2="-4.445" y2="1.143" width="0.1016" layer="21" curve="-90"/>
+<wire x1="4.445" y1="1.143" x2="-4.445" y2="1.143" width="0.1016" layer="21"/>
+<wire x1="-3.81" y1="0" x2="-0.3937" y2="0" width="0.0762" layer="21"/>
+<wire x1="3.81" y1="0" x2="0.381" y2="0" width="0.0762" layer="21"/>
+<wire x1="-4.7625" y1="-0.889" x2="-4.445" y2="-1.143" width="0.1016" layer="21" curve="90"/>
+<wire x1="4.7625" y1="0.889" x2="4.7625" y2="-0.889" width="0.1016" layer="21"/>
+<wire x1="4.7625" y1="-0.889" x2="4.445" y2="-1.143" width="0.1016" layer="21" curve="-90"/>
+<wire x1="4.7625" y1="0.889" x2="4.445" y2="1.143" width="0.1016" layer="21" curve="90"/>
+<rectangle x1="-0.635" y1="-0.9525" x2="-0.254" y2="0.9525" layer="21"/>
+<rectangle x1="0.254" y1="-0.9525" x2="0.635" y2="0.9525" layer="21"/>
+</package>
+<package name="C025-015X024/V">
+<wire x1="0" y1="1.397" x2="0.635" y2="0.889" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0.635" y1="-0.889" x2="0.635" y2="0.889" width="0.1016" layer="21"/>
+<wire x1="0.635" y1="-0.889" x2="0" y2="-1.397" width="0.1016" layer="21" curve="-90"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
+<text x="-0.889" y="0" size="0.6096" layer="25" align="center-right">&gt;NAME</text>
+<text x="0.508" y="-2.159" size="0.6096" layer="27" rot="R180">&gt;VALUE</text>
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
+<wire x1="0" y1="-1.397" x2="-0.635" y2="-0.889" width="0.1016" layer="21" curve="-90"/>
+<wire x1="-0.635" y1="0.889" x2="-0.635" y2="-0.889" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="0.889" x2="0" y2="1.397" width="0.1016" layer="21" curve="-90"/>
+<wire x1="0" y1="1.143" x2="0" y2="0.254" width="0.0508" layer="21"/>
+<rectangle x1="-0.4572" y1="0.0762" x2="0.4572" y2="0.254" layer="21"/>
+<wire x1="0" y1="-1.143" x2="0" y2="-0.254" width="0.0508" layer="21"/>
+<rectangle x1="-0.4572" y1="-0.254" x2="0.4572" y2="-0.0762" layer="21" rot="R180"/>
 </package>
 </packages>
 <symbols>
 <symbol name="C">
-<text x="-2.286" y="1.651" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-2.286" y="-1.651" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
 <pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.1524" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
-<rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
+<rectangle x1="-1.778" y1="-0.762" x2="1.778" y2="-0.254" layer="94"/>
+<rectangle x1="-1.778" y1="0.254" x2="1.778" y2="0.762" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2099,34 +2262,124 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="0204/10" package="0204/10">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0204/10-V" package="0204/10-V">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044" package="C075-020X044">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-020X044/V" package="C075-020X044/V">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="050-040X075" package="C050-040X075">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="075-035X050" package="C075-035X050">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="025-015X024/V" package="C025-015X024/V">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
 </library>
 <library name="cap-trim">
 <packages>
+<package name="TRIM-2222-808">
+<wire x1="-2.584971875" y1="-3.874165625" x2="-3.22783125" y2="-3.23130625" width="0.127" layer="21"/>
+<wire x1="-1.832978125" y1="-3.23580625" x2="-2.682996875" y2="-4.085821875" width="0.127" layer="21"/>
+<wire x1="-2.682996875" y1="-4.085821875" x2="-2.3569375" y2="-4.411884375" width="0.127" layer="21"/>
+<wire x1="-2.3569375" y1="-4.411884375" x2="-1.9819" y2="-4.440509375" width="0.127" layer="21"/>
+<wire x1="-1.9819" y1="-4.440509375" x2="-1.606878125" y2="-4.469103125" width="0.127" layer="21"/>
+<wire x1="-1.606878125" y1="-4.469103125" x2="-0.75141875" y2="-3.61364375" width="0.127" layer="21"/>
+<wire x1="-3.64751875" y1="-0.79823125" x2="-4.46258125" y2="-1.613290625" width="0.127" layer="21"/>
+<wire x1="-4.46258125" y1="-1.613290625" x2="-4.435428125" y2="-1.98685625" width="0.127" layer="21"/>
+<wire x1="-4.435428125" y1="-1.98685625" x2="-4.40828125" y2="-2.360428125" width="0.127" layer="21"/>
+<wire x1="-4.40828125" y1="-2.360428125" x2="-4.082278125" y2="-2.68643125" width="0.127" layer="21"/>
+<wire x1="-4.082278125" y1="-2.68643125" x2="-3.232259375" y2="-1.8364125" width="0.127" layer="21"/>
+<wire x1="-3.934215625" y1="-2.524809375" x2="-3.22785" y2="-3.231171875" width="0.127" layer="21"/>
+<wire x1="0.634225" y1="-1.01829375" x2="-1.018940625" y2="0.634871875" width="0.127" layer="21"/>
+<wire x1="1.0417125" y1="-0.610803125" x2="-0.611453125" y2="1.0423625" width="0.127" layer="21"/>
+<wire x1="-3.522565625" y1="-2.144496875" x2="-2.1491875" y2="-3.517875" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.2192" width="0.127" layer="21"/>
+<circle x="-3.881025" y="-1.805128125" radius="0.254" width="0.127" layer="21"/>
+<circle x="-1.798715625" y="-3.901440625" radius="0.254" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
+<text x="0" y="2.54" size="1.016" layer="25" align="top-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
 <package name="TRIM808">
 <wire x1="1.5227" y1="3.4925" x2="1.5227" y2="-3.4925" width="0.1524" layer="21" curve="-132.886424"/>
-<wire x1="-3.4925" y1="1.5227" x2="-3.4925" y2="-1.5227" width="0.1524" layer="51" curve="47.113576"/>
-<wire x1="1.5227" y1="3.4925" x2="-1.5227" y2="3.4925" width="0.1524" layer="51" curve="47.113576"/>
+<wire x1="-3.4925" y1="1.5227" x2="-3.4925" y2="-1.5227" width="0.1524" layer="21" curve="47.113576"/>
+<wire x1="1.5227" y1="3.4925" x2="-1.5227" y2="3.4925" width="0.1524" layer="21" curve="47.113576"/>
 <wire x1="-1.5227" y1="3.4925" x2="-3.4925" y2="1.5227" width="0.1524" layer="21" curve="42.886424"/>
-<wire x1="-4.191" y1="-0.889" x2="-4.191" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-3.705" y1="0.889" x2="-4.191" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-3.705" y1="-0.889" x2="-4.191" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-4.191" y1="-0.889" x2="-4.191" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-3.705" y1="0.889" x2="-4.191" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-3.705" y1="-0.889" x2="-4.191" y2="-0.889" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="1.2443" x2="-0.254" y2="-1.2443" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="1.2443" x2="0.254" y2="-1.2443" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="4.191" x2="-0.889" y2="4.191" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="4.191" x2="0.889" y2="3.705" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="4.191" x2="-0.889" y2="3.705" width="0.1524" layer="51"/>
-<wire x1="-1.5227" y1="-3.4925" x2="1.5227" y2="-3.4925" width="0.1524" layer="51" curve="47.113576"/>
+<wire x1="0.889" y1="4.191" x2="-0.889" y2="4.191" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="4.191" x2="0.889" y2="3.705" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="4.191" x2="-0.889" y2="3.705" width="0.1524" layer="21"/>
+<wire x1="-1.5227" y1="-3.4925" x2="1.5227" y2="-3.4925" width="0.1524" layer="21" curve="47.113576"/>
 <wire x1="-3.4925" y1="-1.5227" x2="-1.5227" y2="-3.4925" width="0.1524" layer="21" curve="42.886424"/>
-<wire x1="0.889" y1="-4.191" x2="-0.889" y2="-4.191" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="-3.705" x2="-0.889" y2="-4.191" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="-3.705" x2="0.889" y2="-4.191" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="-4.191" x2="-0.889" y2="-4.191" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-3.705" x2="-0.889" y2="-4.191" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-3.705" x2="0.889" y2="-4.191" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="3.556" drill="1.3208"/>
-<pad name="3" x="0" y="-3.556" drill="1.3208"/>
-<pad name="2" x="-3.556" y="0" drill="1.3208"/>
+<pad name="1" x="0" y="3.556" drill="0.9" diameter="1.778"/>
+<pad name="3" x="0" y="-3.556" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-3.556" y="0" drill="0.9" diameter="1.778"/>
 <text x="-3.937" y="4.445" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-6.223" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="-0.254" x2="1.27" y2="0.254" layer="21" rot="R270"/>
@@ -2137,9 +2390,9 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="-3.141503125" y1="-1.6973125" x2="-3.141503125" y2="1.6792625" width="0.127" layer="21" curve="-56.758486"/>
 <wire x1="3.108753125" y1="-1.6973125" x2="-1.7046625" y2="3.116103125" width="0.127" layer="21" curve="146.758486"/>
 <circle x="0" y="0" radius="1.271" width="0.1524" layer="21"/>
-<pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
-<pad name="1" x="2.54" y="-2.54" drill="1.1" shape="octagon" rot="R135"/>
-<pad name="3" x="-2.54" y="2.54" drill="1" shape="octagon" rot="R135"/>
+<pad name="2" x="-2.54" y="-2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R135"/>
+<pad name="1" x="2.54" y="-2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R135"/>
+<pad name="3" x="-2.54" y="2.54" drill="1" diameter="1.27" shape="octagon" rot="R135"/>
 <text x="-3.81" y="3.81" size="1.016" layer="25">&gt;NAME</text>
 <text x="3.556" y="3.81" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
 <rectangle x1="-1.235575" y1="-0.313828125" x2="1.202825" y2="0.295771875" layer="21" rot="R270"/>
@@ -2323,9 +2576,9 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="1.12560625" y1="-0.1993875" x2="1.142953125" y2="-0.00928125" width="0.0508" layer="21"/>
 <wire x1="-1.085140625" y1="0.318953125" x2="1.089146875" y2="0.318953125" width="0.0508" layer="21"/>
 <wire x1="-1.09868125" y1="-0.337515625" x2="1.089146875" y2="-0.337515625" width="0.0508" layer="21"/>
-<pad name="1" x="-3.55" y="-0.0025" drill="1.1" shape="octagon"/>
-<pad name="3" x="3.55" y="-0.0025" drill="1.1" shape="octagon"/>
-<pad name="2" x="0.00185625" y="3.55" drill="1.1" shape="octagon"/>
+<pad name="1" x="-3.55" y="-0.0025" drill="1.1" diameter="1.27" shape="octagon"/>
+<pad name="3" x="3.55" y="-0.0025" drill="1.1" diameter="1.27" shape="octagon"/>
+<pad name="2" x="0.00185625" y="3.55" drill="1.1" diameter="1.27" shape="octagon"/>
 </package>
 <package name="TRIM808-GFX45">
 <wire x1="-2.9720375" y1="-1.597084375" x2="-2.907275" y2="-1.51281875" width="0.0508" layer="21"/>
@@ -2505,36 +2758,9 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <wire x1="0.655390625" y1="-0.933834375" x2="0.802084375" y2="-0.811675" width="0.0508" layer="21"/>
 <wire x1="-0.541321875" y1="0.995925" x2="0.99613125" y2="-0.54153125" width="0.0508" layer="21"/>
 <wire x1="-1.015090625" y1="0.54130625" x2="0.5319375" y2="-1.005725" width="0.0508" layer="21"/>
-<pad name="1" x="-2.54" y="2.54" drill="1.1" shape="octagon" rot="R315"/>
-<pad name="3" x="2.54" y="-2.54" drill="1.1" shape="octagon" rot="R315"/>
-<pad name="2" x="2.54" y="2.54" drill="1.1" shape="octagon" rot="R315"/>
-</package>
-<package name="TRIM-2222-808">
-<wire x1="-2.584971875" y1="-3.874165625" x2="-3.22783125" y2="-3.23130625" width="0.127" layer="21"/>
-<wire x1="-1.832978125" y1="-3.23580625" x2="-2.682996875" y2="-4.085821875" width="0.127" layer="21"/>
-<wire x1="-2.682996875" y1="-4.085821875" x2="-2.3569375" y2="-4.411884375" width="0.127" layer="21"/>
-<wire x1="-2.3569375" y1="-4.411884375" x2="-1.9819" y2="-4.440509375" width="0.127" layer="21"/>
-<wire x1="-1.9819" y1="-4.440509375" x2="-1.606878125" y2="-4.469103125" width="0.127" layer="21"/>
-<wire x1="-1.606878125" y1="-4.469103125" x2="-0.75141875" y2="-3.61364375" width="0.127" layer="21"/>
-<wire x1="-3.64751875" y1="-0.79823125" x2="-4.46258125" y2="-1.613290625" width="0.127" layer="21"/>
-<wire x1="-4.46258125" y1="-1.613290625" x2="-4.435428125" y2="-1.98685625" width="0.127" layer="21"/>
-<wire x1="-4.435428125" y1="-1.98685625" x2="-4.40828125" y2="-2.360428125" width="0.127" layer="21"/>
-<wire x1="-4.40828125" y1="-2.360428125" x2="-4.082278125" y2="-2.68643125" width="0.127" layer="21"/>
-<wire x1="-4.082278125" y1="-2.68643125" x2="-3.232259375" y2="-1.8364125" width="0.127" layer="21"/>
-<wire x1="-3.934215625" y1="-2.524809375" x2="-3.22785" y2="-3.231171875" width="0.127" layer="21"/>
-<wire x1="0.634225" y1="-1.01829375" x2="-1.018940625" y2="0.634871875" width="0.127" layer="21"/>
-<wire x1="1.0417125" y1="-0.610803125" x2="-0.611453125" y2="1.0423625" width="0.127" layer="21"/>
-<wire x1="-3.522565625" y1="-2.144496875" x2="-2.1491875" y2="-3.517875" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.2192" width="0.127" layer="21"/>
-<circle x="-3.881025" y="-1.805128125" radius="0.254" width="0.127" layer="21"/>
-<circle x="-1.798715625" y="-3.901440625" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="2.54" drill="1.1" shape="octagon"/>
-<pad name="2" x="-2.54" y="-2.54" drill="1.1" shape="octagon"/>
-<pad name="3" x="2.54" y="-2.54" drill="1.1" shape="octagon"/>
-<circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
-<text x="0" y="2.54" size="1.016" layer="25" align="top-center">&gt;NAME</text>
-<text x="0" y="-2.54" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R315"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R315"/>
+<pad name="2" x="2.54" y="2.54" drill="1.1" diameter="1.27" shape="octagon" rot="R315"/>
 </package>
 <package name="TRIM-2222-808-45">
 <wire x1="0.911596875" y1="-4.5673" x2="0.002459375" y2="-4.5673" width="0.127" layer="21"/>
@@ -2555,25 +2781,51 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <circle x="0" y="0" radius="1.2192" width="0.127" layer="21"/>
 <circle x="-1.467878125" y="-4.02071875" radius="0.254" width="0.127" layer="21"/>
 <circle x="1.48685" y="-4.03061875" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-3.5921" y="0" drill="1.1" shape="octagon" rot="R45"/>
-<pad name="2" x="0" y="3.5921" drill="1.1" shape="octagon" rot="R45"/>
-<pad name="3" x="3.5921" y="0" drill="1.1" shape="octagon" rot="R45"/>
+<pad name="1" x="-3.5921" y="0" drill="1.1" diameter="1.27" shape="octagon" rot="R45"/>
+<pad name="2" x="0" y="3.5921" drill="1.1" diameter="1.27" shape="octagon" rot="R45"/>
+<pad name="3" x="3.5921" y="0" drill="1.1" diameter="1.27" shape="octagon" rot="R45"/>
 <circle x="0" y="0" radius="3.6687375" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="3.386996875" width="0.127" layer="21"/>
+</package>
+<package name="CTRIMTZ03">
+<wire x1="1.45" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="21"/>
+<wire x1="-1.45" y1="-2.5" x2="-1.05" y2="2.7" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="1.05" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="21" curve="-42.501011"/>
+<circle x="0" y="0" radius="1.6" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="2.5" drill="0.9" diameter="1.778"/>
+<pad name="2" x="0" y="-2.5" drill="0.9" diameter="1.778"/>
+<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
+<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
+</package>
+<package name="CTRIMBB">
+<wire x1="1.45" y1="-1.23" x2="-1.45" y2="-1.23" width="0.254" layer="21"/>
+<wire x1="-1.45" y1="-1.23" x2="-1.05" y2="3.97" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="1.05" y1="3.97" x2="1.45" y2="-1.23" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="-1.05" y1="3.97" x2="1.05" y2="3.97" width="0.254" layer="21" curve="-42.501011"/>
+<circle x="0" y="1.27" radius="1.6" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="2.5" drill="0.9" diameter="1.778"/>
+<pad name="2" x="2.54" y="0.04" drill="0.9" diameter="1.778"/>
+<text x="-3.302" y="-1.33" size="0.6096" layer="25" rot="R90" align="top-left">&gt;NAME</text>
+<text x="3.33" y="3.75" size="0.6096" layer="27" rot="R90" align="top-right">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="0.07" x2="0.35" y2="2.47" layer="21"/>
+<rectangle x1="-1.2" y1="0.92" x2="1.2" y2="1.62" layer="21"/>
 </package>
 </packages>
 <symbols>
 <symbol name="CAP-TRIM">
 <wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-1.778" x2="-2.286" y2="2.032" width="0.3048" layer="94"/>
-<wire x1="-3.048" y1="1.27" x2="-2.286" y2="2.032" width="0.3048" layer="94"/>
-<wire x1="-2.286" y1="2.032" x2="-1.524" y2="2.794" width="0.3048" layer="94"/>
+<wire x1="1.2065" y1="-1.4605" x2="-2.12725" y2="1.87325" width="0.3048" layer="94"/>
+<wire x1="-2.7305" y1="1.27" x2="-2.12725" y2="1.87325" width="0.3048" layer="94"/>
+<wire x1="-2.12725" y1="1.87325" x2="-1.524" y2="2.4765" width="0.3048" layer="94"/>
 <wire x1="-3.048" y1="-2.032" x2="-3.048" y2="0.254" width="0.1524" layer="94"/>
 <wire x1="-3.048" y1="0.254" x2="-3.302" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="-3.048" y1="0.254" x2="-2.794" y2="-0.508" width="0.1524" layer="94"/>
-<text x="-3.175" y="2.54" size="1.27" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-3.175" y="-2.54" size="1.27" layer="96" align="top-right">&gt;VALUE</text>
+<text x="1.27" y="1.905" size="1.27" layer="95" rot="MR0" align="bottom-right">&gt;NAME</text>
+<text x="1.27" y="-1.905" size="1.27" layer="96" rot="MR0" align="top-right">&gt;VALUE</text>
 <rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
 <rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
 <pin name="E" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
@@ -2581,9 +2833,9 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-TR-PH20127" prefix="C">
+<deviceset name="C-TR-PH20127" prefix="C" uservalue="yes">
 <gates>
-<gate name="1" symbol="CAP-TRIM" x="0" y="0"/>
+<gate name="1" symbol="CAP-TRIM" x="0" y="0" addlevel="can" swaplevel="1"/>
 </gates>
 <devices>
 <device name="S" package="TRIM808">
@@ -2660,41 +2912,14 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </device>
 <device name="" package="TRIM-2222-808">
 <connects>
-<connect gate="1" pin="A" pad="2"/>
-<connect gate="1" pin="E" pad="1 3"/>
+<connect gate="1" pin="A" pad="1 3"/>
+<connect gate="1" pin="E" pad="2" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="2222-808-2PIN" package="TRIM-2222-808">
-<connects>
-<connect gate="1" pin="A" pad="2"/>
-<connect gate="1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2222-808-2PINB" package="TRIM-2222-808">
-<connects>
-<connect gate="1" pin="A" pad="2"/>
-<connect gate="1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2222-808-45" package="TRIM-2222-808-45">
-<connects>
-<connect gate="1" pin="A" pad="1 3"/>
-<connect gate="1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2222-808-45-2PIN" package="TRIM-2222-808-45">
 <connects>
 <connect gate="1" pin="A" pad="1"/>
 <connect gate="1" pin="E" pad="2"/>
@@ -2703,10 +2928,73 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2222-808-45-2PINB" package="TRIM-2222-808-45">
+<device name="2222-808-2PINB" package="TRIM-2222-808">
 <connects>
 <connect gate="1" pin="A" pad="3"/>
 <connect gate="1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2222-808-45" package="TRIM-2222-808-45">
+<connects>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="1 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2222-808-45-2PIN" package="TRIM-2222-808-45">
+<connects>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2222-808-45-2PINB" package="TRIM-2222-808-45">
+<connects>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TZ03" package="CTRIMTZ03">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2-1" package="CTRIMBB">
+<connects>
+<connect gate="1" pin="A" pad="1"/>
+<connect gate="1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2222-808-2PINC" package="TRIM-2222-808">
+<connects>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2222-808-2PIND" package="TRIM-2222-808">
+<connects>
+<connect gate="1" pin="A" pad="2"/>
+<connect gate="1" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3647,15 +3935,9 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <rectangle x1="-2.8448" y1="-2.0828" x2="-2.3368" y2="-1.2192" layer="94"/>
 <rectangle x1="-2.8448" y1="1.2192" x2="-2.3368" y2="2.0828" layer="94"/>
 <rectangle x1="-2.8448" y1="-0.762" x2="-2.3368" y2="0.762" layer="94"/>
-<<<<<<< HEAD
 <pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 <pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-=======
-<pin name="G" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
->>>>>>> f651ddc04fae8a7638c7f5e0f52d67c47ab84d6c
 <circle x="-1.778" y="0" radius="3.5921" width="0.381" layer="94"/>
 <rectangle x1="-3.7973" y1="-1.778" x2="-3.2893" y2="1.778" layer="94"/>
 <wire x1="-1.3208" y1="0" x2="-1.7653" y2="0" width="0.1524" layer="94"/>
@@ -3694,7 +3976,7 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </class>
 </classes>
 <parts>
-<part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIN" value="15p"/>
+<part name="C3" library="cap-trim" deviceset="C-TR-PH20127" device="2222-808-2PIN" value="2 - 20pF"/>
 <part name="C1" library="c" deviceset="C" device="050-020X036/V" value="1n"/>
 <part name="R1" library="r" deviceset="POT" device="-V" value="1kΩ"/>
 <part name="U$1" library="pad" deviceset="GND" device=""/>
@@ -3714,43 +3996,47 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <part name="U$5" library="pad" deviceset="GND" device=""/>
 <part name="L1" library="l" deviceset="L-TAP1" device="L-08/12-X-TAP1" value="0.22μH"/>
 <part name="T1" library="t" deviceset="BF256B" device=""/>
+<part name="C2" library="c" deviceset="C" device="025-015X024" value="4pF"/>
+<part name="C7" library="c" deviceset="C" device="025-015X024" value="4pF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="55.88" y="22.86" size="1.27" layer="97" font="vector" align="top-left">L1 - 7 turns around 5/16 bolt, tap at 2nd turn</text>
-<text x="55.88" y="20.32" size="1.27" layer="97" font="vector" align="top-left">L2 - 26 turns of AWG 30 around 8mm form</text>
+<text x="60.96" y="22.86" size="1.27" layer="97" font="vector" align="top-left">L1 - 7 turns around 5/16 bolt, tap at 2nd turn</text>
+<text x="60.96" y="20.32" size="1.27" layer="97" font="vector" align="top-left">L2 - 26 turns of AWG 30 around 8mm form</text>
 </plain>
 <instances>
-<instance part="C3" gate="1" x="48.26" y="50.8" rot="MR180"/>
+<instance part="C3" gate="1" x="50.8" y="44.45" rot="MR180"/>
 <instance part="C1" gate="1" x="22.86" y="50.8" rot="MR0"/>
 <instance part="R1" gate="1" x="17.78" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.24" y="57.15" size="1.27" layer="95" rot="MR180" align="bottom-right"/>
 <attribute name="VALUE" x="15.24" y="64.77" size="1.27" layer="96" rot="MR180" align="top-right"/>
 </instance>
 <instance part="U$1" gate="1" x="17.78" y="35.56"/>
-<instance part="U$2" gate="1" x="55.88" y="35.56"/>
+<instance part="U$2" gate="1" x="60.96" y="35.56"/>
 <instance part="ANT" gate="ANT" x="33.02" y="71.12"/>
-<instance part="L2" gate="1" x="73.66" y="60.96"/>
-<instance part="C4" gate="1" x="55.88" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.88" y="73.66" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="55.88" y="68.58" size="1.27" layer="96" align="top-center"/>
+<instance part="L2" gate="1" x="83.82" y="60.96"/>
+<instance part="C4" gate="1" x="60.96" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.96" y="73.66" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="60.96" y="68.58" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R2" gate="1" x="83.82" y="50.8"/>
-<instance part="C5" gate="1" x="88.9" y="50.8" rot="MR0"/>
-<instance part="C6" gate="1" x="96.52" y="60.96" smashed="yes" rot="MR270">
-<attribute name="NAME" x="96.52" y="63.5" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="96.52" y="58.42" size="1.27" layer="96" rot="MR0" align="top-center"/>
+<instance part="R2" gate="1" x="93.98" y="50.8"/>
+<instance part="C5" gate="1" x="99.06" y="50.8" rot="MR0"/>
+<instance part="C6" gate="1" x="106.68" y="60.96" smashed="yes" rot="MR270">
+<attribute name="NAME" x="106.68" y="63.5" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="106.68" y="58.42" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="AOUT+" gate="1" x="106.68" y="60.96" rot="R180"/>
-<instance part="U$4" gate="1" x="88.9" y="35.56"/>
+<instance part="AOUT+" gate="1" x="116.84" y="60.96" rot="R180"/>
+<instance part="U$4" gate="1" x="99.06" y="35.56"/>
 <instance part="9V" gate="1" x="5.08" y="71.12"/>
-<instance part="AOUT-" gate="1" x="106.68" y="53.34" rot="R180"/>
-<instance part="U$3" gate="1" x="104.14" y="35.56"/>
+<instance part="AOUT-" gate="1" x="116.84" y="53.34" rot="R180"/>
+<instance part="U$3" gate="1" x="114.3" y="35.56"/>
 <instance part="GND" gate="1" x="5.08" y="53.34" rot="MR180"/>
 <instance part="U$5" gate="1" x="7.62" y="35.56" rot="MR0"/>
 <instance part="L1" gate="1" x="35.56" y="60.96"/>
-<instance part="T1" gate="1" x="55.88" y="60.96" rot="R90"/>
+<instance part="T1" gate="1" x="60.96" y="60.96" rot="R90"/>
+<instance part="C2" gate="1" x="50.8" y="52.07" rot="MR0"/>
+<instance part="C7" gate="1" x="45.72" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -3758,13 +4044,17 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="U$2" gate="1" pin="GND"/>
-<wire x1="55.88" y1="53.34" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="40.64" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
-<junction x="55.88" y="40.64"/>
+<wire x1="60.96" y1="53.34" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="40.64" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<junction x="60.96" y="40.64"/>
 <pinref part="C3" gate="1" pin="E"/>
-<wire x1="48.26" y1="48.26" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="T1" gate="1" pin="G"/>
+<wire x1="50.8" y1="41.91" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C7" gate="1" pin="2"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<junction x="50.8" y="40.64"/>
 </segment>
 <segment>
 <pinref part="C1" gate="1" pin="2"/>
@@ -3778,19 +4068,19 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </segment>
 <segment>
 <pinref part="R2" gate="1" pin="1"/>
-<wire x1="83.82" y1="45.72" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="45.72" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C5" gate="1" pin="2"/>
-<wire x1="83.82" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="40.64" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="40.64" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="1" pin="GND"/>
-<wire x1="88.9" y1="38.1" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<junction x="88.9" y="40.64"/>
+<wire x1="99.06" y1="38.1" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
+<junction x="99.06" y="40.64"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="1" pin="GND"/>
 <pinref part="AOUT-" gate="1" pin="P$1"/>
-<wire x1="104.14" y1="38.1" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="38.1" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="1" pin="GND"/>
@@ -3801,16 +4091,22 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="48.26" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="48.26" y="60.96"/>
 <pinref part="C4" gate="1" pin="1"/>
 <wire x1="48.26" y1="60.96" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="71.12" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C3" gate="1" pin="A"/>
-<wire x1="48.26" y1="60.96" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="L1" gate="1" pin="2"/>
 <pinref part="T1" gate="1" pin="D"/>
+<pinref part="C2" gate="1" pin="1"/>
+<wire x1="48.26" y1="60.96" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="55.88" x2="50.8" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="55.88" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
+<junction x="48.26" y="55.88"/>
+<pinref part="C7" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3834,12 +4130,12 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="C4" gate="1" pin="2"/>
-<wire x1="58.42" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="71.12" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="71.12" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="L2" gate="1" pin="2"/>
-<wire x1="63.5" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<junction x="63.5" y="60.96"/>
+<wire x1="73.66" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<junction x="73.66" y="60.96"/>
 <pinref part="T1" gate="1" pin="S"/>
 </segment>
 </net>
@@ -3847,22 +4143,22 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <segment>
 <pinref part="L2" gate="1" pin="1"/>
 <pinref part="R2" gate="1" pin="2"/>
-<wire x1="81.28" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="60.96" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="60.96" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C5" gate="1" pin="1"/>
-<wire x1="83.82" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="60.96" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<junction x="83.82" y="60.96"/>
+<wire x1="93.98" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="60.96" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<junction x="93.98" y="60.96"/>
 <pinref part="C6" gate="1" pin="1"/>
-<wire x1="93.98" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<junction x="88.9" y="60.96"/>
+<wire x1="104.14" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<junction x="99.06" y="60.96"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="AOUT+" gate="1" pin="P$1"/>
 <pinref part="C6" gate="1" pin="2"/>
-<wire x1="106.68" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3871,6 +4167,13 @@ http://ryanzachry.com/2013/01/super-regen-fm-radio/</description>
 <pinref part="R1" gate="1" pin="E"/>
 <wire x1="5.08" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="71.12" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="C3" gate="1" pin="A"/>
+<pinref part="C2" gate="1" pin="2"/>
+<wire x1="50.8" y1="49.53" x2="50.8" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
