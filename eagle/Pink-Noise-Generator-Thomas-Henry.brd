@@ -170,28 +170,6 @@
 <library name="c">
 <description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt; Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt; &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="E2,5-4">
-<wire x1="0.5842" y1="0.762" x2="0.2032" y2="0.762" width="0.09525" layer="21"/>
-<wire x1="0.2032" y1="0.762" x2="0.2032" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="0.2032" y1="-0.762" x2="0.5842" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="0.5842" y1="-0.762" x2="0.5842" y2="0.762" width="0.09525" layer="21"/>
-<circle x="0" y="0" radius="2.286" width="0.127" layer="21"/>
-<pad name="-" x="-1.27" y="0" drill="0.9" diameter="1.778"/>
-<pad name="+" x="1.27" y="0" drill="0.9" diameter="1.778" shape="square"/>
-<text x="-1.11125" y="1.778" size="0.6096" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="1.11125" y="1.778" size="0.6096" layer="27">&gt;VALUE</text>
-<wire x1="-0.4937125" y1="0.762" x2="-0.4937125" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="-0.4937125" y1="-0.762" x2="-0.2032" y2="-0.762" width="0.09525" layer="21"/>
-<wire x1="-0.2032" y1="-0.762" x2="-0.2032" y2="0.762" width="0.09525" layer="21"/>
-<wire x1="-0.2032" y1="0.762" x2="-0.4937125" y2="0.762" width="0.09525" layer="21"/>
-<wire x1="0.7747" y1="1.0795" x2="0.7747" y2="1.4605" width="0.1016" layer="21"/>
-<wire x1="0.9652" y1="1.27" x2="0.5842" y2="1.27" width="0.1016" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-0.504825" y2="0" width="0.127" layer="21"/>
-<rectangle x1="-0.47625" y1="-0.762" x2="-0.1984375" y2="0.762" layer="21"/>
-<wire x1="1.016" y1="0" x2="0.635" y2="0" width="0.127" layer="21"/>
-<rectangle x1="-0.79375" y1="-0.09525" x2="-0.47625" y2="0.09525" layer="21"/>
-<rectangle x1="0.635" y1="-0.09525" x2="0.889" y2="0.09525" layer="21"/>
-</package>
 <package name="C050-020X044/V">
 <wire x1="-0.635" y1="1.778" x2="-0.635" y2="-1.778" width="0.1016" layer="21"/>
 <wire x1="-0.254" y1="2.159" x2="0.254" y2="2.159" width="0.1016" layer="21"/>
@@ -603,7 +581,7 @@
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="c" package="E2,5-4" value="10µF" x="10.16" y="7.62"/>
+<element name="C1" library="c" package="E2,5-5" value="10µF" x="10.16" y="7.62"/>
 <element name="C10" library="c" package="C050-020X044/V" value="100nF" x="73.66" y="38.1"/>
 <element name="C11" library="c" package="C050-020X044/V" value="100nF" x="71.12" y="33.02"/>
 <element name="C3" library="c" package="C050-020X044/V" value="1µF" x="30.48" y="5.08"/>
