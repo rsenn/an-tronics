@@ -18,10 +18,10 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -169,8 +169,8 @@
 <hole x="2.54" y="5.08" drill="1.27"/>
 <hole x="38.1" y="17.78" drill="1.27"/>
 <hole x="38.1" y="5.08" drill="1.27"/>
-<dimension x1="0" y1="30.48" x2="40.64" y2="32.385" x3="20.32" y3="33.02" textsize="1.778" textratio="15" layer="47" dtype="horizontal" visible="yes"/>
-<dimension x1="50.8" y1="20.32" x2="52.07" y2="2.54" x3="53.34" y3="11.43" textsize="1.778" textratio="15" layer="47" dtype="vertical" visible="yes"/>
+<dimension x1="0" y1="30.48" x2="40.64" y2="30.48" x3="20.32" y3="24.765" textsize="1.778" textratio="15" layer="47" dtype="horizontal" visible="yes"/>
+<dimension x1="50.8" y1="20.32" x2="50.8" y2="2.54" x3="53.975" y3="11.43" textsize="1.778" textratio="15" layer="47" dtype="vertical" visible="yes"/>
 </plain>
 <libraries>
 <library name="c">
