@@ -321,8 +321,8 @@
 <instance part="T20" gate="1" x="83.82" y="-20.32"/>
 <instance part="T21" gate="1" x="121.92" y="-20.32" rot="MR0"/>
 <instance part="T22" gate="1" x="132.08" y="-20.32"/>
-<instance part="P1" gate="1" x="24.13" y="50.8"/>
-<instance part="P2" gate="1" x="66.04" y="20.32" rot="R180"/>
+<instance part="P1" gate="1" x="22.86" y="50.8"/>
+<instance part="P2" gate="1" x="63.5" y="20.32" rot="R180"/>
 <instance part="P3" gate="1" x="22.86" y="12.7"/>
 <instance part="P4" gate="1" x="71.12" y="10.16"/>
 <instance part="P5" gate="1" x="114.3" y="10.16" rot="R180"/>
@@ -358,7 +358,7 @@
 <wire x1="119.38" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="50.8" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
 <junction x="119.38" y="50.8"/>
-<wire x1="38.1" y1="50.8" x2="24.13" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 <junction x="38.1" y="50.8"/>
 <pinref part="P1" gate="1" pin="P$1"/>
 </segment>
@@ -610,7 +610,7 @@
 <pinref part="T7" gate="1" pin="C"/>
 <wire x1="53.34" y1="22.86" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="20.32" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <junction x="53.34" y="20.32"/>
 <pinref part="P2" gate="1" pin="P$1"/>
 </segment>
