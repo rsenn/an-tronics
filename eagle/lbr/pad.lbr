@@ -232,12 +232,12 @@
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
 <text x="-1.905" y="-0.889" size="1.016" layer="21" font="vector" rot="R270" align="center">-</text>
-<text x="-1.905" y="3.048" size="1.016" layer="16" font="vector" rot="R90" align="center">+</text>
+<text x="-1.905" y="3.048" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="3.81" width="0.127" layer="21"/>
 <text x="0" y="-1.524" size="0.6096" layer="27" font="fixed" ratio="9" distance="5" align="top-center">&gt;VALUE</text>
-<text x="-1.905" y="1.016" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
+<text x="-1.905" y="1.016" size="0.6096" layer="21" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
 <text x="-1.905" y="3.048" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
-<text x="-1.905" y="-0.889" size="1.016" layer="16" font="vector" rot="R270" align="center">-</text>
+<text x="-1.905" y="-0.889" size="1.016" layer="21" font="vector" rot="R270" align="center">-</text>
 </package>
 <package name="SPAD-PWR-+GND-">
 <pad name="VEE" x="0" y="-2.54" drill="0.9" diameter="1.778"/>

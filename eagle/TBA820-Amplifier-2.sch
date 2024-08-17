@@ -63,6 +63,9 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -89,8 +92,13 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -99,6 +107,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
@@ -134,6 +143,12 @@
 <layer number="222" name="222bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
@@ -142,6 +157,7 @@
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <description>Audio-Verstärker mit TBA820</description>
@@ -5275,19 +5291,6 @@
 <library name="pad">
 <description>Pads for common signals and inter-board connectors</description>
 <packages>
-<package name="SPAD+-">
-<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.524" shape="square" stop="no"/>
-<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<circle x="0" y="1.27" radius="0.635" width="0.127" layer="40"/>
-<text x="1.87325" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
-<wire x1="1.61925" y1="1.778" x2="2.12725" y2="1.778" width="0.0762" layer="21"/>
-<wire x1="1.87325" y1="1.524" x2="1.87325" y2="2.032" width="0.0762" layer="21"/>
-<wire x1="1.87325" y1="-1.9685" x2="1.87325" y2="-1.4605" width="0.0762" layer="21"/>
-</package>
 <package name="SPAD-+">
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.524" shape="square" rot="R180" stop="no"/>
 <pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
@@ -5308,27 +5311,51 @@
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
 <text x="-1.905" y="-0.889" size="1.016" layer="21" font="vector" rot="R270" align="center">-</text>
-<text x="-1.905" y="3.048" size="1.016" layer="16" font="vector" rot="R90" align="center">+</text>
+<text x="-1.905" y="3.048" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="3.81" width="0.127" layer="21"/>
 <text x="0" y="-1.524" size="0.6096" layer="27" font="fixed" ratio="9" distance="5" align="top-center">&gt;VALUE</text>
-<text x="-1.905" y="1.016" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
+<text x="-1.905" y="1.016" size="0.6096" layer="21" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
 <text x="-1.905" y="3.048" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
-<text x="-1.905" y="-0.889" size="1.016" layer="16" font="vector" rot="R270" align="center">-</text>
+<text x="-1.905" y="-0.889" size="1.016" layer="21" font="vector" rot="R270" align="center">-</text>
+</package>
+<package name="SPAD+-">
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.524" shape="square" stop="no"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<text x="1.87325" y="0" size="0.508" layer="25" ratio="9" distance="4" rot="R270" align="center">&gt;NAME</text>
+<wire x1="1.61925" y1="1.778" x2="2.12725" y2="1.778" width="0.0762" layer="21"/>
+<wire x1="1.87325" y1="1.524" x2="1.87325" y2="2.032" width="0.0762" layer="21"/>
+<wire x1="1.87325" y1="-1.9685" x2="1.87325" y2="-1.4605" width="0.0762" layer="21"/>
 </package>
 <package name="PWR-R">
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.778" stop="no"/>
 <pad name="2" x="0" y="1.27" drill="0.9" diameter="1.778" stop="no"/>
-<text x="1.651" y="0" size="0.6096" layer="25" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<text x="1.651" y="-1.905" size="1.016" layer="21" font="vector" rot="R270" align="center">-</text>
 <text x="1.651" y="2.032" size="1.016" layer="16" font="vector" rot="R90" align="center">+</text>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <text x="0" y="-2.794" size="0.6096" layer="27" font="fixed" ratio="9" distance="5" align="top-center">&gt;VALUE</text>
 <text x="1.651" y="0" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
-<text x="1.651" y="2.032" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
 <text x="1.651" y="-1.905" size="1.016" layer="16" font="vector" rot="R270" align="center">-</text>
+</package>
+<package name="PWR-508-L">
+<pad name="1" x="0" y="-2.54" drill="1.1" diameter="2.54" shape="square" rot="R180" stop="no"/>
+<pad name="2" x="0" y="2.54" drill="1.1" diameter="2.54" shape="octagon" rot="R180" stop="no"/>
+<text x="-4.445" y="-0.254" size="0.6096" layer="25" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
+<wire x1="3.81" y1="5.08" x2="-3.81" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="21"/>
+<text x="-4.445" y="-2.159" size="1.016" layer="21" font="vector" rot="R270" align="center">-</text>
+<text x="-4.445" y="1.778" size="1.016" layer="16" font="vector" rot="R90" align="center">+</text>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.127" layer="21"/>
+<text x="0" y="-5.334" size="0.6096" layer="27" font="fixed" ratio="9" distance="5" align="top-center">&gt;VALUE</text>
+<text x="-4.445" y="-0.254" size="0.6096" layer="16" font="fixed" ratio="9" distance="4" rot="R90" align="center">PWR</text>
+<text x="-4.445" y="1.778" size="1.016" layer="21" font="vector" rot="R90" align="center">+</text>
+<text x="-4.445" y="-2.159" size="1.016" layer="16" font="vector" rot="R270" align="center">-</text>
 </package>
 </packages>
 <symbols>
@@ -5351,13 +5378,6 @@
 <wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
 <text x="0" y="3.175" size="1.27" layer="95" align="bottom-center">VCC</text>
 <pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="GND2">
-<wire x1="-1.651" y1="-2.54" x2="1.651" y2="-2.54" width="0.254" layer="94"/>
-<text x="0" y="-4.318" size="1.27" layer="95" align="top-center">GND</text>
-<pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
-<wire x1="-1.016" y1="-3.048" x2="1.016" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-3.556" x2="0.381" y2="-3.556" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5387,7 +5407,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="S">
+<deviceset name="GND" prefix="GND">
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
@@ -5402,13 +5422,13 @@
 <deviceset name="VCC_GND" prefix="S">
 <gates>
 <gate name="1" symbol="VCC2" x="0" y="2.54"/>
-<gate name="2" symbol="GND2" x="0" y="-2.54"/>
+<gate name="G$1" symbol="GND" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="R" package="SPAD+-">
 <connects>
 <connect gate="1" pin="VCC" pad="2"/>
-<connect gate="2" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5417,7 +5437,7 @@
 <device name="L" package="SPAD-+">
 <connects>
 <connect gate="1" pin="VCC" pad="2"/>
-<connect gate="2" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5426,7 +5446,7 @@
 <device name="PWR-L" package="PWR-L">
 <connects>
 <connect gate="1" pin="VCC" pad="2"/>
-<connect gate="2" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5435,7 +5455,16 @@
 <device name="PWR-R" package="PWR-R">
 <connects>
 <connect gate="1" pin="VCC" pad="2"/>
-<connect gate="2" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-508-L" package="PWR-508-L">
+<connects>
+<connect gate="1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5503,7 +5532,7 @@
 <instance part="S2" gate="1" x="68.58" y="68.58"/>
 <instance part="S3" gate="1" x="30.48" y="68.58"/>
 <instance part="S4" gate="1" x="50.8" y="83.82"/>
-<instance part="S4" gate="2" x="50.8" y="20.32"/>
+<instance part="S4" gate="G$1" x="50.8" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -5594,7 +5623,7 @@
 <pinref part="C2" gate="1" pin="-"/>
 <wire x1="40.64" y1="27.94" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <junction x="40.64" y="25.4"/>
-<pinref part="S4" gate="2" pin="GND"/>
+<pinref part="S4" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="RIPPLE" class="0">
