@@ -83,8 +83,8 @@
 <package name="ECM-4">
 <circle x="0" y="0" radius="3.048" width="0.127" layer="21"/>
 <circle x="0.889" y="1.27" radius="0.2032" width="0" layer="21"/>
-<pad name="2" x="0" y="-1.27" drill="0.9" diameter="1.778"/>
-<pad name="1" x="0" y="1.27" drill="0.9" diameter="1.778"/>
+<pad name="-" x="0" y="-1.27" drill="0.9" diameter="1.778" shape="square"/>
+<pad name="+" x="0" y="1.27" drill="0.9" diameter="1.778"/>
 <text x="-1.27" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;NAME</text>
 <text x="0" y="-2.286" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -128,8 +128,8 @@
 </device>
 <device name="-4" package="ECM-4">
 <connects>
-<connect gate="1" pin="+" pad="1"/>
-<connect gate="1" pin="-" pad="2"/>
+<connect gate="1" pin="+" pad="+"/>
+<connect gate="1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
