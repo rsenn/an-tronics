@@ -464,8 +464,8 @@
 <wire x1="-3.048" y1="-0.889" x2="3.302" y2="-2.159" width="0.2032" layer="21"/>
 </package>
 <package name="L-04/8V-2-M">
-<pad name="1" x="-2.54" y="-3.81" drill="0.9" diameter="1.778" rot="R180"/>
-<pad name="2" x="2.54" y="3.81" drill="0.9" diameter="1.778" rot="R180"/>
+<pad name="1" x="-2.54" y="-3.81" drill="0.9" diameter="2.1844" rot="R180"/>
+<pad name="2" x="2.54" y="3.81" drill="0.9" diameter="2.1844" rot="R180"/>
 <wire x1="-1.27" y1="2.286" x2="0" y2="3.556" width="0.127" layer="21" curve="-90"/>
 <wire x1="0" y1="3.556" x2="1.27" y2="2.286" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.27" y1="1.524" x2="0" y2="2.794" width="0.127" layer="21" curve="-90"/>

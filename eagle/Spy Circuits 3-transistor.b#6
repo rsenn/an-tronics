@@ -810,8 +810,8 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="5.08" x2="33.02" y2="7.62" width="0.8128" layer="16" curve="90"/>
 <wire x1="33.02" y1="7.62" x2="33.02" y2="10.795" width="0.8128" layer="16"/>
 <contactref element="ANT1" pad="1"/>
-<wire x1="33.02" y1="10.795" x2="35.56" y2="15.875" width="0.8128" layer="16" curve="60"/>
 <wire x1="32.385" y1="3.81" x2="33.02" y2="7.62" width="0.8128" layer="16"/>
+<wire x1="33.02" y1="10.795" x2="35.56" y2="15.875" width="0.8128" layer="16" curve="-53.130102"/>
 </signal>
 </signals>
 </board>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="20" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -691,7 +691,7 @@ design rules under a new name.</description>
 <element name="R4" library="r" package="0202/2V" value="1MΩ" x="10.16" y="17.78"/>
 <element name="R5" library="r" package="0204/2" value="470Ω" x="21.59" y="5.08" rot="R180"/>
 <element name="R6" library="r" package="0204/2" value="150kΩ" x="30.48" y="10.16" rot="R90"/>
-<element name="S1" library="pad" package="SPAD-+" value="VCC_GNDL" x="3.81" y="13.97"/>
+<element name="S1" library="pad" package="SPAD-+" value="VCC_GNDL" x="2.54" y="13.97"/>
 <element name="T2" library="t" package="TO92" value="BC547" x="20.32" y="10.16"/>
 <element name="T1" library="t" package="TO92" value="BC547" x="15.875" y="5.08"/>
 <element name="T3" library="t" package="TO92-CEB" value="BF959" x="27.94" y="5.08" rot="R270"/>
@@ -699,7 +699,7 @@ design rules under a new name.</description>
 <element name="C6" library="cap-trim" package="TRIM-C-BIG" value="5 - 30pF" x="38.1" y="18.415" rot="R180"/>
 <element name="ANT1" library="pad" package="SPAD" value="ANT" x="32.385" y="3.81"/>
 <element name="L1" library="l" package="L-04/8V-2-M" value="0.1µH" x="29.21" y="19.05"/>
-<element name="C7" library="c" package="C025-015X024" value="" x="-5.715" y="-1.905"/>
+<element name="C7" library="c" package="C025-015X024/V" value="" x="5.08" y="13.97" rot="R180"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -746,9 +746,9 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="22.86" x2="25.1821" y2="19.685" width="0" layer="19" extent="1-1"/>
 <wire x1="12.7" y1="22.86" x2="15.24" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="19.05" x2="12.7" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="15.24" x2="5.08" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="15.24" x2="5.08" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="43.18" y1="5.715" x2="43.18" y2="18.415" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.985" y1="-1.905" x2="3.81" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="C2" pad="-"/>
@@ -809,8 +809,8 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="5.08" x2="27.94" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="15.875" y1="2.54" x2="22.86" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="5.08" x2="15.875" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="12.7" x2="7.62" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.445" y1="-1.905" x2="7.62" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="12.7" x2="7.62" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
