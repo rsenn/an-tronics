@@ -3374,7 +3374,7 @@
 <part name="R9" library="r" deviceset="R-H" device="0204/10" value="150Ω"/>
 <part name="R10" library="r" deviceset="R-H" device="0204/10" value="150Ω"/>
 <part name="R11" library="r" deviceset="R-H" device="0204/10" value="1.5kΩ"/>
-<part name="R12" library="r" deviceset="R-H" device="0204/10" value="1.5kΩ"/>
+<part name="R12" library="r" deviceset="R-H" device="0204/10" value="1.5kΩ" />
 </parts>
 <sheets>
 <sheet>
